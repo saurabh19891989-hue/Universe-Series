@@ -205,3 +205,25 @@ All Season 1 guests are public domain in the US, EU/UK and India per `research/c
 written as the hero of the episode: formidable, proud, funny on his own terms the way the
 novel makes him, never the butt of the joke. The comedy is aimed at the contract and the
 officials who tried to cage him with a title. The owner has the final say before the script.
+
+**Showrunner rulings, 27 Nov (evening) — after the Episode 5 critic**
+- **PIP's READ stamp** counts from SEND to the moment the report is read: one way, on the
+  reader's clock (Episode 3's rule). PIP waits the full round trip to learn it. Moon, eps 1–2:
+  00:00:01.3. Mars, Phobos and Deimos, eps 3–4: 00:11:00, then 00:11:04 (PIP waits twenty-two
+  minutes for the receipt). **From Episode 5 onward the stamp is 1.3 seconds wherever the ship
+  is:** the reader has moved and now keeps about four hundred thousand kilometres from the
+  ship — the Moon's distance from Earth. PIP notices in ep 5 ("At Mars it took eleven minutes.
+  Tonight, one point three seconds. Captain, the reader has moved."). Nobody learns who until
+  ep 10. No script may say "same as always" about a READ time, or name the reader.
+- **Report numbers:** Episode 4 ends at #1,238 (#1,239 reserved). Episode 5 starts at #1,240.
+- **Label one** fell off "in the spring" (ep 1's words; ep 4's "years ago" is corrected). The
+  torn half that survives shows PIP's audit stamp, a date mark and the last letter of the
+  address line only: "…A". No other letter of a name or place is ever legible before ep 10.
+- **Ilse Voss** speaks rarely and never in company (her two lines in the ep 3 tag stand). In
+  ep 5 she is silent all night.
+- **Lupin owes the crew** one favour after ep 5 (not the other way round). It is called in ep 10.
+- **Gates:** a gate and the ship's gate-drive panel (a labelled panel on the bridge) must be
+  seen on arrival in ep 5 so the sabotage reads. Seo covers PIP's bridge lens before she cuts;
+  PIP has eleven minutes of nothing and knows when but not who. Suspicion in ep 6 falls on Idris.
+- **The captain's past:** the audience may be told that Jax is the hero of a story taken out of
+  the world; "he did it to himself" is held for ep 8; who he is, for ep 10.
