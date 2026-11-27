@@ -48,6 +48,15 @@ Last updated: 2026-11-27 (session 1)
   send header x-goog-user-project). Whether it bills the credit is unconfirmed.
 - Episode 1: script-v3 (critic fixes applied) awaiting showrunner read, then table-read.
 
+- Vertex photoreal test (27 Nov): 7 images made (test + 6 crew portraits), all photoreal;
+  Jax held the same face when the first image was passed as reference. Then Google refused
+  with HTTP 403 "Access requires an eligible paid billing account in a supported region" —
+  the trial-credit account is not enough. Not tested: consistency across many shots,
+  mouth/blink edits, sets, ship, two-shots. Library estimate: ~430 images, ~$22 one-time.
+  Owner to decide: free-only / fix billing and use credit or pay / ongoing spend.
+- Episode 1: showrunner read script-v3 in full and approved it for the table-read.
+  Table-read audio (Kokoro) being built in `samples/tableread/E01/`.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|
