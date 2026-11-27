@@ -49,6 +49,9 @@ def main(raw_path, out_dir):
                 and f["BARON"]["rate_wps"] < f["NOAKES"]["rate_wps"] - 0.3 and f["NOAKES"]["rate_wps"] > f["CHICHIKOV"]["rate_wps"] + 0.3
                 and f["MIRA"]["f0_median"] < f["LUCÍA"]["f0_median"] - 10 and f["MIRA"]["f0_median"] < f["TEMI"]["f0_median"] - 5
                 and f["CHICHIKOV"]["rate_wps"] < f["JAX"]["rate_wps"])
+    for b in range(len(CANDS["BARON"])):
+        print("BARON cand", b, [round(distance(fps["BARON"][b], fps[r][i], sd),1) for r in ("PIP","NOAKES") for i in range(len(CANDS[r]))], round(fps["BARON"][b]["f0_median"]), round(fps["BARON"][b]["rate_wps"],2))
+    print("NOAKES", [(round(f["f0_median"]), round(f["rate_wps"],2)) for f in fps["NOAKES"]])
     best = None
     for ch in itertools.product(*[range(len(CANDS[r])) for r in roles]):
         if not ok(ch): continue

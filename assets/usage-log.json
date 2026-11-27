@@ -813,5 +813,214 @@
   },
   "type": "allowance_check",
   "label": "after 30 images"
+ },
+ {
+  "time": "2026-11-27T16:01:45",
+  "type": "run",
+  "purpose": "step3 Baron ref from behind gripping pigtail",
+  "job": "baron-pigtail",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/baron-pigtail/baron-pigtail.png",
+  "file": "assets/characters/baron/ref-back-pigtail.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 41.9,
+  "tokens": 22956,
+  "status": "accepted",
+  "note": "gripping own pigtail",
+  "jpg_bytes": 303479,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 57.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 93.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:02:03",
+  "type": "run",
+  "purpose": "step3 Baron ref seated on battered trunk",
+  "job": "baron-trunk",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/baron-trunk/baron-trunk.png",
+  "file": "assets/characters/baron/ref-seated-trunk.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 60.1,
+  "tokens": 14277,
+  "status": "accepted",
+  "note": "same face; parlour-like room",
+  "jpg_bytes": 395731,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 57.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 93.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:02:05",
+  "type": "run",
+  "purpose": "step3 Chichikov ref soft-focus on bench with teacup",
+  "job": "chich-bench",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/chich-bench/chich-bench.png",
+  "file": "assets/characters/chichikov/ref-softfocus-bench.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 61.8,
+  "tokens": 10591,
+  "status": "accepted",
+  "note": "FLAG: model drew a Moon in the hall windows - mask to black before compositing",
+  "jpg_bytes": 227816,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 57.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 93.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:01:44",
+  "type": "run",
+  "purpose": "step3 Chichikov ref hands on inlaid box",
+  "job": "chich-hands",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/chich-hands/chich-hands.png",
+  "file": "assets/characters/chichikov/ref-hands-box.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 40.5,
+  "tokens": 18881,
+  "status": "accepted",
+  "note": "box design now defined by this image",
+  "jpg_bytes": 271938,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 57.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 93.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:03:00",
+  "type": "run",
+  "purpose": "step3 Chichikov ref from behind, sharp, against dark window",
+  "job": "chich-back",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/chich-back/chich-back.png",
+  "file": "assets/characters/chichikov/ref-back-dark-window.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-hands-box.jpg"
+  ],
+  "seconds": 34.7,
+  "tokens": 12977,
+  "status": "accepted",
+  "note": "sharp, window pure black",
+  "jpg_bytes": 190396,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 58.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 93.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:03:20",
+  "type": "run",
+  "purpose": "step3 Noakes ref from behind at console with headset",
+  "job": "noakes-console",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/noakes-console/noakes-console.png",
+  "file": "assets/characters/noakes/ref-back-console-headset.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 54.2,
+  "tokens": 7666,
+  "status": "accepted",
+  "note": "same hair/uniform",
+  "jpg_bytes": 209474,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 59.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 93.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:03:15",
+  "type": "run",
+  "purpose": "step3 Noakes ref reflection in dark monitor",
+  "job": "noakes-reflect",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/noakes-reflect/noakes-reflect.png",
+  "file": "assets/characters/noakes/ref-reflection-monitor.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 49.8,
+  "tokens": 14136,
+  "status": "accepted",
+  "note": "reads a little bright for a reflection",
+  "jpg_bytes": 139839,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 58.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 93.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:03:22",
+  "type": "run",
+  "purpose": "step3 Noakes ref hands holding rubber stamp",
+  "job": "noakes-stamp",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/noakes-stamp/noakes-stamp.png",
+  "file": "assets/characters/noakes/ref-hands-stamp.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 57.1,
+  "tokens": 27579,
+  "status": "accepted",
+  "note": "papers illegible scribble",
+  "jpg_bytes": 223416,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 59.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 93.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
  }
 ]

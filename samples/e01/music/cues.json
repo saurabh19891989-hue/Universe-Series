@@ -1,0 +1,176 @@
+{
+ "episode": "E01 - The Parcel Nobody Ordered",
+ "cues": [
+  {
+   "id": "M11",
+   "title": "The throw (12 s of silence in the middle)",
+   "scenes": [
+    "29"
+   ],
+   "duration": 30.0,
+   "key": "D minor build -> D major release",
+   "tempo": "132 BPM 4/4",
+   "hits": [
+    [
+     10.0,
+     "dead stop: silence begins (hatchet leaves Jax's hand)"
+    ],
+    [
+     22.0,
+     "release: warm D major"
+    ],
+    [
+     23.2,
+     "the glint over the rim (glock)"
+    ],
+    [
+     26.4,
+     "'Darts.' (pizz button)"
+    ]
+   ],
+   "motifs": [
+    "MAIN ostinato"
+   ],
+   "silences": [
+    [
+     10.0,
+     22.0
+    ]
+   ],
+   "name": "E01-M11-the-throw",
+   "midi": "samples/e01/music/midi/E01-M11-the-throw.mid",
+   "instruments": {
+    "ost": "vc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SEC-sustain.sfz",
+    "cb": "cb - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/bass-SEC-sustain.sfz",
+    "vln": "vln1 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SEC-sustain.sfz",
+    "hn": "hn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/french-horn-SEC-sustain.sfz",
+    "timp": "timp - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Percussion/timpani-hit.sfz",
+    "glock": "glock - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Percussion/glockenspiel.sfz",
+    "pizz": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "pad": "vln2 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/2nd-violin-SEC-sustain.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M11-the-throw.wav",
+     "mp3": "samples/e01/music/E01-M11-the-throw.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M11-the-throw-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M11-the-throw-under-dialogue.mp3"
+    },
+    "stems": {
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M11-the-throw-harmony.wav",
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M11-the-throw-melody.wav",
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M11-the-throw-percussion.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -18.0,
+     "LRA_LU": 7.6,
+     "true_peak_dBTP": -6.2,
+     "Peak level dB": -6.207628,
+     "RMS level dB": -23.55436,
+     "Flat factor": 0.0,
+     "duration_s": 30.02,
+     "short_term_LUFS_every_4s": [
+      -18.4,
+      -17.0,
+      -22.4,
+      NaN,
+      NaN,
+      -22.2,
+      -17.8
+     ],
+     "bands_dB": {
+      "sub<60": -21.3,
+      "low60-250": -5.5,
+      "mid250-2k": -2.1,
+      "hi2k-6k": -10.9,
+      "air>6k": -24.1
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 30.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.72,
+     "silences": [
+      {
+       "window_s": [
+        10.0,
+        22.0
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        10.0,
+        22.0
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    },
+    "under_dialogue": {
+     "lufs_I": -21.0,
+     "LRA_LU": 6.9,
+     "true_peak_dBTP": -10.3,
+     "Peak level dB": -10.304347,
+     "RMS level dB": -26.135776,
+     "Flat factor": 0.0,
+     "duration_s": 30.02,
+     "short_term_LUFS_every_4s": [
+      -21.2,
+      -20.5,
+      -25.4,
+      NaN,
+      NaN,
+      -24.8,
+      -20.6
+     ],
+     "bands_dB": {
+      "sub<60": -35.6,
+      "low60-250": -6.2,
+      "mid250-2k": -1.3,
+      "hi2k-6k": -17.1,
+      "air>6k": -24.3
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 30.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.72,
+     "silences": [
+      {
+       "window_s": [
+        10.0,
+        22.0
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        10.0,
+        22.0
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    }
+   },
+   "mix": {
+    "target_lufs_main": -18.0,
+    "target_lufs_under_dialogue": -21.0,
+    "hall_rt60_s": 2.0
+   }
+  }
+ ],
+ "libraries": {
+  "Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples)": "http://virtualplaying.com/virtual-playing-orchestra/ - 'I enforce no restrictions on using this library to make music, even for commercial purposes'",
+  "GeneralUser GS v2.0.3": "https://github.com/mrbumpy409/GeneralUser-GS - 'You may use GeneralUser GS without restriction for your own music creation, private or commercial.'",
+  "FluidR3_GM": "MIT licence (Frank Wen), Debian package fluid-soundfont-gm"
+ },
+ "notes": "Hit points are in seconds from the cue start and were placed against the table-read timings (samples/tableread/E01/timings.json, lines.csv). Nobody has listened to these files."
+}

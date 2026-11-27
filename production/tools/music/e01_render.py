@@ -204,7 +204,6 @@ def main(ids):
             pass
     by_id = {c["id"]: c for c in sheet.get("cues", [])}
     for fn in E.CUES:
-        cid = fn.__name__ if fn.__name__ != "<lambda>" else None
         c, mix, meta = fn()
         if ids and meta["id"] not in ids:
             continue
@@ -223,7 +222,18 @@ def main(ids):
     }
     sheet["notes"] = ("Hit points are in seconds from the cue start and were placed against the table-read timings "
                       "(samples/tableread/E01/timings.json, lines.csv). Nobody has listened to these files.")
-    json.dump(sheet, open(CUESHEET, "w"), indent=1)
+    json.dump(clean(sheet), open(CUESHEET, "w"), indent=1, allow_nan=False)
+
+
+def clean(o):
+    """Strict JSON: non-finite floats (silent windows) become null."""
+    if isinstance(o, float):
+        return o if np.isfinite(o) else None
+    if isinstance(o, dict):
+        return {k: clean(v) for k, v in o.items()}
+    if isinstance(o, list):
+        return [clean(v) for v in o]
+    return o
 
 
 if __name__ == "__main__":

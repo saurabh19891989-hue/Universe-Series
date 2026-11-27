@@ -63,7 +63,7 @@ def analyse(x, loop, conducted, pulsed=False):
         j = np.abs(x[0] - x[-1])
         ref = np.percentile(np.abs(np.diff(x, axis=0)), 99.9, axis=0) + 1e-9
         ratio = float((j / ref).max())
-        w = N50 = int(0.05 * S.SR)
+        w = int(0.25 * S.SR)
         a = np.sqrt((x[-w:] ** 2).mean() + 1e-12)
         b = np.sqrt((x[:w] ** 2).mean() + 1e-12)
         lvl = abs(20 * np.log10(a / b))

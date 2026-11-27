@@ -1,0 +1,134 @@
+# E01 "The Parcel Nobody Ordered" — music and sound plan
+
+Status: plan for the showrunner's ruling. Nobody has listened to anything (agents cannot hear audio). Every cue and effect below goes to the owner as a listening reel before it is locked.
+Shot ids refer to `episodes/E01/shotlist.json`. Planned running time 35:13.
+
+## 1. What we already have (samples/music, samples/music/v2)
+
+| File | Length | Status | Use in E01 |
+|---|---|---|---|
+| v2/A1-main-title-v2 (+ -under-dialogue) | 61 s | A1 approved by owner (v2 = same notes, better samples, not yet heard) | Main theme: 2 (approach), 30 V.O. ("So. It cost…"), What was real |
+| v2/A1-main-title-full-90-v2 (+ -under-dialogue) | 92 s | as above | What was real (under PIP) into the end card; source for act-break buttons |
+| v2/A1-title-sting-10s | 10 s | as above | Main title (`E01-ST-001`) |
+| v2/A1-endcard-sting-5s | 5 s | as above | End card (`E01-SEND-001`) |
+| v2/A4-emotional-v2 | 62 s | A4 approved | Emotional cue: 14 turn, 21 (very low), 29 salute and lift-off, 30 "an old man on the Moon" |
+| v2/M1-jax-motif-v2 | 25 s | not yet heard | Jax: 0 "Lucky", 18–19 "I don't know", 22 "Both or neither", 30 V.O. tail |
+| v2/M2-mira-motif-v2 | 28 s | not yet heard | Mira: 4 (notebook left open), 18–19, 27 (as she guides), 28 full statement walking away |
+| v2/M3-pip-motif-v2 | 22 s | not yet heard | PIP: 0 (report stamps), 15 "That is… the post", 20 opinion, 30 READ line, 31 "Correction filed" |
+| v2/M4-voss-motif-v2 | 26 s | not yet heard | Chichikov/Voss: 5, 12, 16, 22 (Clause nine), 25, 28 "SEN, M.", 31 tag |
+| A2-comedy-caper (v1) | 40 s | NOT approved (owner liked A1, A4, A5 only) | Not used as is; replaced by new cue C1 (ruling) |
+| A3-tension-betrayal (v1) | 53 s | NOT approved | Not used as is; replaced by new cue C4 (ruling) |
+| A5-global-japan-urashima | 50 s | approved, but for a Japanese story | Not used in E01 |
+
+Mix rule: A1 and A5 are bass-heavy; under dialogue use the `-under-dialogue` versions or high-pass at about 120 Hz. Score never sits under a line in the same band as the voice for long; music swells in the gaps.
+
+## 2. New cues needed (composed in-house, same MIDI + free-sample route as v2)
+
+| Id | Name | Mood | Length | Instruments and idea |
+|---|---|---|---|---|
+| C1 | "Post-chaise" (caper) | Quick, cheeky, forward-leaning; Guardians-style swagger without copying anything | 75 s, built as stems (melody / rhythm / bass) so it can drop to nothing for vacuum gags; plus a 150 bpm chase variant (60 s) and two 3 s buttons | Pizzicato strings, bassoon, brushed snare, a cornet hook that hints at a post horn, nylon guitar rasgueado for Lucía's colour; chase variant adds timpani and low brass |
+| C2 | "Inventory" — the harpsichord that has gone slightly wrong | A pompous minuet slowly losing its footing | 55 s | Harpsichord with a few notes tuned 30–40 cents flat and one sticking key; music-box doubling; a dropped beat (a 7/8 bar) every eight bars; resolves sweetly but to the "wrong" chord on the crossed-out PLANT |
+| C3 | The frozen post-horn march (diegetic) | Bright, slightly out of tune, an 18th-century German march heard through ice | 20 s (thaw 3 s + march 14 s + stumble 3 s) | Solo post horn (cornet sample) with snare; starts muffled and low-passed (still in the ice), speed wobbles about 2%, opens up as it thaws, stumbles to its last note. Our own tune, not a known march |
+| C4 | "Clause nine / Seal the port" (tension) | Polite dread: things going wrong very calmly | 90 s, stems | Low strings ostinato at 60 bpm locked to the hall clock's ticks; M4 Voss motif inverted on celesta; muted horn; built to stop dead for the 1.3 s silence in 28 |
+| C5 | "The inner wall" | Blind and cold, then a thin line of trust | 95 s | Bowed vibraphone and glass-harmonica pad, sub pulse like a heartbeat; M2 Mira motif rises on celesta as she guides; brightens into a brass chord on "It climbs into the Sun", cut on the cut to 28 |
+| C6 | Baron motif (M5) | A small hussar fanfare, magnificent and a bit absurd | 20 s, four orchestrations | Cornet fanfare + snare roll + cymbal in a cavalry rhythm. It thins as he thins: Act 1 full band, Act 2 without brass, Act 3 cornet and snare, Act 4 a single cornet. Full band once more only for the colour-return beat in 22, then gone |
+| C7 | Lucía motif (M6) | Warm, stubborn, family | 15 s | Nylon guitar in a son-jarocho-like rhythm with a marimba answer (owner's "global" palette; inspiration only, our own tune). Used at 1 (palm on parcel), 16 (ribbon), 22 (ribbon hold, after the silence), 29 trunk |
+| C8 | "Between the light and the dark" (vacuum exteriors) | Vast, still, a little sacred | 120 s pad + 30 s variant | Low divided strings, wordless choir (GeneralUser choir), long tones; Zimmer-ish weight, no pulse. Under the exteriors in 9, 21, 29 where the script wants score but no effects |
+| C9 | "Oczakow" (the cannonball story, 21) | A story told by firelight: playful, then a gasp at the switch | 40 s, under dialogue, very low | Frame drum, low pizzicato walking bass, a double-reed line (oboe), a cymbal swell on "I changed"; stops dead before "There. You listened to the end." |
+| C10 | Parcel bell | The shop-door bell as a 2-note motif | 2 s | Real bell recording (ours) in the cold open; the same two notes on celesta under 1 ("It's warm"), 20 (PIP's opinion) and 31 (parcel, warm) |
+
+Total new music: about 9 minutes of material, most of it built as stems so one cue serves several scenes.
+
+## 3. Cue sheet by scene
+
+| Scene | Music | Silence (deliberate) |
+|---|---|---|
+| 0 Cold open | Opens in silence on PIP's lens. M3 PIP motif accents the report stamp (`E01-S00-016/017`). C10 bell on the job chime. M1 Jax two notes under "Lucky." Hard cut to the A1 title sting (10 s). | Black at the top (2 s); 1.3 s of nothing before the engine coughs; the coffee machine stays dark in silence. |
+| Title | v2/A1-title-sting-10s. | — |
+| 1 Cargo hold | No score until the parcel: C10 bell on celesta and C7 Lucía phrase under "It's warm" / "Something in here is alive". | — |
+| 2 On approach | A1 under-dialogue over the real pole flyover, thinning as the letters go out; a single held note while the street names die; stops for Mamani; button after "That is not the point of them." | — |
+| 3 Customs desk | No music under dialogue (the hall's huge reverb is the score). One dry pizzicato on SEIZED; C6 Baron fanfare, tiny and distant, under "I used to be taller!". | The reflection beat. |
+| 4 Mira's desk | M2 Mira solo phrase over the notebook left open. | — |
+| 5 Bench | M4 Voss motif enters very softly when Chichikov is noticed; one dry pizzicato when the bench is empty. | Empty bench beat. |
+| 6 Holding bay | C6 Baron fanfare (full band) on the bow; sparse C1 colours; score holds one note through the lock attempt. | Fingers on the padlock, the tap, the clock that does not tick. |
+| 7 Noakes's office | Light C1 pizzicato under PIP's regulation; C1 3 s button on "Inventory." End of Act One. | — |
+| 8 Post-chaise | C1 "Post-chaise" over the pole and the rim wide (no effects outside); in the cab it continues under dialogue at low level; C6 (Act 2 orchestration) under "the palace of the King of the Moon". | — |
+| 9 Rim and inn door | C8 pad over the descent and the inn window. | SCORE STOPS for the three knocks: absolute silence. Suit radio only after. |
+| 10 Parlour | Small C6 phrase on "This stove was cast from the barrel of a Turkish cannon"; nothing under the flame (the gas whump is the joke). | — |
+| 11 Signature | None. | Silence while the signature fades (a tiny glassy shimmer only). |
+| 12 Office | M4 Voss motif (pizzicato) from the box opening; one held note through the pen hover. | — |
+| 13 Montage | C2 broken harpsichord throughout; resolves wrongly on "Laurel". | — |
+| 14 Prove one | C6 Act 2 (thinner) under "The famous one". A4 enters at Lucía's arms unfolding. | NO SCORE for the 9 s hold of the old man holding his own hair (room tone only). |
+| 15 Cold store | No score until the thaw; C3 frozen march (diegetic) from the ice crack; M3 PIP motif two soft notes under "That is… the post"; A4 one chord under "That is what it's for." | Frost and drip before the crack. |
+| 16 The offer | M4 Voss motif under Chichikov throughout (very low); C7 Lucía phrase cut off when her hand closes on the ribbon; M4 button. End of Act Two. | — |
+| 17 Climbing back | None under the row. | "Silence. The engine." — engine only. |
+| 18–19 Office, corridor | M2 Mira colour after "Filing it would be courageous"; M1 Jax two notes under "I don't know"; M2 phrase as her reflection leaves. | The reflection pause before "I don't know". |
+| 20 Cargo hold | No score until PIP's opinion: C10 bell on celesta; button after "Good." | — |
+| 21 Outer rim | C8 pad very low; C9 "Oczakow" under the cannonball story (stops before "You listened to the end"); A4 low for the promise and the hatchet. | Three full seconds after "You are the audience" (score out, radio hiss only); "Nothing on the channel" after "lie for his life". |
+| 22 The signing | Hall clock ticks; C4 tension under Chichikov; C6 full band returns for the colour beat ("I believe I am taller"), then breaks apart mid-phrase at "scheduled shuttle"; M1 Jax under "Both or neither"; C1 caper hit as they run. C4 rises under "Seal the port". End of Act Three. | Three seconds silent on Lucía's ribbon. |
+| 23 Corridor | Klaxon; C1 chase variant starts. | — |
+| 24 The chase | C1 chase (score only outside: no engine, no dust, nothing); in the cab dry voices over the score. | One single held note for the hang-time jump; the landing is silent outside. |
+| 25 Clamp console | C4 tension, locked to the clock; M4 Voss motif inverted when the grey hand taps the device. | The "nothing"s between Noakes's answers. |
+| 26 Inner edge | C1 chase to the lip. | CUT TO BLACK: total silence 1.5 s, then "Lights." |
+| 27 Inner wall | C5 "The inner wall": cold pulse, M2 rising as Mira guides, brass light on the ramp. | Frost beats. |
+| 28 The key | C4 cuts dead as she turns the key. M2 Mira motif full statement as she walks away down the hall. | 1.3 s of total silence before AUTHORITY TO LOCK — RECEIVED (no score). |
+| 29 Bay nine | C1 chase to the ramp; C6 Baron motif as a single cornet (Act 4) under his refusal; A4 on the tricorn salute and the lift-off wide. | TOTAL SILENCE for the hatchet arc (no score, no effects); silence before A4's final note on the small figure with a hat. |
+| 30 Bridge afterwards | Nothing under Temi; A4 one chord under "a small silence, for an old man on the Moon"; M3 PIP note on READ; A1 under-dialogue under Jax's closing V.O. | After Temi is cut off; the long silence; the beat after "It prefers her". |
+| 31 Tag | M4 Voss motif on celesta, slow, under Chichikov; no score change for the padlock and the stove; C10 bell (two notes) on the warm parcel; nothing under the warrant. | Before and after the three knocks; the warrant refresh (one tick only); cut to black. |
+| What was real | v2/A1-main-title-full-90-v2-under-dialogue under PIP, then A1-endcard-sting-5s. | — |
+
+## 4. Vacuum rule (exteriors)
+
+No effects at all on any exterior shot: no engines, no dust, no impacts, no grapple, no landing, no knocks. Score only, or nothing. Sound on exteriors comes only from inside something: suit radio (narrow), the cab (dry), felt thumps inside the rover (wheels landing, being hooked). Exterior shots: `E01-S02-001`, `E01-S08-001/002/011`, scene 9, `E01-S17-001`, scene 21, `E01-S24-001/002/003/006/007/014`, `E01-S26-001/003/005`, scene 29, the real-footage shots in 30 and What was real.
+
+## 5. Voice treatment reminders (from the script)
+
+Cab dry; suit radio narrow; console and open channel wider with hiss; Mira on radio always filtered; Lucía in the cab always dry; PIP band-limited; Temi on a call line with 1.3 s lag shown as freezes; Noakes's line in 25 read fast with no pauses. Distant Baron in 3 with long hall reverb.
+
+Voices the TTS cannot do well, to be built and checked by ear: Jax's real laugh (21), Lucía's shocked laugh (15), the Baron's huge laugh (22), the Baron's wordless effort breaths (14), "Chich… Chicha…" (hand-built read). Build from Kokoro syllables with processing; send to the owner as part of the listening reel.
+
+## 6. Effects we must make ourselves (none from paid libraries)
+
+Ship and bridge
+- Bridge room tone (engine hum, relays, fans); engine cough and relight; relays clunking on; heating ticks; lights relighting
+- Coffee machine: off click, on click, gurgle; spanner rap on its tin case
+- PIP: lens "on" tone, stamp-arm thunk (PIP version: lighter, mechanical, with a small spring)
+- Shop-door bell (warm, single) for the job chime
+- Bank chime (cheerful), call-window reset chirp, call drop
+- Hold room tone; reactor tick; mechanic's creeper wheels; spanner handover clinks; kit bag stuffing and zip; hatch hiss
+- Airlock cycle (pressurise, seal thunk, hiss) for the bay transitions and bay nine's sealed airlock
+- Cargo-camera electronic hum; UI blips for Atlas letters dimming and street lamps going out; report "stamp on" UI sound
+
+Customs hall
+- Hall: huge reverb tone, ventilation, distant PA murmur; footsteps on concrete (single and two people); running bounding feet in low gravity (long gaps between steps)
+- Stamp thunk (customs version: heavy, wooden, hall reverb); stamp pad; paper slide; form flatten
+- Drawer scrape; notebook pages; pencil writing; pen scratch; signature shimmer (tiny glassy fade)
+- Cage gate clang; key in lock; padlock tap; padlock click open (tag); stopped clock (deliberate absence)
+- Customs drone hover; cargo-scale clunk
+- Wrist comm buzz, click, hang-up click; customs wrist chime (two-tone)
+- Hall clock tick (loud in the silences); bridge clock tick
+- Clamp console hum, key insert, key turn, status chime, "authority received" pop; brass device click; teacup on saucer; brass recorder click
+- Klaxon (two-tone, ours)
+
+Silver Hatchet
+- Parlour room tone; cold stove ticks; gas whump as the flame catches (also tiny and far away in the tag)
+- Iron door: no sound (vacuum)
+- Cold store: deep cold hum, door seal unsticking, frost crackle bed, single drip, ice crack (sharp, small)
+- Post horn: frost crackle inside the bell as it thaws (bed under C3)
+
+Rover (inside only)
+- Rover cabin hum (normal, climbing under strain, airborne whine with no road noise, heater dying, battery whine)
+- LOT 14 trunk thumping on the roof (felt inside)
+- Wheels landing (interior thump, everyone drops an inch); grapple hooking (interior jolt); rattles
+
+Tag
+- Three small polite knocks from inside a wooden trunk (muffled, close, unmistakably knuckles)
+- Trunk lid lift and close (wood, leather strap)
+- Warrant refresh tick
+
+Radio
+- Suit radio clicks and squelch, private-channel click, open-channel hiss bed, Mira's mic opening and closing, Noakes heard through her open mic
+
+## 7. Mix targets
+
+Dialogue anchored around -23 LUFS short-term before music; final episode about -14 LUFS integrated for YouTube, true peak below -1 dBTP (the table read sat at -16.3 LUFS, -1.7 dBTP worst). Silences are true silence (digital zero is too dead under a picture: use -70 dBFS room tone except where the script says "not a sound", which gets real silence).

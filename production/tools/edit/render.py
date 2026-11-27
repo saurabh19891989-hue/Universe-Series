@@ -136,14 +136,9 @@ def main():
         key = sha(sh, ctx["finish"], enc, [W, H, fps], src_hash, assets, env_sl, t["frames"])
         seg = os.path.join(segd, f"{sh['id']}-{key}.mp4")
         seg_paths.append(seg)
-        sts = [x - t["start_s"] for x in still_times if t["start_s"] <= x < t["start_s"] + t["frames"] / fps]
-        need = a.force or not os.path.exists(seg) or (a.only and sh["id"] in a.only) or sts
-        if a.only and sh["id"] not in a.only and os.path.exists(seg):
-            need = bool(sts) and False
+        need = a.force or not os.path.exists(seg) or bool(a.only and sh["id"] in a.only)
         if need:
-            jctx = dict(ctx, env=envs)
-            jobs.append(dict(shot=sh, ctx=jctx, out=seg, frames=t["frames"], start_s=t["start_s"],
-                             stills=sts, still_dir=still_dir))
+            jobs.append(dict(shot=sh, ctx=dict(ctx, env=envs), out=seg, frames=t["frames"], start_s=t["start_s"]))
     print(f"[edit] audio {t_audio:.1f}s; rendering {len(jobs)} of {len(shots)} shots on {a.workers} workers "
           f"({len(shots)-len(jobs)} cached)", flush=True)
     tr = time.time(); results = []
@@ -173,6 +168,11 @@ def main():
     else:
         os.replace(vid, final)
     vd, ad = probe_dur(final, "v"), probe_dur(final, "a")
+
+    # ---------------- stills from the finished file (what the viewer gets)
+    for x in still_times:
+        run(["ffmpeg", "-y", "-v", "error", "-ss", f"{x:.3f}", "-i", final, "-frames:v", "1", "-q:v", "3",
+             "-vf", "scale=1280:-2:flags=lanczos", os.path.join(still_dir, f"{name}-{x:05.2f}s.jpg")])
 
     # ---------------- review copy (size-targeted 2-pass)
     if a.review:

@@ -345,6 +345,14 @@ class Lights:
                     b = on * (s.get("idle", 0.55) + s.get("env_gain", 0.9) * e)
                     off = s.get("off_level", 0.15)
                     mul = off + (1 - off) * min(b, 1.0)
+                    if s.get("spill"):
+                        if (i, "sp") not in self.cache:
+                            yy, xx = np.mgrid[0:self.h, 0:self.w].astype(np.float32)
+                            rr = s.get("r", 0.01) * self.w * s["spill"].get("r", 4.0)
+                            self.cache[(i, "sp")] = np.exp(-((xx - s["x"] * self.w) ** 2 + (yy - s["y"] * self.h) ** 2) / (2 * rr * rr)).astype(np.float32)
+                        so = s["spill"].get("off", 0.1)
+                        sm = so + (1 - so) * min(b, 1.2)
+                        img = img * (1 + (sm - 1) * self.cache[(i, "sp")][..., None])
                     img = img * (1 + (mul - 1) * core[..., None])
                     img = img + core[..., None] * col * max(0.0, b - 1.0) * 0.5
                     g = glow[..., None] * col * s.get("glow_gain", 0.5) * b
@@ -527,6 +535,14 @@ class Shot:
                     pimg = pimg[:, ::-1].copy()
                 pimg = self._plate_level(pimg, pl, glass)
             self.win = dict(mask=m, glass=glass, spec=ws, plate=pimg, video=pv)
+            rf = ws.get("reflection", 0.0)
+            if rf and self.base_video is None:
+                # faint reflection of the lit interior on the glass + a soft diagonal sheen; it sits on
+                # top of the plate (screen blend) like real reflections on a cockpit window
+                refl = cv2.GaussianBlur(self.base[::-1].copy(), (0, 0), 18) * rf
+                yy, xx = np.mgrid[0:self.bh, 0:self.bw].astype(np.float32)
+                sheen = np.exp(-(((xx / self.bw) - 0.9 * (yy / self.bh) - 0.25) / 0.09) ** 2) * rf * 0.5
+                self.base = self.base + (refl + sheen[..., None] * np.float32([0.8, 0.9, 1.0])) * m[..., None]
             self.log.append(f"window: key={ws.get('key','black')} area={m.mean()*100:.1f}% glass_level={glass:.3f}")
         # extra layers
         for L in layers[1:]:

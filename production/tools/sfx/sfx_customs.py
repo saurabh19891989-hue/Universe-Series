@@ -245,7 +245,7 @@ def clock_tock(R):
 
 
 @sfx("wall_clock_ticking_loop", "Hall wall clock ticking, tick-tock once a second with a little room. Exact 8 s loop, stereo.",
-     "22, 25, 28", loop=True, review=True, bed=-38, group="customs")
+     "22, 25, 28", loop=True, review=True, bed=-38, group="customs", pulsed=True)
 def clock_loop(R):
     L = 8.0
     out = np.zeros(N(L))

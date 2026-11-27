@@ -1,6 +1,6 @@
 # E01 shot list — summary
 
-Planned against `script-v3.md` and the table-read timings (`samples/tableread/E01/lines.csv`, `timings.json`). Data: `shotlist.json` (one object per shot). Built by `build_shotlist.py` (in the builder session scratchpad, not in the repo). Nothing here has been generated, downloaded or listened to. Status: **for the showrunner's ruling.**
+Planned against `script-v3.md` and the table-read timings (`samples/tableread/E01/lines.csv`, `timings.json`). Data: `shotlist.json` (one object per shot). Regenerate with `python3 production/tools/shotlist/build_e01_shotlist.py /tmp/e01-stats.json` (writes shotlist.json). Nothing here has been generated, downloaded or listened to. Status: **for the showrunner's ruling.**
 
 **How durations were planned.** Each shot = the table-read length of the lines it carries + 0.5 s between lines + 0.6 s breath per dialogue shot + the scene's stated silences, holds and insert beats. The table read's narration and slates are dropped (picture carries them). Line ids are `E01-L###` = the 1-based data row in `lines.csv`; a shot that carries part of a long line says which seconds.
 
