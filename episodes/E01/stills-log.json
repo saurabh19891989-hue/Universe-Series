@@ -1216,22 +1216,29 @@
   },
   "E01-J036": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 1,
+   "status": "accepted",
+   "attempts": 2,
    "seconds": [
-    123.8
+    123.8,
+    62.2
    ],
    "tokens": [
-    16672
+    16672,
+    16765
    ],
    "notes": [
     "REJECTED: Baron good but the parcel is drawn as a hessian sack, not the brown-paper parcel (key prop continuity)",
-    "attempt 2 prepared (parcel ref added), not run: usage limit"
+    "attempt 2 prepared (parcel ref added), not run: usage limit",
+    "Retry with parcel ref: Baron rising from trunk, hand on knee, brown-paper parcel with string in crook of arm; Baron matches master; bright cage"
    ],
    "refs_used": [
     "assets/characters/baron/master.jpg",
-    "assets/sets/customs/holding-cage-bright.jpg"
-   ]
+    "assets/sets/customs/holding-cage-bright.jpg",
+    "assets/props/parcel/master.jpg"
+   ],
+   "prompt_changed": " | extra ref note: Image 3 is the brown-paper parcel prop: the parcel in his arm must be exactly this brown-paper parcel tied with string, not a sack or bag.",
+   "file": "episodes/E01/stills/e01-j036_baron_rising.jpg",
+   "jpg_bytes": 608539
   },
   "E01-J040": {
    "priority": 1,
@@ -1292,43 +1299,124 @@
   },
   "E01-J042": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "status": "accepted",
+   "attempts": 2,
+   "seconds": [
+    61.2,
+    55.8
+   ],
+   "tokens": [
+    12018,
+    11889
+   ],
+   "notes": [
+    "REJECTED: insert shows the Baron's whole face, and the background is ship machinery, not the customs cage",
+    "Retry: hands in lace cuffs tilt the labelled brown-paper parcel, face out of frame, cage junk behind; label scribbles illegible. Prompt changed: insert framing + cage ref"
+   ],
+   "refs_used": [
+    "assets/props/parcel/master.jpg",
+    "assets/characters/baron/master.jpg",
+    "assets/sets/customs/holding-cage-bright.jpg"
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Close insert framed on the hands and parcel only, his face out of frame above (at most the tip of the white moustache at the top edge): old hands in lace cuffs and red coat sleeves tilt a brown-paper parcel toward the light, inside a galvanised wire-mesh customs holding cage, mesh and tagged junk soft behind; labels pasted over labels, twenty years of different handwriting (illegible). Baron Munchausen: German man in his 70s, enormous white moustache that completely covers his mouth, black tricorn hat; moth-eaten red 18th-century cavalry coat over a patched pressure suit. Design after Doré's 1862 engravings, never any film. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later). | extra ref note: Image 3 is the customs holding cage set for the background.",
+   "file": "episodes/E01/stills/e01-j042_parcel_tilted_labels.jpg",
+   "jpg_bytes": 692897
   },
   "E01-J045": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "status": "accepted",
+   "attempts": 2,
+   "seconds": [
+    63.8,
+    69.2
+   ],
+   "tokens": [
+    12357,
+    14715
+   ],
+   "notes": [
+    "REJECTED: Baron reads as OUTSIDE the cage (junk is beyond the mesh); script has him locked inside facing out to the hall",
+    "Retry: Baron inside cage from behind, arm raised to padlock on gate, empty hall + benches beyond, windows black; matches master. Prompt changed: geography + hall ref"
+   ],
+   "refs_used": [
+    "assets/characters/baron/master.jpg",
+    "assets/sets/customs/holding-cage-bright.jpg",
+    "assets/props/padlock/master.jpg",
+    "assets/sets/customs/master-bright.jpg"
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. The Baron seen from behind, facing the mesh gate, arm raised grandly toward a big old iron padlock; red coat, tricorn. Geography: he is INSIDE the locked cage. Through the mesh gate, beyond it, we see the open customs hall (rows of empty wooden benches, booths, hall lights), NOT junk; the tagged junk is behind and around him inside the cage. Baron Munchausen: German man in his 70s, enormous white moustache that completely covers his mouth, black tricorn hat; moth-eaten red 18th-century cavalry coat over a patched pressure suit. Design after Doré's 1862 engravings, never any film. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later). | extra ref note: The last image is the customs hall that must be seen beyond the cage gate.",
+   "file": "episodes/E01/stills/e01-j045_baron_back_at_gate.jpg",
+   "jpg_bytes": 690977
   },
   "E01-J046": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "status": "accepted",
+   "attempts": 2,
+   "seconds": [
+    40.1,
+    73.2
+   ],
+   "tokens": [
+    14843,
+    15258
+   ],
+   "notes": [
+    "REJECTED: same geography error: junk beyond the mesh, so the hand is outside the cage; also whole hand rather than two fingers",
+    "Retry: two fingertips on the brass padlock from inside the cage, hall and benches beyond, lace cuff; padlock matches prop master. Prompt changed: geography + two fingers"
+   ],
+   "refs_used": [
+    "assets/props/padlock/master.jpg",
+    "assets/characters/baron/master.jpg",
+    "assets/sets/customs/master-bright.jpg"
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Macro insert: two old fingers in a lace cuff laid gently on a big old iron padlock on a wire-mesh gate, waiting. Only two fingertips (index and middle) rest on the padlock, the other fingers curled. Geography: the hand is INSIDE the locked cage. Through the mesh gate, beyond it, we see the open customs hall (rows of empty wooden benches, booths, hall lights), NOT junk; the tagged junk is behind and around him inside the cage. Baron Munchausen: German man in his 70s, enormous white moustache that completely covers his mouth, black tricorn hat; moth-eaten red 18th-century cavalry coat over a patched pressure suit. Design after Doré's 1862 engravings, never any film. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later). | extra ref note: The last image is the customs hall that must be seen beyond the cage gate.",
+   "file": "episodes/E01/stills/e01-j046_fingers_on_padlock.jpg",
+   "jpg_bytes": 500397
   },
   "E01-J047": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    39.5
+   ],
+   "tokens": [
+    8973
+   ],
+   "notes": [
+    "Stopped grandfather clock face + still pendulum inside cage, dusty glass, no numerals/text; bright"
+   ],
+   "refs_used": [
+    "assets/sets/customs/holding-cage-bright.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j047_clock_stopped.jpg",
+   "jpg_bytes": 608346
   },
   "E01-J049": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "status": "accepted",
+   "attempts": 2,
+   "seconds": [
+    57.6,
+    62.1
+   ],
+   "tokens": [
+    22418,
+    14767
+   ],
+   "notes": [
+    "REJECTED: Noakes and office good, but Jax stares into the lens, and the wrist unit is a generic gadget instead of PIP's wrist unit",
+    "Retry: Noakes back to camera at black window, Jax at desk looking at him laying down PIP's wrist unit (matches ref-wrist); both match masters. Prompt changed: Jax's eyeline + wrist-unit ref"
+   ],
+   "refs_used": [
+    "assets/sets/customs/noakes-office-bright.jpg",
+    "assets/characters/noakes/master.jpg",
+    "assets/characters/jax/master.jpg",
+    "assets/props/pip/ref-wrist.jpg"
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Noakes's office: a tired man in customs uniform stands in silhouette against a large pure-black window, back mostly to us; Jax Vale at the desk, looking at Noakes's back (never at the camera), lays his wrist unit down on the desk (PIP's small wrist unit as in the last reference image: brass-and-cream lens housing with amber lens on a worn leather strap); desk lamp, files. Superintendent Noakes: English man, 55, tired; customs uniform without real insignia. Jax Vale: Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later). | extra ref note: Image 4 is PIP's wrist unit.",
+   "file": "episodes/E01/stills/e01-j049_office_noakes_silhouette.jpg",
+   "jpg_bytes": 520533
   },
   "E01-J050": {
    "priority": 1,
@@ -1340,19 +1428,43 @@
   },
   "E01-J053": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    59.9
+   ],
+   "tokens": [
+    18925
+   ],
+   "notes": [
+    "Noakes three-quarter from behind turning to doorway, matches master; office matches set; window black. Face lit (not in shadow) per owner's bright rule; lips slightly parted"
+   ],
+   "refs_used": [
+    "assets/characters/noakes/master.jpg",
+    "assets/sets/customs/noakes-office-bright.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j053_noakes_turning.jpg",
+   "jpg_bytes": 316807
   },
   "E01-J051": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    49.6
+   ],
+   "tokens": [
+    9921
+   ],
+   "notes": [
+    "Jax standing at Noakes's desk looking down, amused, mouth closed; office matches; window black; matches master"
+   ],
+   "refs_used": [
+    "assets/characters/jax/master.jpg",
+    "assets/sets/customs/noakes-office-bright.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j051_jax_office_amused.jpg",
+   "jpg_bytes": 503524
   },
   "E01-J054": {
    "priority": 2,
@@ -2095,6 +2207,17 @@
    "five_hour_resets": "2026-11-27 19:25 UTC",
    "weekly_used_percent": 99.0,
    "weekly_resets": "2026-12-02 17:30 UTC"
+  },
+  {
+   "read_at": "2026-11-27T16:39:09Z",
+   "label": "after first 2 runs post-reset",
+   "source": "rollout-2026-11-27T16-38-07-01a21ddf-0dd7-70c2-8025-c87d68367712.jsonl",
+   "source_mtime": "16:39:08Z",
+   "newer_rollouts_without_reading": 0,
+   "five_hour_used_percent": 2.0,
+   "five_hour_resets": "2026-11-27 21:38 UTC",
+   "weekly_used_percent": 0.0,
+   "weekly_resets": "2026-12-04 16:38 UTC"
   }
  ],
  "ref_substitutions": {

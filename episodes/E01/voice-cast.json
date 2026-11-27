@@ -1,0 +1,800 @@
+{
+ "episode": "E01",
+ "engine": "kokoro-onnx 0.6.1 (Kokoro-82M v1.0, Apache-2.0), CPU",
+ "method": "exhaustive maximin on fingerprint distance over candidate voice/speed/pitch combos with role-fit ordering constraints (Baron lowest f0 and slower than Noakes; Noakes faster than Chichikov; Mira lower than Lucia and Temi); candidate sets per role in cast_select.py; fingerprints of all 53 voices in voice-fingerprints-all.json",
+ "feature_weights": {
+  "f0_median": 4,
+  "f0_range": 1,
+  "centroid": 2.25,
+  "rate": 1,
+  "mfcc": 2.25
+ },
+ "cast": {
+  "JAX": {
+   "voice": "am_puck",
+   "speed": 1.08,
+   "pitch": 1.0,
+   "formant": "preserved",
+   "lang": "en-us",
+   "fingerprint": {
+    "f0_median": 105.72687224669603,
+    "f0_range": 105.29826708301695,
+    "centroid": 1129.7395681394194,
+    "rate_wps": 3.651339086640611,
+    "duration_s": 7.942291666666667,
+    "mfcc": [
+     34.47611225621576,
+     7.347928398343266,
+     10.288926364421338,
+     4.411403707808577,
+     -3.9898317274862074,
+     3.0668801957600107,
+     -3.136426030626138,
+     -1.3597922281102282,
+     -0.15551570849453986,
+     -1.8691233703760997,
+     2.775624791094378,
+     0.11162340342166423
+    ]
+   },
+   "note": "American male, quick, warm (kept am_puck)"
+  },
+  "PIP": {
+   "voice": "bm_george",
+   "speed": 1.05,
+   "pitch": 1.0,
+   "formant": "preserved",
+   "lang": "en-gb",
+   "band": "250-4500 Hz",
+   "fingerprint": {
+    "f0_median": 142.01183431952663,
+    "f0_range": 54.21155094094743,
+    "centroid": 1025.2447192867016,
+    "rate_wps": 3.1672931475430723,
+    "duration_s": 9.156083333333333,
+    "mfcc": [
+     27.47729121273603,
+     2.7936654240185566,
+     15.182660269954955,
+     1.0537209461729249,
+     0.3609185722592619,
+     -2.27180800304039,
+     0.7702202174550496,
+     -4.8467572900480995,
+     -0.44975132454272054,
+     2.106528742148221,
+     -2.4729934960645807,
+     -0.5316944217958497
+    ]
+   },
+   "note": "British clipped; 250-4500 Hz small-speaker band-limit baked into every Pip stem"
+  },
+  "BARON": {
+   "voice": "bm_fable",
+   "speed": 0.9,
+   "pitch": 0.93,
+   "formant": "preserved",
+   "lang": "en-gb",
+   "fingerprint": {
+    "f0_median": 111.62790697674419,
+    "f0_range": 67.04466661741152,
+    "centroid": 1458.0142146668593,
+    "rate_wps": 3.4055212502568817,
+    "duration_s": 8.515583333333334,
+    "mfcc": [
+     41.148790328960324,
+     6.960521808681382,
+     10.91576557916769,
+     2.5939213463648603,
+     -0.06424932404743224,
+     2.7595259171550985,
+     -2.0326540220681397,
+     0.6045451167186072,
+     -0.7004274720773161,
+     1.2167856398367514,
+     0.5696879876107411,
+     -0.7234247903518883
+    ]
+   },
+   "note": "older theatrical: bm_fable slowed 10%, pitch x0.93 formant-preserved"
+  },
+  "CHICHIKOV": {
+   "voice": "am_michael",
+   "speed": 0.9,
+   "pitch": 1.0,
+   "formant": "preserved",
+   "lang": "en-us",
+   "fingerprint": {
+    "f0_median": 115.94202898550725,
+    "f0_range": 62.37455612166127,
+    "centroid": 1092.5937294547043,
+    "rate_wps": 2.82469825242088,
+    "duration_s": 10.266583333333333,
+    "mfcc": [
+     26.257720021432036,
+     13.20144059552539,
+     7.758860827743223,
+     6.05065633238871,
+     -4.303717806718245,
+     4.8206634160154245,
+     -4.557954061439287,
+     0.9943215397562767,
+     -0.6960045684504016,
+     1.945196052310837,
+     2.5877659027142133,
+     -1.550351815128538
+    ]
+   },
+   "note": "CHANGED from bm_lewis to am_michael: soft, unhurried (x0.90), mid-pitch, no accent"
+  },
+  "NOAKES": {
+   "voice": "bm_daniel",
+   "speed": 1.15,
+   "pitch": 1.1,
+   "formant": "shifted",
+   "lang": "en-gb",
+   "fingerprint": {
+    "f0_median": 134.8314606741573,
+    "f0_range": 48.758963044677344,
+    "centroid": 1041.7873817723414,
+    "rate_wps": 3.8370996818956153,
+    "duration_s": 7.557791666666667,
+    "mfcc": [
+     28.597893436983377,
+     11.188184671849864,
+     7.94733068102806,
+     4.556990789674327,
+     0.7932942084128828,
+     -1.9879398841997997,
+     -0.979594196634061,
+     -3.340234287159064,
+     1.1187226360318774,
+     1.2939294872969136,
+     0.7187205919362597,
+     1.1246050041677949
+    ]
+   },
+   "note": "CHANGED from bm_daniel x1.12 to bm_daniel x1.15 with pitch x1.10 and formant shifted up (thinner, quicker)"
+  },
+  "MIRA": {
+   "voice": "bf_alice",
+   "speed": 0.95,
+   "pitch": 0.9,
+   "formant": "preserved",
+   "lang": "en-gb",
+   "fingerprint": {
+    "f0_median": 194.3351691581432,
+    "f0_range": 119.89429488127462,
+    "centroid": 1550.4782704645183,
+    "rate_wps": 3.357550146169209,
+    "duration_s": 8.63725,
+    "mfcc": [
+     28.43429871510909,
+     3.2764267938086657,
+     4.644449807436175,
+     0.8642571174205497,
+     -6.12643795200543,
+     -0.9138045955520177,
+     -6.845396259380177,
+     -2.989684977948004,
+     -4.793451899379046,
+     1.0015487471396884,
+     -3.0032954962980365,
+     -0.2119179979106964
+    ]
+   },
+   "note": "CHANGED from bf_emma to bf_alice, pitch x0.90 formant-preserved (lower, dry)"
+  },
+  "LUCÍA": {
+   "voice": "af_bella",
+   "speed": 1.1,
+   "pitch": 1.0,
+   "formant": "preserved",
+   "lang": "en-us",
+   "fingerprint": {
+    "f0_median": 210.52631578947367,
+    "f0_range": 77.54137115839245,
+    "centroid": 1575.917305797732,
+    "rate_wps": 3.291604988484112,
+    "duration_s": 8.810291666666666,
+    "mfcc": [
+     35.241205420385874,
+     13.729040926861318,
+     6.472939380248933,
+     -7.81877928039941,
+     3.053643574594312,
+     -7.1496651838090814,
+     0.7305557561853613,
+     -6.060676881879205,
+     -3.506323388133814,
+     -2.999768727709493,
+     -2.8685897991650418,
+     -1.2695899548199352
+    ]
+   },
+   "note": "CHANGED from af_heart to af_bella x1.10 (warm, energetic; far from Mira in f0/centroid)"
+  },
+  "TEMI": {
+   "voice": "af_jessica",
+   "speed": 1.08,
+   "pitch": 1.02,
+   "formant": "preserved",
+   "lang": "en-us",
+   "fingerprint": {
+    "f0_median": 216.21621621621622,
+    "f0_range": 116.21233859397418,
+    "centroid": 1438.899243956751,
+    "rate_wps": 3.9118705035971226,
+    "duration_s": 7.413333333333333,
+    "mfcc": [
+     25.682130841683236,
+     -1.1978212189476074,
+     7.457493837594605,
+     -8.13890076312617,
+     -1.3402847653999608,
+     -6.3988294856894266,
+     -1.3273209126053365,
+     -7.388755180237711,
+     -1.3785166267777558,
+     -0.00999133751336079,
+     -4.148151535291382,
+     0.7901517479793105
+    ]
+   },
+   "note": "CHANGED from af_sky to af_jessica x1.08 pitch x1.02 (bright)"
+  },
+  "MAMANI": {
+   "voice": "am_eric",
+   "speed": 0.95,
+   "pitch": 1.0,
+   "formant": "preserved",
+   "lang": "en-us",
+   "fingerprint": {
+    "f0_median": 158.94039735099338,
+    "f0_range": 89.86119337642604,
+    "centroid": 834.8021865447671,
+    "rate_wps": 3.762080819874165,
+    "duration_s": 7.7085,
+    "mfcc": [
+     33.058281653668956,
+     7.674787175687406,
+     19.190377021300964,
+     3.2223507481234304,
+     5.809096797505788,
+     -0.10192972059857978,
+     -0.5053691012295413,
+     -1.4553313636238152,
+     -2.0912122128992308,
+     2.45321884699249,
+     -1.9266340971123033,
+     1.7346583456662574
+    ]
+   },
+   "note": "am_eric x0.95 (calm)"
+  }
+ },
+ "separation": {
+  "min_pair_new": 2.193606236402087,
+  "mean_pair_new": 3.83295611416517,
+  "min_pair_tableread": 2.038641297727456,
+  "mean_pair_tableread": 3.420684778415405,
+  "matrix": {
+   "names": [
+    "JAX",
+    "PIP",
+    "BARON",
+    "CHICHIKOV",
+    "NOAKES",
+    "MIRA",
+    "LUCÍA",
+    "TEMI",
+    "MAMANI"
+   ],
+   "new": [
+    [
+     0.0,
+     3.19,
+     2.5,
+     3.02,
+     2.82,
+     4.25,
+     5.17,
+     4.89,
+     3.17
+    ],
+    [
+     3.19,
+     0.0,
+     2.9,
+     2.43,
+     2.19,
+     4.5,
+     4.22,
+     4.8,
+     2.73
+    ],
+    [
+     2.5,
+     2.9,
+     0.0,
+     2.74,
+     2.88,
+     4.08,
+     4.22,
+     4.98,
+     4.02
+    ],
+    [
+     3.02,
+     2.43,
+     2.74,
+     0.0,
+     3.25,
+     4.83,
+     5.11,
+     6.04,
+     4.08
+    ],
+    [
+     2.82,
+     2.19,
+     2.88,
+     3.25,
+     0.0,
+     4.89,
+     4.59,
+     4.8,
+     2.51
+    ],
+    [
+     4.25,
+     4.5,
+     4.08,
+     4.83,
+     4.89,
+     0.0,
+     2.89,
+     2.44,
+     4.73
+    ],
+    [
+     5.17,
+     4.22,
+     4.22,
+     5.11,
+     4.59,
+     2.89,
+     0.0,
+     2.96,
+     4.77
+    ],
+    [
+     4.89,
+     4.8,
+     4.98,
+     6.04,
+     4.8,
+     2.44,
+     2.96,
+     0.0,
+     4.38
+    ],
+    [
+     3.17,
+     2.73,
+     4.02,
+     4.08,
+     2.51,
+     4.73,
+     4.77,
+     4.38,
+     0.0
+    ]
+   ],
+   "tableread_cast": [
+    [
+     0.0,
+     3.19,
+     2.45,
+     2.63,
+     2.84,
+     5.46,
+     4.01,
+     2.75,
+     3.2
+    ],
+    [
+     3.19,
+     0.0,
+     2.91,
+     2.25,
+     2.1,
+     4.73,
+     3.6,
+     2.49,
+     2.75
+    ],
+    [
+     2.45,
+     2.91,
+     0.0,
+     2.04,
+     2.81,
+     3.94,
+     3.39,
+     2.8,
+     4.05
+    ],
+    [
+     2.63,
+     2.25,
+     2.04,
+     0.0,
+     2.83,
+     5.13,
+     4.42,
+     3.39,
+     3.95
+    ],
+    [
+     2.84,
+     2.1,
+     2.81,
+     2.83,
+     0.0,
+     5.01,
+     4.08,
+     2.58,
+     2.52
+    ],
+    [
+     5.46,
+     4.73,
+     3.94,
+     5.13,
+     5.01,
+     0.0,
+     3.09,
+     4.47,
+     5.88
+    ],
+    [
+     4.01,
+     3.6,
+     3.39,
+     4.42,
+     4.08,
+     3.09,
+     0.0,
+     2.56,
+     4.17
+    ],
+    [
+     2.75,
+     2.49,
+     2.8,
+     3.39,
+     2.58,
+     4.47,
+     2.56,
+     0.0,
+     2.65
+    ],
+    [
+     3.2,
+     2.75,
+     4.05,
+     3.95,
+     2.52,
+     5.88,
+     4.17,
+     2.65,
+     0.0
+    ]
+   ]
+  }
+ },
+ "candidates_considered": {
+  "JAX": [
+   {
+    "voice": "am_puck",
+    "speed": 1.08,
+    "pitch": 1.0,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 106,
+    "centroid": 1130,
+    "rate": 3.65
+   }
+  ],
+  "PIP": [
+   {
+    "voice": "bm_george",
+    "speed": 1.05,
+    "pitch": 1.0,
+    "formant": "preserved",
+    "lang": "en-gb",
+    "band": "250-4500 Hz",
+    "f0": 142,
+    "centroid": 1025,
+    "rate": 3.17
+   }
+  ],
+  "BARON": [
+   {
+    "voice": "bm_fable",
+    "speed": 0.9,
+    "pitch": 0.93,
+    "formant": "preserved",
+    "lang": "en-gb",
+    "f0": 112,
+    "centroid": 1458,
+    "rate": 3.41
+   },
+   {
+    "voice": "bm_lewis",
+    "speed": 0.85,
+    "pitch": 0.92,
+    "formant": "preserved",
+    "lang": "en-gb",
+    "f0": 89,
+    "centroid": 1070,
+    "rate": 2.85
+   }
+  ],
+  "CHICHIKOV": [
+   {
+    "voice": "bm_daniel",
+    "speed": 0.92,
+    "pitch": 1.0,
+    "formant": "preserved",
+    "lang": "en-gb",
+    "f0": 123,
+    "centroid": 999,
+    "rate": 3.49
+   },
+   {
+    "voice": "am_michael",
+    "speed": 0.9,
+    "pitch": 1.0,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 116,
+    "centroid": 1093,
+    "rate": 2.82
+   },
+   {
+    "voice": "am_adam",
+    "speed": 0.92,
+    "pitch": 1.0,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 122,
+    "centroid": 1098,
+    "rate": 3.33
+   },
+   {
+    "voice": "bm_lewis",
+    "speed": 0.92,
+    "pitch": 1.12,
+    "formant": "preserved",
+    "lang": "en-gb",
+    "f0": 108,
+    "centroid": 1092,
+    "rate": 3.03
+   }
+  ],
+  "NOAKES": [
+   {
+    "voice": "bm_daniel",
+    "speed": 1.15,
+    "pitch": 1.1,
+    "formant": "shifted",
+    "lang": "en-gb",
+    "f0": 135,
+    "centroid": 1042,
+    "rate": 3.84
+   },
+   {
+    "voice": "bm_george",
+    "speed": 1.12,
+    "pitch": 1.0,
+    "formant": "preserved",
+    "lang": "en-gb",
+    "f0": 140,
+    "centroid": 910,
+    "rate": 3.28
+   },
+   {
+    "voice": "bm_george",
+    "speed": 1.15,
+    "pitch": 1.08,
+    "formant": "shifted",
+    "lang": "en-gb",
+    "f0": 151,
+    "centroid": 962,
+    "rate": 3.32
+   }
+  ],
+  "MIRA": [
+   {
+    "voice": "bf_emma",
+    "speed": 0.95,
+    "pitch": 0.94,
+    "formant": "preserved",
+    "lang": "en-gb",
+    "f0": 174,
+    "centroid": 1661,
+    "rate": 3.36
+   },
+   {
+    "voice": "bf_alice",
+    "speed": 0.95,
+    "pitch": 0.9,
+    "formant": "preserved",
+    "lang": "en-gb",
+    "f0": 194,
+    "centroid": 1550,
+    "rate": 3.36
+   },
+   {
+    "voice": "bf_isabella",
+    "speed": 0.95,
+    "pitch": 0.9,
+    "formant": "preserved",
+    "lang": "en-gb",
+    "f0": 188,
+    "centroid": 1574,
+    "rate": 3.35
+   },
+   {
+    "voice": "bf_lily",
+    "speed": 0.95,
+    "pitch": 0.96,
+    "formant": "preserved",
+    "lang": "en-gb",
+    "f0": 189,
+    "centroid": 1324,
+    "rate": 3.36
+   }
+  ],
+  "LUCÍA": [
+   {
+    "voice": "af_heart",
+    "speed": 1.1,
+    "pitch": 1.0,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 195,
+    "centroid": 1517,
+    "rate": 3.44
+   },
+   {
+    "voice": "af_bella",
+    "speed": 1.1,
+    "pitch": 1.0,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 211,
+    "centroid": 1576,
+    "rate": 3.29
+   },
+   {
+    "voice": "af_nova",
+    "speed": 1.12,
+    "pitch": 1.0,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 161,
+    "centroid": 1212,
+    "rate": 3.87
+   },
+   {
+    "voice": "af_river",
+    "speed": 1.1,
+    "pitch": 1.0,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 170,
+    "centroid": 1414,
+    "rate": 3.99
+   },
+   {
+    "voice": "af_sarah",
+    "speed": 1.1,
+    "pitch": 1.0,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 197,
+    "centroid": 1348,
+    "rate": 3.49
+   }
+  ],
+  "TEMI": [
+   {
+    "voice": "af_sky",
+    "speed": 1.08,
+    "pitch": 1.04,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 162,
+    "centroid": 1122,
+    "rate": 3.55
+   },
+   {
+    "voice": "af_jessica",
+    "speed": 1.08,
+    "pitch": 1.02,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 216,
+    "centroid": 1439,
+    "rate": 3.91
+   },
+   {
+    "voice": "af_aoede",
+    "speed": 1.08,
+    "pitch": 1.05,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 189,
+    "centroid": 851,
+    "rate": 3.51
+   },
+   {
+    "voice": "af_alloy",
+    "speed": 1.08,
+    "pitch": 1.06,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 154,
+    "centroid": 1101,
+    "rate": 3.74
+   }
+  ],
+  "MAMANI": [
+   {
+    "voice": "am_eric",
+    "speed": 0.95,
+    "pitch": 1.0,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 159,
+    "centroid": 835,
+    "rate": 3.76
+   },
+   {
+    "voice": "am_liam",
+    "speed": 0.95,
+    "pitch": 1.0,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 131,
+    "centroid": 1194,
+    "rate": 3.68
+   },
+   {
+    "voice": "am_adam",
+    "speed": 0.95,
+    "pitch": 1.06,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 129,
+    "centroid": 1095,
+    "rate": 3.37
+   },
+   {
+    "voice": "em_alex",
+    "speed": 0.95,
+    "pitch": 1.0,
+    "formant": "preserved",
+    "lang": "en-us",
+    "f0": 134,
+    "centroid": 1152,
+    "rate": 3.78
+   }
+  ]
+ },
+ "respellings": "see names_choice.json beside dialogue_stems.py; defaults Oczakow->Ochakoff, Mira->Meera, Noakes->Noaks",
+ "dialogue_level": "all stems normalised to -20 dBFS active RMS plus documented offsets"
+}

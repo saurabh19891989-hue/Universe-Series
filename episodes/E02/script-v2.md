@@ -2,14 +2,14 @@
 ## Episode 2 — "The Princess of the Far Side"
 ### Shooting script, draft 2 (comedy and dialogue punch-up of draft 1)
 
-Spoken words: **WORDCOUNT** (counted by script: dialogue lines only, including "What was real";
-cues, parentheticals and action excluded; same counter as draft 1, which counts 4,337 by it). Units:
+Spoken words: **3,966** (counted by script: dialogue lines only, including "What was real";
+cues, parentheticals and action excluded; the same whitespace count that gives draft 1 its 4,333; 367 words cut). Units:
 32 (cold open, 30 scenes, tag), plus "What was real". Jax narrates three times (8, and twice in 30);
 his other V.O. cues in 25 are his voice heard over the radio on the *Steadfast*.
 
 Runtime: the scene targets below are honest (dialogue at 155 wpm, plus 0.4 s per speaker change,
-plus each scene's stated holds and insert-only beats, rounded up to 5 s). They add up to **RUNTIME**
-including the 0:10 title and the 0:45 "What was real". ACTSPLIT. No scene is over 2:30. About 18%
+plus each scene's stated holds and insert-only beats, rounded up to 5 s). They add up to **35:40**
+including the 0:10 title and the 0:45 "What was real". Cold open 1:10 · Act 1 8:10 · Act 2 8:55 · Act 3 8:45 · Act 4 7:15 · tag 0:30 (draft 1: 38:00). No scene is over 2:30. About 18%
 of the running time is aboard *The Unscheduled* (unchanged from draft 1).
 
 Visual style: photoreal characters and sets composited with real NASA footage, staged mostly
@@ -97,7 +97,7 @@ Jax narration: three V.O. lines (8, and two in 30), each skipping time or lying.
 # COLD OPEN
 
 ### 0 · BRIDGE OF *THE UNSCHEDULED* — JUST PAST THE FAR-SIDE LIMB
-**Thread:** A · **Target:** T0 s · **Visual:** INSERT / PHOTOREAL SET STILL / REAL FOOTAGE WIDE
+**Thread:** A · **Target:** 70 s · **Visual:** INSERT / PHOTOREAL SET STILL / REAL FOOTAGE WIDE
 **STAGING:** Open on the AIR gauge and PIP's lens, so no mouth is needed. Jax is a silhouette
 against the window. Lucía is off-screen below. Temi is her call-window still, breaking up. The
 hop is one real far-side wide with the ship composited. The Baron is a voice through a trunk lid.
@@ -211,7 +211,7 @@ SMASH TO: MAIN TITLE.
 # ACT ONE — "Nobody Lives on the Far Side"
 
 ### 1 · CARGO HOLD
-**Thread:** A · **Target:** T1 s · **Visual:** INSERT / PHOTOREAL SET STILL
+**Thread:** A · **Target:** 60 s · **Visual:** INSERT / PHOTOREAL SET STILL
 **STAGING:** The trunk lid lifting on the moustache is an INSERT. Lucía has her back to us. Jax is
 a silhouette in the hatch light. The Baron's lines play on moustache and eyebrows. "My hat" is an
 INSERT of his hand going to a bare head.
@@ -228,8 +228,7 @@ bright eyes above it.
           ...Hello.
 
                          BARON
-          Señorita. You carried me up the ramp.
-          Beautifully.
+          Señorita. You carried me beautifully.
 
 He unfolds out of the trunk, a joint at a time: coatless,
 bareheaded, lace cuffs, patched pressure suit. Jax in the hatch.
@@ -286,7 +285,7 @@ them. Goes still.
 ```
 
 ### 2 · THE VALLEY OF LOST THINGS
-**Thread:** B/A · **Target:** T2 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT
+**Thread:** B/A · **Target:** 50 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT
 **STAGING:** Suits and radio throughout. The real far-side wide from Orion, with heaps composited
 on the crater floor. Astolfo's visor is down. Mira's faceplate reflects the heaps (silent beats
 only). INSERTS: flask labels, a drift of old metal name-plates, a hill of swollen bladders.
@@ -322,17 +321,9 @@ over a pressure suit, visor down, dusting, in a vacuum.
                          ASTOLFO
           Crowns. Old empires. Lost their names
           and kept the noise. Everything Earth
-          loses comes here.
-          Time, vows, reputations, wits.
-          Everything except madness. Madness
-          never leaves Earth.
-
-                         MIRA
-          This isn't on any map.
-
-                         ASTOLFO
-          Nothing lost is on a map. That's how
-          you know it's lost.
+          loses comes here. Time, vows,
+          reputations, wits. Everything except
+          madness. Madness never leaves Earth.
                     (a gauntlet offered)
           Astolfo. Of England. Paladin, retired.
           I'm looking for my wits. Third shelf.
@@ -366,7 +357,7 @@ over a pressure suit, visor down, dusting, in a vacuum.
 ```
 
 ### 3 · THE VALLEY — UNDER THE SHIP'S BELLY
-**Thread:** A/C · **Target:** T3 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT
+**Thread:** A/C · **Target:** 55 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT
 **STAGING:** Hard white sunlight, a black sky, and the ship's patched belly overhead. Lucía is half
 inside the recycler intake hatch, so only her boots and ribbon show until she slides out. PIP is the
 lens on Jax's wrist, with the report insert on the wrist screen. Suits and radio. The gold watch in
@@ -432,7 +423,7 @@ LOCATION: NONE. STATUS: UNSENT. NO SIGNAL.
 
                          PIP (V.O.)
           Then I shall file it under nowhere.
-          Unsent.
+          Unsent. I am very poor company.
 
 INSERT: the watch goes into Jax's glove. The glove closes.
 
@@ -449,7 +440,7 @@ INSERT: the watch goes into Jax's glove. The glove closes.
 ```
 
 ### 4 · THE KEEPING HOUSE — FIRST MEETING WITH KAGUYA
-**Thread:** A/C · **Target:** T4 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** A/C · **Target:** 120 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** Kaguya is never seen speaking. She is a seated figure behind a bamboo blind, and her
 one gesture is to lower her fan and show her eyes, a silent beat. Astolfo's visor is down. The
 Baron's moustache. Jax is over the shoulder. PIP is a light on Jax's wrist. INSERTS: flask labels,
@@ -599,9 +590,6 @@ The fan rises. The eyes are gone.
 INSERT: Jax's wrist. REPORT #1,209 — RE: LOST-PROPERTY OFFICE
 (UNLICENSED). STATUS: UNSENT.
 
-                         PIP (V.O.)
-          ...Unsent. Again.
-
                          JAX
           So. Air?
 
@@ -618,7 +606,7 @@ INSERT: Jax's wrist. REPORT #1,209 — RE: LOST-PROPERTY OFFICE
 ```
 
 ### 5 · THE KEEPING HOUSE STEPS / THE *STEADFAST* AT L2
-**Thread:** A/C · **Target:** T5 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT
+**Thread:** A/C · **Target:** 70 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT
 **STAGING:** Arakawa is a profile in console light over the real far side from orbit, with the
 cutter composited against it. The crew are suited backs on the bright steps of the Keeping House,
 listening on suit radio. The relay is a small composited light, the Lantern, far beyond the Moon.
@@ -663,8 +651,8 @@ below them.
 
                          JAX
                     (keying the band)
-          Commander. Jax Vale. Under the Lunar
-          Courier Exemption, section twelve—
+          Commander. Under the Lunar Courier
+          Exemption, section twelve—
 
                          ARAKAWA (V.O.)
           There are nine sections.
@@ -711,7 +699,7 @@ INSERT (STEADFAST): her hand flat on the console. Done.
 ```
 
 ### 6 · THE KEEPING HOUSE STEPS — A CALL
-**Thread:** B/C · **Target:** T6 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE WIDE
+**Thread:** B/C · **Target:** 25 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE WIDE
 **STAGING:** Continuous on the sunlit steps, cut straight on from 5 with no new establishing shot
 (draft 2 plays it as the tail of 5; it keeps its number so the scene count matches the outline).
 Seo is radio only. Lucía's folded arms and ribbon are an INSERT. Suits and visors throughout.
@@ -724,8 +712,8 @@ A new voice on the local band. Low, calm, unhurried.
                          SEO (V.O.)
                     (radio)
           Any vessel. Shuttle down two
-          kilometres east of the big crater. Two
-          hours of air. No injuries. No hurry.
+          kilometres east. Two hours of air. No
+          injuries. No hurry.
 
                          LUCÍA
           Nobody crashes next to us by accident.
@@ -748,7 +736,7 @@ INSERT: Lucía's arms folded, the ribbon tight on her wrist.
 ```
 
 ### 7 · SEO'S WRECKED SHUTTLE
-**Thread:** B/C · **Target:** T7 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE WIDE
+**Thread:** B/C · **Target:** 65 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE WIDE
 **STAGING:** Seo's helmet; her gloved hands resting on a dead control column. The papers are an
 INSERT on Jax's wrist screen. Her look past them at the ridge is the back of her helmet turning.
 The arithmetic is voice over the real horizon.
@@ -822,21 +810,16 @@ behind it.
           The Moon wobbles. Near the edge, Earth
           peeps over. Your ship is parked where
           Earth will see it in nine minutes.
-
-                         JAX
-          How do you know that?
-
-                         SEO
           I've been sitting here two days
-          watching it peep. It's very regular.
-          Like a cat at a window. There's
+          watching it peep. Like a cat at a
+          window. There's
           nothing else on. Nothing from Earth
           reaches the radio out here. Best
           silence there is.
 ```
 
 ### 8 · THE RIDGE, THEN THE VALLEY — SAVE ONE
-**Thread:** A/B/C · **Target:** T8 s · **Visual:** INSERT / REAL FOOTAGE WIDE / PHOTOREAL SET STILL
+**Thread:** A/B/C · **Target:** 45 s · **Visual:** INSERT / REAL FOOTAGE WIDE / PHOTOREAL SET STILL
 **STAGING:** INSERT: Seo's gloved hands on Jax's controls, and Jax's hands empty in his lap. The
 earthlight on the empty ridge is a composite on the real plate. The V.O. covers the action. Temi's
 window flickers and dies. Lucía watches the back of Seo's helmet.
@@ -915,7 +898,7 @@ END OF ACT ONE.
 # ACT TWO — "Five Impossible Things"
 
 ### 9 · THE KEEPING HOUSE — THE TASKS
-**Thread:** A/B · **Target:** T9 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
+**Thread:** A/B · **Target:** 60 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
 **STAGING:** Kaguya behind the blind. Each task is an INSERT of her brush writing it on a paper
 slip, which Astolfo carries down the hall to its owner. Seo stands at the back in her helmet.
 Lucía's refusal plays on her folded arms. **[VISIBLE MOUTH 1/4]**: Lucía's "Nobody's paying me"
@@ -1001,7 +984,7 @@ A pause behind the blind.
 ```
 
 ### 10 · THE VALLEY — THE DEAD LETTERS
-**Thread:** A/C · **Target:** T10 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** A/C · **Target:** 55 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Astolfo carries PIP, unbolted and tucked under his arm like a lamp, in the pressurised
 dead-letter vault. PIP's lens brightens against the mountain of letters. The invoice is an INSERT.
 Astolfo's visor is down.
@@ -1080,7 +1063,7 @@ NEXT FORWARDING OFFICE: LA MANCHA STATION, MARS.
 ```
 
 ### 11 · THE KEEPING HOUSE — THE LOST WORKSHOP — TWO LIARS
-**Thread:** A/B · **Target:** T11 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** A/B · **Target:** 75 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** A side room in forge orange, with one wall hung floor to ceiling with every tool ever
 dropped down a drain on Earth. Profiles across a workbench. The Baron's moustache. Lucía is behind
 a welding visor, pushed up. The throw is two stills and an INSERT: Jax's hand flicking a screwdriver
@@ -1158,8 +1141,7 @@ INSERT: the Baron's eyes, above the moustache. Noticing.
           with an anecdote.
 
                          JAX
-          Lucha. Silver roots. Gold trunk. White
-          jade. Can you make it?
+          Lucha. Can you make it?
 
                          LUCÍA
           Out of what?
@@ -1194,7 +1176,7 @@ Lucía drops her visor. Which isn't a yes.
 ```
 
 ### 12 · MONTAGE — A DAY ON THE FAR SIDE
-**Thread:** A/B · **Target:** T12 s · **Visual:** MONTAGE (INSERTS)
+**Thread:** A/B · **Target:** 40 s · **Visual:** MONTAGE (INSERTS)
 **STAGING:** The episode's one music-led montage, on koto, shakuhachi and strings, compressing a
 day. Hands and objects only. The last beat is the sunset clock.
 
@@ -1234,7 +1216,7 @@ INSERT: the sunset clock on the bridge. 31:00:00.
 ```
 
 ### 13 · SEO'S SHUTTLE — THE CUT LINE
-**Thread:** B/C · **Target:** T13 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** B/C · **Target:** 65 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Two helmets in a tilted cockpit. The cut line is an INSERT. The photo is an INSERT:
 Lucía's glove reaching for something tucked in the helmet lining on the seat, and Seo's glove
 gently getting there first. Seo's unguarded line plays on the photo, not on her face.
@@ -1325,7 +1307,7 @@ Lucía doesn't know what to say next. That's new.
 ```
 
 ### 14 · THE KEEPING HOUSE — THE BRANCH
-**Thread:** A/B · **Target:** T14 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
+**Thread:** A/B · **Target:** 100 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
 **STAGING:** Jax's lie plays over INSERTS of the branch in its lacquered box: we hear his voice and
 look at the object. Kaguya's delight shows in the fan. The invoice is an INSERT, so Lucía's reading
 plays on the paper. "It never went near a dragon" plays on the back of Jax's head, not on hers:
@@ -1446,7 +1428,7 @@ hall, a thousand flasks ring faintly on their shelves.
 ```
 
 ### 15 · THE VALLEY — SIGHS AND A REPUTATION
-**Thread:** A/B · **Target:** T15 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE WIDE
+**Thread:** A/B · **Target:** 65 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE WIDE
 **STAGING:** Kaguya in the Keeping House doorway in her white suit and smoked visor. Lucía's hose
 into a heap of jars is an INSERT; one jar's label, PETRARCH, is a second INSERT, as the hose goes
 into it anyway. Mira's flask label and her hand putting it back are INSERTS. Jax watching is a
@@ -1497,8 +1479,14 @@ notebook. The heap she mapped an hour ago is not the heap in front
 of her.
 
                          MIRA
-          It moved. Something new got lost while
-          I was drawing.
+          It moved.
+
+                         JAX
+          Heaps move.
+
+                         MIRA
+          This one grew. Something new got lost
+          while I was drawing.
 
 She turns to a low shelf. Stops.
 
@@ -1553,7 +1541,7 @@ Jax doesn't sell anything. For once he just looks at her.
 ```
 
 ### 16 · THE KEEPING HOUSE — SEO'S TASK, THEN THE ROBE
-**Thread:** A/C · **Target:** T16 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
+**Thread:** A/C · **Target:** 75 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
 **STAGING:** Seo in her helmet, her gloved hands empty (INSERT). After "Mostly", hold two full
 seconds on the back of her helmet, then an INSERT of her empty glove slowly closing: it is the
 only reaction she allows herself. The robe in its box is an INSERT: white feathers that look wet
@@ -1664,7 +1652,7 @@ END OF ACT TWO.
 # ACT THREE — "What It Costs to Forget"
 
 ### 17 · THE KEEPING HOUSE — THE GALLERY OF FLASKS — THE RIDDLE
-**Thread:** B/C · **Target:** T17 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** B/C · **Target:** 60 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** A high gallery among shelves of softly shining flasks in amber lamplight, with a tall
 window onto the sunlit Valley. Two backs at the window. The opening is played light and quick; the
 scene slows only at "Jax." Jax's deflections play on the back of his head. Mira's notebook is the
@@ -1721,7 +1709,10 @@ bright Valley. Mira behind him, notebook under her arm.
 
                          MIRA
           It's notes.
-                    (a beat)
+
+A beat.
+
+                         MIRA (CONT'D)
           Jax.
 
                          JAX
@@ -1741,7 +1732,7 @@ YEARS." She underlines nothing. Not yet.
 ```
 
 ### 18 · THE *STEADFAST* — AT L2 — A DUEL OF MANNERS
-**Thread:** C · **Target:** T18 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE (window)
+**Thread:** C · **Target:** 65 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE (window)
 **STAGING:** Arakawa in profile against the sunlit far side from orbit. Chichikov is a soft grey
 figure at the edge of frame and never speaks; everything he "says" is an object (INSERTS: the Voss
 letter, the teacup stencilled T. ARAKAWA, the cup set down exactly on its old ring, the drone
@@ -1831,7 +1822,7 @@ a different seat. She could not say when he moved.
 ```
 
 ### 19 · THE KEEPING HOUSE — THE ROBE'S TERMS
-**Thread:** A/C · **Target:** T19 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** A/C · **Target:** 75 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Kaguya behind the blind. The robe lies in its open box before it (INSERT). The sunset
 clock on Jax's wrist opens the scene (INSERT), so the talk has a fuse. Mira works the logic as the
 back of her head and her pencil. PIP is a lens on Jax's wrist, dimming slightly as he understands.
@@ -1911,7 +1902,7 @@ INSERT: the amber lens on Jax's wrist. It dims, a little.
 ```
 
 ### 20 · THE DEAD-LETTER VAULT — THE VOTE
-**Thread:** B · **Target:** T20 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** B · **Target:** 80 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** The rainbow mountain of envelopes under paper lanterns. PIP sits on a mailsack at the
 foot of it, his lens the centre of the frame, with the crew as backs of heads around him. Jax's
 non-answer is held on the back of his head and Mira's still profile, a silent beat. Seo sits apart
@@ -2001,7 +1992,7 @@ They turn to the lens.
 ```
 
 ### 21 · THE VALLEY'S EDGE — A SKY WITH NO EARTH IN IT
-**Thread:** A/C · **Target:** T21 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT
+**Thread:** A/C · **Target:** 100 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT
 **STAGING:** Two helmets from behind, on suit radio, sitting at the Valley's lip under a black sky
 with no Earth anywhere. Kaguya's smoked visor reflects stars, not Earth. INSERT: the receiver dial
 on Jax's suit. The wordless woman's voice is sound only: no figure, no name. Kaguya switches it
@@ -2117,7 +2108,7 @@ A long beat.
 ```
 
 ### 22 · THE KEEPING HOUSE — THE BARON STAYS
-**Thread:** A · **Target:** T22 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** A · **Target:** 80 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Played fast up to the hatchet, to break the quiet of 21; slow after it. Kaguya behind
 the blind. The Baron's moustache, white again, and his eyes. Astolfo lifts his visor once, for a
 silent beat on "a funnel". The hatchet changes hands as an INSERT.
@@ -2135,7 +2126,7 @@ the door. The Baron's moustache is white again, his lace bright.
                          BARON
           I have never stayed anywhere in my
           life. Not a town. Not a war. Not a
-          wife.
+          wife. Not one of the wives.
 
                          ASTOLFO
           You stayed at my card table. Till
@@ -2194,15 +2185,15 @@ The Baron, who has an answer for everything, has none for that.
 ```
 
 ### 23 · THE DEAD-LETTER VAULT — THE ROBE
-**Thread:** A/B/C · **Target:** T23 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
+**Thread:** A/B/C · **Target:** 65 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
 **STAGING:** White feathers over brass, and the lens is the only "acting": it softens, warms and
 dims in five held stills, one per stage of the forgetting. PIP's voice gets warmer and slower, never
 glitchy (see the voice notes): he sounds pleasant and well, which is what makes it frightening.
 Kaguya is behind a bamboo blind hung from a sorting rack. The lanterns are turned low around PIP,
 and the colours of the envelopes glow behind him. Lucía's knuckles on her own folded arms are an
 INSERT, white. The report with no subject is an INSERT of PIP's screen, cursor blinking after
-"RE:". Seo's glove on her helmet clasp is two INSERTS: closed and still; then open. **[VISIBLE
-MOUTH 3/4]**: Seo takes her helmet off for the first time to say "Stop." This is the first time we
+"RE:". Seo's glove on her helmet clasp is two INSERTS: closed and still; then open.
+**[VISIBLE MOUTH 3/4]**: Seo takes her helmet off for the first time to say "Stop." This is the first time we
 see her face speak, and it should feel like it: it is the face she will have to show Enforcement.
 
 ```
@@ -2311,7 +2302,7 @@ Seo pulls her helmet off. For the first time we see her face.
 # ACT FOUR — "Two Faces"
 
 ### 24 · THE DEAD-LETTER VAULT — SEO'S PLAN
-**Thread:** A/B/C · **Target:** T24 s · **Visual:** INSERT / PHOTOREAL SET STILL
+**Thread:** A/B/C · **Target:** 100 s · **Visual:** INSERT / PHOTOREAL SET STILL
 **STAGING:** The robe coming off is an INSERT. The relief laugh at PIP's first line plays on
 Lucía's arms unfolding. Lucía's questions to Seo play on Seo's bare head from behind, then on her
 gloves putting the helmet back on as she answers "Yes" the second time. The plan is Seo's grease
@@ -2385,8 +2376,8 @@ Moon's near face and writes EARTH SEES. The far face: SHE SEES.
           And we're on hers.
 
                          SEO
-          So pay the bank. Then Earth's face is
-          safe. We fly the far side low, at
+          Pay the bank, and Earth's face is
+          safe. Then we fly the far side low, at
           sunset, over the edge. Once we're
           over, the Moon is between us and her.
           She has to come all the way round.
@@ -2445,7 +2436,7 @@ Moon's near face and writes EARTH SEES. The far face: SHE SEES.
 ```
 
 ### 25 · BRIDGE / *STEADFAST* — THE PAYMENT
-**Thread:** A/C · **Target:** T25 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** A/C · **Target:** 95 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Arakawa's profile and her hands. Chichikov is soft focus beside her, and his three slips
 of paper and his notebook are INSERTS; the third slip is laid square on top of the second, in the
 same neat hand. Temi's message is an INSERT on PIP's screen, held long enough to read the P.S.; the
@@ -2462,11 +2453,11 @@ INT. THE UNSCHEDULED — BRIDGE — DAY
 
 INT. STEADFAST — BRIDGE — CONTINUOUS
 
-A pause. Arakawa, in profile, as if she has misheard.
+A long pause. Arakawa, in profile, as if she has misheard.
 
                          JAX (V.O.)
-          My bank. I need the
-          relay. One minute.
+          Yes. Me. I need the relay. One
+          minute.
 
 INSERT: a soft grey hand slides a slip of paper onto her console.
 VOSS REQUESTS THAT YOU REFUSE.
@@ -2489,9 +2480,6 @@ INSERT: PIP's screen. SENDING. Then a reply, in a cheerful font.
           nine. That's a first! Your air is your
           own. P.S. One coffee machine remains
           outstanding. Temi, Lagos."
-
-                         LUCÍA
-          Eighteen eighty-nine?
 
                          KAGUYA
                     (radio)
@@ -2568,7 +2556,7 @@ INSERT: she folds both slips in half, and sets them face down.
 ```
 
 ### 26 · THE VALLEY — GOODBYE
-**Thread:** A · **Target:** T26 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT
+**Thread:** A · **Target:** 55 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT
 **STAGING:** Suit radio. The Baron on the step of the Keeping House, the terminator coming across the
 Valley behind him. Kaguya is in the doorway, a white suit behind a hand-held fan. Astolfo has a
 flask under his arm. The salute with no hat is an INSERT of a bare glove at a bare helmet. Hold
@@ -2646,7 +2634,7 @@ It does not move.
 ```
 
 ### 27 · THE FAR SIDE — SUNSET
-**Thread:** A · **Target:** T27 s · **Visual:** REAL FOOTAGE WIDE
+**Thread:** A · **Target:** 20 s · **Visual:** REAL FOOTAGE WIDE
 **STAGING:** A pure plate with the ships composited. Score only (shakuhachi). No dialogue.
 
 ```
@@ -2663,7 +2651,7 @@ turns with it.
 ```
 
 ### 28 · COCKPIT — THE LIMB RUN (SAVE TWO)
-**Thread:** A/B/C · **Target:** T28 s · **Visual:** PHOTOREAL CLOSE-UP (helmets lit by the dash) / DATA VISUAL / REAL FOOTAGE WIDE
+**Thread:** A/B/C · **Target:** 65 s · **Visual:** PHOTOREAL CLOSE-UP (helmets lit by the dash) / DATA VISUAL / REAL FOOTAGE WIDE
 **STAGING:** All helmets, dash light and the laser terrain mesh, as in E01's scene 27. Seo's gloved
 hands are the hero insert. Arakawa is radio only. Lucía is a voice from the engine bay; the beat
 before her "...Let her shake" is two seconds of engine noise on the open channel, nothing else.
@@ -2757,7 +2745,7 @@ Seo says nothing.
 ```
 
 ### 29 · OVER THE LIMB — EARTHRISE
-**Thread:** A · **Target:** T29 s · **Visual:** REAL FOOTAGE WIDE (Artemis/Orion Earthrise)
+**Thread:** A · **Target:** 20 s · **Visual:** REAL FOOTAGE WIDE (Artemis/Orion Earthrise)
 **STAGING:** The plate alone, with radio static, then silence.
 
 ```
@@ -2776,7 +2764,7 @@ Silence. Earth, rising.
 ```
 
 ### 30 · BRIDGE — AFTERWARDS
-**Thread:** A/B/C · **Target:** T30 s · **Visual:** PHOTOREAL SET STILL / REAL FOOTAGE (window) / INSERT
+**Thread:** A/B/C · **Target:** 80 s · **Visual:** PHOTOREAL SET STILL / REAL FOOTAGE (window) / INSERT
 **STAGING:** Backs of heads against a window full of Earth. PIP's lens. INSERT: AIR steady. INSERT:
 Lucía's eyes on the back of Seo's helmet. PIP's lost label plays on the lens, held. The V.O. runs
 over Earth in the window. **[VISIBLE MOUTH 4/4]**: Lucía's "You made it ten" may play on her face,
@@ -2880,7 +2868,7 @@ INSERT: Lucía's eyes, on the back of Seo's helmet.
 # TAG
 
 ### 31 · THE *STEADFAST* / SEO'S BUNK / THE KEEPING HOUSE
-**Thread:** C · **Target:** T31 s · **Visual:** INSERT / PHOTOREAL SET STILL
+**Thread:** C · **Target:** 30 s · **Visual:** INSERT / PHOTOREAL SET STILL
 **STAGING:** Order changed from draft 1: Arakawa first, so Pell's reply lands on Seo as the price of
 "Stop". Arakawa's log is her voice over her profile. Seo's report is text on her wrist screen, so no
 one speaks; the typed-and-deleted line is one INSERT with the cursor eating it backwards. The photo

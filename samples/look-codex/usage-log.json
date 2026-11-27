@@ -2486,5 +2486,493 @@
    "ERROR: You\u2019ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 7:25 PM.",
    "ERROR: You\u2019ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 7:25 PM."
   ]
+ },
+ {
+  "time": "2026-11-27T16:39:08",
+  "job": "e01/E01-J042",
+  "name": "e01-j042_parcel_tilted_labels",
+  "purpose": "E01 still E01-J042",
+  "refs": [
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 61.2,
+  "tokens_used": 12018,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21ddf-0e0d-7263-80d2-ec717242bd6c",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 2.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 0.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:39:08",
+  "job": "e01/E01-J036",
+  "name": "e01-j036_baron_rising",
+  "purpose": "E01 still E01-J036",
+  "refs": [
+   "master.jpg",
+   "holding-cage-bright.jpg",
+   "master.jpg"
+  ],
+  "seconds": 62.2,
+  "tokens_used": 16765,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21ddf-0dd7-70c2-8025-c87d68367712",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 2.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 0.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:39:54",
+  "job": "e01/E01-J046",
+  "name": "e01-j046_fingers_on_padlock",
+  "purpose": "E01 still E01-J046",
+  "refs": [
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 40.1,
+  "tokens_used": 14843,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21de0-1632-7490-b830-b78f8cab9ea9",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 3.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 0.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:40:18",
+  "job": "e01/E01-J045",
+  "name": "e01-j045_baron_back_at_gate",
+  "purpose": "E01 still E01-J045",
+  "refs": [
+   "master.jpg",
+   "holding-cage-bright.jpg",
+   "master.jpg"
+  ],
+  "seconds": 63.8,
+  "tokens_used": 12357,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21de0-16c2-7202-b157-b4f07b1e923c",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 3.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 1.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:40:34",
+  "job": "e01/E01-J047",
+  "name": "e01-j047_clock_stopped",
+  "purpose": "E01 still E01-J047",
+  "refs": [
+   "holding-cage-bright.jpg"
+  ],
+  "seconds": 39.5,
+  "tokens_used": 8973,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21de0-b35b-7d43-bc14-595bf854cad8",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 4.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 1.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:41:16",
+  "job": "e01/E01-J049",
+  "name": "e01-j049_office_noakes_silhouette",
+  "purpose": "E01 still E01-J049",
+  "refs": [
+   "noakes-office-bright.jpg",
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 57.6,
+  "tokens_used": 22418,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21de1-1013-7671-b8f0-037ebf869851",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 5.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 1.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:42:20",
+  "job": "e01/E01-J042",
+  "name": "e01-j042_parcel_tilted_labels",
+  "purpose": "E01 still E01-J042",
+  "refs": [
+   "master.jpg",
+   "master.jpg",
+   "holding-cage-bright.jpg"
+  ],
+  "seconds": 55.8,
+  "tokens_used": 11889,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21de2-125c-7402-bcba-1696d1665329",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 7.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 1.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:42:33",
+  "job": "e01/E01-J045",
+  "name": "e01-j045_baron_back_at_gate",
+  "purpose": "E01 still E01-J045",
+  "refs": [
+   "master.jpg",
+   "holding-cage-bright.jpg",
+   "master.jpg",
+   "master-bright.jpg"
+  ],
+  "seconds": 69.2,
+  "tokens_used": 14715,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21de2-136b-7931-9144-703910084222",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 8.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 1.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:43:33",
+  "job": "e01/E01-J046",
+  "name": "e01-j046_fingers_on_padlock",
+  "purpose": "E01 still E01-J046",
+  "refs": [
+   "master.jpg",
+   "master.jpg",
+   "master-bright.jpg"
+  ],
+  "seconds": 73.2,
+  "tokens_used": 15258,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21de2-ecff-7e82-a123-9a2eae0c5f07",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 9.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 1.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:43:34",
+  "job": "e01/E01-J053",
+  "name": "e01-j053_noakes_turning",
+  "purpose": "E01 still E01-J053",
+  "refs": [
+   "master.jpg",
+   "noakes-office-bright.jpg"
+  ],
+  "seconds": 59.9,
+  "tokens_used": 18925,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21de3-21d2-7991-8bb0-13a8eeb575d5",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 9.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 1.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:44:27",
+  "job": "e01/E01-J051",
+  "name": "e01-j051_jax_office_amused",
+  "purpose": "E01 still E01-J051",
+  "refs": [
+   "master.jpg",
+   "noakes-office-bright.jpg"
+  ],
+  "seconds": 49.6,
+  "tokens_used": 9921,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21de4-1ba5-7c72-b6bb-4263b1c7e59e",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 10.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 2.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:44:40",
+  "job": "e01/E01-J049",
+  "name": "e01-j049_office_noakes_silhouette",
+  "purpose": "E01 still E01-J049",
+  "refs": [
+   "noakes-office-bright.jpg",
+   "master.jpg",
+   "master.jpg",
+   "ref-wrist.jpg"
+  ],
+  "seconds": 62.1,
+  "tokens_used": 14767,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21de4-1c1a-7751-8c7d-11028489f328",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 11.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 2.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]
