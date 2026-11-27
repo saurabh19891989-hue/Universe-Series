@@ -3500,5 +3500,45 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T16:53:10",
+  "job": "e01/E01-J041",
+  "name": "e01-j041_tag_on_button",
+  "purpose": "E01 still E01-J041",
+  "refs": [
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 46.6,
+  "tokens_used": 25695,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dec-206b-7313-b25d-3deb5a997d59",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 23.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 4.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]
