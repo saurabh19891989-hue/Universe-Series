@@ -4514,5 +4514,46 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T17:08:57",
+  "job": "e01/E01-J021",
+  "name": "e01-j021_mira_reflection_glass",
+  "purpose": "E01 still E01-J021",
+  "refs": [
+   "master.jpg",
+   "desk-bright.jpg",
+   "ref-glass-screen.jpg"
+  ],
+  "seconds": 58.7,
+  "tokens_used": 24562,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dfa-65e7-7d51-963d-0959c9ffe009",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 53.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 8.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]
