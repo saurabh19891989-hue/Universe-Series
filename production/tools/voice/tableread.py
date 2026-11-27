@@ -319,7 +319,7 @@ def main():
         x = np.concatenate(acts[fi]).astype("float32")
         mp3 = os.path.join(a.out, f"{a.prefix}-{FILE_NAMES[fi]}.mp3")
         I0, _ = loud(x); g = -16 - I0; ceil = -3.8
-        for outer in range(1, 5):
+        for outer in range(1, 7):
             for it_ in range(6):       # solve the gain so the limited signal sits at -16 LUFS
                 y = limit((x * 10 ** (g / 20)).astype("float32"), ceil)
                 Ipre, _ = loud(y)
@@ -329,8 +329,9 @@ def main():
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wavp, "-ar", str(SR), "-ac", "1",
                             "-c:a", "libmp3lame", "-abr", "1", "-b:a", a.bitrate, mp3], check=True)
             d = decode(mp3); I, tp = loud(d)
-            if tp <= -1.5: break
-            ceil -= (tp + 1.5 + 0.2)
+            if tp > -1.6: ceil -= (tp + 1.6 + 0.1); g += 0.0
+            elif abs(I + 16) > 0.25: g += (-16 - I)
+            else: break
         attempt = outer
         size = os.path.getsize(mp3)
         report[fi] = dict(file=os.path.basename(mp3), duration_s=round(len(d) / SR, 2), size_mb=round(size / 1e6, 3),
