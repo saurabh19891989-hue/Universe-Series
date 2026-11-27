@@ -158,17 +158,19 @@ LOOKS = {
                   vignette=0.0, hum=0.0, grain=0.01, dust=0.0, glare=0.0, seed=17),
 }
 
-_noise_bank = None
+_noise_big = None
 _cache = {}
 
 
 def _noise(i):
-    global _noise_bank
-    if _noise_bank is None:
+    """cheap grain: crop a random window out of a big pre-generated noise field"""
+    global _noise_big
+    if _noise_big is None:
         rs = np.random.RandomState(1234)
-        _noise_bank = [rs.randn(H, W).astype(np.float32) for _ in range(6)]
-    n = _noise_bank[i % 6]
-    return np.roll(np.roll(n, (i * 37) % W, axis=1), (i * 11) % H, axis=0)
+        _noise_big = rs.randn(H * 2, W * 2).astype(np.float32)
+    ox = int(rnd("nx", i) * W)
+    oy = int(rnd("ny", i) * H)
+    return _noise_big[oy:oy + H, ox:ox + W]
 
 
 def _glass(look):
@@ -233,21 +235,20 @@ def _glass(look):
 
 
 def core(frame, i, t, look, return_pre=False):
-    """emissive display look: soft + bloom + scan lines + flicker + grain. float32 RGB 0..~1"""
+    """emissive display look: soft + bloom + scan lines + flicker + grain. float32 RGB 0..~1.5"""
     x = frame.astype(np.float32)
     if look.soft > 0:
         x = cv2.GaussianBlur(x, (0, 0), look.soft)
     if look.bloom > 0:
         small = cv2.resize(x, (W // 4, H // 4), interpolation=cv2.INTER_AREA)
-        b1 = cv2.resize(cv2.GaussianBlur(small, (0, 0), look.bloom_r[0]), (W, H), interpolation=cv2.INTER_LINEAR)
-        b2 = cv2.resize(cv2.GaussianBlur(small, (0, 0), look.bloom_r[1]), (W, H), interpolation=cv2.INTER_LINEAR)
-        x = x + look.bloom * (0.55 * b1 + 0.45 * b2)
+        b1 = cv2.GaussianBlur(small, (0, 0), look.bloom_r[0])
+        b2 = cv2.GaussianBlur(small, (0, 0), look.bloom_r[1])
+        bl = cv2.resize(b1 * (0.55 * look.bloom) + b2 * (0.45 * look.bloom), (W, H), interpolation=cv2.INTER_LINEAR)
+        x += bl
     if look.chroma:
         c = look.chroma
-        M1 = np.float32([[1, 0, c], [0, 1, 0]])
-        M2 = np.float32([[1, 0, -c], [0, 1, 0]])
-        x[..., 0] = cv2.warpAffine(x[..., 0], M1, (W, H))
-        x[..., 2] = cv2.warpAffine(x[..., 2], M2, (W, H))
+        x[..., 0] = cv2.warpAffine(x[..., 0], np.float32([[1, 0, c], [0, 1, 0]]), (W, H))
+        x[..., 2] = cv2.warpAffine(x[..., 2], np.float32([[1, 0, -c], [0, 1, 0]]), (W, H))
     yy = np.arange(H, dtype=np.float32)
     mod = np.ones(H, np.float32)
     if look.scan > 0:
@@ -256,30 +257,41 @@ def core(frame, i, t, look, return_pre=False):
     if look.hum > 0:  # slow-moving brightness band
         y0 = (t * 55 + look.seed * 200) % (H + 300) - 150
         mod *= 1.0 + look.hum * np.exp(-((yy - y0) / 120.0) ** 2)
-    x = x * mod[:, None, None]
-    # flicker: slow wobble + frame jitter
     g = 1.0 + look.flicker * (math.sin(t * 7.3 + look.seed) * 0.5 + (rnd(look.seed, i) - 0.5) * 1.6)
-    x = x * g
-    pre = np.clip(x, 0, 1.5)
+    x *= (mod * g)[:, None, None].astype(np.float32)
+    pre = np.minimum(x, 1.5)
+    if not return_pre:
+        pre = x
     if look.grain > 0:
         n = _noise(i)
-        x = x + (n * look.grain * (0.25 + np.clip(x.mean(axis=2), 0, 1)))[..., None]
+        gl = np.minimum(x[..., 1], 1.0)
+        x = x + (n * (look.grain * (0.25 + gl)))[..., None]
     x = np.clip(x, 0, 1.5)
     return (x, pre) if return_pre else x
 
 
 def glass(x, i, t, look):
+    """returns uint8 RGB (H,W,3) after glass effects."""
     vig, dust, smudge, gl, remap = _glass(look)
+    key = ("gain", look.seed, look.curve, look.vignette, look.dust, look.base)
+    if key not in _cache:
+        gain = (vig * smudge).astype(np.float32)
+        add = (dust * 0.1375 + gl * np.array([0.8, 0.9, 1.0], np.float32)).astype(np.float32)
+        _cache[key] = (gain, add, dust[..., 0] * 0.88)
+    gain, add, dcoup = _cache[key]
     b = np.array(look.base, np.float32)
-    y = x + b
-    y = y * vig * smudge
-    lum = cv2.GaussianBlur(cv2.resize(y.mean(axis=2), (W // 8, H // 8)), (0, 0), 3)
-    lum = cv2.resize(lum, (W, H))[..., None]
-    y = y + dust * (0.25 + 1.6 * np.clip(lum, 0, 1)) * np.array([1, 1, 1], np.float32) * 0.55
-    y = y + gl * np.array([0.8, 0.9, 1.0], np.float32)
+    y = (x + b) * gain
+    y += add
+    if look.dust > 0:
+        lum = cv2.resize(np.minimum(x[..., 1], 1.0), (W // 8, H // 8), interpolation=cv2.INTER_AREA)
+        lum = cv2.resize(cv2.GaussianBlur(lum, (0, 0), 3), (W, H), interpolation=cv2.INTER_LINEAR)
+        y += (dcoup * lum)[..., None]
+    out = np.empty((H, W, 3), np.uint8)
+    np.multiply(np.clip(y, 0, 1), 255, out=y)
+    out[:] = (y + 0.5).astype(np.uint8)
     if remap is not None:
-        y = cv2.remap(y, remap[0], remap[1], cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT)
-    return y
+        out = cv2.remap(out, remap[0], remap[1], cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT)
+    return out
 
 
 def to_alpha(x):
@@ -343,7 +355,7 @@ def render(spec, outdir, stilldir=None, quick=False):
         fr = to_f(img) if isinstance(img, Image.Image) else img
         c, c_pre = core(fr, i, t, spec.look, True)
         g = glass(c, i, t, spec.look)
-        out8 = (np.clip(g, 0, 1) * 255 + 0.5).astype(np.uint8)
+        out8 = g
         p264.stdin.write(out8.tobytes())
         if pm is not None:
             if spec.dual:
