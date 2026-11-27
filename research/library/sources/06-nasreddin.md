@@ -33,7 +33,7 @@ Also useful: "I neither buy nor sell the moon" (asked the moon's phase); "When t
 - A cauldron with a baby saucepan in it.
 - A fur pelisse being offered soup.
 - A pot full of 120 stones.
-- A man standing in a well-bucket rope tangle, flat on his back, delighted that the moon is "back in its place" in the sky.
+- A man flat on his back beside a well, a snapped rope in his hands, delighted that the moon is "back in its place" in the sky.
 - A tortoise tied to a spade: "you must now learn to work."
 
 ## Character behaviours (in our words)

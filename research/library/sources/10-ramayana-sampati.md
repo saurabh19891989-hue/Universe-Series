@@ -46,7 +46,7 @@ The deep difference: Icarus's story ends at the fall; Sampati's *begins* there. 
 
 ## What retellings get wrong
 - Popular retellings compress him into "the vulture who told Hanuman where Sita was". In the text he is the hero of his own tragedy — a sacrifice, a hundred-season penance, and a resurrection.
-- He is not a monster; Hanuman briefly thinks Yama himself has come, but Sampati is a grieving king.
+- He is not a monster; the searchers briefly think Death (Yama) himself has come for them, but Sampati is a grieving king.
 
 ## Sensitivities
 - Per canon: Sampati is heroic and dignified; no Rama, Sita or Hanuman as characters. In our version the information he gives must be about our own story (e.g. a person or ship he saw from far away), not about Sita.

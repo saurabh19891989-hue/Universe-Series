@@ -131,6 +131,16 @@ a son he has never met hunting him, and suitors in his house.
 Deeper layers for later seasons: who built the Atlas; why the first delistings were acts of
 protection; what the Storied were being hidden from.
 
+
+**From the source library (27 Nov) — strengthens the secret.** In the Odyssey, Odysseus is kept
+for seven years by Calypso, whose name means "she who conceals" and who is the daughter of
+Atlas. Jax has no records before seven years ago. So in our story the Atlas is not only a map:
+its keeper is the Concealer, and the first delisting was an act of love — she hid him to keep
+him. This is the root of "the erasures began as protection". Do not reveal before Season 2.
+Also from the library: if the parcel holds wood from the olive-tree bed, someone has cut the
+tree at its root, so the bed can no longer prove who he is (finale stakes); and Nemo must be
+Verne's original Prince Dakkar, a freedom fighter — the old English translation censored this.
+
 ## 7. Season map (Season 1 detailed in `canon/season-01.md`)
 
 | Season | Playground | Shape |
