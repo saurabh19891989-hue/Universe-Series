@@ -95,7 +95,7 @@
   },
   "E01-J013": {
    "priority": 1,
-   "status": "pending",
+   "status": "accepted",
    "attempts": 1,
    "seconds": [
     67.0
@@ -105,24 +105,39 @@
    ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: MIRA-LUCIA-REFS-READY"
+    "released: MIRA-LUCIA-REFS-READY",
+    "Lucia's palm-up hand with red ribbon (matches ref-wrist-ribbon) from dark machine opening, Jax's orange sleeve gives spanner; soft background is teal corridor rather than the green hold - minor"
    ],
    "refs_used": [
     "assets/characters/lucia/master.jpg",
     "assets/characters/jax/master.jpg",
     "assets/characters/lucia/ref-wrist-ribbon.jpg"
-   ]
+   ],
+   "file": "episodes/E01/stills/e01-j013_hand_ribbon_palm.jpg",
+   "jpg_bytes": 367237
   },
   "E01-J017": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    46.2
+   ],
+   "tokens": [
+    22787
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: MIRA-LUCIA-REFS-READY"
-   ]
+    "released: MIRA-LUCIA-REFS-READY",
+    "Lucia's palm with red ribbon flat on the labelled brown-paper parcel (matches parcel prop), coverall sleeve; no face"
+   ],
+   "refs_used": [
+    "assets/characters/lucia/master.jpg",
+    "assets/props/parcel/master.jpg",
+    "assets/characters/lucia/ref-wrist-ribbon.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j017_palm_on_parcel.jpg",
+   "jpg_bytes": 658692
   },
   "E01-J019": {
    "priority": 1,
@@ -153,24 +168,47 @@
   },
   "E01-J020": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    65.6
+   ],
+   "tokens": [
+    20216
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: MIRA-LUCIA-REFS-READY"
-   ]
+    "released: MIRA-LUCIA-REFS-READY",
+    "OTS Mira's braid/indigo collar (matches ref-back) through scratched glass; speaking-disc hides Jax's mouth exactly as specified; Jax matches master; windows black"
+   ],
+   "refs_used": [
+    "assets/characters/mira/master.jpg",
+    "assets/characters/jax/master.jpg",
+    "assets/sets/customs/desk-bright.jpg",
+    "assets/characters/mira/ref-back.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j020_ots_mira_to_jax.jpg",
+   "jpg_bytes": 497088
   },
   "E01-J021": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "rejected-retrying",
+   "attempts": 1,
+   "seconds": [
+    121.6
+   ],
+   "tokens": [
+    14439
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: MIRA-LUCIA-REFS-READY"
+    "released: MIRA-LUCIA-REFS-READY",
+    "REJECTED: Mira reflection good (matches master) but the hall behind is crowded with travellers - the hall is empty (the library's ref-glass-screen also shows a crowd)"
+   ],
+   "refs_used": [
+    "assets/characters/mira/master.jpg",
+    "assets/sets/customs/desk-bright.jpg",
+    "assets/characters/mira/ref-glass-screen.jpg"
    ]
   },
   "E01-J022": {
@@ -304,14 +342,25 @@
   },
   "E01-J043": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    51.5
+   ],
+   "tokens": [
+    19779
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: MIRA-LUCIA-REFS-READY"
-   ]
+    "released: MIRA-LUCIA-REFS-READY",
+    "ECU brass loupe magnifying Mira's dark eye, ink-stained fingers, chain; matches new ref-loupe-eye and master"
+   ],
+   "refs_used": [
+    "assets/characters/mira/master.jpg",
+    "assets/characters/mira/ref-loupe-eye.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j043_mira_loupe_eye.jpg",
+   "jpg_bytes": 406730
   },
   "E01-J044": {
    "priority": 1,
@@ -381,25 +430,48 @@
   },
   "E01-J055": {
    "priority": 2,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "rejected-retrying",
+   "attempts": 1,
+   "seconds": [
+    65.7
+   ],
+   "tokens": [
+    31992
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: new Mira/Lucia masters approved by owner; job needs master only"
+    "released: new Mira/Lucia masters approved by owner; job needs master only",
+    "REJECTED: faces lit and turned to each other, Lucia mid-laugh with mouth open; job wants four heads from behind as silhouettes (dialogue cover)"
+   ],
+   "refs_used": [
+    "assets/sets/postchaise/cab-bright.jpg",
+    "assets/characters/baron/master.jpg",
+    "assets/characters/lucia/master.jpg",
+    "assets/characters/jax/master.jpg"
    ]
   },
   "E01-J057": {
    "priority": 2,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    41.3
+   ],
+   "tokens": [
+    27398
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: MIRA-LUCIA-REFS-READY"
-   ]
+    "released: MIRA-LUCIA-REFS-READY",
+    "Lucia's grease-stained hands on worn rover wheel, red ribbon, coverall cuffs match master, windscreen black; cab matches"
+   ],
+   "refs_used": [
+    "assets/characters/lucia/master.jpg",
+    "assets/sets/postchaise/cab-bright.jpg",
+    "assets/characters/lucia/ref-wrist-ribbon.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j057_hands_on_wheel.jpg",
+   "jpg_bytes": 444378
   },
   "E01-J058": {
    "priority": 2,
@@ -1128,19 +1200,22 @@
   },
   "E01-J007": {
    "priority": 1,
-   "status": "rejected-retrying",
-   "attempts": 2,
+   "status": "accepted",
+   "attempts": 3,
    "seconds": [
     58.2,
-    67.1
+    67.1,
+    48.4
    ],
    "tokens": [
     14400,
-    19014
+    19014,
+    14446
    ],
    "notes": [
     "PIP sharp foreground matches master; Jax behind is lit and only mildly soft rather than a dark silhouette (consistent with brighter direction), back/profile matches hair+jacket; window black",
-    "REJECTED: silhouette fix attempt: Jax is now a flat sharp cut-out with a traced orange outline - looks pasted, not photographic, and not out of focus"
+    "REJECTED: silhouette fix attempt: Jax is now a flat sharp cut-out with a traced orange outline - looks pasted, not photographic, and not out of focus",
+    "3rd attempt: Jax now a soft out-of-focus dark silhouette with faint warm rim against black window, PIP sharp and bright. Prompt changed: silhouette + soft focus + old image as ref"
    ],
    "refs_used": [
     "assets/props/pip/master.jpg",
@@ -1149,8 +1224,8 @@
     "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/e01/redo-src/e01-j007_pip_fg_jax_bg.png"
    ],
    "file": "episodes/E01/stills/e01-j007_pip_fg_jax_bg.jpg",
-   "jpg_bytes": 483872,
-   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. PIP sharp in the foreground on the bridge console, amber lens glowing; behind it, soft and out of focus, Jax Vale seated with his back three-quarters to us as a true dark silhouette: his body and face unlit and near-black, readable only by a thin warm amber rim light from the console tracing the edge of his curly hair, shoulder and jacket against the pure-black window. The PIP foreground and the console are brightly lit. PIP: small brass-and-cream machine like a desk lamp crossed with a postal scale, one glowing amber lens, a rubber-stamp arm; photographed as a real practical object. Jax Vale: Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later). | extra ref note: The last reference image is the earlier version of this shot: keep PIP, the console and the framing, but Jax must now be a true dark rim-lit silhouette."
+   "jpg_bytes": 561470,
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. PIP sharp in the foreground on the bridge console, amber lens glowing; behind it, soft and out of focus, Jax Vale seated with his back three-quarters to us as a true dark silhouette: his body and face unlit and near-black, readable only by a soft natural warm rim light from the side console catching the curls of his hair and the edge of one shoulder; he is well behind PIP and clearly OUT OF FOCUS (shallow depth of field, soft blurred edges), photographed in-camera, not a hard graphic cut-out shape and no outline drawn around him. The PIP foreground and the console are brightly lit. PIP: small brass-and-cream machine like a desk lamp crossed with a postal scale, one glowing amber lens, a rubber-stamp arm; photographed as a real practical object. Jax Vale: Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later). | extra ref note: The last reference image is the earlier version of this shot: keep PIP, the console and the framing, but Jax must now be a true dark rim-lit silhouette."
   },
   "E01-J014": {
    "priority": 1,
@@ -1486,7 +1561,7 @@
   },
   "E01-J023": {
    "priority": 1,
-   "status": "pending",
+   "status": "accepted",
    "attempts": 1,
    "seconds": [
     57.0
@@ -1494,11 +1569,15 @@
    "tokens": [
     11977
    ],
-   "notes": [],
+   "notes": [
+    "Extreme wide bright hall, tiny Baron on freight scale with small hovering drone at far end, benches lead to him, windows black"
+   ],
    "refs_used": [
     "assets/sets/customs/master-bright.jpg",
     "assets/characters/baron/master.jpg"
-   ]
+   ],
+   "file": "episodes/E01/stills/e01-j023_hall_xwide_baron_scale.jpg",
+   "jpg_bytes": 642240
   },
   "E01-J028": {
    "priority": 1,
@@ -1707,27 +1786,56 @@
   },
   "E01-J054": {
    "priority": 2,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    39.0
+   ],
+   "tokens": [
+    5891
+   ],
+   "notes": [
+    "Generated rim-road plate: black starless sky, hard low sun (in frame with lens flare), grey regolith, road with marker posts along crater rim; no Earth/Moon drawn"
+   ],
+   "refs_used": [],
+   "file": "episodes/E01/stills/e01-j054_rim_road_plate.jpg",
+   "jpg_bytes": 655553
   },
   "E01-J056": {
    "priority": 2,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    43.3
+   ],
+   "tokens": [
+    27771
+   ],
+   "notes": [
+    "Baron's red sleeve + lace cuff pointing grandly out of pure-black rover side window, cab matches postchaise cab-interior"
+   ],
+   "refs_used": [
+    "assets/characters/baron/master.jpg",
+    "assets/sets/postchaise/cab-bright.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j056_baron_arm_window.jpg",
+   "jpg_bytes": 514572
   },
   "E01-J109": {
    "priority": 2,
    "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "attempts": 1,
+   "seconds": [
+    55.4
+   ],
+   "tokens": [
+    25291
+   ],
+   "notes": [],
+   "refs_used": [
+    "assets/characters/baron/master.jpg",
+    "assets/sets/postchaise/cab-bright.jpg"
+   ]
   },
   "E01-J059": {
    "priority": 2,
@@ -2467,6 +2575,17 @@
    "five_hour_used_percent": 24.0,
    "five_hour_resets": "2026-11-27 21:38 UTC",
    "weekly_used_percent": 4.0,
+   "weekly_resets": "2026-12-04 16:38 UTC"
+  },
+  {
+   "read_at": "2026-11-27T17:04:51Z",
+   "label": "after P1 nearly done (~51 accepted)",
+   "source": "rollout-2026-11-27T17-04-07-01a21df6-dcc4-7a01-83d5-7ff1a5c936f9.jsonl",
+   "source_mtime": "17:04:48Z",
+   "newer_rollouts_without_reading": 0,
+   "five_hour_used_percent": 43.0,
+   "five_hour_resets": "2026-11-27 21:38 UTC",
+   "weekly_used_percent": 7.0,
    "weekly_resets": "2026-12-04 16:38 UTC"
   }
  ],
