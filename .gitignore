@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.wav
+.venv/
+venv/
+*.safetensors
+*.onnx
+*.sf2
+*.sfz
+.DS_Store

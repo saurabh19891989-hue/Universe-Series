@@ -1,0 +1,22 @@
+{
+  "JAX": {
+    "voice": "en-US-GuyNeural",
+    "rate": "+10%",
+    "pitch": "+0Hz"
+  },
+  "MIRA": {
+    "voice": "en-IN-NeerjaNeural",
+    "rate": "-3%",
+    "pitch": "-2Hz"
+  },
+  "PIP": {
+    "voice": "en-GB-RyanNeural",
+    "rate": "+8%",
+    "pitch": "+0Hz"
+  },
+  "BARON": {
+    "voice": "en-GB-ThomasNeural",
+    "rate": "-12%",
+    "pitch": "-6Hz"
+  }
+}

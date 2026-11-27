@@ -1,0 +1,30 @@
+{
+  "JAX": {
+    "model": "en_US-joe-medium",
+    "length": 0.92,
+    "noise": 0.667,
+    "noisew": 0.8
+  },
+  "MIRA": {
+    "model": "en_GB-vctk-medium",
+    "spk": 87,
+    "length": 1.05,
+    "noise": 0.5,
+    "noisew": 0.6,
+    "vctk": "p248 (Indian-accented female)"
+  },
+  "PIP": {
+    "model": "en_GB-vctk-medium",
+    "spk": 95,
+    "length": 0.92,
+    "noise": 0.3,
+    "noisew": 0.4,
+    "vctk": "p226 (British male)"
+  },
+  "BARON": {
+    "model": "en_GB-northern_english_male-medium",
+    "length": 1.15,
+    "noise": 0.8,
+    "noisew": 0.9
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "JAX": {
+    "voice": "am_michael",
+    "speed": 1.08,
+    "lang": "en-us"
+  },
+  "MIRA": {
+    "voice": "bf_emma",
+    "speed": 0.93,
+    "lang": "en-gb"
+  },
+  "PIP": {
+    "voice": "bm_daniel",
+    "speed": 1.1,
+    "lang": "en-gb"
+  },
+  "BARON": {
+    "voice": "am_onyx",
+    "speed": 0.85,
+    "lang": "en-us"
+  }
+}
