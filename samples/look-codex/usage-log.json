@@ -761,5 +761,200 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T15:07:17",
+  "job": "B_mira3",
+  "name": "mira3_smile_daylight",
+  "purpose": "B consistency mira 3",
+  "refs": [
+   "mira_master.png"
+  ],
+  "seconds": 53.5,
+  "tokens_used": 16734,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d8b-14eb-7070-9932-6a5746e48596",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 37.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 90.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:07:22",
+  "job": "B_baron3",
+  "name": "baron3_full_lunar",
+  "purpose": "B consistency baron 3",
+  "refs": [
+   "baron_master.png"
+  ],
+  "seconds": 58.7,
+  "tokens_used": 15795,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d8b-14e7-7231-8d0e-dbde21095388",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 37.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 90.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:08:19",
+  "job": "C_edit2",
+  "name": "jax_mouth2",
+  "purpose": "C edit test 2",
+  "refs": [
+   "exec-49c62053-cf43-4c36-8b76-929db662a6ae.png"
+  ],
+  "seconds": 42.5,
+  "tokens_used": 23501,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d8c-3414-7d71-8aec-1608b9d67fdf",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 38.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 90.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:08:20",
+  "job": "C_edit1",
+  "name": "jax_mouth1",
+  "purpose": "C edit test 1",
+  "refs": [
+   "exec-49c62053-cf43-4c36-8b76-929db662a6ae.png"
+  ],
+  "seconds": 42.8,
+  "tokens_used": 16681,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d8c-3416-74f3-9c74-00721a528b38",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 38.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 90.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:08:56",
+  "job": "C_edit3",
+  "name": "jax_blink",
+  "purpose": "C edit test 3",
+  "refs": [
+   "exec-49c62053-cf43-4c36-8b76-929db662a6ae.png"
+  ],
+  "seconds": 31.2,
+  "tokens_used": 8435,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d8c-eda9-7f30-89d4-1cabdf0f47d7",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 39.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 90.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]
