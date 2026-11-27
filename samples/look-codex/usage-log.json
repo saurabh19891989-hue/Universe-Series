@@ -1683,5 +1683,488 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T16:22:44",
+  "job": "e01/E01-J039",
+  "name": "e01-j039_jax_squint_recognition",
+  "purpose": "E01 still E01-J039",
+  "refs": [
+   "master.jpg",
+   "ref-closeup.jpg",
+   "holding-cage.jpg"
+  ],
+  "seconds": 67.5,
+  "tokens_used": 16838,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dcf-f34b-73a1-9c53-2bcc1b779ace",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 84.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 97.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:22:47",
+  "job": "e01/E01-J014",
+  "name": "e01-j014_jax_hold_from_behind",
+  "purpose": "E01 still E01-J014",
+  "refs": [
+   "master.jpg",
+   "master.jpg",
+   "ref-back.jpg"
+  ],
+  "seconds": 70.6,
+  "tokens_used": 15494,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dcf-f3f0-7230-a74c-ddfb63d69474",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 84.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 97.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:23:32",
+  "job": "e01/E01-J015",
+  "name": "e01-j015_pip_hold_wall",
+  "purpose": "E01 still E01-J015",
+  "refs": [
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 48.0,
+  "tokens_used": 12090,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd0-fc31-7c73-839e-3dd0dd8dbf9d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 86.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 97.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:23:48",
+  "job": "e01/E01-J018",
+  "name": "e01-j018_hall_xwide_jax",
+  "purpose": "E01 still E01-J018",
+  "refs": [
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 60.7,
+  "tokens_used": 14173,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd1-0a1c-7610-aa6e-82f3df2faa36",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 86.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 97.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:24:53",
+  "job": "e01/E01-J027",
+  "name": "e01-j027_bench_wide_jax",
+  "purpose": "E01 still E01-J027",
+  "refs": [
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 61.7,
+  "tokens_used": 15082,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd2-06f1-72a2-a62e-598db08bef20",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 89.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 98.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:24:58",
+  "job": "e01/E01-J029",
+  "name": "e01-j029_bench_two_clean",
+  "purpose": "E01 still E01-J029",
+  "refs": [
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 66.4,
+  "tokens_used": 25075,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd2-07f5-7dd2-9b51-c8ca4858b2d9",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 89.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 98.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:25:48",
+  "job": "e01/E01-J026",
+  "name": "e01-j026_board_insert",
+  "purpose": "E01 still E01-J026",
+  "refs": [
+   "board.jpg",
+   "master.jpg"
+  ],
+  "seconds": 54.2,
+  "tokens_used": 15704,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd2-f66e-79a0-a8f3-ee939f7e5e00",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 91.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 98.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:25:54",
+  "job": "e01/E01-J031",
+  "name": "e01-j031_jax_bench_listen",
+  "purpose": "E01 still E01-J031",
+  "refs": [
+   "master.jpg",
+   "ref-closeup.jpg",
+   "master.jpg"
+  ],
+  "seconds": 55.3,
+  "tokens_used": 11608,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd3-0a98-7713-8eec-77ee7139210f",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 91.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 98.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:26:45",
+  "job": "e01/E01-J015",
+  "name": "e01-j015_pip_hold_wall",
+  "purpose": "E01 still E01-J015",
+  "refs": [
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 46.1,
+  "tokens_used": 12206,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd3-f664-7b01-bee6-323cd29f2dea",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 92.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 98.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:27:08",
+  "job": "e01/E01-J029",
+  "name": "e01-j029_bench_two_clean",
+  "purpose": "E01 still E01-J029",
+  "refs": [
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 68.4,
+  "tokens_used": 15755,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd3-f792-7953-b935-b941cd3e965b",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 93.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 98.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:27:29",
+  "job": "e01/E01-J032",
+  "name": "e01-j032_box_on_knees",
+  "purpose": "E01 still E01-J032",
+  "refs": [
+   "master.jpg",
+   "master.jpg",
+   "ref-hands-box.jpg"
+  ],
+  "seconds": 43.3,
+  "tokens_used": 16973,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd4-ac39-79d0-9adc-e1583a14deff",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 94.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 99.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:28:04",
+  "job": "e01/E01-J033",
+  "name": "e01-j033_card_on_bench",
+  "purpose": "E01 still E01-J033",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 55.6,
+  "tokens_used": 7704,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd5-024c-7053-983c-8816001b0fdc",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 94.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 99.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]

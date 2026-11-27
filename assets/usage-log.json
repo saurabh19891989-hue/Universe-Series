@@ -2055,5 +2055,281 @@
   },
   "type": "allowance_check",
   "label": "after v3 candidates"
+ },
+ {
+  "time": "2026-11-27T16:22:08",
+  "type": "run",
+  "purpose": "bright set: bridge",
+  "job": "b-bridge",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/b-bridge/bridge-bright.png",
+  "file": "assets/sets/bridge/master-bright.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 56.7,
+  "tokens": 24353,
+  "status": "accepted",
+  "note": "bright; window black",
+  "jpg_bytes": 568061,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 83.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 97.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:22:57",
+  "type": "run",
+  "purpose": "bright set: bridge-pip",
+  "job": "b-bridge-pip",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/b-bridge-pip/bridge-pip-bright.png",
+  "file": "assets/sets/bridge/angle-pip-console-bright.jpg",
+  "refs": [
+   "angle-pip-console.jpg"
+  ],
+  "seconds": 44.5,
+  "tokens": 8154,
+  "status": "accepted",
+  "note": "bright; PIP unchanged",
+  "jpg_bytes": 609976,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 85.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 97.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:24:11",
+  "type": "run",
+  "purpose": "bright set: customs-master",
+  "job": "b-customs",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/b-customs/customs-bright.png",
+  "file": "assets/sets/customs/master-bright.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 65.8,
+  "tokens": 21622,
+  "status": "accepted",
+  "note": "bright; mint green world; window black",
+  "jpg_bytes": 636312,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 87.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 98.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:25:22",
+  "type": "run",
+  "purpose": "bright set: cage",
+  "job": "b-cage",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/b-cage/cage-bright.png",
+  "file": "assets/sets/customs/holding-cage-bright.jpg",
+  "refs": [
+   "holding-cage.jpg"
+  ],
+  "seconds": 63.1,
+  "tokens": 23484,
+  "status": "accepted",
+  "note": "bright",
+  "jpg_bytes": 814119,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 90.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 98.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:26:04",
+  "type": "run",
+  "purpose": "bright set: corridor",
+  "job": "b-corridor",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/b-corridor/corridor-bright.png",
+  "file": "assets/sets/customs/corridor-bright.jpg",
+  "refs": [
+   "corridor.jpg"
+  ],
+  "seconds": 41.5,
+  "tokens": 13970,
+  "status": "accepted",
+  "note": "bright; window black",
+  "jpg_bytes": 583677,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 91.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 98.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:27:14",
+  "type": "run",
+  "purpose": "bright set: cab",
+  "job": "b-cab",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/b-cab/cab-bright.png",
+  "file": "assets/sets/postchaise/cab-bright.jpg",
+  "refs": [
+   "cab.jpg"
+  ],
+  "seconds": 56.3,
+  "tokens": 10512,
+  "status": "accepted",
+  "note": "bright; windscreen black",
+  "jpg_bytes": 639217,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 93.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 98.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:27:58",
+  "type": "run",
+  "purpose": "bright set: coldstore lit foreground",
+  "job": "b-cold",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/b-cold/coldstore-bright.png",
+  "file": "assets/sets/hatchet/coldstore-bright.jpg",
+  "refs": [
+   "coldstore.jpg"
+  ],
+  "seconds": 43.7,
+  "tokens": 7862,
+  "status": "accepted",
+  "note": "stays dark, foreground lit",
+  "jpg_bytes": 630717,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 94.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 99.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "read_at": "2026-11-27T16:28:24Z",
+  "source": "rollout-2026-11-27T16-28-08-01a21dd5-ec1b-73b2-81ff-4437131cd9c0.jsonl",
+  "five_hour": {
+   "used_percent": 94.0,
+   "window_minutes": 300,
+   "resets_at": "2026-11-27 19:25 UTC"
+  },
+  "weekly": {
+   "used_percent": 99.0,
+   "window_minutes": 10080,
+   "resets_at": "2026-12-02 17:30 UTC"
+  },
+  "type": "allowance_check",
+  "label": "after bright sets"
+ },
+ {
+  "time": "2026-11-27T16:22:12",
+  "type": "run",
+  "purpose": "bright set: bridge-rear",
+  "job": "b-bridge-rear",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/b-bridge-rear/bridge-rear-bright.png",
+  "file": "assets/sets/bridge/angle-rear-wide-bright.jpg",
+  "refs": [
+   "angle-rear-wide.jpg"
+  ],
+  "seconds": 60.2,
+  "tokens": 12289,
+  "status": "accepted",
+  "note": "bright",
+  "jpg_bytes": 822592,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 83.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 97.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:24:18",
+  "type": "run",
+  "purpose": "bright set: customs-desk",
+  "job": "b-desk",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/b-desk/desk-bright.png",
+  "file": "assets/sets/customs/desk-bright.jpg",
+  "refs": [
+   "desk.jpg"
+  ],
+  "seconds": 72.8,
+  "tokens": 17717,
+  "status": "accepted",
+  "note": "bright; far window now black (original desk.jpg still shows horizon)",
+  "jpg_bytes": 576644,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 88.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 98.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:26:18",
+  "type": "run",
+  "purpose": "bright set: clamp",
+  "job": "b-clamp",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/b-clamp/clamp-bright.png",
+  "file": "assets/sets/customs/clamp-console-bright.jpg",
+  "refs": [
+   "clamp-console.jpg"
+  ],
+  "seconds": 55.7,
+  "tokens": 7887,
+  "status": "accepted",
+  "note": "bright; board 1,094; FLAG booth glass behind went black",
+  "jpg_bytes": 709505,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 91.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 98.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
  }
 ]

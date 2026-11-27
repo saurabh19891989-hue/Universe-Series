@@ -332,7 +332,7 @@ def _title_clip(name, dur, layers, sweep_col, sweep_dir=(1, 0.35), fade=None, zo
             if a > 0.02:
                 cv2.circle(fr, (int(x), int(y)), 2, tuple(float(c) * a for c in sc), -1, cv2.LINE_AA)
         return np.clip(fr * k, 0, 1.4)
-    return ClipSpec(name, dur, draw, "title", stills=[dur * 0.55, dur - 0.5 if False else dur * 0.3],
+    return ClipSpec(name, dur, draw, "title", alpha=False, stills=[dur * 0.55, dur - 0.5 if False else dur * 0.3],
                     cues={"fade_in_done": fade[1], "sweep": "%.1f-%.1f" % sweep_t, "fade_out_starts": fade[2]})
 
 

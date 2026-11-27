@@ -766,8 +766,9 @@ def render_shot(job, tries=3):
 
 def _render_shot(job):
     """Worker entry: renders one shot to an H.264 segment. job = dict(shot, ctx_spec, out, ...)."""
-    import time
+    import time, resource
     t0 = time.time()
+    r0 = resource.getrusage(resource.RUSAGE_SELF); c0 = resource.getrusage(resource.RUSAGE_CHILDREN)
     ctx = job["ctx"]
     ctx["resolve"] = make_resolver(ctx["vars"])
     ctx["env"] = {k: np.asarray(v, np.float32) for k, v in ctx["env"].items()}
@@ -809,7 +810,10 @@ def _render_shot(job):
     for st, fr in stills.items():
         Image.fromarray(fr).save(f"{job['still_dir']}/{sh['id']}_{st:.2f}.jpg", quality=90)
     el = time.time() - t0
-    return dict(id=sh["id"], secs=el, dur=S.dur, log=S.log)
+    r1 = resource.getrusage(resource.RUSAGE_SELF); c1 = resource.getrusage(resource.RUSAGE_CHILDREN)
+    cpu_py = (r1.ru_utime + r1.ru_stime) - (r0.ru_utime + r0.ru_stime)
+    cpu_enc = (c1.ru_utime + c1.ru_stime) - (c0.ru_utime + c0.ru_stime)
+    return dict(id=sh["id"], secs=el, dur=S.dur, cpu_py=cpu_py, cpu_enc=cpu_enc, log=S.log)
 
 
 def make_resolver(vars_):

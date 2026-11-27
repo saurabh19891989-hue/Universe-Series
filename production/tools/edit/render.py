@@ -158,7 +158,8 @@ def main():
         with get_context("spawn").Pool(a.workers) as pool:
             for r in pool.imap_unordered(E.render_shot, jobs):
                 results.append(r)
-                print(f"  {r['id']:>5}  {r['dur']:5.2f}s  in {r['secs']:6.1f}s  ({r['secs']/r['dur']:.2f} s/s)", flush=True)
+                print(f"  {r['id']:>5}  {r['dur']:5.2f}s  wall {r['secs']:6.1f}s  cpu {r['cpu_py']:.1f}+{r['cpu_enc']:.1f} enc"
+                      f"  ({(r['cpu_py']+r['cpu_enc'])/r['dur']:.2f} cpu-s/s)", flush=True)
                 for m in r["log"]:
                     log.append(f"{r['id']}: {m}")
     t_render = time.time() - tr
@@ -204,13 +205,14 @@ def main():
     rep = dict(name=name, output=final, duration_video_s=vd, duration_audio_s=ad, shots=len(shots),
                rendered_shots=len(results), render_wall_s=round(t_render, 1), total_wall_s=round(wall, 1),
                render_s_per_video_s_wall=round(t_render / rendered_s, 3) if rendered_s else None,
-               render_cpu_s_per_video_s=round(sum(r["secs"] for r in results) / rendered_s, 3) if rendered_s else None,
-               per_shot={r["id"]: round(r["secs"] / r["dur"], 2) for r in results}, audio=aud["report"] if aud else None,
+               cpu_s_per_video_s=round(sum(r["cpu_py"] + r["cpu_enc"] for r in results) / rendered_s, 2) if rendered_s else None,
+               cpu_s_per_video_s_python=round(sum(r["cpu_py"] for r in results) / rendered_s, 2) if rendered_s else None,
+               per_shot={r["id"]: round((r["cpu_py"] + r["cpu_enc"]) / r["dur"], 2) for r in results}, audio=aud["report"] if aud else None,
                sync=sync, notes=log, credits=credits, finish=finish)
     json.dump(rep, open(os.path.join(outd, f"{name}.log.json"), "w"), indent=1)
     print("\n".join(log))
     print(json.dumps({k: rep[k] for k in ("duration_video_s", "duration_audio_s", "render_wall_s", "total_wall_s",
-                                            "render_s_per_video_s_wall", "render_cpu_s_per_video_s", "audio")}, indent=1))
+                                            "render_s_per_video_s_wall", "cpu_s_per_video_s", "cpu_s_per_video_s_python", "audio")}, indent=1))
 
 
 if __name__ == "__main__":

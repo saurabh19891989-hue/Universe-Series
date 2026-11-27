@@ -31,9 +31,9 @@ def registry():
 
 
 def _job(args):
-    key, idx, quick = args
+    key, idx, quick, skip = args
     spec = registry()[key]()[idx]
-    dvlib.render(spec, OUT, RAW, quick=quick)
+    dvlib.render(spec, OUT, RAW, quick=quick, skip_existing=skip)
     return key, spec.name, spec.dur, spec.cues, spec.notes
 
 
@@ -42,13 +42,14 @@ def main():
     ap.add_argument("--only", nargs="*")
     ap.add_argument("--quick", action="store_true")
     ap.add_argument("--procs", type=int, default=4)
+    ap.add_argument("--skip-existing", action="store_true", help="do not re-render clips already finished")
     a = ap.parse_args()
     reg = registry()
     keys = a.only or list(reg)
     jobs = []
     for k in keys:
         n = len(reg[k]())
-        jobs += [(k, j, a.quick) for j in range(n)]
+        jobs += [(k, j, a.quick, a.skip_existing) for j in range(n)]
     os.makedirs(OUT, exist_ok=True)
     with Pool(a.procs) as p:
         res = p.map(_job, jobs, chunksize=1)

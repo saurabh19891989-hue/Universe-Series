@@ -223,7 +223,7 @@ def pip_report():
     for key, num, re_line, extra in specs:
         def dr(t, i, alpha=False, num=num, re_line=re_line, extra=extra):
             return _pip_draw(t, num, re_line, extra)
-        clips.append(ClipSpec("02_pip_report_" + key, 9.0, dr, "amber", stills=[7.0],
+        clips.append(ClipSpec("02_pip_report_" + key, 8.0, dr, "amber", stills=[6.5],
                               cues={"typing_starts": 2.0, "complete_by": 5.0}))
     # 1,207 SENT, then exactly 2.6 s later READ line
     t_sent = 2.0
@@ -421,9 +421,9 @@ def coffee_light():
         return dr
     lk = Look(base=(0.004, 0.006, 0.004), soft=0.9, bloom=1.4, bloom_r=(3, 22), scan=0.0, flicker=0.01,
               curve=0.0, vignette=0.4, hum=0.0, grain=0.01, seed=21)
-    return [ClipSpec("03_coffee_light_goes_out", 7.0, draw("out"), lookobj=lk, stills=[1.0, 5.5],
+    return [ClipSpec("03_coffee_light_goes_out", 7.0, draw("out"), lookobj=lk, stills=[1.0, 5.5], alpha=False,
                      cues={"light_starts_dying": 2.6, "fully_out": 3.5}),
-            ClipSpec("03_coffee_light_comes_back_on", 7.0, draw("on"), lookobj=lk, stills=[1.0, 5.5],
+            ClipSpec("03_coffee_light_comes_back_on", 7.0, draw("on"), lookobj=lk, stills=[1.0, 5.5], alpha=False,
                      cues={"light_starts_returning": 2.6, "steady_on": 3.8})]
 
 

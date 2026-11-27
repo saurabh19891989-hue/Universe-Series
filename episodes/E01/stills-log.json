@@ -860,21 +860,28 @@
   },
   "E01-J039": {
    "priority": 1,
-   "status": "rejected-retrying",
-   "attempts": 1,
+   "status": "accepted",
+   "attempts": 2,
    "seconds": [
-    130.1
+    130.1,
+    67.5
    ],
    "tokens": [
-    29439
+    29439,
+    16838
    ],
    "notes": [
-    "REJECTED: face good but setting wrong: pilot seat + cargo netting on the ship; scene is the customs holding cage"
+    "REJECTED: face good but setting wrong: pilot seat + cargo netting on the ship; scene is the customs holding cage",
+    "Retry with holding-cage set ref: Jax in customs cage among tagged junk, half-recognition squint, lips closed, face matches master. Prompt changed: setting made explicit + cage ref added"
    ],
    "refs_used": [
     "assets/characters/jax/master.jpg",
-    "assets/characters/jax/ref-closeup.jpg"
-   ]
+    "assets/characters/jax/ref-closeup.jpg",
+    "assets/sets/customs/holding-cage.jpg"
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Medium close-up of Jax Vale with a slow squint of half-recognition, head tilted, lips closed, standing inside the wire-mesh holding cage of the customs hall (image 2 is the cage set: galvanised wire-mesh walls, tagged junk), the mesh soft and out of focus behind him; he is NOT on the ship and NOT in a seat. Jax Vale: Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later). | extra ref note: Image 2 is the reference for the customs holding cage set: keep its design, materials and lighting.",
+   "file": "episodes/E01/stills/e01-j039_jax_squint_recognition.jpg",
+   "jpg_bytes": 395278
   },
   "E01-J007": {
    "priority": 1,
@@ -896,6 +903,194 @@
    ],
    "file": "episodes/E01/stills/e01-j007_pip_fg_jax_bg.jpg",
    "jpg_bytes": 483872
+  },
+  "E01-J014": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    70.6
+   ],
+   "tokens": [
+    15494
+   ],
+   "notes": [
+    "Jax from behind crouched at open reactor housing in hold, tool tray, face not visible; hair/jacket match ref-back; hold matches master materials"
+   ],
+   "refs_used": [
+    "assets/characters/jax/master.jpg",
+    "assets/sets/hold/master.jpg",
+    "assets/characters/jax/ref-back.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j014_jax_hold_from_behind.jpg",
+   "jpg_bytes": 537873
+  },
+  "E01-J015": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 2,
+   "seconds": [
+    48.0,
+    46.1
+   ],
+   "tokens": [
+    12090,
+    12206
+   ],
+   "notes": [
+    "REJECTED: drew the whole PIP machine bolted to the wall, not an intercom speaker with PIP's lens",
+    "Retry: round cream-and-brass wall intercom with PIP's concentric amber lens, taped cables, hold behind. Prompt changed: made it a wall speaker, not the whole machine"
+   ],
+   "refs_used": [
+    "assets/props/pip/master.jpg",
+    "assets/sets/hold/master.jpg"
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Close shot of a small round wall-mounted intercom speaker, about the size of a saucer, on the riveted steel wall of a ship's cargo hold: a cream-enamelled chipped housing with a brass rim and a brass speaker grille, and in its centre one glowing amber lens of exactly the same design as PIP's lens in image 1 (concentric brass rings). Cables taped beside it. This is only PIP's wall speaker: do NOT draw the whole PIP machine, no scale pan, no arms, no stamp. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later).",
+   "file": "episodes/E01/stills/e01-j015_pip_hold_wall.jpg",
+   "jpg_bytes": 466441
+  },
+  "E01-J018": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    60.7
+   ],
+   "tokens": [
+    14173
+   ],
+   "notes": [
+    "Vast hall matches customs master, windows now pure black, tiny Jax (orange jacket) alone; several booths lit rather than one, board reads as a dark panel high on far wall - acceptable"
+   ],
+   "refs_used": [
+    "assets/sets/customs/master.jpg",
+    "assets/characters/jax/master.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j018_hall_xwide_jax.jpg",
+   "jpg_bytes": 443823
+  },
+  "E01-J027": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    61.7
+   ],
+   "tokens": [
+    15082
+   ],
+   "notes": [
+    "Jax alone mid-bench, wrist raised to face, hall stretching behind, face small; matches master. Mood slightly relaxed/smiling rather than shoulders down"
+   ],
+   "refs_used": [
+    "assets/characters/jax/master.jpg",
+    "assets/sets/customs/master.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j027_bench_wide_jax.jpg",
+   "jpg_bytes": 494832
+  },
+  "E01-J029": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 2,
+   "seconds": [
+    66.4,
+    68.4
+   ],
+   "tokens": [
+    25075,
+    15755
+   ],
+   "notes": [
+    "REJECTED: Jax faces camera three-quarter FRONT and looks into lens; job needs three-quarter BACK, turned toward the far end",
+    "Retry: Jax three-quarter from behind at near end of bench, head turned to far end, eyes not visible; far end empty and soft; windows black. Prompt changed for orientation"
+   ],
+   "refs_used": [
+    "assets/sets/customs/master.jpg",
+    "assets/characters/jax/master.jpg"
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Bench two-shot plate: camera low behind Jax Vale's shoulder at the near end of a long wooden customs-hall bench; he sits in the near third of frame, seen three-quarter from BEHIND, head turned away from camera toward the far end of the bench, so we see the back of his curly head, his ear, cheek line and stubble edge but not his eyes; he does not look at the camera. The bench runs away from him toward frame right; the far end of the bench is empty and out of focus. Jax Vale: Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later).",
+   "file": "episodes/E01/stills/e01-j029_bench_two_clean.jpg",
+   "jpg_bytes": 403576
+  },
+  "E01-J026": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    54.2
+   ],
+   "tokens": [
+    15704
+   ],
+   "notes": [
+    "Flip-number board with four blank split-flaps under blank header, concrete/steel wall, hall behind; matches board ref style (ref was clamp-console-board.jpg substituted for missing board.jpg)"
+   ],
+   "refs_used": [
+    "assets/sets/customs/board.jpg",
+    "assets/sets/customs/master.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j026_board_insert.jpg",
+   "jpg_bytes": 409741
+  },
+  "E01-J031": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    55.3
+   ],
+   "tokens": [
+    11608
+   ],
+   "notes": [
+    "Jax on bench, wary, eyes off-frame right, lips shut; strong match to master; windows black"
+   ],
+   "refs_used": [
+    "assets/characters/jax/master.jpg",
+    "assets/characters/jax/ref-closeup.jpg",
+    "assets/sets/customs/master.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j031_jax_bench_listen.jpg",
+   "jpg_bytes": 433490
+  },
+  "E01-J032": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    43.3
+   ],
+   "tokens": [
+    16973
+   ],
+   "notes": [
+    "Inlaid box matches library box (leaf marquetry), grey gloves + overcoat, teacup; face out of frame"
+   ],
+   "refs_used": [
+    "assets/characters/chichikov/master.jpg",
+    "assets/props/inlaid-box/master.jpg",
+    "assets/characters/chichikov/ref-hands-box.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j032_box_on_knees.jpg",
+   "jpg_bytes": 353113
+  },
+  "E01-J033": {
+   "priority": 1,
+   "status": "rejected-retrying",
+   "attempts": 1,
+   "seconds": [
+    55.6
+   ],
+   "tokens": [
+    7704
+   ],
+   "notes": [
+    "REJECTED: showed Chichikov's whole face at a workshop table; job is an insert of hand + card on the customs-hall bench; script semi-legible"
+   ],
+   "refs_used": [
+    "assets/characters/chichikov/master.jpg"
+   ]
   }
  },
  "allowance": [

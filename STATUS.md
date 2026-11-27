@@ -144,6 +144,11 @@ Last updated: 2026-11-27 (session 1)
 - Sound effects for Episode 1 done: 112 synthesised effects, index and mixing note in
   `samples/e01/sfx/`, generators in `production/tools/sfx/`.
 
+- CAST COMPLETE FOR EPISODE 1 (27 Nov, late): owner chose Mira candidate 3 and Lucía candidate 2
+  — LOCKED as masters (older versions kept in `old-v2/`); their reference sets are being rebuilt.
+  Owner agreed that YouTube's own synthetic-content setting is answered truthfully at upload.
+  Channel/series name still to be chosen by the owner from `channel/NAME-OPTIONS.md`.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|

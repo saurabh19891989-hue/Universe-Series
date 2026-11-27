@@ -107,7 +107,7 @@ def _wrist_draw(t, msg="LOT 14 — PUBLIC SALE"):
 
 
 def wrist_message():
-    return [ClipSpec("06c_wrist_message_lot14", 9.0, lambda t, i, alpha=False: _wrist_draw(t), "white",
+    return [ClipSpec("06c_wrist_message_lot14", 9.0, lambda t, i, alpha=False: _wrist_draw(t), "white", alpha=False,
                      stills=[5.0], cues={"chime_message_appears": 2.5})]
 
 
@@ -240,7 +240,7 @@ def _reg_draw(t, t_scroll0=2.0, t_scroll1=14.0, t_hl=16.0):
 
 
 def regulation():
-    return [ClipSpec("07_regulation_41c_scroll", 20.0, lambda t, i, alpha=False: _reg_draw(t), "lcd",
+    return [ClipSpec("07_regulation_41c_scroll", 20.0, lambda t, i, alpha=False: _reg_draw(t), "lcd", alpha=False,
                      stills=[4.0, 9.0, 18.5],
                      cues={"scroll_starts": 2.0, "scroll_ends": 14.0, "phrases_highlighted": 16.0},
                      notes="Scroll duration 12 s; re-time in the edit. Highlight marks 'physical address' and 'customs witness'.")]
@@ -494,7 +494,7 @@ def clocks():
                  lambda t, i, alpha=False: _bridge_clock(0, start_s=17 * 3600 + 45 * 60 + 0) if False else _digital_hm(t), "amber",
                  stills=[3.0], cues={"reads": "17:45"}),
         ClipSpec("09c_bridge_clock_175958_to_180000", 10.0,
-                 lambda t, i, alpha=False: _bridge_clock(t, start_s=t_start), "amber",
+                 lambda t, i, alpha=False: _bridge_clock(t, start_s=t_start), "amber", alpha=False,
                  stills=[2.2, 4.2, 8.0],
                  cues={"17:59:56": 0.0, "17:59:58": 2.0, "17:59:59": 3.0, "18:00:00": 4.0},
                  notes="One tick per second (hard cut of digits, like a cheap segment display)."),
@@ -606,7 +606,7 @@ def clamp_console():
                        stills=[4.0], alpha=False, cues={"note": "KEY 1 in, KEY 2 empty; loopable hold"}))
     cl.append(ClipSpec("10b_clamp_open", 10.0, lambda t, i, alpha=False: _clamp_draw(t, "open"), "white", stills=[4.0], alpha=False))
     cl.append(ClipSpec("10c_clamp_popup_authority_received", 12.0,
-                       lambda t, i, alpha=False: _clamp_draw(t, "popup", t_pop=4.5), "white", stills=[2.0, 8.0],
+                       lambda t, i, alpha=False: _clamp_draw(t, "popup", t_pop=4.5), "white", alpha=False, stills=[2.0, 8.0],
                        cues={"popup_arrives": 4.5}))
     cl.append(ClipSpec("10d_clamp_sequence", 18.0,
                        lambda t, i, alpha=False: _clamp_draw(t, "seq", t_key2=3.5, t_open=5.0, t_key2_out=7.5, t_pop=9.6),

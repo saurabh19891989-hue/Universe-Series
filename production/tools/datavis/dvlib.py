@@ -297,11 +297,14 @@ def glass(x, i, t, look):
 
 def to_alpha(x):
     """emissive RGB -> straight RGBA (alpha from brightness) as 8-bit"""
-    m = np.clip(x, 0, 1).max(axis=2)
-    a = np.clip(m * 3.0, 0, 1)
-    rgb = np.clip(x, 0, 1) / np.maximum(a[..., None], 1e-3)
-    rgb = np.clip(rgb, 0, 1)
-    return (np.dstack([rgb, a]) * 255 + 0.5).astype(np.uint8)
+    x = np.minimum(x, 1.0)
+    a = np.minimum(cv2.transform(x, np.ones((1, 3), np.float32) * 1.5), 1.0)   # >= 1.5*max channel
+    inv = 1.0 / np.maximum(a, 1e-3)
+    rgb = np.minimum(x * inv[..., None], 1.0)
+    out = np.empty((H, W, 4), np.uint8)
+    out[..., :3] = (rgb * 255 + 0.5).astype(np.uint8)
+    out[..., 3] = (a * 255 + 0.5).astype(np.uint8)
+    return out
 
 
 # --------------------------------------------------------------------------
@@ -323,7 +326,7 @@ def _ff_h264(path):
     return subprocess.Popen(
         ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
          "-r", str(FPS), "-i", "-", "-vf", "scale=out_color_matrix=bt709:out_range=tv,format=yuv420p",
-         "-c:v", "libx264", "-crf", "16", "-preset", "fast", "-threads", "1", "-r", str(FPS),
+         "-c:v", "libx264", "-crf", "16", "-preset", "veryfast", "-threads", "1", "-r", str(FPS),
          "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
          "-movflags", "+faststart", path], stdin=subprocess.PIPE)
 
@@ -342,8 +345,13 @@ def _call(spec, t, i, alpha):
         return spec.draw(t, i)
 
 
-def render(spec, outdir, stilldir=None, quick=False):
+def render(spec, outdir, stilldir=None, quick=False, skip_existing=False):
     os.makedirs(outdir, exist_ok=True)
+    if skip_existing:
+        p = os.path.join(outdir, spec.name + ".mp4")
+        pa = os.path.join(outdir, spec.name + "_alpha.mov")
+        if os.path.exists(p) and os.path.getsize(p) > 20000 and (not (spec.alpha and spec.prores) or os.path.exists(pa)):
+            return spec.name
     n = int(round(spec.dur * FPS))
     if quick:
         n = min(n, 48)
