@@ -4433,5 +4433,86 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T17:07:53",
+  "job": "e01/E01-J058",
+  "name": "e01-j058_lucia_driving_from_behind",
+  "purpose": "E01 still E01-J058",
+  "refs": [
+   "master.jpg",
+   "cab-bright.jpg",
+   "ref-driving-from-behind.jpg"
+  ],
+  "seconds": 55.0,
+  "tokens_used": 14238,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21df9-7bdd-75c0-95b7-93fe014feb60",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 51.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 8.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T17:07:54",
+  "job": "e01/E01-J059",
+  "name": "e01-j059_plate_jax_suit_knock",
+  "purpose": "E01 still E01-J059",
+  "refs": [
+   "ref-helmet.jpg",
+   "ref-fullbody.jpg"
+  ],
+  "seconds": 54.2,
+  "tokens_used": 12429,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21df9-804b-7990-8175-5872c2e801aa",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 51.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 8.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]

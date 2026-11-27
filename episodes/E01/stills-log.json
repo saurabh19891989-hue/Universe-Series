@@ -475,14 +475,26 @@
   },
   "E01-J058": {
    "priority": 2,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    55.0
+   ],
+   "tokens": [
+    14238
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: MIRA-LUCIA-REFS-READY"
-   ]
+    "released: MIRA-LUCIA-REFS-READY",
+    "Lucia from behind driving (short dark wavy hair, coveralls, ribbon), face turned away, windscreen black; matches ref-driving-from-behind"
+   ],
+   "refs_used": [
+    "assets/characters/lucia/master.jpg",
+    "assets/sets/postchaise/cab-bright.jpg",
+    "assets/characters/lucia/ref-driving-from-behind.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j058_lucia_driving_from_behind.jpg",
+   "jpg_bytes": 657735
   },
   "E01-J061": {
    "priority": 2,
@@ -1841,11 +1853,21 @@
   },
   "E01-J059": {
    "priority": 2,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "status": "rejected-retrying",
+   "attempts": 1,
+   "seconds": [
+    54.2
+   ],
+   "tokens": [
+    12429
+   ],
+   "notes": [
+    "REJECTED: plate on black, lit from left, fist raised - but below the helmet he wears his jacket, cargo trousers and street boots, not a pressure suit (it is the lunar surface)"
+   ],
+   "refs_used": [
+    "assets/characters/jax/ref-helmet.jpg",
+    "assets/characters/jax/ref-fullbody.jpg"
+   ]
   },
   "E01-J060": {
    "priority": 2,
