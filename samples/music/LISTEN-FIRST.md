@@ -1,5 +1,5 @@
-Nobody has listened to these files. The agent that made them cannot hear audio, so every judgement so far comes from measurements and reading the score.
+Nobody has listened to any of these files. The agent that made them cannot hear audio, so every judgement so far comes from measurements and from reading the score.
 
-1. `A1-main-title.mp3` (61 s) — the original main theme. Ask yourself: can you hum the horn tune after one listen? Is the General-MIDI sound good enough as a mock-up?
-2. `A4-emotional.mp3`, then `A5-global-japan-urashima.mp3` — melodic warmth and a global-flavour cue. These test whether the Route A writing works with cheap samples, which are crudest on flute, koto and shakuhachi.
-3. `C1-ai-acestep-main-title.mp3` (30 s, AI, MIT-licensed model run on our CPU) — compare it with A1, listening for a muffled top end and for anything that sounds like an existing piece.
+1. **Old vs new sound:** play `A1-main-title.mp3`, then `v2/A1-main-title-v2.mp3`. Both come from the same MIDI. The new one uses real orchestral sample libraries. Then compare A4 and A5 the same way.
+2. **The full theme:** play `v2/A1-main-title-full-90-v2.mp3` (contrasting F-major middle at 0:40, final key change to E minor at 1:04), then the two stings and the four character motifs `v2/M1`–`M4`.
+3. **Dialogue version:** play `v2/A1-main-title-v2-under-dialogue.mp3` under a voice-over line and check that the words stay clear.

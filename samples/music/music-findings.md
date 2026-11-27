@@ -12,8 +12,6 @@ re-run of the library survey if it is needed. Nobody has listened to these files
 | `A3-tension-betrayal.mp3` (53 s) | Composed | 60 BPM, one tick per second |
 | `A4-emotional.mp3` (62 s) | Composed | Mohanam and Kalyani colours |
 | `A5-global-japan-urashima.mp3` (50 s) | Composed | Koto in hirajoshi tuning, shakuhachi, taiko |
-| `C1-ai-acestep-main-title.mp3` (30 s) | AI model run on our CPU | ACE-Step 1.5; measures dull above 2–6 kHz |
-| `C2-ai-acestep-caper.mp3` (25 s) | AI model run on our CPU | Same |
 
 All at about -16 LUFS, no clipping. A1 and A5 are bass-heavy and need high-passing under dialogue.
 MIDI is in `midi/`; scripts in `production/tools/music/`; `render_all.sh` re-renders the five
@@ -36,3 +34,18 @@ Make the composed route the score: it is the only route that gives recurring cha
 we own outright. Improve the sound for free by re-rendering the same MIDI with VSCO-2 CE / VCSL
 samples (not yet tested). Use YouTube Audio Library "attribution not required" tracks as
 filler. Keep ACE-Step as a sketchpad, or run it on a rented GPU.
+
+## Update: v2 (owner approved the composed route; AI route removed)
+The owner listened and approved A1, A4 and A5; the AI-generated cues were rejected and deleted.
+Files in `v2/` (nobody has listened to these yet):
+- `A1-main-title-v2`, `A4-emotional-v2`, `A5-global-japan-urashima-v2` — same notes as the approved cues, better samples.
+- `A1-main-title-full-90-v2` (92 s: A section, lighter F-major B section, final statement up a tone), `A1-title-sting-10s`, `A1-endcard-sting-5s`.
+- Character motifs: `M1-jax`, `M2-mira`, `M3-pip`, `M4-voss` (MIDI in `midi/`).
+- `...-under-dialogue` versions: speech band (1.4–4 kHz) cut 4–7 dB, bass reduced, -20 LUFS.
+
+Libraries: Virtual Playing Orchestra 3 (allows commercial music; built from VSCO-2 CE CC0,
+Sonatina CC Sampling+, No Budget Orchestra CC BY-SA, Iowa samples); GeneralUser GS for koto,
+shakuhachi, taiko, choir (free for commercial use); FluidR3 (MIT) for sitar and nylon guitar.
+No free commercially usable tabla, bansuri or better sitar sample set was found.
+Renderer: our own `production/tools/music/sfzr.py` (sfizz was unavailable).
+Caution: `render_all.sh` re-renders the original v1 cues as well; the approved v1 MP3s in git are the reference.
