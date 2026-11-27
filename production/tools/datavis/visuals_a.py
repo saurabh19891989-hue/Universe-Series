@@ -430,17 +430,25 @@ def coffee_light():
 # =========================================================================
 # 4. BANK CALL WINDOW
 # =========================================================================
-BANK_NAME = "MERRILARK"  # invented, generic. Rights check still advised.
+BANK_NAME = "BRINDLELARK"  # invented; web check found no bank/finance brand of this name.
 FR = (700, 170, 1840, 811)  # video frame (1140x641 ~ 16:9)
 
 
 def _bank_logo(d, cx, cy, r):
-    """cheerful invented logo: sun-yellow coin with a big smile and one raised eyebrow-less happy face."""
-    d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(255, 208, 64))
-    d.ellipse([cx - r + 10, cy - r + 10, cx + r - 10, cy + r - 10], outline=(255, 236, 150), width=6)
-    d.ellipse([cx - r * 0.42 - 12, cy - r * 0.28 - 18, cx - r * 0.42 + 12, cy - r * 0.28 + 18], fill=(30, 60, 120))
-    d.ellipse([cx + r * 0.42 - 12, cy - r * 0.28 - 18, cx + r * 0.42 + 12, cy - r * 0.28 + 18], fill=(30, 60, 120))
-    d.arc([cx - r * 0.62, cy - r * 0.35, cx + r * 0.62, cy + r * 0.62], 15, 165, fill=(30, 60, 120), width=14)
+    """original mark: a cheerful lark in flat coral and cream shapes."""
+    CREAM, CORAL, DEEP = (255, 240, 214), (255, 118, 96), (214, 78, 70)
+    d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=CREAM)
+    k = r / 190.0
+    P = lambda x, y: (cx + x * k, cy + y * k)
+    d.polygon([P(-150, 40), P(-60, 10), P(-60, 70)], fill=DEEP)                      # tail
+    d.ellipse([*P(-110, -50), *P(90, 110)], fill=CORAL)                              # body
+    d.ellipse([*P(-40, 20), *P(80, 100)], fill=CREAM)                                # belly
+    d.ellipse([*P(40, -110), *P(120, -30)], fill=CORAL)                              # head
+    d.polygon([P(114, -84), P(160, -68), P(116, -56)], fill=(255, 190, 90))          # beak
+    d.ellipse([*P(88, -84), *P(102, -70)], fill=(30, 60, 120))                       # eye
+    d.pieslice([*P(-80, -30), *P(40, 70)], 180, 360, fill=DEEP)                      # wing
+    d.line([P(-20, 110), P(-20, 140)], fill=DEEP, width=int(6 * k))
+    d.line([P(20, 110), P(20, 140)], fill=DEEP, width=int(6 * k))
 
 
 def _spinner(d, cx, cy, r, t, col):
@@ -464,7 +472,7 @@ def _bank_draw(t, state, alpha, timer_stop=None):
     # logo column
     d.rounded_rectangle([60, 130, 640, 880], radius=24, fill=(26, 48, 86))
     _bank_logo(d, 350, 420, 190)
-    text(d, (350, 700), BANK_NAME.title(), font("jost", 84, 600), (255, 255, 255), "mm", track=2)
+    text(d, (350, 700), BANK_NAME.title(), font("jost", 74, 600), (255, 255, 255), "mm", track=2)
     text(d, (350, 780), "Here to help you thrive!", font("jost", 36, 400), (255, 208, 64), "mm")
     # video frame
     x0, y0, x1, y1 = FR

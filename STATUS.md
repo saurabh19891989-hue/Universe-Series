@@ -199,6 +199,16 @@ Last updated: 2026-11-27 (session 1)
   branch, invoice, flasks, jars of sighs, docket, envelope, Seo's photo, Voss letter, drone).
   Owner to pick: Arakawa, Idris, Kaguya, Astolfo; approve Voss, Cass, Episode 2 places.
 
+- EDIT ENGINE DONE (Fri 27 Nov night): `production/tools/edit/` (render.py, SCHEMA.md). Cold open
+  v1 rendered (86 s; review copy `samples/e01/E01-coldopen-v1-review.mp4`, sent to owner) —
+  a proof made before final stills/stems existed. Measured ~19 CPU-seconds per second of video:
+  a 35-minute episode is about 3.7 h on 3 free cores. Master would be ~6 GB per episode.
+  Now running: Act 1 assembly from the real shot list, stills, stems, score, sfx, datavis
+  (`episodes/E01/act1-edit.json`, review parts in scratchpad `e01/renders/review/`).
+- Data visuals done (`production/tools/datavis/`); bank logo being replaced (the yellow smiley
+  is a protected mark). Laser map uses real LOLA data (PGDA product 78).
+- Disk: cleared old look-test models; ~33 GB free.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|
