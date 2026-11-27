@@ -2331,5 +2331,99 @@
     "resets_at": "2026-12-02 17:30 UTC"
    }
   }
+ },
+ {
+  "time": "2026-11-27T16:23:05",
+  "type": "run",
+  "purpose": "bright set: hold",
+  "job": "b-hold",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/b-hold/hold-bright.png",
+  "file": "assets/sets/hold/master-bright.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 52.8,
+  "tokens": 8328,
+  "status": "accepted",
+  "note": "bright; green steel world",
+  "jpg_bytes": 754550,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 85.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 97.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:25:10",
+  "type": "run",
+  "purpose": "bright set: office",
+  "job": "b-office",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/b-office/office-bright.png",
+  "file": "assets/sets/customs/noakes-office-bright.jpg",
+  "refs": [
+   "noakes-office.jpg"
+  ],
+  "seconds": 52.1,
+  "tokens": 11624,
+  "status": "accepted",
+  "note": "bright; window black",
+  "jpg_bytes": 450762,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 89.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 98.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:27:08",
+  "type": "run",
+  "purpose": "bright set: parlour",
+  "job": "b-parlour",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/b-parlour/parlour-bright.png",
+  "file": "assets/sets/hatchet/parlour-bright.jpg",
+  "refs": [
+   "parlour.jpg"
+  ],
+  "seconds": 49.7,
+  "tokens": 8254,
+  "status": "accepted",
+  "note": "bright; slot window now black",
+  "jpg_bytes": 848432,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 93.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 98.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "read_at": "2026-11-27T16:29:13Z",
+  "source": "rollout-2026-11-27T16-29-04-01a21dd6-c6cd-7bb3-8dd0-6bc5a8063f65.jsonl",
+  "five_hour": {
+   "used_percent": 95.0,
+   "window_minutes": 300,
+   "resets_at": "2026-11-27 19:25 UTC"
+  },
+  "weekly": {
+   "used_percent": 99.0,
+   "window_minutes": 10080,
+   "resets_at": "2026-12-02 17:30 UTC"
+  },
+  "type": "allowance_check",
+  "label": "before new Mira/Lucia ref sets"
  }
 ]

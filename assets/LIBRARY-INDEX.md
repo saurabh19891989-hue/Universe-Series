@@ -38,24 +38,15 @@ Rule reminders: windows pure black where real footage goes; bright style from 27
 | `assets/characters/jax/ref-glove-hatchet.jpg` | step3 Jax ref gloved hand with silver hatchet | master.jpg | DERIVED from LOCKED master | FLAG: blade reads dark steel not silver; remake from the hatchet prop master later |
 | `assets/characters/jax/ref-silhouette.jpg` | step3 Jax ref silhouette | master.jpg | DERIVED from LOCKED master | profile matches |
 | `assets/characters/jax/ref-threequarter.jpg` | step3 Jax ref three-quarter | master.jpg | DERIVED from LOCKED master | same face |
-| `assets/characters/lucia/master-alt.jpg` | step1 Lucia redo younger, candidate B | none (text only) | TEST (younger redo; superseded if a v3 candidate wins) | alternate face, softer build |
+| `assets/characters/lucia/candidate-1.jpg` | v3 Lucia candidate 1 | none (text only) | CANDIDATE (owner to choose) | CANDIDATE |
+| `assets/characters/lucia/candidate-2.jpg` | v3 Lucia candidate 2 | none (text only) | CANDIDATE (owner to choose) | CANDIDATE |
+| `assets/characters/lucia/candidate-3.jpg` | v3 Lucia candidate 3 | none (text only) | CANDIDATE (owner to choose) | CANDIDATE; may read a little over 29 |
 | `assets/characters/lucia/master.jpg` | step1 Lucia redo younger, candidate A | none (text only) | TEST (younger redo; superseded if a v3 candidate wins) | picked: wrestler build, ribbon on wrist, reads ~30 |
-| `assets/characters/lucia/ref-driving-from-behind.jpg` | step3 Lucia ref from behind driving rover | master.jpg | DERIVED from PROPOSED/TEST master | hair and ribbon match; windscreen pure black |
-| `assets/characters/lucia/ref-front.jpg` | step3 Lucia ref front neutral | master.jpg | DERIVED from PROPOSED/TEST master | same face |
-| `assets/characters/lucia/ref-fullbody-stride.jpg` | step3 Lucia ref full body mid-stride | master.jpg | DERIVED from PROPOSED/TEST master | same face, small |
-| `assets/characters/lucia/ref-profile.jpg` | step3 Lucia ref profile | master.jpg | DERIVED from PROPOSED/TEST master | same face; brow scar a little stronger than master |
-| `assets/characters/lucia/ref-suit-helmet.jpg` | request5 Lucia suit and helmet full body | master.jpg, ref-helmet.jpg | DERIVED from PROPOSED/TEST master | derived from CURRENT master; redo if a v3 candidate wins |
-| `assets/characters/lucia/ref-welding-visor.jpg` | step3 Lucia ref welding visor | master.jpg | DERIVED from PROPOSED/TEST master | visor down, ribbon visible |
-| `assets/characters/lucia/ref-wrist-ribbon.jpg` | step3 Lucia ref hand and wrist with red ribbon | master.jpg | DERIVED from PROPOSED/TEST master | signature insert |
 | `assets/characters/mamani/master.jpg` | step2 Mamani master (new face) | none (text only) | LOCKED (owner, 27 Nov) | new face PROPOSED; window shows lunar exterior (fine for an inset still) |
-| `assets/characters/mira/master-alt.jpg` | step1 Mira redo younger, candidate B | none (text only) | TEST (younger redo; superseded if a v3 candidate wins) | alternate face, reads early 30s |
+| `assets/characters/mira/candidate-1.jpg` | v3 Mira candidate 1 | none (text only) | CANDIDATE (owner to choose) | CANDIDATE; corner window shows a planet (crop/mask); close to candidate 3 |
+| `assets/characters/mira/candidate-2.jpg` | v3 Mira candidate 2 | none (text only) | CANDIDATE (owner to choose) | CANDIDATE; nose stud, holds loupe |
+| `assets/characters/mira/candidate-3.jpg` | v3 Mira candidate 3 | none (text only) | CANDIDATE (owner to choose) | CANDIDATE; close to candidate 1 |
 | `assets/characters/mira/master.jpg` | step1 Mira redo younger, candidate A | none (text only) | TEST (younger redo; superseded if a v3 candidate wins) | picked: sharper eyes, clear ink stains, reads 32-34 |
-| `assets/characters/mira/ref-back.jpg` | step3 Mira ref back of head (retry 1) | master.jpg | DERIVED from PROPOSED/TEST master | retry 1 ok; windows show lunar view, not black (character ref only) |
-| `assets/characters/mira/ref-front.jpg` | step3 Mira ref front neutral | master.jpg | DERIVED from PROPOSED/TEST master | same face as new master |
-| `assets/characters/mira/ref-glass-screen.jpg` | step3 Mira ref behind glass customs screen | master.jpg | DERIVED from PROPOSED/TEST master | same face; background busier than script's empty hall |
-| `assets/characters/mira/ref-loupe-eye.jpg` | step3 Mira ref eye through loupe ECU | master.jpg | DERIVED from PROPOSED/TEST master | same face; loupe reads as a round brass lens |
-| `assets/characters/mira/ref-profile.jpg` | step3 Mira ref profile | master.jpg | DERIVED from PROPOSED/TEST master | same face; braid loose |
-| `assets/characters/mira/ref-suit-helmet.jpg` | step3 Mira ref customs pressure suit and helmet | master.jpg | DERIVED from PROPOSED/TEST master | same face; suit reads as flight suit plus helmet |
 | `assets/characters/noakes/master.jpg` | step2 Noakes master (new face) | none (text only) | LOCKED (owner, 27 Nov) | new face PROPOSED |
 | `assets/characters/noakes/ref-back-console-headset.jpg` | step3 Noakes ref from behind at console with headset | master.jpg | DERIVED from LOCKED master | same hair/uniform |
 | `assets/characters/noakes/ref-hands-stamp.jpg` | step3 Noakes ref hands holding rubber stamp | master.jpg | DERIVED from LOCKED master | papers illegible scribble |
@@ -75,18 +66,40 @@ Rule reminders: windows pure black where real footage goes; bright style from 27
 | `assets/props/stamp/master.jpg` | step5 prop: rubber stamp and ink pad | desk-glass-screen.jpg | PROPOSED (new prop, derived look) | no text |
 | `assets/props/trunk/master.jpg` | step5 prop: battered travelling trunk | master.jpg | PROPOSED (new prop, derived look) | tag blank |
 | `assets/sets/apron/master.jpg` | step4 bay nine apron with the ship | master.jpg | PROPOSED (new set/prop) | ship matches master; ramp down; black sky |
+| `assets/sets/bridge/angle-pip-console-bright.jpg` | bright set: bridge-pip | angle-pip-console.jpg | DERIVED from TEST master | bright; PIP unchanged |
 | `assets/sets/bridge/angle-pip-console.jpg` | step4 bridge tight angle on PIP's console | master.jpg, master.jpg | DERIVED from TEST master | PIP matches its master; screen blank glow |
+| `assets/sets/bridge/angle-rear-wide-bright.jpg` | bright set: bridge-rear | angle-rear-wide.jpg | DERIVED from TEST master | bright |
 | `assets/sets/bridge/angle-rear-wide.jpg` | step4 bridge second angle, wide from back doorway | master.jpg | DERIVED from TEST master | matches master; window pure black |
+| `assets/sets/bridge/master-bright.jpg` | bright set: bridge | master.jpg | DERIVED from TEST master | bright; window black |
+| `assets/sets/customs/clamp-console-bright.jpg` | bright set: clamp | clamp-console.jpg | DERIVED from TEST master | bright; board 1,094; FLAG booth glass behind went black |
 | `assets/sets/customs/clamp-console.jpg` | step4 clamp console under flip-number board | master.jpg | DERIVED from TEST master | board reads 1,094 only |
+| `assets/sets/customs/corridor-bright.jpg` | bright set: corridor | corridor.jpg | DERIVED from TEST master | bright; window black |
 | `assets/sets/customs/corridor.jpg` | step4 customs long corridor | master.jpg | DERIVED from TEST master | window pure black |
+| `assets/sets/customs/desk-bright.jpg` | bright set: customs-desk | desk.jpg | DERIVED from TEST master | bright; far window now black (original desk.jpg still shows horizon) |
 | `assets/sets/customs/desk.jpg` | step4 customs hall - the desk with glass screen | master.jpg | DERIVED from TEST master | far window shows lunar horizon like the customs master - mask if needed |
+| `assets/sets/customs/holding-cage-bright.jpg` | bright set: cage | holding-cage.jpg | DERIVED from TEST master | bright |
 | `assets/sets/customs/holding-cage.jpg` | step4 customs holding cage | master.jpg | DERIVED from TEST master | clock, bear in hussar jacket, sprouting saddle, padlock, blank tags |
+| `assets/sets/customs/master-bright.jpg` | bright set: customs-master | master.jpg | DERIVED from TEST master | bright; mint green world; window black |
 | `assets/sets/customs/master.jpg` | request1 customs hall master REDO with pure black window | master.jpg | TEST (redo with black window; from TEST master) | REDO: same hall, far window now pure black; old kept as master-old.jpg |
+| `assets/sets/customs/noakes-office-bright.jpg` | bright set: office | noakes-office.jpg | DERIVED from TEST master | bright; window black |
 | `assets/sets/customs/noakes-office.jpg` | step4 Noakes's office | master.jpg, master.jpg | DERIVED from TEST master | matches Noakes master room; window pure black |
+| `assets/sets/hatchet/coldstore-bright.jpg` | bright set: coldstore lit foreground | coldstore.jpg | DERIVED from PROPOSED/TEST master | stays dark, foreground lit |
 | `assets/sets/hatchet/coldstore.jpg` | step4 Silver Hatchet cold store (new, PROPOSED) | parlour.jpg | DERIVED from PROPOSED/TEST master | new set PROPOSED; window pure black |
 | `assets/sets/hatchet/exterior.jpg` | step4 Silver Hatchet inn exterior (new, PROPOSED) | none (text only) | DERIVED from PROPOSED/TEST master | new set PROPOSED; half sun half dark |
+| `assets/sets/hatchet/parlour-bright.jpg` | bright set: parlour | parlour.jpg | DERIVED from PROPOSED/TEST master | bright; slot window now black |
 | `assets/sets/hatchet/parlour.jpg` | step4 Silver Hatchet parlour (new, PROPOSED) | none (text only) | DERIVED from PROPOSED/TEST master | new set PROPOSED; slot window shows bright exterior (sun source) |
+| `assets/sets/hold/master-bright.jpg` | bright set: hold | master.jpg | DERIVED from PROPOSED/TEST master | bright; green steel world |
 | `assets/sets/hold/master.jpg` | step4 cargo hold set (new, PROPOSED) | master.jpg | PROPOSED (new set/prop) | new set PROPOSED; parcel centred, reactor panel open |
+| `assets/sets/postchaise/cab-bright.jpg` | bright set: cab | cab.jpg | DERIVED from PROPOSED/TEST master | bright; windscreen black |
 | `assets/sets/postchaise/cab.jpg` | step4 post-chaise cab interior from back seat (new, PROPOSED) | none (text only) | DERIVED from PROPOSED/TEST master | new set PROPOSED; windscreen pure black |
 | `assets/sets/postchaise/master.jpg` | step4 post-chaise exterior three-quarter (new, PROPOSED) | none (text only) | PROPOSED (new set/prop) | new set PROPOSED; horse head on bonnet, trunk on roof, black sky |
 | `assets/sets/customs/board.jpg` | Flip-number board reading 1,094 (crop of clamp-console) | crop, no generation | DERIVED | upscaled crop, softer than a native frame |
+
+## Notes for the shot runner (27 Nov)
+- Bright style: use the `*-bright.jpg` set versions as references from now on; the originals are the dark style. `desk.jpg` (dark) still shows a lunar horizon in its far window; use `desk-bright.jpg` (window black).
+- `sets/customs/master.jpg` was redone with a pure black window; the old one is `master-old.jpg` (RETIRED).
+- Mira and Lucía: `master.jpg` is the younger redo (TEST). Three v3 glamour candidates each (`candidate-1..3.jpg`) await the owner's choice; all `ref-*.jpg` of Mira and Lucía are derived from the current master and must be redone once a candidate wins.
+- Noakes, Temi, Mamani: LOCKED (owner, 27 Nov).
+- Still PROPOSED: idris, voss, cass (faces); hold, postchaise, hatchet (inn), apron sets; all new props. Arakawa rejected (likeness risk), not on disk.
+- Window flags (mask to black before compositing): `characters/chichikov/ref-softfocus-bench.jpg`, `characters/mira/ref-back.jpg`, `characters/mamani/master.jpg`, `characters/mira/candidate-1.jpg`, `props/inlaid-box/master.jpg`.
+- Not yet made: `assets/vehicles/crawler/master.jpg` (request 3; stopped at 99% weekly allowance). `mira/ref-suit-helmet.jpg` is waist-up, not the full body the request lists.

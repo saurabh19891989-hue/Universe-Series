@@ -1091,6 +1091,26 @@
    "refs_used": [
     "assets/characters/chichikov/master.jpg"
    ]
+  },
+  "E01-J030": {
+   "priority": 1,
+   "status": "pending",
+   "attempts": 1,
+   "seconds": [
+    55.7
+   ],
+   "tokens": [
+    16274
+   ],
+   "notes": [],
+   "refs_used": [
+    "assets/characters/chichikov/master.jpg",
+    "assets/props/inlaid-box/master.jpg",
+    "assets/sets/customs/master.jpg",
+    "assets/characters/chichikov/ref-softfocus-bench.jpg",
+    "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/e01/accepted-png/e01-j029_bench_two_clean.png"
+   ],
+   "prompt_changed": " | extra ref note: Image 5 is the bench plate to edit (E01-J029): keep its framing, Jax Vale, the bench and the hall identical; only add the man at the soft far end."
   }
  },
  "allowance": [

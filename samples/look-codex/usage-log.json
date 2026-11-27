@@ -2166,5 +2166,48 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T16:29:03",
+  "job": "e01/E01-J030",
+  "name": "e01-j030_bench_two_chichikov",
+  "purpose": "E01 still E01-J030",
+  "refs": [
+   "master.jpg",
+   "master.jpg",
+   "master.jpg",
+   "ref-softfocus-bench.jpg",
+   "e01-j029_bench_two_clean.png"
+  ],
+  "seconds": 55.7,
+  "tokens_used": 16274,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd5-ec1b-73b2-81ff-4437131cd9c0",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 95.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 99.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]
