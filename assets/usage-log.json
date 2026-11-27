@@ -4071,5 +4071,233 @@
     "resets_at": "2026-12-04 16:38 UTC"
    }
   }
+ },
+ {
+  "time": "2026-11-27T17:13:57",
+  "type": "run",
+  "purpose": "E02 set Lost Workshop (PROPOSED)",
+  "job": "e2-workshop",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/e2-workshop/workshop.png",
+  "file": "assets/sets/workshop/master.jpg",
+  "refs": [],
+  "seconds": 64.4,
+  "tokens": 6480,
+  "status": "accepted",
+  "note": "E02 set PROPOSED",
+  "jpg_bytes": 1000899,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 59.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 9.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:14:34",
+  "type": "run",
+  "purpose": "E02 set dead-letter vault (PROPOSED)",
+  "job": "e2-deadletter",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/e2-deadletter/dead-letter.png",
+  "file": "assets/sets/dead-letter/master.jpg",
+  "refs": [],
+  "seconds": 37.0,
+  "tokens": 5375,
+  "status": "accepted",
+  "note": "E02 set PROPOSED",
+  "jpg_bytes": 662153,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 60.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 9.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:14:31",
+  "type": "run",
+  "purpose": "E02 set Seo wrecked shuttle exterior (PROPOSED)",
+  "job": "e2-wreck",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/e2-wreck/wreck.png",
+  "file": null,
+  "refs": [],
+  "seconds": 33.7,
+  "tokens": 10021,
+  "status": "rejected",
+  "note": "REJECT: model added an unhelmeted, unsuited woman in a vacuum exterior",
+  "jpg_bytes": null,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 60.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 9.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:14:44",
+  "type": "run",
+  "purpose": "E02 set wrecked shuttle cockpit (PROPOSED)",
+  "job": "e2-wreck-cockpit",
+  "file": null,
+  "refs": [],
+  "seconds": 10.1,
+  "tokens": 5001,
+  "status": "failed: image usage limit (no image made)"
+ },
+ {
+  "time": "2026-11-27T17:14:48",
+  "type": "run",
+  "purpose": "E02 set Steadfast bridge (PROPOSED)",
+  "job": "e2-steadfast",
+  "file": null,
+  "refs": [],
+  "seconds": 13.2,
+  "tokens": 9803,
+  "status": "failed: image usage limit (no image made)"
+ },
+ {
+  "time": "2026-11-27T17:14:58",
+  "type": "run",
+  "purpose": "E02 set Valley edge (PROPOSED)",
+  "job": "e2-valley-edge",
+  "file": null,
+  "refs": [],
+  "seconds": 10.4,
+  "tokens": 4977,
+  "status": "failed: image usage limit (no image made)"
+ },
+ {
+  "time": "2026-11-27T17:14:58",
+  "type": "run",
+  "purpose": "E02 prop feather robe",
+  "job": "e2-robe",
+  "file": null,
+  "refs": [],
+  "seconds": 10.5,
+  "tokens": 4896,
+  "status": "failed: image usage limit (no image made)"
+ },
+ {
+  "time": "2026-11-27T17:15:09",
+  "type": "run",
+  "purpose": "E02 prop forged branch",
+  "job": "e2-branch",
+  "file": null,
+  "refs": [],
+  "seconds": 10.5,
+  "tokens": 9062,
+  "status": "failed: image usage limit (no image made)"
+ },
+ {
+  "time": "2026-11-27T17:15:13",
+  "type": "run",
+  "purpose": "E02 prop Lucia invoice (text added in code)",
+  "job": "e2-invoice",
+  "file": null,
+  "refs": [],
+  "seconds": 14.9,
+  "tokens": 9799,
+  "status": "failed: image usage limit (no image made)"
+ },
+ {
+  "time": "2026-11-27T17:15:23",
+  "type": "run",
+  "purpose": "E02 prop wit and reputation flasks",
+  "job": "e2-flasks",
+  "file": null,
+  "refs": [],
+  "seconds": 9.7,
+  "tokens": 9051,
+  "status": "failed: image usage limit (no image made)"
+ },
+ {
+  "time": "2026-11-27T17:15:24",
+  "type": "run",
+  "purpose": "E02 prop jars of sighs",
+  "job": "e2-sighs",
+  "file": null,
+  "refs": [],
+  "seconds": 11.1,
+  "tokens": 4926,
+  "status": "failed: image usage limit (no image made)"
+ },
+ {
+  "time": "2026-11-27T17:15:34",
+  "type": "run",
+  "purpose": "E02 prop Seo's diagram on envelope (labels added in code)",
+  "job": "e2-envelope",
+  "file": null,
+  "refs": [],
+  "seconds": 10.0,
+  "tokens": 4905,
+  "status": "failed: image usage limit (no image made)"
+ },
+ {
+  "time": "2026-11-27T17:15:35",
+  "type": "run",
+  "purpose": "E02 prop parcel's lost invoice (text added in code)",
+  "job": "e2-docket",
+  "file": null,
+  "refs": [],
+  "seconds": 10.5,
+  "tokens": 9045,
+  "status": "failed: image usage limit (no image made)"
+ },
+ {
+  "time": "2026-11-27T17:15:45",
+  "type": "run",
+  "purpose": "E02 prop Seo's photograph",
+  "job": "e2-photo",
+  "file": null,
+  "refs": [],
+  "seconds": 10.5,
+  "tokens": 6420,
+  "status": "failed: image usage limit (no image made)"
+ },
+ {
+  "time": "2026-11-27T17:15:47",
+  "type": "run",
+  "purpose": "E02 prop Voss letter (text added in code)",
+  "job": "e2-voss-letter",
+  "file": null,
+  "refs": [],
+  "seconds": 12.7,
+  "tokens": 9442,
+  "status": "failed: image usage limit (no image made)"
+ },
+ {
+  "type": "usage_limit_hit",
+  "time": "2026-11-27T17:14:56Z",
+  "message": "image generation failed: http 429 Too Many Requests: {\"error\":{\"type\":\"usage_limit_reached\",\"message\":\"The usage limit has been reached\",\"plan_type\":\"plus\",\"resets_at\":1795877548,\"limit_window_minutes\":1440,\"resets_in_seconds\":77852}}",
+  "resets_at": "2026-11-28 14:52 UTC",
+  "window": "1440-minute (24 h) image-generation limit, separate from the 5-hour (65%) and weekly (10%) Codex counters",
+  "note": "wrapper did not detect it (line starts with a timestamp); 11 further jobs were sent, each failed at once without an image. Detection fixed in scratch wrapper."
+ },
+ {
+  "read_at": "2026-11-27T17:17:02Z",
+  "source": "rollout-2026-11-27T17-15-35-01a21e01-5c89-7790-b735-df5724232bd5.jsonl",
+  "five_hour": {
+   "used_percent": 65.0,
+   "window_minutes": 300,
+   "resets_at": "2026-11-27 21:38 UTC"
+  },
+  "weekly": {
+   "used_percent": 10.0,
+   "window_minutes": 10080,
+   "resets_at": "2026-12-04 16:38 UTC"
+  },
+  "type": "allowance_check",
+  "label": "end of resumed run (image limit hit)"
  }
 ]
