@@ -102,7 +102,7 @@ Jax V.O. lines: six (1, 14, 23, 25, 27 twice), each skipping time or lying again
 # COLD OPEN
 
 ### 0 · THE UNSCHEDULED — BRIDGE — TOUCHDOWN
-**Thread:** A/C · **Target:** 80 s · **Visual:** INSERT / PHOTOREAL SET STILL / REAL FOOTAGE WIDE (window) · **Place:** tiny gravity; the Exception
+**Thread:** A/C · **Target:** 90 s · **Visual:** INSERT / PHOTOREAL SET STILL / REAL FOOTAGE WIDE (window) · **Place:** tiny gravity; the Exception
 **STAGING:** Open on black and PIP's lens, so the problem is a light, not a mouth, and lands by
 0:08. Then the bridge: backs of heads against a window entirely full of Mars (ESA/Hubble Mars
 rotation plate, full phase). The touchdown is an INSERT of a coffee cup whose surface does not
@@ -222,7 +222,7 @@ SMASH TO: MAIN TITLE.
 # ACT ONE — "Excepted"
 
 ### 1 · PHOBOS — THE RIM OF STICKNEY
-**Thread:** A · **Target:** 60 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT · **Place:** escape speed about 11 m/s; tiny gravity (a dropped card falls for 23 s); Mars fills the sky; craters named from *Gulliver's Travels*
+**Thread:** A · **Target:** 65 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT · **Place:** escape speed about 11 m/s; tiny gravity (a dropped card falls for 23 s); Mars fills the sky; craters named from *Gulliver's Travels*
 **STAGING:** Five suited figures bounding in long, slow arcs across charcoal ground scored with
 straight grooves; over the crater rim Mars hangs enormous and full. Suit radio throughout. Open
 on Jax's V.O. over the wide. The card is a run of INSERTS that must span the scene: dropped at
@@ -323,7 +323,7 @@ INSERT: the card lands, at last, on Jax's boot. The ace of clubs.
 ```
 
 ### 2 · THE WAITING ROOM
-**Thread:** A/C · **Target:** 85 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT · **Place:** Mars through the skylight
+**Thread:** A/C · **Target:** 100 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT · **Place:** Mars through the skylight
 **STAGING:** The first spectacle: a hall the size of a railway station, cut into the crater
 wall, under a vast round skylight full of Mars. Salmon-orange light on teal benches, brass
 rails and plants grown wild. Nasreddin is introduced from behind, sitting backwards; his lines
@@ -472,7 +472,7 @@ Jax and Mira look at each other. Neither of them can.
 ```
 
 ### 3 · THE COUNTERS — WINDOW 17
-**Thread:** A/B · **Target:** 85 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP · **Place:** the Exception
+**Thread:** A/B · **Target:** 90 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP · **Place:** the Exception
 **STAGING:** A long hall of cobalt-and-cream tiles with forty frosted counter windows, thirty-
 nine shuttered; brass pneumatic tubes run overhead like plumbing for letters. Only Window 17 is
 lit. The Registrar is a shape of brass and green enamel behind the frosted glass; her slips are
@@ -595,7 +595,7 @@ Ding. INSERT: REPORTING UNIT, STATE YOUR NUMBER.
 ```
 
 ### 4 · THE READING ROOM — THE GER
-**Thread:** A/B · **Target:** 85 s · **Visual:** PHOTOREAL SET STILL / INSERT · **Place:** the Exception (a signature cannot bind)
+**Thread:** A/B · **Target:** 95 s · **Visual:** PHOTOREAL SET STILL / INSERT · **Place:** the Exception (a signature cannot bind)
 **STAGING:** A round domed hall with empty shelves, an oculus full of Mars, and in the middle,
 under the Mars-light, a white felt ger with an orange-painted door and blue knotwork. Jax's boot
 on the threshold is an INSERT. Inside, Oyuna has her back to us, pouring salt tea; she speaks to
@@ -778,7 +778,7 @@ long moment.
 ```
 
 ### 6 · THE COUNTERS — THE FORM
-**Thread:** A/B · **Target:** 80 s · **Visual:** INSERT / PHOTOREAL SET STILL · **Place:** the Exception
+**Thread:** A/B · **Target:** 65 s · **Visual:** INSERT / PHOTOREAL SET STILL · **Place:** the Exception
 **STAGING:** A fast farce of slips: every *ding* is a cut to an INSERT, every line is played on
 backs and hands at the ledge. The form is a long, beautiful, useless document (INSERT). The last
 image is the act-out: a wide down the long tiled hall, through the arch, to the Mars-lit waiting
@@ -898,7 +898,7 @@ END OF ACT ONE.
 # ACT TWO — "Fear and Dread"
 
 ### 7 · THE UNSCHEDULED — BRIDGE
-**Thread:** B/C · **Target:** 45 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE (window) · **Place:** tiny gravity (a shuttle lands like a leaf)
+**Thread:** B/C · **Target:** 40 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE (window) · **Place:** tiny gravity (a shuttle lands like a leaf)
 **STAGING:** Seo in the pilot's seat, back to us; Idris dealing on the dash. They lie to each
 other and enjoy it, which is a plant for E05. The grey shuttle settling outside is one held
 composite still; the two figures who step down are tiny, one with an umbrella. Seo puts her
@@ -1176,7 +1176,7 @@ Jax waits with his back to the ger.
 ```
 
 ### 10 · THE COUNTERS — THE DUEL OF RECEIPTS
-**Thread:** B · **Target:** 70 s · **Visual:** INSERT / PHOTOREAL SET STILL · **Place:** the Exception (no lawful origin)
+**Thread:** B · **Target:** 75 s · **Visual:** INSERT / PHOTOREAL SET STILL · **Place:** the Exception (no lawful origin)
 **STAGING:** PIP alone on the ledge, lens to the glass; Lucía on a bench behind him with a tin
 of noodles, his reluctant escort, eating through it. A rhythm of report, *ding*, slip. The
 returned report going back into the tube and coming out RECEIVED is the scene's turn. Lucía's
@@ -1276,7 +1276,7 @@ Ding. INSERT: WINDOW OPENS 09:00. UNIT MAY RETURN.
 ```
 
 ### 11 · PHOBOS — ON THE GREAT SKYLIGHT
-**Thread:** B/C · **Target:** 55 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT · **Place:** Phobos keeps one face to Mars, so Mars never rises or sets here; tiny gravity
+**Thread:** B/C · **Target:** 50 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT · **Place:** Phobos keeps one face to Mars, so Mars never rises or sets here; tiny gravity
 **STAGING:** A new place for one quiet scene: outside, on top of the waiting room's great domed
 skylight, a field of glass set into the charcoal ground. Mira sits on the glass, measuring, her
 tether clipped to Jax's belt; Jax stands. Through the glass below them, tiny, the orange waiting
@@ -1356,7 +1356,7 @@ A long pause on the channel.
 ```
 
 ### 12 · PHOBOS — THE GROOVES — THE JUMP
-**Thread:** B/A · **Target:** 85 s · **Visual:** REAL FOOTAGE WIDE (HELD) / PHOTOREAL SET STILL / INSERT · **Place:** escape speed about 11 m/s; a 4 m/s jump lasts about twenty minutes; Phobos turns under you
+**Thread:** B/A · **Target:** 90 s · **Visual:** REAL FOOTAGE WIDE (HELD) / PHOTOREAL SET STILL / INSERT · **Place:** escape speed about 11 m/s; a 4 m/s jump lasts about twenty minutes; Phobos turns under you
 **STAGING:** The action set piece of Act 2, and the place fighting back. ONE held wide: Lucía
 rising off the moon, arms out, over the long straight grooves, Mars enormous behind her; hold it
 far longer than feels right while she keeps going up. The searchlight and the card in the
@@ -1501,7 +1501,7 @@ out.
 ```
 
 ### 13 · THE WAITING ROOM — THE CAULDRON
-**Thread:** A/B/C · **Target:** 95 s · **Visual:** PHOTOREAL SET STILL / INSERT · **Place:** the Exception
+**Thread:** A/B/C · **Target:** 105 s · **Visual:** PHOTOREAL SET STILL / INSERT · **Place:** the Exception
 **STAGING:** Jax sits backwards beside Nasreddin, to be polite: two backs facing the wall, Mira
 standing side-on. The cauldron is told with props: the tea urn and a teacup set down inside a
 saucepan (INSERTS), not with a flashback. Two benches away, the *Gazette*: the page that stops
@@ -1624,7 +1624,7 @@ END OF ACT TWO.
 # ACT THREE — "The Original"
 
 ### 14 · THE RECORDS VAULT — THE GROOVE
-**Thread:** A/B · **Target:** 85 s · **Visual:** PHOTOREAL SET STILL (wide) / INSERT / PHOTOREAL CLOSE-UP · **Place:** the grooves; tiny gravity (two fingers lift you thirty metres)
+**Thread:** A/B · **Target:** 70 s · **Visual:** PHOTOREAL SET STILL (wide) / INSERT / PHOTOREAL CLOSE-UP · **Place:** the grooves; tiny gravity (two fingers lift you thirty metres)
 **STAGING:** The spectacle of Act 3: a straight trench two kilometres long, roofed with glass,
 amber card drawers rising thirty metres on both walls to a vanishing point, Mars glowing through
 the roof. Oyuna's first step out of her room is a silent INSERT (her hand on the door frame, her
@@ -1803,7 +1803,7 @@ Jax looks down the long groove, back the way they came.
 ```
 
 ### 16 · THE COUNTERS — LAWFUL ORIGIN
-**Thread:** A/C · **Target:** 65 s · **Visual:** INSERT / PHOTOREAL SET STILL · **Place:** the Exception (no lawful origin); light delay to Earth
+**Thread:** A/C · **Target:** 70 s · **Visual:** INSERT / PHOTOREAL SET STILL · **Place:** the Exception (no lawful origin); light delay to Earth
 **STAGING:** Quick and dry. PIP on the ledge, Jax, Mira and Oyuna behind him. The slips are
 INSERTS. Pell arrives as a voice behind them; when they turn he is a teacup held at his chin,
 eyes over it.
@@ -1864,6 +1864,14 @@ They turn. Pell, a cup of tea held at his chin.
           At my level, Dr Sen, they're the same
           thing, with better chairs. And you
           did swear you saw a giant.
+
+                         MIRA
+          I did. It was a dust devil and it was
+          a giant, and I'd swear it again.
+
+                         PELL
+          Please don't. My filing is already
+          very full.
 ```
 
 ### 17 · THE WAITING ROOM — WHY HE STAYS
@@ -1954,7 +1962,7 @@ INSERT: the box of torn halves.
 ```
 
 ### 18 · THE WAITING ROOM — THE OFFER
-**Thread:** C/A/B · **Target:** 100 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT · **Place:** the coming eclipse (Phobos passes into Mars's shadow on most orbits)
+**Thread:** C/A/B · **Target:** 110 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT · **Place:** the coming eclipse (Phobos passes into Mars's shadow on most orbits)
 **STAGING:** Build it as two group stills (the crew and Oyuna on two benches; Pell opposite with
 Arakawa standing) plus close inserts, so no six-face frame is needed. Pell is the teacup and the
 back of a bench. INSERTS: Form Zero with its pre-printed APPROVED, Arakawa's pages, Lucía's hand
@@ -2065,7 +2073,7 @@ INSERT: I DO NOT.
 ```
 
 ### 19 · PHOBOS — OUTSIDE THE OFFICE DOOR — THE ORDER
-**Thread:** C · **Target:** 75 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL CLOSE-UP (visors) / INSERT · **Place:** Mars thinning to a crescent before the eclipse
+**Thread:** C · **Target:** 65 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL CLOSE-UP (visors) / INSERT · **Place:** Mars thinning to a crescent before the eclipse
 **STAGING:** Two suited figures from behind on the bright grey ground, Pell's furled umbrella
 clipped absurdly to his suit; Mars is a huge thinning crescent. Private suit channel, played on
 two backs and two visors. Seo's gloved hand closing is the INSERT. End on her visor: in it, the
@@ -2151,7 +2159,7 @@ END OF ACT THREE.
 # ACT FOUR — "Expected"
 
 ### 20 · THE WAITING ROOM — THE AMENDMENT
-**Thread:** A/B/C · **Target:** 65 s · **Visual:** PHOTOREAL SET STILL / INSERT · **Place:** the eclipse deadline
+**Thread:** A/B/C · **Target:** 60 s · **Visual:** PHOTOREAL SET STILL / INSERT · **Place:** the eclipse deadline
 **STAGING:** Mars dark in the skylight, the hall lit by its lamps. Jax in front of the bench where
 Pell sits behind the *Gazette*; the crew behind Jax. The stamp on Form Zero is an INSERT. Lucía's
 last exchange is two backs walking away from Pell, close.
@@ -2237,7 +2245,7 @@ Lucía walks past Jax, close enough to speak low.
 ```
 
 ### 21 · THE COUNTERS — POSTED
-**Thread:** B/A · **Target:** 90 s · **Visual:** INSERT / PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP · **Place:** tiny gravity (PIP weighs three grams); the Exception
+**Thread:** B/A · **Target:** 80 s · **Visual:** INSERT / PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP · **Place:** tiny gravity (PIP weighs three grams); the Exception
 **STAGING:** The heart of the B story. PIP on the ledge, Oyuna's hand resting on his brass (her
 song is already in him: INSERT of his screen, RECORDING — THE SINGER — 1:12), Jax a step back.
 Every slip is an INSERT; let the drums turn for a long time before the last two. The green
@@ -2347,7 +2355,7 @@ WHOOMP. Gone.
 ```
 
 ### 22 · PHOBOS — DEPARTURES / THE WAITING ROOM
-**Thread:** C/A · **Target:** 75 s · **Visual:** REAL FOOTAGE WIDE / INSERT / PHOTOREAL SET STILL · **Place:** tiny gravity (a lift-off like a breath); the ferry's nine hours to Deimos
+**Thread:** C/A · **Target:** 70 s · **Visual:** REAL FOOTAGE WIDE / INSERT / PHOTOREAL SET STILL · **Place:** tiny gravity (a lift-off like a breath); the ferry's nine hours to Deimos
 **STAGING:** Two composites on the Mars-shadow plate, lit by ship lights: the Unscheduled lifting
 on a puff, and a minute later the small bright-red Relay ferry climbing away slow as a bus. The
 inspection is two INSERTS in the hold: the LOT 14 trunk lid lifted by a gloved officer, the old
@@ -2438,7 +2446,7 @@ moment, Arakawa takes it.
 ```
 
 ### 23 · OVER MARS — THE INTERCEPT
-**Thread:** C/B/A · **Target:** 55 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT · **Place:** orbital speeds (a cutter can do in three hours what the ferry does in nine); matching orbits
+**Thread:** C/B/A · **Target:** 65 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT · **Place:** orbital speeds (a cutter can do in three hours what the ferry does in nine); matching orbits
 **STAGING:** Open on Jax's V.O. over a real Mars-from-orbit plate (lit again), the tiny red ferry
 crawling across it, the Unscheduled ahead, a grey cutter far behind and burning. Then the bridge:
 Seo flying, helmet, back to us; Idris at the nav screen; Lucía at the hatch. **Seo's hands on the
@@ -2647,7 +2655,7 @@ INSERT: Wen's thumb stops her stopwatch.
 ```
 
 ### 25 · MONTAGE — TWENTY-TWO MINUTES
-**Thread:** A/B/C · **Target:** 40 s · **Visual:** MONTAGE (INSERTS and stills) · **Place:** light delay, eleven minutes there and eleven back
+**Thread:** A/B/C · **Target:** 35 s · **Visual:** MONTAGE (INSERTS and stills) · **Place:** light delay, eleven minutes there and eleven back
 **STAGING:** The episode's one music-led montage: the very small march, taken up by clarinet and
 darbuka, cut between the two moons. No dialogue but the V.O. Pell's ticket and the two backs on
 the bench are the images that matter.
@@ -2687,7 +2695,7 @@ the end.
 ```
 
 ### 26 · PHOBOS — THE WAITING ROOM — EXPECTED
-**Thread:** A/B/C · **Target:** 75 s · **Visual:** INSERT / PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP · **Place:** the Exception ends; Phobos is slowly falling toward Mars (the old-moons joke)
+**Thread:** A/B/C · **Target:** 70 s · **Visual:** INSERT / PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP · **Place:** the Exception ends; Phobos is slowly falling toward Mars (the old-moons joke)
 **STAGING:** The payoff of every running image: the card corrected (INSERT), the board flipping
 through every number to ALL, the march's last bar, the silent waiters standing. Arakawa's pages
 are INSERTS; her bow is one still. Nasreddin turns round to face the room for the first and only
@@ -2777,7 +2785,7 @@ Through the arch, Window 17 goes dark.
 ```
 
 ### 27 · DEIMOS — THE GUILD DOCK / THE UNSCHEDULED — BRIDGE
-**Thread:** A/B/C · **Target:** 80 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE (window) · **Place:** light delay (READ in twenty-two minutes and four seconds); Mars small from Deimos
+**Thread:** A/B/C · **Target:** 110 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE (window) · **Place:** light delay (READ in twenty-two minutes and four seconds); Mars small from Deimos
 **STAGING:** Jax's V.O. skips eighteen hours over the dock. The reunion on the Guild dock is silent:
 Nasreddin stepping off the red ferry backwards, leading the donkey; Wen waiting with her
 stopwatch; the box of torn halves handed over; slip 133 tucked into his hat. Oyuna walks up the
@@ -2913,7 +2921,7 @@ each, in time, a small grey line: READ — 00:22:04.
 # TAG
 
 ### 28 · SEO'S BUNK / A NOTEBOOK / THE CARGO HOLD
-**Thread:** C · **Target:** 60 s · **Visual:** INSERT / PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP · **Place:** none
+**Thread:** C · **Target:** 45 s · **Visual:** INSERT / PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP · **Place:** none
 **STAGING:** Seo's report and Pell's reply are text only (INSERT); Pell is on Deimos, so the reply
 is almost instant. Chichikov's notebook is an INSERT under his E03 entry. Then the hold: the
 parcel, Oyuna's hand flat on it, Jax in the hatch light. The signature that stays is the payoff of
