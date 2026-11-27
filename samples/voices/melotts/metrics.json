@@ -3,5 +3,12 @@
   "speech_seconds": 61.6,
   "rtf": 3.235,
   "episode_compute_hours_est": 1.62,
-  "words": 188
+  "words": 188,
+  "wer": 0.021,
+  "wer_errors": [
+    "substitute: 'i'd been' -> 'and being'",
+    "substitute: 'jax' -> 'jacks'",
+    "delete: 'if' -> ''"
+  ],
+  "wer_model": "faster-whisper small int8"
 }
