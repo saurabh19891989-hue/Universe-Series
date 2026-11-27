@@ -28,6 +28,12 @@ Last updated: 2026-11-27 (session 1)
 - Gemini: the AI Studio key's project is on the free tier (image quota zero); owner is sorting
   out how to use the $300 Google Cloud credit. Voices work on the free tier.
 
+- Audio (27 Nov, later): owner listened; voices "pretty good for now" and said to continue with
+  the A1–A5 composed music direction. Showrunner's reading: free voices (Kokoro / Pocket TTS)
+  are acceptable as the working voices; Gemini voices stay as the upgrade under test.
+- Episode 1: outline approved by showrunner with changes; full script being written
+  (`episodes/E01/`).
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|
