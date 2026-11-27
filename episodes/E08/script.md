@@ -2,13 +2,29 @@
 ## Episode 8 — "Havoc Under the Mountain"
 ### Shooting script, draft 1 (writer's draft, for punch-up and the independent critic)
 
-Running time: about __RUNTIME__ honest (scene targets add up to __SUM__ including "What was real" at 0:40, plus the 0:10 title; model: dialogue at 155 wpm, 0.4 s per speaker change, plus each scene's stated silences, holds and insert-only action). Cold open __CO__ · Act 1 __A1__ · Act 2 __A2__ · Act 3 __A3__ · Act 4 __A4__ · tag __TAG__. __WORDS__ spoken words (counted by script: dialogue lines only, including "What was real"; cues, parentheticals and action excluded); Jax V.O. __VO__ words. 28 units (cold open, 26 scenes, tag), plus "What was real". Time inside *The Unscheduled*: about __SHIP__.
+Running time: about 36:00 honest (scene targets add up to 35:50 including "What was real" at 0:45, plus the 0:10 title; model: dialogue at 155 wpm, 0.4 s per speaker change (408 of them), plus each scene's stated silences, held wides and insert-only action, about 7¼ minutes in all: this is the action episode). No scene is over 2:30; the longest is 6 at 2:20. Cold open 1:30 · Act 1 7:55 · Act 2 9:15 · Act 3 7:05 · Act 4 8:05 · tag 1:15. 4,018 spoken words (counted by script: dialogue lines only, including "What was real"; cues, parentheticals and action excluded); Jax V.O. 55 words. 28 units (cold open, 26 scenes, tag), plus "What was real". Time inside *The Unscheduled*: about 7:35 (21%).
 Visual style: photoreal characters and sets composited with real NASA and ESA footage, staged
 mostly as cinematic stills with camera moves and limited motion. Lip movement is scarce or absent.
 Jupiter is ADEQUATE on real footage (Hubble and Webb rotations and aurora in 4K, Juno stills), so
 Jupiter is always the real planet: in windows, in the sky of Io, and under the chase. Io is THIN
 (three verified stills, no video), so Io from orbit is a real still and everything on and under its
 surface is a generated set.
+
+**Carried in (conform if earlier scripts change).** From E07, on disk: the crew's unnamed
+"friend" inside the Voss family sent Lucía one line ("First payment: Io. Ask what he keeps under
+the mountain"); only Lucía knows he is Mattias Voss. Pell has told Seo to find out who the friend
+is. Lucía was left owed twelve months and ten days; she says "thirteen" here and the exact count
+at the end is thirteen months and four days (the figure E09 already uses). PIP's last report was
+#1,251; E09 opens at #1,266. PIP knows his reader is "never further away than 1.3 seconds". From
+E06, not on disk, per the season plan: someone aboard sabotaged the Venus gate; suspicion sits on
+Idris; it was Seo. From E05: Idris knows Seo's papers carry the sample name Hong Gildong. From
+E03: "I don't carry bows." From E02: Arakawa, "I would rather arrest you than find you on a
+hillside." **Handed on to E09:** Lucía badly hurt (a radiation dose taken at an open engine,
+then more than double weight; she cannot walk) and lying in the ship's titanium strongbox; course
+for a harbour under Europa's ice that was taken off the Atlas a century ago by its owner, "No
+One"; the Register of Dignities aboard and in Oyuna's memory, including one empty line; the
+State Barge in the hold; Arakawa halfway through the sealed annex; Seo's unsent confession;
+Wukong's line to Jax, which Oyuna has not yet been asked to answer.
 
 **How to read the headers.** Each unit lists its number, setting, thread (A = the job and the
 legend: getting Sun Wukong out · B = the crew changing toward each other: Jax and the Monkey,
@@ -116,7 +132,7 @@ Jax narration: three V.O. lines (1, 13, 26), each skipping time or lying.
 # COLD OPEN
 
 ### 0 · BRIDGE OF *THE UNSCHEDULED* — INTO THE BELT
-**Thread:** A/C · **Target:** __T0__ s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE WIDE (window) / DATA VISUAL
+**Thread:** A/C · **Target:** 90 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE WIDE (window) / DATA VISUAL
 **STAGING:** Open on PIP's lens in black with radiation crackle, so the first line is a light.
 Jax is a silhouette against real Jupiter filling the window (Hubble rotation, heic1522b or
 heic1914c). Screens die one by one (INSERTS). Lucía is a voice from below and then a pair of
@@ -236,7 +252,7 @@ SMASH TO: MAIN TITLE.
 # ACT ONE — "The Position Before Any Rank"
 
 ### 1 · IO — THE SULPHUR PLAINS
-**Thread:** A/B · **Target:** __T1__ s · **Visual:** REAL FOOTAGE WIDE (Io still, Jupiter) / GENERATED WIDE / INSERT
+**Thread:** A/B · **Target:** 80 s · **Visual:** REAL FOOTAGE WIDE (Io still, Jupiter) / GENERATED WIDE / INSERT
 **STAGING:** Open on the real Io (Galileo true-colour composite, or JunoCam PIA26234) under Jax's
 V.O. Then the plains: a generated wide with **real Jupiter composited into the sky**, huge and
 fixed; it must sit in exactly the same place in every plains shot of the episode, because from
@@ -351,7 +367,7 @@ JUPITER. VISITORS BY RANK ONLY.
 ```
 
 ### 2 · THE RESIDENCE — THE GATE OF RANK
-**Thread:** A · **Target:** __T2__ s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** A · **Target:** 55 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** A rock vestibule with warm lamps. The first image is hands taking peacock-blue filter
 masks off a row of hooks, so every mouth is covered before anyone speaks. The gate is a lectern
 with a flip-letter board like a small railway departure board: every answer is an INSERT with a
@@ -439,7 +455,7 @@ The inner doors swing open.
 ```
 
 ### 3 · THE UNSCHEDULED — COCKPIT
-**Thread:** B/C · **Target:** __T3__ s · **Visual:** PHOTOREAL SET STILL / INSERT / DATA VISUAL / REAL FOOTAGE (window)
+**Thread:** B/C · **Target:** 55 s · **Visual:** PHOTOREAL SET STILL / INSERT / DATA VISUAL / REAL FOOTAGE (window)
 **STAGING:** Two helmets from behind against real Jupiter. The fleet is the DATA VISUAL from the
 cold open, the ring now closed. Pell's order is an INSERT on Seo's wrist screen, with the Relay
 Guild's transit stamp (as in E07) held long enough to read: it is forty-one minutes old because
@@ -482,8 +498,9 @@ Closed.
           as when I didn't know.
 
 INSERT: Seo's wrist screen wakes, turned away from him. FROM: P. —
-RELAY GUILD, 41 MIN IN TRANSIT. THE COMMANDER HOLDS THE BELT. WHEN THEY RUN,
-BRING THEM OUT TO HER. DO NOT BE BRILLIANT. FLY ADEQUATELY.
+RELAY GUILD, 41 MIN IN TRANSIT. THE COMMANDER HOLDS THE BELT. WHEN
+THEY RUN, BRING THEM OUT TO HER. DO NOT BE BRILLIANT. FLY
+ADEQUATELY.
 
 INSERT: she turns the wrist face-down on her knee.
 
@@ -508,7 +525,7 @@ He looks at her a moment. Then back at the fleet.
 ```
 
 ### 4 · THE RESIDENCE — THE CHANCERY OF DIGNITIES
-**Thread:** A/B · **Target:** __T4__ s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** A/B · **Target:** 115 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** The show-off interior of Act 1: one wide of the round room, bright as a jewel box.
 Everyone is masked. The Chamberlain never stops moving: play him as a run of stills (arms wide;
 at the pigeon-holes; polishing the clock with his cuff). His lines land on the crew's eyes above
@@ -644,7 +661,7 @@ Nobody moves.
 ```
 
 ### 5 · THE *STEADFAST* — BRIDGE
-**Thread:** C · **Target:** __T5__ s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE (window)
+**Thread:** C · **Target:** 30 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE (window)
 **STAGING:** Steel blue. Arakawa in profile against real Jupiter with the small yellow moon
 composited. Her log is her voice over the profile, the sealed folder and the clipped slip
 (INSERTS). The seal breaking is an INSERT of her thumbnail. She reads PIP's report completely
@@ -688,7 +705,7 @@ halfway to its mouth.
 ```
 
 ### 6 · UNDER THE MOUNTAIN — THE HALL OF THE SEAT
-**Thread:** A/B/C · **Target:** __T6__ s · **Visual:** GENERATED WIDE / PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** A/B/C · **Target:** 140 s · **Visual:** GENERATED WIDE / PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** The spectacle of Act 1: an open lift cage sinking into a cavern lit orange from below.
 Wukong is first a small back, then hands and a needle (INSERT), then the eyes above the stone
 half-mask: hold that close-up three full seconds before he speaks, and again on Jax. The
@@ -848,7 +865,7 @@ END OF ACT ONE.
 # ACT TWO — "A Chair Is Freight"
 
 ### 7 · THE HALL OF THE SEAT — THE PLAN
-**Thread:** A/B/C · **Target:** __T7__ s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** A/B/C · **Target:** 130 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** Continuous from 6, but a different story: the rescue becomes a delivery. Oyuna's and
 Mira's lines play on the back of their heads toward the Seat. Wukong's long speech is delivered
 on the needle going in and out of silk (INSERT) and ends on his eyes turning to Jax; hold Jax's
@@ -992,7 +1009,7 @@ black hole, breathing heat. Nobody looks at it.
 ```
 
 ### 8 · THE UNSCHEDULED — COCKPIT
-**Thread:** C/B · **Target:** __T8__ s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE (window)
+**Thread:** C/B · **Target:** 35 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE (window)
 **STAGING:** Arakawa is a voice on the open channel over two helmets and Jupiter. Seo's replies
 play on her hands. Hold the hands for two seconds after "reading about you". Idris turns his
 helmet toward her on his last line; she does not turn hers.
@@ -1042,7 +1059,7 @@ Click.
 ```
 
 ### 9 · THE RESIDENCE — THE HALL OF DEFERENCE
-**Thread:** A/B · **Target:** __T9__ s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** A/B · **Target:** 55 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** The second house. A long emerald-and-gilt gallery; the wax Board in glass cases down
 both sides. The trap is told in three INSERTS: the gilt notice, Jax's toe on a brass roundel
 (click), the roundel rising again (click). Jax's bow is a HELD POSE, bent double, for the whole
@@ -1129,7 +1146,7 @@ Click.
 ```
 
 ### 10 · THE CHANCERY — THE REGISTER ATTENDS
-**Thread:** A/C · **Target:** __T10__ s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
+**Thread:** A/C · **Target:** 80 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
 **STAGING:** The Chamberlain is being dressed: two silent ushers wind sash after sash onto him
 while he talks, so he is a still figure growing more ridiculous. The Register on its gold cushion
 is the hero prop. Oyuna's finger down the page is a run of INSERTS: names crossed through in red
@@ -1210,7 +1227,7 @@ INSERT: his hand shuts the book.
 ```
 
 ### 11 · THE CAUSEWAY OVER THE LAKE
-**Thread:** A/B · **Target:** __T11__ s · **Visual:** GENERATED WIDE / PHOTOREAL SET STILL / INSERT
+**Thread:** A/B · **Target:** 90 s · **Visual:** GENERATED WIDE / PHOTOREAL SET STILL / INSERT
 **STAGING:** The third house, and the episode's farce. Geography in one establishing wide: the
 causeway across the lava; the Seat party coming from the cavern end, the procession from the
 lift end. The lake's "mood" is three INSERTS: a plate of crust tips, orange wells across the
@@ -1328,7 +1345,7 @@ cushion. One stroke of a large gong.
 ```
 
 ### 12 · IO — THE RESIDENCE DOORS — HAVOC
-**Thread:** A · **Target:** __T12__ s · **Visual:** GENERATED WIDE / INSERT / PHOTOREAL SET STILL
+**Thread:** A · **Target:** 55 s · **Visual:** GENERATED WIDE / INSERT / PHOTOREAL SET STILL
 **STAGING:** Helmets and radio. The Chamberlain's helmet is gilt with a crest; Wukong's is larger
 and worse, and he wears it as a man wears a joke at his expense. The cork is two INSERTS of the
 empty plinth: the hole glowing, then white. The eruption is ONE HELD WIDE in total silence: the
@@ -1407,7 +1424,7 @@ him.
 ```
 
 ### 13 · MONTAGE — UNDER THE PLUME
-**Thread:** A · **Target:** __T13__ s · **Visual:** MONTAGE (GENERATED WIDES / INSERTS / REAL JUPITER)
+**Thread:** A · **Target:** 35 s · **Visual:** MONTAGE (GENERATED WIDES / INSERTS / REAL JUPITER)
 **STAGING:** The episode's one music-led montage: big drums, clapper, cymbals, an erhu line over
 the top. No exterior sound. Every image is a still with a move. The Seat on Lucía's shoulders in
 mid-bound is the poster frame: hold it longest. Plant the ship's scar plainly (the yellow streak
@@ -1460,7 +1477,7 @@ Round the mountain's shoulder: a stone pier. Moored to it, a boat.
 ```
 
 ### 14 · THE PROTECTOR'S PIER — THE STATE BARGE
-**Thread:** A/C · **Target:** __T14__ s · **Visual:** GENERATED WIDE / PHOTOREAL SET STILL / INSERT / DATA VISUAL / REAL FOOTAGE (Io, Jupiter)
+**Thread:** A/C · **Target:** 75 s · **Visual:** GENERATED WIDE / PHOTOREAL SET STILL / INSERT / DATA VISUAL / REAL FOOTAGE (Io, Jupiter)
 **STAGING:** One establishing wide of the barge, gilt and peacock blue against yellow frost: let
 the audience laugh at it before anyone speaks. INSERTS: the brass plate, the horse figurehead,
 the rack with the Bow of Office and its one arrow (plant), the clamps closing on the stone. The
@@ -1565,7 +1582,7 @@ END OF ACT TWO.
 # ACT THREE — "All That Jupiter Holds"
 
 ### 15 · THE BARGE — THE BACK STEP
-**Thread:** A/B · **Target:** __T15__ s · **Visual:** GENERATED WIDE / PHOTOREAL SET STILL / INSERT / REAL FOOTAGE (Jupiter)
+**Thread:** A/B · **Target:** 65 s · **Visual:** GENERATED WIDE / PHOTOREAL SET STILL / INSERT / REAL FOOTAGE (Jupiter)
 **STAGING:** Helmets, radio, heavy static. The barge is a gilt toy against real Jupiter, growing.
 INSERTS: the brass helm panel spitting sparks and dying; PIP's wrist lens going dark with it; the
 open stern gallery with its two brass valve wheels; three amber badges in the lee of the Seat;
@@ -1648,7 +1665,7 @@ darkening. Her glove turns it face-in against her suit.
 ```
 
 ### 16 · THE UNSCHEDULED — COCKPIT — THE FIRST PASS
-**Thread:** C/B · **Target:** __T16__ s · **Visual:** PHOTOREAL SET STILL / INSERT / DATA VISUAL / REAL FOOTAGE WIDE
+**Thread:** C/B · **Target:** 65 s · **Visual:** PHOTOREAL SET STILL / INSERT / DATA VISUAL / REAL FOOTAGE WIDE
 **STAGING:** The quietest scene in the act and the most important insert in the episode. Two
 helmets from behind; the barge a gilt speck against real Jupiter. The order is a flash INSERT of
 two words on a wrist that is face-down: we remember them; she does not need to look. Then Seo's
@@ -1738,7 +1755,7 @@ INSERT: her hands. Not moving.
 ```
 
 ### 17 · THE *STEADFAST* — BRIDGE
-**Thread:** C · **Target:** __T17__ s · **Visual:** PHOTOREAL SET STILL / INSERT / DATA VISUAL
+**Thread:** C · **Target:** 30 s · **Visual:** PHOTOREAL SET STILL / INSERT / DATA VISUAL
 **STAGING:** Arakawa's profile; the plot beside her shows the two tracks crossing without
 touching. The annex is open now and visibly thicker on the read side. She reads PIP's line level,
 as before, and this time something at the corner of the profile almost moves. Her order is
@@ -1773,7 +1790,7 @@ She closes the folder on her finger, keeping the place.
 ```
 
 ### 18 · THE BARGE — THE FALL
-**Thread:** B/A · **Target:** __T18__ s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT
+**Thread:** B/A · **Target:** 70 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT
 **STAGING:** Real Jupiter fills the frame edge to edge (Hubble global rotation; Juno stills for
 the closer passes) with the barge a falling spark. Behind the Seat, three helmets huddled;
 Mira's loupe held up to her visor over the contract. Jax's radio exchange with Lucía plays on
@@ -1817,14 +1834,8 @@ Oyuna, with the Register.
           thing?
 
                          OYUNA
-          Four hundred. I have them now.
-
-                         JAX
-          Already?
-
-                         OYUNA
-          It's a short book. Most of it is
-          titles.
+          Four hundred. I have them now. It's
+          a short book. Most of it is titles.
 
                          JAX (CONT'D)
                     (radio)
@@ -1859,7 +1870,7 @@ Jax sits. INSERT: his badge. Amber. Holding.
 ```
 
 ### 19 · JUPITER — THE CLOUD TOPS
-**Thread:** A/B · **Target:** __T19__ s · **Visual:** REAL FOOTAGE WIDE / INSERT / GENERATED COMPOSITE
+**Thread:** A/B · **Target:** 60 s · **Visual:** REAL FOOTAGE WIDE / INSERT / GENERATED COMPOSITE
 **STAGING:** The show-off plate of the episode: real Jupiter cloud bands (Hubble "Moving features
 on Jupiter", heic1522b; ESO potw2502a; Juno stills for the Red Spot) with the barge composited
 very small. The moment the barge levels out, **sound comes back**: bring wind in hard on the cut.
@@ -1930,7 +1941,7 @@ Ahead, rising over the curve of the world: a wall of red.
 ```
 
 ### 20 · THE EYE OF THE GREAT RED SPOT — THE BOW
-**Thread:** A/C · **Target:** __T20__ s · **Visual:** GENERATED WIDE (from real Red Spot stills) / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** A/C · **Target:** 65 s · **Visual:** GENERATED WIDE (from real Red Spot stills) / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** A spectacle nobody has seen: inside the eye, an amphitheatre of cloud, brick red and
 salmon walls turning slowly round a cream floor far below, the barge tiny in the middle with
 banners streaming, the ship sixty metres above with its hold open. Wind under everything. The
@@ -2036,7 +2047,7 @@ INSERT: Jax's hands, opening and closing.
 ```
 
 ### 21 · THE EYE — THE STROKE
-**Thread:** A/B/C · **Target:** __T21__ s · **Visual:** INSERT / PHOTOREAL SET STILL / GENERATED WIDE / PHOTOREAL CLOSE-UP
+**Thread:** A/B/C · **Target:** 70 s · **Visual:** INSERT / PHOTOREAL SET STILL / GENERATED WIDE / PHOTOREAL CLOSE-UP
 **STAGING:** Cross-cut on stills; the big drums carry it. The stroke itself is an INSERT of the
 Year Clock's single hand moving one tick, with one enormous soft drum. On the barge: the clamps
 screaming, the deck dishing under the stone, then the wide of the barge dropping and the gold
@@ -2157,7 +2168,7 @@ END OF ACT THREE.
 # ACT FOUR — "What a Blank Looks Like"
 
 ### 22 · THE BARGE — THE REGISTER
-**Thread:** A/B/C · **Target:** __T22__ s · **Visual:** PHOTOREAL CLOSE-UP / INSERT / PHOTOREAL SET STILL
+**Thread:** A/B/C · **Target:** 110 s · **Visual:** PHOTOREAL CLOSE-UP / INSERT / PHOTOREAL SET STILL
 **STAGING:** The heart of the episode, and the slowest scene in it. Red light, wind, the deck
 tilted; helmets throughout, so nobody needs a mouth except Mira once. Jax's speech plays on his
 visor with the red walls sliding in it, and, for its second half, on the two points of fire
@@ -2279,7 +2290,7 @@ The barge leaps upward.
 ```
 
 ### 23 · THE EYE — NINE SHIPS
-**Thread:** A/B/C · **Target:** __T23__ s · **Visual:** GENERATED WIDE / INSERT / PHOTOREAL SET STILL
+**Thread:** A/B/C · **Target:** 80 s · **Visual:** GENERATED WIDE / INSERT / PHOTOREAL SET STILL
 **STAGING:** Held poses and wides; nobody is struck. The grapple arms closing on the gilded prow
 are an INSERT. The needle becoming the staff is ONE HELD INSERT in three stills dissolved: a
 needle between two fingers; a rod; an iron staff banded gold at each end, grounded on the deck.
@@ -2380,7 +2391,7 @@ The barge hangs alone in the grapples, banners flying.
 ```
 
 ### 24 · THE *STEADFAST* — THE LIFEBOAT
-**Thread:** C/A/B · **Target:** __T24__ s · **Visual:** PHOTOREAL SET STILL / INSERT / DATA VISUAL / PHOTOREAL CLOSE-UP
+**Thread:** C/A/B · **Target:** 125 s · **Visual:** PHOTOREAL SET STILL / INSERT / DATA VISUAL / PHOTOREAL CLOSE-UP
 **STAGING:** Arakawa's bridge, steel blue; through her window the red eye and, tiny in her
 grapples, the gilt boat with its banners. Everyone else is a voice on the channel. INSERTS: the
 plot with nine contacts and the line PORT-SIDE SULPHUR SCAR — 9 OF 9; Pell's slip with its transit
@@ -2516,7 +2527,7 @@ At the back, the soft grey shape sets down its teacup.
 ```
 
 ### 25 · THE UNSCHEDULED — CARGO HOLD
-**Thread:** B/C · **Target:** __T25__ s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** B/C · **Target:** 45 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Quiet. The gilt barge fills the hold, banners drooping, absurd again. Lucía is
 propped against the cracked Seat, helmet off, eyes shut, face turned away: we do not need her
 mouth. **The old dog has left its place by the drain for the first time since Mars** and lies
@@ -2597,7 +2608,7 @@ He goes on down. Seo stays on the ladder.
 ```
 
 ### 26 · THE STRONGBOX, THEN THE BRIDGE — AFTERWARDS
-**Thread:** B/A/C · **Target:** __T26__ s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT / REAL FOOTAGE (window)
+**Thread:** B/A/C · **Target:** 125 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT / REAL FOOTAGE (window)
 **STAGING:** The cold open's joke comes back as the cost. The titanium box, one side open; Lucía
 inside on blankets with the parcel by her head; the coffee machine put out on the deck (INSERT,
 first image, no comment). Jax sits against the box with his back to us; her lines come from
@@ -2753,7 +2764,7 @@ Ahead in the window, small and white: Europa.
 # TAG
 
 ### 27 · THE CHANCERY / THE *STEADFAST* / SEO'S BUNK / THE OPEN RAMP
-**Thread:** C/A · **Target:** __T27__ s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE WIDE
+**Thread:** C/A · **Target:** 75 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE WIDE
 **STAGING:** Three quick buttons, then the leaving. (1) The Chamberlain in his own desk chair
 with his back to the Year Clock, which stands one tick past the top: the laugh goes first so it
 cannot step on what follows. (2) Arakawa's profile; one INSERT of a turned page, then Chichikov's notebook behind her: the E01
@@ -2847,7 +2858,7 @@ CUT TO BLACK.
 
 ---
 
-# WHAT WAS REAL (0:40)
+# WHAT WAS REAL (0:45)
 
 **Visual:** REAL FOOTAGE WIDE. **STAGING:** PIP's voice over the real Io still, the Hubble
 rotation of Jupiter and the Webb aurora close-up, with credits rolling small at the bottom.
@@ -2858,21 +2869,20 @@ rotation of Jupiter and the Webb aurora close-up, with credits rolling small at 
           volcanic world we know. Jupiter's
           pull flexes it until it melts
           inside. It has lakes of lava, one
-          called Loki Patera, plains of
-          sulphur, and plumes hundreds of
-          kilometres high. Jupiter's radiation
-          belts are real, and deadly to people
-          and computers. NASA's Juno keeps its
-          electronics in a titanium vault and
-          dives in on long orbits. The Great
-          Red Spot is a storm wider than
-          Earth. Jupiter has no surface. Its
-          year is nearly twelve of ours. A
-          signal to Earth takes over half an
-          hour. The mountain, the Residence
-          and the barge are invented. Mr Sun
-          says he will speak for himself.
-          Images: NASA, ESA, ESO.
+          called Loki Patera, and plumes
+          hundreds of kilometres high.
+          Jupiter's radiation belts are real,
+          and deadly to people and computers.
+          NASA's Juno keeps its electronics in
+          a titanium vault and dives in on
+          long orbits. The Great Red Spot is a
+          storm wider than Earth. Jupiter has
+          no surface. Its year is nearly
+          twelve of ours. A signal to Earth
+          takes over half an hour. The
+          Residence and the barge are
+          invented. Mr Sun says he will speak
+          for himself. Images: NASA, ESA, ESO.
 ```
 
 *(Credits from `assets/candidates.json`, locations 10 and 11, to be completed after the footage

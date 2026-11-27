@@ -35,10 +35,10 @@ State lives on disk, never only in a chat. Update `STATUS.md` when a milestone l
 - Guests may be picked by the showrunner. Characters come from all over the world.
 - Nothing is published or uploaded without the owner's sign-off.
 
-## Model use — temporary override (owner, Fri 27 Nov night)
-Until Saturday 28 Nov 07:30 (India time, assumed; the owner's usage week resets then) spawn NEW
-agents on **Fable** for every tier, to use the Fable allowance that is left. After that time
-go back to the table below. Agents already running keep the model they started on.
+## Model use
+The Fable-for-everything override ended on Fri 27 Nov evening (owner: it used the allowance too
+fast). New agents follow the table below: Opus for writers, builders and critics, Sonnet for
+mechanical work, Fable only for the showrunner. Do not spawn subagents on Fable.
 
 ## Agent hierarchy
 | Tier | Model | Does |

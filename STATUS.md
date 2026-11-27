@@ -261,3 +261,14 @@ Gemini API key is saved as a network secret on the Default environment
   four dialogue MP3s (parts 1, 2, 4) did not upload; part 3 did. New review audio is cut into
   parts under 2.9 MB.
 
+## 27 Nov, late evening — FORMAT UNDER REVIEW (owner)
+- **Owner rejected the stills-only format** after the cold open: he wants real moving video —
+  moving people, moving pictures, vibrant moving space footage — "real movie like". He asked for a
+  new one-minute sample to judge BEFORE other picture/edit work continues. Stopped: Episode 1
+  Act 1 stills assembly, Episode 2 shot list (both built on the stills format). Scripts continue.
+- **Model use:** back to the normal hierarchy now (owner). No subagents on Fable.
+- Motion routes checked from this machine: Codex has no video feature (animation flag is "under
+  development", off). Free Hugging Face video spaces (LTX-2.5, LTX-2.3, Wan 2.2 image-to-video)
+  are reachable but the anonymous allowance is used up; a free Hugging Face token is needed.
+  25 real NASA videos are already on disk (Artemis I/II, LRO) for moving space footage.
+
