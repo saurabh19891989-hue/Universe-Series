@@ -260,5 +260,57 @@
     "resets_at": "2026-12-02 17:30 UTC"
    }
   }
+ },
+ {
+  "time": "2026-11-27T15:46:57",
+  "type": "run",
+  "purpose": "step3 Jax ref full body",
+  "job": "jax-full",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/jax-full/jax-full.png",
+  "file": "assets/characters/jax/ref-fullbody.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 66.7,
+  "tokens": 24889,
+  "status": "accepted",
+  "note": "face small but consistent",
+  "jpg_bytes": 105702,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 47.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 91.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:46:30",
+  "type": "run",
+  "purpose": "step3 Jax ref silhouette",
+  "job": "jax-sil",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/jax-sil/jax-sil.png",
+  "file": "assets/characters/jax/ref-silhouette.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 39.2,
+  "tokens": 17985,
+  "status": "accepted",
+  "note": "profile matches",
+  "jpg_bytes": 156293,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 46.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 91.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
  }
 ]
