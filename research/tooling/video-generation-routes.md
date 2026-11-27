@@ -103,3 +103,25 @@ temporary machine, never in the repo).
   plan (quote was cut off) — to confirm on the account's profile menu.
 - Risk to note: the account in use is the owner's main Google account. For scale (Ultra), a
   separate Google account for the show would keep Gmail and Drive out of harm's way.
+
+## Scale: owner wants 1-2 videos every day (27 Nov night) — numbers
+Assumption per 35-minute episode: 2,100 s on screen, about 80% generated, 1.5 takes per shot
+= about 2,520 generated seconds (about 315 eight-second clips).
+- **Flow credits (Omni 1.2, the quality the owner liked):** top-ups cost $0.01 a credit ($25 for
+  2,500; $200 for 20,000; Pro and Ultra members; valid 12 months — Google One help page). 720p =
+  3 credits/s = $0.03/s → about $75 an episode. 360p = 1 credit/s = $0.01/s → about $25 an
+  episode; whether the free 1080p upscale makes 360p good enough is NOT tested.
+- **Omni by API:** $0.07/s (Google blog) to about $0.10/s (third-party) → $175-250 an episode.
+- **Cheaper APIs (untested by us, lower rank, mostly silent):** Wan 2.6 flash about $0.025/s,
+  Veo 3.1 Lite about $0.03-0.05/s → $60-125 an episode. Third-party price lists, not verified.
+- **"Unlimited" subscriptions:** Runway's ended in 2026; Luma ($95), Hailuo Max and others are
+  relaxed queues with caps, web-only. Not a route to 35-70 minutes a day.
+- **Own rented graphics cards + open model (Wan 2.2/2.5, LTX-2.5, MiniMax H3):** no usage limit;
+  rough guess $5-15 an episode in compute, NOT measured; quality below Omni (owner found the LTX
+  clip not smooth enough); lip-sync needs a separate model.
+- Per month at 720p Flow prices: 30 episodes ≈ $2,300; 60 ≈ $4,500. Ten episodes ≈ $760
+  (Ultra $200 + about $550 of top-ups).
+- Other limits at 1-2 full episodes a day: Claude usage for scripts and checking; nobody can
+  review 35-70 minutes a day; YouTube's rules on mass-produced content for a new channel.
+- Option to hit "a video every day" cheaply: release each 35-minute episode as three parts of
+  11-12 minutes (10 episodes a month = a video a day), or write shorter episodes. Owner's call.
