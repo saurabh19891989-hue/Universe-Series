@@ -120,6 +120,13 @@ def main():
     # limit detection: only look at error-ish lines, not the skill text Codex echoes
     err_lines = [l for l in out.splitlines() if re.search(r"^(ERROR|error|stream error)|\bError\b", l)]
     limit_hit = any(LIMIT_RE.search(l) for l in err_lines)
+    # The image tool reports its own 24-hour limit inside an ordinary output line
+    # ("error=image generation failed: http 429 ... usage_limit_reached ... resets_at"),
+    # so also scan the whole output for that exact marker.
+    hard = [l for l in out.splitlines() if "usage_limit_reached" in l or "image generation failed: http 429" in l]
+    if hard:
+        limit_hit = True
+        err_lines = (err_lines or []) + hard[-2:]
     rl = rate_limits(sid) if sid else None
     entry = {"time": time.strftime("%Y-%m-%dT%H:%M:%S"), "job": a.job, "name": a.name,
              "purpose": a.purpose, "refs": [Path(r).name for r in a.refs], "seconds": secs,

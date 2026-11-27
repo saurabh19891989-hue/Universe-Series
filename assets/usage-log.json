@@ -3851,5 +3851,225 @@
     "resets_at": "2026-12-04 16:38 UTC"
    }
   }
+ },
+ {
+  "time": "2026-11-27T17:10:05",
+  "type": "run",
+  "purpose": "E02 Kaguya candidate 1",
+  "job": "e2-kaguya-a",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/e2-kaguya-a/kaguya-c1.png",
+  "file": "assets/characters/kaguya/candidate-1.jpg",
+  "refs": [],
+  "seconds": 37.9,
+  "tokens": 9953,
+  "status": "accepted",
+  "note": "E02 CANDIDATE PROPOSED; eyes over fan, behind raised blind",
+  "jpg_bytes": 375410,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 55.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 9.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:10:21",
+  "type": "run",
+  "purpose": "E02 Kaguya candidate 2",
+  "job": "e2-kaguya-b",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/e2-kaguya-b/kaguya-c2.png",
+  "file": "assets/characters/kaguya/candidate-2.jpg",
+  "refs": [],
+  "seconds": 53.4,
+  "tokens": 5652,
+  "status": "accepted",
+  "note": "E02 CANDIDATE PROPOSED; closed-lip smile",
+  "jpg_bytes": 406210,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 55.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 9.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:11:01",
+  "type": "run",
+  "purpose": "E02 Astolfo candidate 1 (visor down)",
+  "job": "e2-astolfo-a",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/e2-astolfo-a/astolfo-c1.png",
+  "file": "assets/characters/astolfo/candidate-1.jpg",
+  "refs": [],
+  "seconds": 40.5,
+  "tokens": 10430,
+  "status": "accepted",
+  "note": "E02 CANDIDATE PROPOSED; visor down, Valley",
+  "jpg_bytes": 660522,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 56.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 9.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:10:56",
+  "type": "run",
+  "purpose": "E02 Astolfo candidate 2 (visor up)",
+  "job": "e2-astolfo-b",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/e2-astolfo-b/astolfo-c2.png",
+  "file": "assets/characters/astolfo/candidate-2.jpg",
+  "refs": [],
+  "seconds": 34.9,
+  "tokens": 5756,
+  "status": "accepted",
+  "note": "E02 CANDIDATE PROPOSED; visor-up face (scene 22)",
+  "jpg_bytes": 622709,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 56.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 9.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:11:59",
+  "type": "run",
+  "purpose": "E02 Baron variant bareheaded, no coat",
+  "job": "e2-baron-bare",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/e2-baron-bare/baron-ref-bareheaded.png",
+  "file": "assets/characters/baron/ref-e02-bareheaded.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 58.2,
+  "tokens": 9311,
+  "status": "accepted",
+  "note": "from LOCKED master; FLAG background window shows mountains/airship - mask",
+  "jpg_bytes": 441612,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 58.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 9.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:11:52",
+  "type": "run",
+  "purpose": "E02 Seo with flight helmet",
+  "job": "e2-seo-helmet",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/e2-seo-helmet/seo-ref-helmet.png",
+  "file": "assets/characters/seo/ref-e02-helmet.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 50.5,
+  "tokens": 7542,
+  "status": "accepted",
+  "note": "from LOCKED master; photo in helmet lining",
+  "jpg_bytes": 304149,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 57.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 9.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:12:42",
+  "type": "run",
+  "purpose": "E02 set Valley of Lost Things (PROPOSED)",
+  "job": "e2-valley",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/e2-valley/valley.png",
+  "file": "assets/sets/valley/master.jpg",
+  "refs": [],
+  "seconds": 42.5,
+  "tokens": 5842,
+  "status": "accepted",
+  "note": "E02 set PROPOSED; black sky",
+  "jpg_bytes": 819157,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 58.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 9.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:12:53",
+  "type": "run",
+  "purpose": "E02 set Keeping House (PROPOSED)",
+  "job": "e2-keeping",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/e2-keeping/keeping-house.png",
+  "file": "assets/sets/keeping-house/master.jpg",
+  "refs": [],
+  "seconds": 53.1,
+  "tokens": 11003,
+  "status": "accepted",
+  "note": "E02 set PROPOSED; labels illegible",
+  "jpg_bytes": 727195,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 58.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 9.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:13:25",
+  "type": "run",
+  "purpose": "E02 set gallery of flasks (PROPOSED)",
+  "job": "e2-gallery",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/e2-gallery/gallery.png",
+  "file": "assets/sets/gallery/master.jpg",
+  "refs": [],
+  "seconds": 32.4,
+  "tokens": 5385,
+  "status": "accepted",
+  "note": "E02 set PROPOSED; window shows sunlit valley as described",
+  "jpg_bytes": 571736,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 59.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 9.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
  }
 ]

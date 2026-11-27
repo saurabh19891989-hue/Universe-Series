@@ -98,6 +98,9 @@ the owner to reset it.**
   `~/.codex/sessions/**/rollout-*.jsonl`, field `rate_limits` (5-hour and weekly percentages and
   reset times). Measured: about 0.43 points of the 5-hour window per image, so roughly 230
   images per window. Check before and after every batch and write both numbers in the usage log.
+- There is ALSO a separate 24-hour image limit (seen 27 Nov: `usage_limit_reached`,
+  `limit_window_minutes: 1440`) that the 5-hour and weekly readings do not warn about; roughly
+  150–170 images in 24 hours were possible. The error text gives `resets_at` (Unix time).
 - Spread the work: plan batches so the most important images (current episode, priority 1)
   are done first in each window.
 

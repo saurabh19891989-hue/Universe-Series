@@ -177,6 +177,19 @@ Last updated: 2026-11-27 (session 1)
   reminder fires at that time.
 - Scripts: E01 final; E02 with critic; E03, E04, E05 in punch-up; E06–E09 being drafted (Fable).
 
+- **CODEX IMAGE LIMIT HIT AGAIN (Fri 27 Nov 17:15 UTC)** — a separate 24-HOUR IMAGE limit:
+  `usage_limit_reached`, `limit_window_minutes: 1440`, resets **Sat 28 Nov 14:52 UTC**. The
+  error reports `plan_type: "plus"` — the owner should check the Codex login is on the Pro
+  account. Per the owner's rule we WAIT; a wake-up is scheduled for 14:57 UTC to resume.
+  5-hour was 65% and weekly 10% at the stop, so the daily image cap is the binding limit:
+  roughly 150–170 images per 24 hours observed. Wrapper `codex_image.py` now detects it.
+- Episode 1 stills: 65 of 192 accepted — ALL 53 priority-1 (cold open and Act 1) done;
+  12 of 89 priority-2; 0 of 50 priority-3. Sheets: `samples/e01/stills/sheet-01..03.jpg`.
+  Watch-list: Mira's ink-stained fingers read as purple nail tips (J019, J022, J044); Lucía has
+  forearm tattoos in J016 that are not in her master; Mira's suit plate J061 has bare hands;
+  `mira/ref-glass-screen.jpg` shows a crowd.
+- Scripts (Fri night): E01 final; E02 in revision; E03, E04, E05 with critics; E06–E09 being drafted.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|

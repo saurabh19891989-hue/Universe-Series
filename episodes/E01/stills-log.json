@@ -436,21 +436,24 @@
   },
   "E01-J055": {
    "priority": 2,
-   "status": "rejected-retrying",
-   "attempts": 2,
+   "status": "accepted",
+   "attempts": 3,
    "seconds": [
     65.7,
-    70.3
+    70.3,
+    59.3
    ],
    "tokens": [
     31992,
-    29236
+    29236,
+    8223
    ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
     "released: new Mira/Lucia masters approved by owner; job needs master only",
     "REJECTED: faces lit and turned to each other, Lucia mid-laugh with mouth open; job wants four heads from behind as silhouettes (dialogue cover)",
-    "REJECTED: staging now right (all four from behind) but the braided woman wears a tan jacket, not Mira's indigo flight suit"
+    "REJECTED: staging now right (all four from behind) but the braided woman wears a tan jacket, not Mira's indigo flight suit",
+    "3rd attempt: four from behind (Baron tricorn, Lucia driving with ribbon, Jax curls, Mira braid in indigo), windscreen black. Prompt changed: from-behind staging + Mira's indigo suit"
    ],
    "refs_used": [
     "assets/sets/postchaise/cab-bright.jpg",
@@ -458,7 +461,9 @@
     "assets/characters/lucia/master.jpg",
     "assets/characters/jax/master.jpg"
    ],
-   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Inside an old rover cab, shot from the back seat looking forward through the windscreen: four heads seen strictly from BEHIND, all facing forward toward the windscreen, no faces or mouths visible, the backs of their heads and shoulders edged by warm dashboard lamp light (a driver with short hair, a curly-haired man beside her, an old man in a tricorn hat behind, a woman with a dark braid), a red ribbon on the driver's wrist on the wheel; the windscreen is pure black. Baron Munchausen: German man in his 70s, enormous white moustache that completely covers his mouth, black tricorn hat; moth-eaten red 18th-century cavalry coat over a patched pressure suit. Design after Doré's 1862 engravings, never any film. Lucía Ortega: Mexican woman, early 30s (she must look 31, not older), strong athletic build, broad shoulders, short practical hair; grease-stained coveralls, a red ribbon tied round her wrist. Jax Vale: Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later)."
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Inside an old rover cab, shot from the back seat looking forward through the windscreen: four heads seen strictly from BEHIND, all facing forward toward the windscreen, no faces or mouths visible, the backs of their heads and shoulders edged by warm dashboard lamp light (a driver with short hair, a curly-haired man beside her, an old man in a tricorn hat behind, a woman with a dark braid wearing an indigo-blue flight suit with tan shoulder patches - not a brown or tan jacket), a red ribbon on the driver's wrist on the wheel; the windscreen is pure black. Baron Munchausen: German man in his 70s, enormous white moustache that completely covers his mouth, black tricorn hat; moth-eaten red 18th-century cavalry coat over a patched pressure suit. Design after Doré's 1862 engravings, never any film. Lucía Ortega: Mexican woman, early 30s (she must look 31, not older), strong athletic build, broad shoulders, short practical hair; grease-stained coveralls, a red ribbon tied round her wrist. Jax Vale: Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later).",
+   "file": "episodes/E01/stills/e01-j055_cab_from_back_seat.jpg",
+   "jpg_bytes": 553927
   },
   "E01-J057": {
    "priority": 2,
@@ -1904,21 +1909,27 @@
   },
   "E01-J059": {
    "priority": 2,
-   "status": "rejected-retrying",
-   "attempts": 1,
+   "status": "accepted",
+   "attempts": 2,
    "seconds": [
-    54.2
+    54.2,
+    50.2
    ],
    "tokens": [
-    12429
+    12429,
+    10267
    ],
    "notes": [
-    "REJECTED: plate on black, lit from left, fist raised - but below the helmet he wears his jacket, cargo trousers and street boots, not a pressure suit (it is the lunar surface)"
+    "REJECTED: plate on black, lit from left, fist raised - but below the helmet he wears his jacket, cargo trousers and street boots, not a pressure suit (it is the lunar surface)",
+    "Retry: Jax plate in full off-white pressure suit with orange jacket over torso, helmet, fist raised to knock, black bg, light from left; face matches. Prompt changed: full suit"
    ],
    "refs_used": [
     "assets/characters/jax/ref-helmet.jpg",
     "assets/characters/jax/ref-fullbody.jpg"
-   ]
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Jax Vale in a full sealed pressure suit and helmet, full body: scuffed off-white pressure-suit legs, suit boots and suit gloves, life-support pack, with his burnt-orange flight jacket worn over the suit torso exactly as in image 1 (no cargo trousers, no street boots), standing at a door, one gloved fist raised to knock; hard low sun from frame left, plain black background. Jax Vale: Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later).",
+   "file": "episodes/E01/stills/e01-j059_plate_jax_suit_knock.jpg",
+   "jpg_bytes": 147712
   },
   "E01-J060": {
    "priority": 2,
@@ -1965,7 +1976,12 @@
    "attempts": 0,
    "seconds": [],
    "tokens": [],
-   "notes": []
+   "notes": [
+    "run at 17:15 failed with image-generation usage limit (429), no image; not counted as an attempt"
+   ],
+   "refs_used": [
+    "assets/sets/hatchet/parlour-bright.jpg"
+   ]
   },
   "E01-J068": {
    "priority": 2,
@@ -1973,7 +1989,12 @@
    "attempts": 0,
    "seconds": [],
    "tokens": [],
-   "notes": []
+   "notes": [
+    "run at 17:15 failed with image-generation usage limit (429), no image; not counted as an attempt"
+   ],
+   "refs_used": [
+    "assets/sets/hatchet/parlour-bright.jpg"
+   ]
   },
   "E01-J079": {
    "priority": 2,
@@ -1981,7 +2002,12 @@
    "attempts": 0,
    "seconds": [],
    "tokens": [],
-   "notes": []
+   "notes": [
+    "run at 17:15 failed with image-generation usage limit (429), no image; not counted as an attempt"
+   ],
+   "refs_used": [
+    "assets/sets/hatchet/parlour-bright.jpg"
+   ]
   },
   "E01-J080": {
    "priority": 2,
@@ -1989,7 +2015,12 @@
    "attempts": 0,
    "seconds": [],
    "tokens": [],
-   "notes": []
+   "notes": [
+    "run at 17:15 failed with image-generation usage limit (429), no image; not counted as an attempt"
+   ],
+   "refs_used": [
+    "assets/sets/hatchet/parlour-bright.jpg"
+   ]
   },
   "E01-J095": {
    "priority": 2,
@@ -1997,7 +2028,12 @@
    "attempts": 0,
    "seconds": [],
    "tokens": [],
-   "notes": []
+   "notes": [
+    "run at 17:15 failed with image-generation usage limit (429), no image; not counted as an attempt"
+   ],
+   "refs_used": [
+    "assets/sets/hatchet/parlour-bright.jpg"
+   ]
   },
   "E01-J066": {
    "priority": 2,
@@ -2005,7 +2041,9 @@
    "attempts": 0,
    "seconds": [],
    "tokens": [],
-   "notes": []
+   "notes": [
+    "run at 17:15 failed with image-generation usage limit (429), no image; not counted as an attempt"
+   ]
   },
   "E01-J084": {
    "priority": 2,
@@ -2685,6 +2723,17 @@
    "five_hour_resets": "2026-11-27 21:38 UTC",
    "weekly_used_percent": 7.0,
    "weekly_resets": "2026-12-04 16:38 UTC"
+  },
+  {
+   "read_at": "2026-11-27T17:15:48Z",
+   "label": "at image-generation usage limit",
+   "source": "rollout-2026-11-27T17-15-35-01a21e01-5c89-7790-b735-df5724232bd5.jsonl",
+   "source_mtime": "17:15:47Z",
+   "newer_rollouts_without_reading": 0,
+   "five_hour_used_percent": 65.0,
+   "five_hour_resets": "2026-11-27 21:38 UTC",
+   "weekly_used_percent": 10.0,
+   "weekly_resets": "2026-12-04 16:38 UTC"
   }
  ],
  "ref_substitutions": {
@@ -2707,5 +2756,11 @@
    "E01-J040"
   ],
   "note": "both runs had already saved their image; no retry made; batch E01-J036/J042/J045/J046 never started"
+ },
+ "usage_limit_stop_2": {
+  "time": "2026-11-27T17:15:08Z",
+  "message": "ERROR codex_core::tools::router: error=image generation failed: http 429 Too Many Requests: {\"error\":{\"type\":\"usage_limit_reached\",\"message\":\"The usage limit has been reached\",\"plan_type\":\"plus\",\"resets_at\":1795877547,\"limit_window_minutes\":1440,\"resets_in_seconds\":77839}}",
+  "resets_at_utc": "2026-11-28 14:52 UTC",
+  "note": "separate image-generation limit (1440-minute window) - the 5-hour/weekly rate_limits did not show it; wrapper codex_image.py did not detect it (line starts with a timestamp, ERROR upper-case), so 5 jobs ran into it before the stop"
  }
 }
