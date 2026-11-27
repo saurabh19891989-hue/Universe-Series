@@ -679,7 +679,8 @@ def _warrant_draw(t, tl=None):
         d.rectangle([80, ys + 14, W - 80, ys + 90], fill=mul(C, 0.18))
         if u > 0.05:
             # blank the lines below the sweep to emulate redraw
-            d.rectangle([90, ys + 91, W - 90, H - 80], fill=(0, 0, 0))
+            if ys + 91 < H - 80:
+                d.rectangle([90, ys + 91, W - 90, H - 80], fill=(0, 0, 0))
             # field is redrawn only after sweep passes it
     return img
 

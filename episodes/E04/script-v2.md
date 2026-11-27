@@ -2,7 +2,7 @@
 ## Episode 4 — "The Phobos Exception"
 ### Shooting script, draft 2 (comedy and dialogue punch-up; for the independent critic)
 
-Running time: RUNTIME_LINE
+Running time: about 35:55 honest (scene targets add up to 35:45 including "What was real" at 0:40, plus the 0:10 title; model as draft 1: dialogue at 155 wpm, 0.4 s per speaker change, plus each scene's slips, cards, holds and insert-only action). 4,215 spoken words (counted by script: dialogue lines only, including the sung page and "What was real"; cues, parentheticals, action, slips and cards excluded; same whitespace count that gives draft 1 its 4,314). 455 cues. 29 units (cold open, 27 scenes, tag), plus "What was real". Acts: cold open 1:25 · Act 1 7:00 · Act 2 8:15 · Act 3 8:15 · Act 4 9:25 · tag 0:45. Jax V.O. is about 4% of the words. Ship time about 5:20 (15%). Visible-mouth speaking shots: 2.
 Visual style: photoreal characters and sets composited with real NASA and ESA/Hubble footage,
 staged mostly as cinematic stills with camera moves and limited motion. Lip movement is scarce
 or absent. Phobos and Deimos are THIN on real footage, so the moons' surfaces are composites on
@@ -40,8 +40,8 @@ used, and a STAGING note saying how it plays without lip-sync.
   room exactly once (26).
 - **Auditor Pell is always behind something:** the folded *Directorate Gazette*, a teacup held
   at his chin, or his own back. His eyes over the paper are his close-up. His furled umbrella
-  goes everywhere, including onto a moon with no weather. **Pell never says the word "no"**
-  until 24. Keep it that way in any later edit.
+  goes everywhere, including onto a moon with no weather. **Pell never answers anything with
+  "no"** until 24, when he says it to the speed of light. Keep it that way in any later edit.
 - **Oyuna** speaks from inside the ger with the door half open, from behind her lute, or with
   her back to us under the Mars skylight. Her hands (tea bowl, lute strings, the parcel) are her
   inserts. Match her locked master: long grey-streaked hair, quilted earth-brown wool, the
@@ -51,7 +51,8 @@ used, and a STAGING note saying how it plays without lip-sync.
   and in every Phobos skylight. **Mars's phase is the audience's clock**: full in Act 1, gibbous
   in Act 2, half in Act 3, a thinning crescent in 19 as the eclipse comes.
 - **The waiting-room board** reads NOW SERVING: 0 in every shot until 26. **The brass music box**
-  beside it plays a very small march and always stops one bar before the end, until 26.
+  beside it plays a very small march **on the hour, every hour**, and always stops one bar
+  before the end, until 26.
 - **Tickets.** Jax holds 11,402, Pell 11,403. **The donkey's ticket, clipped to its bridle, is
   No. 1** (seen in 2, read in 13). The **man holding a ladder** is always in the back of the
   waiting room, ladder upright, hopeful (2, 4, 26).
@@ -171,9 +172,8 @@ INSERT: a cup of coffee on the dash. The surface does not even
 tremble.
 
                          PIP
-          We touched down a minute ago. You
-          missed it. You now weigh forty-four
-          grams, Captain. You would go second
+          We landed a minute ago. You now
+          weigh forty-four grams, Captain. You would go second
           class.
 
                          SEO
@@ -200,9 +200,9 @@ The dog's tail thumps once.
           Seven. Please count me.
 
                          JAX
-          Same plan. Oyuna Tseren signs for the
-          parcel, the parcel tells us where it
-          goes next, and we go with it.
+          Same plan. Oyuna Tseren signs, the
+          parcel tells us where it goes next,
+          we follow it.
 
                          PIP
           And if no one can leave?
@@ -328,7 +328,7 @@ INSERT: the card lands, at last, on Jax's boot. The ace of clubs.
 ```
 
 ### 2 · THE WAITING ROOM
-**Thread:** A/C · **Target:** 95 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT · **Place:** Mars through the skylight
+**Thread:** A/C · **Target:** 100 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT · **Place:** Mars through the skylight
 **STAGING:** The first spectacle: a hall the size of a railway station, cut into the crater
 wall, under a vast round skylight full of Mars. Salmon-orange light on teal benches, brass
 rails and plants grown wild. Nasreddin is introduced from behind, sitting backwards; his lines
@@ -348,8 +348,8 @@ do what they like for a long time. A tea urn. On one bench, a big
 clay pot full of pebbles.
 
 On the wall, a flip-number board: NOW SERVING: 0. Beside it a
-little brass music box plays a very small march. It stops one bar
-before the end. A silence. It begins again from the top.
+little brass music box strikes the hour with a very small march. It
+stops one bar before the end. A silence. Nobody looks up.
 
 A scattering of silent people who have been here a long time: a
 lawyer with a briefcase, a choir in matching scarves, two young
@@ -381,6 +381,12 @@ This is NASREDDIN.
           going. It's called a division of
           labour.
 
+                         JAX
+          And where are you going?
+
+                         NASREDDIN
+          Nowhere. They owe me a number.
+
                          MIRA
           How long have you been waiting?
 
@@ -392,7 +398,7 @@ His hand finds the pot of pebbles without looking.
           years. It sounds more moderate.
 
                          JAX
-          Eleven years. Why?
+          Why?
 
                          NASREDDIN
           Spite. It keeps well.
@@ -473,7 +479,7 @@ Jax and Mira look at each other. Neither of them can.
 ```
 
 ### 3 · THE COUNTERS — WINDOW 17
-**Thread:** A/B · **Target:** 80 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP · **Place:** the Exception
+**Thread:** A/B · **Target:** 75 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP · **Place:** the Exception
 **STAGING:** A long hall of cobalt-and-cream tiles with forty frosted counter windows, thirty-
 nine shuttered; brass pneumatic tubes run overhead like plumbing for letters. Only Window 17 is
 lit. The Registrar is a shape of brass and green enamel behind the frosted glass; her slips are
@@ -596,7 +602,7 @@ Ding. INSERT: REPORTING UNIT, STATE YOUR NUMBER.
 ```
 
 ### 4 · THE READING ROOM — THE GER
-**Thread:** A/B · **Target:** 90 s · **Visual:** PHOTOREAL SET STILL / INSERT · **Place:** the Exception (a signature cannot bind)
+**Thread:** A/B · **Target:** 85 s · **Visual:** PHOTOREAL SET STILL / INSERT · **Place:** the Exception (a signature cannot bind)
 **STAGING:** A round domed hall with empty shelves, an oculus full of Mars, and in the middle,
 under the Mars-light, a white felt ger with an orange-painted door and blue knotwork. Jax's boot
 on the threshold is an INSERT. Inside, Oyuna has her back to us, pouring salt tea; she speaks to
@@ -645,9 +651,15 @@ wool, a worn leather satchel) has her back to us, pouring tea.
 
                          OYUNA
           I've learned it. The Atlas sends me
-          every change, so there's somewhere
-          to check it against. That's why I'm
-          here.
+          every change. Someone has to check
+          it.
+
+                         MIRA
+          What do you do all day?
+
+                         OYUNA
+          I sing it. If I stop, it goes quiet
+          in me.
 
                          JAX
           Doesn't it get boring?
@@ -770,7 +782,7 @@ long moment.
 ```
 
 ### 6 · THE COUNTERS — THE FORM
-**Thread:** A/B · **Target:** 55 s · **Visual:** INSERT / PHOTOREAL SET STILL · **Place:** the Exception
+**Thread:** A/B · **Target:** 50 s · **Visual:** INSERT / PHOTOREAL SET STILL · **Place:** the Exception
 **STAGING:** Rebuilt for speed. Mira reads the form aloud, so the audience hears the absurdity
 instead of reading it; the Registrar's answers are short (one to six words) and land as hard
 cuts on the end of each line, like a rim-shot. Never hold a slip past one read. Every line plays
@@ -954,9 +966,8 @@ severe dark uniform) stands at his shoulder, a small black notebook
 in her hand.
 
                          PELL
-          Captain Vale. Auditor Pell,
-          Directorate. Do sit. It's a waiting
-          room. Standing makes everyone
+          Captain Vale. Auditor Pell. Do sit.
+          Standing makes a waiting room
           anxious.
 
                          JAX
@@ -1022,8 +1033,8 @@ INSERT: THANK YOU.
 
                          PELL
           I never say no, Captain. It's such a
-          final word. People go away and do
-          something about it.
+          final word. People go and do
+          something.
 
                          NASREDDIN
                     (not turning round)
@@ -1065,7 +1076,7 @@ The rest of the page stays blank.
 ```
 
 ### 9 · THE READING ROOM — MAP AND MEMORY
-**Thread:** B/A · **Target:** 80 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT · **Place:** the Exception (no rule applies, not even the founders')
+**Thread:** B/A · **Target:** 85 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT · **Place:** the Exception (no rule applies, not even the founders')
 **STAGING:** Inside the ger, Mira and Oyuna at the stove with tea bowls. Oyuna plays with her back
 to us or her eyes closed over her tea bowl; Mira's face is the listener and takes the hit on
 "under review". The tube capsule and Nasreddin's joke are INSERTS (his hand: big, looping,
@@ -1148,9 +1159,8 @@ She smiles, writes one line on the back, and sends it away.
           If I went as far as the door, I'd
           want the corridor.
                     (a beat)
-          When I'm out, I'll sing the old
-          Atlas in every port. Every name they
-          took off.
+          When I'm out, I'll sing every name
+          they took off.
 
                          MIRA
           Some people asked to be taken off.
@@ -1270,7 +1280,7 @@ Ding. INSERT: WINDOW OPENS 09:00. UNIT MAY RETURN.
 ```
 
 ### 11 · PHOBOS — ON THE GREAT SKYLIGHT
-**Thread:** B/C · **Target:** 45 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT · **Place:** Phobos keeps one face to Mars, so Mars never rises or sets here; tiny gravity
+**Thread:** B/C · **Target:** 40 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT · **Place:** Phobos keeps one face to Mars, so Mars never rises or sets here; tiny gravity
 **STAGING:** A new place for one quiet scene: outside, on top of the waiting room's great domed
 skylight, a field of glass set into the charcoal ground. Mira sits on the glass, measuring, her
 tether clipped to Jax's belt; Jax stands. Through the glass below them, tiny, the orange waiting
@@ -1341,7 +1351,7 @@ A long pause on the channel.
 ```
 
 ### 12 · PHOBOS — THE GROOVES — THE JUMP
-**Thread:** B/A · **Target:** 80 s · **Visual:** REAL FOOTAGE WIDE (HELD) / PHOTOREAL SET STILL / INSERT · **Place:** escape speed about 11 m/s; a 4 m/s jump lasts about twenty minutes; Phobos turns under you
+**Thread:** B/A · **Target:** 70 s · **Visual:** REAL FOOTAGE WIDE (HELD) / PHOTOREAL SET STILL / INSERT · **Place:** escape speed about 11 m/s; a 4 m/s jump lasts about twenty minutes; Phobos turns under you
 **STAGING:** The action set piece of Act 2, and the place fighting back. ONE held wide: Lucía
 rising off the moon, arms out, over the long straight grooves, Mars enormous behind her; hold it
 longer than feels right while she keeps going up. The searchlight and the card in the
@@ -1364,15 +1374,6 @@ Jax in suits beside the ship.
                     (radio)
           I wrestled in a third of a g. I can
           do eleven.
-
-                         JAX
-                    (radio)
-          Lucha, if you leave Phobos without a
-          stamp—
-
-                         LUCÍA
-                    (radio)
-          I'm not leaving. I'm making a point.
 
 She crouches. She jumps.
 
@@ -1518,19 +1519,19 @@ Two benches away, the Gazette.
           How did you beat it?
 
                          NASREDDIN
-          Once I borrowed a cauldron from my
-          neighbour. When I gave it back, I put
-          a little saucepan inside. "Your
-          cauldron gave birth," I said. He was
+          I once borrowed my neighbour's
+          cauldron. I gave it back with a
+          little saucepan inside. "Your
+          cauldron gave birth." He was
           delighted. He kept the saucepan.
 
 INSERT: his hands set a small pan inside a big one.
 
                          NASREDDIN (CONT'D)
-          Next time, I kept the cauldron. "I'm
-          sorry," I said. "It died." "Cauldrons
-          don't die," he said. I said, "You
-          believed it could give birth."
+          Next time I kept the cauldron. "I'm
+          sorry. It died." "Cauldrons don't
+          die!" "You believed it could give
+          birth."
 
                          MIRA
           What has that got to do with Phobos?
@@ -1553,17 +1554,10 @@ INSERT: his hands set a small pan inside a big one.
 
                          NASREDDIN
           No. It's procedure. Logic is
-          optional here.
-
-                         JAX
-          There isn't a law that made it
-          exempt. It just is.
-
-                         NASREDDIN
-          Nothing just is. Somebody wrote it
-          down. And everybody who writes,
-          copies. Ask the rule where it came
-          from.
+          optional here. And nothing here just
+          is. Somebody wrote it down. And
+          everybody who writes, copies. Ask
+          the rule where it came from.
 
                          MIRA
           The first entry. Eighteen
@@ -1593,8 +1587,7 @@ INSERT: the ticket on the donkey's bridle. No. 1.
           He's first in the queue.
 
                          NASREDDIN
-          He's always been first. They've never
-          called anyone. They don't want to
+          Eleven years. They don't want to
           start with a donkey.
 
 The Gazette folds. Pell rises, ticket in hand.
@@ -1753,15 +1746,8 @@ She stops. The last string hums.
           And wrote "excepted".
 
                          OYUNA
-          Two letters changed places.
-
-                         IDRIS
-          No law on this moon since eighteen
-          seventy-seven, because a man swapped
-          two letters.
-
-                         OYUNA
-          He was tired. It was August. My
+          Two letters changed places. He was
+          tired. It was August. My
           grandmother's grandmother learned
           this page the year it was written,
           before he copied it. It came down to
@@ -1792,7 +1778,7 @@ Jax looks down the long groove, back the way they came.
 ```
 
 ### 16 · THE COUNTERS — LAWFUL ORIGIN
-**Thread:** A/C · **Target:** 65 s · **Visual:** INSERT / PHOTOREAL SET STILL · **Place:** the Exception (no lawful origin); light delay to Earth
+**Thread:** A/C · **Target:** 60 s · **Visual:** INSERT / PHOTOREAL SET STILL · **Place:** the Exception (no lawful origin); light delay to Earth
 **STAGING:** Quick and dry, and the one visual gag of Act 3: PIP's out-tray is a leaning tower of
 the same report, thirteen times, every copy stamped RETURNED (INSERT, a slow tilt up the
 stack). PIP on the ledge, Jax, Mira and Oyuna behind him. The slips are INSERTS. Pell arrives as
@@ -1840,7 +1826,7 @@ Ding. INSERT: CORRECT.
 They turn. Pell, a cup of tea held at his chin.
 
                          PELL (CONT'D)
-          It's a lovely find. Truly. I'd have
+          It's a lovely find. I'd have
           it framed. But a correction has to
           come from somewhere the law can see
           it, and you're all somewhere it
@@ -1860,20 +1846,11 @@ They turn. Pell, a cup of tea held at his chin.
 
                          PELL
           At my level, Dr Sen, they're the same
-          thing, with better chairs. And you
-          did swear you saw a giant.
-
-                         MIRA
-          I did. It was a dust devil and it was
-          a giant, and I'd swear it again.
-
-                         PELL
-          Please don't. My filing is already
-          very full.
+          thing, with better chairs.
 ```
 
 ### 17 · THE WAITING ROOM — WHY HE STAYS
-**Thread:** A/B · **Target:** 85 s · **Visual:** PHOTOREAL SET STILL / INSERT · **Place:** the Exception (a standing order is not a law)
+**Thread:** A/B · **Target:** 90 s · **Visual:** PHOTOREAL SET STILL / INSERT · **Place:** the Exception (a standing order is not a law)
 **STAGING:** Two backs again, Jax and Nasreddin facing the wall; this time the camera is in
 front of them, low, so we see Jax's face listening and only the brim and beard of Nasreddin's
 profile. The laugh is his shoulders. INSERTS: the box of torn halves; PIP's lens in the satchel
@@ -1921,8 +1898,7 @@ Nothing. Then Nasreddin laughs, one breath, at the wall.
           The count falls, and her departure
           comes undone. She's listed as of
           Phobos, absent without leave. She
-          loses the Guild. She loses her name
-          on the board.
+          loses the Guild, and her name.
                     (a beat)
           Spite is easier to explain. No one
           argues with spite.
@@ -2087,11 +2063,10 @@ INSERT: PIP's lens. For once, he files nothing.
 
                          PELL
           Yes. And you're the only copy no one
-          can correct. Do you see what that
-          makes you, Miss Tseren? Not a
-          library. A court with no appeal. I
-          can't let one person be the law. Not
-          even a kind one.
+          can correct, Miss Tseren. That isn't
+          a library. It's a court with no
+          appeal. I can't let one person be
+          the law. Not even a kind one.
 
 Mira looks at Oyuna, and doesn't look away quickly enough.
 
@@ -2207,7 +2182,7 @@ END OF ACT THREE.
 # ACT FOUR — "Expected"
 
 ### 20 · THE WAITING ROOM — THE AMENDMENT
-**Thread:** A/B/C · **Target:** 60 s · **Visual:** PHOTOREAL SET STILL / INSERT · **Place:** the eclipse deadline
+**Thread:** A/B/C · **Target:** 55 s · **Visual:** PHOTOREAL SET STILL / INSERT · **Place:** the eclipse deadline
 **STAGING:** Mars dark in the skylight, the hall lit by its lamps. Jax in front of the bench where
 Pell sits behind the *Gazette*; the crew behind Jax. Lucía is in the frame for the whole trade,
 arms folded, and we cut to her face (behind her folded arms, mouth hidden) on "Keep Miss
@@ -2422,7 +2397,7 @@ Nobody collects it.
 ```
 
 ### 22 · THE UNSCHEDULED — HOLD / THE WAITING ROOM — THE RECALL
-**Thread:** C/A · **Target:** 75 s · **Visual:** INSERT / REAL FOOTAGE WIDE / PHOTOREAL SET STILL · **Place:** tiny gravity (a lift-off like a breath); the ferry's nine hours to Deimos
+**Thread:** C/A · **Target:** 65 s · **Visual:** INSERT / REAL FOOTAGE WIDE / PHOTOREAL SET STILL · **Place:** tiny gravity (a lift-off like a breath); the ferry's nine hours to Deimos
 **STAGING:** Rebuilt as two clean beats, not three. (1) A fast comic release after 21: the
 Unscheduled lifts on a single puff, with the small red Relay ferry climbing after it, slow as a
 bus (one silent composite wide on the Mars-shadow plate); then, at the edge of the Exception,
@@ -2493,7 +2468,7 @@ INSERT: Arakawa's page. IT IS MY CUTTER.
 
                          PELL (CONT'D)
           I'll bring it back with hardly a
-          scratch. Do stay with Miss Tseren.
+          scratch.
                     (to Nasreddin, rising)
           You could have told me.
 
@@ -2516,7 +2491,7 @@ moment, Arakawa takes it.
 ```
 
 ### 23 · OVER MARS — THE INTERCEPT
-**Thread:** C/B/A · **Target:** 65 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT · **Place:** orbital speeds (a cutter can do in three hours what the ferry does in nine); matching orbits
+**Thread:** C/B/A · **Target:** 60 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT · **Place:** orbital speeds (a cutter can do in three hours what the ferry does in nine); matching orbits
 **STAGING:** Open on Jax's V.O. over a real Mars-from-orbit plate (lit again), the tiny red ferry
 crawling across it, the Unscheduled ahead, a grey cutter far behind and burning. Then the bridge:
 Seo flying, helmet, back to us; Idris at the nav screen; Lucía at the hatch. **Seo's hands on the
@@ -2591,7 +2566,7 @@ INSERT: the ferry's delivery slip, signed in the hatch: ORTEGA.
 ```
 
 ### 24 · DEIMOS — THE RELAY GUILD DISPATCH HALL
-**Thread:** A/C/B · **Target:** 105 s · **Visual:** PHOTOREAL SET STILL (wide) / INSERT / PHOTOREAL CLOSE-UP · **Place:** light delay to Earth (11 minutes each way); Earth hidden behind Mars once an orbit; Deimos small and far, Mars a coin at arm's length
+**Thread:** A/C/B · **Target:** 100 s · **Visual:** PHOTOREAL SET STILL (wide) / INSERT / PHOTOREAL CLOSE-UP · **Place:** light delay to Earth (11 minutes each way); Earth hidden behind Mars once an orbit; Deimos small and far, Mars a coin at arm's length
 **STAGING:** The spectacle of Act 4: a low hall under smooth grey dust, painted signal-yellow and
 teal, one whole wall a split-flap board of light-delay clocks for every port, ticking. Through a
 long window: the Relay's great dish, and Mars, smaller here. Wen is at the central desk:
@@ -2774,7 +2749,7 @@ the end.
 ```
 
 ### 26 · PHOBOS — THE WAITING ROOM — EXPECTED
-**Thread:** A/B/C · **Target:** 75 s · **Visual:** INSERT / PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP · **Place:** the Exception ends; Phobos is slowly falling toward Mars (the old-moons joke)
+**Thread:** A/B/C · **Target:** 70 s · **Visual:** INSERT / PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP · **Place:** the Exception ends; Phobos is slowly falling toward Mars (the old-moons joke)
 **STAGING:** The payoff of every running image: the card corrected (INSERT), the board flipping
 through every number to ALL, the march's last bar, the silent waiters standing, the man with the
 ladder making the first sale on Phobos since 1877. Arakawa's pages are INSERTS; her bow is one
@@ -2798,16 +2773,16 @@ number in a whir. Then: NOW SERVING: ALL.
           Listen. It's going to finish.
 
                          OYUNA
-          I've heard it stop eleven thousand
-          times.
+          I've heard it stop every hour for
+          six years.
 
                          NASREDDIN
-          Eleven thousand, two hundred and
-          six. I'm not moderate about
-          everything.
+          Fifty-two thousand, five hundred and
+          ninety-six times. I'm not moderate
+          about everything.
 
-The music box plays its very small march, and, for the first time
-since 1877, the last bar.
+The music box, off the hour, plays its very small march, and, for
+the first time since 1877, the last bar.
 
 The silent waiters stand: the lawyer, the choir, the cousins, the
 man with the ladder.
@@ -2871,7 +2846,7 @@ Through the arch, Window 17 goes dark.
 ```
 
 ### 27 · DEIMOS — THE GUILD DOCK / THE UNSCHEDULED — BRIDGE
-**Thread:** A/B/C · **Target:** 100 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE (window) · **Place:** light delay (READ in twenty-two minutes and four seconds); Mars small from Deimos
+**Thread:** A/B/C · **Target:** 95 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE (window) · **Place:** light delay (READ in twenty-two minutes and four seconds); Mars small from Deimos
 **STAGING:** Jax's V.O. skips eighteen hours over the dock. The reunion on the Guild dock is silent:
 Nasreddin stepping off the red ferry backwards, leading the donkey; Wen waiting with her
 stopwatch; the box of torn halves handed over; slip 133 and its postscript tucked into his hat.
@@ -2946,15 +2921,6 @@ time, a small grey line: READ — 00:22:04.
           Even the thirteen. Twenty-two minutes
           and four seconds. They always take
           the four seconds.
-
-                         IDRIS
-          And what did the navigator get?
-
-                         JAX
-          A story.
-
-                         IDRIS
-          I have stories. I wanted a share.
 
                          MIRA
                     (to Oyuna)

@@ -192,7 +192,7 @@
   },
   "E01-J021": {
    "priority": 1,
-   "status": "rejected-retrying",
+   "status": "accepted",
    "attempts": 2,
    "seconds": [
     121.6,
@@ -205,14 +205,17 @@
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
     "released: MIRA-LUCIA-REFS-READY",
-    "REJECTED: Mira reflection good (matches master) but the hall behind is crowded with travellers - the hall is empty (the library's ref-glass-screen also shows a crowd)"
+    "REJECTED: Mira reflection good (matches master) but the hall behind is crowded with travellers - the hall is empty (the library's ref-glass-screen also shows a crowd)",
+    "Retry: faint reflection of Mira (matches master) in scratched glass over an EMPTY bright hall, windows black. Prompt changed: empty hall"
    ],
    "refs_used": [
     "assets/characters/mira/master.jpg",
     "assets/sets/customs/desk-bright.jpg",
     "assets/characters/mira/ref-glass-screen.jpg"
    ],
-   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Dr Mira Sen's faint reflection in a customs glass screen, seen over a blurred hall, her eyes holding a look one beat too long; reflection soft and ghostly. The hall seen through the glass is completely EMPTY: rows of empty wooden benches and booth lights, absolutely no other people anywhere (ignore the crowd in the glass-screen reference). Dr Mira Sen: Bengali Indian woman, mid-30s (she must look 34, not older), dark braid, sharp tired eyes, ink-stained fingers; indigo customs flight suit, brass loupe on a chain. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later)."
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Dr Mira Sen's faint reflection in a customs glass screen, seen over a blurred hall, her eyes holding a look one beat too long; reflection soft and ghostly. The hall seen through the glass is completely EMPTY: rows of empty wooden benches and booth lights, absolutely no other people anywhere (ignore the crowd in the glass-screen reference). Dr Mira Sen: Bengali Indian woman, mid-30s (she must look 34, not older), dark braid, sharp tired eyes, ink-stained fingers; indigo customs flight suit, brass loupe on a chain. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later).",
+   "file": "episodes/E01/stills/e01-j021_mira_reflection_glass.jpg",
+   "jpg_bytes": 521595
   },
   "E01-J022": {
    "priority": 1,
@@ -434,24 +437,28 @@
   "E01-J055": {
    "priority": 2,
    "status": "rejected-retrying",
-   "attempts": 1,
+   "attempts": 2,
    "seconds": [
-    65.7
+    65.7,
+    70.3
    ],
    "tokens": [
-    31992
+    31992,
+    29236
    ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
     "released: new Mira/Lucia masters approved by owner; job needs master only",
-    "REJECTED: faces lit and turned to each other, Lucia mid-laugh with mouth open; job wants four heads from behind as silhouettes (dialogue cover)"
+    "REJECTED: faces lit and turned to each other, Lucia mid-laugh with mouth open; job wants four heads from behind as silhouettes (dialogue cover)",
+    "REJECTED: staging now right (all four from behind) but the braided woman wears a tan jacket, not Mira's indigo flight suit"
    ],
    "refs_used": [
     "assets/sets/postchaise/cab-bright.jpg",
     "assets/characters/baron/master.jpg",
     "assets/characters/lucia/master.jpg",
     "assets/characters/jax/master.jpg"
-   ]
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Inside an old rover cab, shot from the back seat looking forward through the windscreen: four heads seen strictly from BEHIND, all facing forward toward the windscreen, no faces or mouths visible, the backs of their heads and shoulders edged by warm dashboard lamp light (a driver with short hair, a curly-haired man beside her, an old man in a tricorn hat behind, a woman with a dark braid), a red ribbon on the driver's wrist on the wheel; the windscreen is pure black. Baron Munchausen: German man in his 70s, enormous white moustache that completely covers his mouth, black tricorn hat; moth-eaten red 18th-century cavalry coat over a patched pressure suit. Design after Doré's 1862 engravings, never any film. Lucía Ortega: Mexican woman, early 30s (she must look 31, not older), strong athletic build, broad shoulders, short practical hair; grease-stained coveralls, a red ribbon tied round her wrist. Jax Vale: Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later)."
   },
   "E01-J057": {
    "priority": 2,
@@ -501,36 +508,71 @@
   },
   "E01-J061": {
    "priority": 2,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    87.3
+   ],
+   "tokens": [
+    12818
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: MIRA-LUCIA-REFS-READY"
-   ]
+    "released: MIRA-LUCIA-REFS-READY",
+    "Layer plate: Mira full body in slim indigo suit + bubble helmet with notebook and pencil, black bg, matches new ref-suit-helmet. FLAG: bare hands (no gloves) on an exterior suit - same as the library ref"
+   ],
+   "refs_used": [
+    "assets/characters/mira/ref-suit-helmet.jpg",
+    "assets/characters/mira/master.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j061_plate_mira_suit_notebook.jpg",
+   "jpg_bytes": 150795
   },
   "E01-J062": {
    "priority": 2,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    96.7
+   ],
+   "tokens": [
+    11226
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: MIRA-LUCIA-REFS-READY"
-   ]
+    "released: MIRA-LUCIA-REFS-READY",
+    "Layer plate: Lucia full body in scuffed engineer suit + helmet, ribbon on glove cuff, wrench, black bg; matches new ref-suit-helmet; smiling with teeth"
+   ],
+   "refs_used": [
+    "assets/characters/lucia/ref-suit-helmet.jpg",
+    "assets/characters/lucia/master.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j062_plate_lucia_suit_door.jpg",
+   "jpg_bytes": 173728
   },
   "E01-J064": {
    "priority": 2,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    130.5
+   ],
+   "tokens": [
+    15192
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: new Mira/Lucia masters approved by owner; job needs master only"
-   ]
+    "released: new Mira/Lucia masters approved by owner; job needs master only",
+    "Parlour wide matches set (bear, ship-in-bottle, jar of teeth, stove, sunlight wedge); Baron leads Jax and Lucia in. Faces only partly turned away (Baron three-quarter, Lucia profile) and figures medium rather than small; sabre knot not obvious"
+   ],
+   "refs_used": [
+    "assets/sets/hatchet/parlour-bright.jpg",
+    "assets/characters/baron/master.jpg",
+    "assets/characters/jax/master.jpg",
+    "assets/characters/lucia/master.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j064_parlour_wide_group.jpg",
+   "jpg_bytes": 885530
   },
   "E01-J069": {
    "priority": 2,
@@ -1838,21 +1880,27 @@
   },
   "E01-J109": {
    "priority": 2,
-   "status": "rejected-retrying",
-   "attempts": 1,
+   "status": "accepted",
+   "attempts": 2,
    "seconds": [
+    55.4,
     55.4
    ],
    "tokens": [
-    25291
+    25291,
+    11654
    ],
    "notes": [
-    "REJECTED: Baron matches but reads cheerful/bright-eyed, not tired, and there is no white glare"
+    "REJECTED: Baron matches but reads cheerful/bright-eyed, not tired, and there is no white glare",
+    "Retry: Baron tired, heavy-lidded, looking out, warm light band across face, window black; matches master. Prompt changed: expression + light"
    ],
    "refs_used": [
     "assets/characters/baron/master.jpg",
     "assets/sets/postchaise/cab-bright.jpg"
-   ]
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Close-up of the Baron in a rover's back seat, white glare across the side window, eyes tired, moustache hiding his mouth. His eyes are heavy-lidded, tired and sad, looking down and away out of the window, not at the camera; a hard band of white sunlight from the side window falls across his face and moustache (the window glass itself stays pure black). Baron Munchausen: German man in his 70s, enormous white moustache that completely covers his mouth, black tricorn hat; moth-eaten red 18th-century cavalry coat over a patched pressure suit. Design after Doré's 1862 engravings, never any film. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later).",
+   "file": "episodes/E01/stills/e01-j109_baron_cab_glare.jpg",
+   "jpg_bytes": 521118
   },
   "E01-J059": {
    "priority": 2,
@@ -1874,19 +1922,42 @@
   },
   "E01-J060": {
    "priority": 2,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    56.3
+   ],
+   "tokens": [
+    32168
+   ],
+   "notes": [
+    "Layer plate: Baron full body in patched suit, coat, tricorn strapped on helmet, proud stance, plain black bg, key light from frame left; matches ref-suit-tricorn-helmet"
+   ],
+   "refs_used": [
+    "assets/characters/baron/ref-suit-tricorn-helmet.jpg",
+    "assets/characters/baron/ref-fullbody-suit.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j060_plate_baron_suit_door.jpg",
+   "jpg_bytes": 235541
   },
   "E01-J063": {
    "priority": 2,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    36.5
+   ],
+   "tokens": [
+    10583
+   ],
+   "notes": [
+    "Gloved suit fist (orange sleeve) knocking round riveted iron door, hard sun, black shadow"
+   ],
+   "refs_used": [
+    "assets/characters/jax/ref-helmet.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j063_gloved_fist_knock.jpg",
+   "jpg_bytes": 554546
   },
   "E01-J065": {
    "priority": 2,

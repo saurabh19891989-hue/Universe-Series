@@ -3110,5 +3110,746 @@
   },
   "type": "allowance_check",
   "label": "before steps 6-7"
+ },
+ {
+  "read_at": "2026-11-27T17:09:27Z",
+  "source": "rollout-2026-11-27T17-09-09-01a21dfb-7996-7b82-93c0-2ac33082fe16.jsonl",
+  "five_hour": {
+   "used_percent": 53.0,
+   "window_minutes": 300,
+   "resets_at": "2026-11-27 21:38 UTC"
+  },
+  "weekly": {
+   "used_percent": 8.0,
+   "window_minutes": 10080,
+   "resets_at": "2026-12-04 16:38 UTC"
+  },
+  "type": "allowance_check",
+  "label": "after steps 6-7 / before E02"
+ },
+ {
+  "time": "2026-11-27T16:54:50",
+  "type": "run",
+  "purpose": "step6 Seo front",
+  "job": "seo-front",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/seo-front/seo-ref-front.png",
+  "file": "assets/characters/seo/ref-front.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 57.4,
+  "tokens": 12678,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 166216,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 26.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 4.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:54:25",
+  "type": "run",
+  "purpose": "step6 Seo profile",
+  "job": "seo-profile",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/seo-profile/seo-ref-profile.png",
+  "file": "assets/characters/seo/ref-profile.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 31.7,
+  "tokens": 9961,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 132134,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 26.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 4.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:55:37",
+  "type": "run",
+  "purpose": "step6 Oyuna front",
+  "job": "oyuna-front",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/oyuna-front/oyuna-ref-front.png",
+  "file": "assets/characters/oyuna/ref-front.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 46.3,
+  "tokens": 11635,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 258729,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 27.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 4.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:55:35",
+  "type": "run",
+  "purpose": "step6 Oyuna profile",
+  "job": "oyuna-profile",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/oyuna-profile/oyuna-ref-profile.png",
+  "file": "assets/characters/oyuna/ref-profile.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 44.4,
+  "tokens": 7730,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 289732,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 27.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 4.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:56:26",
+  "type": "run",
+  "purpose": "step7 jax expression alarmed",
+  "job": "x-jax-alarmed",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-jax-alarmed/jax-ref-alarmed.png",
+  "file": "assets/characters/jax/ref-alarmed.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 49.5,
+  "tokens": 13722,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 325298,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 28.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 4.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:56:33",
+  "type": "run",
+  "purpose": "step7 jax expression laughing",
+  "job": "x-jax-laughing",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-jax-laughing/jax-ref-laughing.png",
+  "file": "assets/characters/jax/ref-laughing.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 55.8,
+  "tokens": 26568,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 355586,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 29.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 4.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:57:17",
+  "type": "run",
+  "purpose": "step7 jax expression sad",
+  "job": "x-jax-sad",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-jax-sad/jax-ref-sad.png",
+  "file": "assets/characters/jax/ref-sad.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 44.5,
+  "tokens": 11352,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 344112,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 30.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 5.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:57:20",
+  "type": "run",
+  "purpose": "step7 jax expression sceptical",
+  "job": "x-jax-sceptical",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-jax-sceptical/jax-ref-sceptical.png",
+  "file": "assets/characters/jax/ref-sceptical.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 47.6,
+  "tokens": 10436,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 368145,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 31.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 5.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:58:07",
+  "type": "run",
+  "purpose": "step7 jax expression eyes-closed",
+  "job": "x-jax-eyes-closed",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-jax-eyes-closed/jax-ref-eyes-closed.png",
+  "file": "assets/characters/jax/ref-eyes-closed.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 46.5,
+  "tokens": 12464,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 339587,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 32.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 5.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:58:58",
+  "type": "run",
+  "purpose": "step7 mira expression alarmed",
+  "job": "x-mira-alarmed",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-mira-alarmed/mira-ref-alarmed.png",
+  "file": "assets/characters/mira/ref-alarmed.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 97.9,
+  "tokens": 9808,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 308992,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 33.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 5.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:00:36",
+  "type": "run",
+  "purpose": "step7 mira expression laughing",
+  "job": "x-mira-laughing",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-mira-laughing/mira-ref-laughing.png",
+  "file": "assets/characters/mira/ref-laughing.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 97.8,
+  "tokens": 21885,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 275715,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 35.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 6.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:59:43",
+  "type": "run",
+  "purpose": "step7 mira expression sad",
+  "job": "x-mira-sad",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-mira-sad/mira-ref-sad.png",
+  "file": "assets/characters/mira/ref-sad.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 44.7,
+  "tokens": 8120,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 258103,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 35.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 5.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:01:41",
+  "type": "run",
+  "purpose": "step7 mira expression sceptical",
+  "job": "x-mira-sceptical",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-mira-sceptical/mira-ref-sceptical.png",
+  "file": "assets/characters/mira/ref-sceptical.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 64.5,
+  "tokens": 14533,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 282437,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 38.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 6.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:01:24",
+  "type": "run",
+  "purpose": "step7 mira expression eyes-closed",
+  "job": "x-mira-eyes-closed",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-mira-eyes-closed/mira-ref-eyes-closed.png",
+  "file": "assets/characters/mira/ref-eyes-closed.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 47.7,
+  "tokens": 16258,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 280625,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 37.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 6.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:02:29",
+  "type": "run",
+  "purpose": "step7 mira expression threequarter",
+  "job": "x-mira-threequarter",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-mira-threequarter/mira-ref-threequarter.png",
+  "file": "assets/characters/mira/ref-threequarter.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 47.9,
+  "tokens": 10127,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 259801,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 40.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 6.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:02:30",
+  "type": "run",
+  "purpose": "step7 lucia expression alarmed",
+  "job": "x-lucia-alarmed",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-lucia-alarmed/lucia-ref-alarmed.png",
+  "file": "assets/characters/lucia/ref-alarmed.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 48.8,
+  "tokens": 23748,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 316865,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 40.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 6.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:04:06",
+  "type": "run",
+  "purpose": "step7 lucia expression laughing",
+  "job": "x-lucia-laughing",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-lucia-laughing/lucia-ref-laughing.png",
+  "file": "assets/characters/lucia/ref-laughing.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 96.7,
+  "tokens": 15673,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 280068,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 42.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 7.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:04:06",
+  "type": "run",
+  "purpose": "step7 lucia expression sad",
+  "job": "x-lucia-sad",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-lucia-sad/lucia-ref-sad.png",
+  "file": "assets/characters/lucia/ref-sad.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 96.3,
+  "tokens": 14175,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 315529,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 42.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 7.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:04:54",
+  "type": "run",
+  "purpose": "step7 lucia expression sceptical",
+  "job": "x-lucia-sceptical",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-lucia-sceptical/lucia-ref-sceptical.png",
+  "file": "assets/characters/lucia/ref-sceptical.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 47.5,
+  "tokens": 13289,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 321615,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 44.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 7.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:04:49",
+  "type": "run",
+  "purpose": "step7 lucia expression eyes-closed",
+  "job": "x-lucia-eyes-closed",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-lucia-eyes-closed/lucia-ref-eyes-closed.png",
+  "file": "assets/characters/lucia/ref-eyes-closed.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 42.0,
+  "tokens": 9372,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 281751,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 44.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 7.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:06:30",
+  "type": "run",
+  "purpose": "step7 lucia expression threequarter",
+  "job": "x-lucia-threequarter",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-lucia-threequarter/lucia-ref-threequarter.png",
+  "file": "assets/characters/lucia/ref-threequarter.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 95.4,
+  "tokens": 19694,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 268783,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 48.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 8.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:05:44",
+  "type": "run",
+  "purpose": "step7 baron expression alarmed",
+  "job": "x-baron-alarmed",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-baron-alarmed/baron-ref-alarmed.png",
+  "file": "assets/characters/baron/ref-alarmed.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 49.5,
+  "tokens": 22412,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 441675,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 47.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 7.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:07:19",
+  "type": "run",
+  "purpose": "step7 baron expression laughing",
+  "job": "x-baron-laughing",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-baron-laughing/baron-ref-laughing.png",
+  "file": "assets/characters/baron/ref-laughing.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 49.2,
+  "tokens": 13999,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 442182,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 50.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 8.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:07:09",
+  "type": "run",
+  "purpose": "step7 baron expression sad",
+  "job": "x-baron-sad",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-baron-sad/baron-ref-sad.png",
+  "file": "assets/characters/baron/ref-sad.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 39.0,
+  "tokens": 12752,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 334372,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 50.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 8.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:07:57",
+  "type": "run",
+  "purpose": "step7 baron expression sceptical",
+  "job": "x-baron-sceptical",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-baron-sceptical/baron-ref-sceptical.png",
+  "file": "assets/characters/baron/ref-sceptical.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 38.4,
+  "tokens": 9593,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 394701,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 51.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 8.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:08:11",
+  "type": "run",
+  "purpose": "step7 baron expression eyes-closed",
+  "job": "x-baron-eyes-closed",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-baron-eyes-closed/baron-ref-eyes-closed.png",
+  "file": "assets/characters/baron/ref-eyes-closed.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 51.9,
+  "tokens": 18056,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 392391,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 52.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 8.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T17:08:57",
+  "type": "run",
+  "purpose": "step7 baron expression threequarter",
+  "job": "x-baron-threequarter",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/x-baron-threequarter/baron-ref-threequarter.png",
+  "file": "assets/characters/baron/ref-threequarter.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-front.jpg"
+  ],
+  "seconds": 46.3,
+  "tokens": 9506,
+  "status": "accepted",
+  "note": "from LOCKED master; bright; same person",
+  "jpg_bytes": 326816,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 53.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 8.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
  }
 ]
