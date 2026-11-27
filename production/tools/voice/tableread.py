@@ -318,19 +318,20 @@ def main():
     for fi in (1, 2, 3, 4):
         x = np.concatenate(acts[fi]).astype("float32")
         mp3 = os.path.join(a.out, f"{a.prefix}-{FILE_NAMES[fi]}.mp3")
-        I0, _ = loud(x); g = -16 - I0; ceil = -2.4
-        for attempt in range(1, 9):
-            y = limit((x * 10 ** (g / 20)).astype("float32"), ceil)
-            Ipre, _ = loud(y)
-            if abs(Ipre + 16) > 0.15 and attempt < 8:
-                g += (-16 - Ipre); continue
+        I0, _ = loud(x); g = -16 - I0; ceil = -3.8
+        for outer in range(1, 5):
+            for it_ in range(6):       # solve the gain so the limited signal sits at -16 LUFS
+                y = limit((x * 10 ** (g / 20)).astype("float32"), ceil)
+                Ipre, _ = loud(y)
+                if abs(Ipre + 16) <= 0.12: break
+                g += (-16 - Ipre)
             wavp = os.path.join(a.work, f"act{fi}_norm.wav"); sf.write(wavp, y, SR, subtype="FLOAT")
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wavp, "-ar", str(SR), "-ac", "1",
                             "-c:a", "libmp3lame", "-abr", "1", "-b:a", a.bitrate, mp3], check=True)
             d = decode(mp3); I, tp = loud(d)
-            if tp > -1.5: ceil -= (tp + 1.5 + 0.15); continue
-            if abs(I + 16) > 0.3: g += (-16 - I); continue
-            break
+            if tp <= -1.5: break
+            ceil -= (tp + 1.5 + 0.2)
+        attempt = outer
         size = os.path.getsize(mp3)
         report[fi] = dict(file=os.path.basename(mp3), duration_s=round(len(d) / SR, 2), size_mb=round(size / 1e6, 3),
                           integrated_lufs=round(float(I), 1), true_peak_dbtp=round(float(tp), 1),
