@@ -40,25 +40,28 @@ def parse(path):
     return units
 
 def lines_of(unit):
-    """Group items into spoken lines + action items in order. Returns list of dicts."""
-    out = []; cue = None; pars = []; buf = []; first = None
+    """Group items into spoken lines and action paragraphs, in order.
+    line:   dict(kind="line", cue, parens, text, line)
+    action: dict(kind="action", text, line)   (consecutive action rows merged)"""
+    out = []; cue = None; pars = []; buf = []; first = None; last_action = None
     def flush():
         nonlocal buf, pars, first
         if buf and cue:
             out.append(dict(kind="line", cue=cue, parens=pars, text=" ".join(buf), line=first))
         buf = []; pars = []; first = None
     for it in unit["items"]:
-        if it["kind"] == "cue": flush(); cue = it["text"]; continue
+        if it["kind"] == "cue": flush(); cue = it["text"]; last_action = None; continue
         if it["kind"] == "paren":
-            if buf: flush(); pars = [it["text"]]   # mid-speech parenthetical: new chunk, same cue
+            if buf: flush(); pars = [it["text"]]
             else: pars.append(it["text"])
             continue
         if it["kind"] == "dlg":
             if first is None: first = it["line"]
-            buf.append(it["text"]); continue
-        flush(); cue_keep = cue
-        out.append(dict(kind="action", text=it["text"], line=it["line"]))
-        cue = None if True else cue_keep
-        # action ends the speech block
+            buf.append(it["text"]); last_action = None; continue
+        flush(); cue = None
+        if last_action is not None and it["line"] == last_action["end"] + 1:
+            last_action["text"] += " " + it["text"]; last_action["end"] = it["line"]
+        else:
+            last_action = dict(kind="action", text=it["text"], line=it["line"], end=it["line"]); out.append(last_action)
     flush()
     return out
