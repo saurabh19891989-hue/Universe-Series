@@ -23,5 +23,13 @@
     "flat, deadpan, reading from a registry, clipped and officious",
     "genuinely hushed, almost a whisper, quiet, slow and serious",
     "fast confiding voiceover, wry, then slowing with rueful self-mockery on the last sentence"
-  ]
+  ],
+  "notes": {
+    "tier": "API key is on the FREE tier: 3 requests/min and 10 requests/day per model (quota exhausted)",
+    "scene-perline.mp3": "gemini-3.8-flash-tts, complete",
+    "scene-multispeaker-lite.mp3": "gemini-3.8-flash-lite-tts (flash-tts quota gone), 4 two-hander chunks",
+    "scene-altcast.mp3": "NOT produced (quota); 3 of 10 lines rendered on flash-tts but not delivered",
+    "range/*-model31preview.mp3": "gemini-3.1-flash-tts-preview, voice zubenelgenubi, direction in text; 6 expressive clips only, no accent clips",
+    "consistency": "3 renders of Jax line 1 on flash-lite, not delivered as audio"
+  }
 }

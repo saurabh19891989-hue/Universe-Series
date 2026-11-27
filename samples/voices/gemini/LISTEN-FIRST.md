@@ -1,0 +1,3 @@
+1. scene-perline.mp3 (gemini-3.8-flash-tts, full 4-voice scene, each line acted separately): judge Mira's hush, the Baron's German colour (German library voice reading English), PIP's flatness, Jax's pace. Nobody has listened yet.
+2. scene-multispeaker-lite.mp3 (gemini-3.8-flash-lite-tts, 2-speaker chunks): compare flow and overlap against 1. Then range/*-model31preview.mp3 (whisper, shout, laugh, sigh, crying, sarcasm; older 3.1 preview model).
+3. scene-altcast.mp3 and the accent clips do NOT exist: the free-tier daily quota (10 requests per model per day) ran out; rerun gemini_scene.py after reset or on a billed key.
