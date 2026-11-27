@@ -3,12 +3,14 @@
   "E01-J001": {
    "priority": 1,
    "status": "accepted",
-   "attempts": 1,
+   "attempts": 2,
    "seconds": [
-    35.5
+    35.5,
+    43.4
    ],
    "tokens": [
-    7646
+    7646,
+    24346
    ],
    "notes": [
     "PIP lens matches master (brass rim, cream chipped housing); near-black surround as specified. Dark style - redo candidate (story-dark cold-open beat, may keep)"
@@ -18,7 +20,8 @@
    ],
    "file": "episodes/E01/stills/e01-j001_pip_lens_dark.jpg",
    "jpg_bytes": 226800,
-   "style": "dark style - redo candidate"
+   "style": "dark style - redo candidate",
+   "prompt_changed": " | extra ref note: The last reference image is the previously approved version of this exact shot: make the same shot, same framing and staging, now brightly lit with rich vivid colour."
   },
   "E01-J008": {
    "priority": 1,
@@ -292,7 +295,7 @@
   },
   "E01-J044": {
    "priority": 1,
-   "status": "pending",
+   "status": "accepted",
    "attempts": 1,
    "seconds": [
     45.0
@@ -302,16 +305,19 @@
    ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: new Mira/Lucia masters approved by owner; job needs master only"
+    "released: new Mira/Lucia masters approved by owner; job needs master only",
+    "Ink-stained hand lifts brass customs key on lanyard, cage mesh behind, indigo sleeve; ink stains read a little like purple nail tips (same in J019/J022)"
    ],
    "refs_used": [
     "assets/characters/mira/master.jpg",
     "assets/sets/customs/holding-cage-bright.jpg"
-   ]
+   ],
+   "file": "episodes/E01/stills/e01-j044_mira_key_lanyard.jpg",
+   "jpg_bytes": 389595
   },
   "E01-J048": {
    "priority": 1,
-   "status": "pending",
+   "status": "accepted",
    "attempts": 1,
    "seconds": [
     136.3
@@ -321,12 +327,15 @@
    ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: new Mira/Lucia masters approved by owner; job needs master only"
+    "released: new Mira/Lucia masters approved by owner; job needs master only",
+    "Two-shot through mesh: Jax and Mira both strong matches to masters (Mira new master), side-eye, lips closed. Background reads more ship-industrial than the green customs hall"
    ],
    "refs_used": [
     "assets/characters/jax/master.jpg",
     "assets/characters/mira/master.jpg"
-   ]
+   ],
+   "file": "episodes/E01/stills/e01-j048_jax_mira_not_looking.jpg",
+   "jpg_bytes": 565447
   },
   "E01-J052": {
    "priority": 1,
