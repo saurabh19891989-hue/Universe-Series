@@ -1292,10 +1292,18 @@
   "E01-J028": {
    "priority": 1,
    "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "attempts": 1,
+   "seconds": [
+    44.3
+   ],
+   "tokens": [
+    19695
+   ],
+   "notes": [],
+   "refs_used": [
+    "assets/props/pip/ref-wrist.jpg",
+    "assets/characters/jax/master.jpg"
+   ]
   },
   "E01-J042": {
    "priority": 1,

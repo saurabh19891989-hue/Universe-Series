@@ -2974,5 +2974,45 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T16:45:12",
+  "job": "e01/E01-J028",
+  "name": "e01-j028_wrist_comm_jax",
+  "purpose": "E01 still E01-J028",
+  "refs": [
+   "ref-wrist.jpg",
+   "master.jpg"
+  ],
+  "seconds": 44.3,
+  "tokens_used": 19695,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21de4-dd8c-73a3-a451-4a918e329e76",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 11.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 2.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]
