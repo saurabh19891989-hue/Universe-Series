@@ -2548,5 +2548,431 @@
   "weekly": null,
   "type": "allowance_check",
   "label": "resume after owner reset"
+ },
+ {
+  "time": "2026-11-27T16:40:24",
+  "type": "run",
+  "purpose": "new-master ref: mira-ref-glass-screen",
+  "job": "m-glass",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/m-glass/mira-ref-glass-screen.png",
+  "file": "assets/characters/mira/ref-glass-screen.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 121.3,
+  "tokens": 20460,
+  "status": "accepted",
+  "note": "from LOCKED new master; same face; hall behind busier than script",
+  "jpg_bytes": 429757,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 3.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 1.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:41:20",
+  "type": "run",
+  "purpose": "new-master ref: mira-ref-loupe-eye",
+  "job": "m-loupe",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/m-loupe/mira-ref-loupe-eye.png",
+  "file": "assets/characters/mira/ref-loupe-eye.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 56.0,
+  "tokens": 23546,
+  "status": "accepted",
+  "note": "from LOCKED new master; same face",
+  "jpg_bytes": 319510,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 5.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 1.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:42:21",
+  "type": "run",
+  "purpose": "new-master ref: mira-ref-back",
+  "job": "m-back",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/m-back/mira-ref-back.png",
+  "file": "assets/characters/mira/ref-back.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 61.1,
+  "tokens": 10476,
+  "status": "accepted",
+  "note": "from LOCKED new master; braid matches; windows black",
+  "jpg_bytes": 378234,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 7.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 1.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:44:13",
+  "type": "run",
+  "purpose": "new-master ref: mira-ref-suit-helmet",
+  "job": "m-suit",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/m-suit/mira-ref-suit-helmet.png",
+  "file": "assets/characters/mira/ref-suit-helmet.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 112.1,
+  "tokens": 11022,
+  "status": "accepted",
+  "note": "from LOCKED new master; same face; suit reads as flight suit plus helmet",
+  "jpg_bytes": 502228,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 10.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 2.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:39:21",
+  "type": "run",
+  "purpose": "new-master ref: lucia-ref-welding-visor",
+  "job": "l-visor",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/l-visor/lucia-ref-welding-visor.png",
+  "file": "assets/characters/lucia/ref-welding-visor.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 58.4,
+  "tokens": 8165,
+  "status": "accepted",
+  "note": "from LOCKED new master; hair ribbon match",
+  "jpg_bytes": 559400,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 2.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 0.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:41:04",
+  "type": "run",
+  "purpose": "new-master ref: lucia-ref-driving-from-behind",
+  "job": "l-drive",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/l-drive/lucia-ref-driving-from-behind.png",
+  "file": "assets/characters/lucia/ref-driving-from-behind.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 40.4,
+  "tokens": 14950,
+  "status": "accepted",
+  "note": "from LOCKED new master; windscreen black",
+  "jpg_bytes": 361089,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 5.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 1.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:41:57",
+  "type": "run",
+  "purpose": "new-master ref: lucia-ref-wrist-ribbon",
+  "job": "l-wrist",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/l-wrist/lucia-ref-wrist-ribbon.png",
+  "file": "assets/characters/lucia/ref-wrist-ribbon.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 36.9,
+  "tokens": 25612,
+  "status": "accepted",
+  "note": "from LOCKED new master; signature insert",
+  "jpg_bytes": 391554,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 7.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 1.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:43:16",
+  "type": "run",
+  "purpose": "new-master ref: lucia-ref-fullbody-stride",
+  "job": "l-stride",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/l-stride/lucia-ref-fullbody-stride.png",
+  "file": "assets/characters/lucia/ref-fullbody-stride.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 54.3,
+  "tokens": 7657,
+  "status": "accepted",
+  "note": "from LOCKED new master; same face",
+  "jpg_bytes": 391299,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 9.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 1.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:46:22",
+  "type": "run",
+  "purpose": "new-master ref: lucia-ref-suit-helmet",
+  "job": "l-suit",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/l-suit/lucia-ref-suit-helmet.png",
+  "file": "assets/characters/lucia/ref-suit-helmet.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-helmet.jpg"
+  ],
+  "seconds": 128.9,
+  "tokens": 13090,
+  "status": "accepted",
+  "note": "from LOCKED new master; same face; ribbon on glove cuff",
+  "jpg_bytes": 484938,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 12.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 2.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "read_at": "2026-11-27T16:46:43Z",
+  "source": "rollout-2026-11-27T16-46-24-01a21de6-a328-7043-ab34-3fa3b26c13d1.jsonl",
+  "five_hour": {
+   "used_percent": 13.0,
+   "window_minutes": 300,
+   "resets_at": "2026-11-27 21:38 UTC"
+  },
+  "weekly": {
+   "used_percent": 2.0,
+   "window_minutes": 10080,
+   "resets_at": "2026-12-04 16:38 UTC"
+  },
+  "type": "allowance_check",
+  "label": "after Mira/Lucia ref sets"
+ },
+ {
+  "time": "2026-11-27T16:48:13",
+  "type": "run",
+  "purpose": "request3 customs crawler vehicle (new, PROPOSED)",
+  "job": "crawler",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/crawler/crawler.png",
+  "file": "assets/vehicles/crawler/master.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 62.6,
+  "tokens": 12676,
+  "status": "accepted",
+  "note": "new vehicle PROPOSED; no markings, cab window black",
+  "jpg_bytes": 630965,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 15.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 2.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:47:54",
+  "type": "run",
+  "purpose": "fix: Mamani master window to pure black (LOCKED face)",
+  "job": "fix-mamani",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/fix-mamani/mamani-fixed.png",
+  "file": "assets/characters/mamani/master.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 43.2,
+  "tokens": 23789,
+  "status": "accepted",
+  "note": "LOCKED face unchanged; window now pure black (old = master-old.jpg)",
+  "jpg_bytes": 268947,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 15.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 2.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:49:00",
+  "type": "run",
+  "purpose": "fix: Chichikov soft-focus bench, windows pure black",
+  "job": "fix-chich-bench",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/fix-chich-bench/chich-bench-fixed.png",
+  "file": "assets/characters/chichikov/ref-softfocus-bench.jpg",
+  "refs": [
+   "ref-softfocus-bench.jpg",
+   "master-bright.jpg"
+  ],
+  "seconds": 47.0,
+  "tokens": 9462,
+  "status": "accepted",
+  "note": "windows black, bright hall; Chichikov came out sharp so right half blurred in post (Pillow) to keep him soft",
+  "jpg_bytes": 362938,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 17.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 3.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:48:58",
+  "type": "run",
+  "purpose": "fix: inlaid box prop, background window pure black",
+  "job": "fix-box",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/fix-box/inlaid-box-fixed.png",
+  "file": "assets/props/inlaid-box/master.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 44.3,
+  "tokens": 12915,
+  "status": "accepted",
+  "note": "window now black (old = master-old.jpg)",
+  "jpg_bytes": 546340,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 17.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 3.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:49:55",
+  "type": "run",
+  "purpose": "fix: clamp-console-bright booth glass not black",
+  "job": "fix-clamp",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/fix-clamp/clamp-bright-fixed.png",
+  "file": "assets/sets/customs/clamp-console-bright.jpg",
+  "refs": [
+   "clamp-console-bright.jpg",
+   "master-bright.jpg"
+  ],
+  "seconds": 54.8,
+  "tokens": 16077,
+  "status": "accepted",
+  "note": "booth glass lit, board 1,094",
+  "jpg_bytes": 653922,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 19.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 3.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:49:43",
+  "type": "run",
+  "purpose": "fix: hold-bright parcel gets layered labels to match parcel prop",
+  "job": "fix-hold",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/fix-hold/hold-bright-parcel.png",
+  "file": "assets/sets/hold/master-bright.jpg",
+  "refs": [
+   "master-bright.jpg",
+   "master.jpg"
+  ],
+  "seconds": 42.5,
+  "tokens": 27418,
+  "status": "accepted",
+  "note": "parcel now layered labels matching parcel prop",
+  "jpg_bytes": 696141,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 19.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 3.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "read_at": "2026-11-27T16:50:28Z",
+  "source": "rollout-2026-11-27T16-49-01-01a21de9-08d3-77e2-bbd6-d5b63c4a6fc9.jsonl",
+  "five_hour": {
+   "used_percent": 19.0,
+   "window_minutes": 300,
+   "resets_at": "2026-11-27 21:38 UTC"
+  },
+  "weekly": {
+   "used_percent": 3.0,
+   "window_minutes": 10080,
+   "resets_at": "2026-12-04 16:38 UTC"
+  },
+  "type": "allowance_check",
+  "label": "after fixes batch"
  }
 ]

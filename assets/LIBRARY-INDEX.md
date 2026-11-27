@@ -106,3 +106,4 @@ Rule reminders: windows pure black where real footage goes; bright style from 27
 - Still PROPOSED: faces idris, voss, cass; sets hold, postchaise, hatchet (inn), apron; all new props. Arakawa rejected (likeness risk).
 - Mask windows to black before compositing: chichikov/ref-softfocus-bench.jpg, mamani/master.jpg, props/inlaid-box/master.jpg; clamp-console-bright.jpg booth glass went black (cosmetic).
 - Not yet made: vehicles/crawler/master.jpg (request 3).
+MIRA-LUCIA-REFS-READY

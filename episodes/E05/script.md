@@ -1164,6 +1164,8 @@ Seo doesn't move.
                          SEO
           No.
 
+A beat. Neither of them looks away from the storyteller.
+
                          SEO (CONT'D)
           Are you going to tell them?
 
@@ -1305,7 +1307,8 @@ Neither of them denies it.
 INSERT: their feet, passing the pillar a fifth time.
 
 A great bell strikes midnight. The band stops. By the gallery
-stairs, a ring of floor slides open.
+stairs, a ring of floor slides open on a well with a brass rail
+round it, looking down into the gallery and the shaft below.
 ```
 
 ### 12 · THE VAULT GALLERY — MIDNIGHT
@@ -1665,7 +1668,7 @@ She goes on, under the scene. Seo looks at her wrist and types.
 INSERT: TO: P. Al-Rahhal owes the storyteller. Amount unknown.
 Voss knows we are here.
 
-INSERT: the reply. Of course he does. Do not interfere with his
+INSERT: minutes later, the reply. Of course he does. Do not interfere with his
 evening. — P.
 
                          IDRIS
@@ -1687,15 +1690,15 @@ Idris goes back to listening with his whole face. Seo looks at him
 a moment longer. She deletes nothing.
 ```
 
-### 16 · THE VAULT GALLERY — THE RAIL, 12:55
+### 16 · BALLROOM — THE RAIL OF THE WELL, 12:55
 **Thread:** C/A · **Target:** 55 s · **Visual:** PHOTOREAL SET STILL / INSERT
-**STAGING:** Two men at the gallery rail looking down the shaft at the Reliquary, both from behind:
-a silver head and a bowler-less grey one. Ganimard's moustache covers his mouth; Voss is never
+**STAGING:** Two men at the brass rail round the open well in the ballroom floor (established in
+11), looking down past the gallery to the Reliquary, both from behind: a silver head and a grey one. Ganimard's moustache covers his mouth; Voss is never
 shown speaking. The audience knows who Ganimard is; Voss may too. The turn is one INSERT of
 Ganimard's eyes, for once without an answer.
 
 ```
-INT. THE VAULT GALLERY — THE RAIL — 12:55
+INT. BALLROOM — THE RAIL OF THE WELL — 12:55
 
 VOSS and GANIMARD at the rail, looking down at the shimmering
 sphere.
@@ -1744,8 +1747,8 @@ ready.
 
 ### 17 · BALLROOM — THE SECOND DANCE
 **Thread:** B/C/A · **Target:** 55 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
-**STAGING:** A spotlight; the floor clears; the oud and qanun take the solo. Voss is at the gallery
-rail with a glass, looking down the shaft, then turning to the dance. Jax and Mira are shot from
+**STAGING:** A spotlight; the floor clears; the oud and qanun take the solo. Voss is at the rail of
+the well with a glass, looking down the shaft, then turning to the dance. Jax and Mira are shot from
 above and as two masked heads close together. Lucía is a voice on the watch. The beat for the
 audience only: INSERT of Voss's eyes, on the dance, then down at the stopped cable, then back to
 the dance. He says nothing.
@@ -1753,7 +1756,7 @@ the dance. He says nothing.
 ```
 INT. BALLROOM — 12:59
 
-VOSS at the gallery rail, a glass in his hand, looking down the
+VOSS at the rail of the well, a glass in his hand, looking down the
 shaft at the Reliquary, as he does every year.
 
 Jax nods to the bandleader. The floor clears. The oud and the
@@ -2257,6 +2260,8 @@ Jax takes it. He holds it to the watch.
                          LUPIN
           Don't. I enjoyed it.
 
+He leans forward, and the amusement goes out of his face.
+
                          LUPIN (CONT'D)
           And Captain. He saw the cable stop.
 
@@ -2528,7 +2533,9 @@ Jax goes next, eyes fixed upward.
           That's what I'm doing. You're very
           calming. Keep being calm.
 
-                         JAX
+Hand over hand. He does not look down.
+
+                         JAX (CONT'D)
           Nobody look down.
 
                          MIRA
@@ -2738,7 +2745,7 @@ LUPIN pauses by Mira.
 INSERT: a white rose, laid on the desk.
 
 WIDE (HELD, THROUGH THE DOME): the globe drifts away into the gold,
-a small figure beneath it, raising his hat.
+a small figure beneath it, raising one hand.
 
                          NARRATOR (V.O.)
           I liked them. That's rare. I don't

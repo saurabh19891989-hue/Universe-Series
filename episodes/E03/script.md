@@ -76,7 +76,7 @@ STAGING note saying how it plays without lip-sync.
 | LUCÍA "LUCHA" ORTEGA | Engineer. Owed ten months. Watching Seo. Blunt. |
 | HAN SEO-YEON ("SEO") | Pilot; secretly reporting to Auditor Pell. Deadpan. Never lies in the air. |
 | IDRIS AL-RAHHAL | Navigator, poet, gambler; claims to be Sindbad's heir. Joins the crew. Embroiders. |
-| ALONSO QUIXANO / DON QUIXOTE | The knight, gone sane and thinning; in his late sixties here. Mildly offended by Earth's version, from both sides. |
+| ALONSO QUIXANO / DON QUIXOTE | The knight, gone sane and thinning; looks in his early sixties. Mildly offended by Earth's version, from both sides. |
 | SANCHO PANZA | His squire. Big belly, short body, long legs (Cervantes I.9). Proverbs, appetite, love. Cannot read. |
 | ILSE VOSS | Heir of the Voss Company. One line, in the tag. |
 

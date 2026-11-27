@@ -42,25 +42,47 @@
   },
   "E01-J012": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    59.5
+   ],
+   "tokens": [
+    25943
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: new Mira/Lucia masters approved by owner; job needs master only"
-   ]
+    "released: new Mira/Lucia masters approved by owner; job needs master only",
+    "Hold wide (bright green colour world), parcel strapped down centre, Lucia's legs/boots from under reactor housing; no faces"
+   ],
+   "refs_used": [
+    "assets/sets/hold/master-bright.jpg",
+    "assets/characters/lucia/master.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j012_hold_wide_boots.jpg",
+   "jpg_bytes": 721234
   },
   "E01-J016": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    55.9
+   ],
+   "tokens": [
+    9881
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: new Mira/Lucia masters approved by owner; job needs master only"
-   ]
+    "released: new Mira/Lucia masters approved by owner; job needs master only",
+    "Lucia (new master) slides out on creeper, wavy dark bob, red ribbon on wrist, grease, coveralls match; face matches though reads slightly rougher; small forearm tattoos not in master - watch"
+   ],
+   "refs_used": [
+    "assets/characters/lucia/master.jpg",
+    "assets/sets/hold/master-bright.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j016_lucia_creeper.jpg",
+   "jpg_bytes": 823681
   },
   "E01-J013": {
    "priority": 1,
@@ -84,13 +106,23 @@
   },
   "E01-J019": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "rejected-retrying",
+   "attempts": 1,
+   "seconds": [
+    134.9
+   ],
+   "tokens": [
+    17503
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: new Mira/Lucia masters approved by owner; job needs master only"
+    "released: new Mira/Lucia masters approved by owner; job needs master only",
+    "REJECTED: insert shows Mira's full face (face matches new master) - job is hands-only insert"
+   ],
+   "refs_used": [
+    "assets/characters/mira/master.jpg",
+    "assets/sets/customs/desk-bright.jpg",
+    "assets/props/stamp/master.jpg"
    ]
   },
   "E01-J020": {
@@ -115,24 +147,42 @@
   },
   "E01-J022": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "rejected-retrying",
+   "attempts": 1,
+   "seconds": [
+    126.5
+   ],
+   "tokens": [
+    14297
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: new Mira/Lucia masters approved by owner; job needs master only"
+    "released: new Mira/Lucia masters approved by owner; job needs master only",
+    "REJECTED: macro insert shows Mira's full face and the master's ship corridor background instead of the customs desk"
+   ],
+   "refs_used": [
+    "assets/props/stamp/master.jpg",
+    "assets/characters/mira/master.jpg"
    ]
   },
   "E01-J024": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "rejected-retrying",
+   "attempts": 1,
+   "seconds": [
+    41.4
+   ],
+   "tokens": [
+    9668
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: new Mira/Lucia masters approved by owner; job needs master only"
+    "released: new Mira/Lucia masters approved by owner; job needs master only",
+    "REJECTED: notebook macro shows Mira's full face; insert must be notebook/hands only"
+   ],
+   "refs_used": [
+    "assets/props/notebook/master.jpg",
+    "assets/characters/mira/master.jpg"
    ]
   },
   "E01-J025": {
@@ -1291,21 +1341,27 @@
   },
   "E01-J028": {
    "priority": 1,
-   "status": "rejected-retrying",
-   "attempts": 1,
+   "status": "accepted",
+   "attempts": 2,
    "seconds": [
-    44.3
+    44.3,
+    56.5
    ],
    "tokens": [
-    19695
+    19695,
+    23772
    ],
    "notes": [
-    "REJECTED: background customs hall is full of people; the hall must be empty (staffed for three)"
+    "REJECTED: background customs hall is full of people; the hall must be empty (staffed for three)",
+    "Retry: PIP wrist unit on Jax's orange sleeve, empty bright hall behind, windows black; unit carries a small stamp knob like J050. Prompt changed: empty hall"
    ],
    "refs_used": [
     "assets/props/pip/ref-wrist.jpg",
     "assets/characters/jax/master.jpg"
-   ]
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Insert: PIP's small wrist unit with its amber lens strapped to Jax Vale's wrist in a burnt-orange sleeve, glowing, a customs-hall bench blurred behind. Background: the soft, EMPTY customs hall (empty wooden benches, booth lights), with absolutely no people in it. PIP: small brass-and-cream machine like a desk lamp crossed with a postal scale, one glowing amber lens, a rubber-stamp arm; photographed as a real practical object. Jax Vale: Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later).",
+   "file": "episodes/E01/stills/e01-j028_wrist_comm_jax.jpg",
+   "jpg_bytes": 501932
   },
   "E01-J042": {
    "priority": 1,

@@ -1,0 +1,170 @@
+{
+ "oczakow": {
+  "Ochakoff": {
+   "strict": 0,
+   "lenient": 0,
+   "heard": [
+    " he dropped their gate on him at otchikov.",
+    " otshikov, the turks had the fortress. we had the fish.",
+    " i turned back a turk at ochikov."
+   ]
+  },
+  "Och-a-koff": {
+   "strict": 1,
+   "lenient": 0,
+   "heard": [
+    " he dropped their gate on him at oka kof.",
+    " ocacoff, the turks had the fortress, we had the fish.",
+    " i turned back a turk at okaqov."
+   ]
+  },
+  "Ochakov": {
+   "strict": 1,
+   "lenient": 0,
+   "heard": [
+    " he dropped their gate on him at ochakov.",
+    " ochikov, the turks had the fortress. we had the fish.",
+    " i turned back a turk at otchikov."
+   ]
+  },
+  "Ockakoff": {
+   "strict": 3,
+   "lenient": 0,
+   "heard": [
+    " he dropped their gate on him at ocacoff.",
+    " ocacoff the turks had the fortress, we had the fish.",
+    " i turned back at turk at okhakov."
+   ]
+  },
+  "Otchakoff": {
+   "strict": 0,
+   "lenient": 0,
+   "heard": [
+    " he dropped their gate on him at otchikov.",
+    " otshikov, the turks had the fortress. we had the fish.",
+    " i turned back a turk at ochikov."
+   ]
+  },
+  "Ochakof": {
+   "strict": 0,
+   "lenient": 0,
+   "heard": [
+    " he dropped their gate on him at otchikov.",
+    " otshikov, the turks had the fortress. we had the fish.",
+    " i turned back a turk at ochikov."
+   ]
+  }
+ },
+ "mira": {
+  "Meera": {
+   "strict": 2,
+   "lenient": 2,
+   "heard": [
+    " jax, it's mira, don't move.",
+    " that's mira's notebook.",
+    " dr. miracen is at the desk."
+   ]
+  },
+  "Mira": {
+   "strict": 3,
+   "lenient": 3,
+   "heard": [
+    " jax, it's mira, don't move.",
+    " that's mira's notebook.",
+    " dr. mira sen is at the desk."
+   ]
+  },
+  "Mihra": {
+   "strict": 2,
+   "lenient": 2,
+   "heard": [
+    " jax, it's mira, don't move.",
+    " that's mary's notebook.",
+    " dr. mira sen is at the desk."
+   ]
+  },
+  "Meerah": {
+   "strict": 2,
+   "lenient": 2,
+   "heard": [
+    " jax, it's mira, don't move.",
+    " that's mira's notebook.",
+    " dr. miracen is at the desk."
+   ]
+  },
+  "Mirra": {
+   "strict": 0,
+   "lenient": 0,
+   "heard": [
+    " jax, it's murrah, don't move.",
+    " that's murray's notebook.",
+    " dr. murasen is at the desk."
+   ]
+  },
+  "Mear-a": {
+   "strict": 0,
+   "lenient": 0,
+   "heard": [
+    " jax, it's mireille, don't move.",
+    " that's mary's notebook.",
+    " dr. mirasen is at the desk."
+   ]
+  }
+ },
+ "noakes": {
+  "Noaks": {
+   "strict": 2,
+   "lenient": 2,
+   "heard": [
+    " superintendent noakes will see you now.",
+    " nox's office, then the corridor.",
+    " that was an incident, said noakes."
+   ]
+  },
+  "Noakes": {
+   "strict": 2,
+   "lenient": 2,
+   "heard": [
+    " superintendent noakes will see you now.",
+    " nox's office, then the corridor.",
+    " that was an incident, said noakes."
+   ]
+  },
+  "Nokes": {
+   "strict": 2,
+   "lenient": 2,
+   "heard": [
+    " superintendent noakes will see you now.",
+    " nox's office, then the corridor.",
+    " that was an incident, said noakes."
+   ]
+  },
+  "Noax": {
+   "strict": 2,
+   "lenient": 2,
+   "heard": [
+    " superintendent noakes will see you now.",
+    " nox's office, then the corridor.",
+    " that was an incident, said noakes."
+   ]
+  },
+  "Noakz": {
+   "strict": 2,
+   "lenient": 2,
+   "heard": [
+    " superintendent noakes will see you now.",
+    " nox's office, then the corridor.",
+    " that was an incident, said noakes."
+   ]
+  },
+  "Noke": {
+   "strict": 0,
+   "lenient": 0,
+   "heard": [
+    " superintendent nook will see you now.",
+    " nook's office then the corridor.",
+    " that was an incident, said noak."
+   ]
+  }
+ }
+}
