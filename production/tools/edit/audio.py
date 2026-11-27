@@ -149,6 +149,34 @@ def load_dialogue(spec, resolve, log):
     return out
 
 
+def load_conformed(spec, resolve, log):
+    """Final stems placed by the converter from the dialogue conform sheet:
+    spec["lines"] = [{id, src, start_s, speaker, text, gain_db, reverb_db, reverb_ir}]."""
+    out = []; miss = 0
+    ir_cache = {}
+    for ln in spec["lines"]:
+        p = resolve(ln["src"])
+        if not os.path.exists(p):
+            log.append(f"MISSING dialogue stem {ln['id']} {ln['src']}"); miss += 1
+            continue
+        clip = decode(p, 1)[:, 0] * db(ln.get("gain_db", 0.0))
+        rec = dict(id=ln["id"], speaker=ln["speaker"], tags=ln.get("tags", ""), start=ln["start_s"], dur=len(clip) / SR,
+                   text=ln.get("text", ""), audio=clip.astype(np.float32), src=p, sub=ln.get("sub", True))
+        if ln.get("reverb_db") is not None and ln.get("reverb_ir"):
+            ip = resolve(ln["reverb_ir"])
+            if ip not in ir_cache:
+                ir = decode(ip, 2)
+                ir_cache[ip] = ir / (np.sqrt((ir ** 2).sum(0)).max() + 1e-9)
+            from scipy.signal import fftconvolve
+            ir = ir_cache[ip]
+            wet = np.stack([fftconvolve(clip, ir[:, 0]), fftconvolve(clip, ir[:, 1])], 1).astype(np.float32)
+            pre = int(ln.get("reverb_predelay_s", 0.02) * SR)
+            rec["wet"] = np.concatenate([np.zeros((pre, 2), np.float32), wet]) * db(ln["reverb_db"])
+        out.append(rec)
+    log.append(f"dialogue: {len(out)} final stems placed from the conform sheet" + (f"; {miss} MISSING" if miss else ""))
+    return out
+
+
 def envelopes(lines, total_s, fps):
     """Per-speaker speech envelope at the picture frame rate, 0..1 (attack ~30 ms, release ~150 ms)."""
     n = int(math.ceil(total_s * fps)) + 1
@@ -210,6 +238,27 @@ def tp_limit(x, ceiling_db=-2.0, release_s=0.08):
     return (x * out[:, None]).astype(np.float32)
 
 
+def min_window_db(x, win=0.1):
+    k = int(win * SR); n = len(x) // k
+    r = np.sqrt((x[:n * k].reshape(n, k, -1) ** 2).mean((1, 2)) + 1e-20)
+    return round(float(20 * np.log10(r.min())), 1)
+
+
+def silent_windows(x, win=0.1, thr_db=-90.0):
+    """[start, end] spans (s) where the mix is effectively digital silence."""
+    k = int(win * SR); n = len(x) // k
+    r = 20 * np.log10(np.sqrt((x[:n * k].reshape(n, k, -1) ** 2).mean((1, 2)) + 1e-20))
+    out = []; a = None
+    for i, v in enumerate(r):
+        if v < thr_db and a is None:
+            a = i
+        if v >= thr_db and a is not None:
+            out.append([round(a * win, 1), round(i * win, 1)]); a = None
+    if a is not None:
+        out.append([round(a * win, 1), round(n * win, 1)])
+    return out
+
+
 def write_wav(path, x):
     import soundfile as sf
     sf.write(path, x, SR, subtype="FLOAT")
@@ -221,9 +270,23 @@ def build(spec, shots_timeline, total_s, fps, resolve, workdir, log):
     n = int(math.ceil(total_s * SR))
     dlg = np.zeros((n, 2), np.float32); mus = np.zeros((n, 2), np.float32); fx = np.zeros((n, 2), np.float32)
     fx_noduck = np.zeros((n, 2), np.float32)
-    lines = load_dialogue(spec["dialogue"], resolve, log) if spec.get("dialogue") else []
+    dspec = spec.get("dialogue")
+    if dspec and dspec.get("lines") is not None:
+        lines = load_conformed(dspec, resolve, log)
+    else:
+        lines = load_dialogue(dspec, resolve, log) if dspec else []
+    wet = np.zeros((n, 2), np.float32)
     for ln in lines:
-        place(dlg, np.stack([ln["audio"]] * 2, 1), ln["start"], db(spec["dialogue"].get("gain_db", 0)))
+        place(dlg, np.stack([ln["audio"]] * 2, 1), ln["start"], 1.0)
+        if ln.get("wet") is not None:
+            place(wet, ln["wet"], ln["start"], 1.0)
+    dg = db(dspec.get("gain_db", 0)) if dspec else 1.0
+    if dspec and dspec.get("anchor_lufs") is not None and lines:
+        tmp = os.path.join(workdir, "dlg_only.wav"); write_wav(tmp, dlg)
+        I0, _, _ = measure(tmp)
+        dg = db(dspec["anchor_lufs"] - I0)
+        log.append(f"dialogue bus {I0:.1f} LUFS dry -> anchored at {dspec['anchor_lufs']} LUFS (gain {dspec['anchor_lufs'] - I0:+.1f} dB)")
+    dlg *= dg; wet *= dg
     # cues: global lists + per-shot cues (at = seconds from shot start)
     cues = [dict(c, bus="music") for c in spec.get("music", [])] + [dict(c, bus="sfx") for c in spec.get("sfx", [])]
     for sh, st in shots_timeline:
@@ -242,6 +305,8 @@ def build(spec, shots_timeline, total_s, fps, resolve, workdir, log):
         else:
             log.append(f"WARNING missing audio cue {c.get('id')} {c.get('src')}")
             continue
+        if c.get("in_s") or c.get("out_s"):
+            x = x[int(c.get("in_s", 0.0) * SR):int(c["out_s"] * SR) if c.get("out_s") else None]
         if c.get("loop_s"):
             reps = int(math.ceil(c["loop_s"] * SR / len(x)))
             x = np.concatenate([x] * reps)[:int(c["loop_s"] * SR)]
@@ -265,7 +330,14 @@ def build(spec, shots_timeline, total_s, fps, resolve, workdir, log):
     gf = 1 - (1 - db(duck.get("sfx_db", -6))) * g
     gm = np.pad(np.repeat(gm, hop), (0, n - k * hop), mode="edge")[:, None]
     gf = np.pad(np.repeat(gf, hop), (0, n - k * hop), mode="edge")[:, None]
-    mix = dlg + mus * gm + fx * gf + fx_noduck
+    mix = dlg + wet + mus * gm + fx * gf + fx_noduck
+    buses = {}
+    for nm, b in (("dialogue", dlg + wet), ("music", mus * gm), ("effects", fx * gf + fx_noduck)):
+        try:
+            tp_ = os.path.join(workdir, f"bus_{nm}.wav"); write_wav(tp_, b)
+            buses[nm] = round(measure(tp_)[0], 1)
+        except Exception:
+            buses[nm] = None
     raw = os.path.join(workdir, "mix_raw.wav"); write_wav(raw, mix)
     I, TP, LRA = measure(raw)
     tgt = spec.get("loudness", {}).get("integrated", -16.0)
@@ -278,7 +350,10 @@ def build(spec, shots_timeline, total_s, fps, resolve, workdir, log):
         if abs(I2 - tgt) < 0.3 and TP2 < -1.5:
             break
         mix2 = mix2 * db(tgt - I2)
-    rep = dict(raw_lufs=I, final_lufs=I2, final_true_peak_dbtp=TP2, lra=LRA2, duck_music_db=duck.get("music_db", -12))
+    g_fin = (I2 - I) if I > -70 else 0.0
+    rep = dict(raw_lufs=I, final_lufs=I2, final_true_peak_dbtp=TP2, lra=LRA2, duck_music_db=duck.get("music_db", -12),
+               bus_lufs_before_master_gain=buses, master_gain_db=round(tgt - I, 2),
+               min_level_dbfs_100ms=min_window_db(mix2), digital_silence_windows=silent_windows(mix2))
     env = envelopes(lines, total_s, fps)
     return dict(wav=fin, lines=lines, env=env, report=rep)
 
@@ -300,7 +375,7 @@ def srt(lines, path, max_chars=42):
             a = [" ".join(words[:mid]), " ".join(words[mid:])]
         return "\n".join(a)
     out = []
-    for i, ln in enumerate(sorted(lines, key=lambda x: x["start"]), 1):
+    for i, ln in enumerate(sorted([l for l in lines if l.get("sub", True)], key=lambda x: x["start"]), 1):
         st = ln["start"] + 0.03; en = max(st + 0.8, ln["start"] + ln["dur"] - 0.03)
         out.append(f"{i}\n{ts(st)} --> {ts(en)}\n{wrap(ln['text'].replace('—', '–'))}\n")
     open(path, "w", encoding="utf-8").write("\n".join(out))

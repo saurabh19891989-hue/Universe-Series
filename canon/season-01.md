@@ -228,3 +228,14 @@ officials who tried to cage him with a title. The owner has the final say before
   PIP has eleven minutes of nothing and knows when but not who. Suspicion in ep 6 falls on Idris.
 - **The captain's past:** the audience may be told that Jax is the hero of a story taken out of
   the world; "he did it to himself" is held for ep 8; who he is, for ep 10.
+- **Label and posting count (after the Episode 3 critic):** end of ep 2 = 32 postings, 31 labels
+  on the parcel (label one fell off). Every forwarding after that adds one label and one
+  posting: ep 3 (Quixote's label) makes 32 labels on the parcel, 33 postings. A season
+  continuity pass checks the count, Lucía's wages and PIP's report numbers across all ten scripts.
+- **Seo's cover:** her mother is dead (ep 2, scene 13; Lucía knows). The person on Earth she
+  "writes to" is an aunt. Lucía does not catch the lie before ep 6.
+- **"What was real"** from ep 2 on: facts and footage credits only, read by PIP; no character
+  lines, no jokes. Episode 1's note stands as recorded.
+- **Suits and helmets** are locked as seen in Episode 1's pictures: no redesign, no chest lights.
+- **Runtime model for all scripts:** measured voice pace is 184 words a minute. Use the formula
+  in `episodes/E02/revision-notes.md`; scene targets total 34:30–36:30.

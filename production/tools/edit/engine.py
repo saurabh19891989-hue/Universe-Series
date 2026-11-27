@@ -548,6 +548,8 @@ class Finish:
 
     def apply(self, x, seed, frame_i, grade_over=None):
         s = dict(self.s); s.update(grade_over or {})
+        if s.get("curve") == "bright":
+            return self.apply_bright(x, s, seed, frame_i)
         W, H = self.W, self.H
         x = np.clip(x, 0, None)
         if s.get("exposure"):
@@ -595,11 +597,89 @@ class Finish:
         return np.clip(x, 0, 1)
 
 
+def _grain(self, x, g, s, seed, frame_i):
+    W, H = self.W, self.H
+    gr = s.get("grain", 0.02)
+    if not gr:
+        return x
+    if not hasattr(self, "bank"):
+        rng = np.random.default_rng(7)
+        self.bank = [cv2.resize(rng.standard_normal((H // 2 + 8, W // 2 + 8), dtype=np.float32), (W + 16, H + 16),
+                                interpolation=cv2.INTER_LINEAR) for _ in range(31)]
+    h_ = (seed * 2654435761 + frame_i * 40503) & 0xFFFFFFFF
+    n = self.bank[h_ % 31]
+    ox, oy = (h_ >> 8) % 16, (h_ >> 12) % 16
+    n = n[oy:oy + H, ox:ox + W]
+    if (h_ >> 16) & 1:
+        n = n[:, ::-1]
+    return x + n[..., None] * (gr * (0.35 + 0.65 * np.clip(1 - np.abs(g - 0.4) * 1.6, 0, 1)))
+
+
+def apply_bright(self, x, s, seed, frame_i):
+    """The bright house look (owner, 27 Nov): lifted mids, clean blacks, rich colour, no teal wash,
+    no crushed shadows. Soft shoulder only above 0.86 so whites stay white; light halation; a little
+    unsharp mask (it breathes very slightly) to hold detail through the 1.15x upscale of the stills."""
+    W, H = self.W, self.H
+    x = np.clip(x, 0, None)
+    if s.get("exposure"):
+        x = x * np.float32(2 ** s["exposure"])
+    sh = s.get("sharpen", 0.0)
+    if sh:
+        t = frame_i / 24.0
+        amt = sh * (1 + s.get("breathe", 0.0) * smooth_noise(seed + 9, t, s.get("breathe_period_s", 5.0), 2))
+        bl = cv2.GaussianBlur(x, (0, 0), s.get("sharpen_sigma", 1.2))
+        x = np.clip(x + (x - bl) * np.float32(amt), 0, None)
+    hk = s.get("halation", 0.2)
+    if hk:
+        L = lum(x)[..., None]
+        hi = np.clip(L - 0.7, 0, 2) * 2.4
+        small = cv2.resize(hi * x, (W // 8, H // 8), interpolation=cv2.INTER_AREA)
+        bloom = cv2.resize(cv2.GaussianBlur(small, (0, 0), 6), (W, H), interpolation=cv2.INTER_LINEAR)
+        x = x + bloom * (np.float32([1.0, 0.72, 0.5]) * hk)
+    bp = s.get("black_point", 0.012)
+    x = np.clip((x - bp) / (1 - bp), 0, None) * np.float32(s.get("pre_gain", 1.0))
+    ml = s.get("mid_lift", 0.3)                # rational mid lift: pins 0 and 1, cheap
+    if ml:
+        x = x * np.float32(1 + ml) / (1 + np.float32(ml) * x)
+    mg = s.get("mid_gamma", 1.0)
+    if mg != 1.0:
+        x = x ** np.float32(1.0 / mg)
+    c = s.get("contrast", 0.0)                 # gentle S around mid-grey, ends pinned
+    if c:
+        xc = np.clip(x, 0, 1)
+        x = x + c * (xc - 0.5) * xc * (1 - xc) * 4 * 0.5
+    kn = s.get("shoulder", 0.86)
+    x = np.where(x > kn, kn + (1 - kn) * np.tanh((x - kn) / (1 - kn)), x)
+    x = np.clip(x, 0, 1)
+    g = lum(x)[..., None]
+    sat = s.get("saturation", 1.08)
+    if sat != 1.0:
+        ch = x - g
+        vib = s.get("vibrance", 0.0)
+        if vib:                                  # push quiet colours more than loud ones
+            mx = np.abs(ch).max(-1, keepdims=True)
+            ch = ch * (sat + vib * (1 - np.clip(mx * 3.0, 0, 1)))
+        else:
+            ch = ch * sat
+        x = g + ch
+    x = x * self.vig
+    bl_ = s.get("black_lift", 0.0)
+    if bl_:
+        x = bl_ + x * (1 - bl_)
+    x = _grain(self, x, g, s, seed, frame_i)
+    return np.clip(x, 0, 1)
+
+
+Finish.apply_bright = apply_bright
+
+
 # ------------------------------------------------------------------ screens (graphics into a quad)
 def screen_treat(c, sp, t):
     """CRT/LCD look on content: black level of glass, scanlines, bloom, inner vignette."""
     h, w = c.shape[:2]
     c = np.clip(c, 0, 1)
+    if sp.get("raw"):
+        return c * np.float32(sp.get("gain", 1.0))
     tint = sp.get("tint")
     if tint:
         c = c * np.float32(tint)
@@ -640,7 +720,7 @@ class Shot:
             self.base_src = np.zeros((self.H, self.W, 3), np.float32) + np.float32(b.get("color", [0, 0, 0]))
             self.base_video = None
         elif b.get("kind") == "video" or is_video(self.path(b["src"])):
-            self.base_video = Video(self.path(b["src"]))
+            self.base_video = Video(self.path(b["src"]), loop=b.get("loop", True))
             self.base_src = self.base_video.at(b.get("in_s", 0))
         elif b.get("kind") == "gfx":
             self.base_video = None
@@ -661,6 +741,9 @@ class Shot:
             base = apply_relight(apply_grade_local(base, b.get("grade")), b.get("relight"))
             if b.get("blur"):
                 base = cv2.GaussianBlur(base, (0, 0), b["blur"])
+            for sr in b.get("soft_regions", []):      # e.g. Chichikov: never in sharp focus
+                m = shape_mask(base.shape[:2], sr)[..., None]
+                base = base * (1 - m) + cv2.GaussianBlur(base, (0, 0), sr.get("sigma", 5.0)) * m
         self.bh, self.bw = base.shape[:2]
         self.base = base.astype(np.float32)
         # window composite
@@ -713,7 +796,7 @@ class Shot:
                 ent["src"] = None
                 if L.get("src") and os.path.exists(self.path(L["src"])):
                     p = self.path(L["src"])
-                    ent["video"] = Video(p) if is_video(p) else None
+                    ent["video"] = Video(p, loop=L.get("loop", True)) if is_video(p) else None
                     ent["still"] = None if is_video(p) else load_rgb(p)
                     self.log.append(f"screen content: {L['src']}")
                     if L.get("inset"):
@@ -728,6 +811,21 @@ class Shot:
             elif k == "text":
                 ent["gfx"] = gfx.Gfx(dict(L, name="text"), self.path)
             self.layers.append(ent)
+        # parallax depth (needs the window mask and the screen quads as no-move zones)
+        self.depth = None
+        px = sh.get("parallax")
+        if px and self.base_video is None and self.base_spec.get("kind") != "gfx":
+            zero = np.zeros((self.bh, self.bw), np.float32)
+            if self.win:
+                zero = np.maximum(zero, self.win["mask"])
+            for ent in self.layers:
+                if ent["kind"] == "screen":
+                    q = np.int32([[p_[0] * self.bw, p_[1] * self.bh] for p_ in ent["spec"]["quad"]])
+                    cv2.fillPoly(zero, [q], 1.0)
+            self.depth = build_depth(self.base, px, zero)
+            yy, xx = np.mgrid[0:self.H, 0:self.W].astype(np.float32)
+            self.Xo, self.Yo = xx, yy
+        self.motes = Motes(sh["motes"], self.W, self.H, self.seed) if sh.get("motes") else None
         self.lights = Lights(sh.get("lights"), self.base, self.seed, self.ctx["env"], self.fps)
         self.focus = Focus(sh["focus"], self.base.shape[:2]) if sh.get("focus") else None
         self.cam = sh.get("camera", {})
@@ -803,8 +901,28 @@ class Shot:
         Mp = compose(cam_matrix(st, (self.bw, self.bh), (self.W, self.H), pl.get("depth", 0.35), self.st0, self.weave), P)
         return warp(img, Mp, (self.W, self.H), border=cv2.BORDER_CONSTANT)
 
+    def _warp_parallax(self, base, Mb, st):
+        """Base warp with a smooth depth displacement: nearer things grow a little faster on a
+        push, slide a little further on a pan, and float a little more with the operator drift."""
+        W, H = self.W, self.H
+        px = self.sh["parallax"]
+        Mi = cv2.invertAffineTransform(Mb).astype(np.float32)
+        Dw = cv2.warpAffine(self.depth, Mb, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
+        z0 = self.st0["zoom"]
+        s_ = max(W / self.bw, H / self.bh) * st["zoom"]
+        ez = px.get("zoom", 0.5) * (st["zoom"] / z0 - 1.0)
+        cxp, cyp = st["cx"] * self.bw, st["cy"] * self.bh
+        kp = px.get("pan", 0.5); kd = px.get("drift", 1.5)
+        ox = kp * (st["cx"] - self.st0["cx"]) * self.bw - kd * st["dx"] / s_ + px.get("sway_px", 0.0) * smooth_noise(self.seed + 21, self._t, px.get("sway_period_s", 7.0), 2) / s_
+        oy = kp * (st["cy"] - self.st0["cy"]) * self.bh - kd * st["dy"] / s_ + 0.6 * px.get("sway_px", 0.0) * smooth_noise(self.seed + 22, self._t, px.get("sway_period_s", 7.0) * 1.3, 2) / s_
+        bx = Mi[0, 0] * self.Xo + Mi[0, 1] * self.Yo + Mi[0, 2]
+        by = Mi[1, 0] * self.Xo + Mi[1, 1] * self.Yo + Mi[1, 2]
+        mx = bx + Dw * (np.float32(ox) - (bx - np.float32(cxp)) * np.float32(ez))
+        my = by + Dw * (np.float32(oy) - (by - np.float32(cyp)) * np.float32(ez))
+        return cv2.remap(base, mx, my, cv2.INTER_CUBIC, borderMode=cv2.BORDER_REFLECT101)
+
     def frame(self, t, tg, weave):
-        self.weave = weave
+        self.weave = weave; self._t = t
         W, H = self.W, self.H
         if self.base_video is not None:
             b = self.base_video.at(self.base_spec.get("in_s", 0) + t * self.base_spec.get("speed", 1.0))
@@ -820,7 +938,10 @@ class Shot:
             base = self.focus.apply(base, t, self.dur)
         st = cam_at(self.cam, t, self.dur, self.seed)
         Mb = cam_matrix(st, (self.bw, self.bh), (W, H), 1.0, None, weave)
-        out = warp(base, Mb, (W, H))
+        if self.depth is not None:
+            out = self._warp_parallax(base, Mb, st)
+        else:
+            out = warp(base, Mb, (W, H))
         if self.win:
             m = warp(self.win["mask"], Mb, (W, H), cv2.INTER_LINEAR)[..., None]
             plate = self._plate_frame(t, Mb)
@@ -830,6 +951,16 @@ class Shot:
                 comp = 1 - (1 - plate) * (1 - np.clip(out * gk, 0, 1))
             else:
                 comp = plate + np.clip(out - 0.85, 0, 1) * gk * 0.3
+            sh_ = self.win["spec"].get("sheen")
+            if sh_:                                  # a soft reflection sliding slowly across the glass
+                if not hasattr(self, "_shg"):
+                    ys, xs = np.mgrid[0:H // 4, 0:W // 4].astype(np.float32)
+                    self._shg = xs / (W // 4) - 0.7 * ys / (H // 4)
+                c0 = sh_.get("from", -0.5) + (sh_.get("to", 0.9) - sh_.get("from", -0.5)) * ((t / sh_.get("period_s", 14.0) + (self.seed % 97) / 97.0) % 1.0)
+                band = np.exp(-((self._shg - c0) / sh_.get("width", 0.11)) ** 2)
+                band += 0.5 * np.exp(-((self._shg - c0 - 0.16) / (sh_.get("width", 0.11) * 0.45)) ** 2)
+                band = cv2.resize(band, (W, H), interpolation=cv2.INTER_LINEAR)[..., None]
+                comp = comp + band * np.float32(sh_.get("color", [0.85, 0.92, 1.0])) * sh_.get("gain", 0.05)
             out = out * (1 - m) + comp * m
         for ent in self.layers:
             L = ent["spec"]; k = ent["kind"]
@@ -855,9 +986,12 @@ class Shot:
                     cw, ch = L.get("res", [1280, 720])
                     c = ent["gfx"].render(t, cw, ch)
                 elif ent.get("video") is not None:
-                    c = ent["video"].at(L.get("in_s", 0) + t)
+                    c = ent["video"].at(L.get("in_s", 0) + (t - L.get("t_ref", 0.0)) * L.get("speed", 1.0))
                 else:
                     c = ent["still"]
+                if L.get("crop"):
+                    x0_, y0_, x1_, y1_ = L["crop"]; hh_, ww_ = c.shape[:2]
+                    c = c[int(y0_ * hh_):int(y1_ * hh_), int(x0_ * ww_):int(x1_ * ww_)]
                 if ent.get("inset"):
                     c = self._apply_inset(c, ent["inset"], t)
                 c = screen_treat(c, L.get("treat", {}), t)
@@ -867,8 +1001,16 @@ class Shot:
                 M3 = np.vstack([Mc, [0, 0, 1]]) @ Hm
                 r = cv2.warpPerspective(c, M3, (W, H), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_CONSTANT)
                 a = cv2.warpPerspective(np.ones((ch, cw), np.float32), M3, (W, H), flags=cv2.INTER_LINEAR)
-                a = cv2.GaussianBlur(a, (0, 0), 0.8)[..., None] * op
-                out = out * (1 - a) + r * a
+                a = cv2.GaussianBlur(a, (0, 0), L.get("edge_px", 0.8))[..., None] * op
+                bm = L.get("blend", "over")
+                if bm == "add":
+                    out = out + r * a
+                elif bm == "screen":
+                    out = 1 - (1 - np.clip(out, 0, 1)) * (1 - np.clip(r * a, 0, 1))
+                elif bm == "multiply":               # ink on paper (decals): white = no change
+                    out = out * (1 - a + a * np.clip(r, 0, 1))
+                else:
+                    out = out * (1 - a) + r * a
                 # spill: the screen lights its surroundings a little
                 sp = L.get("spill", 0.0)
                 if sp:
@@ -882,6 +1024,8 @@ class Shot:
                     g = cv2.GaussianBlur(rgba, (0, 0), 14)
                     out = out + g[..., :3] * g[..., 3:4] * np.float32(L.get("glow_color", [1.0, 0.55, 0.2])) * gl * op
                 out = out * (1 - a) + rgba[..., :3] * a
+        if self.motes is not None:
+            out = self.motes.render(out, t)
         # motion blur for whip moves: optional cheap directional blur
         mb = self.sh.get("motion_blur")
         if mb:

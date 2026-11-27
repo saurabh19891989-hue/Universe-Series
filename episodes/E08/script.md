@@ -41,7 +41,7 @@ plays without lip-sync.
 - **PIP is in the box.** Aboard ship he is an amber glow through the slot of a titanium strongbox,
   slightly muffled. On Jax's wrist he is a lens that **dies in the radiation belts and wakes under
   rock or under the belts** (INSERT: lens dark / lens amber). Every report gets an INSERT of its
-  number: #1,262 in the cold open, #1,263 in 21, #1,264 in 26 (renumber to follow E07).
+  number: #1,263 in the cold open, #1,264 in 21, #1,265 in 26 (E07 ends at #1,251; E09 opens at #1,266).
 - **Dose badges.** Every suit carries a strip that reads green, amber, red, black. They are always
   INSERTS. Lucía's is turned face-in from 15 and not seen again until 23.
 - **The board and the clock talk on screen.** The gate's flip-letter board (2) and the Year Clock
@@ -87,8 +87,8 @@ plays without lip-sync.
 - Radio colours: suit radio narrow; the barge in the belt has heavy static that clears in 19;
   in the cloud tops add wind under everything.
 - Say it: Sun Wukong "swun woo-KONG" (PIP says "Mr Sun") · Io "EYE-oh" · Loki Patera "LOH-kee
-  PAT-er-ah" · Lehner "LAY-ner" · Juno "JOO-noh" · Arakawa "ah-RAH-kah-wah" · #1,262 read
-  "twelve-sixty-two" · "P." as a letter.
+  PAT-er-ah" · Lehner "LAY-ner" · Juno "JOO-noh" · Arakawa "ah-RAH-kah-wah" · #1,263 read
+  "twelve-sixty-three" · "P." as a letter.
 
 **Speaking roles (10)**
 | Role | Note |
@@ -106,7 +106,8 @@ plays without lip-sync.
 
 **Silent:** PAVEL CHICHIKOV (soft focus on the *Steadfast*); two USHERS of the Residence; the old
 dog; the wax Board. **Text only:** Auditor Pell ("P.", messages sent more than forty minutes
-before they arrive); Mattias Voss (a slip Mira reads); the gate board; the Year Clock.
+before they arrive, with the Relay Guild's transit stamp as in E07); "our friend" (Mattias Voss:
+one line that Lucía reads out, with no name on it); the gate board; the Year Clock.
 
 Jax narration: three V.O. lines (1, 13, 26), each skipping time or lying.
 
@@ -120,7 +121,8 @@ Jax narration: three V.O. lines (1, 13, 26), each skipping time or lying.
 Jax is a silhouette against real Jupiter filling the window (Hubble rotation, heic1522b or
 heic1914c). Screens die one by one (INSERTS). Lucía is a voice from below and then a pair of
 hands. The strongbox and what is in it are one INSERT; hold it a beat for the coffee machine. The
-belt, Io and the fleet are one DATA VISUAL. Mira reads Mattias's slip with her back to us. The
+belt, Io and the fleet are one DATA VISUAL. Lucía reads "our friend's" line from below (E07: only
+she knows it is Mattias Voss); Seo's helmet turning a fraction is an INSERT for the audience. The
 problem (the radiation) lands at 0:05, the goal by 0:45, the cost (the fleet shutting the door)
 by 0:40. Last image: the slot of amber light and one thump of a tail.
 
@@ -181,22 +183,30 @@ line of grey ticks closes across the way in.
           wait.
 
                          JAX
-          Mira. Remind me why we're flying
+          Lucha. Remind me why we're flying
           into an oven.
 
-                         MIRA
-                    (reading a slip)
-          Mattias Voss. "My father's most
-          dangerous acquisition. Io, under the
-          mountain by the lake of fire. It can
-          only come out tonight. After
-          tonight, not for twelve years."
+                         LUCÍA (O.S.)
+          Our friend. "Io. What he keeps under
+          the mountain is the most dangerous
+          thing he owns. It can only come out
+          tonight. After tonight, not for
+          twelve years."
+
+                         JAX
+          Has our friend got a name yet?
+
+                         LUCÍA (O.S.)
+          Later.
+
+INSERT: at the yoke, Seo's helmet turns a fraction, and turns
+back.
 
                          JAX
           Whatever scares Voss, I want it on
           my side of the table.
 
-                         LUCÍA (O.S.)
+                         MIRA
           What kind of vault opens every
           twelve years?
 
@@ -207,7 +217,7 @@ INSERT: Lucía's hands lower PIP into the box, beside the dog.
           filing a report. Confinement with a
           dog.
 
-INSERT: PIP's screen. REPORT #1,262 — RE: BOX. Then: UNSENT.
+INSERT: PIP's screen. REPORT #1,263 — RE: BOX. Then: UNSENT.
 
                          PIP (CONT'D)
           Unsent. Titanium. I did not think
@@ -258,6 +268,12 @@ from it. At the foot of the ramp, two stay.
                     (radio)
           Idris, you mind the ship. Seo, you
           mind Idris.
+
+                         LUCÍA
+          Idris is fine.
+
+                         JAX
+          He's fine where Seo can see him.
 
                          IDRIS
           Since the gate, everybody minds me.
@@ -425,9 +441,9 @@ The inner doors swing open.
 ### 3 · THE UNSCHEDULED — COCKPIT
 **Thread:** B/C · **Target:** __T3__ s · **Visual:** PHOTOREAL SET STILL / INSERT / DATA VISUAL / REAL FOOTAGE (window)
 **STAGING:** Two helmets from behind against real Jupiter. The fleet is the DATA VISUAL from the
-cold open, the ring now closed. Pell's order is an INSERT on Seo's wrist screen, with its SENT
-stamp held long enough to read: it is forty-one minutes old because Earth is more than half an
-hour away. She turns the wrist face-down (INSERT). Idris's question plays on the back of his
+cold open, the ring now closed. Pell's order is an INSERT on Seo's wrist screen, with the Relay
+Guild's transit stamp (as in E07) held long enough to read: it is forty-one minutes old because
+Earth is more than half an hour away. She turns the wrist face-down (INSERT). Idris's question plays on the back of his
 head; her answer on her hands.
 
 ```
@@ -466,7 +482,7 @@ Closed.
           as when I didn't know.
 
 INSERT: Seo's wrist screen wakes, turned away from him. FROM: P. —
-SENT 41 MIN AGO. THE COMMANDER HOLDS THE BELT. WHEN THEY RUN,
+RELAY GUILD, 41 MIN IN TRANSIT. THE COMMANDER HOLDS THE BELT. WHEN THEY RUN,
 BRING THEM OUT TO HER. DO NOT BE BRILLIANT. FLY ADEQUATELY.
 
 INSERT: she turns the wrist face-down on her knee.
@@ -1117,7 +1133,7 @@ Click.
 **STAGING:** The Chamberlain is being dressed: two silent ushers wind sash after sash onto him
 while he talks, so he is a still figure growing more ridiculous. The Register on its gold cushion
 is the hero prop. Oyuna's finger down the page is a run of INSERTS: names crossed through in red
-and still readable; line 40; line 42; between them a ruled line of clean paper. Hold the empty
+and still readable; line 16; line 18; between them a ruled line of clean paper. Hold the empty
 line two full seconds. The Chamberlain's hand shuts the book (INSERT). His last speech plays on
 Mira's eyes above her mask. This is the scene that tells the audience the cage door has been
 open for twelve years.
@@ -1166,7 +1182,7 @@ cushion. Mira and Oyuna watch.
           for, to stay on one.
 
 Oyuna turns pages. INSERT: columns of names. Some crossed through
-in red, still plain to read. Her finger stops. Line 40. Line 42.
+in red, still plain to read. Her finger stops. Line 16. Line 18.
 Between them, a ruled line with nothing on it. Clean paper.
 
                          OYUNA
@@ -1179,7 +1195,7 @@ Between them, a ruled line with nothing on it. Clean paper.
           They're numbered.
 
                          CHAMBERLAIN
-          We do not discuss forty-one.
+          We do not discuss seventeen.
 
 INSERT: his hand shuts the book.
 
@@ -1438,12 +1454,7 @@ long yellow streak of sulphur burns itself down her port side.
 
                          LUCÍA
                     (radio)
-          Meet us in what? And you're sure
-          he's a piano?
-
-                         WUKONG
-                    (radio)
-          A good one.
+          Meet us in what?
 
 Round the mountain's shoulder: a stone pier. Moored to it, a boat.
 ```
@@ -2077,7 +2088,7 @@ INT. THE UNSCHEDULED — COCKPIT
           mass. My display has run out of
           zeroes. I am filing a report.
 
-INSERT: REPORT #1,263 — RE: MOUNTAIN, UNDECLARED.
+INSERT: REPORT #1,264 — RE: MOUNTAIN, UNDECLARED.
 
 EXT. THE BARGE
 
@@ -2153,7 +2164,7 @@ visor with the red walls sliding in it, and, for its second half, on the two poi
 listening: hold them. "Something goes out of his shoulders" is a real beat: one still of Jax
 before, one after. The stern is an INSERT: a small figure bent over two brass wheels. The strike
 is two INSERTS of the page: the pen drawing one stroke through the name; then stroke and name
-fading together, leaving a ruled line of clean paper (match it exactly to line 41 in 10). **[MOUTH
+fading together, leaving a ruled line of clean paper (match it exactly to line 17 in 10). **[MOUTH
 2]**: Mira's loupe is pressed to her clear visor over the page; her line is on her face behind
 the glass, close, lit red.
 Her look at Jax is silent. After Wukong's last line, **three full seconds of wind and nothing
@@ -2246,7 +2257,7 @@ Mira's loupe is already over it.
           It isn't crossed out. It's gone.
 
                          OYUNA
-          Like forty-one.
+          Like seventeen.
 
 INSERT: Mira's eyes come up from the page, to Jax. He is watching
 Wukong. He doesn't see her look.
@@ -2372,13 +2383,13 @@ The barge hangs alone in the grapples, banners flying.
 **Thread:** C/A/B · **Target:** __T24__ s · **Visual:** PHOTOREAL SET STILL / INSERT / DATA VISUAL / PHOTOREAL CLOSE-UP
 **STAGING:** Arakawa's bridge, steel blue; through her window the red eye and, tiny in her
 grapples, the gilt boat with its banners. Everyone else is a voice on the channel. INSERTS: the
-plot with nine contacts and the line PORT-SIDE SULPHUR SCAR — 9 OF 9; Pell's slip with its SENT
+plot with nine contacts and the line PORT-SIDE SULPHUR SCAR — 9 OF 9; Pell's slip with its transit
 stamp; the Register field going empty on her screen; the annex, thick with read pages. After
 "Please", hold her profile for three seconds with no sound but the bridge. Seo is one INSERT of
 gloved hands, still, in a cockpit somewhere in the red. **[MOUTH 3]: Arakawa turns from profile
 to full face for the first time in the series and gives the order to camera.** The arms folding
 back are an INSERT; the gilt boat drifting free is the wide. She returns to profile for the log.
-Chichikov's notebook is the last INSERT: the E01 list (SEN, M.) with a new line under it.
+Chichikov's only move is the teacup going down: he has seen enough. (His notebook is in the tag.)
 
 ```
 INT. STEADFAST — BRIDGE — CONTINUOUS
@@ -2389,7 +2400,8 @@ gilt boat in her grapples. At the back, a soft grey shape.
 DATA VISUAL: her plot. Nine contacts, scattering. A line of text:
 PORT-SIDE SULPHUR SCAR — 9 OF 9.
 
-INSERT: a message slip. FROM: P. — SENT 44 MIN AGO. RECOVER THE
+INSERT: a message slip. FROM: P. — RELAY GUILD, 44 MIN IN
+TRANSIT. RECOVER THE
 COMPANY'S ASSET. THE CREW ARE SECONDARY. TO LET ANYTHING GO WOULD
 BE COURAGEOUS.
 
@@ -2500,8 +2512,7 @@ INSERT: the great arms fold back. The gilt boat drifts free.
           then I should like to know which of
           us I have come for.
 
-INSERT: at the back, a soft grey glove opens a small notebook.
-Under a long list of names, it writes: ARAKAWA, T.
+At the back, the soft grey shape sets down its teacup.
 ```
 
 ### 25 · THE UNSCHEDULED — CARGO HOLD
@@ -2722,7 +2733,7 @@ Idris. Seo flying, helmet on. Jax comes in.
           punctuation. I am filing one on
           her.
 
-INSERT: REPORT #1,264 — RE: A READER. SENT. Hold. READ —
+INSERT: REPORT #1,265 — RE: A READER. SENT. Hold. READ —
 00:00:01.3
 
                          PIP (CONT'D)
@@ -2745,7 +2756,8 @@ Ahead in the window, small and white: Europa.
 **Thread:** C/A · **Target:** __T27__ s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE WIDE
 **STAGING:** Three quick buttons, then the leaving. (1) The Chamberlain in his own desk chair
 with his back to the Year Clock, which stands one tick past the top: the laugh goes first so it
-cannot step on what follows. (2) Arakawa's profile; one INSERT of a turned page. (3) Seo's wrist
+cannot step on what follows. (2) Arakawa's profile; one INSERT of a turned page, then Chichikov's notebook behind her: the E01
+list (SEN, M.) with a new line under it. (3) Seo's wrist
 screen: Pell's stale reply, her typed line eaten backwards by the cursor, the screen's own small
 grey UNSENT (PIP's word from the cold open). No one speaks in 2 or 3. (4) The open ramp over real
 Jupiter cloud tops at sunrise, wind loud. Wukong is bareheaded: the stone half-mask, the staff,
@@ -2774,12 +2786,13 @@ INT. STEADFAST — BRIDGE — NIGHT
 Arakawa, reading. INSERT: she turns a page. ANNEX C, PAGE 61.
 VALE, J. — BEFORE: SEE VOSS HOLDING.
 
-She reads on.
+She reads on. INSERT: behind her, a soft grey glove, a small
+notebook. Under a long list of names it writes: ARAKAWA, T.
 
 INT. THE UNSCHEDULED — SEO'S BUNK — NIGHT
 
-INSERT: her wrist screen. FROM: P. — SENT 43 MIN AGO. ADEQUATE IS
-ALL WE ASK.
+INSERT: her wrist screen. FROM: P. — RELAY GUILD, 43 MIN IN
+TRANSIT. ADEQUATE IS ALL WE ASK.
 
 She types. ENGINEER HURT. MY FIRST PASS— The cursor stops. Then
 eats it, backwards.
@@ -2841,25 +2854,25 @@ rotation of Jupiter and the Webb aurora close-up, with credits rolling small at 
 
 ```
                          PIP (V.O.)
-          What was real. Io is real, and it
-          is the most volcanic world we know.
-          Jupiter's pull flexes it until it
-          melts inside. It has lakes of lava,
-          one called Loki Patera, plains of
+          What was real. Io is real: the most
+          volcanic world we know. Jupiter's
+          pull flexes it until it melts
+          inside. It has lakes of lava, one
+          called Loki Patera, plains of
           sulphur, and plumes hundreds of
           kilometres high. Jupiter's radiation
           belts are real, and deadly to people
-          and to computers. NASA's Juno keeps
-          its electronics in a titanium vault
-          and dives in on long orbits. The
-          Great Red Spot is a storm wider
-          than Earth. Jupiter has no surface.
-          Its year is nearly twelve of ours.
-          A signal to Earth takes over half an
+          and computers. NASA's Juno keeps its
+          electronics in a titanium vault and
+          dives in on long orbits. The Great
+          Red Spot is a storm wider than
+          Earth. Jupiter has no surface. Its
+          year is nearly twelve of ours. A
+          signal to Earth takes over half an
           hour. The mountain, the Residence
           and the barge are invented. Mr Sun
           says he will speak for himself.
-          Images: NASA, ESA and ESO.
+          Images: NASA, ESA, ESO.
 ```
 
 *(Credits from `assets/candidates.json`, locations 10 and 11, to be completed after the footage
