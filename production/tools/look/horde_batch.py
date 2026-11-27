@@ -33,11 +33,14 @@ def main():
     jobs = json.load(open(sys.argv[1])); out = sys.argv[2]; os.makedirs(out, exist_ok=True)
     pending = {}
     t0 = time.time()
+    resume = dict(l.split() for l in open(sys.argv[3])) if len(sys.argv) > 3 else {}
     for j in jobs:
         if os.path.exists(f"{out}/{j['name']}.webp"):
             continue
+        if j["name"] in resume:           # re-attach to a job already queued on the server
+            pending[resume[j["name"]]] = (j, time.time()); continue
         pending[submit(j)] = (j, time.time())
-        print("submitted", j["name"], flush=True)
+        print("submitted", j["name"], list(pending)[-1], flush=True)
         time.sleep(1.2)
     while pending:
         time.sleep(15)
@@ -46,9 +49,11 @@ def main():
                 s = requests.get(f"{API}/generate/check/{jid}", headers=HDR, timeout=30).json()
             except Exception as e:
                 print("check err", e, flush=True); continue
-            if s.get("faulted") or (not s.get("is_possible", True)):
+            if s.get("faulted"):  # is_possible=False is often transient (a worker blinked offline)
                 print("FAULT", j["name"], s, flush=True); pending.pop(jid); continue
             if not s.get("done"):
+                if int(time.time()) % 300 < 16:
+                    print("wait", j["name"], {k: s.get(k) for k in ("waiting", "processing", "restarted", "queue_position", "wait_time")}, flush=True)
                 continue
             st = requests.get(f"{API}/generate/status/{jid}", headers=HDR, timeout=60).json()
             g = st["generations"][0]

@@ -31,7 +31,7 @@ CAST = {
  "NOAKES":   dict(voice="bm_daniel", lang="en-gb", speed=1.12, pitch=1.06, note="British male, faster, pitched up 6% so older/anxious and apart from Baron"),
  "TEMI":     dict(voice="af_sky",    lang="en-us", speed=1.08, pitch=1.04, note="bright female"),
  "MAMANI":   dict(voice="am_eric",   lang="en-us", speed=0.95, pitch=0.97, note="calm male"),
- "NARRATOR": dict(voice="af_nicole", lang="en-us", speed=0.93, pitch=1.0,  gain=-3.5, note="neutral quiet slate/action-beat voice"),
+ "NARRATOR": dict(voice="af_nicole", lang="en-us", speed=1.2,  pitch=1.0,  gain=-3.5, note="neutral quiet slate/action-beat voice"),
 }
 ALIASES = {"JAX VALE": "JAX", "DR MIRA SEN": "MIRA", "LUCIA": "LUCÍA", "OFFICER MAMANI": "MAMANI", "TEMI ADEYEMI": "TEMI"}
 
@@ -47,7 +47,7 @@ RESPELL = [
  (r"\b4471-C\b", "four, four, seven, one, C"), (r"\bMunchausen\b", "Munchowzen"),
  (r"\bLucía\b", "Looseea"), (r"\bLUCÍA\b", "Looseea"), (r"\bPIP\b", "Pip"), (r"\bNASA\b", "Nasa"),
  (r"\bDr\b\.?", "Doctor"), (r"\bMr\b\.?", "Mister"), (r"\bMrs\b\.?", "Missus"),
- (r"\bSeñorita\b", "Senyorita"), (r"\bun-seize\b", "un seize"), (r"\bNoakes\b", "Noaks"),
+ (r"\bSeñorita\b", "Senyorita"), (r"\bun-seize\b", "un seize"), (r"(?i)\bNoakes\b", "Noaks"),
 ]
 def respell(t):
     t = t.replace("*", "").replace("’", "'")
@@ -175,6 +175,8 @@ def render_line(synth, cast, role, text, d, rng, tag_extra=""):
 
 def title_case_loc(t):
     t = t.replace("*", "")
+    parts = [p for p in re.split(r"\s*/\s*", t) if p]
+    if len(parts) > 2: t = ", ".join(parts[:2]) + ", and more"
     t = re.sub(r"\s*[—/]\s*", ", ", t).strip().lower()
     return t[0].upper() + t[1:]
 
@@ -305,31 +307,36 @@ def main():
     for i, b in enumerate(beats):
         if i not in used_beats: warnings.append(f"narration beat never matched: {b[:2]}")
 
-    # ---- loudness + encode
+    # ---- loudness + encode: gain to -16 LUFS, peak limiter, verify on the decoded MP3
+    def limit(x, ceil_db):
+        lim = 10 ** (ceil_db / 20)
+        p = subprocess.run(["ffmpeg", "-loglevel", "error", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", "-",
+                            "-af", f"alimiter=limit={lim:.4f}:attack=3:release=60:level=0", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-"],
+                           input=x.astype("<f4").tobytes(), capture_output=True, check=True)
+        return np.frombuffer(p.stdout, dtype="<f4").copy()
     report = {}
     for fi in (1, 2, 3, 4):
         x = np.concatenate(acts[fi]).astype("float32")
-        wav = os.path.join(a.work, f"act{fi}.wav"); sf.write(wav, x, SR, subtype="FLOAT")
         mp3 = os.path.join(a.out, f"{a.prefix}-{FILE_NAMES[fi]}.mp3")
-        tp_t = -1.9; gain_trim = 0.0
-        for attempt in range(6):
-            m = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", wav, "-af", f"loudnorm=I=-16:TP={tp_t}:LRA=11:print_format=json", "-f", "null", "-"], capture_output=True, text=True).stderr
-            j = json.loads(m[m.rfind("{"):m.rfind("}") + 1])
-            ln = (f"loudnorm=I=-16:TP={tp_t}:LRA=11:measured_I={j['input_i']}:measured_TP={j['input_tp']}:"
-                  f"measured_LRA={j['input_lra']}:measured_thresh={j['input_thresh']}:offset={j['target_offset']}:linear=true")
-            af = ln + (f",volume={gain_trim}dB" if gain_trim else "")
-            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-af", af, "-ar", str(SR), "-ac", "1",
+        I0, _ = loud(x); g = -16 - I0; ceil = -2.4
+        for attempt in range(1, 9):
+            y = limit((x * 10 ** (g / 20)).astype("float32"), ceil)
+            Ipre, _ = loud(y)
+            if abs(Ipre + 16) > 0.15 and attempt < 8:
+                g += (-16 - Ipre); continue
+            wavp = os.path.join(a.work, f"act{fi}_norm.wav"); sf.write(wavp, y, SR, subtype="FLOAT")
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wavp, "-ar", str(SR), "-ac", "1",
                             "-c:a", "libmp3lame", "-abr", "1", "-b:a", a.bitrate, mp3], check=True)
-            y = decode(mp3)
-            I, tp = loud(y)
-            if tp <= -1.5 and abs(I + 16) <= 0.6: break
-            if tp > -1.5: gain_trim -= (tp + 1.5) + 0.3
-            else: gain_trim += (-16 - I) * 0.5
+            d = decode(mp3); I, tp = loud(d)
+            if tp > -1.5: ceil -= (tp + 1.5 + 0.15); continue
+            if abs(I + 16) > 0.3: g += (-16 - I); continue
+            break
         size = os.path.getsize(mp3)
-        report[fi] = dict(file=os.path.basename(mp3), duration_s=round(len(y) / SR, 2), size_mb=round(size / 1e6, 3),
-                          integrated_lufs=I, true_peak_dbtp=tp, sample_peak_dbfs=round(20 * np.log10(np.max(np.abs(y)) + 1e-9), 2),
-                          clipped_samples=int(np.sum(np.abs(y) >= 0.999)), bitrate_kbps=round(size * 8 / (len(y) / SR) / 1000, 1),
-                          attempts=attempt + 1)
+        report[fi] = dict(file=os.path.basename(mp3), duration_s=round(len(d) / SR, 2), size_mb=round(size / 1e6, 3),
+                          integrated_lufs=round(float(I), 1), true_peak_dbtp=round(float(tp), 1),
+                          sample_peak_dbfs=round(float(20 * np.log10(np.max(np.abs(d)) + 1e-9)), 2),
+                          clipped_samples=int(np.sum(np.abs(d) >= 0.999)), bitrate_kbps=round(size * 8 / (len(d) / SR) / 1000, 1),
+                          limiter_ceiling_db=round(ceil, 2), attempts=attempt)
     # ---- outputs
     with open(os.path.join(a.out, "lines.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
@@ -349,7 +356,7 @@ def main():
     # global start = file offset + start in file
     off = 0; offs = {}
     for fi in (1, 2, 3, 4): offs[FILE_NAMES[fi]] = off; off += report[fi]["duration_s"]
-    for r in unit_rows: r["start_global_s"] = round(offs[r["file"]] + r["start_in_file_s"], 2); r["delta_vs_target_s"] = round(r["duration_s"] - (r["target_s"] or 0), 2)
+    for r in unit_rows: r["start_global_s"] = round(offs[r["file"]] + r["start_in_file_s"], 2); r["delta_vs_target_s"] = round(r["duration_s"] - (r["target_s"] or 0), 2); r["duration_ex_narration_s"] = round(r["duration_s"] - r["narration_s"], 2); r["delta_ex_narration_vs_target_s"] = round(r["duration_ex_narration_s"] - (r["target_s"] or 0), 2)
     json.dump(dict(scenes=unit_rows, per_file=per_file,
                    totals=dict(duration_s=round(all_dur, 2), duration_mmss=f"{int(all_dur // 60)}:{int(all_dur % 60):02d}",
                                spoken_words=sum(r["spoken_words"] for r in unit_rows),

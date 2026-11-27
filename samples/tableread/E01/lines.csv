@@ -1,0 +1,566 @@
+file,scene,speaker,tags,kind,start_s,duration_s,script_text,spoken_text
+1-cold-open-and-act1,0,NARRATOR,,narration,0.0,3.2,Cold open. Bridge of the unscheduled.,Cold open. Bridge of the unscheduled.
+1-cold-open-and-act1,0,PIP,,dialogue,3.55,2.55,Captain. The bank has taken the left engine.,Captain. The bank has taken the left engine.
+1-cold-open-and-act1,0,JAX,,dialogue,6.44,0.95,Which one's the left?,Which one's the left?
+1-cold-open-and-act1,0,PIP,,dialogue,7.59,1.43,The one that has stopped.,The one that has stopped.
+1-cold-open-and-act1,0,PIP,CONT'D,dialogue,9.37,3.78,And the navigation lights. And the heating. And the coffee machine.,And the navigation lights. And the heating. And the coffee machine.
+1-cold-open-and-act1,0,JAX,,dialogue,13.5,1.45,They can't take the coffee machine.,They can't take the coffee machine.
+1-cold-open-and-act1,0,PIP,,dialogue,15.15,1.88,It was financed separately.,It was financed separately.
+1-cold-open-and-act1,0,TEMI,V.O.,dialogue,17.38,9.1,"Good morning! This is Temi in Recoveries. Your vessel is being recovered. Full recovery, including the air, at six tonight, lunar time. Please remain seated while—","Good morning! This is Temi in Recoveries. Your vessel is being recovered. Full recovery, including the air, at six tonight, lunar time. Please remain seated while—"
+1-cold-open-and-act1,0,JAX,,dialogue,26.98,1.84,Temi! Hi! I'm about to make a payment—,Temi! Hi! I'm about to make a payment—
+1-cold-open-and-act1,0,TEMI,V.O.,dialogue,29.91,1.2,—we disable your—,—we disable your—
+1-cold-open-and-act1,0,JAX,,dialogue,31.31,1.13,A big one. Enormous—,A big one. Enormous—
+1-cold-open-and-act1,0,TEMI,V.O.,dialogue,32.64,2.47,Hello! You're speaking to Temi in Recoveries!,Hello! You're speaking to Temi in Recoveries!
+1-cold-open-and-act1,0,JAX,to PIP,dialogue,35.31,1.27,Why does she keep doing that?,Why does she keep doing that?
+1-cold-open-and-act1,0,PIP,,dialogue,36.78,2.99,She is in Lagos. You are arguing with the past.,She is in Lagos. You are arguing with the past.
+1-cold-open-and-act1,0,JAX,,dialogue,40.1,0.81,And I'm winning.,And I'm winning.
+1-cold-open-and-act1,0,PIP,,dialogue,41.26,7.29,"A job, posted to us directly. One parcel, sealed, prepaid. Shackleton crater, by six tonight. The fee is—","A job, posted to us directly. One parcel, sealed, prepaid. Shackleton crater, by six tonight. The fee is—"
+1-cold-open-and-act1,0,JAX,,dialogue,48.9,0.47,Is?,Is?
+1-cold-open-and-act1,0,PIP,,dialogue,49.57,2.33,Exactly what we owe. To the cent.,Exactly what we owe. To the cent.
+1-cold-open-and-act1,0,JAX,,dialogue,52.1,0.61,Take it.,Take it.
+1-cold-open-and-act1,0,PIP,,dialogue,52.91,1.36,You have not read the—,You have not read the—
+1-cold-open-and-act1,0,JAX,,dialogue,54.47,1.45,Take it take it take it take it—,Take it take it take it take it—
+1-cold-open-and-act1,0,PIP,,dialogue,56.26,4.11,Accepted. I am also filing a report on you. Once is binding.,Accepted. I am also filing a report on you. Once is binding.
+1-cold-open-and-act1,0,NARRATOR,,narration,60.67,4.32,The engine coughs back to life. The coffee machine does not.,The engine coughs back to life. The coffee machine does not.
+1-cold-open-and-act1,0,JAX,,dialogue,66.39,1.52,Who sends a parcel to a crater?,Who sends a parcel to a crater?
+1-cold-open-and-act1,0,PIP,,dialogue,68.11,2.84,Someone who knew precisely how much we owed.,Someone who knew precisely how much we owed.
+1-cold-open-and-act1,0,JAX,,dialogue,71.3,0.59,Lucky.,Lucky.
+1-cold-open-and-act1,0,PIP,,dialogue,72.08,1.88,"Filed under ""arithmetic"".","Filed under ""arithmetic""."
+1-cold-open-and-act1,0,NARRATOR,,narration,74.57,0.91,Main title.,Main title.
+1-cold-open-and-act1,0,MUSIC,,sting,75.88,10.0,MAIN TITLE,[A1-title-sting-10s.mp3]
+1-cold-open-and-act1,1,NARRATOR,,narration,87.08,1.38,Act one. Withdrawn.,Act one. Withdrawn.
+1-cold-open-and-act1,1,NARRATOR,,narration,88.91,1.59,Scene one. Cargo hold.,Scene one. Cargo hold.
+1-cold-open-and-act1,1,LUCÍA,O.S. from inside the machine,dialogue,90.85,0.57,Eleven.,Eleven.
+1-cold-open-and-act1,1,LUCÍA,O.S. CONT'D,dialogue,91.77,0.75,That's a nine.,That's a nine.
+1-cold-open-and-act1,1,JAX,,dialogue,92.72,1.6,It's a nine that believes in itself.,It's a nine that believes in itself.
+1-cold-open-and-act1,1,LUCÍA,O.S.,dialogue,94.52,3.61,"Eight months, Jax. Eight months unpaid is called volunteering.","Eight months, Jax. Eight months unpaid is called volunteering."
+1-cold-open-and-act1,1,JAX,,dialogue,98.46,3.13,"Today. Off the top. Before fuel, before food, before me.","Today. Off the top. Before fuel, before food, before me."
+1-cold-open-and-act1,1,LUCÍA,O.S.,dialogue,101.92,0.69,Before you?,Before you?
+1-cold-open-and-act1,1,JAX,,dialogue,102.81,0.75,Before me.,Before me.
+1-cold-open-and-act1,1,LUCÍA,O.S.,dialogue,103.75,1.79,Say it to PIP. So it's on record.,Say it to Pip. So it's on record.
+1-cold-open-and-act1,1,PIP,V.O. hold speaker,dialogue,105.75,5.72,"Recorded. I have filed it with the one from March, and the one from May. May's was louder.","Recorded. I have filed it with the one from March, and the one from May. May's was louder."
+1-cold-open-and-act1,1,LUCÍA,,dialogue,111.81,0.68,It's warm.,It's warm.
+1-cold-open-and-act1,1,PIP,V.O.,dialogue,112.7,5.85,"Twenty-one degrees. According to its stamps, it has been twenty-one degrees for twenty years.","Twenty-one degrees. According to its stamps, it has been twenty-one degrees for twenty years."
+1-cold-open-and-act1,1,LUCÍA,,dialogue,118.88,2.62,Something in here is alive. Or very well wrapped.,Something in here is alive. Or very well wrapped.
+1-cold-open-and-act1,2,NARRATOR,,narration,122.7,2.29,"Scene two. Bridge, on approach.","Scene two. Bridge, on approach."
+1-cold-open-and-act1,2,PIP,V.O.,dialogue,125.35,5.64,Shackleton crater. Eleven minutes. We will be four hours early. I have never been early.,Shackleton crater. Eleven minutes. We will be four hours early. I have never been early.
+1-cold-open-and-act1,2,JAX,,dialogue,131.34,0.74,Enjoy it.,Enjoy it.
+1-cold-open-and-act1,2,NARRATOR,,narration,132.38,4.11,"The address loses its letters, one by one, from the end.","The address loses its letters, one by one, from the end."
+1-cold-open-and-act1,2,PIP,,dialogue,136.84,0.76,Captain.,Captain.
+1-cold-open-and-act1,2,JAX,,dialogue,137.95,0.62,Typo.,Typo.
+1-cold-open-and-act1,2,JAX,CONT'D,dialogue,138.92,1.41,"""The Silver Hat."" I'd go there.","""The Silver Hat."" I'd go there."
+1-cold-open-and-act1,2,JAX,CONT'D,dialogue,140.68,1.26,"""The."" We can work with ""The"".","""The."" We can work with ""The""."
+1-cold-open-and-act1,2,PIP,,dialogue,142.29,2.5,"I am afraid ""The"" is not an address.","I am afraid ""The"" is not an address."
+1-cold-open-and-act1,2,JAX,,dialogue,144.99,1.94,"It's a crater, PIP. Craters don't leave.","It's a crater, Pip. Craters don't leave."
+1-cold-open-and-act1,2,PIP,,dialogue,147.12,4.06,"The crater is still there, Captain. It has merely stopped being anywhere.","The crater is still there, Captain. It has merely stopped being anywhere."
+1-cold-open-and-act1,2,JAX,,dialogue,151.53,0.81,Did we do that?,Did we do that?
+1-cold-open-and-act1,2,PIP,,dialogue,152.54,1.87,We are not that important.,We are not that important.
+1-cold-open-and-act1,2,MAMANI,V.O. radio,dialogue,154.77,11.69,"Unscheduled, Rim Port control. Your destination was withdrawn from the Atlas at fourteen-oh-two. All goods for it are held by customs. Land at bay nine. Do not open your hold. Your client is nowhere, Captain. I'm sorry.","Unscheduled, Rim Port control. Your destination was withdrawn from the Atlas at fourteen-oh-two. All goods for it are held by customs. Land at bay nine. Do not open your hold. Your client is nowhere, Captain. I'm sorry."
+1-cold-open-and-act1,2,PIP,,dialogue,166.95,5.04,I am filing a report on the Atlas. Withdrawn without notice to the carrier.,I am filing a report on the Atlas. Withdrawn without notice to the carrier.
+1-cold-open-and-act1,2,JAX,,dialogue,172.34,0.97,Who reads those?,Who reads those?
+1-cold-open-and-act1,2,PIP,,dialogue,173.51,1.82,That is not the point of them.,That is not the point of them.
+1-cold-open-and-act1,3,NARRATOR,,narration,176.54,3.71,"Scene three. Rim port, customs hall, the desk.","Scene three. Rim port, customs hall, the desk."
+1-cold-open-and-act1,3,MIRA,,dialogue,180.59,0.94,Next.,Next.
+1-cold-open-and-act1,3,JAX,,dialogue,181.88,1.11,There's no one else here.,There's no one else here.
+1-cold-open-and-act1,3,MIRA,,dialogue,183.19,1.59,It's procedure. Next.,It's procedure. Next.
+1-cold-open-and-act1,3,MIRA,CONT'D,dialogue,185.12,5.85,"Parcel, one. Sealed. Addressed to a district withdrawn at fourteen-oh-two. Seized at fourteen-nineteen.","Parcel, one. Sealed. Addressed to a district withdrawn at fourteen-oh-two. Seized at fourteen-nineteen."
+1-cold-open-and-act1,3,JAX,,dialogue,191.3,1.73,Here's my situation. My aunt—,Here's my situation. My aunt—
+1-cold-open-and-act1,3,MIRA,,dialogue,193.23,1.31,You don't have an aunt.,You don't have an aunt.
+1-cold-open-and-act1,3,JAX,,dialogue,194.74,0.89,You don't know that.,You don't know that.
+1-cold-open-and-act1,3,MIRA,,dialogue,195.83,2.16,Your form says next of kin: none.,Your form says next of kin: none.
+1-cold-open-and-act1,3,JAX,,dialogue,198.2,4.51,She's very distant. Look — I can tell you're someone who appreciates flexibility.,She's very distant. Look — I can tell you're someone who appreciates flexibility.
+1-cold-open-and-act1,3,MIRA,,dialogue,203.03,3.36,I'm a cartographer. I appreciate where things actually are.,I'm a cartographer. I appreciate where things actually are.
+1-cold-open-and-act1,3,JAX,,dialogue,206.73,3.49,Then you'll appreciate the Lunar Courier Exemption. Section twelve.,Then you'll appreciate the Lunar Courier Exemption. Section twelve.
+1-cold-open-and-act1,3,MIRA,,dialogue,210.55,1.45,There are nine sections.,There are nine sections.
+1-cold-open-and-act1,3,JAX,,dialogue,212.19,1.7,Which is why twelve is so exclusive.,Which is why twelve is so exclusive.
+1-cold-open-and-act1,3,MIRA,,dialogue,214.09,3.83,"Is there anything true you'd like to tell me, Captain? Before I stamp it.","Is there anything true you'd like to tell me, Captain? Before I stamp it."
+1-cold-open-and-act1,3,JAX,,dialogue,218.25,1.32,I'm very good at my job.,I'm very good at my job.
+1-cold-open-and-act1,3,MIRA,,dialogue,219.77,2.09,You're four hours from losing your ship.,You're four hours from losing your ship.
+1-cold-open-and-act1,3,JAX,,dialogue,222.06,1.12,I'm good at it in bursts.,I'm good at it in bursts.
+1-cold-open-and-act1,3,NARRATOR,,narration,223.48,5.26,"Jax's record starts seven years ago. Above it, empty fields.","Jax's record starts seven years ago. Above it, empty fields."
+1-cold-open-and-act1,3,MIRA,,dialogue,229.09,2.07,Your record starts seven years ago.,Your record starts seven years ago.
+1-cold-open-and-act1,3,JAX,,dialogue,231.36,0.76,Late bloomer.,Late bloomer.
+1-cold-open-and-act1,3,MIRA,,dialogue,232.32,2.45,"Your record isn't late, Captain. It's blank.","Your record isn't late, Captain. It's blank."
+1-cold-open-and-act1,3,JAX,,dialogue,235.12,0.92,Is that a problem?,Is that a problem?
+1-cold-open-and-act1,3,MIRA,,dialogue,236.25,1.27,Not for customs.,Not for customs.
+1-cold-open-and-act1,3,NARRATOR,,narration,237.86,2.29,Her stamp comes down: seized.,Her stamp comes down: seized.
+1-cold-open-and-act1,3,JAX,,dialogue,240.51,1.04,Can I at least see it?,Can I at least see it?
+1-cold-open-and-act1,3,MIRA,,dialogue,241.74,1.11,Holding bay.,Holding bay.
+1-cold-open-and-act1,3,NARRATOR,,narration,243.2,4.81,"Far off, a tiny man in a tricorn stands on a cargo scale.","Far off, a tiny man in a tricorn stands on a cargo scale."
+1-cold-open-and-act1,3,BARON,"O.S. distant, outraged",dialogue,248.36,2.1,I used to be taller!,I used to be taller!
+1-cold-open-and-act1,4,NARRATOR,,narration,251.65,3.1,"Scene four. Customs hall, mira's desk.","Scene four. Customs hall, mira's desk."
+1-cold-open-and-act1,4,MIRA,to herself,dialogue,255.1,0.97,Which owner?,Which owner?
+1-cold-open-and-act1,4,NOAKES,O.S.,dialogue,256.42,1.97,Dr Sen. We discussed the notebook.,Doctor Sen. We discussed the notebook.
+1-cold-open-and-act1,4,MIRA,,dialogue,258.59,3.09,We discussed it being on my desk. It's in my hand.,We discussed it being on my desk. It's in my hand.
+1-cold-open-and-act1,4,NOAKES,,dialogue,262.03,4.8,You were struck off for saying the map was wrong. Please don't get struck off again for saying it louder.,You were struck off for saying the map was wrong. Please don't get struck off again for saying it louder.
+1-cold-open-and-act1,4,MIRA,,dialogue,267.33,1.03,It is wrong.,It is wrong.
+1-cold-open-and-act1,4,NOAKES,,dialogue,268.56,3.32,"It's official. Those aren't opposites, Dr Sen. They're departments.","It's official. Those aren't opposites, Doctor Sen. They're departments."
+1-cold-open-and-act1,4,NOAKES,CONT'D,dialogue,272.23,3.92,One more complaint and your probation ends. Let nothing happen. One more day.,One more complaint and your probation ends. Let nothing happen. One more day.
+1-cold-open-and-act1,4,MIRA,,dialogue,276.48,1.14,I'll be quiet.,I'll be quiet.
+1-cold-open-and-act1,5,NARRATOR,,narration,278.82,2.79,"Scene five. Customs hall, a bench.","Scene five. Customs hall, a bench."
+1-cold-open-and-act1,5,LUCÍA,V.O. wrist,dialogue,281.97,2.32,Is it the box? Tell me it's not the box.,Is it the box? Tell me it's not the box.
+1-cold-open-and-act1,5,JAX,,dialogue,284.62,0.99,It's not the box.,It's not the box.
+1-cold-open-and-act1,5,LUCÍA,V.O.,dialogue,285.81,0.94,It's the box.,It's the box.
+1-cold-open-and-act1,5,PIP,V.O. wrist,dialogue,287.09,3.24,"She has hung up. Captain, there is a man next to you.","She has hung up. Captain, there is a man next to you."
+1-cold-open-and-act1,5,NARRATOR,,narration,290.68,3.7,A plump grey man with a teacup sits on the bench.,A plump grey man with a teacup sits on the bench.
+1-cold-open-and-act1,5,CHICHIKOV,,dialogue,294.72,2.04,Please. Don't stop on my account.,Please. Don't stop on my account.
+1-cold-open-and-act1,5,JAX,,dialogue,296.96,1.14,How long have you been there?,How long have you been there?
+1-cold-open-and-act1,5,CHICHIKOV,,dialogue,298.3,11.94,"Long enough to be sorry about your parcel. A hundred and eighty-two thousand, isn't it? The lien on The Unscheduled. And Miss Ortega — eight months. That's a long time to be loyal.","Long enough to be sorry about your parcel. A hundred and eighty-two thousand, isn't it? The lien on The Unscheduled. And Miss Ortega — eight months. That's a long time to be loyal."
+1-cold-open-and-act1,5,JAX,,dialogue,310.74,0.71,Who are you?,Who are you?
+1-cold-open-and-act1,5,CHICHIKOV,,dialogue,311.65,6.7,"A buyer. I buy what the register has forgotten, Captain. You would be amazed how much of it still works.","A buyer. I buy what the register has forgotten, Captain. You would be amazed how much of it still works."
+1-cold-open-and-act1,5,CHICHIKOV,O.S. CONT'D,dialogue,318.71,2.63,If your parcel should become available.,If your parcel should become available.
+1-cold-open-and-act1,5,JAX,reading,dialogue,321.53,1.12,Chich... Chicha...,Chich... Chicha...
+1-cold-open-and-act1,5,NARRATOR,,narration,323.0,3.0,The bench is empty. The teacup is gone.,The bench is empty. The teacup is gone.
+1-cold-open-and-act1,5,JAX,CONT'D,dialogue,326.35,1.3,PIP. Did you get a look at him?,Pip. Did you get a look at him?
+1-cold-open-and-act1,5,PIP,V.O.,dialogue,327.85,2.56,"I have logged him as ""man, average"".","I have logged him as ""man, average""."
+1-cold-open-and-act1,5,JAX,,dialogue,330.61,1.0,What did he look like?,What did he look like?
+1-cold-open-and-act1,5,PIP,V.O.,dialogue,331.81,0.85,Average.,Average.
+1-cold-open-and-act1,6,NARRATOR,,narration,333.87,3.12,"Scene six. Customs hall, holding bay.","Scene six. Customs hall, holding bay."
+1-cold-open-and-act1,6,NARRATOR,,narration,337.29,4.58,"The Baron sits on a trunk, Lot fourteen, holding the parcel.","The Baron sits on a trunk, Lot fourteen, holding the parcel."
+1-cold-open-and-act1,6,MIRA,,dialogue,342.21,2.24,Lot fourteen. You can look. You can't touch.,Lot fourteen. You can look. You can't touch.
+1-cold-open-and-act1,6,JAX,,dialogue,344.65,0.79,Can I point?,Can I point?
+1-cold-open-and-act1,6,MIRA,,dialogue,345.64,1.39,Sparingly.,Sparingly.
+1-cold-open-and-act1,6,BARON,,dialogue,347.38,2.35,At last. You may approach.,At last. You may approach.
+1-cold-open-and-act1,6,JAX,,dialogue,349.93,1.54,Sorry — we're just here for the box.,Sorry — we're just here for the box.
+1-cold-open-and-act1,6,BARON,,dialogue,351.68,3.77,Everyone is just here for the box. Then they meet me.,Everyone is just here for the box. Then they meet me.
+1-cold-open-and-act1,6,BARON,"a bow, magnificent",dialogue,355.69,8.22,"Hieronymus Karl Friedrich, Baron von Munchausen. Hussar. Ambassador. Twice to the Moon — once on purpose. You have heard of me.","Heer-onimus Karl Friedrich, Baron von Munchowzen. Hussar. Ambassador. Twice to the Moon — once on purpose. You have heard of me."
+1-cold-open-and-act1,6,JAX,,dialogue,364.42,0.92,...The swamp guy?,...The swamp guy?
+1-cold-open-and-act1,6,BARON,,dialogue,365.69,1.5,The swamp guy.,The swamp guy.
+1-cold-open-and-act1,6,JAX,,dialogue,367.39,1.64,Pulled yourself out by your own hair.,Pulled yourself out by your own hair.
+1-cold-open-and-act1,6,BARON,,dialogue,369.23,8.01,"By my pigtail. And my horse with me, gripped between my knees. Earth always leaves out the horse. Earth has no respect for horses.","By my pigtail. And my horse with me, gripped between my knees. Earth always leaves out the horse. Earth has no respect for horses."
+1-cold-open-and-act1,6,MIRA,reading his tag,dialogue,377.75,5.82,"The registry has you as ""Residue. Delisted. Formerly of the Silver Hatchet, Shackleton Floor.""","The registry has you as ""Residue. Delisted. Formerly of the Silver Hatchet, Shackleton Floor."""
+1-cold-open-and-act1,6,BARON,,dialogue,383.9,8.81,"Residue. Madam, I have been called a liar by an empress, a scoundrel by a sultan, and delicious by a fish. I have never been called residue.","Residue. Madam, I have been called a liar by an empress, a scoundrel by a sultan, and delicious by a fish. I have never been called residue."
+1-cold-open-and-act1,6,MIRA,,dialogue,393.21,2.13,It's not personal. It's a category.,It's not personal. It's a category.
+1-cold-open-and-act1,6,BARON,,dialogue,395.53,1.91,All the worst things are.,All the worst things are.
+1-cold-open-and-act1,6,BARON,CONT'D,dialogue,397.8,4.27,It comes to me. I send it on. It comes back. Twenty years.,It comes to me. I send it on. It comes back. Twenty years.
+1-cold-open-and-act1,6,JAX,,dialogue,402.39,0.78,Who's it for?,Who's it for?
+1-cold-open-and-act1,6,BARON,,dialogue,403.52,4.63,Not me. It never was. I am only the last door anyone could find.,Not me. It never was. I am only the last door anyone could find.
+1-cold-open-and-act1,6,MIRA,,dialogue,408.5,1.94,There are thirty-one labels on this.,There are thirty-one labels on this.
+1-cold-open-and-act1,6,BARON,,dialogue,410.65,4.19,Thirty-two. One fell off in the spring. I was inconsolable.,Thirty-two. One fell off in the spring. I was inconsolable.
+1-cold-open-and-act1,6,JAX,,dialogue,415.17,2.74,"So you sign for it, I get paid, everyone goes home—","So you sign for it, I get paid, everyone goes home—"
+1-cold-open-and-act1,6,MIRA,,dialogue,418.24,2.78,He can't sign for seized goods. No one can.,He can't sign for seized goods. No one can.
+1-cold-open-and-act1,6,BARON,,dialogue,421.34,2.62,Then let us un-seize ourselves.,Then let us un seize ourselves.
+1-cold-open-and-act1,6,BARON,"turning to the gate, grand",dialogue,424.22,8.57,"This lock was made in Riga, by a locksmith I pulled from the river by his ears. Speak to one of his locks and it remembers him. And it opens.","This lock was made in Riga, by a locksmith I pulled from the river by his ears. Speak to one of his locks and it remembers him. And it opens."
+1-cold-open-and-act1,6,NARRATOR,,narration,433.14,3.67,The padlock stays shut. The clock does not tick.,The padlock stays shut. The clock does not tick.
+1-cold-open-and-act1,6,BARON,"CONT'D quiet, to the lock",dialogue,437.7,1.81,You used to.,You used to.
+1-cold-open-and-act1,6,MIRA,,dialogue,439.72,2.04,It's a customs lock. I have the key.,It's a customs lock. I have the key.
+1-cold-open-and-act1,6,BARON,,dialogue,441.96,2.79,Then it is loyal. I respect that.,Then it is loyal. I respect that.
+1-cold-open-and-act1,6,MIRA,,dialogue,445.1,6.38,"Lot fourteen is listed for sale. ""One parcel, sealed. One gentleman, delisted. Eighteen hundred hours.""","Lot fourteen is listed for sale. ""One parcel, sealed. One gentleman, delisted. Eighteen hundred hours."""
+1-cold-open-and-act1,6,BARON,,dialogue,451.81,3.07,I have been sold before. Never as a set.,I have been sold before. Never as a set.
+1-cold-open-and-act1,6,JAX,,dialogue,455.2,2.24,Six o'clock. It's when my bank takes my ship.,Six o'clock. It's when my bank takes my ship.
+1-cold-open-and-act1,6,BARON,,dialogue,457.79,3.81,Then we are both for sale at six. How companionable.,Then we are both for sale at six. How companionable.
+1-cold-open-and-act1,7,NARRATOR,,narration,462.8,3.41,"Scene seven. Customs hall, noakes's office.","Scene seven. Customs hall, Noaks's office."
+1-cold-open-and-act1,7,JAX,,dialogue,466.56,2.41,Superintendent. My computer would like a word.,Superintendent. My computer would like a word.
+1-cold-open-and-act1,7,PIP,V.O. from the desk,dialogue,469.17,5.96,"Several. Postal Regulation forty-one, sub-section c. Eighteen-forty. Never repealed.","Several. Postal Regulation forty-one, sub-section c. Eighteen-forty. Never repealed."
+1-cold-open-and-act1,7,PIP,V.O. CONT'D,dialogue,475.48,11.69,"Goods may not be declared abandoned until the carrier has attempted delivery at the physical address, in the presence of a customs witness. And goods delivered there were never abandoned at all.","Goods may not be declared abandoned until the carrier has attempted delivery at the physical address, in the presence of a customs witness. And goods delivered there were never abandoned at all."
+1-cold-open-and-act1,7,NOAKES,,dialogue,487.67,1.61,The address doesn't exist.,The address doesn't exist.
+1-cold-open-and-act1,7,PIP,V.O.,dialogue,489.47,2.46,The address does not. The place does.,The address does not. The place does.
+1-cold-open-and-act1,7,NOAKES,,dialogue,492.13,2.15,Has anyone ever actually invoked it?,Has anyone ever actually invoked it?
+1-cold-open-and-act1,7,PIP,V.O.,dialogue,494.48,7.23,Once. In eighteen forty-one. A man walked a parcel of eels to a demolished house in Bristol and knocked for an hour.,Once. In eighteen forty-one. A man walked a parcel of eels to a demolished house in Bristol and knocked for an hour.
+1-cold-open-and-act1,7,NOAKES,,dialogue,502.21,0.57,And?,And?
+1-cold-open-and-act1,7,PIP,V.O.,dialogue,502.98,2.5,Nobody answered. It was a triumph.,Nobody answered. It was a triumph.
+1-cold-open-and-act1,7,JAX,,dialogue,505.68,2.14,"So basically, nothing's undeliverable till—","So basically, nothing's undeliverable till—"
+1-cold-open-and-act1,7,PIP,V.O.,dialogue,508.0,5.18,"—until somebody has knocked. Captain, please don't paraphrase me. I was concise.","—until somebody has knocked. Captain, please don't paraphrase me. I was concise."
+1-cold-open-and-act1,7,NOAKES,,dialogue,513.51,1.43,I can't spare a witness.,I can't spare a witness.
+1-cold-open-and-act1,7,MIRA,O.S.,dialogue,515.15,1.26,I'll go.,I'll go.
+1-cold-open-and-act1,7,NOAKES,,dialogue,516.75,1.85,Why on earth would you volunteer?,Why on earth would you volunteer?
+1-cold-open-and-act1,7,MIRA,,dialogue,518.81,2.65,Someone should write down what's there before it's sold.,Someone should write down what's there before it's sold.
+1-cold-open-and-act1,7,NOAKES,,dialogue,521.81,6.9,Parcel and gentleman back in this hall by six. Dr Sen stamps them abandoned at one minute past. And nothing happens in between.,Parcel and gentleman back in this hall by six. Doctor Sen stamps them abandoned at one minute past. And nothing happens in between.
+1-cold-open-and-act1,7,MIRA,,dialogue,529.2,0.9,"Yes, sir.","Yes, sir."
+1-cold-open-and-act1,7,JAX,,dialogue,530.3,0.71,Road trip.,Road trip.
+1-cold-open-and-act1,7,MIRA,,dialogue,531.21,1.29,Inventory.,Inventory.
+2-act2,8,NARRATOR,,narration,0.0,1.73,Act two. The Silver Hatchet.,Act two. The Silver Hatchet.
+2-act2,8,NARRATOR,,narration,2.18,3.23,"Scene eight. The post-chaise, on the rim road.","Scene eight. The post shayz, on the rim road."
+2-act2,8,JAX,V.O.,dialogue,5.76,7.53,"Two hours ago I had a parcel, a ship and a debt. Now I had a debt, a chaperone and a Baron. I was trading down. I'm very good at it.","Two hours ago I had a parcel, a ship and a debt. Now I had a debt, a chaperone and a Baron. I was trading down. I'm very good at it."
+2-act2,8,BARON,,dialogue,13.64,3.25,To your left: the palace of the King of the Moon.,To your left: the palace of the King of the Moon.
+2-act2,8,MIRA,,dialogue,17.22,1.2,That's a boulder.,That's a boulder.
+2-act2,8,BARON,,dialogue,18.62,5.81,It is the boulder he lived behind. One does not build a palace in plain sight. The neighbours.,It is the boulder he lived behind. One does not build a palace in plain sight. The neighbours.
+2-act2,8,LUCÍA,,dialogue,24.93,0.82,What was he like?,What was he like?
+2-act2,8,BARON,,dialogue,25.96,6.95,"Thirty-six feet tall. He ate once a month. Opened his left side, put in the whole meal, and closed it again.","Thirty-six feet tall. He ate once a month. Opened his left side, put in the whole meal, and closed it again."
+2-act2,8,LUCÍA,,dialogue,33.41,1.36,That's my dad at Christmas.,That's my dad at Christmas.
+2-act2,8,MIRA,,dialogue,34.97,1.22,There is no king.,There is no king.
+2-act2,8,BARON,,dialogue,36.38,1.32,Not any more.,Not any more.
+2-act2,8,LUCÍA,,dialogue,38.06,1.8,So what's customs want with Grandad?,So what's customs want with Grandad?
+2-act2,8,MIRA,,dialogue,40.06,2.64,He's in the sale. Lot fourteen. With the parcel.,He's in the sale. Lot fourteen. With the parcel.
+2-act2,8,LUCÍA,,dialogue,43.03,1.18,They're selling a grandad?,They're selling a grandad?
+2-act2,8,MIRA,,dialogue,44.4,1.55,A delisted resident.,A delisted resident.
+2-act2,8,LUCÍA,,dialogue,46.15,1.58,That's a grandad with paperwork.,That's a grandad with paperwork.
+2-act2,8,LUCÍA,to Jax,dialogue,47.98,0.98,We're not doing that.,We're not doing that.
+2-act2,8,JAX,,dialogue,49.16,2.3,We're not doing anything. We're knocking on a door.,We're not doing anything. We're knocking on a door.
+2-act2,8,BARON,,dialogue,51.78,5.41,Look. The Sun. Here it doesn't rise. It goes round. Like a waiter who will not leave.,Look. The Sun. Here it doesn't rise. It goes round. Like a waiter who will not leave.
+2-act2,9,NARRATOR,,narration,58.4,4.01,"Scene nine. Shackleton rim, wide, then the inn door.","Scene nine. Shackleton rim, wide, then the inn door."
+2-act2,9,JAX,V.O.,dialogue,63.51,4.45,Twenty minutes. He talked for all of them. I've never been so sorry when a drive ended.,Twenty minutes. He talked for all of them. I've never been so sorry when a drive ended.
+2-act2,9,NARRATOR,,narration,68.26,1.59,The knock makes no sound.,The knock makes no sound.
+2-act2,9,MIRA,V.O. suit radio,dialogue,70.2,2.59,Fifteen-fifty. Knock witnessed. No answer.,Fifteen-fifty. Knock witnessed. No answer.
+2-act2,9,BARON,V.O. suit radio,dialogue,73.0,1.99,I'm not in. I'm out here with you.,I'm not in. I'm out here with you.
+2-act2,10,NARRATOR,,narration,76.18,2.9,"Scene ten. The silver hatchet, parlour.","Scene ten. The silver hatchet, parlour."
+2-act2,10,BARON,,dialogue,79.43,3.37,Welcome to the Silver Hatchet. Mind the bear.,Welcome to the Silver Hatchet. Mind the bear.
+2-act2,10,JAX,,dialogue,83.01,0.94,There's another bear.,There's another bear.
+2-act2,10,BARON,,dialogue,84.15,1.62,He was lonely.,He was lonely.
+2-act2,10,LUCÍA,patting the bear,dialogue,85.97,0.89,"Hello, lonely.","Hello, lonely."
+2-act2,10,BARON,,dialogue,87.05,3.34,He likes you. He never liked the last courier.,He likes you. He never liked the last courier.
+2-act2,10,JAX,,dialogue,90.73,1.09,There was a last courier?,There was a last courier?
+2-act2,10,BARON,,dialogue,92.02,3.71,There were nineteen. Lovely people. They all gave up.,There were nineteen. Lovely people. They all gave up.
+2-act2,10,BARON,CONT'D,dialogue,96.07,8.65,The Sun comes round this room once a month. On the fourteenth it reaches the sofa. I always sit there on the fourteenth. One keeps one's appointments.,The Sun comes round this room once a month. On the fourteenth it reaches the sofa. I always sit there on the fourteenth. One keeps one's appointments.
+2-act2,10,BARON,CONT'D,dialogue,105.08,5.93,"This stove was cast from the barrel of a Turkish cannon, and it lights when I tell it to. Li—","This stove was cast from the barrel of a Turkish cannon, and it lights when I tell it to. Li—"
+2-act2,10,NARRATOR,,narration,111.36,3.93,A blue flame catches. Lucía withdraws her spanner.,A blue flame catches. Looseea withdraws her spanner.
+2-act2,10,BARON,CONT'D a beat,dialogue,116.09,1.6,It prefers her.,It prefers her.
+2-act2,10,LUCÍA,,dialogue,117.88,1.06,Pilot was blocked.,Pilot was blocked.
+2-act2,10,BARON,,dialogue,119.14,1.79,Of course it was.,Of course it was.
+2-act2,11,NARRATOR,,narration,122.13,2.75,"Scene eleven. Parlour, the signature.","Scene eleven. Parlour, the signature."
+2-act2,11,JAX,,dialogue,125.23,2.3,"You sign here, I get paid, you're free, everyone is—","You sign here, I get paid, you're free, everyone is—"
+2-act2,11,BARON,,dialogue,127.86,1.14,Delighted.,Delighted.
+2-act2,11,JAX,,dialogue,129.35,0.99,That's a lot of name.,That's a lot of name.
+2-act2,11,BARON,,dialogue,130.54,1.68,It's a lot of man.,It's a lot of man.
+2-act2,11,NARRATOR,,narration,132.57,4.43,"The signature fades, stroke by stroke, to blank paper.","The signature fades, stroke by stroke, to blank paper."
+2-act2,11,JAX,,dialogue,137.9,0.74,Do it again.,Do it again.
+2-act2,11,LUCÍA,,dialogue,138.99,0.83,Sign smaller?,Sign smaller?
+2-act2,11,BARON,,dialogue,140.02,3.32,"Madam, I have never signed smaller in my life.","Madam, I have never signed smaller in my life."
+2-act2,11,PIP,"V.O. wrist, on the table",dialogue,143.68,9.54,"The addressee has signed. The signature has declined to remain. A man who is not listed cannot receive anything, Captain. Apparently not even ink.","The addressee has signed. The signature has declined to remain. A man who is not listed cannot receive anything, Captain. Apparently not even ink."
+2-act2,11,BARON,,dialogue,153.56,6.44,I signed a treaty with the Sultan once. It is still in Constantinople. In a drawer. Still signed.,I signed a treaty with the Sultan once. It is still in Constantinople. In a drawer. Still signed.
+2-act2,12,NARRATOR,,narration,161.2,3.38,"Scene twelve. Customs hall, noakes's office.","Scene twelve. Customs hall, Noaks's office."
+2-act2,12,NOAKES,,dialogue,164.94,1.9,A reserve bid. On lot fourteen.,A reserve bid. On lot fourteen.
+2-act2,12,CHICHIKOV,O.S.,dialogue,167.04,2.53,A modest one. Purely a formality.,A modest one. Purely a formality.
+2-act2,12,NOAKES,,dialogue,169.77,2.06,What does Voss want with an old liar?,What does Voss want with an old liar?
+2-act2,12,CHICHIKOV,,dialogue,172.03,6.14,"You think we are buying a man, Superintendent. We are buying him an audience. Who else is offering?","You think we are buying a man, Superintendent. We are buying him an audience. Who else is offering?"
+2-act2,12,NOAKES,,dialogue,178.67,1.38,He talks to everyone.,He talks to everyone.
+2-act2,12,CHICHIKOV,,dialogue,180.25,1.11,And who listens?,And who listens?
+2-act2,12,NOAKES,,dialogue,181.71,3.23,Tomorrow is three years without an incident. There's to be a plaque.,Tomorrow is three years without an incident. There's to be a plaque.
+2-act2,12,CHICHIKOV,,dialogue,185.27,1.05,What will it say?,What will it say?
+2-act2,12,NOAKES,,dialogue,186.52,1.65,"""Nothing happened."" In brass.","""Nothing happened."" In brass."
+2-act2,12,CHICHIKOV,,dialogue,188.37,4.92,His contract is already drawn up. I like to be early. It's a courtesy.,His contract is already drawn up. I like to be early. It's a courtesy.
+2-act2,12,NOAKES,,dialogue,193.63,1.73,"Thank you, Mr... Chichester.","Thank you, Mister.. Chichester."
+2-act2,12,CHICHIKOV,,dialogue,195.56,0.92,Close enough.,Close enough.
+2-act2,13,NARRATOR,,narration,197.69,3.37,"Scene thirteen. Montage, the inventory.","Scene thirteen. Montage, the inventory."
+2-act2,13,BARON,V.O.,dialogue,201.4,6.97,"The saddle of half a horse. The Turks dropped their gate on him at Oczakow. The farrier sewed him up with laurel, and the laurel grew.","The saddle of half a horse. The Turks dropped their gate on him at Ochakoff. The farrier sewed him up with laurel, and the laurel grew."
+2-act2,13,MIRA,V.O.,dialogue,208.87,2.26,Saddle. Half. Plant growing from it.,Saddle. Half. Plant growing from it.
+2-act2,13,BARON,V.O.,dialogue,211.33,0.72,Laurel.,Laurel.
+2-act2,13,MIRA,V.O.,dialogue,212.26,1.01,Plant.,Plant.
+2-act2,13,BARON,V.O.,dialogue,213.62,4.3,"This rope I twisted from straw on the Moon, and on it I climbed down to Earth.","This rope I twisted from straw on the Moon, and on it I climbed down to Earth."
+2-act2,13,MIRA,V.O.,dialogue,218.25,1.49,Rope. Three metres.,Rope. Three metres.
+2-act2,13,BARON,V.O.,dialogue,219.94,3.65,It was longer. I kept cutting the top and tying it on the bottom.,It was longer. I kept cutting the top and tying it on the bottom.
+2-act2,13,MIRA,V.O.,dialogue,223.92,1.28,That doesn't work.,That doesn't work.
+2-act2,13,BARON,V.O.,dialogue,225.4,2.6,It did not. I fell the last four miles.,It did not. I fell the last four miles.
+2-act2,13,NARRATOR,,narration,228.3,4.38,Jax lifts down a small silver hatchet. It fits his hand.,Jax lifts down a small silver hatchet. It fits his hand.
+2-act2,13,BARON,V.O.,dialogue,233.02,8.01,"This hatchet I threw at two bears in the Sultan's garden. By an unlucky turn of my arm it flew upward, and did not stop until it reached the Moon.","This hatchet I threw at two bears in the Sultan's garden. By an unlucky turn of my arm it flew upward, and did not stop until it reached the Moon."
+2-act2,13,MIRA,V.O.,dialogue,241.53,1.84,Hatchet. Silver. Dented.,Hatchet. Silver. Dented.
+2-act2,13,BARON,V.O.,dialogue,243.57,1.09,Moon-dented.,Moon-dented.
+2-act2,14,NARRATOR,,narration,245.86,2.61,"Scene fourteen. Parlour, prove one.","Scene fourteen. Parlour, prove one."
+2-act2,14,LUCÍA,,dialogue,248.82,0.69,Prove one.,Prove one.
+2-act2,14,BARON,,dialogue,249.71,1.96,I beg your pardon?,I beg your pardon?
+2-act2,14,LUCÍA,,dialogue,251.86,5.97,"One story. If you're real, I'm not driving you back to be sold. If you're not, I am, and I'll sleep fine.","One story. If you're real, I'm not driving you back to be sold. If you're not, I am, and I'll sleep fine."
+2-act2,14,BARON,,dialogue,258.33,4.33,That is fair. It is horribly fair. Very well. The famous one.,That is fair. It is horribly fair. Very well. The famous one.
+2-act2,14,BARON,CONT'D,dialogue,263.01,7.68,"A swamp, to the neck, with my horse. No branch. No rope. No friend. Only me. So I took hold of myself, and I pulled.","A swamp, to the neck, with my horse. No branch. No rope. No friend. Only me. So I took hold of myself, and I pulled."
+2-act2,14,NARRATOR,,narration,270.99,3.38,The Baron heaves at his own hair. Going nowhere.,The Baron heaves at his own hair. Going nowhere.
+2-act2,14,BARON,CONT'D quiet,dialogue,274.72,5.41,One-sixth gravity. A child could do it. I once did it with a horse.,One-sixth gravity. A child could do it. I once did it with a horse.
+2-act2,14,BARON,CONT'D,dialogue,280.48,5.93,"Three months ago the post stopped coming. Then my stories, a little at a time. Today, the door.","Three months ago the post stopped coming. Then my stories, a little at a time. Today, the door."
+2-act2,14,LUCÍA,,dialogue,286.91,1.07,So it was all lies.,So it was all lies.
+2-act2,14,BARON,,dialogue,288.18,4.96,"Do you know what a lie is, Señorita? A story no one believed in time.","Do you know what a lie is, Senyorita? A story no one believed in time."
+2-act2,14,LUCÍA,,dialogue,293.49,0.7,I'm sorry.,I'm sorry.
+2-act2,14,BARON,,dialogue,294.39,3.99,Don't be. You asked. It has been years since anyone asked.,Don't be. You asked. It has been years since anyone asked.
+2-act2,15,NARRATOR,,narration,299.58,3.58,"Scene fifteen. The silver hatchet, cold store.","Scene fifteen. The silver hatchet, cold store."
+2-act2,15,LUCÍA,,dialogue,303.51,1.31,Who keeps a room like this?,Who keeps a room like this?
+2-act2,15,BARON,,dialogue,305.02,7.22,That ground down there has not been warm since before your language. Or mine. The ice in my drinks is older than the alphabet.,That ground down there has not been warm since before your language. Or mine. The ice in my drinks is older than the alphabet.
+2-act2,15,MIRA,,dialogue,312.74,1.5,Probably. Not certainly.,Probably. Not certainly.
+2-act2,15,BARON,,dialogue,314.44,5.55,"Madam, you are the only person on the Moon who can say ""probably"" as if it were a ruling.","Madam, you are the only person on the Moon who can say ""probably"" as if it were a ruling."
+2-act2,15,BARON,CONT'D,dialogue,320.34,8.82,"A postilion played this for me. Down there, on the floor, long ago. A lovely boy. A very cold night. The tunes froze inside before they could get out.","A postilion played this for me. Down there, on the floor, long ago. A lovely boy. A very cold night. The tunes froze inside before they could get out."
+2-act2,15,JAX,,dialogue,329.66,1.02,Tunes don't freeze.,Tunes don't freeze.
+2-act2,15,BARON,,dialogue,330.87,2.03,Not where you are from.,Not where you are from.
+2-act2,15,LUCÍA,,dialogue,333.1,1.28,Where's the postilion now?,Where's the postilion now?
+2-act2,15,BARON,,dialogue,334.58,7.16,Married a baker in Riga. Very happy. A terrible horn player afterwards. He had left all his best tunes with me.,Married a baker in Riga. Very happy. A terrible horn player afterwards. He had left all his best tunes with me.
+2-act2,15,NARRATOR,,narration,342.05,2.98,The frozen horn plays a march by itself.,The frozen horn plays a march by itself.
+2-act2,15,MIRA,,dialogue,345.38,1.31,There's nothing in it.,There's nothing in it.
+2-act2,15,BARON,,dialogue,346.89,5.25,"There was a postilion in it. Long ago. He played very well, and it was very cold.","There was a postilion in it. Long ago. He played very well, and it was very cold."
+2-act2,15,PIP,V.O. quiet,dialogue,352.49,1.75,That is a post horn.,That is a post horn.
+2-act2,15,JAX,,dialogue,354.44,0.48,PIP?,Pip?
+2-act2,15,PIP,V.O.,dialogue,355.12,1.56,That is... the post.,That is... the post.
+2-act2,15,BARON,,dialogue,357.03,3.96,I won it at cards from an English knight. He had a better one.,I won it at cards from an English knight. He had a better one.
+2-act2,15,MIRA,,dialogue,361.35,1.59,I don't have a number for this.,I don't have a number for this.
+2-act2,15,BARON,,dialogue,363.13,2.4,No. That is what it's for.,No. That is what it's for.
+2-act2,16,NARRATOR,,narration,366.73,2.52,"Scene sixteen. Parlour, the offer.","Scene sixteen. Parlour, the offer."
+2-act2,16,CHICHIKOV,O.S.,dialogue,369.61,1.22,That was lovely.,That was lovely.
+2-act2,16,JAX,,dialogue,371.17,1.14,How long have you been there?,How long have you been there?
+2-act2,16,CHICHIKOV,,dialogue,372.51,6.45,"Forgive me, I let myself in. The door is no longer anywhere, so technically there wasn't one.","Forgive me, I let myself in. The door is no longer anywhere, so technically there wasn't one."
+2-act2,16,PIP,V.O.,dialogue,379.29,3.16,I am filing a report. Entry without a door.,I am filing a report. Entry without a door.
+2-act2,16,CHICHIKOV,,dialogue,382.8,5.98,"Of course. Captain. For the carriage of your parcel, unopened, under contract to Voss.","Of course. Captain. For the carriage of your parcel, unopened, under contract to Voss."
+2-act2,16,JAX,,dialogue,389.13,1.01,It's more than the ship.,It's more than the ship.
+2-act2,16,CHICHIKOV,,dialogue,390.34,3.89,Eleven per cent more. I rounded up. It seemed friendlier.,Eleven per cent more. I rounded up. It seemed friendlier.
+2-act2,16,MIRA,,dialogue,394.56,1.93,You can buy it at six for nothing.,You can buy it at six for nothing.
+2-act2,16,CHICHIKOV,,dialogue,396.69,9.83,"The box, Dr Sen. Not the door. A parcel only finds its door in the hands of its carrier of record. We don't want it owned. We want it delivered.","The box, Doctor Sen. Not the door. A parcel only finds its door in the hands of its carrier of record. We don't want it owned. We want it delivered."
+2-act2,16,CHICHIKOV,to the Baron,dialogue,406.77,2.03,"And for you, Baron, a contract.","And for you, Baron, a contract."
+2-act2,16,CHICHIKOV,CONT'D,dialogue,409.14,8.49,Voss Heritage. Relisted by tonight. Your stories would come true. Four audiences a day. People would listen to the end.,Voss Heritage. Relisted by tonight. Your stories would come true. Four audiences a day. People would listen to the end.
+2-act2,16,BARON,,dialogue,417.98,1.14,To the end?,To the end?
+2-act2,16,CHICHIKOV,,dialogue,419.31,1.53,We'd insist on it.,We'd insist on it.
+2-act2,16,LUCÍA,,dialogue,421.04,1.39,Four a day. Is that a lot?,Four a day. Is that a lot?
+2-act2,16,BARON,,dialogue,422.63,2.52,"For a story, it is a feast.","For a story, it is a feast."
+2-act2,16,CHICHIKOV,,dialogue,425.35,7.77,"Both signatures. The courier's and the gentleman's. By six, or neither. A parcel is a string. I need both ends.","Both signatures. The courier's and the gentleman's. By six, or neither. A parcel is a string. I need both ends."
+2-act2,16,CHICHIKOV,"gently, to Lucía",dialogue,433.37,9.47,"Miss Ortega. Account 4471-C. Ortega, Carmen. I could make that number zero before you are home.","Miss Ortega. Account four, four, seven, one, C. Ortega, Carmen. I could make that number zero before you are home."
+2-act2,16,LUCÍA,,dialogue,443.2,1.5,How do you know my mother's name?,How do you know my mother's name?
+2-act2,16,CHICHIKOV,,dialogue,444.9,1.6,We supply her water.,We supply her water.
+2-act2,16,CHICHIKOV,CONT'D,dialogue,446.86,3.46,Six o'clock. I'll be in the hall. You won't notice me.,Six o'clock. I'll be in the hall. You won't notice me.
+3-act3,17,NARRATOR,,narration,0.0,1.84,Act three. Both or Neither.,Act three. Both or Neither.
+3-act3,17,NARRATOR,,narration,2.29,3.74,"Scene seventeen. The post-chaise, climbing back.","Scene seventeen. The post shayz, climbing back."
+3-act3,17,LUCÍA,,dialogue,6.39,0.61,Take it.,Take it.
+3-act3,17,LUCÍA,CONT'D,dialogue,7.7,8.59,"Jax. Take it. Eleven per cent more than the ship. We clear the bank, we keep the ship, I get paid, my mother gets water that isn't on a payment plan.","Jax. Take it. Eleven per cent more than the ship. We clear the bank, we keep the ship, I get paid, my mother gets water that isn't on a payment plan."
+3-act3,17,MIRA,,dialogue,16.79,0.83,And him?,And him?
+3-act3,17,LUCÍA,,dialogue,17.82,4.65,He gets relisted! He gets his stories back! Four shows a day! That's more than I get!,He gets relisted! He gets his stories back! Four shows a day! That's more than I get!
+3-act3,17,BARON,,dialogue,22.79,1.15,She is right.,She is right.
+3-act3,17,LUCÍA,,dialogue,24.14,1.65,Thank you. Jax. Say something.,Thank you. Jax. Say something.
+3-act3,17,LUCÍA,CONT'D,dialogue,26.49,4.14,He's a lovely old man and I'd die for him. I'd just rather not do it for free.,He's a lovely old man and I'd die for him. I'd just rather not do it for free.
+3-act3,17,NARRATOR,,narration,30.92,1.54,The date: the twenty-fourth.,The date: the twenty-fourth.
+3-act3,17,MIRA,,dialogue,32.81,4.15,He was delisted on the twenty-seventh. This is dated the twenty-fourth.,He was delisted on the twenty-seventh. This is dated the twenty-fourth.
+3-act3,17,LUCÍA,,dialogue,37.3,0.46,So?,So?
+3-act3,17,MIRA,,dialogue,37.96,5.42,So they drew up his sale three days before he was delisted. They bought the wreck before they sank the ship.,So they drew up his sale three days before he was delisted. They bought the wreck before they sank the ship.
+3-act3,17,LUCÍA,quieter,dialogue,44.28,1.48,That doesn't change the money.,That doesn't change the money.
+3-act3,17,BARON,,dialogue,45.96,3.63,Three days. On the twenty-fourth I was making jam.,Three days. On the twenty-fourth I was making jam.
+3-act3,18–19,NARRATOR,,narration,50.79,6.28,"Scenes eighteen and nineteen. Customs hall, noakes's office, then the corridor.","Scenes eighteen and nineteen. Customs hall, Noaks's office, then the corridor."
+3-act3,18–19,NOAKES,,dialogue,57.43,1.26,Where did you get this?,Where did you get this?
+3-act3,18–19,MIRA,,dialogue,58.89,3.05,A man left it on a table. No one remembers him.,A man left it on a table. No one remembers him.
+3-act3,18–19,NOAKES,,dialogue,62.27,1.43,Then give it back to him.,Then give it back to him.
+3-act3,18–19,MIRA,,dialogue,63.9,1.4,I can't remember him.,I can't remember him.
+3-act3,18–19,NOAKES,,dialogue,65.51,8.07,"Dr Sen. If you file this, it goes to the Atlas office. The Atlas office is three floors below the Voss Company. You'd be gone by morning. So would the notebook.","Doctor Sen. If you file this, it goes to the Atlas office. The Atlas office is three floors below the Voss Company. You'd be gone by morning. So would the notebook."
+3-act3,18–19,MIRA,,dialogue,74.08,1.28,And if I don't?,And if I don't?
+3-act3,18–19,NOAKES,,dialogue,75.55,6.98,"At six, you stamp lot fourteen abandoned. You keep the job. You keep the notebook. You keep being right in private, which is where most of us keep it.","At six, you stamp lot fourteen abandoned. You keep the job. You keep the notebook. You keep being right in private, which is where most of us keep it."
+3-act3,18–19,MIRA,,dialogue,82.88,2.02,Filing it is the right thing to do.,Filing it is the right thing to do.
+3-act3,18–19,NOAKES,,dialogue,85.1,1.73,Filing it would be courageous.,Filing it would be courageous.
+3-act3,18–19,MIRA,,dialogue,87.04,1.13,Is that a no?,Is that a no?
+3-act3,18–19,NOAKES,,dialogue,88.37,1.63,It's the polite word for one.,It's the polite word for one.
+3-act3,18–19,NARRATOR,,narration,90.35,2.5,Mira takes the stamp: abandoned.,Mira takes the stamp: abandoned.
+3-act3,18–19,JAX,,dialogue,93.2,2.17,"You should file it. File it, they can't sell him.","You should file it. File it, they can't sell him."
+3-act3,18–19,MIRA,,dialogue,95.7,1.84,They can. After they've sacked me.,They can. After they've sacked me.
+3-act3,18–19,JAX,,dialogue,97.74,0.82,But you'd be right.,But you'd be right.
+3-act3,18–19,MIRA,,dialogue,98.76,5.05,I'm always right. It has never once been useful. You want me to be brave so you can be rich.,I'm always right. It has never once been useful. You want me to be brave so you can be rich.
+3-act3,18–19,JAX,,dialogue,104.3,4.5,I want everyone to be brave. I'm just not in a position to lead by example.,I want everyone to be brave. I'm just not in a position to lead by example.
+3-act3,18–19,MIRA,,dialogue,109.14,1.26,You could not sign.,You could not sign.
+3-act3,18–19,JAX,,dialogue,110.6,8.18,"Then I lose the ship, she doesn't get paid, and he gets sold at six anyway, cheaper. Me being a hero just makes it a worse deal for everyone.","Then I lose the ship, she doesn't get paid, and he gets sold at six anyway, cheaper. Me being a hero just makes it a worse deal for everyone."
+3-act3,18–19,MIRA,,dialogue,119.28,1.91,You've had that ready since the parlour.,You've had that ready since the parlour.
+3-act3,18–19,MIRA,CONT'D,dialogue,121.54,3.58,Your record starts seven years ago. What happened before that?,Your record starts seven years ago. What happened before that?
+3-act3,18–19,JAX,,dialogue,126.22,0.73,I don't know.,I don't know.
+3-act3,18–19,JAX,a beat,dialogue,127.75,3.0,I paid a man to make it blank. I don't remember what for.,I paid a man to make it blank. I don't remember what for.
+3-act3,18–19,MIRA,,dialogue,131.08,2.12,That's the first true thing you've said to me.,That's the first true thing you've said to me.
+3-act3,20,NARRATOR,,narration,134.41,3.43,"Scene twenty. The unscheduled, cargo hold.","Scene twenty. The unscheduled, cargo hold."
+3-act3,20,LUCÍA,,dialogue,138.19,6.54,"If you don't sign, I walk. Next tug to Ceres. I'll go and stand in my mother's kitchen and tell her I nearly had it.","If you don't sign, I walk. Next tug to Ceres. I'll go and stand in my mother's kitchen and tell her I nearly had it."
+3-act3,20,JAX,,dialogue,145.23,0.67,Lucha—,Lucha—
+3-act3,20,LUCÍA,,dialogue,146.1,4.3,"He told me to. The Baron. He said, ""Go, I'm old and you're owed."" He's nicer than you.","He told me to. The Baron. He said, ""Go, I'm old and you're owed."" He's nicer than you."
+3-act3,20,JAX,,dialogue,150.9,7.25,"Everyone's nicer than me. It's how I stand out. Listen. Next job, you get the first cut. The whole first cut, before—","Everyone's nicer than me. It's how I stand out. Listen. Next job, you get the first cut. The whole first cut, before—"
+3-act3,20,LUCÍA,,dialogue,158.5,3.2,"You promise like it's money, Jax. It isn't money. I've checked.","You promise like it's money, Jax. It isn't money. I've checked."
+3-act3,20,PIP,V.O.,dialogue,162.05,12.03,May I offer an opinion? It concerns the parcel. Deliver it. It has been trying for twenty years. Somebody has posted it thirty-two times. No one should have to post anything thirty-two times.,May I offer an opinion? It concerns the parcel. Deliver it. It has been trying for twenty years. Somebody has posted it thirty-two times. No one should have to post anything thirty-two times.
+3-act3,20,LUCÍA,,dialogue,174.58,1.31,"We can't deliver it, PIP.","We can't deliver it, Pip."
+3-act3,20,PIP,V.O.,dialogue,176.08,2.2,Then I have no further opinion.,Then I have no further opinion.
+3-act3,20,JAX,,dialogue,178.63,0.73,I'll sign.,I'll sign.
+3-act3,20,LUCÍA,,dialogue,179.57,0.47,Good.,Good.
+3-act3,21,NARRATOR,,narration,181.23,4.03,"Scene twenty-one. Outer rim, earth on the horizon.","Scene twenty-one. Outer rim, earth on the horizon."
+3-act3,21,BARON,,dialogue,185.62,4.98,"There it is. Here it doesn't rise. It waits, low, like a dog at a door.","There it is. Here it doesn't rise. It waits, low, like a dog at a door."
+3-act3,21,BARON,a beat,dialogue,191.39,1.83,"Sign, Captain.","Sign, Captain."
+3-act3,21,JAX,,dialogue,193.43,1.64,You'd be a show. Four times a day.,You'd be a show. Four times a day.
+3-act3,21,BARON,,dialogue,195.27,9.48,A tidy Baron is still a Baron. A thin one is a coat on a chair. I have seen the thin ones. They sit in waiting rooms and cannot remember what they are waiting for.,A tidy Baron is still a Baron. A thin one is a coat on a chair. I have seen the thin ones. They sit in waiting rooms and cannot remember what they are waiting for.
+3-act3,21,JAX,,dialogue,205.25,0.74,Tell me one.,Tell me one.
+3-act3,21,BARON,surprised,dialogue,206.2,1.29,You want one?,You want one?
+3-act3,21,JAX,,dialogue,207.68,2.0,I've got eleven minutes before I sign it.,I've got eleven minutes before I sign it.
+3-act3,21,BARON,,dialogue,209.88,4.95,I don't need eleven minutes. I need you not to interrupt the way you interrupt the bank.,I don't need eleven minutes. I need you not to interrupt the way you interrupt the bank.
+3-act3,21,BARON,settling,dialogue,215.08,11.2,"Oczakow. The Turks had the fortress. We had the field. The general wanted to know how many guns were inside. So I stood by our biggest cannon, and when it fired, I jumped on the ball.","Ochakoff. The Turks had the fortress. We had the field. The general wanted to know how many guns were inside. So I stood by our biggest cannon, and when it fired, I jumped on the ball."
+3-act3,21,JAX,,dialogue,226.78,0.55,On it.,On it.
+3-act3,21,BARON,,dialogue,227.54,2.96,"Astride. Like a horse, but rounder.","Astride. Like a horse, but rounder."
+3-act3,21,BARON,CONT'D,dialogue,230.74,10.26,"Halfway across, I had doubts. I am not ashamed of doubts. If I land in there, they will hang me for a spy. So when a ball came past from their side, going the other way — I changed.","Halfway across, I had doubts. I am not ashamed of doubts. If I land in there, they will hang me for a spy. So when a ball came past from their side, going the other way — I changed."
+3-act3,21,JAX,,dialogue,241.5,1.2,You changed cannonballs.,You changed cannonballs.
+3-act3,21,BARON,,dialogue,242.91,7.14,"In mid-air. And rode it home. Earth says I rode one there and back. I rode it there. Back, I took a different cannonball.","In mid-air. And rode it home. Earth says I rode one there and back. I rode it there. Back, I took a different cannonball."
+3-act3,21,BARON,CONT'D,dialogue,250.4,3.88,There. You listened to the end. Do you know how rare that is?,There. You listened to the end. Do you know how rare that is?
+3-act3,21,JAX,,dialogue,254.61,0.78,Did it happen?,Did it happen?
+3-act3,21,BARON,,dialogue,255.59,2.93,It's happening now. You are the audience.,It's happening now. You are the audience.
+3-act3,21,BARON,CONT'D,dialogue,259.41,6.06,If ever you need me — truly — I will come. By cannonball. It is undignified and very fast.,If ever you need me — truly — I will come. By cannonball. It is undignified and very fast.
+3-act3,21,JAX,,dialogue,265.97,1.24,That's not a real promise.,That's not a real promise.
+3-act3,21,BARON,,dialogue,267.41,3.05,"Young man, it is the only kind I make.","Young man, it is the only kind I make."
+3-act3,21,NARRATOR,,narration,270.81,2.59,The Baron gives Jax the silver hatchet.,The Baron gives Jax the silver hatchet.
+3-act3,21,BARON,CONT'D,dialogue,273.75,5.68,Take this. It has always wanted to go somewhere. Your hand knew where the balance was before you did.,Take this. It has always wanted to go somewhere. Your hand knew where the balance was before you did.
+3-act3,21,BARON,CONT'D,dialogue,279.78,2.18,"You lie well, Captain.","You lie well, Captain."
+3-act3,21,JAX,,dialogue,282.16,0.53,Thanks.,Thanks.
+3-act3,21,BARON,,dialogue,282.89,3.67,You lie like a man who once had to lie for his life.,You lie like a man who once had to lie for his life.
+3-act3,21,JAX,,dialogue,287.47,1.52,It's twenty to. We should go in.,It's twenty to. We should go in.
+3-act3,21,BARON,,dialogue,289.18,3.93,Go on. I'll watch it a little longer. It might do something.,Go on. I'll watch it a little longer. It might do something.
+3-act3,22,NARRATOR,,narration,294.31,3.4,"Scene twenty-two. Customs hall, the signing.","Scene twenty-two. Customs hall, the signing."
+3-act3,22,JAX,V.O.,dialogue,298.06,5.19,Quarter to six. I'd made up my mind. I want that clear. I had completely made up my mind.,Quarter to six. I'd made up my mind. I want that clear. I had completely made up my mind.
+3-act3,22,NOAKES,,dialogue,303.6,4.99,"For the record. Lot fourteen, private sale, at the buyer's request. Dr Sen. The stamp, at six.","For the record. Lot fourteen, private sale, at the buyer's request. Doctor Sen. The stamp, at six."
+3-act3,22,CHICHIKOV,,dialogue,308.92,7.07,"Baron. If you would. Here, and here, and initial where the little arrows are. I drew the little arrows myself.","Baron. If you would. Here, and here, and initial where the little arrows are. I drew the little arrows myself."
+3-act3,22,LUCÍA,a breath,dialogue,316.44,0.75,It stayed.,It stayed.
+3-act3,22,BARON,looking at his own hands,dialogue,317.39,2.11,I am... somewhere.,I am... somewhere.
+3-act3,22,BARON,"a beat, wondering",dialogue,320.3,2.47,I believe I am taller.,I believe I am taller.
+3-act3,22,CHICHIKOV,,dialogue,322.97,4.39,"Welcome back, Baron. Listed. Voss Heritage, Shackleton. Captain?","Welcome back, Baron. Listed. Voss Heritage, Shackleton. Captain?"
+3-act3,22,CHICHIKOV,CONT'D,dialogue,327.72,6.71,"While the Captain signs — a little story, for our first audience? Tell the Captain how you came to the Moon.","While the Captain signs — a little story, for our first audience? Tell the Captain how you came to the Moon."
+3-act3,22,BARON,delighted,dialogue,334.93,4.26,"Ah! Well. I was a prisoner of the Sultan, keeping his bees, and—","Ah! Well. I was a prisoner of the Sultan, keeping his bees, and—"
+3-act3,22,BARON,CONT'D,dialogue,339.54,2.48,I... took a scheduled shuttle.,I... took a scheduled shuttle.
+3-act3,22,BARON,CONT'D,dialogue,342.92,4.15,"That is not — I threw a silver hatchet at two bears, and it—","That is not — I threw a silver hatchet at two bears, and it—"
+3-act3,22,BARON,CONT'D appalled at himself,dialogue,347.32,4.74,I took a scheduled shuttle. Economy. It was perfectly pleasant.,I took a scheduled shuttle. Economy. It was perfectly pleasant.
+3-act3,22,LUCÍA,,dialogue,352.38,1.23,What's happening to him?,What's happening to him?
+3-act3,22,CHICHIKOV,,dialogue,353.81,9.17,Clause nine. Approved material. The Heritage Baron came to the Moon as a tourist and fell in love with the view. It tests very well.,Clause nine. Approved material. The Heritage Baron came to the Moon as a tourist and fell in love with the view. It tests very well.
+3-act3,22,BARON,fighting it,dialogue,363.48,3.6,The bean — I planted a — the horns of the —,The bean — I planted a — the horns of the —
+3-act3,22,BARON,helpless,dialogue,367.32,2.78,The shuttle had a lovely lounge.,The shuttle had a lovely lounge.
+3-act3,22,JAX,,dialogue,370.45,0.81,Both or neither.,Both or neither.
+3-act3,22,CHICHIKOV,,dialogue,371.46,0.86,I'm sorry?,I'm sorry?
+3-act3,22,JAX,,dialogue,372.52,2.13,"That's what you said. Both signatures, or neither.","That's what you said. Both signatures, or neither."
+3-act3,22,JAX,CONT'D,dialogue,375.0,0.57,Neither.,Neither.
+3-act3,22,NARRATOR,,narration,375.92,3.5,The signature fades again. The red drains out.,The signature fades again. The red drains out.
+3-act3,22,BARON,,dialogue,379.76,2.0,I came on a beanstalk!,I came on a beanstalk!
+3-act3,22,LUCÍA,,dialogue,382.11,0.47,Good.,Good.
+3-act3,22,CHICHIKOV,"pleasant, unruffled",dialogue,382.78,7.22,"Then at six I buy him for the price of a sandwich. The parcel will wait for you, Captain. It is good at waiting.","Then at six I buy him for the price of a sandwich. The parcel will wait for you, Captain. It is good at waiting."
+3-act3,22,JAX,,dialogue,390.35,0.96,It's quarter to.,It's quarter to.
+3-act3,22,NOAKES,very quietly,dialogue,391.65,1.53,That was an incident.,That was an incident.
+3-act3,22,NOAKES,into his wrist,dialogue,393.43,1.15,Seal the port.,Seal the port.
+4-act4-and-tag,23,NARRATOR,,narration,0.0,2.95,Act four. Between the Light and the Dark.,Act four. Between the Light and the Dark.
+4-act4-and-tag,23,NARRATOR,,narration,3.4,3.79,Scene twenty-three. Customs corridor to the airlock.,Scene twenty-three. Customs corridor to the airlock.
+4-act4-and-tag,23,LUCÍA,,dialogue,7.54,2.7,I wrestled in a third of a g. This is a holiday.,I wrestled in a third of a g. This is a holiday.
+4-act4-and-tag,23,BARON,,dialogue,10.57,3.69,"Madam, I have been carried from battlefields by worse.","Madam, I have been carried from battlefields by worse."
+4-act4-and-tag,23,JAX,,dialogue,14.59,1.0,Ship's at bay nine!,Ship's at bay nine!
+4-act4-and-tag,23,LUCÍA,,dialogue,15.79,3.89,Bay nine's airlock is sealed! We go round outside! His car's at two!,Bay nine's airlock is sealed! We go round outside! His car's at two!
+4-act4-and-tag,23,BARON,,dialogue,20.01,4.92,It is a post-chaise. Mind my trunk. It is on the roof. It always is.,It is a post shayz. Mind my trunk. It is on the roof. It always is.
+4-act4-and-tag,24,NARRATOR,,narration,26.13,3.07,"Scene twenty-four. Rim road, the chase.","Scene twenty-four. Rim road, the chase."
+4-act4-and-tag,24,LUCÍA,O.S.,dialogue,30.29,0.79,Two behind.,Two behind.
+4-act4-and-tag,24,JAX,O.S.,dialogue,31.28,0.72,How close?,How close?
+4-act4-and-tag,24,LUCÍA,O.S.,dialogue,32.2,1.5,"I don't know, I can't hear them.","I don't know, I can't hear them."
+4-act4-and-tag,24,JAX,O.S.,dialogue,33.91,1.74,You can't hear anything. There's no air.,You can't hear anything. There's no air.
+4-act4-and-tag,24,LUCÍA,O.S.,dialogue,35.84,0.9,That's my point!,That's my point!
+4-act4-and-tag,24,NARRATOR,,narration,37.05,4.03,A card on the crawler's window: Customs. Pull over.,A card on the crawler's window: Customs. Pull over.
+4-act4-and-tag,24,JAX,O.S.,dialogue,41.42,0.87,He's got a sign.,He's got a sign.
+4-act4-and-tag,24,LUCÍA,O.S.,dialogue,42.49,1.4,I'm not stopping for a sign.,I'm not stopping for a sign.
+4-act4-and-tag,24,NARRATOR,,narration,44.24,1.69,The card flips: please.,The card flips: please.
+4-act4-and-tag,24,LUCÍA,O.S. CONT'D,dialogue,46.28,0.7,...That's low.,...That's low.
+4-act4-and-tag,24,NARRATOR,,narration,47.28,3.11,"The rover hangs over the gully, in silence.","The rover hangs over the gully, in silence."
+4-act4-and-tag,24,JAX,,dialogue,50.74,0.98,Are we coming down?,Are we coming down?
+4-act4-and-tag,24,LUCÍA,,dialogue,51.92,0.75,Eventually.,Eventually.
+4-act4-and-tag,24,BARON,,dialogue,53.02,12.51,"Cowards of customs! You chase an old man across his own Moon! I charged the Turk at Oczakow! I turned back a forty-eight-pound ball at Gibraltar! I was swallowed by a fish and left by the front door! Turn back, or—","Cowards of customs! You chase an old man across his own Moon! I charged the Turk at Ochakoff! I turned back a forty-eight-pound ball at Gibraltar! I was swallowed by a fish and left by the front door! Turn back, or—"
+4-act4-and-tag,24,LUCÍA,,dialogue,66.03,1.02,Your radio's off.,Your radio's off.
+4-act4-and-tag,24,BARON,,dialogue,67.25,4.29,I know. They are not worthy of the words. But I needed to say them.,I know. They are not worthy of the words. But I needed to say them.
+4-act4-and-tag,24,PIP,V.O. wrist,dialogue,71.9,3.99,Customs vehicle one has stopped. It is still asking nicely.,Customs vehicle one has stopped. It is still asking nicely.
+4-act4-and-tag,25,NARRATOR,,narration,77.08,3.97,"Scene twenty-five. Customs hall, the clamp console.","Scene twenty-five. Customs hall, the clamp console."
+4-act4-and-tag,25,NOAKES,"fast, one breath",dialogue,81.4,6.68,Atlas Office Rim Port Superintendent Noakes N-O-A-K-E-S authority to lock the closed clamp at bay nine vessel The Unscheduled that's its name not a complaint and yes I'll hold.,Atlas Office Rim Port Superintendent Noaks N. O. A. K. E. S. authority to lock the closed clamp at bay nine vessel The Unscheduled that's its name not a complaint and yes I'll hold.
+4-act4-and-tag,25,NOAKES,CONT'D,dialogue,88.43,0.68,Yes.,Yes.
+4-act4-and-tag,25,NOAKES,CONT'D,dialogue,90.01,1.32,"No, that's its name.","No, that's its name."
+4-act4-and-tag,25,MIRA,,dialogue,92.24,1.91,They haven't asked you anything yet.,They haven't asked you anything yet.
+4-act4-and-tag,25,NOAKES,,dialogue,94.34,7.26,"They will. Earth asks the same four questions, two point six seconds late. I answer them first. In eleven years I've saved nearly four hours.","They will. Earth asks the same four questions, two point six seconds late. I answer them first. In eleven years I've saved nearly four hours."
+4-act4-and-tag,25,MIRA,,dialogue,102.11,1.49,What are you saving them for?,What are you saving them for?
+4-act4-and-tag,25,NOAKES,,dialogue,103.79,1.18,My retirement.,My retirement.
+4-act4-and-tag,25,NARRATOR,,narration,105.32,3.09,A soft grey hand taps a brass device.,A soft grey hand taps a brass device.
+4-act4-and-tag,25,NOAKES,CONT'D,dialogue,109.31,1.32,...Sorry? A reason?,...Sorry? A reason?
+4-act4-and-tag,25,NOAKES,CONT'D covering the mouthpiece,dialogue,110.88,1.65,They've never asked for a reason.,They've never asked for a reason.
+4-act4-and-tag,25,CHICHIKOV,"O.S. from the back, pleasantly",dialogue,112.73,12.17,"Regulation nineteen, Superintendent. Locking a clamp on delisted goods needs a reason, in writing, in triplicate. I was in customs myself, once. I was very zealous.","Regulation nineteen, Superintendent. Locking a clamp on delisted goods needs a reason, in writing, in triplicate. I was in customs myself, once. I was very zealous."
+4-act4-and-tag,25,NOAKES,"into the headset, weakly",dialogue,125.25,1.57,Routine. Very routine.,Routine. Very routine.
+4-act4-and-tag,25,NOAKES,CONT'D to Mira,dialogue,127.17,2.24,"When Earth says yes, turn yours to lock.","When Earth says yes, turn yours to lock."
+4-act4-and-tag,25,MIRA,,dialogue,129.61,1.65,And until Earth says yes?,And until Earth says yes?
+4-act4-and-tag,25,NOAKES,,dialogue,131.46,2.82,"Until Earth says yes, Dr Sen, nothing has happened.","Until Earth says yes, Doctor Sen, nothing has happened."
+4-act4-and-tag,26,NARRATOR,,narration,135.48,3.34,"Scene twenty-six. Rim road, the inner edge.","Scene twenty-six. Rim road, the inner edge."
+4-act4-and-tag,26,LUCÍA,O.S.,dialogue,139.17,2.77,"Blocked ahead, one behind, and the edge on the left!","Blocked ahead, one behind, and the edge on the left!"
+4-act4-and-tag,26,JAX,O.S.,dialogue,142.26,0.67,Go left.,Go left.
+4-act4-and-tag,26,LUCÍA,O.S.,dialogue,143.13,0.86,That's the crater!,That's the crater!
+4-act4-and-tag,26,JAX,O.S.,dialogue,144.2,0.67,Go left.,Go left.
+4-act4-and-tag,26,BARON,O.S.,dialogue,145.06,2.64,"Captain, no one goes down there—","Captain, no one goes down there—"
+4-act4-and-tag,26,JAX,O.S.,dialogue,147.91,1.41,Everyone hold on to something.,Everyone hold on to something.
+4-act4-and-tag,26,BARON,O.S.,dialogue,149.52,3.89,I am holding on to my opinion that this is a mistake.,I am holding on to my opinion that this is a mistake.
+4-act4-and-tag,26,NARRATOR,,narration,153.76,2.76,The rover goes over the edge. Black.,The rover goes over the edge. Black.
+4-act4-and-tag,26,LUCÍA,O.S.,dialogue,157.42,0.58,Lights.,Lights.
+4-act4-and-tag,27,NARRATOR,,narration,159.2,4.31,"Scene twenty-seven. Shackleton, the inner wall, in the dark.","Scene twenty-seven. Shackleton, the inner wall, in the dark."
+4-act4-and-tag,27,LUCÍA,,dialogue,163.86,2.14,Heater's dying. The batteries hate this.,Heater's dying. The batteries hate this.
+4-act4-and-tag,27,BARON,,dialogue,166.19,3.53,Everything hates this. That's why it is empty.,Everything hates this. That's why it is empty.
+4-act4-and-tag,27,JAX,,dialogue,169.93,0.48,PIP?,Pip?
+4-act4-and-tag,27,PIP,"V.O. wrist, crackling",dialogue,170.6,4.59,"I have no map of this wall, Captain. It was in the Atlas. It isn't now.","I have no map of this wall, Captain. It was in the Atlas. It isn't now."
+4-act4-and-tag,27,MIRA,V.O. radio,dialogue,176.09,4.03,"Jax. It's Mira. Don't move. PIP, send me your wheel count and heading.","Jax. It's Mira. Don't move. Pip, send me your wheel count and heading."
+4-act4-and-tag,27,PIP,V.O.,dialogue,180.45,0.83,Sending.,Sending.
+4-act4-and-tag,27,MIRA,V.O.,dialogue,181.48,4.71,"You're on the open customs channel, so everyone can hear this. Hello, everyone.","You're on the open customs channel, so everyone can hear this. Hello, everyone."
+4-act4-and-tag,27,MIRA,V.O. CONT'D,dialogue,186.54,9.64,"This slope has only been seen faintly from orbit, by light bounced off the crater walls. But a laser has measured every metre of it. I've read all of it. In my own time.","This slope has only been seen faintly from orbit, by light bounced off the crater walls. But a laser has measured every metre of it. I've read all of it. In my own time."
+4-act4-and-tag,27,JAX,,dialogue,196.68,1.06,How well do you know it?,How well do you know it?
+4-act4-and-tag,27,MIRA,V.O.,dialogue,197.93,3.2,Better than your record. Left eleven degrees. Slowly.,Better than your record. Left eleven degrees. Slowly.
+4-act4-and-tag,27,MIRA,V.O. CONT'D,dialogue,201.49,0.66,Stop.,Stop.
+4-act4-and-tag,27,MIRA,V.O. CONT'D,dialogue,202.5,5.21,"Four metres to your right, the wall goes down four kilometres. I'd like you not to find out.","Four metres to your right, the wall goes down four kilometres. I'd like you not to find out."
+4-act4-and-tag,27,JAX,,dialogue,208.21,0.87,How sure are you?,How sure are you?
+4-act4-and-tag,27,MIRA,V.O.,dialogue,209.27,3.83,I've been sure for six years. You're the first one who's had to listen.,I've been sure for six years. You're the first one who's had to listen.
+4-act4-and-tag,27,NOAKES,"O.S. beside her, on her open mic",dialogue,213.43,1.78,Dr Sen. Get off this channel.,Doctor Sen. Get off this channel.
+4-act4-and-tag,27,MIRA,V.O.,dialogue,215.42,7.48,"Noted, sir. Forward forty metres. A boulder the size of a house. Round it on the left. Not your left, Captain. Lucía's driving.","Noted, sir. Forward forty metres. A boulder the size of a house. Round it on the left. Not your left, Captain. Looseea's driving."
+4-act4-and-tag,27,LUCÍA,,dialogue,223.4,0.63,Thank you.,Thank you.
+4-act4-and-tag,27,MIRA,V.O.,dialogue,224.23,8.02,Now right. Now straight. The service ramp to bay nine starts in two hundred metres. It climbs into the Sun. You'll be blinded. Don't stop.,Now right. Now straight. The service ramp to bay nine starts in two hundred metres. It climbs into the Sun. You'll be blinded. Don't stop.
+4-act4-and-tag,27,BARON,softly,dialogue,232.75,2.56,"Madam, you are a wonder.","Madam, you are a wonder."
+4-act4-and-tag,27,MIRA,V.O.,dialogue,235.51,1.51,I'm a cartographer.,I'm a cartographer.
+4-act4-and-tag,27,BARON,,dialogue,237.22,1.94,That is what I said.,That is what I said.
+4-act4-and-tag,28,NARRATOR,,narration,240.36,2.87,"Scene twenty-eight. Customs hall, the key.","Scene twenty-eight. Customs hall, the key."
+4-act4-and-tag,28,NOAKES,,dialogue,243.58,1.23,They're off the wall?,They're off the wall?
+4-act4-and-tag,28,MIRA,,dialogue,245.01,1.28,They're on the ramp.,They're on the ramp.
+4-act4-and-tag,28,NARRATOR,,narration,246.64,1.81,Mira turns her key to open.,Mira turns her key to open.
+4-act4-and-tag,28,NOAKES,,dialogue,248.8,1.02,What are you doing?,What are you doing?
+4-act4-and-tag,28,MIRA,,dialogue,250.02,2.28,"Nothing, sir. Earth hasn't said yes.","Nothing, sir. Earth hasn't said yes."
+4-act4-and-tag,28,NARRATOR,,narration,253.9,2.14,Authority to lock: received.,Authority to lock: received.
+4-act4-and-tag,28,NOAKES,,dialogue,256.4,1.46,"Dr Sen, that was—","Doctor Sen, that was—"
+4-act4-and-tag,28,MIRA,,dialogue,258.06,1.74,Courageous. Yes. I've heard.,Courageous. Yes. I've heard.
+4-act4-and-tag,28,NARRATOR,,narration,260.1,1.93,"In her notebook, owner: Voss.","In her notebook, owner: Voss."
+4-act4-and-tag,28,CHICHIKOV,"to himself, pleasantly",dialogue,262.38,1.03,Cartographer.,Cartographer.
+4-act4-and-tag,28,NOAKES,,dialogue,263.61,1.17,Where will you go?,Where will you go?
+4-act4-and-tag,28,MIRA,,dialogue,264.97,1.03,Off the map.,Off the map.
+4-act4-and-tag,28,NOAKES,,dialogue,266.2,2.08,"There's nothing off the map, Dr Sen.","There's nothing off the map, Doctor Sen."
+4-act4-and-tag,28,MIRA,,dialogue,268.63,2.61,"Then the map is wrong, sir. I did mention it.","Then the map is wrong, sir. I did mention it."
+4-act4-and-tag,29,NARRATOR,,narration,272.45,3.17,"Scene twenty-nine. Bay nine, the apron.","Scene twenty-nine. Bay nine, the apron."
+4-act4-and-tag,29,JAX,radio,dialogue,275.97,1.07,Go! I'll get the ramp!,Go! I'll get the ramp!
+4-act4-and-tag,29,LUCÍA,O.S. radio,dialogue,277.39,0.74,We're hooked!,We're hooked!
+4-act4-and-tag,29,LUCÍA,O.S. CONT'D,dialogue,278.49,1.49,"Jax, you're eighty metres away!","Jax, you're eighty metres away!"
+4-act4-and-tag,29,JAX,,dialogue,280.18,0.61,I know.,I know.
+4-act4-and-tag,29,NARRATOR,,narration,281.09,3.7,"The hatchet arcs, turns once, and cuts the line.","The hatchet arcs, turns once, and cuts the line."
+4-act4-and-tag,29,BARON,O.S.,dialogue,285.15,3.88,An unlucky turn of the arm. I had one of those once.,An unlucky turn of the arm. I had one of those once.
+4-act4-and-tag,29,LUCÍA,O.S.,dialogue,289.36,1.0,How did you do that?,How did you do that?
+4-act4-and-tag,29,JAX,,dialogue,290.56,0.59,Darts.,Darts.
+4-act4-and-tag,29,JAX,CONT'D,dialogue,291.5,0.97,Lot of... bars.,Lot of... bars.
+4-act4-and-tag,29,PIP,O.S. radio,dialogue,292.67,3.35,"Clamp open, bay nine. The duty officer's key.","Clamp open, bay nine. The duty officer's key."
+4-act4-and-tag,29,JAX,,dialogue,296.22,0.53,Mira.,Mira.
+4-act4-and-tag,29,MIRA,O.S. radio,dialogue,297.1,1.54,Don't close the ramp.,Don't close the ramp.
+4-act4-and-tag,29,JAX,,dialogue,298.84,1.02,You're allowed to do that?,You're allowed to do that?
+4-act4-and-tag,29,MIRA,O.S.,dialogue,300.06,2.63,Lunar Courier Exemption. Section twelve.,Lunar Courier Exemption. Section twelve.
+4-act4-and-tag,29,JAX,,dialogue,302.88,1.12,There are nine sections.,There are nine sections.
+4-act4-and-tag,29,MIRA,O.S.,dialogue,304.2,2.27,Which is why twelve is so exclusive.,Which is why twelve is so exclusive.
+4-act4-and-tag,29,LUCÍA,O.S.,dialogue,306.67,2.08,Welcome aboard. No one gets paid.,Welcome aboard. No one gets paid.
+4-act4-and-tag,29,BARON,O.S.,dialogue,309.1,5.93,No. I am a Moon man. I came up here for a hatchet once. Now I must go and find it again.,No. I am a Moon man. I came up here for a hatchet once. Now I must go and find it again.
+4-act4-and-tag,29,JAX,,dialogue,315.53,0.86,"Baron, come on—","Baron, come on—"
+4-act4-and-tag,29,BARON,O.S.,dialogue,316.59,3.54,Go to the far side. No signal reaches it.,Go to the far side. No signal reaches it.
+4-act4-and-tag,29,JAX,,dialogue,320.46,0.74,Why would I—,Why would I—
+4-act4-and-tag,29,PIP,O.S.,dialogue,321.4,5.53,Captain. Six o'clock in four minutes. The bank's signal reaches anywhere Earth can see.,Captain. Six o'clock in four minutes. The bank's signal reaches anywhere Earth can see.
+4-act4-and-tag,29,JAX,,dialogue,327.26,0.88,...Far side.,...Far side.
+4-act4-and-tag,29,BARON,O.S.,dialogue,328.34,3.2,And tell the lady I said nothing about her.,And tell the lady I said nothing about her.
+4-act4-and-tag,29,JAX,,dialogue,331.87,0.65,What lady?,What lady?
+4-act4-and-tag,29,BARON,O.S.,dialogue,332.72,1.91,She will know. Go!,She will know. Go!
+4-act4-and-tag,29,LUCÍA,O.S.,dialogue,334.98,1.87,He's not coming. His luggage is.,He's not coming. His luggage is.
+4-act4-and-tag,29,NARRATOR,,narration,337.15,3.9,One small figure with a hat. It does not move.,One small figure with a hat. It does not move.
+4-act4-and-tag,30,NARRATOR,,narration,342.26,3.62,"Scene thirty. The unscheduled, bridge, afterwards.","Scene thirty. The unscheduled, bridge, afterwards."
+4-act4-and-tag,30,TEMI,V.O.,dialogue,346.22,7.94,"Good evening! It's six o'clock, so we're now recovering the rest of your vessel, including the air. I'm sorry, Captain. Genuinely. I hope you're somewhere—","Good evening! It's six o'clock, so we're now recovering the rest of your vessel, including the air. I'm sorry, Captain. Genuinely. I hope you're somewhere—"
+4-act4-and-tag,30,NARRATOR,,narration,354.52,4.3,Earth slips below the horizon. Temi's call goes black.,Earth slips below the horizon. Temi's call goes black.
+4-act4-and-tag,30,PIP,,dialogue,359.71,6.66,"We are behind the Moon. Earth cannot see us, so neither can the bank. If we leave the far side, it takes the air.","We are behind the Moon. Earth cannot see us, so neither can the bank. If we leave the far side, it takes the air."
+4-act4-and-tag,30,PIP,CONT'D,dialogue,367.48,9.34,Status. The lien is unpaid. We are wanted by customs. Dr Sen is unemployed. Account 4471-C remains unpaid.,"Status. The lien is unpaid. We are wanted by customs. Doctor Sen is unemployed. Account four, four, seven, one, C remains unpaid."
+4-act4-and-tag,30,LUCÍA,not looking up,dialogue,377.32,0.9,I know the number.,I know the number.
+4-act4-and-tag,30,PIP,,dialogue,378.42,3.78,"Miss Ortega is owed eight months, three weeks and six days.","Miss Ortega is owed eight months, three weeks and six days."
+4-act4-and-tag,30,LUCÍA,,dialogue,382.53,1.99,Nine. I'm rounding up. It's friendlier.,Nine. I'm rounding up. It's friendlier.
+4-act4-and-tag,30,JAX,,dialogue,384.72,0.78,Nine months.,Nine months.
+4-act4-and-tag,30,LUCÍA,,dialogue,385.7,0.94,Don't make it ten.,Don't make it ten.
+4-act4-and-tag,30,JAX,,dialogue,387.54,1.37,You gave up your job for us.,You gave up your job for us.
+4-act4-and-tag,30,MIRA,,dialogue,389.12,4.06,I gave up my job for a coordinate. You happened to be standing on it.,I gave up my job for a coordinate. You happened to be standing on it.
+4-act4-and-tag,30,NARRATOR,,narration,393.52,4.24,Lucía raps the coffee machine. The green light comes on.,Looseea raps the coffee machine. The green light comes on.
+4-act4-and-tag,30,PIP,,dialogue,398.12,2.56,That machine is the property of the bank.,That machine is the property of the bank.
+4-act4-and-tag,30,LUCÍA,,dialogue,400.88,1.25,Then they can come and get it.,Then they can come and get it.
+4-act4-and-tag,30,MIRA,quietly,dialogue,402.33,1.31,It prefers her.,It prefers her.
+4-act4-and-tag,30,PIP,,dialogue,404.74,11.51,I am filing a report on myself. Aiding fugitives. Failing to deliver. Receiving a stolen coffee machine. And one count of enjoying it. I have recommended my own dismissal.,I am filing a report on myself. Aiding fugitives. Failing to deliver. Receiving a stolen coffee machine. And one count of enjoying it. I have recommended my own dismissal.
+4-act4-and-tag,30,JAX,,dialogue,416.74,0.59,Denied.,Denied.
+4-act4-and-tag,30,PIP,,dialogue,417.53,2.74,You cannot deny it. You are not the recipient.,You cannot deny it. You are not the recipient.
+4-act4-and-tag,30,NARRATOR,,narration,420.63,5.08,Report twelve-oh-seven: sent. Read in one point three seconds.,Report twelve-oh-seven: sent. Read in one point three seconds.
+4-act4-and-tag,30,JAX,V.O.,dialogue,426.05,9.44,"So. It cost a ship's worth of money, a job, nine months' wages and our names. What we got for it was a parcel we couldn't deliver. Good trade. I'm a professional.","So. It cost a ship's worth of money, a job, nine months' wages and our names. What we got for it was a parcel we couldn't deliver. Good trade. I'm a professional."
+4-act4-and-tag,30,JAX,V.O. CONT'D,dialogue,435.74,2.67,We left the Baron on the Moon. I want that on the record.,We left the Baron on the Moon. I want that on the record.
+4-act4-and-tag,30,JAX,V.O. CONT'D,dialogue,438.67,1.17,We definitely left him.,We definitely left him.
+4-act4-and-tag,31,NARRATOR,,narration,441.04,0.59,Tag.,Tag.
+4-act4-and-tag,31,NARRATOR,,narration,442.07,4.49,"Scene thirty-one. Customs hall, the silver hatchet, and more.","Scene thirty-one. Customs hall, the silver hatchet, and more."
+4-act4-and-tag,31,CHICHIKOV,,dialogue,446.92,3.2,Rim Port. The twenty-seventh. It has moved.,Rim Port. The twenty-seventh. It has moved.
+4-act4-and-tag,31,NARRATOR,,narration,450.41,2.87,"Three small, polite knocks from the trunk.","Three small, polite knocks from the trunk."
+4-act4-and-tag,31,NARRATOR,,narration,453.58,3.16,"The lid lifts. A white moustache, no hat.","The lid lifts. A white moustache, no hat."
+4-act4-and-tag,31,PIP,,dialogue,457.09,2.39,Captain. The warrant has been published.,Captain. The warrant has been published.
+4-act4-and-tag,31,JAX,,dialogue,459.68,2.63,Read it to me. Slowly. I want to enjoy my name.,Read it to me. Slowly. I want to enjoy my name.
+4-act4-and-tag,31,PIP,,dialogue,462.65,4.94,"Ortega, Lucía. Engineer. Sen, Mira. Cartographer. Struck off. Twice.","Ortega, Looseea. Engineer. Sen, Mira. Cartographer. Struck off. Twice."
+4-act4-and-tag,31,MIRA,O.S.,dialogue,467.92,0.83,Accurate.,Accurate.
+4-act4-and-tag,31,PIP,,dialogue,468.95,4.88,"PIP. Unit. Decommissioned. Munchausen, H. K. F. Delisted. Captain—","Pip. Unit. Decommissioned. Munchowzen, H. K. F. Delisted. Captain—"
+4-act4-and-tag,31,JAX,,dialogue,474.19,0.64,Captain?,Captain?
+4-act4-and-tag,31,JAX,,dialogue,475.17,3.2,They couldn't be bothered to fill it in. That is a clerical insult.,They couldn't be bothered to fill it in. That is a clerical insult.
+4-act4-and-tag,31,PIP,,dialogue,478.7,1.58,Shall I file a correction?,Shall I file a correction?
+4-act4-and-tag,31,JAX,,dialogue,480.48,1.19,Capital letters. Vale.,Capital letters. Vale.
+4-act4-and-tag,31,PIP,,dialogue,482.02,1.28,Correction filed.,Correction filed.
+4-act4-and-tag,31,NARRATOR,,narration,483.66,4.08,"It flickers: Captain, Vale, Jax. Then: nobody.","It flickers: Captain, Vale, Jax. Then: nobody."
+4-act4-and-tag,WWR,NARRATOR,,narration,488.94,0.86,What was real.,What was real.
+4-act4-and-tag,WWR,PIP,V.O.,dialogue,490.15,35.09,"What was real. Shackleton crater is real. Its floor may not have seen the Sun for billions of years. It has been seen only faintly from orbit, by light bounced off its walls, and mapped by laser. Gravity is one-sixth of Earth's. Signals take about one point three seconds each way, and none from Earth reach the far side directly. There is no air, so no sound. Every person you saw was made digitally, and Earth on the horizon is a composite. The Baron has asked me to say that he is not. I have noted his request. Footage and visualisations: NASA.","What was real. Shackleton crater is real. Its floor may not have seen the Sun for billions of years. It has been seen only faintly from orbit, by light bounced off its walls, and mapped by laser. Gravity is one-sixth of Earth's. Signals take about one point three seconds each way, and none from Earth reach the far side directly. There is no air, so no sound. Every person you saw was made digitally, and Earth on the horizon is a composite. The Baron has asked me to say that he is not. I have noted his request. Footage and visualisations: Nasa."
+4-act4-and-tag,end,MUSIC,,sting,526.03,5.0,END,[A1-endcard-sting-5s.mp3]

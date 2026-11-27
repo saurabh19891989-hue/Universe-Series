@@ -1,0 +1,163 @@
+{
+ "engine": "kokoro-onnx 0.6.1 (Kokoro-82M v1.0, Apache-2.0), CPU",
+ "cast": {
+  "JAX": {
+   "voice": "am_puck",
+   "lang": "en-us",
+   "speed": 1.08,
+   "pitch": 1.0,
+   "note": "American male, quick, warm (as earlier report)"
+  },
+  "PIP": {
+   "voice": "bm_george",
+   "lang": "en-gb",
+   "speed": 1.05,
+   "pitch": 1.0,
+   "filt": "highpass=f=250,lowpass=f=4500",
+   "note": "British male, clipped; small-speaker band limit 250-4500 Hz"
+  },
+  "BARON": {
+   "voice": "bm_fable",
+   "lang": "en-gb",
+   "speed": 0.91,
+   "pitch": 0.93,
+   "note": "older, theatrical; slowed 9%, pitched down about 7% (rubberband)"
+  },
+  "MIRA": {
+   "voice": "bf_emma",
+   "lang": "en-gb",
+   "speed": 0.95,
+   "pitch": 1.0,
+   "note": "British female, dry and precise; no accent hack"
+  },
+  "LUCÍA": {
+   "voice": "af_heart",
+   "lang": "en-us",
+   "speed": 1.08,
+   "pitch": 0.98,
+   "note": "warmer American female, blunt and energetic"
+  },
+  "CHICHIKOV": {
+   "voice": "bm_lewis",
+   "lang": "en-gb",
+   "speed": 0.92,
+   "pitch": 1.0,
+   "gain": -1.5,
+   "note": "lowest British male, unhurried and soft; slowed 8%"
+  },
+  "NOAKES": {
+   "voice": "bm_daniel",
+   "lang": "en-gb",
+   "speed": 1.12,
+   "pitch": 1.06,
+   "note": "British male, faster, pitched up 6% so older/anxious and apart from Baron"
+  },
+  "TEMI": {
+   "voice": "af_sky",
+   "lang": "en-us",
+   "speed": 1.08,
+   "pitch": 1.04,
+   "note": "bright female"
+  },
+  "MAMANI": {
+   "voice": "am_eric",
+   "lang": "en-us",
+   "speed": 0.95,
+   "pitch": 0.97,
+   "note": "calm male"
+  },
+  "NARRATOR": {
+   "voice": "af_nicole",
+   "lang": "en-us",
+   "speed": 1.2,
+   "pitch": 1.0,
+   "gain": -3.5,
+   "note": "neutral quiet slate/action-beat voice"
+  }
+ },
+ "respellings": [
+  [
+   "\\bOczakow\\b",
+   "Ochakoff"
+  ],
+  [
+   "\\bpost-chaise\\b",
+   "post shayz"
+  ],
+  [
+   "\\bPost-chaise\\b",
+   "Post shayz"
+  ],
+  [
+   "\\bPOST-CHAISE\\b",
+   "post shayz"
+  ],
+  [
+   "\\bHieronymus\\b",
+   "Heer-onimus"
+  ],
+  [
+   "\\bChichikov\\b",
+   "Cheechikoff"
+  ],
+  [
+   "\\bN-O-A-K-E-S\\b",
+   "N. O. A. K. E. S."
+  ],
+  [
+   "\\b4471-C\\b",
+   "four, four, seven, one, C"
+  ],
+  [
+   "\\bMunchausen\\b",
+   "Munchowzen"
+  ],
+  [
+   "\\bLucía\\b",
+   "Looseea"
+  ],
+  [
+   "\\bLUCÍA\\b",
+   "Looseea"
+  ],
+  [
+   "\\bPIP\\b",
+   "Pip"
+  ],
+  [
+   "\\bNASA\\b",
+   "Nasa"
+  ],
+  [
+   "\\bDr\\b\\.?",
+   "Doctor"
+  ],
+  [
+   "\\bMr\\b\\.?",
+   "Mister"
+  ],
+  [
+   "\\bMrs\\b\\.?",
+   "Missus"
+  ],
+  [
+   "\\bSeñorita\\b",
+   "Senyorita"
+  ],
+  [
+   "\\bun-seize\\b",
+   "un seize"
+  ],
+  [
+   "(?i)\\bNoakes\\b",
+   "Noaks"
+  ]
+ ],
+ "filters": {
+  "radio": "highpass=f=300,lowpass=f=3400,acompressor=threshold=0.05:ratio=3:attack=5:release=80",
+  "suit_radio": "highpass=f=400,lowpass=f=2800,acompressor=threshold=0.04:ratio=4:attack=4:release=60",
+  "muffle": "lowpass=f=2200",
+  "jax_vo": "highpass 90, +2.5 dB at 3.2 kHz, mild compression, +1.5 dB, speed x0.94"
+ },
+ "narration_table": "tableread_narration_E01.json"
+}

@@ -179,10 +179,19 @@ def hero_bridge(a, cache):
     # DoF: set is behind the actors -> defocus set + window together
     out = lens_blur(out, a.bg_blur)
     jax = cutout(a.jax, cache); mira = cutout(a.mira, cache)
-    for fg, x, y, sc, rd in [(jax, -40, 150, 1.05, (1, -0.3)), (mira, 1050, 200, 1.0, (-1, -0.3))]:
-        f = match_to_plate(fg, plate, strength=0.35, sat=0.9, black=0.02)
-        f = rim(f, rd, width=8, color=(0.8, 0.9, 1.0), k=0.55)
-        place(out, f, x, y, sc, wrap=True, soft=0.4)
+    for fg, x, y, sc, rd in [(jax, a.jax_xy[0], a.jax_xy[1], a.fig_scale, (1, -0.6)), (mira, a.mira_xy[0], a.mira_xy[1], a.fig_scale, (-1, -0.6))]:
+        f = match_to_plate(fg, plate[matte[..., 0] > 0.5][None] if matte.mean() > 0.01 else plate, strength=0.35, sat=0.9, black=0.02)
+        f = rim(f, rd, width=7, color=(0.8, 0.9, 1.0), k=0.6)       # moonlight from the window behind
+        f = rim(f, (0, -1), width=5, color=(0.8, 0.9, 1.0), k=0.35)
+        place(out, f, x, y, sc, wrap=True, soft=0.5)
+    # out-of-focus foreground console (taken from the set itself) hides the waist cut lines
+    if a.fg_occluder:
+        strip = setimg[int(setimg.shape[0] * 0.72):]
+        fgc = cv2.resize(strip, (W, int(H * 0.36)), interpolation=cv2.INTER_CUBIC) * 0.55
+        fgc = lens_blur(np.clip(fgc, 0, 1), 36)
+        y0 = H - fgc.shape[0]
+        ramp = np.clip((np.arange(fgc.shape[0]) - 0) / 40.0, 0, 1)[:, None, None]
+        out[y0:] = out[y0:] * (1 - ramp) + fgc * ramp
     return finish(out)
 
 
@@ -223,6 +232,8 @@ if __name__ == "__main__":
     ap.add_argument("--win-seed", type=float, nargs=2, default=(0.5, 0.3))
     ap.add_argument("--bg-blur", type=float, default=14)
     ap.add_argument("--only", default="123")
+    ap.add_argument("--jax-xy", type=int, nargs=2, default=(60, 230)); ap.add_argument("--mira-xy", type=int, nargs=2, default=(1150, 250))
+    ap.add_argument("--fig-scale", type=float, default=0.9); ap.add_argument("--fg-occluder", type=int, default=1)
     ap.add_argument("--ship-x", type=int, default=760); ap.add_argument("--ship-y", type=int, default=380)
     ap.add_argument("--ship-scale", type=float, default=0.5)
     a = ap.parse_args()
