@@ -700,7 +700,7 @@
   },
   "E01-J010": {
    "priority": 1,
-   "status": "pending",
+   "status": "accepted",
    "attempts": 1,
    "seconds": [
     51.7
@@ -708,14 +708,18 @@
    "tokens": [
     10672
    ],
-   "notes": [],
+   "notes": [
+    "PIP stamp arm down on blank slip, dust puff, matches master; no text. Dark style - redo candidate"
+   ],
    "refs_used": [
     "assets/props/pip/master.jpg"
-   ]
+   ],
+   "file": "episodes/E01/stills/e01-j010_pip_stamp_arm.jpg",
+   "jpg_bytes": 266026
   },
   "E01-J002": {
    "priority": 1,
-   "status": "pending",
+   "status": "accepted",
    "attempts": 1,
    "seconds": [
     61.7
@@ -723,12 +727,16 @@
    "tokens": [
     12534
    ],
-   "notes": [],
+   "notes": [
+    "Jax from behind (curly hair, orange jacket match ref-back), sandwich + one hand on controls, bridge matches master, window pure black. Dark style - redo candidate"
+   ],
    "refs_used": [
     "assets/sets/bridge/master.jpg",
     "assets/characters/jax/master.jpg",
     "assets/characters/jax/ref-back.jpg"
-   ]
+   ],
+   "file": "episodes/E01/stills/e01-j002_bridge_wide_jax_back.jpg",
+   "jpg_bytes": 295583
   }
  },
  "allowance": [
