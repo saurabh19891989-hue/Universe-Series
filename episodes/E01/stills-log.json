@@ -1,0 +1,26 @@
+{
+ "jobs": {},
+ "allowance": [
+  {
+   "read_at": "2026-11-27T16:14:04Z",
+   "label": "start of E01 stills run",
+   "source": "rollout-2026-11-27T16-13-46-01a21dc8-c3d1-7773-a0d5-91bd4d2f5f01.jsonl",
+   "five_hour_used_percent": 71.0,
+   "five_hour_resets": "2026-11-27 19:25 UTC",
+   "weekly_used_percent": 95.0,
+   "weekly_resets": "2026-12-02 17:30 UTC"
+  }
+ ],
+ "ref_substitutions": {
+  "assets/sets/customs/desk.jpg": "assets/sets/customs/desk-glass-screen.jpg",
+  "assets/sets/customs/board.jpg": "assets/sets/customs/clamp-console-board.jpg",
+  "assets/sets/customs/clamp-console.jpg": "assets/sets/customs/clamp-console-board.jpg",
+  "assets/sets/hatchet/parlour.jpg": "assets/sets/inn/parlour.jpg",
+  "assets/sets/hatchet/coldstore.jpg": "assets/sets/inn/cold-store.jpg",
+  "assets/sets/hatchet/exterior.jpg": "assets/sets/inn/exterior.jpg",
+  "assets/sets/postchaise/cab.jpg": "assets/sets/postchaise/cab-interior.jpg",
+  "assets/sets/apron/master.jpg": "assets/sets/bay9/apron.jpg",
+  "assets/props/posthorn/master.jpg": "assets/props/posthorn/frosted.jpg",
+  "assets/props/inlaid-box/master.jpg": "assets/characters/chichikov/ref-hands-box.jpg"
+ }
+}

@@ -169,7 +169,7 @@ def atlas_map(label="THE SILVER HATCHET — SHACKLETON FLOOR",
     for nm, state in held:
         def dr(tt, i, alpha=False, state=state):
             return _atlas_draw(state, label, st)
-        clips.append(ClipSpec("01_atlas_held_" + nm, 5.0, dr, "teal", stills=[2.0], alpha=False))
+        clips.append(ClipSpec("01_atlas_held_" + nm, 4.0, dr, "teal", stills=[2.0], alpha=False))
     return clips
 
 

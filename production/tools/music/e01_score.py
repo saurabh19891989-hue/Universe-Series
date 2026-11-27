@@ -563,13 +563,13 @@ def offer(seconds):
 # ============================================================ 8 THE RIM (scene 21)
 def rim():
     c = Cue("E01-M08-the-rim", bpm=60, seed=1012)
-    for t, p in (("held", GM["violin"]), ("hn", GM["horn"]), ("vc_solo", GM["cello"]), ("pad", GM["strings"]),
+    for t, p in (("held", GM["violin"]), ("held2", GM["violin"]), ("hn", GM["horn"]), ("vc_solo", GM["cello"]), ("pad", GM["strings"]),
                  ("low", GM["cello"]), ("harp", GM["harp"]), ("pizz", GM["pizz"])):
         c.track(t, p)
     # A 2-32 s (loop 4-30): one held violin F#5, re-bowed every ~8 s; far horn: sad tune bars 1-2
-    for s_ in (2.0, 9.5, 17.0, 24.5):
-        c.note("held", "F#5", s_, 8.3, 34, legato=1.0)
-    c.swell("held", 0, 32, 70, 100)
+    # re-bows alternate between two players so the same-pitch notes can overlap (MIDI can't on one channel)
+    for k, s_ in enumerate((2.0, 9.5, 17.0, 24.5)):
+        c.note("held" if k % 2 == 0 else "held2", "F#5", s_, 8.3 if s_ < 24 else 7.3, 34, legato=1.0)
     c.seq("hn", "F#4:h. E4:q | D4:q E4:q F#4:q B4:q | A4:w", 14.0, 46, legato=1.0)
     # 32-34 deliberate silence
     # B 34-74 (loop 38-70): the cannonball - warmth: D major, low strings + harp + a pizz gallop
@@ -588,8 +588,8 @@ def rim():
     c.seq("hn", "A4:h. G4:q | F#4:q G4:q A4:q D5:q | C#5:h B4:q A4:q | A4:w", 50.0, 50, legato=1.0)
     # 74-77 deliberate silence (the three seconds after "You are the audience")
     # C 77-130 (loop 82-118): the promise and the hatchet - held string returns, sad tune on solo cello
-    for s_ in (77.0, 85.0, 93.0, 101.0, 109.0, 117.0):
-        c.note("held", "F#5", s_, 8.4, 32, legato=1.0)
+    for k, s_ in enumerate((77.0, 85.0, 93.0, 101.0, 109.0, 117.0)):
+        c.note("held" if k % 2 == 0 else "held2", "F#5", s_, 8.4, 32, legato=1.0)
     c.seq("vc_solo", SAD, 82.0, 66, transpose=-12, legato=1.0)
     for i, ch in enumerate(SAD_H):
         c.chord("pad", [pitch(p) + 12 for p in ch], 82.0 + i * 4, 4, 34, legato=1.0)
@@ -597,8 +597,10 @@ def rim():
     c.note("low", "D3", 114.0, 14, 40, legato=1.0)
     c.swell("pad", 114, 130, 90, 10)
     c.swell("held", 114, 130, 100, 20)
+    c.swell("held2", 114, 130, 100, 20)
     mix = {
         "held": dict(inst="vln_solo", lvl=-28, pan=-0.2, send=0.5, group="harmony"),
+        "held2": dict(inst="vln_solo", lvl=-28, pan=-0.15, send=0.5, group="harmony"),
         "hn": dict(inst="hn", lvl=-26, pan=0.3, send=0.7, group="melody"),
         "vc_solo": dict(inst="vc_solo", lvl=-23, pan=0.05, send=0.45, group="melody"),
         "pad": dict(inst="vln2", lvl=-30, pan=-0.1, send=0.55, group="harmony"),

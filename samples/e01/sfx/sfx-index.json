@@ -1,0 +1,3547 @@
+{
+ "episode": "E01",
+ "sample_rate": 48000,
+ "bit_depth": 24,
+ "peak_dbfs": -6,
+ "generated_by": "production/tools/sfx/build_sfx.py",
+ "count": 112,
+ "effects": [
+  {
+   "file": "ship_bridge_roomtone_loop.wav",
+   "description": "Bridge room tone: worn courier cockpit. 60 Hz mains hum with a slightly sick beating partner, tired fan, thin electrical crackle and a few failing-ballast buzzes. Exact 24 s loop, stereo.",
+   "duration_s": 24.0,
+   "channels": 2,
+   "loop": true,
+   "group": "ship",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0, 2, 17, 27, 30, 31 (bridge)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -18.23,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 177.4,
+    "energy_above_2k_pct": 0.166,
+    "energy_below_80_pct": 42.899,
+    "nan": false,
+    "loop_join_step_ratio": 0.117,
+    "loop_join_level_diff_db": 1.6,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -17.0
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -38,
+    "gain_db_to_apply": -21.0,
+    "db_below_dialogue": 22
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/ship_bridge_roomtone_loop.mp3",
+    "bytes": 240789
+   }
+  },
+  {
+   "file": "ship_cargohold_tone_loop.wav",
+   "description": "Cargo hold tone: big, empty, cold-ish metal volume; sub rumble from the reactor housing, vent air, a faint ringing panel and the odd far creak. Exact 24 s loop, stereo.",
+   "duration_s": 24.0,
+   "channels": 2,
+   "loop": true,
+   "group": "ship",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "1, 20, 31 (cargo hold)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -20.53,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 282.9,
+    "energy_above_2k_pct": 3.061,
+    "energy_below_80_pct": 65.006,
+    "nan": false,
+    "loop_join_step_ratio": 0.612,
+    "loop_join_level_diff_db": 0.56,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -20.2
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -38,
+    "gain_db_to_apply": -17.8,
+    "db_below_dialogue": 22
+   }
+  },
+  {
+   "file": "ship_engine_idle_loop.wav",
+   "description": "Left-engine idle: low harmonic hum conducted through the ship (48 Hz fundamental, soft turbine whine). Exact 8 s loop; the engine comes back into this after the cough.",
+   "duration_s": 8.0,
+   "channels": 1,
+   "loop": true,
+   "group": "ship",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0 (after restart), 1",
+   "conducted_vacuum_rule": true,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -14.32,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 105.0,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 58.672,
+    "nan": false,
+    "loop_join_step_ratio": 0.096,
+    "loop_join_level_diff_db": 0.8,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -17.4
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -36,
+    "gain_db_to_apply": -18.6,
+    "db_below_dialogue": 20
+   }
+  },
+  {
+   "file": "ship_engine_spindown.wav",
+   "description": "The bank takes the left engine: hum sags in pitch and level with failing firing stutters, turbine whine falling, last mechanical ticks. ~4.6 s, low-passed (heard through the hull).",
+   "duration_s": 4.6,
+   "channels": 1,
+   "loop": false,
+   "group": "ship",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0",
+   "conducted_vacuum_rule": true,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -20.94,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 41.3,
+    "energy_above_2k_pct": 0.005,
+    "energy_below_80_pct": 86.654,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.4
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   }
+  },
+  {
+   "file": "ship_engine_cough_restart.wav",
+   "description": "The left engine coughs back to life: two failed coughs, then it catches, surges and settles at idle. ~5.6 s, low-passed; fades into ship_engine_idle_loop. Place 1.3 s after the spin-down.",
+   "duration_s": 5.6,
+   "channels": 1,
+   "loop": false,
+   "group": "ship",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0",
+   "conducted_vacuum_rule": true,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -16.91,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 94.2,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 65.457,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -18.9
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   }
+  },
+  {
+   "file": "ship_engine_dies_and_returns.wav",
+   "description": "Combined cold-open cue: spin-down, exactly 1.3 s of near-silence (faint hull tick), then the cough-restart. One file for the editor to drop under 'The one that has stopped' ... 'coughs back'.",
+   "duration_s": 11.5,
+   "channels": 1,
+   "loop": false,
+   "group": "ship",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0",
+   "conducted_vacuum_rule": true,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -19.48,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 80.3,
+    "energy_above_2k_pct": 0.001,
+    "energy_below_80_pct": 72.281,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -20.3
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/ship_engine_dies_and_returns.mp3",
+    "bytes": 138911
+   }
+  },
+  {
+   "file": "ship_systems_powerdown_sequence.wav",
+   "description": "Systems powering down one by one: five relay clicks, each cutting a layer (mains hum, buzz, whine, heater tick-hum), then the fan spins down to silence. ~8 s, mono.",
+   "duration_s": 7.34,
+   "channels": 1,
+   "loop": false,
+   "group": "ship",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0 (nav lights, heating, coffee)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -24.93,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 400.2,
+    "energy_above_2k_pct": 4.068,
+    "energy_below_80_pct": 0.113,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -25.2
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/ship_systems_powerdown_sequence.mp3",
+    "bytes": 118326
+   }
+  },
+  {
+   "file": "ship_systems_powerup_sequence.wav",
+   "description": "Lights and heating return after the restart (not the coffee): three relay clicks, mains hum swelling back, metal ticking as the heater warms. ~4 s, mono.",
+   "duration_s": 4.2,
+   "channels": 1,
+   "loop": false,
+   "group": "ship",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -20.04,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 95.9,
+    "energy_above_2k_pct": 0.157,
+    "energy_below_80_pct": 91.128,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.2
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   }
+  },
+  {
+   "file": "ship_relay_click_a.wav",
+   "description": "Single small relay click, bright. 0.15 s.",
+   "duration_s": 0.14,
+   "channels": 1,
+   "loop": false,
+   "group": "ship",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0, 30 (any switch)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -23.48,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 202.7,
+    "energy_above_2k_pct": 0.002,
+    "energy_below_80_pct": 0.019,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "ship_relay_click_b.wav",
+   "description": "Single relay click, duller and heavier. 0.17 s.",
+   "duration_s": 0.17,
+   "channels": 1,
+   "loop": false,
+   "group": "ship",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0, 30 (any switch)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -22.51,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 131.1,
+    "energy_above_2k_pct": 0.001,
+    "energy_below_80_pct": 0.243,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "ship_fan_stop.wav",
+   "description": "One cabin fan spinning down to a stop, with two last blade ticks. 3 s.",
+   "duration_s": 3.0,
+   "channels": 1,
+   "loop": false,
+   "group": "ship",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -19.48,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 79.1,
+    "energy_above_2k_pct": 0.259,
+    "energy_below_80_pct": 74.357,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -20.6
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "coffee_machine_last_gurgle.wav",
+   "description": "The coffee machine's last gurgle: pump motor winding down, bubbles thinning out, steam hiss fading, final spit and one drip. ~3.2 s, mono.",
+   "duration_s": 3.2,
+   "channels": 1,
+   "loop": false,
+   "group": "ship",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -18.54,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 253.9,
+    "energy_above_2k_pct": 0.77,
+    "energy_below_80_pct": 53.671,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -20.0
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/coffee_machine_last_gurgle.mp3",
+    "bytes": 52288
+   }
+  },
+  {
+   "file": "coffee_machine_triumph_click_drip.wav",
+   "description": "The coffee machine comes back: switch click and bright little 'ting', pump spins up, a short burst of bubbles, then slow satisfied drips into a cup. ~4 s, mono.",
+   "duration_s": 4.18,
+   "channels": 1,
+   "loop": false,
+   "group": "ship",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "30 (Luc\u00eda raps it with the spanner)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -22.9,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 232.3,
+    "energy_above_2k_pct": 0.919,
+    "energy_below_80_pct": 0.803,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.7
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/coffee_machine_triumph_click_drip.mp3",
+    "bytes": 68171
+   }
+  },
+  {
+   "file": "pip_servo_swivel.wav",
+   "description": "PIP's lens turns toward the shop-door chime: small precise servo whirr, pitch rises and falls with the move, stepper ripple, tiny settle click. ~1 s, mono.",
+   "duration_s": 0.95,
+   "channels": 1,
+   "loop": false,
+   "group": "pip",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -18.78,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1115.2,
+    "energy_above_2k_pct": 9.415,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -16.8
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   }
+  },
+  {
+   "file": "pip_servo_nudge.wav",
+   "description": "A tiny two-step servo twitch (PIP re-aims his lens). 0.35 s.",
+   "duration_s": 0.33,
+   "channels": 1,
+   "loop": false,
+   "group": "pip",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "any PIP beat",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -17.17,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 929.2,
+    "energy_above_2k_pct": 5.699,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "pip_stamp_thunk_a.wav",
+   "description": "PIP's rubber-stamp arm: THUNK, medium weight. 0.7 s.",
+   "duration_s": 0.57,
+   "channels": 1,
+   "loop": false,
+   "group": "pip",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0 (Accepted), 2, 16, 30",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -21.14,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 100.1,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 0.237,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.7
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -8,
+    "gain_db_to_apply": -2.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/pip_stamp_thunk_a.mp3",
+    "bytes": 10075
+   }
+  },
+  {
+   "file": "pip_stamp_thunk_b.wav",
+   "description": "PIP's stamp, THUNK variant B: heavier, longer body. 0.75 s.",
+   "duration_s": 0.75,
+   "channels": 1,
+   "loop": false,
+   "group": "pip",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0, 2, 16, 30",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -21.96,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 81.5,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 19.775,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -25.1
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -8,
+    "gain_db_to_apply": -2.0
+   }
+  },
+  {
+   "file": "pip_stamp_thunk_c.wav",
+   "description": "PIP's stamp, THUNK variant C: crisp, drier, small desk ring. 0.6 s.",
+   "duration_s": 0.38,
+   "channels": 1,
+   "loop": false,
+   "group": "pip",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0, 2, 16, 30",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -22.27,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 128.2,
+    "energy_above_2k_pct": 0.003,
+    "energy_below_80_pct": 0.054,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -8,
+    "gain_db_to_apply": -2.0
+   }
+  },
+  {
+   "file": "pip_lens_glow_bed_loop.wav",
+   "description": "PIP's amber lens as a soft tone bed (220/330/440 Hz stack, slow breathing, a quiet 880 shimmer). Keyable under his voice: duck/raise with his speech. Exact 10 s loop, mono.",
+   "duration_s": 10.0,
+   "channels": 1,
+   "loop": true,
+   "group": "pip",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "every PIP line",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -15.3,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 298.3,
+    "energy_above_2k_pct": 0.081,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "loop_join_step_ratio": 0.374,
+    "loop_join_level_diff_db": 0.43,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -16.1
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -42,
+    "gain_db_to_apply": -25.9,
+    "db_below_dialogue": 26
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/pip_lens_glow_bed_loop.mp3",
+    "bytes": 120730
+   }
+  },
+  {
+   "file": "pip_lens_glow_on.wav",
+   "description": "PIP's lens lights: soft rising tone swell into the bed's chord. 1.4 s.",
+   "duration_s": 1.4,
+   "channels": 1,
+   "loop": false,
+   "group": "pip",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0 (first frame), any PIP wake-up",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -15.56,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 286.1,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -15.5
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "pip_lens_glow_off.wav",
+   "description": "PIP's lens dims: the tone falls away with a faint electrical tick. 0.9 s.",
+   "duration_s": 0.9,
+   "channels": 1,
+   "loop": false,
+   "group": "pip",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "any PIP sign-off",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -20.82,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 210.1,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -22.1
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "bank_chime.wav",
+   "description": "The bank's cheerful chime: three soft mallet notes rising A5-C#6-F#6, last one held. Original figure, no brand reference. ~1.6 s, stereo.",
+   "duration_s": 2.15,
+   "channels": 2,
+   "loop": false,
+   "group": "bank",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0 (before Temi)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -20.16,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1486.0,
+    "energy_above_2k_pct": 0.755,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -14.5
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -9,
+    "gain_db_to_apply": -3.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/bank_chime.mp3",
+    "bytes": 35570
+   }
+  },
+  {
+   "file": "bank_jingle.wav",
+   "description": "Bank jingle, original: bouncy 9-note D-major-pentatonic mallet tune over a soft shaker tick and a bright sparkle at the end. ~4.5 s, stereo. Composed from scratch (not derived from any brand sound).",
+   "duration_s": 4.26,
+   "channels": 2,
+   "loop": false,
+   "group": "bank",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0 (Temi's call window), 30",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -20.6,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 962.5,
+    "energy_above_2k_pct": 7.723,
+    "energy_below_80_pct": 0.005,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -16.4
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -9,
+    "gain_db_to_apply": -3.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/bank_jingle.mp3",
+    "bytes": 69425
+   }
+  },
+  {
+   "file": "shop_door_bell.wav",
+   "description": "Old-fashioned shop-door bell on a curled spring: two quick clapper strikes, a brass ring-out with inharmonic partials and a little spring jangle. ~2.4 s, stereo.",
+   "duration_s": 2.67,
+   "channels": 2,
+   "loop": false,
+   "group": "bank",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0 (the job arrives)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -19.61,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 2369.3,
+    "energy_above_2k_pct": 100.0,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -13.1
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -9,
+    "gain_db_to_apply": -3.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/shop_door_bell.mp3",
+    "bytes": 43929
+   }
+  },
+  {
+   "file": "comm_line_connect.wav",
+   "description": "A comm line connects: squelch-open click, double rising two-tone chirp, line hiss blooms and settles low. ~1.4 s, mono.",
+   "duration_s": 1.4,
+   "channels": 1,
+   "loop": false,
+   "group": "comm",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0 (Temi), 25, 30",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -20.81,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1933.2,
+    "energy_above_2k_pct": 18.66,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -17.4
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "comm_line_disconnect.wav",
+   "description": "A comm line drops: hiss cuts with a squelch tail, one falling beep, a small click. ~1 s, mono.",
+   "duration_s": 0.42,
+   "channels": 1,
+   "loop": false,
+   "group": "comm",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0, 5, 30",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -14.55,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1125.6,
+    "energy_above_2k_pct": 0.025,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -13.9
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "earth_call_dead_air_1p3s.wav",
+   "description": "The 1.3 s 'dead air' of an Earth call: not silence but a subtle open line: low band-limited line noise, a faint carrier hum and two tiny ticks. Exactly 1.3 s with 40 ms edges, mono. Mix very low.",
+   "duration_s": 1.3,
+   "channels": 1,
+   "loop": false,
+   "group": "comm",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0, 25, 28",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -18.7,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1283.9,
+    "energy_above_2k_pct": 20.8,
+    "energy_below_80_pct": 1.205,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -17.8
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -52,
+    "gain_db_to_apply": -34.2,
+    "db_below_dialogue": 36
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/earth_call_dead_air_1p3s.mp3",
+    "bytes": 21777
+   }
+  },
+  {
+   "file": "wristcomm_buzz.wav",
+   "description": "Wrist-comm vibration buzz against bench/table: two pulses of 170 Hz with a rattle. 0.7 s.",
+   "duration_s": 0.61,
+   "channels": 1,
+   "loop": false,
+   "group": "comm",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "5, 11, 16",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -13.29,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 195.0,
+    "energy_above_2k_pct": 0.337,
+    "energy_below_80_pct": 0.006,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -14.4
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   }
+  },
+  {
+   "file": "wristcomm_click.wav",
+   "description": "Wrist-comm button/hang-up click: small plastic click. 0.12 s.",
+   "duration_s": 0.1,
+   "channels": 1,
+   "loop": false,
+   "group": "comm",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "5 (Luc\u00eda hangs up), 7",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -24.68,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1739.1,
+    "energy_above_2k_pct": 1.449,
+    "energy_below_80_pct": 0.003,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "wristcomm_notice_chime.wav",
+   "description": "Mira's wrist chime (LOT 14 PUBLIC SALE): two soft descending notes. 0.9 s.",
+   "duration_s": 0.9,
+   "channels": 1,
+   "loop": false,
+   "group": "comm",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "6",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -17.43,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1221.3,
+    "energy_above_2k_pct": 0.336,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -16.7
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "customs_hall_roomtone_loop.wav",
+   "description": "Vast empty customs hall: faint low ventilation, huge air volume, distant far-off creaks and ticks each with a long reverb tail. Exact 30 s loop, stereo.",
+   "duration_s": 30.0,
+   "channels": 2,
+   "loop": true,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "3, 4, 6, 12, 18, 22, 25, 28, 31",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -20.81,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 199.2,
+    "energy_above_2k_pct": 0.12,
+    "energy_below_80_pct": 51.553,
+    "nan": false,
+    "loop_join_step_ratio": 0.28,
+    "loop_join_level_diff_db": 0.72,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -20.4
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -40,
+    "gain_db_to_apply": -19.6,
+    "db_below_dialogue": 24
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/customs_hall_roomtone_loop.mp3",
+    "bytes": 240789
+   }
+  },
+  {
+   "file": "customs_hall_reverb_tail_ir.wav",
+   "description": "A synthetic hall impulse response (RT60 ~4.8 s, dark tail, stereo) the dialogue editor can convolve onto Mira, Jax or Noakes in the hall. 5.5 s. Not a sound effect; an IR.",
+   "duration_s": 5.5,
+   "channels": 2,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "3, 4, 6, 12, 18, 22, 25, 28 (any hall dialogue)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -57.71,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 2582.4,
+    "energy_above_2k_pct": 46.094,
+    "energy_below_80_pct": 2.916,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -48.4
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "footsteps_lowg_distant_pattern.wav",
+   "description": "Far-off footsteps across the empty hall in one-sixth gravity: slow, soft, long stride, each step a muffled pad with a light scuff, heavy hall reverb, walking slowly across the stereo field. 15 s.",
+   "duration_s": 14.51,
+   "channels": 2,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "3, 18, 28",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -22.88,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 70.2,
+    "energy_above_2k_pct": 0.025,
+    "energy_below_80_pct": 87.023,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -22.1
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/footsteps_lowg_distant_pattern.mp3",
+    "bytes": 174960
+   }
+  },
+  {
+   "file": "customs_desk_stamp_heavy_a.wav",
+   "description": "Heavy customs rubber stamp onto a hardwood desk (SEIZED): big thump, squelch, deep desk ring. 1.2 s, stereo with light hall.",
+   "duration_s": 2.14,
+   "channels": 2,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "3 (SEIZED)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -26.13,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 68.2,
+    "energy_above_2k_pct": 0.005,
+    "energy_below_80_pct": 87.683,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -25.4
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -8,
+    "gain_db_to_apply": -2.0
+   }
+  },
+  {
+   "file": "customs_desk_stamp_heavy_b.wav",
+   "description": "Heavy customs stamp, variant B (ABANDONED): a touch lower and drier. 1.2 s, stereo.",
+   "duration_s": 1.82,
+   "channels": 2,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "18/19 (the stamp), 22, 28",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -24.22,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 58.0,
+    "energy_above_2k_pct": 0.003,
+    "energy_below_80_pct": 97.993,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.5
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -8,
+    "gain_db_to_apply": -2.0
+   }
+  },
+  {
+   "file": "wire_mesh_gate_rattle.wav",
+   "description": "A wire-mesh cage gate rattled and shaken: dense bright little metal ticks, a looser frame clank underneath, dying away. 2.2 s, stereo.",
+   "duration_s": 2.57,
+   "channels": 2,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "6 (holding bay)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -24.14,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 3002.9,
+    "energy_above_2k_pct": 69.627,
+    "energy_below_80_pct": 0.03,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -18.3
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   }
+  },
+  {
+   "file": "gate_latch_clunk_and_key.wav",
+   "description": "Mira locks the cage gate behind them: key slides in, bolt thrown, heavy latch clunk. 1.4 s, stereo.",
+   "duration_s": 2.24,
+   "channels": 2,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "6",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -28.58,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 148.0,
+    "energy_above_2k_pct": 0.037,
+    "energy_below_80_pct": 70.171,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.5
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   }
+  },
+  {
+   "file": "padlock_rattle_old.wav",
+   "description": "The Riga padlock refuses: old padlock and hasp rattled by hand, six shaken impacts with a dull iron ring. 1.5 s, mono (add hall).",
+   "duration_s": 1.5,
+   "channels": 1,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "6 (the lock fails)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -25.04,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1018.9,
+    "energy_above_2k_pct": 11.63,
+    "energy_below_80_pct": 0.02,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -24.3
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   }
+  },
+  {
+   "file": "padlock_click_open_clean.wav",
+   "description": "The Riga padlock finally opens (tag, empty cage): one clean small spring 'tk', the shackle pops up with a light ring. Silent-grace-note: play dry, no reverb. 0.6 s, mono.",
+   "duration_s": 0.6,
+   "channels": 1,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "31",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -24.45,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 2527.1,
+    "energy_above_2k_pct": 99.958,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -21.3
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "cargo_scale_beep.wav",
+   "description": "Cargo scale settles: one short, clean, slightly cheap beep (1.9 kHz). 0.4 s.",
+   "duration_s": 0.33,
+   "channels": 1,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "3 (the Baron weighed)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -9.52,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1905.2,
+    "energy_above_2k_pct": 0.143,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "cargo_scale_settle_beeps.wav",
+   "description": "Cargo scale: a rising 'reading' tick-tick then the settled double beep. 1.4 s.",
+   "duration_s": 1.19,
+   "channels": 1,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "3",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -13.81,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1847.6,
+    "energy_above_2k_pct": 0.039,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -12.8
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "flipboard_flap_single_a.wav",
+   "description": "One split-flap leaf falls on the DAYS WITHOUT INCIDENT board: double click, hall tail. 1.2 s.",
+   "duration_s": 1.2,
+   "channels": 2,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "4, 22, 31 (1,094 -> 0 starts)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -30.35,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1497.8,
+    "energy_above_2k_pct": 12.257,
+    "energy_below_80_pct": 0.023,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -27.8
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "flipboard_flap_single_b.wav",
+   "description": "One split-flap leaf, variant B (softer). 1.2 s.",
+   "duration_s": 1.2,
+   "channels": 2,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "31",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -28.82,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1289.8,
+    "energy_above_2k_pct": 11.195,
+    "energy_below_80_pct": 0.009,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -26.5
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "flipboard_run_down_to_zero.wav",
+   "description": "The board runs down to zero: four digit drums riffle at ~18 flaps/s each and stop one after another (last to settle is the units), final clack, hall tail. ~6.5 s, stereo.",
+   "duration_s": 6.79,
+   "channels": 2,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "31 (DAYS WITHOUT INCIDENT: 0)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -29.11,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1764.6,
+    "energy_above_2k_pct": 19.806,
+    "energy_below_80_pct": 0.023,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -24.0
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -9,
+    "gain_db_to_apply": -3.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/flipboard_run_down_to_zero.mp3",
+    "bytes": 109549
+   }
+  },
+  {
+   "file": "klaxon_seal_the_port_loop.wav",
+   "description": "'Seal the port' klaxon: two alternating warning tones (G4 / D4) in a soft-edged pulse, low-passed at ~1.8 kHz so it is alarming but not painful; hall reverb baked in. Exact 6 s loop (6 cycles), stereo.",
+   "duration_s": 6.0,
+   "channels": 2,
+   "loop": true,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "22 (end), 23",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -14.69,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 449.5,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "loop_join_step_ratio": 0.151,
+    "loop_join_level_diff_db": 0.28,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -12.3
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -30,
+    "gain_db_to_apply": -17.7,
+    "db_below_dialogue": 14
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/klaxon_seal_the_port_loop.mp3",
+    "bytes": 97010
+   }
+  },
+  {
+   "file": "wall_clock_tick.wav",
+   "description": "One wall-clock tick (wooden/brass clock, dry). 0.15 s.",
+   "duration_s": 0.15,
+   "channels": 1,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "22 (17:45), 25, 30",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -22.74,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1297.0,
+    "energy_above_2k_pct": 3.761,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "wall_clock_tock.wav",
+   "description": "One wall-clock tock (lower partner of the tick). 0.15 s.",
+   "duration_s": 0.15,
+   "channels": 1,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "22, 25",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -19.93,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 922.3,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "wall_clock_ticking_loop.wav",
+   "description": "Hall wall clock ticking, tick-tock once a second with a little room. Exact 8 s loop, stereo.",
+   "duration_s": 8.0,
+   "channels": 2,
+   "loop": true,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "22, 25, 28",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -33.67,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1286.6,
+    "energy_above_2k_pct": 9.415,
+    "energy_below_80_pct": 0.015,
+    "nan": false,
+    "loop_join_step_ratio": 0.022,
+    "loop_join_level_diff_db": 5.67,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -27.7
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -38,
+    "gain_db_to_apply": -10.3,
+    "db_below_dialogue": 22
+   }
+  },
+  {
+   "file": "headset_hold_tone_loop.wav",
+   "description": "Earth-line headset on hold: low line hiss, faint hum, and a polite two-beep (A4 / E5) every 4 s (no melody). Narrow-band 'phone' filter. Exact 8 s loop, mono.",
+   "duration_s": 8.0,
+   "channels": 1,
+   "loop": true,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "25 (Noakes holds)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -21.27,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 771.3,
+    "energy_above_2k_pct": 5.441,
+    "energy_below_80_pct": 0.001,
+    "nan": false,
+    "loop_join_step_ratio": 0.025,
+    "loop_join_level_diff_db": 0.24,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -21.2
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -40,
+    "gain_db_to_apply": -18.8,
+    "db_below_dialogue": 24
+   }
+  },
+  {
+   "file": "console_key_insert.wav",
+   "description": "A console key slides into its slot: tiny scrape, small seat click. 0.5 s.",
+   "duration_s": 0.9,
+   "channels": 2,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "25, 28",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -30.88,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 534.9,
+    "energy_above_2k_pct": 4.219,
+    "energy_below_80_pct": 1.674,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -25.0
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "console_key_turn_lock.wav",
+   "description": "Console key turned to LOCK: ratchet ticks, firm seat, one pip. 1.6 s.",
+   "duration_s": 1.77,
+   "channels": 2,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "25, 28",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -29.01,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 404.6,
+    "energy_above_2k_pct": 0.96,
+    "energy_below_80_pct": 12.549,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.4
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   }
+  },
+  {
+   "file": "console_key_turn_open.wav",
+   "description": "Console key turned to OPEN (Mira): ratchet ticks, softer seat, two rising pips. 1.6 s.",
+   "duration_s": 1.87,
+   "channels": 2,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "28",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -28.38,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 559.1,
+    "energy_above_2k_pct": 0.771,
+    "energy_below_80_pct": 43.226,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.8
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   }
+  },
+  {
+   "file": "console_key_withdraw.wav",
+   "description": "Key drawn out of its slot: small scrape and release tick. 0.6 s.",
+   "duration_s": 0.34,
+   "channels": 1,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "28",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -24.67,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 8930.1,
+    "energy_above_2k_pct": 70.592,
+    "energy_below_80_pct": 0.024,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "clamp_release_far_through_structure.wav",
+   "description": "Bay-nine clamp opens, heard far away through the building's structure: hydraulic groan, bolts retracting, one huge 'ka-chunk', long dying rumble. All below ~450 Hz. 5.5 s, stereo.",
+   "duration_s": 5.5,
+   "channels": 2,
+   "loop": false,
+   "group": "customs",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "28 (Mira turns the key), 29",
+   "conducted_vacuum_rule": true,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -23.65,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 25.3,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 96.61,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -26.4
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -8,
+    "gain_db_to_apply": -2.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/clamp_release_far_through_structure.mp3",
+    "bytes": 89069
+   }
+  },
+  {
+   "file": "rover_cabin_hum_moving_loop.wav",
+   "description": "Post-chaise cabin in motion: traction-motor hum (135 Hz stack), regolith rumble, heater-fan whisper, loose trim rattles and small bumps. Air inside the cab only. Exact 20 s loop, stereo.",
+   "duration_s": 20.0,
+   "channels": 2,
+   "loop": true,
+   "group": "rover",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "8, 17, 24, 26",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -17.57,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 148.7,
+    "energy_above_2k_pct": 0.037,
+    "energy_below_80_pct": 24.926,
+    "nan": false,
+    "loop_join_step_ratio": 0.081,
+    "loop_join_level_diff_db": 0.48,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -17.4
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -34,
+    "gain_db_to_apply": -16.6,
+    "db_below_dialogue": 18
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/rover_cabin_hum_moving_loop.mp3",
+    "bytes": 240789
+   }
+  },
+  {
+   "file": "rover_cabin_hum_cold_lowpower_loop.wav",
+   "description": "Same cab late in the dark: motor sagging, fewer rattles (frozen mounts), heater only a whisper. Exact 16 s loop, stereo.",
+   "duration_s": 16.0,
+   "channels": 2,
+   "loop": true,
+   "group": "rover",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "27 (inner wall in the dark)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -18.85,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 107.4,
+    "energy_above_2k_pct": 0.043,
+    "energy_below_80_pct": 35.566,
+    "nan": false,
+    "loop_join_step_ratio": 0.37,
+    "loop_join_level_diff_db": 1.97,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -19.8
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -38,
+    "gain_db_to_apply": -18.2,
+    "db_below_dialogue": 22
+   }
+  },
+  {
+   "file": "rover_suspension_creaks_conducted.wav",
+   "description": "Suspension and body creaks conducted through the chassis (no outside air): five stick-slip groans and two dull thunks, low-passed at ~1.2 kHz. 7 s, stereo.",
+   "duration_s": 6.42,
+   "channels": 2,
+   "loop": false,
+   "group": "rover",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "8, 17, 24",
+   "conducted_vacuum_rule": true,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -26.42,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 181.6,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 29.638,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.7
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "rover_airborne_dropout.wav",
+   "description": "The leap over the gully: motor hum drops in pitch and dies, rattle and rumble cut at once, then a soft hushed 'weightless' swell. 3.2 s, stereo. Cabin air sounds only.",
+   "duration_s": 3.09,
+   "channels": 2,
+   "loop": false,
+   "group": "rover",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "24 (airborne beat)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -28.31,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 195.8,
+    "energy_above_2k_pct": 0.021,
+    "energy_below_80_pct": 16.765,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -32.4
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/rover_airborne_dropout.mp3",
+    "bytes": 50617
+   }
+  },
+  {
+   "file": "rover_airborne_hang_bed_loop.wav",
+   "description": "Hanging in one-sixth gravity: cabin almost silent; a very faint body hum, soft hush of air, and a slow detuned pad that makes the quiet feel weightless. No rattle. Exact 8 s loop, stereo.",
+   "duration_s": 8.0,
+   "channels": 2,
+   "loop": true,
+   "group": "rover",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "24 (inside the cab while airborne)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -18.17,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 184.5,
+    "energy_above_2k_pct": 0.004,
+    "energy_below_80_pct": 4.47,
+    "nan": false,
+    "loop_join_step_ratio": 0.76,
+    "loop_join_level_diff_db": 1.74,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -16.5
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -46,
+    "gain_db_to_apply": -29.5,
+    "db_below_dialogue": 30
+   }
+  },
+  {
+   "file": "rover_landing_thud_felt.wav",
+   "description": "Wheels meet the dust: a thump FELT in the seat rather than heard: sub-bass hit at ~45 Hz, body boom, two suspension groans and small loose-item thumps (everyone drops an inch). All conducted/low-passed. 1.8 s, stereo.",
+   "duration_s": 1.13,
+   "channels": 2,
+   "loop": false,
+   "group": "rover",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "24 (landing)",
+   "conducted_vacuum_rule": true,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -20.9,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 100.3,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 68.209,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.3
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -8,
+    "gain_db_to_apply": -2.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/rover_landing_thud_felt.mp3",
+    "bytes": 19270
+   }
+  },
+  {
+   "file": "rover_heater_fan_failing.wav",
+   "description": "The cab heater fan dies: blade whirr slows through a bent-blade tick, stutters, stalls, two last ticks and a relay click. 7 s, mono (cab air).",
+   "duration_s": 7.0,
+   "channels": 1,
+   "loop": false,
+   "group": "rover",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "27 (heater's dying)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -17.82,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 95.3,
+    "energy_above_2k_pct": 0.61,
+    "energy_below_80_pct": 72.94,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -19.3
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "frost_creak_on_glass_a.wav",
+   "description": "Frost on the windscreen, first stage: sparse tiny ice ticks. 2.5 s, mono.",
+   "duration_s": 2.23,
+   "channels": 1,
+   "loop": false,
+   "group": "rover",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "27 (frost still 1)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -29.06,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 4846.0,
+    "energy_above_2k_pct": 99.921,
+    "energy_below_80_pct": 0.002,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -26.0
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "frost_creak_on_glass_b.wav",
+   "description": "Frost on the windscreen, second stage: more ticks and one slow squeal of ice sliding. 2.8 s.",
+   "duration_s": 2.53,
+   "channels": 1,
+   "loop": false,
+   "group": "rover",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "27 (frost still 2)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -24.98,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 4827.8,
+    "energy_above_2k_pct": 99.683,
+    "energy_below_80_pct": 0.006,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -21.7
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "frost_creak_on_glass_c.wav",
+   "description": "Frost on the windscreen, third stage: dense crackle and two squeals. 3.2 s.",
+   "duration_s": 2.98,
+   "channels": 1,
+   "loop": false,
+   "group": "rover",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "27 (frost still 3)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -26.6,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 4999.2,
+    "energy_above_2k_pct": 99.761,
+    "energy_below_80_pct": 0.006,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.3
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "rover_headlamp_switch.wav",
+   "description": "Headlamp switch: rocker click, relay clunk and a brief 100 Hz lamp-driver buzz. 0.6 s, mono.",
+   "duration_s": 0.6,
+   "channels": 1,
+   "loop": false,
+   "group": "rover",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "26 (Lights.)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -22.85,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 126.8,
+    "energy_above_2k_pct": 0.028,
+    "energy_below_80_pct": 3.218,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -24.3
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   }
+  },
+  {
+   "file": "suit_fan_breath_jax_loop.wav",
+   "description": "Jax inside his helmet: steady suit fan (190 Hz) and calm, even breathing (4 s cycle, three per loop). The only sound an exterior shot carries. Exact 12 s loop, mono.",
+   "duration_s": 12.0,
+   "channels": 1,
+   "loop": true,
+   "group": "suits",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "9, 21, 29",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -21.75,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 920.8,
+    "energy_above_2k_pct": 11.629,
+    "energy_below_80_pct": 2.266,
+    "nan": false,
+    "loop_join_step_ratio": 0.028,
+    "loop_join_level_diff_db": 0.41,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -21.3
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -38,
+    "gain_db_to_apply": -16.7,
+    "db_below_dialogue": 22
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/suit_fan_breath_jax_loop.mp3",
+    "bytes": 144867
+   }
+  },
+  {
+   "file": "suit_fan_breath_mira_loop.wav",
+   "description": "Mira in her customs suit: higher, quieter fan (232 Hz) and quicker, tighter breathing (3 s cycle). Exact 12 s loop, mono.",
+   "duration_s": 12.0,
+   "channels": 1,
+   "loop": true,
+   "group": "suits",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "9, 29",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -21.05,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 974.1,
+    "energy_above_2k_pct": 13.795,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "loop_join_step_ratio": 0.045,
+    "loop_join_level_diff_db": 0.62,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -20.5
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -38,
+    "gain_db_to_apply": -17.5,
+    "db_below_dialogue": 22
+   }
+  },
+  {
+   "file": "suit_fan_breath_baron_loop.wav",
+   "description": "The Baron in a patched old pressure suit: lower, wheezier fan (150 Hz, slightly rough), slow deep breaths (4.8 s cycle) with a faint whistle on the inhale. Exact 14.4 s loop, mono.",
+   "duration_s": 14.4,
+   "channels": 1,
+   "loop": true,
+   "group": "suits",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "9, 21, 29",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -21.12,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 721.5,
+    "energy_above_2k_pct": 8.53,
+    "energy_below_80_pct": 2.606,
+    "nan": false,
+    "loop_join_step_ratio": 0.019,
+    "loop_join_level_diff_db": 0.35,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -21.1
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -38,
+    "gain_db_to_apply": -16.9,
+    "db_below_dialogue": 22
+   }
+  },
+  {
+   "file": "suit_fan_breath_lucia_loop.wav",
+   "description": "Luc\u00eda in her suit: mid fan (205 Hz), strong, slightly fast breathing (3.4 s cycle). Exact 13.6 s loop, mono.",
+   "duration_s": 13.6,
+   "channels": 1,
+   "loop": true,
+   "group": "suits",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "9, 29",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -21.53,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 940.1,
+    "energy_above_2k_pct": 11.897,
+    "energy_below_80_pct": 2.164,
+    "nan": false,
+    "loop_join_step_ratio": 0.099,
+    "loop_join_level_diff_db": 0.58,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -21.1
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -38,
+    "gain_db_to_apply": -16.9,
+    "db_below_dialogue": 22
+   }
+  },
+  {
+   "file": "radio_click_on.wav",
+   "description": "Suit radio key-up: small thump, crisp 'tk', 40 ms of hiss. 0.2 s, mono.",
+   "duration_s": 0.11,
+   "channels": 1,
+   "loop": false,
+   "group": "radio",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "9, 21, 26, 27, 29 (every radio line)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -20.21,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1128.2,
+    "energy_above_2k_pct": 23.703,
+    "energy_below_80_pct": 0.034,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/radio_click_on.mp3",
+    "bytes": 2969
+   }
+  },
+  {
+   "file": "radio_click_off.wav",
+   "description": "Suit radio key-down: 'tk' then a short squelch tail of hiss. 0.28 s, mono.",
+   "duration_s": 0.16,
+   "channels": 1,
+   "loop": false,
+   "group": "radio",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "every radio line",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -26.15,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 3750.9,
+    "energy_above_2k_pct": 77.363,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "radio_private_channel_click.wav",
+   "description": "Private-channel switch (the Baron and Jax): two soft rising pips with a small relay tick, clearly different from the open-channel click. 0.5 s, mono.",
+   "duration_s": 0.28,
+   "channels": 1,
+   "loop": false,
+   "group": "radio",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "21 ('A click. Private channel.')",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -13.33,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1505.1,
+    "energy_above_2k_pct": 0.013,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "radio_open_channel_hiss_loop.wav",
+   "description": "Open customs-channel hiss bed: wider band (250 Hz - 6.5 kHz), slow flutter, rare crackle pops. Mira on the open channel and Noakes O.S. sit on this. Exact 10 s loop, mono.",
+   "duration_s": 10.0,
+   "channels": 1,
+   "loop": true,
+   "group": "radio",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "27 (open channel), 28",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -22.41,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 2488.3,
+    "energy_above_2k_pct": 44.865,
+    "energy_below_80_pct": 0.053,
+    "nan": false,
+    "loop_join_step_ratio": 0.091,
+    "loop_join_level_diff_db": 2.17,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -20.7
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -44,
+    "gain_db_to_apply": -23.3,
+    "db_below_dialogue": 28
+   }
+  },
+  {
+   "file": "radio_suit_narrow_IR.wav",
+   "description": "Impulse response for suit radio: narrow band ~450-2800 Hz with a slight 1.6 kHz presence lift. Linear-phase FIR (2049 taps, 1024-sample = 21 ms latency). Convolve (ffmpeg afir) or use the filter chain in radio-voice-presets.json. File peak is -6 dBFS: compensate gain after convolving.",
+   "duration_s": 0.043,
+   "channels": 1,
+   "loop": false,
+   "group": "radio",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "9, 21, 29, 8 (Mira on radio is always filtered)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -29.45,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1615.6,
+    "energy_above_2k_pct": 27.996,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   },
+   "note": "IR, not an effect"
+  },
+  {
+   "file": "radio_open_wide_IR.wav",
+   "description": "Impulse response for the open customs channel / console: wider ~300-5200 Hz, mild high-mid lift. Linear-phase FIR, 2049 taps (21 ms latency). Peak -6 dBFS.",
+   "duration_s": 0.043,
+   "channels": 1,
+   "loop": false,
+   "group": "radio",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "27, 28, 25",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -32.79,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 2506.2,
+    "energy_above_2k_pct": 62.73,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   },
+   "note": "IR, not an effect"
+  },
+  {
+   "file": "inn_stove_ignite_whup.wav",
+   "description": "The squat iron stove lights: three piezo ticks, a small blue-flame 'whup' (soft sub thump with a burst of gas hiss) and a low flickering burn that settles. 2.2 s, stereo.",
+   "duration_s": 2.19,
+   "channels": 2,
+   "loop": false,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "10, 15, 31 (tag: the cold stove lights)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -28.51,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 239.7,
+    "energy_above_2k_pct": 3.577,
+    "energy_below_80_pct": 71.474,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -24.0
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/inn_stove_ignite_whup.mp3",
+    "bytes": 35988
+   }
+  },
+  {
+   "file": "inn_stove_burn_loop.wav",
+   "description": "Small stove pilot-and-flame burn, soft flutter and gas hiss. Exact 8 s loop, mono.",
+   "duration_s": 8.0,
+   "channels": 1,
+   "loop": true,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "10, 11, 14, 15",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -21.31,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 707.1,
+    "energy_above_2k_pct": 9.206,
+    "energy_below_80_pct": 11.354,
+    "nan": false,
+    "loop_join_step_ratio": 0.472,
+    "loop_join_level_diff_db": 1.48,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -21.9
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -46,
+    "gain_db_to_apply": -24.1,
+    "db_below_dialogue": 30
+   }
+  },
+  {
+   "file": "inn_quiet_room_metal_ticks_loop.wav",
+   "description": "The parlour in quiet: faint rock-room air, a barely-there hum, and the odd tiny tick or three-tick run of metal warming (stove iron, brass). Exact 24 s loop, stereo.",
+   "duration_s": 24.0,
+   "channels": 2,
+   "loop": true,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "10, 11, 13, 14, 16",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -27.26,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 648.7,
+    "energy_above_2k_pct": 8.131,
+    "energy_below_80_pct": 39.834,
+    "nan": false,
+    "loop_join_step_ratio": 0.181,
+    "loop_join_level_diff_db": 0.1,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -24.6
+   },
+   "mix": {
+    "kind": "bed",
+    "target_lufs_in_mix": -46,
+    "gain_db_to_apply": -21.4,
+    "db_below_dialogue": 30
+   }
+  },
+  {
+   "file": "pen_scratch_long_signature.wav",
+   "description": "A quill-or-nib pen writing a very long, magnificent signature: 17 strokes with lifts, a flourish and a long underline. Light paper texture. 6 s, mono.",
+   "duration_s": 5.47,
+   "channels": 1,
+   "loop": false,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "11 (the signature), 22 (the contract)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -26.08,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 4924.9,
+    "energy_above_2k_pct": 95.711,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -22.7
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "paper_slip_rustle.wav",
+   "description": "A delivery slip slid and smoothed on a table: soft paper hush and small crinkle ticks. 1.8 s, mono.",
+   "duration_s": 1.47,
+   "channels": 1,
+   "loop": false,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "11",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -26.0,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 5284.1,
+    "energy_above_2k_pct": 92.261,
+    "energy_below_80_pct": 0.003,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -21.9
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "paper_card_slide_and_tap.wav",
+   "description": "A card pushed across a table and left with a small tap (Chichikov's card/number). 1.0 s, mono.",
+   "duration_s": 0.63,
+   "channels": 1,
+   "loop": false,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "5, 16",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -27.05,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 5314.0,
+    "energy_above_2k_pct": 62.195,
+    "energy_below_80_pct": 1.695,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.9
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "frost_crack_ice_small.wav",
+   "description": "A small crack of ice (the post horn's frost letting go): a sharp 'tk', a short glassy ring and a faint falling fracture. 0.7 s, mono. Music dept: the march comes after this.",
+   "duration_s": 0.31,
+   "channels": 1,
+   "loop": false,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "15",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -25.07,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 3308.8,
+    "energy_above_2k_pct": 99.5,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/frost_crack_ice_small.mp3",
+    "bytes": 5895
+   }
+  },
+  {
+   "file": "brass_frost_drip_a.wav",
+   "description": "One drop of thawed frost runs off the post horn's bell onto brass: plip and a faint brass ring (~620 Hz). 1.4 s.",
+   "duration_s": 1.4,
+   "channels": 1,
+   "loop": false,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "15",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -21.25,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 793.7,
+    "energy_above_2k_pct": 0.233,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -22.2
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "brass_frost_drip_b.wav",
+   "description": "A second drop, a little lower and wetter. 1.4 s.",
+   "duration_s": 1.4,
+   "channels": 1,
+   "loop": false,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "15",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -23.16,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 748.9,
+    "energy_above_2k_pct": 0.233,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -24.3
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "brass_thaw_metal_ticks.wav",
+   "description": "Brass and iron ticking as they warm: seven small ticks, spacing stretching. 5 s, mono.",
+   "duration_s": 4.59,
+   "channels": 1,
+   "loop": false,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "15",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -29.58,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1589.6,
+    "energy_above_2k_pct": 7.891,
+    "energy_below_80_pct": 0.011,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -25.7
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -16,
+    "gain_db_to_apply": -10.0
+   }
+  },
+  {
+   "file": "post_horn_thaw_sequence.wav",
+   "description": "Cue sheet in one file: ticks, a drip, more ticks, drip, and the ice crack at 7.4 s, then 1 s of room quiet for the music department's march to enter. 9 s, mono.",
+   "duration_s": 9.0,
+   "channels": 1,
+   "loop": false,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "15",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -37.36,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1131.1,
+    "energy_above_2k_pct": 5.926,
+    "energy_below_80_pct": 0.01,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -34.6
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "cold_store_door_open.wav",
+   "description": "A heavy insulated cold-store door opening: lever clunk, gasket peel, slow hinge groan, a rush of cold air, and a soft rubber bump at the end. 4.5 s, stereo (small cold room).",
+   "duration_s": 4.05,
+   "channels": 2,
+   "loop": false,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "15",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -26.08,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 493.5,
+    "energy_above_2k_pct": 2.491,
+    "energy_below_80_pct": 6.981,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.9
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -8,
+    "gain_db_to_apply": -2.0
+   }
+  },
+  {
+   "file": "breath_in_cold.wav",
+   "description": "Breaths in cold air, two cycles of out-and-in; soft, slightly smoky exhale, a shivering inhale. Heard close, no voice. 5.5 s, mono.",
+   "duration_s": 5.5,
+   "channels": 1,
+   "loop": false,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "15",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -24.3,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1819.0,
+    "energy_above_2k_pct": 34.485,
+    "energy_below_80_pct": 0.009,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -21.9
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "inlaid_box_lid_open.wav",
+   "description": "Chichikov's little inlaid travelling box opens: tiny hinge creak and a soft wooden click. 1.1 s, mono.",
+   "duration_s": 0.74,
+   "channels": 1,
+   "loop": false,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "5, 12, 22",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -23.27,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 628.5,
+    "energy_above_2k_pct": 2.163,
+    "energy_below_80_pct": 1.406,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -26.5
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "brass_recorder_click_and_tap.wav",
+   "description": "Chichikov's small brass recorder: thumb click-off, and a tap on the brass device (two short events 0.7 s apart). 1.2 s.",
+   "duration_s": 1.14,
+   "channels": 1,
+   "loop": false,
+   "group": "inn",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "25 (brass device), 31 (recorder)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -26.09,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1062.7,
+    "energy_above_2k_pct": 2.054,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.2
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "grapple_fire_hull_thunk.wav",
+   "description": "A grapple line fired by the customs crawler, FELT in the rover: a dull launcher thump through the body, low rumble of cable paying out, fixtures buzzing faintly. No outside sound. All < 1 kHz. 2 s, stereo.",
+   "duration_s": 0.99,
+   "channels": 2,
+   "loop": false,
+   "group": "action",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "29",
+   "conducted_vacuum_rule": true,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -22.82,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 101.2,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 28.841,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -24.7
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -8,
+    "gain_db_to_apply": -2.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/grapple_fire_hull_thunk.mp3",
+    "bytes": 16762
+   }
+  },
+  {
+   "file": "grapple_cable_tension_groan.wav",
+   "description": "The grapple line comes taut and the rover is dragged: a long stick-slip groan rising in pitch through the chassis, strands ticking faster, wheels' rumble. All < 1 kHz, conducted. 6 s, stereo.",
+   "duration_s": 6.0,
+   "channels": 2,
+   "loop": false,
+   "group": "action",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "29",
+   "conducted_vacuum_rule": true,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -21.49,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 65.9,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 76.41,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -24.1
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -10,
+    "gain_db_to_apply": -4.0
+   }
+  },
+  {
+   "file": "line_parting_snap_hull.wav",
+   "description": "The line parts: a sharp conducted CRACK through the hull, the groan cut dead, a low recoil 'twang' and body ring-down. Felt, not heard outside (everything < 1.2 kHz). 2.4 s, stereo.",
+   "duration_s": 1.85,
+   "channels": 2,
+   "loop": false,
+   "group": "action",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "29 (hatchet cuts the line)",
+   "conducted_vacuum_rule": true,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -24.4,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 74.0,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 83.178,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -24.6
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -8,
+    "gain_db_to_apply": -2.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/line_parting_snap_hull.mp3",
+    "bytes": 30555
+   }
+  },
+  {
+   "file": "trunk_drag_up_metal_ramp.wav",
+   "description": "Luc\u00eda heaves the LOT 14 trunk up the steel ramp inside the ship (air): wood scraping over a grated ramp, three heavier bumps over seams, one wood creak, a final settle. 6.5 s, stereo.",
+   "duration_s": 6.5,
+   "channels": 2,
+   "loop": false,
+   "group": "action",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "29",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -27.65,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 650.5,
+    "energy_above_2k_pct": 11.616,
+    "energy_below_80_pct": 48.908,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -25.6
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -9,
+    "gain_db_to_apply": -3.0
+   }
+  },
+  {
+   "file": "trunk_knocks_inside_a.wav",
+   "description": "Three small, polite knocks from INSIDE a wooden trunk, evenly spaced (variant A). Muffled by the lid; cargo-hold air. 2 s.",
+   "duration_s": 1.39,
+   "channels": 2,
+   "loop": false,
+   "group": "action",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "31 (tag), 29",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -26.63,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 179.0,
+    "energy_above_2k_pct": 0.016,
+    "energy_below_80_pct": 1.008,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -24.7
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/trunk_knocks_inside_a.mp3",
+    "bytes": 23449
+   }
+  },
+  {
+   "file": "trunk_knocks_inside_b.wav",
+   "description": "Three polite knocks, variant B: knock... knock-knock, a little hopeful. 2 s.",
+   "duration_s": 1.47,
+   "channels": 2,
+   "loop": false,
+   "group": "action",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "31",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -25.02,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 196.3,
+    "energy_above_2k_pct": 0.052,
+    "energy_below_80_pct": 2.094,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -21.9
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "trunk_knocks_inside_c.wav",
+   "description": "Three polite knocks, variant C: slow and softer, dwindling, as if embarrassed to ask. 2 s.",
+   "duration_s": 1.7,
+   "channels": 2,
+   "loop": false,
+   "group": "action",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "31",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -28.77,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 171.5,
+    "energy_above_2k_pct": 0.045,
+    "energy_below_80_pct": 1.454,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -26.1
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "ramp_motor_conducted_thrum.wav",
+   "description": "The ship's cargo ramp moving, heard in the cabin through the deck: gear thrum rising and falling, a few drive-chain ticks, a dull seat bump. Conducted (< 700 Hz). 3.6 s, mono.",
+   "duration_s": 3.6,
+   "channels": 1,
+   "loop": false,
+   "group": "action",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "29 (ramp comes down / rises)",
+   "conducted_vacuum_rule": true,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -18.84,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 40.5,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 80.891,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -25.1
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "ramp_close_and_airlock_cycle.wav",
+   "description": "The ship's ramp closes and the airlock cycles (inside the ship, air): drive whine, heavy seal thump, three bolts thrown, pump spooling up with a rush of air, pressure equalising with a long 'pssht', then two soft ready pips. 11 s, stereo.",
+   "duration_s": 10.77,
+   "channels": 2,
+   "loop": false,
+   "group": "action",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "29 (ramp rises)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -22.09,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1475.5,
+    "energy_above_2k_pct": 26.847,
+    "energy_below_80_pct": 2.775,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -18.2
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -9,
+    "gain_db_to_apply": -3.0
+   }
+  },
+  {
+   "file": "liftoff_felt_in_cabin.wav",
+   "description": "Lift-off as the cabin feels it (no sound outside): clamps' thump, a rising body tremor with sub sweep, three structural creaks, loose-item buzz, then acceleration eases into a steady hum. < 800 Hz conducted. 10 s, stereo.",
+   "duration_s": 10.0,
+   "channels": 2,
+   "loop": false,
+   "group": "action",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "29 (ship lifts, far side)",
+   "conducted_vacuum_rule": true,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -23.22,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 57.4,
+    "energy_above_2k_pct": 0.0,
+    "energy_below_80_pct": 87.244,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -26.3
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -8,
+    "gain_db_to_apply": -2.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/liftoff_felt_in_cabin.mp3",
+    "bytes": 120730
+   }
+  },
+  {
+   "file": "ui_letter_blink_out.wav",
+   "description": "One letter of the Atlas label blinks out: a tiny dry blip with a falling edge. 0.15 s, mono.",
+   "duration_s": 0.14,
+   "channels": 1,
+   "loop": false,
+   "group": "ui",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "2 (THE SILVER HATCHET loses letters)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -21.48,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 2064.0,
+    "energy_above_2k_pct": 92.374,
+    "energy_below_80_pct": 0.004,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "ui_letters_blinking_out_run.wav",
+   "description": "Letters blinking out from the end, one at a time, each blip a little lower and softer than the last (12 blips, holds after blips 2, 4 and 7 for the HATCH / HAT / SILVER stills). 4.6 s, mono.",
+   "duration_s": 3.84,
+   "channels": 1,
+   "loop": false,
+   "group": "ui",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "2",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -27.48,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1861.3,
+    "energy_above_2k_pct": 15.797,
+    "energy_below_80_pct": 0.001,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -24.3
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "ui_streetlamp_tink_out_a.wav",
+   "description": "A tiny street-lamp 'tink' as one map name goes out (higher). 0.7 s.",
+   "duration_s": 0.54,
+   "channels": 1,
+   "loop": false,
+   "group": "ui",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "2 (HATCHET LANE, BEAN ROW, STRAW STAIRS)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -22.2,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 3456.5,
+    "energy_above_2k_pct": 99.962,
+    "energy_below_80_pct": 0.008,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -20.2
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "ui_streetlamp_tink_out_b.wav",
+   "description": "Street-lamp tink, middle pitch. 0.7 s.",
+   "duration_s": 0.54,
+   "channels": 1,
+   "loop": false,
+   "group": "ui",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "2",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -22.32,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 2948.5,
+    "energy_above_2k_pct": 99.961,
+    "energy_below_80_pct": 0.009,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -20.4
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "ui_streetlamp_tink_out_c.wav",
+   "description": "Street-lamp tink, lower and duller. 0.7 s.",
+   "duration_s": 0.54,
+   "channels": 1,
+   "loop": false,
+   "group": "ui",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "2",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -22.21,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 2491.9,
+    "energy_above_2k_pct": 99.961,
+    "energy_below_80_pct": 0.01,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -20.5
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -14,
+    "gain_db_to_apply": -8.0
+   }
+  },
+  {
+   "file": "ui_streetlamps_going_out_sequence.wav",
+   "description": "The little street names go out like lamps: four tinks stepping down in pitch, then a soft low 'thunk' as the floor goes fully dark. 4 s, stereo.",
+   "duration_s": 3.75,
+   "channels": 2,
+   "loop": false,
+   "group": "ui",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "2",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -26.01,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 2806.3,
+    "energy_above_2k_pct": 96.06,
+    "energy_below_80_pct": 2.06,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -19.1
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -11,
+    "gain_db_to_apply": -5.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/ui_streetlamps_going_out_sequence.mp3",
+    "bytes": 61066
+   }
+  },
+  {
+   "file": "ui_report_filed_blip.wav",
+   "description": "A PIP report is filed: crisp two-tone blip (G5 up to D6) with a small ink-stamp tick under it. 0.7 s, mono.",
+   "duration_s": 0.48,
+   "channels": 1,
+   "loop": false,
+   "group": "ui",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0, 2, 16, 30 (REPORT #1,204 ... #1,207)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -19.34,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1242.4,
+    "energy_above_2k_pct": 6.259,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -18.2
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "ui_report_read_receipt_tick.wav",
+   "description": "The tiny grey 'READ' line appears under the report: one soft, low double-tick, deliberately underplayed. 0.4 s.",
+   "duration_s": 0.23,
+   "channels": 1,
+   "loop": false,
+   "group": "ui",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "30 (READ 00:00:01.3)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -21.13,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1061.8,
+    "energy_above_2k_pct": 2.357,
+    "energy_below_80_pct": 0.003,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": null
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -16,
+    "gain_db_to_apply": -10.0
+   }
+  },
+  {
+   "file": "ui_screen_refresh_flicker.wav",
+   "description": "A screen field refreshing: three little buzzing flicker bursts (CAPTAIN: VALE, JAX appears) then a blunt settle with a relay tick and a thin hum that stays. 1.6 s, mono.",
+   "duration_s": 1.56,
+   "channels": 1,
+   "loop": false,
+   "group": "ui",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "31 (the warrant field refreshes)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -25.91,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1524.3,
+    "energy_above_2k_pct": 27.736,
+    "energy_below_80_pct": 0.679,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -21.8
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "ui_late_popup_arrival.wav",
+   "description": "A pop-up box arrives, too late: a polite rising 'bip-bup' (B5, E6) with a small hollow tail. 1 s, mono.",
+   "duration_s": 0.73,
+   "channels": 1,
+   "loop": false,
+   "group": "ui",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "28 (AUTHORITY TO LOCK -- RECEIVED)",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -19.12,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 1370.6,
+    "energy_above_2k_pct": 4.093,
+    "energy_below_80_pct": 0.0,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -18.1
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   }
+  },
+  {
+   "file": "smash_cut_main_title_hit.wav",
+   "description": "SMASH TO: MAIN TITLE: instant full-bandwidth hit: noise slam, pitch-falling sub boom, metallic crash partials and a stamp-like body thump, then a long dark hall tail. Starts on sample 0 (1 ms fade). 3.6 s, stereo.",
+   "duration_s": 3.6,
+   "channels": 2,
+   "loop": false,
+   "group": "transition",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0 -> title",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -21.98,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 39.8,
+    "energy_above_2k_pct": 0.265,
+    "energy_below_80_pct": 92.472,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -24.8
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -6,
+    "gain_db_to_apply": 0.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/smash_cut_main_title_hit.mp3",
+    "bytes": 58558
+   }
+  },
+  {
+   "file": "cut_to_black_soft_tail.wav",
+   "description": "Soft cut-to-black tail: the room tone sinks away under a slowly falling pair of low tones, high end rolling off, ending in silence. 4 s, stereo.",
+   "duration_s": 4.0,
+   "channels": 2,
+   "loop": false,
+   "group": "transition",
+   "source": "SYNTH",
+   "licence": "Original synthesis by production/tools/sfx (numpy/scipy); no third-party audio; no attribution needed.",
+   "suggested_scenes": "0?, 31 (CUT TO BLACK), 15, 27",
+   "conducted_vacuum_rule": false,
+   "loudness": {
+    "peak_dbfs": -6.0,
+    "rms_dbfs": -25.18,
+    "dc_offset": 0.0,
+    "clipped_samples": 0,
+    "spectral_centroid_hz": 198.4,
+    "energy_above_2k_pct": 0.155,
+    "energy_below_80_pct": 33.131,
+    "nan": false,
+    "pass": true,
+    "check_notes": [],
+    "lufs_integrated": -23.0
+   },
+   "mix": {
+    "kind": "one-shot",
+    "target_peak_dbfs_in_mix": -12,
+    "gain_db_to_apply": -6.0
+   },
+   "review_mp3": {
+    "path": "samples/e01/sfx/cut_to_black_soft_tail.mp3",
+    "bytes": 65245
+   }
+  }
+ ]
+}

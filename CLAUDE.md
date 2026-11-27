@@ -23,6 +23,11 @@ State lives on disk, never only in a chat. Update `STATUS.md` when a milestone l
   booster, never as something the pipeline depends on.
 - Photoreal look: people, ships and sets must look real, to match the NASA footage. Cast must
   look global (no more than one core character per country).
+- Bright, colourful pictures and many different places per episode; not mostly inside the ship
+  and not dark (owner, 27 Nov). Leads are attractive film-star faces, tastefully presented.
+- No AI-disclosure wording in episodes, descriptions or channel copy (owner, 27 Nov). The
+  showrunner's position on YouTube's own upload setting is recorded in STATUS.md.
+- Speed: the owner wants as many episodes as possible, as fast as possible; run work in parallel.
 - Stories mix at least three sources from at least two cultures per episode; inspiration only.
 - Guests may be picked by the showrunner. Characters come from all over the world.
 - Nothing is published or uploaded without the owner's sign-off.

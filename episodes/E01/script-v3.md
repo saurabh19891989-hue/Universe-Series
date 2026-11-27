@@ -3026,8 +3026,7 @@ CUT TO BLACK.
 # WHAT WAS REAL (0:40)
 
 **Visual:** REAL FOOTAGE WIDE / DATA VISUAL. **STAGING:** PIP's voice over the real south-pole
-flyover and the shadowed-region visualisation, with credits rolling small at the bottom. At
-upload, tick YouTube's altered or synthetic content disclosure.
+flyover and the shadowed-region visualisation, with credits rolling small at the bottom.
 
 ```
                          PIP (V.O.)
@@ -3040,9 +3039,9 @@ upload, tick YouTube's altered or synthetic content disclosure.
           Earth's. Signals take about one point
           three seconds each way, and none from
           Earth reach the far side directly.
-          There is no air, so no sound. Every
-          person you saw was made digitally, and
-          Earth on the horizon is a composite.
+          There is no air, so no sound. The
+          landscapes on the rim are illustrations,
+          and Earth on the horizon is a composite.
           The Baron has asked me to say that he
           is not. I have noted his request.
           Footage and visualisations: NASA.

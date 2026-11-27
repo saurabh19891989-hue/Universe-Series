@@ -177,6 +177,11 @@ class Cue:
         os.makedirs(MIDI_DIR, exist_ok=True)
         path = os.path.join(MIDI_DIR, self.name + ".mid")
         for inst in self.pm.instruments:
+            # same pitch on one channel cannot overlap in MIDI: end the earlier note just before the next
+            ns = sorted(inst.notes, key=lambda n: (n.pitch, n.start))
+            for x, y in zip(ns, ns[1:]):
+                if x.pitch == y.pitch and y.start < x.end:
+                    x.end = max(x.start + 0.02, y.start - 0.005)
             inst.control_changes.sort(key=lambda c: c.time)
             inst.pitch_bends.sort(key=lambda c: c.time)
         self.pm.write(path)

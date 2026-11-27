@@ -17,6 +17,7 @@ import numpy as np
 import cv2
 from PIL import Image, ImageDraw, ImageFont
 
+cv2.setNumThreads(1)
 W, H, FPS = 1920, 1080, 24
 
 # --------------------------------------------------------------------------
@@ -322,7 +323,7 @@ def _ff_h264(path):
     return subprocess.Popen(
         ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
          "-r", str(FPS), "-i", "-", "-vf", "scale=out_color_matrix=bt709:out_range=tv,format=yuv420p",
-         "-c:v", "libx264", "-crf", "16", "-preset", "medium", "-threads", "1", "-r", str(FPS),
+         "-c:v", "libx264", "-crf", "16", "-preset", "fast", "-threads", "1", "-r", str(FPS),
          "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
          "-movflags", "+faststart", path], stdin=subprocess.PIPE)
 

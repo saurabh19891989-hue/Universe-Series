@@ -15,6 +15,13 @@ purpose and say which one.
 9. **One music-led montage per episode** to compress a day into a minute.
 10. **No filler test:** remove any scene. If the episode still makes sense and nobody is poorer, it stays removed.
 
+## Places (owner, 27 Nov)
+1. **Get off the ship.** No more than a quarter of an episode's running time is inside *The Unscheduled*.
+2. **Five or more distinct places per episode**, each with its own colour, light and texture — markets,
+   ports, palaces, wrecks, landscapes — in the spirit of a big colourful space adventure.
+3. **Bright by default.** Darkness is a story event, not the house style.
+4. **Every act visits somewhere new**, and at least one place per episode is a spectacle the viewer has not seen before.
+
 ## Comedy
 1. **Characters never know they are funny.** They are trying very hard at something.
 2. **Jokes come from want, status and precision**, not from references. No memes, no winking at the audience.

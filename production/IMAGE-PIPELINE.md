@@ -51,10 +51,9 @@ Instruction template:
 - Wrapper script (logs every run): `production/tools/look/codex_image.py`.
 - At most 4 jobs in parallel (owner raised it from 2 on 27 Nov).
 
-**Style line (every prompt):** Photorealistic cinematic film still, 35mm, shallow depth of
-field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical
-costumes, no logos, no readable text, looks like a frame from a live-action science fiction
-film, not an illustration, not CGI.
+**Style line (every prompt)** — revised 27 Nov, owner asked for brighter, more colourful pictures: Photorealistic cinematic film still, 35mm, shallow depth of field, bright and well lit, rich vivid colour, clear readable faces, natural skin texture, worn practical costumes, no logos, no readable text, looks like a frame from a big colourful live-action science fiction adventure film, not an illustration, not CGI.
+
+**Light and place rules (owner, 27 Nov):** no murky, underlit frames. Interiors are lit like a working place with warm practical lamps and coloured screens; exteriors use hard bright sunlight. Each location has its own strong colour world. Dark scenes are allowed only where the story needs darkness (for example the crater floor), and even there the faces are clearly lit. Glamour: the leads are attractive film-star faces, tastefully dressed for their job — never sexualised.
 
 ## 3. Characters must never change — the character library
 

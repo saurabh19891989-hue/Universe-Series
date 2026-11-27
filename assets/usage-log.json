@@ -1108,7 +1108,7 @@
   "purpose": "step4 customs hall - the desk with glass screen",
   "job": "customs-desk",
   "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/customs-desk/customs-desk.png",
-  "file": "assets/sets/customs/desk-glass-screen.jpg",
+  "file": "assets/sets/customs/desk.jpg",
   "refs": [
    "master.jpg"
   ],
@@ -1126,7 +1126,8 @@
     "used_percent": 93.0,
     "resets_at": "2026-12-02 17:30 UTC"
    }
-  }
+  },
+  "file_original": "assets/sets/customs/desk-glass-screen.jpg"
  },
  {
   "time": "2026-11-27T16:06:26",
@@ -1213,7 +1214,7 @@
   "purpose": "step4 clamp console under flip-number board",
   "job": "clamp",
   "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/clamp/clamp.png",
-  "file": "assets/sets/customs/clamp-console-board.jpg",
+  "file": "assets/sets/customs/clamp-console.jpg",
   "refs": [
    "master.jpg"
   ],
@@ -1231,7 +1232,8 @@
     "used_percent": 94.0,
     "resets_at": "2026-12-02 17:30 UTC"
    }
-  }
+  },
+  "file_original": "assets/sets/customs/clamp-console-board.jpg"
  },
  {
   "time": "2026-11-27T16:07:28",
@@ -1263,7 +1265,7 @@
   "purpose": "step4 post-chaise cab interior from back seat (new, PROPOSED)",
   "job": "chaise-cab",
   "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/chaise-cab/chaise-cab.png",
-  "file": "assets/sets/postchaise/cab-interior.jpg",
+  "file": "assets/sets/postchaise/cab.jpg",
   "refs": [],
   "seconds": 38.7,
   "tokens": 10131,
@@ -1279,7 +1281,8 @@
     "used_percent": 94.0,
     "resets_at": "2026-12-02 17:30 UTC"
    }
-  }
+  },
+  "file_original": "assets/sets/postchaise/cab-interior.jpg"
  },
  {
   "time": "2026-11-27T16:07:22",
@@ -1287,7 +1290,7 @@
   "purpose": "step4 Silver Hatchet inn exterior (new, PROPOSED)",
   "job": "hatchet-ext",
   "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/hatchet-ext/hatchet-ext.png",
-  "file": "assets/sets/inn/exterior.jpg",
+  "file": "assets/sets/hatchet/exterior.jpg",
   "refs": [],
   "seconds": 33.7,
   "tokens": 5620,
@@ -1303,7 +1306,8 @@
     "used_percent": 94.0,
     "resets_at": "2026-12-02 17:30 UTC"
    }
-  }
+  },
+  "file_original": "assets/sets/inn/exterior.jpg"
  },
  {
   "time": "2026-11-27T16:07:46",
@@ -1311,7 +1315,7 @@
   "purpose": "step4 Silver Hatchet parlour (new, PROPOSED)",
   "job": "parlour",
   "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/parlour/parlour.png",
-  "file": "assets/sets/inn/parlour.jpg",
+  "file": "assets/sets/hatchet/parlour.jpg",
   "refs": [],
   "seconds": 57.9,
   "tokens": 10092,
@@ -1327,7 +1331,8 @@
     "used_percent": 94.0,
     "resets_at": "2026-12-02 17:30 UTC"
    }
-  }
+  },
+  "file_original": "assets/sets/inn/parlour.jpg"
  },
  {
   "read_at": "2026-11-27T16:08:07Z",
@@ -1351,7 +1356,7 @@
   "purpose": "step4 Silver Hatchet cold store (new, PROPOSED)",
   "job": "coldstore",
   "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/coldstore/coldstore.png",
-  "file": "assets/sets/inn/cold-store.jpg",
+  "file": "assets/sets/hatchet/coldstore.jpg",
   "refs": [
    "parlour.jpg"
   ],
@@ -1369,7 +1374,8 @@
     "used_percent": 94.0,
     "resets_at": "2026-12-02 17:30 UTC"
    }
-  }
+  },
+  "file_original": "assets/sets/inn/cold-store.jpg"
  },
  {
   "time": "2026-11-27T16:09:04",
@@ -1377,7 +1383,7 @@
   "purpose": "step4 bay nine apron with the ship",
   "job": "apron",
   "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/apron/apron.png",
-  "file": "assets/sets/bay9/apron.jpg",
+  "file": "assets/sets/apron/master.jpg",
   "refs": [
    "master.jpg"
   ],
@@ -1395,7 +1401,8 @@
     "used_percent": 94.0,
     "resets_at": "2026-12-02 17:30 UTC"
    }
-  }
+  },
+  "file_original": "assets/sets/bay9/apron.jpg"
  },
  {
   "time": "2026-11-27T16:08:47",
@@ -1451,7 +1458,7 @@
   "purpose": "step5 prop: brass post horn white with frost",
   "job": "horn-frost",
   "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/horn-frost/horn-frost.png",
-  "file": "assets/props/posthorn/frosted.jpg",
+  "file": "assets/props/posthorn/master.jpg",
   "refs": [
    "cold-store.jpg"
   ],
@@ -1469,7 +1476,8 @@
     "used_percent": 94.0,
     "resets_at": "2026-12-02 17:30 UTC"
    }
-  }
+  },
+  "file_original": "assets/props/posthorn/frosted.jpg"
  },
  {
   "time": "2026-11-27T16:10:24",
@@ -1503,7 +1511,7 @@
   "purpose": "step5 prop: Chichikov's inlaid box open with contracts",
   "job": "box-open",
   "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/box-open/box-open.png",
-  "file": "assets/props/chichikov-box/open-contracts.jpg",
+  "file": "assets/props/inlaid-box/master.jpg",
   "refs": [
    "ref-hands-box.jpg"
   ],
@@ -1521,7 +1529,8 @@
     "used_percent": 94.0,
     "resets_at": "2026-12-02 17:30 UTC"
    }
-  }
+  },
+  "file_original": "assets/props/chichikov-box/open-contracts.jpg"
  },
  {
   "time": "2026-11-27T16:10:20",
@@ -1668,5 +1677,101 @@
   },
   "type": "allowance_check",
   "label": "after 70 images (steps 1-5 done)"
+ },
+ {
+  "time": "2026-11-27T16:13:07",
+  "type": "run",
+  "purpose": "step6 Idris master (new face)",
+  "job": "idris",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/idris/idris.png",
+  "file": "assets/characters/idris/master.jpg",
+  "refs": [],
+  "seconds": 65.1,
+  "tokens": 24317,
+  "status": "accepted",
+  "note": "new face PROPOSED; FLAG curly hair and stubble read close to Jax - owner may want more contrast",
+  "jpg_bytes": 308432,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 71.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 95.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:12:39",
+  "type": "run",
+  "purpose": "step6 Soren Voss master (new face)",
+  "job": "voss",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/voss/voss.png",
+  "file": "assets/characters/voss/master.jpg",
+  "refs": [],
+  "seconds": 37.3,
+  "tokens": 5690,
+  "status": "accepted",
+  "note": "new face PROPOSED; banded-collar suit, not clerical",
+  "jpg_bytes": 129851,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 70.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 95.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:12:40",
+  "type": "run",
+  "purpose": "step6 Commander Arakawa master (new face)",
+  "job": "arakawa",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/arakawa/arakawa.png",
+  "file": null,
+  "refs": [],
+  "seconds": 38.3,
+  "tokens": 10436,
+  "status": "rejected",
+  "note": "REJECT: face reads too close to a well-known real actress (no-likeness rule); redo when step 6 resumes",
+  "jpg_bytes": null,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 70.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 95.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:13:04",
+  "type": "run",
+  "purpose": "step6 Cass Rook master (new face)",
+  "job": "cass",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/cass/cass.png",
+  "file": "assets/characters/cass/master.jpg",
+  "refs": [],
+  "seconds": 62.2,
+  "tokens": 18199,
+  "status": "accepted",
+  "note": "new face PROPOSED",
+  "jpg_bytes": 260714,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 71.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 95.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
  }
 ]

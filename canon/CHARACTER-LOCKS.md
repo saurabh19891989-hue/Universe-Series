@@ -10,8 +10,8 @@ owner has not approved the face) · LOCKED (owner approved; master in `assets/ch
 | Id | Character | Locked description (use verbatim in prompts) | Master | Status |
 |---|---|---|---|---|
 | jax | Jax Vale, captain | Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets | `assets/characters/jax/master.jpg` | LOCKED (owner, 27 Nov) |
-| mira | Dr. Mira Sen, cartographer | Bengali Indian woman, mid-30s, dark braid, sharp tired eyes, ink-stained fingers; indigo flight suit, brass loupe on a chain | `samples/look-codex/cast-mira.jpg` | REDO younger (owner, 27 Nov) |
-| lucia | Lucía "Lucha" Ortega, engineer | Mexican woman, early 30s, strong athletic build, short practical hair; grease-stained coveralls, a red ribbon tied round her wrist | `samples/look-codex/cast-lucia.jpg` | REDO younger (owner, 27 Nov) |
+| mira | Dr. Mira Sen, cartographer | Bengali Indian woman, 32, strikingly beautiful film-star face, dark braid, sharp intelligent eyes, ink-stained fingers; fitted indigo flight suit, brass loupe on a chain | `samples/look-codex/cast-mira.jpg` | REDO 2 — more glamorous (owner, 27 Nov) |
+| lucia | Lucía "Lucha" Ortega, engineer | Mexican woman, 29, slim, lean and athletic, strikingly attractive film-star face, short practical dark hair; fitted grease-marked coveralls, a red ribbon tied round her wrist | `samples/look-codex/cast-lucia.jpg` | REDO 2 — slimmer, more glamorous (owner, 27 Nov) |
 | idris | Idris al-Rahhal, navigator | Iraqi Arab man, 40, elegant, trimmed beard, gambler's smile; threadbare but beautiful embroidered coat | — | PROPOSED |
 | seo | Han Seo-yeon, pilot | Korean woman, 30, composed, cropped hair, unreadable expression; plain grey pilot's jacket | `assets/characters/seo/master.jpg` | LOCKED (owner, 27 Nov) |
 | oyuna | Oyuna Tseren, archivist | Mongolian woman in her 50s, calm lined face, long grey-streaked hair; layered wool, worn leather satchel | `assets/characters/oyuna/master.jpg` | LOCKED (owner, 27 Nov) |
@@ -24,9 +24,9 @@ owner has not approved the face) · LOCKED (owner approved; master in `assets/ch
 | pell | Auditor Pell | To be written | — | — |
 | arakawa | Commander Tomoe Arakawa | Japanese woman, 40s, severe dark uniform with no real-world insignia | — | PROPOSED |
 | cass | Cass Rook, rival captain | Nigerian-British man, 40s, charming; expensive but travel-worn pilot's coat | — | PROPOSED |
-| noakes | Superintendent Noakes (ep 1) | English man, 55, tired; customs uniform without real insignia | — | PROPOSED |
-| temi | Temi Adeyemi, "Recoveries" (ep 1) | Nigerian woman in a headset, bright, mid-smile, bank call-centre desk | — | PROPOSED |
-| mamani | Officer Inti Mamani (ep 1) | Andean man, kind, tired, port control desk | — | PROPOSED |
+| noakes | Superintendent Noakes (ep 1) | English man, 55, tired; customs uniform without real insignia | `assets/characters/noakes/master.jpg` | LOCKED (owner, 27 Nov) |
+| temi | Temi Adeyemi, "Recoveries" (ep 1) | Nigerian woman in a headset, bright, mid-smile, bank call-centre desk | `assets/characters/temi/master.jpg` | LOCKED (owner, 27 Nov) |
+| mamani | Officer Inti Mamani (ep 1) | Andean man, kind, tired, port control desk | `assets/characters/mamani/master.jpg` | LOCKED (owner, 27 Nov) |
 
 ## Sets, ship and props
 | Id | What | Locked description | Master | Status |
