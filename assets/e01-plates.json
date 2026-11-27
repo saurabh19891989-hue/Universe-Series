@@ -1729,9 +1729,9 @@
   "downloaded_variant": "orig",
   "has_people": "no",
   "has_logos": "VIPER logo 29-33 s; Artemis logo 160-165 s",
-  "has_text": "yes: 'NOBILE CRATER' ~37 s, 'Nobile Region' ~95 s, pink outline overlays 104-130 s",
+  "has_text": "yes: 'South Pole' label 14-19 s, 'NOBILE CRATER' ~37 s, 'Nobile Region' ~95 s, pink outline overlays 104-130 s",
   "crop_notes": "Use only clean ranges",
-  "usable_ranges": "4-10 s (Moon), 12-27 s (south-polar terrain; very faint polar grid lines around 21 s), 137-152 s (clean terrain), 154-158 s (Moon). Avoid 29-40, 54-135, 160-165.",
+  "usable_ranges": "4-13 s (Moon turning to the south pole, clean), 20-28 s (south-pole terrain, very faint polar graticule), 136-152 s (low oblique shadowed terrain, clean, ends on Moon). Avoid 14-19 s ('South Pole' label), 29-40, 54-135, 154-165.",
   "episode_1_scenes": "2 (south-pole flyover feel), What Was Real",
   "notes": "Audio carries licensed music (Universal Production Music, stripped). Insets 79-91 s show a render of Earth low over the lunar horizon but with the VIPER rover and overlays; not usable as a plate."
  },
