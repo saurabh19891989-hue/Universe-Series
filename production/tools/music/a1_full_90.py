@@ -20,7 +20,6 @@ c = Cue("A1-main-title-full-90", bpm=120, seed=111, rit=(168, 176, 96))
 B = c.bar
 c.track("cello", GM["cello"], 105, 50, 50)
 c.track("bass", GM["contrabass"], 100, 60, 45)
-c.track("viola", GM["viola"], 85, 78, 55)
 c.track("pad", GM["strings"], 90, 64, 80)
 c.track("vln", GM["strings2"], 95, 40, 75)
 c.track("horn", GM["horn"], 108, 70, 80)
@@ -82,7 +81,8 @@ def bar_harm(bar, ch, tr=0, pad=None, bass=None, lowbr=None, ost=None, viola=Fal
                 k = j * int(span * 4) + i
                 c.note("cello", t[OST[k]], b + i * 0.25, 0.25, ost + (22 if k in ACC else 0), legato=0.6)
                 if viola:
-                    c.note("viola", t[OST[k]] + 12, b + i * 0.25, 0.25, ost - 12 + (18 if k in ACC else 0), legato=0.6)
+                    c.note("cello", t[OST[k]] + 12,   # violas double an octave up (shares the track: 15-channel limit)
+                        b + i * 0.25, 0.25, ost - 12 + (18 if k in ACC else 0), legato=0.6)
 
 
 def taiko_bar(bar, scale=1.0):
