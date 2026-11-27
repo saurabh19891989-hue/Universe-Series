@@ -172,6 +172,11 @@ Last updated: 2026-11-27 (session 1)
 - CODEX LIMIT RULE CHANGED (27 Nov, late): next time the limit is hit, wait for the time it
   shows and resume automatically; do not ask the owner to reset.
 
+- MODEL OVERRIDE (27 Nov night): owner asked to prioritise Fable for all new agents until
+  Saturday 07:30 India time (assumed), then return to the Opus/Sonnet hierarchy. A scheduled
+  reminder fires at that time.
+- Scripts: E01 final; E02 with critic; E03, E04, E05 in punch-up; E06–E09 being drafted (Fable).
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|

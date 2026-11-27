@@ -3663,5 +3663,45 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T16:56:37",
+  "job": "e01/E01-J048",
+  "name": "e01-j048_jax_mira_not_looking",
+  "purpose": "E01 still E01-J048",
+  "refs": [
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 136.3,
+  "tokens_used": 26258,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21ded-ea36-7ca2-92d6-c2290890003f",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 29.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 5.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]
