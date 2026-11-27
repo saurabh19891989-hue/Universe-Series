@@ -34,6 +34,13 @@ Last updated: 2026-11-27 (session 1)
 - Episode 1: outline approved by showrunner with changes; full script being written
   (`episodes/E01/`).
 
+- TOOLS RULE (27 Nov, final for now): free tools or in-house work ONLY for ongoing production.
+  No paid subscriptions or per-episode API spend. The $300 Google credit is temporary and must
+  not become a dependency; at most a one-time booster (e.g. building a reusable image library)
+  if a test shows it can be spent at all. Gemini voices and Nano Banana are therefore not the
+  production route. Voices: Kokoro (local, Apache-2.0). Music and sound: composed in-house.
+  Pictures: open models we run ourselves or free community services.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|

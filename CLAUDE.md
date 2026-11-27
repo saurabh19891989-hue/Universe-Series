@@ -13,7 +13,12 @@ State lives on disk, never only in a chat. Update `STATUS.md` when a milestone l
 - Replies short and plain: say what was checked and what was not.
 - Fast-paced, never boring; balance of comedy, drama, romance, action. All references
   (Goodfellas, Guardians, British comedy, Zimmer, Ilaiyaraaja) are guidelines — improvise.
-- Free tools first; paid tools only after the owner has heard/seen free samples and approved cost.
+- Free tools or in-house work only for ongoing production (owner, 27 Nov). No paid
+  subscriptions or per-episode API costs. Temporary credits may be used only as a one-time
+  booster, never as something the pipeline depends on.
+- Photoreal look: people, ships and sets must look real, to match the NASA footage. Cast must
+  look global (no more than one core character per country).
+- Stories mix at least three sources from at least two cultures per episode; inspiration only.
 - Guests may be picked by the showrunner. Characters come from all over the world.
 - Nothing is published or uploaded without the owner's sign-off.
 
