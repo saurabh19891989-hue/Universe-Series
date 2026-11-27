@@ -28,6 +28,15 @@ main site was down.
 | At Gibraltar his 48-pounder ball meets the enemy's ball in mid-air and sends it back | Chapter X | The battle speech: "I turned back a forty-eight-pound ball at Gibraltar" (24) | The rest of the speech |
 | His second, accidental trip to the Moon: the people there are thirty-six feet tall and eat once a month by opening their left side, putting the whole meal in and closing it again (a King of the Moon is also mentioned, at war with the Sun) | "A Second Trip to the Moon" | The guided tour (8) | **A deliberate conflation:** in the book it is the Moon's people who eat this way, and the Baron gives it to the King. "Not any more", and the boulder he lived behind, are ours. |
 | His character: an aristocratic old hussar who insists every word is true, and a bombast that is a form of courage | Throughout | Every Baron line | His thinning, his wound, his promise, and every line of his dialogue |
+| He "travelled post", by post-chaise, along a narrow road | The post-horn chapter (Ch VI) | The Baron's old sealed rover is "the post-chaise" (8, 17, 23, 24, 29) | The rover, the carved horse's head, the trunk on its roof |
+| On his Moon trip the hatchet is found "in a heap of chaff and chopped straw", on a Moon where "everything has the brightness of silver" | Ch VI | Not used on screen in E01 | **For the ep 2 writer:** a public-domain bridge from Raspe's Moon to Ariosto's Valley of Lost Things, where the hatchet turns up |
+| Quotations checked by the independent critic against Gutenberg #3154: "by an unlucky turn of my arm, it flew upwards, and continued rising till it reached the moon"; "_tereng! tereng! teng! teng!_"; "his tunes were frozen up in the horn"; the straw rope broken "four or five miles from the earth"; the Baron "made prisoner of war… sold for a slave" and kept the Sultan's bees | Chs VI, X | 13 (close paraphrase of the PD hatchet sentence), 15 ("tereng! tereng!", in action only), 22 ("a prisoner of the Sultan, keeping his bees") | Raspe spells it *postillion*; we use the modern *postilion* |
+
+**The name.** "Hieronymus Karl Friedrich" (6) is the name of the *real* historical baron, Hieronymus Carl Friedrich von Münchhausen (1720–1797). He has been dead for more than 200 years, so there is no legal issue, but it is recorded here. The real man disliked the books written about him. That suits the series' "mildly offended guest".
+
+**Design.** The Baron's look comes from Gustave Doré's illustrations (1862, public domain), not from any film. The 1988 Gilliam film overlaps in two places: a fading Baron revived by belief, and a staged commercial version of his life. So never stage Voss Heritage as a theatre show, and never visually rejuvenate him (colour returns in 22, nothing else does).
+
+**The tag's grace notes** (the padlock clicks open, the stove lights itself) extend Raspe's frozen-tunes idea, the tunes that come out late. That is our own reading. Raspe applies it only to the horn.
 
 **Note from the edition's introduction:** it traces the frozen-horn tale back to Castiglione's
 *Il Cortegiano* (1528), in which a merchant's words freeze in the air over a frozen river and
@@ -40,7 +49,7 @@ Raspe and Bürger count as one public-domain corpus.
 
 | What we took | How we use it | What is ours |
 |---|---|---|
-| The cannonball ride at Oczakow: he jumps on a ball to spy on the Turkish fortress, has second thoughts halfway, and changes to an enemy ball flying back | The Baron's story to Jax on the rim (21), told in six short lines, not as the original passage | "Like a horse, but rounder", "I am not ashamed of doubts", "Back, I took a different cannonball", and the **promise** to come by cannonball (paid off in ep 10) |
+| The cannonball ride: he jumps on a ball to spy on a besieged Turkish town, has second thoughts halfway because he would be hanged as a spy, and changes to an enemy ball flying back. **Bürger does not name the town.** The narrator says "ich weiß nicht mehr welche Stadt" ("I no longer know which town"). Checked by the independent critic against the Wikisource scans of the 1786 edition, pp. 60–61 | The Baron's story to Jax on the rim (21), in short lines, not as the original passage | **Placing it at Oczakow is our choice**, borrowed from Raspe's Ch V siege. Also ours: "Like a horse, but rounder", "I am not ashamed of doubts", "Back, I took a different cannonball", and the **promise** to come by cannonball (paid off in ep 10) |
 | He pulls himself and his horse out of a swamp by his own pigtail | "The swamp guy" and the correction about the horse (6); the failed attempt in one-sixth gravity (14) | Earth leaving out the horse; the failure as proof of thinning |
 
 ## 3. Nikolai Gogol, *Dead Souls* (1842)
@@ -52,6 +61,9 @@ translation, such as Isabel F. Hapgood's (1886).
 | The **mechanism**: Chichikov buys the names of dead serfs who still exist on the census register | Turned inside out. He buys delisted legends who still exist off the register: "I buy what the register has forgotten" (5) | Voss, the Heritage contracts, Clause 9, both-or-neither, and the account number |
 | The **trait**: Gogol's opening description of a gentleman neither handsome nor ugly, neither too fat nor too thin; ordinary, polite, endlessly agreeable | The forgettable-man running gag: "man, average", "Mr… Chichester", soft focus until the tag | The gag itself and the staging rule |
 | The **image**: his travelling box with its neat compartments | The small inlaid box of ribboned contracts (5, 12, 22, 31) | Its contents; the brass recorder; the notebook of names |
+| The **backstory**: before the dead souls, Chichikov was a customs official, a famously zealous one, and later a smuggler (Part 1, ch. 11) | 25: "I was in customs myself, once. I was very zealous." He knows Rim Port's regulations better than Noakes does | Regulation nineteen, the reason in triplicate, and the delay he causes |
+
+**Translation caution:** the action line "neither handsome nor plain, neither fat nor thin" is generic. Check it against Hapgood (1886) or Garnett (1922), and do not drift toward the Pevear–Volokhonsky wording, which is in copyright.
 
 Care note: in Gogol the satire is aimed at the system, never at the serfs. Here it is aimed
 at the Atlas and Voss, never at the delisted.
@@ -91,12 +103,17 @@ translation (public domain). **Plants only.**
 |---|---|---|
 | Permanently shadowed regions near the poles, unlit for possibly billions of years, because the Moon's tilt is about 1.6°; extremely cold; likely water traps | 2, 9, 15, 26, 27, "What was real" | NASA SVS 4043; location file 01 |
 | Shadows sweep slowly across the ground; a lunar day lasts about a month | 10 ("once a month it reaches the sofa") | NASA SVS 4893; NASA Moon facts |
-| The floor is mapped by orbital laser altimetry (LRO/LOLA) **and imaged** by NASA's ShadowCam, which flies on the Korean orbiter Danuri (KPLO) and has photographed permanently shadowed interiors since 2023, using light bounced off crater walls | 27 (Mira: "One camera in orbit has seen this floor…"), "What was real" | Showrunner science ruling, 27 Nov |
-| Light delay of about 1.3 s each way | 0, 25, 28, 30 | General; accepted by the science ruling |
+| The interior is mapped by orbital laser altimetry (LRO/LOLA) and has been **imaged faintly, by several orbiters**, using light scattered off the crater walls: JAXA's Kaguya/SELENE Terrain Camera (2007–08), LRO's LROC, and NASA's ShadowCam on the Korean orbiter Danuri (since 2023; it also uses earthshine). So: "seen only faintly from orbit", never "one camera" | 27 (Mira: "This slope has only been seen faintly from orbit, by light bounced off the crater walls"), "What was real" | Showrunner ruling, revised 27 Nov after the critic's review. JAXA press release, 24 Oct 2008; NASA LRO south-pole mosaic; NASA ShadowCam blog, 9 Feb 2023 |
+| Shackleton is about 21 km across and over 4 km deep, with a hummocky floor | 27 moved to the **inner wall** below the rim: "the wall goes down four kilometres" | Location file 01; critic's science check |
+| Light delay of about 1.3 s each way (1.19–1.36 s over the Moon's orbit; round trip about 2.6 s) | 0, 25, 28, 30 | General; accepted by the science ruling |
+| The far side never faces Earth, so no signal from Earth reaches it directly (relay satellites aside). From the south pole Earth already sits at the horizon, so a short hop toward the far side drops it below | 29, 30 (the bank's six o'clock signal is cut off), "What was real". It sets up ep 2 | General; the season's ep 2 premise |
 | One-sixth gravity | 14, 23, 29 | General; accepted |
 | No air, so no sound outside | 9, 24, 29 | General physics |
 | Near-constant sunlight on parts of the rim; the Sun circles low on the horizon | 8, 17 | General; accepted |
-| Earth hovers near the horizon at the pole and bobs slightly with libration ("waits, low"; it is never said to stay still) | 2, 21 | General; accepted |
+| Earth hovers near the horizon at the pole and bobs with libration. It is **often below the horizon**: JPL found direct-to-Earth line of sight only about 51% of the time, even at the best south-pole site studied. "It waits, low, like a dog at a door" is the Baron's poetry, not a claim that it is always visible | 2, 21 | NASA SVS 4944 (Earth and Sun from the south pole; preferred horizon plate once its download verifies); JPL IPN Progress Report 42-176C |
+| Seen from the Moon, Earth is about 2° across, nearly four times the size of the full Moon seen from Earth | 2 ("low on the horizon, big and blue") | General |
+
+**Note for episode 2 (Kaguya):** JAXA's Kaguya orbiter, one of the cameras that saw Shackleton's floor, is named after Kaguya-hime.
 
 **Note for episode 2 (Seo):** ShadowCam flies on **Danuri**, Korea's first lunar orbiter.
 Seo, the best flyer in three planets and the Korean pilot, can know this cold, and it is a
