@@ -7,13 +7,18 @@ score are ours. 30–40 minute episodes; first test is Season 1 = 10 episodes.
 1. Read `STATUS.md` (where we are, what is waiting on the owner).
 2. Read `canon/SERIES-BIBLE.md`, `canon/season-01.md`, `canon/WRITERS-RULEBOOK.md`.
 3. For an episode, read `episodes/ENN/WHERE-I-STOPPED.md` before doing anything.
+4. Before making any picture, read `production/IMAGE-PIPELINE.md` and `canon/CHARACTER-LOCKS.md`.
 State lives on disk, never only in a chat. Update `STATUS.md` when a milestone lands.
 
 ## Owner's standing preferences
 - Replies short and plain: say what was checked and what was not.
 - Fast-paced, never boring; balance of comedy, drama, romance, action. All references
   (Goodfellas, Guardians, British comedy, Zimmer, Ilaiyaraaja) are guidelines — improvise.
-- Free tools or in-house work only for ongoing production (owner, 27 Nov). No paid
+- Pictures: generated through the Codex CLI on the owner's ChatGPT Pro subscription (owner,
+  27 Nov). Every recurring character, set and prop has one approved master image; new images
+  always use it as a reference so faces never change. If a usage limit is hit: stop, tell the
+  owner, they reset it.
+- Everything else free or in-house (voices Kokoro, composed music, own sound and editing). No paid
   subscriptions or per-episode API costs. Temporary credits may be used only as a one-time
   booster, never as something the pipeline depends on.
 - Photoreal look: people, ships and sets must look real, to match the NASA footage. Cast must

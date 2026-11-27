@@ -1,0 +1,132 @@
+[
+ {
+  "time": "2026-11-27T14:52",
+  "job": "t1",
+  "name": "jax_test",
+  "purpose": "prior verification run (before this test, not counted in the 40)",
+  "seconds": 56,
+  "tokens_used": 24157,
+  "success": true,
+  "rate_limits": {
+   "primary": {
+    "used_percent": 28.0,
+    "window_minutes": 300
+   },
+   "secondary": {
+    "used_percent": 88.0,
+    "window_minutes": 10080
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T14:55:11",
+  "job": "A_mira",
+  "name": "mira_master",
+  "purpose": "A master portrait Mira",
+  "refs": [],
+  "seconds": 55.7,
+  "tokens_used": 11403,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d7f-fb60-7441-8cb3-c6334fdfbbd2",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 29.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 88.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T14:55:53",
+  "job": "A_baron",
+  "name": "baron_master",
+  "purpose": "A master Baron",
+  "refs": [],
+  "seconds": 29.9,
+  "tokens_used": 5536,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d81-0119-70c0-8894-ba8b386e3e4b",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 29.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 88.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T14:56:09",
+  "job": "A_lucia",
+  "name": "lucia_master",
+  "purpose": "A master Lucia",
+  "refs": [],
+  "seconds": 45.8,
+  "tokens_used": 9639,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d81-010e-73d0-ab75-e892a5e6a5f2",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 29.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 88.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ }
+]

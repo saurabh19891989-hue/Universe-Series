@@ -5,7 +5,7 @@
    346.9
   ],
   "lines_in_window": 65,
-  "wer_vs_script_text": 0.0493,
+  "wer_vs_script_text": 0.045,
   "errors_vs_script_text": [
    "substitute: 'rim' -> 'rimport'",
    "delete: 'port' -> ''",
@@ -15,23 +15,21 @@
    "substitute: 'fourteen' -> 'hundred'",
    "substitute: 'that' -> 'there'",
    "insert: '' -> 'y'",
-   "substitute: 'mira's' -> 'mirror's'",
+   "substitute: 'meera's' -> 'mirror's'",
    "insert: '' -> 'they'",
    "substitute: 'they're' -> 'are'",
    "substitute: 'grey' -> 'gray'",
-   "substitute: 'a' -> 'one'",
-   "delete: 'and' -> ''",
    "substitute: 'lien' -> 'leon'",
    "insert: '' -> 'chige and'",
    "substitute: 'chich chicha' -> 'chige are'"
   ],
   "ref_words": 467,
   "counts": {
-   "sub": 12,
+   "sub": 11,
    "ins": 9,
-   "dele": 2
+   "dele": 1
   },
-  "wer_vs_spoken_respelling": 0.0535
+  "wer_vs_spoken_respelling": 0.0493
  },
  "2-act2": {
   "window": [
@@ -70,15 +68,14 @@
  },
  "3-act3": {
   "window": [
-   119.3,
-   299.3
+   119.2,
+   299.2
   ],
   "lines_in_window": 45,
-  "wer_vs_script_text": 0.0373,
+  "wer_vs_script_text": 0.0354,
   "errors_vs_script_text": [
    "substitute: 'parlour' -> 'parlor'",
    "substitute: 'tug' -> 'hug'",
-   "substitute: 'lucha' -> 'lucia'",
    "substitute: 'owed' -> 'old'",
    "substitute: 'you'd' -> 'you'",
    "insert: '' -> 'so'",
@@ -94,11 +91,11 @@
   ],
   "ref_words": 509,
   "counts": {
-   "sub": 9,
+   "sub": 8,
    "ins": 9,
    "dele": 1
   },
-  "wer_vs_spoken_respelling": 0.0373
+  "wer_vs_spoken_respelling": 0.0354
  },
  "4-act4-and-tag": {
   "window": [
@@ -108,7 +105,7 @@
   "lines_in_window": 65,
   "wer_vs_script_text": 0.0521,
   "errors_vs_script_text": [
-   "substitute: 'pip' -> 'fibre'",
+   "substitute: 'pip' -> 'yeah'",
    "substitute: 'jax' -> 'jack's'",
    "substitute: 'mira' -> 'mirror'",
    "substitute: 'metre' -> 'meter'",
@@ -123,12 +120,12 @@
    "substitute: 'they're' -> 'are'",
    "insert: '' -> 'they'",
    "substitute: 'they're' -> 'are'",
-   "substitute: 'mira' -> 'mirror'",
-   "substitute: 'voss' -> 'vos'",
+   "substitute: 'meera' -> 'mira'",
+   "substitute: 'jax' -> 'jacks'",
    "substitute: 'metres' -> 'meters'",
-   "substitute: 'mira' -> 'mirror'",
-   "delete: 'a' -> ''",
-   "substitute: 'bank's' -> 'bank'",
+   "substitute: 'lunar' -> 'luna'",
+   "insert: '' -> 'there'",
+   "substitute: 'baron' -> 'in'",
    "substitute: 'side' -> 'aside'",
    "substitute: 'what' -> 'well'",
    "substitute: 'know' -> 'now'"
@@ -136,9 +133,9 @@
   "ref_words": 461,
   "counts": {
    "sub": 20,
-   "ins": 2,
-   "dele": 2
+   "ins": 3,
+   "dele": 1
   },
-  "wer_vs_spoken_respelling": 0.0565
+  "wer_vs_spoken_respelling": 0.0587
  }
 }
