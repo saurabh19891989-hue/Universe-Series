@@ -4,7 +4,7 @@ from faster_whisper import WhisperModel
 import jiwer
 from common import LINES, SAMPLES, SCRATCH
 def norm(t):
-    t=t.lower().replace("-"," ").replace("’","'")
+    t=t.lower().replace("11","eleven").replace("9 ","nine ").replace("-"," ").replace("’","'")
     t=re.sub(r"[^a-z0-9' ]"," ",t); return re.sub(r"\s+"," ",t).strip()
 ref=norm(" ".join(l[1] for l in LINES))
 m=WhisperModel("small",device="cpu",compute_type="int8",download_root=f"{SCRATCH}/whisper")

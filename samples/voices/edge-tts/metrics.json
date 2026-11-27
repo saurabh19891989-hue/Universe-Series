@@ -4,10 +4,9 @@
   "rtf": 0.262,
   "episode_compute_hours_est": 0.17,
   "words": 188,
-  "wer": 0.021,
+  "wer": 0.016,
   "wer_errors": [
     "substitute: 'i'd' -> 'i've'",
-    "substitute: 'eleven' -> '11'",
     "substitute: 'munchausen jax' -> 'munchawson jx'"
   ],
   "wer_model": "faster-whisper small int8"

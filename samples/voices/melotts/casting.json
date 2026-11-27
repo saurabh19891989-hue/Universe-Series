@@ -1,0 +1,18 @@
+{
+  "JAX": {
+    "spk": "EN-US",
+    "speed": 1.1
+  },
+  "MIRA": {
+    "spk": "EN_INDIA",
+    "speed": 0.95
+  },
+  "PIP": {
+    "spk": "EN-BR",
+    "speed": 1.05
+  },
+  "BARON": {
+    "spk": "EN-AU",
+    "speed": 0.9
+  }
+}

@@ -300,12 +300,12 @@ class Shots:
                 cx, cy = int(RNG.uniform(0, W * 0.65)), int(RNG.uniform(H * 0.2, H * 0.95))
                 col = (0.5, 0.95, 0.92) if RNG.random() < 0.6 else (1.0, 0.65, 0.25)
                 cv2.circle(bok, (cx, cy), int(RNG.uniform(18, 46)), col, -1, lineType=cv2.LINE_AA)
-            base = cv2.GaussianBlur(base, (0, 0), 16) * 0.75
+            base = cv2.GaussianBlur(base, (0, 0), 16) * 0.5
             bok = cv2.GaussianBlur(bok, (0, 0), 2.5) * 0.45
             self.c_bg = np.clip(base + bok, 0, 1.2)
             # Mira: rim light from window (left) in orange + teal fill from right
             m = self.mira
-            s = 1080 * 1.18 / m.shape[0]
+            s = 1080 * 1.08 / m.shape[0]
             m = cv2.resize(m, None, fx=s, fy=s, interpolation=cv2.INTER_AREA)
             self.c_mira = P.finish(m, rim=(1.0, 0.6, 0.25), rim_dir=(-1, -0.3), rim_w=10, rim_k=1.1,
                                    fill=(0.3, 0.8, 0.85), fill_k=0.25)
@@ -318,7 +318,7 @@ class Shots:
         m = self.c_mira
         mh, mw = m.shape[:2]
         mm = cv2.resize(m, (int(mw * z), int(mh * z * br)), interpolation=cv2.INTER_LINEAR)
-        over(img, np.clip(mm, 0, 1), int(1260 - mm.shape[1] / 2 - 40 * u), int(H - mm.shape[0] * 0.80))
+        over(img, np.clip(mm, 0, 1), int(1260 - mm.shape[1] / 2 - 40 * u), int(110 - 30 * u))
         return img
 
     # D: title card
@@ -340,7 +340,7 @@ class Shots:
             d.text((x, H / 2 - 80), c, font=f, fill=(242, 231, 207, a)); x += cw + track
         sub = "LOOK TEST  ·  NOT FOR BROADCAST"
         d.text((W / 2 - d.textlength(sub, font=f2) / 2, H / 2 + 70), sub, font=f2, fill=(208, 96, 31, a))
-        cr = "Moon imagery: NASA / Artemis I (art001e002581, art001e002164). Characters & ship: original."
+        cr = "Moon imagery: NASA / Artemis I (art001e002581, art001e002160). Characters & ship: original."
         f3 = ImageFont.truetype(FONT_M, 18)
         d.text((W / 2 - d.textlength(cr, font=f3) / 2, H - 190), cr, font=f3, fill=(180, 190, 205, int(a * 0.8)))
         tl = np.asarray(title, np.float32) / 255

@@ -4,9 +4,8 @@
   "rtf": 0.266,
   "episode_compute_hours_est": 0.13,
   "words": 188,
-  "wer": 0.016,
+  "wer": 0.011,
   "wer_errors": [
-    "substitute: 'eleven' -> '11'",
     "substitute: 'a' -> 'the'",
     "substitute: 'munchausen' -> 'munchawson'"
   ],

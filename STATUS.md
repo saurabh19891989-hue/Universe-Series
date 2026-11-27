@@ -11,6 +11,12 @@ Last updated: 2026-11-27 (session 1)
 - Drafted: `canon/SERIES-BIBLE.md` v1.0, `canon/season-01.md` (10 episodes),
   `canon/WRITERS-RULEBOOK.md`, `CLAUDE.md`, `production/tests/TEST-BRIEF.md`.
 
+## Owner decisions on samples
+- Music (27 Nov): composed-by-us route approved (A1, A4, A5 liked). AI-generated music rejected; dropped.
+- Owner has ElevenLabs (no API key; how Secret India uses it is being checked) and a Google Cloud
+  account with $300 credit on the saurabh19891989 gmail account for Gemini voices and Nano Banana images.
+- Laptop link approved; laptop folder `Secret-India-Research` listed but not yet offered to cloud sessions.
+
 ## Running (research sprint, background agents)
 | Job | Output |
 |---|---|

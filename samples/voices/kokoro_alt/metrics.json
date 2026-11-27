@@ -4,9 +4,8 @@
   "rtf": 0.296,
   "episode_compute_hours_est": 0.15,
   "words": 188,
-  "wer": 0.011,
+  "wer": 0.005,
   "wer_errors": [
-    "substitute: 'eleven' -> '11'",
     "substitute: 'munchausen' -> 'munchawson'"
   ],
   "wer_model": "faster-whisper small int8"

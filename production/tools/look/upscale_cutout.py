@@ -45,3 +45,24 @@ if __name__ == "__main__":
         t = time.time()
         cut = remove(up, session=new_session("isnet-general-use"))
         cut.save(a.prefix + "_cut.png"); print(f"rembg {time.time()-t:.1f}s")
+
+
+def key_out_disc(rgba_path, out_path, hue=(9, 19), min_sat=170, min_val=200, min_frac=0.0003):
+    """Remove large flat-colour regions (e.g. the halo disc FLUX likes to paint behind heads)
+    that rembg keeps as 'subject'. Only connected regions bigger than min_frac of the image go."""
+    import cv2
+    im = np.asarray(Image.open(rgba_path).convert("RGBA")).copy()
+    hsv = cv2.cvtColor(np.ascontiguousarray(im[..., :3]), cv2.COLOR_RGB2HSV)  # OpenCV hue 0..180
+    m = ((hsv[..., 0] >= hue[0]) & (hsv[..., 0] <= hue[1]) & (hsv[..., 1] >= min_sat) &
+         (hsv[..., 2] >= min_val) & (im[..., 3] > 0)).astype(np.uint8)
+    m = cv2.morphologyEx(m, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))
+    n, lab, stats, _ = cv2.connectedComponentsWithStats(m, 8)
+    kill = np.zeros_like(m)
+    for i in range(1, n):
+        if stats[i, cv2.CC_STAT_AREA] > min_frac * m.size:
+            kill[lab == i] = 1
+    kill = cv2.dilate(kill, np.ones((13, 13), np.uint8))
+    a = im[..., 3].astype(np.float32) * (1 - kill)
+    a = cv2.GaussianBlur(a, (0, 0), 1.2)
+    im[..., 3] = np.clip(a, 0, 255).astype(np.uint8)
+    Image.fromarray(im).save(out_path)
