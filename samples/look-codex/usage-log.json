@@ -202,5 +202,96 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T14:58:02",
+  "job": "A_pip",
+  "name": "pip_master",
+  "purpose": "A master Pip prop",
+  "refs": [],
+  "seconds": 42.4,
+  "tokens_used": 10525,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d82-c9b7-7823-a9d1-a9e000c82da9",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 30.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 89.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T14:58:10",
+  "job": "A_oyuna",
+  "name": "oyuna_master",
+  "purpose": "A master Oyuna",
+  "refs": [],
+  "seconds": 49.8,
+  "tokens_used": 9934,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d82-c9ae-7f31-a8b5-1768ef23cf52",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 30.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 89.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T14:58:23",
+  "job": "B_jax2",
+  "name": "jax2_alarm",
+  "purpose": "B consistency Jax 2 [wrapper bug: -i swallowed prompt; codex never ran, no image, no allowance used]",
+  "refs": [
+   "jax_test.png"
+  ],
+  "seconds": 0.1,
+  "tokens_used": null,
+  "success": false,
+  "images_generated": 0,
+  "returncode": 1,
+  "session": null,
+  "rate_limits": null,
+  "errors": []
  }
 ]

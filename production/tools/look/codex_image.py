@@ -87,11 +87,12 @@ def main():
     cmd = ["codex", "exec", "--skip-git-repo-check", "-s", "workspace-write"]
     for r in refs:
         cmd += ["-i", r]
-    cmd.append(instr)
+    # -i takes several values and would swallow a positional prompt, so the
+    # instruction is passed on stdin instead.
     env = {k: v for k, v in os.environ.items() if k != "OPENAI_API_KEY"}
     t0 = time.time()
     try:
-        p = subprocess.run(cmd, cwd=d, env=env, stdin=subprocess.DEVNULL,
+        p = subprocess.run(cmd, cwd=d, env=env, input=instr.encode(),
                            stdout=subprocess.PIPE, stderr=subprocess.STDOUT, timeout=a.timeout)
         out, rc = p.stdout.decode(errors="replace"), p.returncode
     except subprocess.TimeoutExpired as e:

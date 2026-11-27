@@ -75,13 +75,26 @@ or quota message: stop all generation at once, do not retry, record the exact me
 `STATUS.md`, and tell the owner — the owner resets it. Log every run in the episode's
 `usage-log.json` (purpose, seconds, tokens, success).
 
-## 5. What is not decided or not checked yet
-- OpenAI's terms on scripted image batches and commercial use of outputs: being read
-  (`research/tooling/openai-terms.md` when it lands). No image goes into a published episode
-  before that is recorded here.
-- Video: the Codex animation feature is marked "under development" in this CLI version.
-- The ChatGPT chat window (reported unlimited on Pro) cannot be driven by this pipeline; see
-  the same research file for whether any allowed route exists.
+## 5. Rules of the road (from OpenAI's pages, read 27 Nov 2026 — `research/tooling/openai-terms.md`)
+The quotes were collected through a summarising fetch tool; re-check the live pages before relying on wording.
+- **Ownership:** the Terms say the user owns the output. No separate commercial-use clause and
+  no AI-disclosure duty was found, but output must never be presented as human-made. Our
+  "what was real" end note and YouTube's synthetic-content tick cover this.
+- **People:** no photoreal likeness of real people. Invented characters and public-domain
+  figures are fine. Prompts must never name an actor or real person.
+- **Marking:** images carry C2PA metadata and an invisible watermark; no visible watermark.
+- **Scripted use:** `codex exec` in scripts is a documented mode, and device-code login is
+  documented (beta) for trusted private machines, one login per machine. The Terms also forbid
+  "automatically or programmatically extract[ing] data or Output"; OpenAI has not said how
+  that applies to image batches. This is the main risk to the owner's account. Keep volumes
+  moderate, at most 2 jobs at once, no retry loops, and never share the login.
+- **Limits:** Pro has no five-hour limit; weekly limits may apply and no number is published.
+  Images count against the same allowance. To make sure nothing is ever charged, the owner
+  keeps auto top-up / auto reload OFF and buys no credits. Usage page:
+  chatgpt.com/codex/settings/usage. No official way to read the remaining allowance from a script.
+- **Chat window:** no permitted way to drive it from a script; a browser robot on chatgpt.com
+  would breach the Terms. Not used.
+- **Video:** nothing reachable from Codex (its animation feature makes GIFs). Not solved.
 
 ## 6. Fallbacks if the Codex route stops working
 1. Cloudflare Workers AI free allowance with FLUX.2 klein 4B (Apache-2.0, accepts reference
