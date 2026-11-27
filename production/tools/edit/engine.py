@@ -266,12 +266,23 @@ def compose(A, B):
     return (A3 @ B3)[:2]
 
 
-def warp(img, M, out_wh, interp=cv2.INTER_LANCZOS4, border=cv2.BORDER_REFLECT101):
+def warp(img, M, out_wh, interp=cv2.INTER_CUBIC, border=cv2.BORDER_REFLECT101):
     return cv2.warpAffine(img, M, out_wh, flags=interp, borderMode=border)
 
 
 # ------------------------------------------------------------------ lights (base space, per frame)
+def bbox(m, thr=2e-3, pad=2):
+    """Crop a full-size mask to where it matters: returns (slice_y, slice_x, cropped mask)."""
+    ys, xs = np.where(m > thr)
+    if len(ys) == 0:
+        return slice(0, 0), slice(0, 0), m[:0, :0]
+    y0, y1 = max(0, ys.min() - pad), min(m.shape[0], ys.max() + pad + 1)
+    x0, x1 = max(0, xs.min() - pad), min(m.shape[1], xs.max() + pad + 1)
+    return slice(y0, y1), slice(x0, x1), np.ascontiguousarray(m[y0:y1, x0:x1])
+
+
 class Lights:
+    """All light effects work only inside each light's bounding box (cheap per frame)."""
     def __init__(self, specs, base, seed, env, fps):
         self.specs = specs or []
         self.h, self.w = base.shape[:2]
@@ -279,21 +290,25 @@ class Lights:
         self.cache = {}
         for i, s in enumerate(self.specs):
             if s["type"] in ("die", "revive"):
-                self.cache[i] = [rect_mask((self.h, self.w), r["rect"], s.get("feather_px", 4)) for r in s["regions"]]
+                self.cache[i] = [bbox(rect_mask((self.h, self.w), r["rect"], s.get("feather_px", 4))) for r in s["regions"]]
             elif s["type"] == "flicker":
                 m = rect_mask((self.h, self.w), s["rect"], s.get("feather_px", 6))
                 if s.get("emissive_only", True):
                     hsv = cv2.cvtColor(np.clip(base, 0, 1), cv2.COLOR_RGB2HSV)
                     em = np.clip((hsv[..., 2] - 0.45) / 0.3, 0, 1) * np.clip((hsv[..., 1] - 0.25) / 0.3, 0, 1)
                     m = m * cv2.GaussianBlur(em, (0, 0), 2)
-                self.cache[i] = m
+                self.cache[i] = bbox(m)
             elif s["type"] in ("lens", "led"):
                 yy, xx = np.mgrid[0:self.h, 0:self.w].astype(np.float32)
                 r = s.get("r", 0.01) * self.w
                 d2 = ((xx - s["x"] * self.w) ** 2 + (yy - s["y"] * self.h) ** 2)
-                core = np.clip(1.2 - np.sqrt(d2) / r, 0, 1) ** 0.7
-                glow = np.exp(-d2 / (2 * (r * s.get("glow_r", 2.5)) ** 2))
-                self.cache[i] = (core.astype(np.float32), glow.astype(np.float32))
+                core = (np.clip(1.2 - np.sqrt(d2) / r, 0, 1) ** 0.7).astype(np.float32)
+                glow = np.exp(-d2 / (2 * (r * s.get("glow_r", 2.5)) ** 2)).astype(np.float32)
+                ent = dict(core=bbox(core), glow=bbox(glow))
+                if s.get("spill"):
+                    rr = r * s["spill"].get("r", 4.0)
+                    ent["spill"] = bbox(np.exp(-d2 / (2 * rr * rr)).astype(np.float32))
+                self.cache[i] = ent
 
     def env_at(self, who, tg):
         e = self.env.get(who)
@@ -315,27 +330,42 @@ class Lights:
         v = 1.0 if v > 0.5 else 0.25 * v
         return v if on else 1 - v
 
+    @staticmethod
+    def mul(img, bb, k):
+        """img[bb] *= 1 + (k-1)*mask  (k scalar or rgb)."""
+        ys, xs, m = bb
+        if m.size:
+            img[ys, xs] *= 1 + (np.float32(k) - 1) * m[..., None]
+
+    @staticmethod
+    def add(img, bb, v):
+        ys, xs, m = bb
+        if m.size:
+            img[ys, xs] += m[..., None] * v
+
     def apply(self, img, t, tg):
-        add = None
+        if not self.specs:
+            return img
+        img = img.copy()
         for i, s in enumerate(self.specs):
             ty = s["type"]
             if ty in ("die", "revive"):
                 to = s.get("to", 0.12); ds = s.get("desat", 0.8)
-                for j, (r, m) in enumerate(zip(s["regions"], self.cache[i])):
+                for j, (r, bb) in enumerate(zip(s["regions"], self.cache[i])):
                     alive = self.switch(t, r["at"], s.get("dur", 0.4), self.seed + 31 * j + i, on=(ty == "revive"))
-                    if alive >= 0.999:
+                    if alive >= 0.999 or not bb[2].size:
                         continue
+                    ys, xs, m = bb
+                    reg = img[ys, xs]
                     k = to + (1 - to) * alive
-                    dead = img * (1 - ds) + lum(img)[..., None] * ds
-                    mix = img * alive + dead * k * (1 - alive)
-                    img = img * (1 - m[..., None]) + mix * m[..., None]
+                    dead = reg * (1 - ds) + lum(reg)[..., None] * ds
+                    mix = reg * alive + dead * k * (1 - alive)
+                    img[ys, xs] = reg * (1 - m[..., None]) + mix * m[..., None]
             elif ty == "flicker":
-                rate = s.get("rate_hz", 9); dep = s.get("depth", 0.08)
-                n = smooth_noise(self.seed + i, t, 1.0 / rate, 2)
-                g = 1 + dep * n
-                img = img * (1 + (g - 1) * self.cache[i][..., None])
+                n = smooth_noise(self.seed + i, t, 1.0 / s.get("rate_hz", 9), 2)
+                self.mul(img, self.cache[i], 1 + s.get("depth", 0.08) * n)
             elif ty in ("lens", "led"):
-                core, glow = self.cache[i]
+                c = self.cache[i]
                 col = np.float32(s.get("color", [1.0, 0.62, 0.22]))
                 if ty == "lens":
                     on = self.switch(t, s.get("on_at", -1), s.get("on_dur", 0.45), self.seed + i, True)
@@ -344,32 +374,26 @@ class Lights:
                     e = self.env_at(s.get("env"), tg) if s.get("env") else 0.0
                     b = on * (s.get("idle", 0.55) + s.get("env_gain", 0.9) * e)
                     off = s.get("off_level", 0.15)
-                    mul = off + (1 - off) * min(b, 1.0)
-                    if s.get("spill"):
-                        if (i, "sp") not in self.cache:
-                            yy, xx = np.mgrid[0:self.h, 0:self.w].astype(np.float32)
-                            rr = s.get("r", 0.01) * self.w * s["spill"].get("r", 4.0)
-                            self.cache[(i, "sp")] = np.exp(-((xx - s["x"] * self.w) ** 2 + (yy - s["y"] * self.h) ** 2) / (2 * rr * rr)).astype(np.float32)
+                    if "spill" in c:
                         so = s["spill"].get("off", 0.1)
-                        sm = so + (1 - so) * min(b, 1.2)
-                        img = img * (1 + (sm - 1) * self.cache[(i, "sp")][..., None])
-                    img = img * (1 + (mul - 1) * core[..., None])
-                    img = img + core[..., None] * col * max(0.0, b - 1.0) * 0.5
-                    g = glow[..., None] * col * s.get("glow_gain", 0.5) * b
+                        self.mul(img, c["spill"], so + (1 - so) * min(b, 1.2))
+                    self.mul(img, c["core"], off + (1 - off) * min(b, 1.0))
+                    if b > 1.0:
+                        self.add(img, c["core"], col * (b - 1.0) * 0.5)
+                    self.add(img, c["glow"], col * s.get("glow_gain", 0.5) * b)
                 else:
                     on = 1.0
                     if s.get("on_at") is not None:
                         on = self.switch(t, s["on_at"], 0.3, self.seed + i, True)
                     if s.get("off_at") is not None:
                         on *= self.switch(t, s["off_at"], s.get("off_dur", 0.5), self.seed + i, False)
-                    g = (core[..., None] * 1.1 + glow[..., None] * s.get("glow_gain", 0.45)) * col * on
-                add = g if add is None else add + g
+                    if on > 0:
+                        self.add(img, c["core"], col * 1.1 * on)
+                        self.add(img, c["glow"], col * s.get("glow_gain", 0.45) * on)
             elif ty == "flash":
                 d = t - s["at"]
                 if 0 <= d < s.get("dur", 0.25):
-                    img = img * (1 + s.get("gain", 0.5) * (1 - d / s.get("dur", 0.25)))
-        if add is not None:
-            img = img + add
+                    img *= 1 + s.get("gain", 0.5) * (1 - d / s.get("dur", 0.25))
         return img
 
 
@@ -442,9 +466,19 @@ class Finish:
         x = bl + x * (1 - bl)
         gr = s.get("grain", 0.02)
         if gr:
-            rng = np.random.default_rng((seed * 100003 + frame_i) & 0x7FFFFFFF)
-            n = rng.standard_normal((H // 2, W // 2), dtype=np.float32)
-            n = cv2.resize(n, (W, H), interpolation=cv2.INTER_LINEAR)[..., None]
+            if not hasattr(self, "bank"):
+                # 31 grain plates (prime count, so the cycle never lines up with a 24/48 frame rhythm),
+                # each frame picks one by a seeded hash and flips/offsets it: no visible repeat
+                rng = np.random.default_rng(7)
+                self.bank = [cv2.resize(rng.standard_normal((H // 2 + 8, W // 2 + 8), dtype=np.float32), (W + 16, H + 16),
+                                        interpolation=cv2.INTER_LINEAR) for _ in range(31)]
+            h_ = (seed * 2654435761 + frame_i * 40503) & 0xFFFFFFFF
+            n = self.bank[h_ % 31]
+            ox, oy = (h_ >> 8) % 16, (h_ >> 12) % 16
+            n = n[oy:oy + H, ox:ox + W]
+            if (h_ >> 16) & 1:
+                n = n[:, ::-1]
+            n = n[..., None]
             x = x + n * gr * (0.35 + 0.65 * np.clip(1 - np.abs(g - 0.4) * 1.6, 0, 1))
         return np.clip(x, 0, 1)
 
