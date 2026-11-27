@@ -2,7 +2,7 @@
 ## Episode 5 — "A Gentleman on Venus"
 ### Shooting script, draft 1 (writer's draft, for punch-up and the independent critic)
 
-Running time: RUNTIME_LINE
+Running time: about 35:40 honest (scene targets add up to 35:30 including "What was real" at 0:40, plus the 0:10 title; model: dialogue at 155 wpm, 0.4 s per speaker change, plus each scene's stated silences, holds and insert-only action, about 4½ minutes in all). Cold open 1:30 · Act 1 7:55 · Act 2 9:35 · Act 3 7:00 · Act 4 8:30 · tag 0:20. 4,309 spoken words (counted by script: dialogue lines only, including "What was real"; cues, parentheticals and action excluded); narrator V.O. 231 words (5%). 31 units (cold open, 29 scenes, tag), plus "What was real". Time inside *The Unscheduled*: about 3:15 (9%).
 Visual style: photoreal characters and sets composited with real NASA footage where it exists,
 staged mostly as cinematic stills with camera moves and limited motion. Lip movement is scarce or
 absent. Venus is THIN on real footage, so the city, the cloud sea and every interior are
@@ -39,7 +39,7 @@ STAGING note saying how it plays without lip-sync.
 - **Chichikov is never in sharp focus.**
 - **PIP travels as a lens in a brass pocket-watch case** on Jax's waistcoat chain, and through
   Lucía's wrist comm. The lens brightens when he talks. **Every report gets an INSERT of its
-  number** (#1,240 in 4, #1,241 in 28; renumber to follow E04's last report).
+  number** (#1,240 in 4, #1,241 in 29; renumber to follow E04's last report).
 - **Lucía** wears the red dress she hates, her boots under it, the ribbon on her wrist; from 9,
   kitchen whites over it.
 - **Mira wears her brass loupe as a pendant.** Reflections are for silent beats only.
@@ -49,10 +49,10 @@ STAGING note saying how it plays without lip-sync.
 
 **Visible-mouth speaking shots: 5 (maximum 6).** Marked **[MOUTH 1]** to **[MOUTH 5]** in the text:
 1. Voss, 8, "Honey, not sugar."
-2. Lupin, 22, "A double-cross is only a favour done rudely."
-3. Lucía, 22, "My mother's is water."
-4. Scheherazade, 27, "One of them came back."
-5. Mira, 28, "I write things down."
+2. Lupin, 23, "A double-cross is only a favour done rudely."
+3. Lucía, 23, "My mother's is water."
+4. Scheherazade, 28, "One of them came back."
+5. Mira, 29, "I write things down."
 
 **Voice and TTS notes**
 - Lupin: one voice for NARRATOR and LUPIN. GANIMARD is that voice pitched down and slowed about
@@ -87,7 +87,7 @@ waiters, Voss's grey-uniformed guards, a dowager in the salon. **Text only:** Au
 # COLD OPEN
 
 ### 0 · THE UNSCHEDULED — BRIDGE / THE CLOUD DECK OF VENUS
-**Thread:** A/C · **Target:** 85 s · **Visual:** PHOTOREAL SET STILL / DATA VISUAL / INSERT / GENERATED WIDE
+**Thread:** A/C · **Target:** 90 s · **Visual:** PHOTOREAL SET STILL / DATA VISUAL / INSERT / GENERATED WIDE
 **STAGING:** Open on a window full of glowing gold cloud, so the first image is light and the first
 line comes from PIP's lens. The crew are backs of heads against the glow; Seo is in her flight
 helmet. The letter is a DATA VISUAL (an engraved invitation) under the NARRATOR's voice, which also
@@ -202,12 +202,12 @@ SMASH TO: MAIN TITLE.
 # ACT ONE — "The Lupin Ball"
 
 ### 1 · HESPERUS — THE NIGHT HOUSE DOCK
-**Thread:** A/B · **Target:** 50 s · **Visual:** GENERATED WIDE / PHOTOREAL SET STILL / INSERT
+**Thread:** A/B · **Target:** 55 s · **Visual:** GENERATED WIDE / PHOTOREAL SET STILL / INSERT
 **STAGING:** The narrator talks over the city wide (he lies; the pictures don't). Then the bridge
 from behind: Seo's hands on the controls, Jax's back turned to the side window and its drop.
 Lucía's dress gag plays on an INSERT of her boot under red silk. The small deep-blue balloon apart
 from the rest on its single long cable is the Night House: establish its dome and its lantern
-globes now, for 27.
+globes now, for 28.
 
 ```
 EXT. HESPERUS — DAY (GENERATED WIDE)
@@ -274,7 +274,7 @@ INSERT: a work boot under a hem of red silk.
 ```
 
 ### 2 · THE NIGHT HOUSE — SCHEHERAZADE'S SALON
-**Thread:** A/B/C · **Target:** 105 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** A/B/C · **Target:** 115 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** A round library under a glass dome full of gold sky: three storeys of shelves, ladders,
 brass lamps, astrolabes, carpets of saffron, rose and deep blue, low chairs set in rings. Guests
 already gathering. Scheherazade is at a reading desk at the centre, mostly seen from behind or as
@@ -395,7 +395,7 @@ pass.
 ```
 
 ### 3 · THE SALON — THE DANGEROUS GUEST
-**Thread:** C/A · **Target:** 40 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** C/A · **Target:** 30 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Almost silent. Ilse enters as a pale figure in a doorway, crosses the rings of
 listeners, takes the empty chair facing the desk. INSERTS: the knife drawn from her wrist sheath
 and laid on the chair arm; the great doors closing behind Jax, Mira and Lucía; Idris sitting down
@@ -454,10 +454,10 @@ Oyuna, in the second ring, folds her hands and listens.
 ```
 
 ### 4 · THE GONDOLA — NIGHT HOUSE TO HESPERUS
-**Thread:** B/C · **Target:** 45 s · **Visual:** PHOTOREAL SET STILL / INSERT / GENERATED WIDE
+**Thread:** B/C · **Target:** 55 s · **Visual:** PHOTOREAL SET STILL / INSERT / GENERATED WIDE
 **STAGING:** A brass-and-glass car on a single cable. Glass floor panels show the cloud sea. Jax
 sits with his eyes on the roof. Three masked heads in a wide; the dialogue is mask-muffled voices.
-The geography is planted here for 23–26: a clamp at each end, the Night House at the near end,
+The geography is planted here for 24–27: a clamp at each end, the Night House at the near end,
 Hesperus at the far end. The report and its READ receipt are INSERTS.
 
 ```
@@ -531,7 +531,7 @@ grey line: READ — 00:00:01.3
 ```
 
 ### 5 · HESPERUS — THE BALLROOM
-**Thread:** A/C/B · **Target:** 105 s · **Visual:** PHOTOREAL SET STILL (from above and wide) / INSERT
+**Thread:** A/C/B · **Target:** 110 s · **Visual:** PHOTOREAL SET STILL (from above and wide) / INSERT
 **STAGING:** A great glass bubble of a room: black-and-white marble floor inlaid with a brass
 compass rose, the swing band (oud and qanun in front), great striped air-globes for decoration
 under the roof. Everyone in full-face masks and a white rose. At the door, a footman paints a thin
@@ -652,7 +652,7 @@ They look at each other through their masks.
 ```
 
 ### 6 · BALLROOM — THE DETECTIVE
-**Thread:** A · **Target:** 80 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** A · **Target:** 90 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** Ganimard by the gallery stairs. His moustache covers his mouth, so he can have close
 coverage; play his delight on the eyebrows. Jax sells in a two-shot, masks up on foreheads for the
 eyes (mouths covered by the jaw of the mask). PIP's form is an INSERT on the watch face.
@@ -754,7 +754,7 @@ Mira looks at him one beat too long.
 ```
 
 ### 7 · BALLROOM — THE CARD
-**Thread:** C · **Target:** 25 s · **Visual:** INSERT / PHOTOREAL SET STILL
+**Thread:** C · **Target:** 20 s · **Visual:** INSERT / PHOTOREAL SET STILL
 **STAGING:** A waiter's gloved hand and a silver tray. The card is an INSERT. Three masks lift
 toward the balcony, which is now empty.
 
@@ -796,7 +796,7 @@ END OF ACT ONE.
 # ACT TWO — "Honey, Not Sugar"
 
 ### 8 · THE TEA PAVILION
-**Thread:** C/B · **Target:** 135 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** C/B · **Target:** 145 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** A glass room at the far end of the outer promenade, hung out over the cloud sea. No
 masks inside. Voss is played in profile against gold, from behind past Jax, and on his hands with
 the teapot; his kindness is in his stillness. Jax takes the chair with its back to the view. Tea
@@ -945,7 +945,7 @@ He doesn't turn round. He finishes the tea.
 ```
 
 ### 9 · HESPERUS — THE KITCHENS
-**Thread:** B/A/C · **Target:** 60 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** B/A/C · **Target:** 75 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Steam, copper, saffron light, green-and-white tile. Lucía is seen from behind,
 pulling kitchen whites on over the red dress. A fat brass column (the box's cable housing) runs
 down through the kitchen floor. Mattias is a still in the cold-store doorway, mask pushed up on his
@@ -1077,7 +1077,7 @@ INSERT: the card goes back into the boot.
 ```
 
 ### 10 · THE SALON — COUNT AND COUNTESS
-**Thread:** B/C · **Target:** 80 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** B/C · **Target:** 85 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Seo slips in and sits beside Idris. They whisper sideways, faces forward toward the
 storyteller, so we see two profiles in the warm lamplight and never a moving mouth in sharp focus.
 A masked dowager on Idris's other side is their audience. Scheherazade's voice runs low under them.
@@ -1199,7 +1199,7 @@ INSERT: Ilse's hand leaves the knife.
 ```
 
 ### 11 · BALLROOM — THE FIRST DANCE
-**Thread:** B/A · **Target:** 85 s · **Visual:** PHOTOREAL SET STILL (from directly above) / INSERT
+**Thread:** B/A · **Target:** 80 s · **Visual:** PHOTOREAL SET STILL (from directly above) / INSERT
 **STAGING:** Shot from above, on the compass rose: two dancers, indigo and black-with-orange,
 among a hundred couples, all masked. All dialogue is voices over the overhead stills and over
 INSERTS of hands and feet. The pillar is a landmark at the edge of the rose; PIP's count of passes
@@ -1538,7 +1538,7 @@ END OF ACT TWO.
 # ACT THREE — "Between Midnight and One"
 
 ### 14 · MONTAGE — THE PLAN
-**Thread:** A/B · **Target:** 55 s · **Visual:** MONTAGE (INSERTS and stills)
+**Thread:** A/B · **Target:** 50 s · **Visual:** MONTAGE (INSERTS and stills)
 **STAGING:** The episode's one music-led montage: the swing band at full tilt, oud and qanun
 trading phrases. The narrator lies; each picture contradicts him. Hands and objects only, plus
 two quick stills of Jax and Mira rehearsing in a service corridor.
@@ -1593,7 +1593,7 @@ INSERT: a white rose laid on the handrail of a winch room.
 ```
 
 ### 15 · THE SALON — THE LINE
-**Thread:** C/A/B · **Target:** 80 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** C/A/B · **Target:** 70 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** Quiet after the montage. Oyuna's eyes closed in the second ring, then open (a silent
 CLOSE-UP). Scheherazade's hands on the open book. Ilse's knife is no longer on the chair arm; it
 lies on the carpet by her foot (INSERT), forgotten. Oyuna's look out along the cable toward
@@ -1688,7 +1688,7 @@ a moment longer. She deletes nothing.
 ```
 
 ### 16 · THE VAULT GALLERY — THE RAIL, 12:55
-**Thread:** C/A · **Target:** 60 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** C/A · **Target:** 55 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Two men at the gallery rail looking down the shaft at the Reliquary, both from behind:
 a silver head and a bowler-less grey one. Ganimard's moustache covers his mouth; Voss is never
 shown speaking. The audience knows who Ganimard is; Voss may too. The turn is one INSERT of
@@ -1743,7 +1743,7 @@ ready.
 ```
 
 ### 17 · BALLROOM — THE SECOND DANCE
-**Thread:** B/C/A · **Target:** 70 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** B/C/A · **Target:** 55 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** A spotlight; the floor clears; the oud and qanun take the solo. Voss is at the gallery
 rail with a glass, looking down the shaft, then turning to the dance. Jax and Mira are shot from
 above and as two masked heads close together. Lucía is a voice on the watch. The beat for the
@@ -1845,7 +1845,7 @@ From above: they pass the pillar, and do not miss the turn.
 ```
 
 ### 18 · SERVICE DECK — THE WINCH
-**Thread:** A/C · **Target:** 80 s · **Visual:** PHOTOREAL SET STILL / INSERT / GENERATED WIDE
+**Thread:** A/C · **Target:** 60 s · **Visual:** PHOTOREAL SET STILL / INSERT / GENERATED WIDE
 **STAGING:** A winch room of green-and-white tile and a great brass drum. An open hatch in the
 wall gives onto the shaft; outside it, two metres away over fifty kilometres of air, the Reliquary
 hangs still. Breathing masks (the hatch is open to the outside). The brake lock and Mattias's key
@@ -1948,7 +1948,7 @@ She releases the brake. The Reliquary sinks away into the gold.
 ```
 
 ### 19 · SERVICE DECK — THE HATCH
-**Thread:** A/C · **Target:** 35 s · **Visual:** INSERT / PHOTOREAL SET STILL
+**Thread:** A/C · **Target:** 25 s · **Visual:** INSERT / PHOTOREAL SET STILL
 **STAGING:** The label in Lupin's gloved fingers, then in Lucía's (INSERT). PIP speaks through her
 wrist; his lens glow on her wrist is the reaction. The white rose and the plank are the last
 INSERTS.
@@ -1988,7 +1988,7 @@ She looks up. Lupin is gone. On the handrail, a white rose.
 ```
 
 ### 20 · BALLROOM — THE SEARCH
-**Thread:** A/C/B · **Target:** 70 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** A/C/B · **Target:** 55 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Jax and Mira are still dancing though the band has gone back to the room's music. Lucía
 in kitchen whites slips the label into Jax's breast pocket as she passes (INSERT). Then a soft
 chime, grey-uniformed guards at the doors, and Ganimard (moustache back on) taking charge. The
@@ -2162,7 +2162,7 @@ END OF ACT THREE.
 # ACT FOUR — "Nowhere to Stand"
 
 ### 22 · THE OUTER PROMENADE — GONDOLA STATION
-**Thread:** A/B · **Target:** 30 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** A/B · **Target:** 25 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Three masked figures running along the terrace in gold light, cut on stills. At the
 station Jax stops at the gap between platform and car (INSERT: his shoes at the edge, the cloud far
 below them, out of focus). He looks up, and steps across.
@@ -2203,7 +2203,7 @@ steps across.
 ```
 
 ### 23 · THE GONDOLA — THE DOUBLE
-**Thread:** A/B · **Target:** 95 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** A/B · **Target:** 100 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** The car has its own air, so masks come off inside. Lupin sits at the far end, legs
 crossed, the label between two fingers. **[MOUTH 2]** is Lupin's line on the double-cross, his own
 face for the first time in a lit close-up. Lucía's choice is an INSERT of her thumb over the call
@@ -2344,7 +2344,7 @@ INSERT: the clamp opens. The cable slithers out of it, and away.
 ```
 
 ### 25 · THE GONDOLA — THE SWING
-**Thread:** A · **Target:** 55 s · **Visual:** GENERATED WIDE / PHOTOREAL SET STILL / INSERT
+**Thread:** A · **Target:** 65 s · **Visual:** GENERATED WIDE / PHOTOREAL SET STILL / INSERT
 **STAGING:** One held GENERATED WIDE of the swing: the car dropping and arcing down on its cable
 to hang below the Night House, the loose cable end trailing toward the cloud. Inside, a tilted
 still of everyone pressed to the glass, then a still of five faces looking up through the roof.
@@ -2434,7 +2434,7 @@ up.
 ```
 
 ### 26 · THE UNSCHEDULED — BRIDGE
-**Thread:** C · **Target:** 40 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** C · **Target:** 20 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Seo, alone, from behind, in the pilot's seat. The dog on the floor. Everything that
 matters is INSERT: Pell's message; the gate-plot panel with its cover off; her small neat cutter
 from E02 beside it; the dog's head lifting; the cover clicking shut (we never see inside). Her
@@ -2478,7 +2478,7 @@ her hands.
 ```
 
 ### 27 · THE CABLE — THE CLIMB
-**Thread:** A/B · **Target:** 120 s · **Visual:** GENERATED WIDE / PHOTOREAL SET STILL / INSERT
+**Thread:** A/B · **Target:** 95 s · **Visual:** GENERATED WIDE / PHOTOREAL SET STILL / INSERT
 **STAGING:** The episode's big spectacle: thirty metres of cable between a hanging brass car and the
 open belly hatch of a deep-blue balloon, where Idris and Oyuna kneel and reach down; gold ceiling
 above, cloud sea below; the ship rising slowly underneath as a net. Breathing masks. Cut on held
@@ -2622,7 +2622,7 @@ Above her, the deep-blue balloon lifts.
 ```
 
 ### 28 · THE SALON — THE DEED
-**Thread:** A/B/C · **Target:** 100 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** A/B/C · **Target:** 90 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** The crew sprawled on the carpets among stunned guests. The deed burning in the lamp is
 the hero INSERT. **[MOUTH 4]** is Scheherazade's line to Idris: her face, calm, in lamplight. Oyuna
 and Jax exchange a look across the room and he breaks it. Lupin's exit is one held WIDE through the
@@ -2747,7 +2747,7 @@ a small figure beneath it, raising his hat.
 ```
 
 ### 29 · THE UNSCHEDULED — BRIDGE, AFTERWARDS
-**Thread:** A/B/C · **Target:** 90 s · **Visual:** PHOTOREAL SET STILL / INSERT / GENERATED WIDE (window)
+**Thread:** A/B/C · **Target:** 100 s · **Visual:** PHOTOREAL SET STILL / INSERT / GENERATED WIDE (window)
 **STAGING:** The ship climbing out through the gold toward the gate. Backs of heads. The label on
 the console under PIP's lens; the postmark and the stamp are INSERTS. Idris's hand and then Seo's
 hand on the same gate-plot panel are two INSERTS, back to back (the plant for ep 6). **[MOUTH 5]**
@@ -2883,7 +2883,7 @@ INSERT: REPORT #1,241 — RE: LUPIN, A. Hold. Then: READ —
 # TAG
 
 ### 30 · HESPERUS — THE CUT CABLE
-**Thread:** C · **Target:** 40 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** C · **Target:** 20 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Gold light. Ilse at the empty clamp, the cable gone, the knife still in her hand. Voss
 comes up behind her, unhurried; his lines play on his back and on Ilse's face listening, never on
 his mouth. Chichikov is a soft grey shape at the edge. The envelope is the last INSERT: Voss
@@ -2925,7 +2925,7 @@ CUT TO BLACK.
 
 ---
 
-# WHAT WAS REAL (0:35)
+# WHAT WAS REAL (0:40)
 
 **Visual:** REAL FOOTAGE / DATA VISUAL. **STAGING:** PIP's voice over the Magellan radar globe
 (PIA00478), the false-colour terrain tour (SVS 3728, if its download verifies) and the Parker
