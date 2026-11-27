@@ -320,7 +320,7 @@ def open_hiss(R):
      "Linear-phase FIR (2049 taps, 1024-sample = 21 ms latency). Convolve (ffmpeg afir) or use the "
      "filter chain in radio-voice-presets.json. File peak is -6 dBFS: compensate gain after convolving.",
      "9, 21, 29, 8 (Mira on radio is always filtered)", fade_in=0, fade_out=0, peak=-12, group="radio",
-     note="IR, not an effect")
+     note="IR, not an effect", trim=False)
 def ir_narrow(R):
     fr = [0, 250, 350, 450, 700, 1600, 2400, 2900, 3400, 4500, 24000]
     g = [0, 0, 0.06, 0.4, 1, 1.25, 1.0, 0.35, 0.05, 0, 0]
@@ -330,7 +330,7 @@ def ir_narrow(R):
 @sfx("radio_open_wide_IR",
      "Impulse response for the open customs channel / console: wider ~300-5200 Hz, mild high-mid lift. "
      "Linear-phase FIR, 2049 taps (21 ms latency). Peak -6 dBFS.",
-     "27, 28, 25", fade_in=0, fade_out=0, peak=-12, group="radio", note="IR, not an effect")
+     "27, 28, 25", fade_in=0, fade_out=0, peak=-12, group="radio", note="IR, not an effect", trim=False)
 def ir_wide(R):
     fr = [0, 180, 260, 320, 600, 2500, 4200, 5200, 6500, 24000]
     g = [0, 0, 0.1, 0.5, 1, 1.2, 0.9, 0.3, 0.03, 0]

@@ -156,7 +156,7 @@ def thaw_ticks(R):
 @sfx("post_horn_thaw_sequence",
      "Cue sheet in one file: ticks, a drip, more ticks, drip, and the ice crack at 7.4 s, then 1 s of "
      "room quiet for the music department's march to enter. 9 s, mono.",
-     "15", review=False, peak=-12, group="inn")
+     "15", review=False, peak=-12, group="inn", trim=False)
 def horn_seq(R):
     out = np.zeros(N(9.0))
     place(out, thaw_ticks(R) * 0.9, 0.0)

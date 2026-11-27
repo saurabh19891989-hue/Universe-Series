@@ -95,7 +95,7 @@ def one(e, out_dir):
         x = e["fn"](R)
     except Exception as ex_:
         raise RuntimeError("effect %s failed: %r" % (e["name"], ex_)) from ex_
-    x = S.finish(x, e["loop"], e["fade_in"], e["fade_out"], -6.0)
+    x = S.finish(x, e["loop"], e["fade_in"], e["fade_out"], -6.0, e["trim"])
     if x.ndim == 1:
         x = x[:, None]
     path = os.path.join(out_dir, e["name"] + ".wav")

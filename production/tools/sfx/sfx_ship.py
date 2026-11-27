@@ -21,8 +21,8 @@ def bridge_tone(R):
     def noisy(R, d):
         fan = bp(pink(R, d), 180, 1100, 2)
         fan2 = bp(pink(R, d), 180, 1100, 2)
-        air = hp(white(R, d), 3500, 2) * 0.05
-        air2 = hp(white(R, d), 3500, 2) * 0.05
+        air = hp(white(R, d), 3500, 2) * 0.015
+        air2 = hp(white(R, d), 3500, 2) * 0.015
         return np.stack([fan + air, fan2 + air2], axis=1)
     x = noise_loop(noisy, R, L, 0.6)
     x /= np.abs(x).max()
@@ -35,13 +35,13 @@ def bridge_tone(R):
     sick = 0.22 * np.sin(2 * np.pi * pf(61.5, L) * t)       # slow 1.5 Hz beat = unhealthy throb
     sick += 0.08 * np.sin(2 * np.pi * pf(183.0, L) * t + 2)
     hum = (hum + sick) * 0.35
-    whine = 0.012 * np.sin(2 * np.pi * pf(7820, L) * t) * (1 + 0.5 * np.sin(2 * np.pi * pf(0.125, L) * t))
+    whine = 0.006 * np.sin(2 * np.pi * pf(7820, L) * t) * (1 + 0.5 * np.sin(2 * np.pi * pf(0.125, L) * t))
     x += (hum + whine)[:, None] * np.array([1.0, 0.92])
     # electrical crackle and failing-ballast buzz events (wrapped)
     ev = np.zeros((n, 2))
     for tt in R.uniform(0, L, 38):
         c = lp(click(R, R.uniform(2000, 6000), 2, 0.0008, 0.01), 7000, 2)
-        place(ev, c, tt, R.uniform(0.04, 0.16), R.uniform(-1, 1), wrap=True)
+        place(ev, c, tt, R.uniform(0.02, 0.08), R.uniform(-1, 1), wrap=True)
     for tt in (3.4, 11.8, 17.9):
         d = R.uniform(0.12, 0.3)
         b = bp(white(R, d), 600, 3000, 2) * np.sign(np.sin(2 * np.pi * 120 * T(d))) * 0.25 * ad(d, 0.01, d / 2)
@@ -497,7 +497,7 @@ def comm_disc(R):
 @sfx("earth_call_dead_air_1p3s",
      "The 1.3 s 'dead air' of an Earth call: not silence but a subtle open line: low band-limited line "
      "noise, a faint carrier hum and two tiny ticks. Exactly 1.3 s with 40 ms edges, mono. Mix very low.",
-     "0, 25, 28", review=True, bed=-52, fade_in=0.04, fade_out=0.04, group="comm")
+     "0, 25, 28", review=True, bed=-52, fade_in=0.04, fade_out=0.04, group="comm", trim=False)
 def dead_air(R):
     d = 1.3
     x = bp(pink(R, d), 250, 3400, 2) * 0.35

@@ -13,7 +13,7 @@ REG = []          # registry of effects, filled by the @sfx decorator
 
 
 def sfx(name, desc, scenes, loop=False, review=False, conducted=False, bed=None,
-        peak=None, fade_in=0.003, fade_out=0.03, group="", note="", pulsed=False):
+        peak=None, fade_in=0.003, fade_out=0.03, group="", note="", pulsed=False, trim=True):
     """Register an effect.  The function receives (R) a seeded numpy Generator and
     returns a mono (n,) or stereo (n,2) float array.
 
@@ -25,7 +25,7 @@ def sfx(name, desc, scenes, loop=False, review=False, conducted=False, bed=None,
     def deco(fn):
         REG.append(dict(name=name, fn=fn, desc=desc, scenes=scenes, loop=loop, review=review,
                         conducted=conducted, bed=bed, peak=peak, fade_in=fade_in,
-                        fade_out=fade_out, group=group, note=note, pulsed=pulsed))
+                        fade_out=fade_out, group=group, note=note, pulsed=pulsed, trim=trim))
         return fn
     return deco
 
@@ -321,11 +321,21 @@ def read_wav24(path):
     return (v.astype(np.float64) / 8388607).reshape(-1, ch)
 
 
-def finish(x, loop, fade_in, fade_out, peak_db=-6.0):
+def finish(x, loop, fade_in, fade_out, peak_db=-6.0, trim=True):
     """DC-remove, fade (non-loops), normalise to peak_db."""
     x = np.asarray(x, dtype=np.float64)
     x = np.nan_to_num(x)
     x = x - x.mean(axis=0)
+    if not loop and trim:
+        # trim the trailing tail once it has fallen 48 dB below the peak (keep 40 ms)
+        m = np.abs(x).max(axis=1) if x.ndim == 2 else np.abs(x)
+        w = N(0.01)
+        k = len(m) // w
+        env = m[:k * w].reshape(k, w).max(axis=1)
+        idx = np.where(env > env.max() * 10 ** (-48 / 20))[0]
+        if len(idx):
+            end = min(len(x), (idx[-1] + 1) * w + N(0.04))
+            x = x[:max(end, N(0.1))]
     if not loop:
         n = len(x)
         fi, fo = min(N(fade_in), n // 4), min(N(fade_out), n // 3)

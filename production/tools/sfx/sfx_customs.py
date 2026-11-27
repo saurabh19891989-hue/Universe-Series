@@ -44,7 +44,7 @@ def hall_tone(R):
 @sfx("customs_hall_reverb_tail_ir",
      "A synthetic hall impulse response (RT60 ~4.8 s, dark tail, stereo) the dialogue editor can "
      "convolve onto Mira, Jax or Noakes in the hall. 5.5 s. Not a sound effect; an IR.",
-     "3, 4, 6, 12, 18, 22, 25, 28 (any hall dialogue)", peak=-12, fade_out=0.3, group="customs")
+     "3, 4, 6, 12, 18, 22, 25, 28 (any hall dialogue)", peak=-12, fade_out=0.3, group="customs", trim=False)
 def hall_ir(R):
     ir = make_ir(R, 4.8, damp=5500, pre=0.025, d=5.5)
     ir[0] = 0
