@@ -190,6 +190,15 @@ Last updated: 2026-11-27 (session 1)
   `mira/ref-glass-screen.jpg` shows a crowd.
 - Scripts (Fri night): E01 final; E02 in revision; E03, E04, E05 with critics; E06–E09 being drafted.
 
+- Library builder also stopped on the 24-hour image limit (17:15 UTC Fri). Since the reset it
+  accepted 57 images: Mira/Lucía reference sets complete; customs crawler; window fixes;
+  Arakawa ×2, Idris ×2 (sheet `samples/library/approve-cast-2.jpg`); Seo/Oyuna angles;
+  expressions for Jax, Mira, Lucía, Baron; Episode 2 PROPOSED cast and five places
+  (`samples/library/approve-e02.jpg`). Still to make for Episode 2 after the reset: shuttle
+  wreck (exterior, cockpit), Steadfast bridge, Valley's edge, and props (feather robe, forged
+  branch, invoice, flasks, jars of sighs, docket, envelope, Seo's photo, Voss letter, drone).
+  Owner to pick: Arakawa, Idris, Kaguya, Astolfo; approve Voss, Cass, Episode 2 places.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|
