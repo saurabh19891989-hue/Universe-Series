@@ -87,7 +87,7 @@ def active_rms_db(y, frame=0.05, window=30.0):
     return float(10 * np.log10(act.mean()))
 
 
-def gm_stem(pm_inst, length, gain=0.6, program=None, sf2=None):
+def gm_stem(pm_inst, length, gain=0.6, program=None, sf2=None, bank=0):
     """Render one GM track dry with GeneralUser GS (FluidSynth)."""
     pm = pretty_midi.PrettyMIDI(initial_tempo=120)
     i = copy.deepcopy(pm_inst)
@@ -99,6 +99,17 @@ def gm_stem(pm_inst, length, gain=0.6, program=None, sf2=None):
     with tempfile.TemporaryDirectory(dir=SCR) as td:
         mid, wav = os.path.join(td, "t.mid"), os.path.join(td, "t.wav")
         pm.write(mid)
+        if bank:   # GS bank variation (e.g. 16/25 Mandolin, 8/6 Coupled Harpsichord)
+            import mido
+            mf = mido.MidiFile(mid)
+            for tr in mf.tracks:
+                for idx, msg in enumerate(tr):
+                    if msg.type == "program_change":
+                        tr.insert(idx, mido.Message("control_change", channel=msg.channel, control=0,
+                                                    value=bank, time=msg.time))
+                        msg.time = 0
+                        break
+            mf.save(mid)
         subprocess.run(["fluidsynth", "-ni", "-q", "-g", str(gain), "-r", str(SR), "-F", wav,
                         "-o", "synth.reverb.active=0", "-o", "synth.chorus.active=0",
                         "-o", "synth.polyphony=256", sf2 or GUGS, mid], check=True)
@@ -115,50 +126,7 @@ def render_cue(mid_path, mix, name, tail=4.0, rt60=2.6, sub_dir=V2_DIR, dialogue
              release=s, vel=scale)}. Tracks not in mix use GM fallback."""
     pm = pretty_midi.PrettyMIDI(mid_path)
     length = pm.get_end_time() + tail
-    n = int(length * SR) + SR
-    dry = np.zeros((n, 2), np.float32)
-    wet_in = np.zeros((n, 2), np.float32)
-    stems = {}
-    for k, pmi in enumerate(pm.instruments):
-        spec = mix.get(pmi.name, {"gm": True})
-        if pmi.is_drum:
-            # split drum notes between VPO percussion and GU GS kit
-            by_preset = {}
-            rest = copy.deepcopy(pmi)
-            rest.notes = []
-            for nt in pmi.notes:
-                if nt.pitch in DRUM_MAP and not spec.get("all_gm"):
-                    pr, key = DRUM_MAP[nt.pitch]
-                    nn = copy.copy(nt)
-                    nn.pitch = key
-                    by_preset.setdefault(pr, []).append(nn)
-                else:
-                    rest.notes.append(nt)
-            y = np.zeros((n, 2), np.float32)
-            for pr, notes in by_preset.items():
-                tmp = pretty_midi.Instrument(0, name=pr)
-                tmp.notes = notes
-                tmp.control_changes = [c for c in pmi.control_changes if c.number in (7, 11)]
-                s = sfzr.render_track(inst(pr), tmp, length, seed=k)
-                y[:min(n, len(s))] += s[:n]
-            if rest.notes:
-                y += gm_stem(rest, length)[:n] * 10 ** (spec.get("gm_gain", -4) / 20)
-        elif spec.get("gm"):
-            y = gm_stem(pmi, length, program=spec.get("program"),
-                       sf2=sulib.SF2 if spec.get("sf2") == "fluidr3" else None)[:n]
-        else:
-            s = sfzr.render_track(inst(spec["inst"]), pmi, length, seed=k,
-                                  release=spec.get("release"), vel_scale=spec.get("vel", 1.0))
-            y = np.zeros((n, 2), np.float32)
-            y[:min(n, len(s))] = s[:n]
-        if "lvl" in spec:          # auto-balance: active-RMS target in dBFS (pre-master)
-            y = y * 10 ** ((spec["lvl"] - active_rms_db(y)) / 20)
-        y = sfzr.pan_stereo(y * 10 ** (spec.get("gain", 0) / 20), spec.get("pan", 0))
-        stems[pmi.name] = y
-        dry += y
-        wet_in += y * spec.get("send", 0.3)
-    wet = sfzr.reverb(wet_in, rt60=rt60)
-    mixbus = dry + wet * 0.9
+    stems, sends, mixbus = build_mix(pm, mix, length, rt60)
     os.makedirs(sub_dir, exist_ok=True)
     raw = os.path.join(SCR, name + "-v2-mix.wav")
     peak = np.abs(mixbus).max() + 1e-9
@@ -191,3 +159,58 @@ def finish(raw, mp3, length, dialogue=False, loud=-16.0):
     st = sulib.analyse(mp3, jpg)
     os.remove(fx)
     return mp3, st
+
+
+def build_mix(pm, mix, length, rt60=2.6):
+    """Render every track to a stem, then sum dry + one shared hall. Returns (stems, sends, mixbus)."""
+    n = int(length * SR) + SR
+    dry = np.zeros((n, 2), np.float32)
+    wet_in = np.zeros((n, 2), np.float32)
+    stems, sends = {}, {}
+    for k, pmi in enumerate(pm.instruments):
+        spec = mix.get(pmi.name, {"gm": True})
+        if spec.get("detune"):    # constant detune in cents (e.g. a harpsichord gone wrong)
+            pmi = copy.deepcopy(pmi)
+            off = spec["detune"] / 200.0 * 8191
+            pmi.pitch_bends = [pretty_midi.PitchBend(int(off), 0.0)] + [
+                pretty_midi.PitchBend(int(max(-8192, min(8191, b.pitch + off))), b.time) for b in pmi.pitch_bends]
+        if pmi.is_drum:
+            # split drum notes between VPO percussion and GU GS kit
+            by_preset = {}
+            rest = copy.deepcopy(pmi)
+            rest.notes = []
+            for nt in pmi.notes:
+                if nt.pitch in DRUM_MAP and not spec.get("all_gm"):
+                    pr, key = DRUM_MAP[nt.pitch]
+                    nn = copy.copy(nt)
+                    nn.pitch = key
+                    by_preset.setdefault(pr, []).append(nn)
+                else:
+                    rest.notes.append(nt)
+            y = np.zeros((n, 2), np.float32)
+            for pr, notes in by_preset.items():
+                tmp = pretty_midi.Instrument(0, name=pr)
+                tmp.notes = notes
+                tmp.control_changes = [c for c in pmi.control_changes if c.number in (7, 11)]
+                s = sfzr.render_track(inst(pr), tmp, length, seed=k)
+                y[:min(n, len(s))] += s[:n]
+            if rest.notes:
+                y += gm_stem(rest, length)[:n] * 10 ** (spec.get("gm_gain", -4) / 20)
+        elif spec.get("gm"):
+            y = gm_stem(pmi, length, program=spec.get("program"), bank=spec.get("bank", 0),
+                       sf2=sulib.SF2 if spec.get("sf2") == "fluidr3" else None)[:n]
+        else:
+            s = sfzr.render_track(inst(spec["inst"]), pmi, length, seed=k,
+                                  release=spec.get("release"), vel_scale=spec.get("vel", 1.0))
+            y = np.zeros((n, 2), np.float32)
+            y[:min(n, len(s))] = s[:n]
+        if "lvl" in spec:          # auto-balance: active-RMS target in dBFS (pre-master)
+            y = y * 10 ** ((spec["lvl"] - active_rms_db(y)) / 20)
+        y = sfzr.pan_stereo(y * 10 ** (spec.get("gain", 0) / 20), spec.get("pan", 0))
+        stems[pmi.name] = y
+        dry += y
+        wet_in += y * spec.get("send", 0.3)
+        sends[pmi.name] = spec.get("send", 0.3)
+    wet = sfzr.reverb(wet_in, rt60=rt60) if rt60 > 0 else np.zeros_like(wet_in)
+    mixbus = dry + wet * 0.9
+    return stems, sends, mixbus

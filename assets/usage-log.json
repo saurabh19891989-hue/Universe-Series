@@ -432,5 +432,161 @@
     "resets_at": "2026-12-02 17:30 UTC"
    }
   }
+ },
+ {
+  "time": "2026-11-27T15:53:35",
+  "type": "run",
+  "purpose": "step3 Mira ref eye through loupe ECU",
+  "job": "mira-loupe",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/mira-loupe/mira-loupe.png",
+  "file": "assets/characters/mira/ref-loupe-eye.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 114.9,
+  "tokens": 18310,
+  "status": "accepted",
+  "note": "same face; loupe reads as a round brass lens",
+  "jpg_bytes": 194510,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 50.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 92.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:52:39",
+  "type": "run",
+  "purpose": "step3 Mira ref back of head",
+  "job": "mira-backhead",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/mira-backhead/mira-backhead.png",
+  "file": null,
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 59.4,
+  "tokens": 11736,
+  "status": "rejected",
+  "note": "REJECT: loupe pendant hangs on her back (impossible), hall too crowded",
+  "jpg_bytes": null,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 50.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 92.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:54:41",
+  "type": "run",
+  "purpose": "step3 Mira ref back of head (retry 1)",
+  "job": "mira-backhead",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/mira-backhead/mira-backhead2.png",
+  "file": "assets/characters/mira/ref-back.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 51.6,
+  "tokens": 18474,
+  "status": "accepted",
+  "note": "retry 1 ok; windows show lunar view, not black (character ref only)",
+  "jpg_bytes": 199733,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 50.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 92.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:55:06",
+  "type": "run",
+  "purpose": "step3 Mira ref customs pressure suit and helmet",
+  "job": "mira-suit",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/mira-suit/mira-suit.png",
+  "file": "assets/characters/mira/ref-suit-helmet.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 75.9,
+  "tokens": 14072,
+  "status": "accepted",
+  "note": "same face; suit reads as flight suit plus helmet",
+  "jpg_bytes": 227028,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 50.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 92.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:57:03",
+  "type": "run",
+  "purpose": "step3 Lucia ref front neutral",
+  "job": "lucia-front",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/lucia-front/lucia-front.png",
+  "file": "assets/characters/lucia/ref-front.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 105.4,
+  "tokens": 12858,
+  "status": "accepted",
+  "note": "same face",
+  "jpg_bytes": 146404,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 52.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 92.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:56:08",
+  "type": "run",
+  "purpose": "step3 Lucia ref profile",
+  "job": "lucia-profile",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/lucia-profile/lucia-profile.png",
+  "file": "assets/characters/lucia/ref-profile.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 50.3,
+  "tokens": 15372,
+  "status": "accepted",
+  "note": "same face; brow scar a little stronger than master",
+  "jpg_bytes": 164469,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 51.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 92.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
  }
 ]

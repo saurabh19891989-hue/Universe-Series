@@ -104,6 +104,15 @@ Last updated: 2026-11-27 (session 1)
   Shared large media: scratchpad `e01/` (plates, datavis, sfx, music, dialogue, renders) — not in git.
   Drive: approved masters in `04-locked-cast-masters` (id 1UR4BaNbE6KNyXL6oktr1-oJrzqZ5DW63).
 
+- STORAGE FACTS (27 Nov): GitHub holds everything in the repo (text, tools, approved image
+  JPGs, small samples). Lost when the cloud machine is recycled: everything under the
+  scratchpad (installed tools, sample libraries, NASA plates, WAV masters, per-line audio,
+  renders, PNG originals) and the Codex login — all rebuildable from scripts except AI images,
+  which is why approved images are committed as JPG. The Drive connector refuses files over
+  10 MB, so large media needs rclone (owner authorises once; token entered by the owner as an
+  environment variable; works from the next session) or the laptop. Owner raised the Codex
+  parallel limit to 4 jobs.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|

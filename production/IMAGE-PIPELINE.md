@@ -49,7 +49,7 @@ Instruction template:
 - The original is saved under `~/.codex/generated_images/`; copy it if NAME.png is missing.
 - Measured: about 56 s per image, 1672x941, about 24k tokens per run.
 - Wrapper script (logs every run): `production/tools/look/codex_image.py`.
-- At most 2 jobs in parallel.
+- At most 4 jobs in parallel (owner raised it from 2 on 27 Nov).
 
 **Style line (every prompt):** Photorealistic cinematic film still, 35mm, shallow depth of
 field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical
@@ -111,7 +111,7 @@ The quotes were collected through a summarising fetch tool; re-check the live pa
   documented (beta) for trusted private machines, one login per machine. The Terms also forbid
   "automatically or programmatically extract[ing] data or Output"; OpenAI has not said how
   that applies to image batches. This is the main risk to the owner's account. Keep volumes
-  moderate, at most 2 jobs at once, no retry loops, and never share the login.
+  moderate, at most 4 jobs at once, no retry loops, and never share the login.
 - **Limits:** Pro has no five-hour limit; weekly limits may apply and no number is published.
   Images count against the same allowance. To make sure nothing is ever charged, the owner
   keeps auto top-up / auto reload OFF and buys no credits. Usage page:
