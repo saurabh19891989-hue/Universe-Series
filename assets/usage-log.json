@@ -1773,5 +1773,58 @@
     "resets_at": "2026-12-02 17:30 UTC"
    }
   }
+ },
+ {
+  "time": "2026-11-27T16:14:43",
+  "type": "run",
+  "purpose": "request1 customs hall master REDO with pure black window",
+  "job": "customs-redo",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/customs-redo/customs-redo.png",
+  "file": "assets/sets/customs/master.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 56.9,
+  "tokens": 8089,
+  "status": "accepted",
+  "note": "REDO: same hall, far window now pure black; old kept as master-old.jpg",
+  "jpg_bytes": 324828,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 72.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 95.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:14:31",
+  "type": "run",
+  "purpose": "request2 PIP wrist unit",
+  "job": "pip-wrist",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/pip-wrist/pip-wrist.png",
+  "file": "assets/props/pip/ref-wrist.jpg",
+  "refs": [
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 45.9,
+  "tokens": 18622,
+  "status": "accepted",
+  "note": "miniaturised PIP lens on leather strap over Jax's sleeve",
+  "jpg_bytes": 322532,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 72.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 95.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
  }
 ]

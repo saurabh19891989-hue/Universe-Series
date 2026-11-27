@@ -128,6 +128,22 @@ Last updated: 2026-11-27 (session 1)
   (`episodes/E01/stills/`, log `stills-log.json`) because AI images cannot be regenerated
   identically. Mira/Lucía jobs run last pending the owner's approval of their new masters.
 
+- OWNER DIRECTION 27 Nov (evening): (1) more, more interesting channel names — being generated
+  (`channel/NAME-OPTIONS.md`); (2) speed above all — owner asked for 20 episodes live tonight;
+  showrunner told the owner plainly this is not possible and gave real numbers; scripts for
+  episodes 2–5 are being written in parallel; (3) no AI-disclosure wording in episodes,
+  descriptions or channel copy — removed. SHOWRUNNER POSITION: YouTube's own "altered or
+  synthetic content" upload setting is a declaration to YouTube about realistic-looking
+  synthetic footage; the showrunner will not tick "no" on the owner's behalf and has told the
+  owner so; the owner decides at upload; (4) Sun Wukong ruling accepted; (5) varied, colourful
+  places, not mostly the ship; (6) Noakes, Temi, Mamani approved and LOCKED; Mira and Lucía to
+  be redone again, more glamorous, Lucía slimmer — three candidates each being made;
+  (7) brighter pictures — style line revised in the image runbook.
+- LAPTOP: not connected. `DESKTOP-TUA5BIM` still does not offer any folder to cloud sessions,
+  so rclone on the laptop cannot be used from here.
+- Sound effects for Episode 1 done: 112 synthesised effects, index and mixing note in
+  `samples/e01/sfx/`, generators in `production/tools/sfx/`.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|

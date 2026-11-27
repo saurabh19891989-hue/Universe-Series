@@ -1204,5 +1204,163 @@
   },
   "source": "rate_limits snapshot in ~/.codex/sessions/**/rollout-*.jsonl (token_count events); run.log/stdout shows no allowance info",
   "note": "~0.43 percentage points of the 5-hour window per image; weekly moved 2 points over 30 images (1-point granularity)"
+ },
+ {
+  "time": "2026-11-27T16:14:44",
+  "job": "e01/E01-J001",
+  "name": "e01-j001_pip_lens_dark",
+  "purpose": "E01 still E01-J001",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 35.5,
+  "tokens_used": 7646,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dc9-1f30-7d13-8e00-381cbd52a693",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 72.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 95.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:15:00",
+  "job": "e01/E01-J008",
+  "name": "e01-j008_pip_lens_swivel",
+  "purpose": "E01 still E01-J008",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 51.6,
+  "tokens_used": 16924,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dc9-1f39-7972-9ce7-4a9e98637220",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 73.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 95.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:15:37",
+  "job": "e01/E01-J010",
+  "name": "e01-j010_pip_stamp_arm",
+  "purpose": "E01 still E01-J010",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 51.7,
+  "tokens_used": 10672,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dc9-ac02-76e0-9cff-9ab8c730f27d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 74.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 95.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:16:02",
+  "job": "e01/E01-J002",
+  "name": "e01-j002_bridge_wide_jax_back",
+  "purpose": "E01 still E01-J002",
+  "refs": [
+   "master.jpg",
+   "master.jpg",
+   "ref-back.jpg"
+  ],
+  "seconds": 61.7,
+  "tokens_used": 12534,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dc9-e8fe-79d1-a9ae-898233db55a4",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 74.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 96.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]

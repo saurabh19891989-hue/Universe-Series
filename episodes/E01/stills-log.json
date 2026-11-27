@@ -1,5 +1,736 @@
 {
- "jobs": {},
+ "jobs": {
+  "E01-J001": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    35.5
+   ],
+   "tokens": [
+    7646
+   ],
+   "notes": [
+    "PIP lens matches master (brass rim, cream chipped housing); near-black surround as specified. Dark style - redo candidate (story-dark cold-open beat, may keep)"
+   ],
+   "refs_used": [
+    "assets/props/pip/master.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j001_pip_lens_dark.jpg",
+   "jpg_bytes": 226800
+  },
+  "E01-J008": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    51.6
+   ],
+   "tokens": [
+    16924
+   ],
+   "notes": [
+    "PIP matches master, head swivelled camera-left, windows black, no text. Dark style - redo candidate"
+   ],
+   "refs_used": [
+    "assets/props/pip/master.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j008_pip_lens_swivel.jpg",
+   "jpg_bytes": 344025
+  },
+  "E01-J012": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J016": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J013": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J017": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J019": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J020": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J021": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J022": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J024": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J025": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J035": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J041": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J043": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J044": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J048": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J052": {
+   "priority": 1,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J055": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J057": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J058": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J061": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J062": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J064": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J069": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J070": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J100": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J105": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J072": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J078": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J102": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J082": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J086": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J106": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J087": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J089": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J093": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J098": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J130": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J099": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J108": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J111": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J112": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J131": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J113": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J114": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J116": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J119": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J117": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J135": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J140": {
+   "priority": 2,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J144": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J150": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J154": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J155": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J158": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J167": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J161": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J166": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J169": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J171": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J177": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J178": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J179": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J182": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J184": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J185": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J186": {
+   "priority": 3,
+   "status": "held for new masters",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": [
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+   ]
+  },
+  "E01-J010": {
+   "priority": 1,
+   "status": "pending",
+   "attempts": 1,
+   "seconds": [
+    51.7
+   ],
+   "tokens": [
+    10672
+   ],
+   "notes": [],
+   "refs_used": [
+    "assets/props/pip/master.jpg"
+   ]
+  },
+  "E01-J002": {
+   "priority": 1,
+   "status": "pending",
+   "attempts": 1,
+   "seconds": [
+    61.7
+   ],
+   "tokens": [
+    12534
+   ],
+   "notes": [],
+   "refs_used": [
+    "assets/sets/bridge/master.jpg",
+    "assets/characters/jax/master.jpg",
+    "assets/characters/jax/ref-back.jpg"
+   ]
+  }
+ },
  "allowance": [
   {
    "read_at": "2026-11-27T16:14:04Z",
