@@ -195,7 +195,7 @@ class Cue:
             "-o", "synth.polyphony=512", SF2, mid], check=True)
         dur = self.pm.get_end_time() + tail
         # space + tone: hall reverb, gentle low-cut, small low-mid dip, air shelf, glue compression
-        chain = sox_fx or ["gain", "-4", "highpass", "28", "equalizer", "300", "1.2q", "-2",
+        chain = sox_fx or ["gain", "-4", "highpass", "28", "bass", "-3", "110", "equalizer", "300", "1.2q", "-2",
                            "treble", "+2", "8000", "reverb", "35", "45", "90", "100", "15",
                            "compand", "0.02,0.25", "6:-70,-70,-24,-24,0,-12", "0", "-60", "0.05"]
         subprocess.run(["sox", "-q", raw, fx, "trim", "0", f"{dur:.2f}"] + chain +
@@ -262,6 +262,7 @@ def analyse(mp3, jpg):
     p = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
                         "-of", "csv=p=0", mp3], capture_output=True, text=True)
     out["duration_s"] = round(float(p.stdout.strip()), 2)
+    out["short_term_LUFS_every_4s"] = arc(mp3)
     out["bands_dB"] = band_balance(mp3)
     out["samples_at_full_scale"] = band_balance.clipped
     png = jpg[:-4] + ".png"
@@ -280,7 +281,9 @@ def band_balance(mp3):
     r = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", mp3, "-ac", "1", "-ar",
                         "24000", "-f", "f32le", "-"], capture_output=True)
     x = np.frombuffer(r.stdout, dtype=np.float32)
-    band_balance.clipped = int((np.abs(x) >= 0.999).sum())
+    st = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", mp3, "-f", "f32le", "-"],
+                        capture_output=True).stdout
+    band_balance.clipped = int((np.abs(np.frombuffer(st, dtype=np.float32)) >= 0.999).sum())
     X = np.abs(np.fft.rfft(x)) ** 2
     f = np.fft.rfftfreq(len(x), 1 / 24000)
     tot = X.sum() + 1e-12
@@ -288,3 +291,17 @@ def band_balance(mp3):
              "hi2k-6k": (2000, 6000), "air>6k": (6000, 12000)}
     return {k: round(10 * float(np.log10(X[(f >= a) & (f < b)].sum() / tot + 1e-12)), 1)
             for k, (a, b) in bands.items()}
+
+
+def arc(mp3, step=4.0):
+    """Short-term (3 s) loudness every `step` seconds: shows the dynamic shape."""
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", mp3, "-af", "ebur128",
+                        "-f", "null", "-"], capture_output=True, text=True)
+    pts, nxt = [], step
+    for line in r.stderr.splitlines():
+        if " t: " in line and " S:" in line:
+            t = float(line.split(" t:")[1].split()[0])
+            if t >= nxt:
+                pts.append(round(float(line.split(" S:")[1].split()[0]), 1))
+                nxt += step
+    return pts
