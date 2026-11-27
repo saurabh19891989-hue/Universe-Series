@@ -195,7 +195,7 @@ class Cue:
             "-o", "synth.polyphony=512", SF2, mid], check=True)
         dur = self.pm.get_end_time() + tail
         # space + tone: hall reverb, gentle low-cut, small low-mid dip, air shelf, glue compression
-        chain = sox_fx or ["highpass", "28", "equalizer", "300", "1.2q", "-2",
+        chain = sox_fx or ["gain", "-4", "highpass", "28", "equalizer", "300", "1.2q", "-2",
                            "treble", "+2", "8000", "reverb", "35", "45", "90", "100", "15",
                            "compand", "0.02,0.25", "6:-40,-30,-12,-10,0,-6", "-2", "-60", "0.05"]
         subprocess.run(["sox", "-q", raw, fx, "trim", "0", f"{dur:.2f}"] + chain +
@@ -240,29 +240,30 @@ def analyse(mp3, jpg):
     """Objective checks: loudness, true peak, clipping count, duration, band balance."""
     os.makedirs(os.path.dirname(jpg), exist_ok=True)
     r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", mp3, "-af",
-                        "ebur128=peak=true,astats=measure_overall=Peak_level+RMS_level+Number_of_clipped_samples+Flat_factor:measure_perchannel=none",
-                        "-f", "null", "-"], capture_output=True, text=True)
-    err = r.stderr
+                        "ebur128=peak=true:framelog=quiet", "-f", "null", "-"],
+                       capture_output=True, text=True)
+    summ = r.stderr[r.stderr.rfind("Summary:"):]
     out = {}
-    summ = err[err.rfind("Summary:"):]
     for line in summ.splitlines():
-        line = line.strip()
-        if line.startswith("I:"):
-            out["lufs_I"] = float(line.split()[1])
-        elif line.startswith("LRA:"):
-            out["LRA"] = float(line.split()[1])
-        elif line.startswith("Peak:"):
-            out["true_peak_dBTP"] = float(line.split()[1])
-    for line in err.splitlines():
-        if "Overall" in line:
-            continue
-        for k in ("Peak level dB", "RMS level dB", "Number of clipped samples"):
-            if k in line and "] " in line:
-                out[k] = line.split(":")[-1].strip()
+        w = line.split()
+        if w[:1] == ["I:"]:
+            out["lufs_I"] = float(w[1])
+        elif w[:1] == ["LRA:"]:
+            out["LRA_LU"] = float(w[1])
+        elif w[:1] == ["Peak:"]:
+            out["true_peak_dBTP"] = float(w[1])
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", mp3, "-af",
+                        "astats=measure_perchannel=none", "-f", "null", "-"],
+                       capture_output=True, text=True)
+    for line in r.stderr.splitlines():
+        for k in ("Peak level dB", "RMS level dB", "Crest factor", "Flat factor"):
+            if "] " + k in line:
+                out[k] = float(line.split(":")[-1])
     p = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
                         "-of", "csv=p=0", mp3], capture_output=True, text=True)
     out["duration_s"] = round(float(p.stdout.strip()), 2)
     out["bands_dB"] = band_balance(mp3)
+    out["samples_at_full_scale"] = band_balance.clipped
     png = jpg[:-4] + ".png"
     subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", mp3,
                     "-lavfi", "showspectrumpic=s=800x300:legend=1:scale=log:fscale=log",
@@ -279,6 +280,7 @@ def band_balance(mp3):
     r = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", mp3, "-ac", "1", "-ar",
                         "24000", "-f", "f32le", "-"], capture_output=True)
     x = np.frombuffer(r.stdout, dtype=np.float32)
+    band_balance.clipped = int((np.abs(x) >= 0.999).sum())
     X = np.abs(np.fft.rfft(x)) ** 2
     f = np.fft.rfftfreq(len(x), 1 / 24000)
     tot = X.sum() + 1e-12
