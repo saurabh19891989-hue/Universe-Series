@@ -110,7 +110,7 @@ def engine_idle(R):
         x += np.sin(2 * np.pi * 48 * h * t + h * 0.7) / h ** 0.9
     x *= 1 + 0.12 * np.sin(2 * np.pi * pf(6, L) * t)                  # firing flutter
     x *= 1 + 0.06 * np.sin(2 * np.pi * pf(0.5, L) * t)
-    x = lp(x, 700, 2)
+    x = circ(lambda y: lp(y, 700, 2), x)
     nz = noise_loop(lambda R, d: lp(white(R, d), 450, 2), R, L, 0.4)
     x = x + 0.25 * nz + 0.03 * np.sin(2 * np.pi * pf(864, L) * t)
     return x

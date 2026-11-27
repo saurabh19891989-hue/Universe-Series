@@ -427,13 +427,21 @@
     "text": "A big one. Enormous—",
     "part": null,
     "seconds": 1.13
+   },
+   {
+    "line_id": "E01-L012",
+    "speaker": "TEMI",
+    "tags": "V.O.",
+    "text": "Hello! You're speaking to Temi in Recoveries!",
+    "part": null,
+    "seconds": 2.47
    }
   ],
-  "duration_s": 5.8,
+  "duration_s": 8.9,
   "type": "TWO_SHOT",
-  "description": "Over Jax's shoulder to the call window: he argues with the screen; Temi keeps talking over him.",
-  "camera": "handheld drift 1%",
-  "motion": "call window stutters (1.3 s lag): freeze-frames between lines",
+  "description": "Over Jax's shoulder to the call window: he argues with the screen; Temi keeps talking over him, then the window resets with a chirp: 'Hello!'.",
+  "camera": "handheld drift 1%, push-in 4% on the reset",
+  "motion": "call window stutters (1.3 s lag): freeze-frames between lines; window flashes and re-opens on L012",
   "characters": [
    {
     "id": "jax",
@@ -464,7 +472,7 @@
    ],
    "prompt": "Use your built-in image generation tool to generate exactly ONE image, landscape 16:9, and save it in the current directory as e01-j006_jax_ots_screen.png. Do not write any code, do not use Python or any drawing library, do not use the fallback CLI/API mode, and do not generate more than one image. Image 1 is the reference for Jax Vale (face, hair, costume): keep the same face, hair, age and costume exactly. Image 2 is the reference for the bridge set: keep the same design, materials and lighting. Image prompt: Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Over-the-shoulder from behind Jax Vale's head and burnt-orange collar toward a large blank console screen at the side of the bridge; his face is not visible. Jax Vale: Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later). After saving, reply with the file path and nothing else."
   },
-  "compositing": "Temi call window composited into the blank screen.",
+  "compositing": "Temi call window composited into the blank screen (Temi small, low-fps; no patch on this shot).",
   "sound": "Bridge room tone (engine hum, relays); PIP motif accents.",
   "risk": {
    "level": "low",
@@ -476,48 +484,6 @@
   "scene": "0",
   "act": "Cold open",
   "order": 11,
-  "lines": [
-   {
-    "line_id": "E01-L012",
-    "speaker": "TEMI",
-    "tags": "V.O.",
-    "text": "Hello! You're speaking to Temi in Recoveries!",
-    "part": null,
-    "seconds": 2.47
-   }
-  ],
-  "duration_s": 3.3,
-  "type": "DATA_VISUAL",
-  "description": "Temi's call window resets with a chirp: 'Hello!'.",
-  "camera": "hold",
-  "motion": "window flashes, re-opens at the start of its loop",
-  "characters": [
-   {
-    "id": "temi",
-    "mouth_visible": false,
-    "speaking_in_shot": true,
-    "needs_mouth_patch": false
-   }
-  ],
-  "needs_mouth_patch": false,
-  "image_source": "BUILT IN CODE",
-  "library_assets": [
-   "assets/characters/temi/master.jpg"
-  ],
-  "real_footage": "none",
-  "new_image_job": null,
-  "compositing": "Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). Any text, numbers or tags added in code.",
-  "sound": "Bridge room tone (engine hum, relays); PIP motif accents.",
-  "risk": {
-   "level": "low",
-   "reason": "library reuse, no faces speaking"
-  }
- },
- {
-  "id": "E01-S00-012",
-  "scene": "0",
-  "act": "Cold open",
-  "order": 12,
   "lines": [
    {
     "line_id": "E01-L013",
@@ -601,10 +567,10 @@
   }
  },
  {
-  "id": "E01-S00-013",
+  "id": "E01-S00-012",
   "scene": "0",
   "act": "Cold open",
-  "order": 13,
+  "order": 12,
   "lines": [
    {
     "line_id": "E01-L016",
@@ -649,10 +615,10 @@
   }
  },
  {
-  "id": "E01-S00-014",
+  "id": "E01-S00-013",
   "scene": "0",
   "act": "Cold open",
-  "order": 14,
+  "order": 13,
   "lines": [
    {
     "line_id": "E01-L016",
@@ -682,10 +648,10 @@
   }
  },
  {
-  "id": "E01-S00-015",
+  "id": "E01-S00-014",
   "scene": "0",
   "act": "Cold open",
-  "order": 15,
+  "order": 14,
   "lines": [
    {
     "line_id": "E01-L017",
@@ -739,10 +705,10 @@
   }
  },
  {
-  "id": "E01-S00-016",
+  "id": "E01-S00-015",
   "scene": "0",
   "act": "Cold open",
-  "order": 16,
+  "order": 15,
   "lines": [
    {
     "line_id": "E01-L019",
@@ -805,10 +771,10 @@
   }
  },
  {
-  "id": "E01-S00-017",
+  "id": "E01-S00-016",
   "scene": "0",
   "act": "Cold open",
-  "order": 17,
+  "order": 16,
   "lines": [
    {
     "line_id": "E01-L022",
@@ -853,10 +819,10 @@
   }
  },
  {
-  "id": "E01-S00-018",
+  "id": "E01-S00-017",
   "scene": "0",
   "act": "Cold open",
-  "order": 18,
+  "order": 17,
   "lines": [
    {
     "line_id": "E01-L022",
@@ -886,10 +852,10 @@
   }
  },
  {
-  "id": "E01-S00-019",
+  "id": "E01-S00-018",
   "scene": "0",
   "act": "Cold open",
-  "order": 19,
+  "order": 18,
   "lines": [],
   "duration_s": 3.2,
   "type": "SET_STILL",
@@ -943,10 +909,10 @@
   }
  },
  {
-  "id": "E01-S00-020",
+  "id": "E01-S00-019",
   "scene": "0",
   "act": "Cold open",
-  "order": 20,
+  "order": 19,
   "lines": [],
   "duration_s": 1.2,
   "type": "INSERT",
@@ -970,10 +936,10 @@
   }
  },
  {
-  "id": "E01-S00-021",
+  "id": "E01-S00-020",
   "scene": "0",
   "act": "Cold open",
-  "order": 21,
+  "order": 20,
   "lines": [
    {
     "line_id": "E01-L024",
@@ -1005,10 +971,10 @@
   }
  },
  {
-  "id": "E01-S00-022",
+  "id": "E01-S00-021",
   "scene": "0",
   "act": "Cold open",
-  "order": 22,
+  "order": 21,
   "lines": [
    {
     "line_id": "E01-L025",
@@ -1064,10 +1030,10 @@
   }
  },
  {
-  "id": "E01-S00-023",
+  "id": "E01-S00-022",
   "scene": "0",
   "act": "Cold open",
-  "order": 23,
+  "order": 22,
   "lines": [
    {
     "line_id": "E01-L026",
@@ -1113,10 +1079,10 @@
   }
  },
  {
-  "id": "E01-S00-024",
+  "id": "E01-S00-023",
   "scene": "0",
   "act": "Cold open",
-  "order": 24,
+  "order": 23,
   "lines": [
    {
     "line_id": "E01-L027",
@@ -1159,7 +1125,7 @@
   "id": "E01-ST-001",
   "scene": "T",
   "act": "Cold open",
-  "order": 25,
+  "order": 24,
   "lines": [],
   "duration_s": 10.0,
   "type": "TITLE",
@@ -1205,7 +1171,7 @@
   "id": "E01-S01-001",
   "scene": "1",
   "act": "Act 1",
-  "order": 26,
+  "order": 25,
   "lines": [
    {
     "line_id": "E01-L032",
@@ -1247,7 +1213,7 @@
   "id": "E01-S01-002",
   "scene": "1",
   "act": "Act 1",
-  "order": 27,
+  "order": 26,
   "lines": [],
   "duration_s": 1.2,
   "type": "INSERT",
@@ -1280,7 +1246,7 @@
   "id": "E01-S01-003",
   "scene": "1",
   "act": "Act 1",
-  "order": 28,
+  "order": 27,
   "lines": [
    {
     "line_id": "E01-L033",
@@ -1317,7 +1283,7 @@
   "id": "E01-S01-004",
   "scene": "1",
   "act": "Act 1",
-  "order": 29,
+  "order": 28,
   "lines": [
    {
     "line_id": "E01-L034",
@@ -1374,7 +1340,7 @@
   "id": "E01-S01-005",
   "scene": "1",
   "act": "Act 1",
-  "order": 30,
+  "order": 29,
   "lines": [
    {
     "line_id": "E01-L036",
@@ -1427,7 +1393,7 @@
   "id": "E01-S01-006",
   "scene": "1",
   "act": "Act 1",
-  "order": 31,
+  "order": 30,
   "lines": [
    {
     "line_id": "E01-L039",
@@ -1484,7 +1450,7 @@
   "id": "E01-S01-007",
   "scene": "1",
   "act": "Act 1",
-  "order": 32,
+  "order": 31,
   "lines": [],
   "duration_s": 1.4,
   "type": "CHARACTER_STILL",
@@ -1524,7 +1490,7 @@
   "id": "E01-S01-008",
   "scene": "1",
   "act": "Act 1",
-  "order": 33,
+  "order": 32,
   "lines": [
    {
     "line_id": "E01-L041",
@@ -1574,7 +1540,7 @@
   "id": "E01-S01-009",
   "scene": "1",
   "act": "Act 1",
-  "order": 34,
+  "order": 33,
   "lines": [
    {
     "line_id": "E01-L043",
@@ -1609,7 +1575,7 @@
   "id": "E01-S02-001",
   "scene": "2",
   "act": "Act 1",
-  "order": 35,
+  "order": 34,
   "lines": [
    {
     "line_id": "E01-L045",
@@ -1664,7 +1630,7 @@
   "id": "E01-S02-002",
   "scene": "2",
   "act": "Act 1",
-  "order": 36,
+  "order": 35,
   "lines": [
    {
     "line_id": "E01-L046",
@@ -1723,7 +1689,7 @@
   "id": "E01-S02-003",
   "scene": "2",
   "act": "Act 1",
-  "order": 37,
+  "order": 36,
   "lines": [
    {
     "line_id": "E01-L048",
@@ -1771,7 +1737,7 @@
   "id": "E01-S02-004",
   "scene": "2",
   "act": "Act 1",
-  "order": 38,
+  "order": 37,
   "lines": [
    {
     "line_id": "E01-L049",
@@ -1819,7 +1785,7 @@
   "id": "E01-S02-005",
   "scene": "2",
   "act": "Act 1",
-  "order": 39,
+  "order": 38,
   "lines": [
    {
     "line_id": "E01-L050",
@@ -1867,7 +1833,7 @@
   "id": "E01-S02-006",
   "scene": "2",
   "act": "Act 1",
-  "order": 40,
+  "order": 39,
   "lines": [],
   "duration_s": 1.0,
   "type": "DATA_VISUAL",
@@ -1906,7 +1872,7 @@
   "id": "E01-S02-007",
   "scene": "2",
   "act": "Act 1",
-  "order": 41,
+  "order": 40,
   "lines": [
    {
     "line_id": "E01-L051",
@@ -1954,7 +1920,7 @@
   "id": "E01-S02-008",
   "scene": "2",
   "act": "Act 1",
-  "order": 42,
+  "order": 41,
   "lines": [
    {
     "line_id": "E01-L052",
@@ -2002,7 +1968,7 @@
   "id": "E01-S02-009",
   "scene": "2",
   "act": "Act 1",
-  "order": 43,
+  "order": 42,
   "lines": [
    {
     "line_id": "E01-L053",
@@ -2046,7 +2012,7 @@
   "id": "E01-S02-010",
   "scene": "2",
   "act": "Act 1",
-  "order": 44,
+  "order": 43,
   "lines": [
    {
     "line_id": "E01-L054",
@@ -2089,7 +2055,7 @@
   "id": "E01-S02-011",
   "scene": "2",
   "act": "Act 1",
-  "order": 45,
+  "order": 44,
   "lines": [],
   "duration_s": 3.0,
   "type": "DATA_VISUAL",
@@ -2128,7 +2094,7 @@
   "id": "E01-S02-012",
   "scene": "2",
   "act": "Act 1",
-  "order": 46,
+  "order": 45,
   "lines": [
    {
     "line_id": "E01-L055",
@@ -2202,7 +2168,7 @@
   "id": "E01-S02-013",
   "scene": "2",
   "act": "Act 1",
-  "order": 47,
+  "order": 46,
   "lines": [
    {
     "line_id": "E01-L057",
@@ -2244,7 +2210,7 @@
   "id": "E01-S02-014",
   "scene": "2",
   "act": "Act 1",
-  "order": 48,
+  "order": 47,
   "lines": [
    {
     "line_id": "E01-L057",
@@ -2288,7 +2254,7 @@
   "id": "E01-S02-015",
   "scene": "2",
   "act": "Act 1",
-  "order": 49,
+  "order": 48,
   "lines": [
    {
     "line_id": "E01-L058",
@@ -2331,7 +2297,7 @@
   "id": "E01-S02-016",
   "scene": "2",
   "act": "Act 1",
-  "order": 50,
+  "order": 49,
   "lines": [
    {
     "line_id": "E01-L059",
@@ -2364,7 +2330,7 @@
   "id": "E01-S02-017",
   "scene": "2",
   "act": "Act 1",
-  "order": 51,
+  "order": 50,
   "lines": [
    {
     "line_id": "E01-L060",
@@ -2423,7 +2389,7 @@
   "id": "E01-S03-001",
   "scene": "3",
   "act": "Act 1",
-  "order": 52,
+  "order": 51,
   "lines": [
    {
     "line_id": "E01-L062",
@@ -2487,7 +2453,7 @@
   "id": "E01-S03-002",
   "scene": "3",
   "act": "Act 1",
-  "order": 53,
+  "order": 52,
   "lines": [
    {
     "line_id": "E01-L063",
@@ -2539,7 +2505,7 @@
   "id": "E01-S03-003",
   "scene": "3",
   "act": "Act 1",
-  "order": 54,
+  "order": 53,
   "lines": [
    {
     "line_id": "E01-L065",
@@ -2589,7 +2555,7 @@
   "id": "E01-S03-004",
   "scene": "3",
   "act": "Act 1",
-  "order": 55,
+  "order": 54,
   "lines": [
    {
     "line_id": "E01-L066",
@@ -2669,7 +2635,7 @@
   "id": "E01-S03-005",
   "scene": "3",
   "act": "Act 1",
-  "order": 56,
+  "order": 55,
   "lines": [
    {
     "line_id": "E01-L070",
@@ -2722,7 +2688,7 @@
   "id": "E01-S03-006",
   "scene": "3",
   "act": "Act 1",
-  "order": 57,
+  "order": 56,
   "lines": [
    {
     "line_id": "E01-L072",
@@ -2775,7 +2741,7 @@
   "id": "E01-S03-007",
   "scene": "3",
   "act": "Act 1",
-  "order": 58,
+  "order": 57,
   "lines": [
    {
     "line_id": "E01-L074",
@@ -2836,7 +2802,7 @@
   "id": "E01-S03-008",
   "scene": "3",
   "act": "Act 1",
-  "order": 59,
+  "order": 58,
   "lines": [
    {
     "line_id": "E01-L077",
@@ -2889,7 +2855,7 @@
   "id": "E01-S03-009",
   "scene": "3",
   "act": "Act 1",
-  "order": 60,
+  "order": 59,
   "lines": [
    {
     "line_id": "E01-L080",
@@ -2922,7 +2888,7 @@
   "id": "E01-S03-010",
   "scene": "3",
   "act": "Act 1",
-  "order": 61,
+  "order": 60,
   "lines": [
    {
     "line_id": "E01-L081",
@@ -2981,7 +2947,7 @@
   "id": "E01-S03-011",
   "scene": "3",
   "act": "Act 1",
-  "order": 62,
+  "order": 61,
   "lines": [],
   "duration_s": 2.4,
   "type": "CHARACTER_STILL",
@@ -3021,7 +2987,7 @@
   "id": "E01-S03-012",
   "scene": "3",
   "act": "Act 1",
-  "order": 63,
+  "order": 62,
   "lines": [
    {
     "line_id": "E01-L083",
@@ -3074,7 +3040,7 @@
   "id": "E01-S03-013",
   "scene": "3",
   "act": "Act 1",
-  "order": 64,
+  "order": 63,
   "lines": [],
   "duration_s": 1.0,
   "type": "INSERT",
@@ -3114,7 +3080,7 @@
   "id": "E01-S03-014",
   "scene": "3",
   "act": "Act 1",
-  "order": 65,
+  "order": 64,
   "lines": [
    {
     "line_id": "E01-L086",
@@ -3167,7 +3133,7 @@
   "id": "E01-S03-015",
   "scene": "3",
   "act": "Act 1",
-  "order": 66,
+  "order": 65,
   "lines": [
    {
     "line_id": "E01-L088",
@@ -3216,7 +3182,7 @@
   "id": "E01-S04-001",
   "scene": "4",
   "act": "Act 1",
-  "order": 67,
+  "order": 66,
   "lines": [
    {
     "line_id": "E01-L090",
@@ -3249,7 +3215,7 @@
   "id": "E01-S04-002",
   "scene": "4",
   "act": "Act 1",
-  "order": 68,
+  "order": 67,
   "lines": [],
   "duration_s": 1.5,
   "type": "INSERT",
@@ -3289,7 +3255,7 @@
   "id": "E01-S04-003",
   "scene": "4",
   "act": "Act 1",
-  "order": 69,
+  "order": 68,
   "lines": [
    {
     "line_id": "E01-L091",
@@ -3326,7 +3292,7 @@
   "id": "E01-S04-004",
   "scene": "4",
   "act": "Act 1",
-  "order": 70,
+  "order": 69,
   "lines": [
    {
     "line_id": "E01-L092",
@@ -3370,7 +3336,7 @@
   "id": "E01-S04-005",
   "scene": "4",
   "act": "Act 1",
-  "order": 71,
+  "order": 70,
   "lines": [
    {
     "line_id": "E01-L093",
@@ -3420,7 +3386,7 @@
   "id": "E01-S04-006",
   "scene": "4",
   "act": "Act 1",
-  "order": 72,
+  "order": 71,
   "lines": [
    {
     "line_id": "E01-L094",
@@ -3472,7 +3438,7 @@
   "id": "E01-S04-007",
   "scene": "4",
   "act": "Act 1",
-  "order": 73,
+  "order": 72,
   "lines": [
    {
     "line_id": "E01-L096",
@@ -3514,7 +3480,7 @@
   "id": "E01-S04-008",
   "scene": "4",
   "act": "Act 1",
-  "order": 74,
+  "order": 73,
   "lines": [
    {
     "line_id": "E01-L097",
@@ -3551,7 +3517,7 @@
   "id": "E01-S05-001",
   "scene": "5",
   "act": "Act 1",
-  "order": 75,
+  "order": 74,
   "lines": [
    {
     "line_id": "E01-L099",
@@ -3600,7 +3566,7 @@
   "id": "E01-S05-002",
   "scene": "5",
   "act": "Act 1",
-  "order": 76,
+  "order": 75,
   "lines": [
    {
     "line_id": "E01-L100",
@@ -3657,7 +3623,7 @@
   "id": "E01-S05-003",
   "scene": "5",
   "act": "Act 1",
-  "order": 77,
+  "order": 76,
   "lines": [
    {
     "line_id": "E01-L102",
@@ -3701,7 +3667,7 @@
   "id": "E01-S05-004",
   "scene": "5",
   "act": "Act 1",
-  "order": 78,
+  "order": 77,
   "lines": [
    {
     "line_id": "E01-L104",
@@ -3765,7 +3731,7 @@
   "id": "E01-S05-005",
   "scene": "5",
   "act": "Act 1",
-  "order": 79,
+  "order": 78,
   "lines": [
    {
     "line_id": "E01-L106",
@@ -3815,7 +3781,7 @@
   "id": "E01-S05-006",
   "scene": "5",
   "act": "Act 1",
-  "order": 80,
+  "order": 79,
   "lines": [
    {
     "line_id": "E01-L106",
@@ -3865,7 +3831,7 @@
   "id": "E01-S05-007",
   "scene": "5",
   "act": "Act 1",
-  "order": 81,
+  "order": 80,
   "lines": [
    {
     "line_id": "E01-L108",
@@ -3916,7 +3882,7 @@
   "id": "E01-S05-008",
   "scene": "5",
   "act": "Act 1",
-  "order": 82,
+  "order": 81,
   "lines": [
    {
     "line_id": "E01-L109",
@@ -3957,7 +3923,7 @@
   "id": "E01-S05-009",
   "scene": "5",
   "act": "Act 1",
-  "order": 83,
+  "order": 82,
   "lines": [
    {
     "line_id": "E01-L110",
@@ -3993,7 +3959,7 @@
   "id": "E01-S05-010",
   "scene": "5",
   "act": "Act 1",
-  "order": 84,
+  "order": 83,
   "lines": [],
   "duration_s": 2.0,
   "type": "SET_STILL",
@@ -4033,7 +3999,7 @@
   "id": "E01-S05-011",
   "scene": "5",
   "act": "Act 1",
-  "order": 85,
+  "order": 84,
   "lines": [
    {
     "line_id": "E01-L112",
@@ -4101,7 +4067,7 @@
   "id": "E01-S06-001",
   "scene": "6",
   "act": "Act 1",
-  "order": 86,
+  "order": 85,
   "lines": [],
   "duration_s": 3.2,
   "type": "SET_STILL",
@@ -4142,7 +4108,7 @@
   "id": "E01-S06-002",
   "scene": "6",
   "act": "Act 1",
-  "order": 87,
+  "order": 86,
   "lines": [
    {
     "line_id": "E01-L118",
@@ -4214,7 +4180,7 @@
   "id": "E01-S06-003",
   "scene": "6",
   "act": "Act 1",
-  "order": 88,
+  "order": 87,
   "lines": [
    {
     "line_id": "E01-L121",
@@ -4263,7 +4229,7 @@
   "id": "E01-S06-004",
   "scene": "6",
   "act": "Act 1",
-  "order": 89,
+  "order": 88,
   "lines": [
    {
     "line_id": "E01-L122",
@@ -4327,7 +4293,7 @@
   "id": "E01-S06-005",
   "scene": "6",
   "act": "Act 1",
-  "order": 90,
+  "order": 89,
   "lines": [
    {
     "line_id": "E01-L124",
@@ -4376,7 +4342,7 @@
   "id": "E01-S06-006",
   "scene": "6",
   "act": "Act 1",
-  "order": 91,
+  "order": 90,
   "lines": [
    {
     "line_id": "E01-L125",
@@ -4425,7 +4391,7 @@
   "id": "E01-S06-007",
   "scene": "6",
   "act": "Act 1",
-  "order": 92,
+  "order": 91,
   "lines": [
    {
     "line_id": "E01-L126",
@@ -4473,7 +4439,7 @@
   "id": "E01-S06-008",
   "scene": "6",
   "act": "Act 1",
-  "order": 93,
+  "order": 92,
   "lines": [
    {
     "line_id": "E01-L127",
@@ -4524,7 +4490,7 @@
   "id": "E01-S06-009",
   "scene": "6",
   "act": "Act 1",
-  "order": 94,
+  "order": 93,
   "lines": [
    {
     "line_id": "E01-L128",
@@ -4568,7 +4534,7 @@
   "id": "E01-S06-010",
   "scene": "6",
   "act": "Act 1",
-  "order": 95,
+  "order": 94,
   "lines": [
    {
     "line_id": "E01-L129",
@@ -4610,7 +4576,7 @@
   "id": "E01-S06-011",
   "scene": "6",
   "act": "Act 1",
-  "order": 96,
+  "order": 95,
   "lines": [
    {
     "line_id": "E01-L130",
@@ -4653,7 +4619,7 @@
   "id": "E01-S06-012",
   "scene": "6",
   "act": "Act 1",
-  "order": 97,
+  "order": 96,
   "lines": [
    {
     "line_id": "E01-L131",
@@ -4705,7 +4671,7 @@
   "id": "E01-S06-013",
   "scene": "6",
   "act": "Act 1",
-  "order": 98,
+  "order": 97,
   "lines": [
    {
     "line_id": "E01-L133",
@@ -4755,7 +4721,7 @@
   "id": "E01-S06-014",
   "scene": "6",
   "act": "Act 1",
-  "order": 99,
+  "order": 98,
   "lines": [
    {
     "line_id": "E01-L135",
@@ -4798,7 +4764,7 @@
   "id": "E01-S06-015",
   "scene": "6",
   "act": "Act 1",
-  "order": 100,
+  "order": 99,
   "lines": [
    {
     "line_id": "E01-L136",
@@ -4846,7 +4812,7 @@
   "id": "E01-S06-016",
   "scene": "6",
   "act": "Act 1",
-  "order": 101,
+  "order": 100,
   "lines": [
    {
     "line_id": "E01-L137",
@@ -4890,7 +4856,7 @@
   "id": "E01-S06-017",
   "scene": "6",
   "act": "Act 1",
-  "order": 102,
+  "order": 101,
   "lines": [
    {
     "line_id": "E01-L138",
@@ -4933,7 +4899,7 @@
   "id": "E01-S06-018",
   "scene": "6",
   "act": "Act 1",
-  "order": 103,
+  "order": 102,
   "lines": [
    {
     "line_id": "E01-L139",
@@ -4975,7 +4941,7 @@
   "id": "E01-S06-019",
   "scene": "6",
   "act": "Act 1",
-  "order": 104,
+  "order": 103,
   "lines": [
    {
     "line_id": "E01-L140",
@@ -5033,7 +4999,7 @@
   "id": "E01-S06-020",
   "scene": "6",
   "act": "Act 1",
-  "order": 105,
+  "order": 104,
   "lines": [],
   "duration_s": 2.6,
   "type": "INSERT",
@@ -5066,7 +5032,7 @@
   "id": "E01-S06-021",
   "scene": "6",
   "act": "Act 1",
-  "order": 106,
+  "order": 105,
   "lines": [],
   "duration_s": 1.4,
   "type": "INSERT",
@@ -5094,7 +5060,7 @@
   "id": "E01-S06-022",
   "scene": "6",
   "act": "Act 1",
-  "order": 107,
+  "order": 106,
   "lines": [],
   "duration_s": 2.0,
   "type": "INSERT",
@@ -5126,7 +5092,7 @@
   "id": "E01-S06-023",
   "scene": "6",
   "act": "Act 1",
-  "order": 108,
+  "order": 107,
   "lines": [],
   "duration_s": 2.4,
   "type": "TWO_SHOT",
@@ -5172,7 +5138,7 @@
   "id": "E01-S06-024",
   "scene": "6",
   "act": "Act 1",
-  "order": 109,
+  "order": 108,
   "lines": [
    {
     "line_id": "E01-L143",
@@ -5217,7 +5183,7 @@
   "id": "E01-S06-025",
   "scene": "6",
   "act": "Act 1",
-  "order": 110,
+  "order": 109,
   "lines": [
    {
     "line_id": "E01-L144",
@@ -5254,7 +5220,7 @@
   "id": "E01-S06-026",
   "scene": "6",
   "act": "Act 1",
-  "order": 111,
+  "order": 110,
   "lines": [
    {
     "line_id": "E01-L145",
@@ -5297,7 +5263,7 @@
   "id": "E01-S06-027",
   "scene": "6",
   "act": "Act 1",
-  "order": 112,
+  "order": 111,
   "lines": [
    {
     "line_id": "E01-L146",
@@ -5334,7 +5300,7 @@
   "id": "E01-S06-028",
   "scene": "6",
   "act": "Act 1",
-  "order": 113,
+  "order": 112,
   "lines": [
    {
     "line_id": "E01-L146",
@@ -5386,7 +5352,7 @@
   "id": "E01-S06-029",
   "scene": "6",
   "act": "Act 1",
-  "order": 114,
+  "order": 113,
   "lines": [
    {
     "line_id": "E01-L148",
@@ -5437,7 +5403,7 @@
   "id": "E01-S06-030",
   "scene": "6",
   "act": "Act 1",
-  "order": 115,
+  "order": 114,
   "lines": [
    {
     "line_id": "E01-L149",
@@ -5482,7 +5448,7 @@
   "id": "E01-S07-001",
   "scene": "7",
   "act": "Act 1",
-  "order": 116,
+  "order": 115,
   "lines": [
    {
     "line_id": "E01-L151",
@@ -5553,7 +5519,7 @@
   "id": "E01-S07-002",
   "scene": "7",
   "act": "Act 1",
-  "order": 117,
+  "order": 116,
   "lines": [
    {
     "line_id": "E01-L152",
@@ -5602,7 +5568,7 @@
   "id": "E01-S07-003",
   "scene": "7",
   "act": "Act 1",
-  "order": 118,
+  "order": 117,
   "lines": [
    {
     "line_id": "E01-L153",
@@ -5635,7 +5601,7 @@
   "id": "E01-S07-004",
   "scene": "7",
   "act": "Act 1",
-  "order": 119,
+  "order": 118,
   "lines": [
    {
     "line_id": "E01-L153",
@@ -5688,7 +5654,7 @@
   "id": "E01-S07-005",
   "scene": "7",
   "act": "Act 1",
-  "order": 120,
+  "order": 119,
   "lines": [
    {
     "line_id": "E01-L155",
@@ -5732,7 +5698,7 @@
   "id": "E01-S07-006",
   "scene": "7",
   "act": "Act 1",
-  "order": 121,
+  "order": 120,
   "lines": [
    {
     "line_id": "E01-L156",
@@ -5781,7 +5747,7 @@
   "id": "E01-S07-007",
   "scene": "7",
   "act": "Act 1",
-  "order": 122,
+  "order": 121,
   "lines": [
    {
     "line_id": "E01-L157",
@@ -5825,7 +5791,7 @@
   "id": "E01-S07-008",
   "scene": "7",
   "act": "Act 1",
-  "order": 123,
+  "order": 122,
   "lines": [
    {
     "line_id": "E01-L158",
@@ -5882,7 +5848,7 @@
   "id": "E01-S07-009",
   "scene": "7",
   "act": "Act 1",
-  "order": 124,
+  "order": 123,
   "lines": [
    {
     "line_id": "E01-L160",
@@ -5934,7 +5900,7 @@
   "id": "E01-S07-010",
   "scene": "7",
   "act": "Act 1",
-  "order": 125,
+  "order": 124,
   "lines": [
    {
     "line_id": "E01-L162",
@@ -5979,7 +5945,7 @@
   "id": "E01-S07-011",
   "scene": "7",
   "act": "Act 1",
-  "order": 126,
+  "order": 125,
   "lines": [
    {
     "line_id": "E01-L163",
@@ -6028,7 +5994,7 @@
   "id": "E01-S07-012",
   "scene": "7",
   "act": "Act 1",
-  "order": 127,
+  "order": 126,
   "lines": [
    {
     "line_id": "E01-L164",
@@ -6072,7 +6038,7 @@
   "id": "E01-S07-013",
   "scene": "7",
   "act": "Act 1",
-  "order": 128,
+  "order": 127,
   "lines": [
    {
     "line_id": "E01-L165",
@@ -6116,7 +6082,7 @@
   "id": "E01-S07-014",
   "scene": "7",
   "act": "Act 1",
-  "order": 129,
+  "order": 128,
   "lines": [],
   "duration_s": 1.0,
   "type": "CHARACTER_STILL",
@@ -6151,7 +6117,7 @@
   "id": "E01-S07-015",
   "scene": "7",
   "act": "Act 1",
-  "order": 130,
+  "order": 129,
   "lines": [],
   "duration_s": 1.0,
   "type": "INSERT",
@@ -6186,7 +6152,7 @@
   "id": "E01-S07-016",
   "scene": "7",
   "act": "Act 1",
-  "order": 131,
+  "order": 130,
   "lines": [
    {
     "line_id": "E01-L166",
@@ -6237,7 +6203,7 @@
   "id": "E01-S07-017",
   "scene": "7",
   "act": "Act 1",
-  "order": 132,
+  "order": 131,
   "lines": [
    {
     "line_id": "E01-L167",
@@ -6281,7 +6247,7 @@
   "id": "E01-S07-018",
   "scene": "7",
   "act": "Act 1",
-  "order": 133,
+  "order": 132,
   "lines": [
    {
     "line_id": "E01-L168",
@@ -6340,7 +6306,7 @@
   "id": "E01-S08-001",
   "scene": "8",
   "act": "Act 2",
-  "order": 134,
+  "order": 133,
   "lines": [
    {
     "line_id": "E01-L172",
@@ -6388,7 +6354,7 @@
   "id": "E01-S08-002",
   "scene": "8",
   "act": "Act 2",
-  "order": 135,
+  "order": 134,
   "lines": [
    {
     "line_id": "E01-L172",
@@ -6429,7 +6395,7 @@
   "id": "E01-S08-003",
   "scene": "8",
   "act": "Act 2",
-  "order": 136,
+  "order": 135,
   "lines": [
    {
     "line_id": "E01-L173",
@@ -6514,7 +6480,7 @@
   "id": "E01-S08-004",
   "scene": "8",
   "act": "Act 2",
-  "order": 137,
+  "order": 136,
   "lines": [
    {
     "line_id": "E01-L176",
@@ -6571,7 +6537,7 @@
   "id": "E01-S08-005",
   "scene": "8",
   "act": "Act 2",
-  "order": 138,
+  "order": 137,
   "lines": [
    {
     "line_id": "E01-L178",
@@ -6613,7 +6579,7 @@
   "id": "E01-S08-006",
   "scene": "8",
   "act": "Act 2",
-  "order": 139,
+  "order": 138,
   "lines": [
    {
     "line_id": "E01-L179",
@@ -6685,7 +6651,7 @@
   "id": "E01-S08-007",
   "scene": "8",
   "act": "Act 2",
-  "order": 140,
+  "order": 139,
   "lines": [],
   "duration_s": 1.4,
   "type": "INSERT",
@@ -6713,7 +6679,7 @@
   "id": "E01-S08-008",
   "scene": "8",
   "act": "Act 2",
-  "order": 141,
+  "order": 140,
   "lines": [
    {
     "line_id": "E01-L181",
@@ -6789,7 +6755,7 @@
   "id": "E01-S08-009",
   "scene": "8",
   "act": "Act 2",
-  "order": 142,
+  "order": 141,
   "lines": [
    {
     "line_id": "E01-L185",
@@ -6846,7 +6812,7 @@
   "id": "E01-S08-010",
   "scene": "8",
   "act": "Act 2",
-  "order": 143,
+  "order": 142,
   "lines": [
    {
     "line_id": "E01-L187",
@@ -6892,7 +6858,7 @@
   "id": "E01-S08-011",
   "scene": "8",
   "act": "Act 2",
-  "order": 144,
+  "order": 143,
   "lines": [
    {
     "line_id": "E01-L188",
@@ -6947,7 +6913,7 @@
   "id": "E01-S09-001",
   "scene": "9",
   "act": "Act 2",
-  "order": 145,
+  "order": 144,
   "lines": [
    {
     "line_id": "E01-L190",
@@ -7002,7 +6968,7 @@
   "id": "E01-S09-002",
   "scene": "9",
   "act": "Act 2",
-  "order": 146,
+  "order": 145,
   "lines": [],
   "duration_s": 3.0,
   "type": "SET_STILL",
@@ -7028,7 +6994,7 @@
   "id": "E01-S09-003",
   "scene": "9",
   "act": "Act 2",
-  "order": 147,
+  "order": 146,
   "lines": [],
   "duration_s": 1.4,
   "type": "SET_STILL",
@@ -7089,7 +7055,7 @@
   "id": "E01-S09-004",
   "scene": "9",
   "act": "Act 2",
-  "order": 148,
+  "order": 147,
   "lines": [],
   "duration_s": 2.4,
   "type": "INSERT",
@@ -7121,7 +7087,7 @@
   "id": "E01-S09-005",
   "scene": "9",
   "act": "Act 2",
-  "order": 149,
+  "order": 148,
   "lines": [
    {
     "line_id": "E01-L192",
@@ -7194,7 +7160,7 @@
   "id": "E01-S10-001",
   "scene": "10",
   "act": "Act 2",
-  "order": 150,
+  "order": 149,
   "lines": [
    {
     "line_id": "E01-L195",
@@ -7257,7 +7223,7 @@
   "id": "E01-S10-002",
   "scene": "10",
   "act": "Act 2",
-  "order": 151,
+  "order": 150,
   "lines": [
    {
     "line_id": "E01-L196",
@@ -7274,13 +7240,21 @@
     "text": "He was lonely.",
     "part": null,
     "seconds": 1.62
+   },
+   {
+    "line_id": "E01-L198",
+    "speaker": "LUCÍA",
+    "tags": "patting the bear",
+    "text": "Hello, lonely.",
+    "part": null,
+    "seconds": 0.89
    }
   ],
-  "duration_s": 3.7,
+  "duration_s": 5.2,
   "type": "INSERT",
-  "description": "There's another bear.",
-  "camera": "hold",
-  "motion": "none",
+  "description": "There's another bear. Lucía's hand comes in and pats its head: 'Hello, lonely.'",
+  "camera": "push-in 4%",
+  "motion": "hand enters (cut-out from the ribbon-hand still)",
   "characters": [],
   "needs_mouth_patch": false,
   "image_source": "NEW image job E01-J062",
@@ -7306,43 +7280,7 @@
   "id": "E01-S10-003",
   "scene": "10",
   "act": "Act 2",
-  "order": 152,
-  "lines": [
-   {
-    "line_id": "E01-L198",
-    "speaker": "LUCÍA",
-    "tags": "patting the bear",
-    "text": "Hello, lonely.",
-    "part": null,
-    "seconds": 0.89
-   }
-  ],
-  "duration_s": 1.7,
-  "type": "INSERT",
-  "description": "Lucía pats it: 'Hello, lonely.'",
-  "camera": "hold",
-  "motion": "pat (2-frame)",
-  "characters": [],
-  "needs_mouth_patch": false,
-  "image_source": "REUSE of E01-J062 (new crop/move/grade)",
-  "library_assets": [
-   "assets/sets/hatchet/parlour.jpg",
-   "$SU_WORK/E01/stills/e01-j062_bear_two.png (from E01-J062)"
-  ],
-  "real_footage": "none",
-  "new_image_job": null,
-  "compositing": "Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). Any text, numbers or tags added in code.",
-  "sound": "Parlour tone; stove.",
-  "risk": {
-   "level": "low",
-   "reason": "library reuse, no faces speaking"
-  }
- },
- {
-  "id": "E01-S10-004",
-  "scene": "10",
-  "act": "Act 2",
-  "order": 153,
+  "order": 151,
   "lines": [
    {
     "line_id": "E01-L199",
@@ -7396,10 +7334,10 @@
   }
  },
  {
-  "id": "E01-S10-005",
+  "id": "E01-S10-004",
   "scene": "10",
   "act": "Act 2",
-  "order": 154,
+  "order": 152,
   "lines": [
    {
     "line_id": "E01-L201",
@@ -7445,10 +7383,10 @@
   }
  },
  {
-  "id": "E01-S10-006",
+  "id": "E01-S10-005",
   "scene": "10",
   "act": "Act 2",
-  "order": 155,
+  "order": 153,
   "lines": [
    {
     "line_id": "E01-L202",
@@ -7486,10 +7424,10 @@
   }
  },
  {
-  "id": "E01-S10-007",
+  "id": "E01-S10-006",
   "scene": "10",
   "act": "Act 2",
-  "order": 156,
+  "order": 154,
   "lines": [
    {
     "line_id": "E01-L203",
@@ -7542,10 +7480,10 @@
   }
  },
  {
-  "id": "E01-S10-008",
+  "id": "E01-S10-007",
   "scene": "10",
   "act": "Act 2",
-  "order": 157,
+  "order": 155,
   "lines": [],
   "duration_s": 1.0,
   "type": "INSERT",
@@ -7575,10 +7513,10 @@
   }
  },
  {
-  "id": "E01-S10-009",
+  "id": "E01-S10-008",
   "scene": "10",
   "act": "Act 2",
-  "order": 158,
+  "order": 156,
   "lines": [
    {
     "line_id": "E01-L205",
@@ -7587,13 +7525,29 @@
     "text": "It prefers her.",
     "part": null,
     "seconds": 1.6
+   },
+   {
+    "line_id": "E01-L206",
+    "speaker": "LUCÍA",
+    "tags": "",
+    "text": "Pilot was blocked.",
+    "part": null,
+    "seconds": 1.06
+   },
+   {
+    "line_id": "E01-L207",
+    "speaker": "BARON",
+    "tags": "",
+    "text": "Of course it was.",
+    "part": null,
+    "seconds": 1.79
    }
   ],
-  "duration_s": 2.8,
+  "duration_s": 6.6,
   "type": "CHARACTER_STILL",
-  "description": "A beat. 'It prefers her.'",
-  "camera": "hold",
-  "motion": "brow lift",
+  "description": "A beat. 'It prefers her.' 'Pilot was blocked.' 'Of course it was.'",
+  "camera": "very slow push-in 3%",
+  "motion": "brow lift on 'Of course'",
   "characters": [
    {
     "id": "baron",
@@ -7623,90 +7577,10 @@
   }
  },
  {
-  "id": "E01-S10-010",
+  "id": "E01-S10-009",
   "scene": "10",
   "act": "Act 2",
-  "order": 159,
-  "lines": [
-   {
-    "line_id": "E01-L206",
-    "speaker": "LUCÍA",
-    "tags": "",
-    "text": "Pilot was blocked.",
-    "part": null,
-    "seconds": 1.06
-   }
-  ],
-  "duration_s": 1.7,
-  "type": "INSERT",
-  "description": "The spanner.",
-  "camera": "hold",
-  "motion": "flame flicker",
-  "characters": [],
-  "needs_mouth_patch": false,
-  "image_source": "REUSE of E01-J067 (new crop/move/grade)",
-  "library_assets": [
-   "assets/sets/hatchet/parlour.jpg",
-   "assets/characters/lucia/master.jpg",
-   "$SU_WORK/E01/stills/e01-j067_stove_blue_flame.png (from E01-J067)"
-  ],
-  "real_footage": "none",
-  "new_image_job": null,
-  "compositing": "Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). Any text, numbers or tags added in code.",
-  "sound": "Parlour tone; stove.",
-  "risk": {
-   "level": "low",
-   "reason": "library reuse, no faces speaking"
-  }
- },
- {
-  "id": "E01-S10-011",
-  "scene": "10",
-  "act": "Act 2",
-  "order": 160,
-  "lines": [
-   {
-    "line_id": "E01-L207",
-    "speaker": "BARON",
-    "tags": "",
-    "text": "Of course it was.",
-    "part": null,
-    "seconds": 1.79
-   }
-  ],
-  "duration_s": 2.4,
-  "type": "CHARACTER_STILL",
-  "description": "'Of course it was.'",
-  "camera": "hold",
-  "motion": "none",
-  "characters": [
-   {
-    "id": "baron",
-    "mouth_visible": false,
-    "speaking_in_shot": true,
-    "needs_mouth_patch": false
-   }
-  ],
-  "needs_mouth_patch": false,
-  "image_source": "REUSE of E01-J068 (new crop/move/grade)",
-  "library_assets": [
-   "assets/characters/baron/master.jpg",
-   "$SU_WORK/E01/stills/e01-j068_baron_ecu_stove_light.png (from E01-J068)"
-  ],
-  "real_footage": "none",
-  "new_image_job": null,
-  "compositing": "Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). Any text, numbers or tags added in code. Baron coat and moustache saturation 87% (hue-selective matte; never younger).",
-  "sound": "Parlour tone; stove.",
-  "risk": {
-   "level": "low",
-   "reason": "library reuse, no faces speaking"
-  }
- },
- {
-  "id": "E01-S10-012",
-  "scene": "10",
-  "act": "Act 2",
-  "order": 161,
+  "order": 157,
   "lines": [],
   "duration_s": 1.4,
   "type": "CHARACTER_STILL",
@@ -7743,10 +7617,10 @@
   }
  },
  {
-  "id": "E01-S10-013",
+  "id": "E01-S10-010",
   "scene": "10",
   "act": "Act 2",
-  "order": 162,
+  "order": 158,
   "lines": [],
   "duration_s": 1.4,
   "type": "CHARACTER_STILL",
@@ -7781,7 +7655,7 @@
   "id": "E01-S11-001",
   "scene": "11",
   "act": "Act 2",
-  "order": 163,
+  "order": 159,
   "lines": [
    {
     "line_id": "E01-L209",
@@ -7831,7 +7705,7 @@
   "id": "E01-S11-002",
   "scene": "11",
   "act": "Act 2",
-  "order": 164,
+  "order": 160,
   "lines": [
    {
     "line_id": "E01-L211",
@@ -7880,7 +7754,7 @@
   "id": "E01-S11-003",
   "scene": "11",
   "act": "Act 2",
-  "order": 165,
+  "order": 161,
   "lines": [],
   "duration_s": 3.0,
   "type": "INSERT",
@@ -7908,7 +7782,7 @@
   "id": "E01-S11-004",
   "scene": "11",
   "act": "Act 2",
-  "order": 166,
+  "order": 162,
   "lines": [
    {
     "line_id": "E01-L214",
@@ -7945,7 +7819,7 @@
   "id": "E01-S11-005",
   "scene": "11",
   "act": "Act 2",
-  "order": 167,
+  "order": 163,
   "lines": [
    {
     "line_id": "E01-L215",
@@ -7996,7 +7870,7 @@
   "id": "E01-S11-006",
   "scene": "11",
   "act": "Act 2",
-  "order": 168,
+  "order": 164,
   "lines": [
    {
     "line_id": "E01-L217",
@@ -8040,7 +7914,7 @@
   "id": "E01-S11-007",
   "scene": "11",
   "act": "Act 2",
-  "order": 169,
+  "order": 165,
   "lines": [
    {
     "line_id": "E01-L217",
@@ -8098,7 +7972,7 @@
   "id": "E01-S11-008",
   "scene": "11",
   "act": "Act 2",
-  "order": 170,
+  "order": 166,
   "lines": [
    {
     "line_id": "E01-L218",
@@ -8141,7 +8015,7 @@
   "id": "E01-S12-001",
   "scene": "12",
   "act": "Act 2",
-  "order": 171,
+  "order": 167,
   "lines": [
    {
     "line_id": "E01-L220",
@@ -8183,7 +8057,7 @@
   "id": "E01-S12-002",
   "scene": "12",
   "act": "Act 2",
-  "order": 172,
+  "order": 168,
   "lines": [
    {
     "line_id": "E01-L221",
@@ -8255,7 +8129,7 @@
   "id": "E01-S12-003",
   "scene": "12",
   "act": "Act 2",
-  "order": 173,
+  "order": 169,
   "lines": [
    {
     "line_id": "E01-L224",
@@ -8308,7 +8182,7 @@
   "id": "E01-S12-004",
   "scene": "12",
   "act": "Act 2",
-  "order": 174,
+  "order": 170,
   "lines": [
    {
     "line_id": "E01-L226",
@@ -8350,7 +8224,7 @@
   "id": "E01-S12-005",
   "scene": "12",
   "act": "Act 2",
-  "order": 175,
+  "order": 171,
   "lines": [
    {
     "line_id": "E01-L227",
@@ -8409,7 +8283,7 @@
   "id": "E01-S12-006",
   "scene": "12",
   "act": "Act 2",
-  "order": 176,
+  "order": 172,
   "lines": [
    {
     "line_id": "E01-L229",
@@ -8454,7 +8328,7 @@
   "id": "E01-S12-007",
   "scene": "12",
   "act": "Act 2",
-  "order": 177,
+  "order": 173,
   "lines": [
    {
     "line_id": "E01-L230",
@@ -8499,7 +8373,7 @@
   "id": "E01-S13-001",
   "scene": "13",
   "act": "Act 2",
-  "order": 178,
+  "order": 174,
   "lines": [],
   "duration_s": 2.0,
   "type": "INSERT",
@@ -8532,7 +8406,7 @@
   "id": "E01-S13-002",
   "scene": "13",
   "act": "Act 2",
-  "order": 179,
+  "order": 175,
   "lines": [
    {
     "line_id": "E01-L233",
@@ -8573,7 +8447,7 @@
   "id": "E01-S13-003",
   "scene": "13",
   "act": "Act 2",
-  "order": 180,
+  "order": 176,
   "lines": [
    {
     "line_id": "E01-L234",
@@ -8626,7 +8500,7 @@
   "id": "E01-S13-004",
   "scene": "13",
   "act": "Act 2",
-  "order": 181,
+  "order": 177,
   "lines": [
    {
     "line_id": "E01-L237",
@@ -8667,7 +8541,7 @@
   "id": "E01-S13-005",
   "scene": "13",
   "act": "Act 2",
-  "order": 182,
+  "order": 178,
   "lines": [
    {
     "line_id": "E01-L238",
@@ -8704,7 +8578,7 @@
   "id": "E01-S13-006",
   "scene": "13",
   "act": "Act 2",
-  "order": 183,
+  "order": 179,
   "lines": [
    {
     "line_id": "E01-L239",
@@ -8756,7 +8630,7 @@
   "id": "E01-S13-007",
   "scene": "13",
   "act": "Act 2",
-  "order": 184,
+  "order": 180,
   "lines": [],
   "duration_s": 1.0,
   "type": "INSERT",
@@ -8782,7 +8656,7 @@
   "id": "E01-S13-008",
   "scene": "13",
   "act": "Act 2",
-  "order": 185,
+  "order": 181,
   "lines": [
    {
     "line_id": "E01-L243",
@@ -8824,7 +8698,7 @@
   "id": "E01-S13-009",
   "scene": "13",
   "act": "Act 2",
-  "order": 186,
+  "order": 182,
   "lines": [
    {
     "line_id": "E01-L243",
@@ -8861,7 +8735,7 @@
   "id": "E01-S13-010",
   "scene": "13",
   "act": "Act 2",
-  "order": 187,
+  "order": 183,
   "lines": [
    {
     "line_id": "E01-L244",
@@ -8906,7 +8780,7 @@
   "id": "E01-S13-011",
   "scene": "13",
   "act": "Act 2",
-  "order": 188,
+  "order": 184,
   "lines": [],
   "duration_s": 2.0,
   "type": "CHARACTER_STILL",
@@ -8940,7 +8814,7 @@
   "id": "E01-S13-012",
   "scene": "13",
   "act": "Act 2",
-  "order": 189,
+  "order": 185,
   "lines": [],
   "duration_s": 2.4,
   "type": "INSERT",
@@ -8968,7 +8842,7 @@
   "id": "E01-S14-001",
   "scene": "14",
   "act": "Act 2",
-  "order": 190,
+  "order": 186,
   "lines": [
    {
     "line_id": "E01-L247",
@@ -9017,7 +8891,7 @@
   "id": "E01-S14-002",
   "scene": "14",
   "act": "Act 2",
-  "order": 191,
+  "order": 187,
   "lines": [
    {
     "line_id": "E01-L249",
@@ -9060,7 +8934,7 @@
   "id": "E01-S14-003",
   "scene": "14",
   "act": "Act 2",
-  "order": 192,
+  "order": 188,
   "lines": [
    {
     "line_id": "E01-L250",
@@ -9104,7 +8978,7 @@
   "id": "E01-S14-004",
   "scene": "14",
   "act": "Act 2",
-  "order": 193,
+  "order": 189,
   "lines": [
    {
     "line_id": "E01-L251",
@@ -9153,7 +9027,7 @@
   "id": "E01-S14-005",
   "scene": "14",
   "act": "Act 2",
-  "order": 194,
+  "order": 190,
   "lines": [],
   "duration_s": 1.8,
   "type": "CHARACTER_STILL",
@@ -9188,7 +9062,7 @@
   "id": "E01-S14-006",
   "scene": "14",
   "act": "Act 2",
-  "order": 195,
+  "order": 191,
   "lines": [],
   "duration_s": 9.0,
   "type": "SET_STILL",
@@ -9228,7 +9102,7 @@
   "id": "E01-S14-007",
   "scene": "14",
   "act": "Act 2",
-  "order": 196,
+  "order": 192,
   "lines": [
    {
     "line_id": "E01-L253",
@@ -9271,7 +9145,7 @@
   "id": "E01-S14-008",
   "scene": "14",
   "act": "Act 2",
-  "order": 197,
+  "order": 193,
   "lines": [
    {
     "line_id": "E01-L254",
@@ -9320,7 +9194,7 @@
   "id": "E01-S14-009",
   "scene": "14",
   "act": "Act 2",
-  "order": 198,
+  "order": 194,
   "lines": [
    {
     "line_id": "E01-L255",
@@ -9356,7 +9230,7 @@
   "id": "E01-S14-010",
   "scene": "14",
   "act": "Act 2",
-  "order": 199,
+  "order": 195,
   "lines": [
    {
     "line_id": "E01-L256",
@@ -9399,7 +9273,7 @@
   "id": "E01-S14-011",
   "scene": "14",
   "act": "Act 2",
-  "order": 200,
+  "order": 196,
   "lines": [
    {
     "line_id": "E01-L257",
@@ -9440,7 +9314,7 @@
   "id": "E01-S14-012",
   "scene": "14",
   "act": "Act 2",
-  "order": 201,
+  "order": 197,
   "lines": [
    {
     "line_id": "E01-L258",
@@ -9484,7 +9358,7 @@
   "id": "E01-S15-001",
   "scene": "15",
   "act": "Act 2",
-  "order": 202,
+  "order": 198,
   "lines": [
    {
     "line_id": "E01-L260",
@@ -9554,7 +9428,7 @@
   "id": "E01-S15-002",
   "scene": "15",
   "act": "Act 2",
-  "order": 203,
+  "order": 199,
   "lines": [
    {
     "line_id": "E01-L261",
@@ -9617,7 +9491,7 @@
   "id": "E01-S15-003",
   "scene": "15",
   "act": "Act 2",
-  "order": 204,
+  "order": 200,
   "lines": [
    {
     "line_id": "E01-L262",
@@ -9666,7 +9540,7 @@
   "id": "E01-S15-004",
   "scene": "15",
   "act": "Act 2",
-  "order": 205,
+  "order": 201,
   "lines": [
    {
     "line_id": "E01-L263",
@@ -9715,7 +9589,7 @@
   "id": "E01-S15-005",
   "scene": "15",
   "act": "Act 2",
-  "order": 206,
+  "order": 202,
   "lines": [
    {
     "line_id": "E01-L264",
@@ -9757,7 +9631,7 @@
   "id": "E01-S15-006",
   "scene": "15",
   "act": "Act 2",
-  "order": 207,
+  "order": 203,
   "lines": [
    {
     "line_id": "E01-L265",
@@ -9806,7 +9680,7 @@
   "id": "E01-S15-007",
   "scene": "15",
   "act": "Act 2",
-  "order": 208,
+  "order": 204,
   "lines": [
    {
     "line_id": "E01-L266",
@@ -9850,7 +9724,7 @@
   "id": "E01-S15-008",
   "scene": "15",
   "act": "Act 2",
-  "order": 209,
+  "order": 205,
   "lines": [
    {
     "line_id": "E01-L267",
@@ -9899,7 +9773,7 @@
   "id": "E01-S15-009",
   "scene": "15",
   "act": "Act 2",
-  "order": 210,
+  "order": 206,
   "lines": [
    {
     "line_id": "E01-L268",
@@ -9943,7 +9817,7 @@
   "id": "E01-S15-010",
   "scene": "15",
   "act": "Act 2",
-  "order": 211,
+  "order": 207,
   "lines": [],
   "duration_s": 2.0,
   "type": "SET_STILL",
@@ -9986,7 +9860,7 @@
   "id": "E01-S15-011",
   "scene": "15",
   "act": "Act 2",
-  "order": 212,
+  "order": 208,
   "lines": [],
   "duration_s": 3.0,
   "type": "INSERT",
@@ -10018,7 +9892,7 @@
   "id": "E01-S15-012",
   "scene": "15",
   "act": "Act 2",
-  "order": 213,
+  "order": 209,
   "lines": [],
   "duration_s": 1.0,
   "type": "INSERT",
@@ -10045,7 +9919,7 @@
   "id": "E01-S15-013",
   "scene": "15",
   "act": "Act 2",
-  "order": 214,
+  "order": 210,
   "lines": [],
   "duration_s": 7.0,
   "type": "SET_STILL",
@@ -10101,7 +9975,7 @@
   "id": "E01-S15-014",
   "scene": "15",
   "act": "Act 2",
-  "order": 215,
+  "order": 211,
   "lines": [],
   "duration_s": 1.8,
   "type": "CHARACTER_STILL",
@@ -10141,7 +10015,7 @@
   "id": "E01-S15-015",
   "scene": "15",
   "act": "Act 2",
-  "order": 216,
+  "order": 212,
   "lines": [
    {
     "line_id": "E01-L270",
@@ -10184,7 +10058,7 @@
   "id": "E01-S15-016",
   "scene": "15",
   "act": "Act 2",
-  "order": 217,
+  "order": 213,
   "lines": [
    {
     "line_id": "E01-L271",
@@ -10227,7 +10101,7 @@
   "id": "E01-S15-017",
   "scene": "15",
   "act": "Act 2",
-  "order": 218,
+  "order": 214,
   "lines": [
    {
     "line_id": "E01-L272",
@@ -10292,7 +10166,7 @@
   "id": "E01-S15-018",
   "scene": "15",
   "act": "Act 2",
-  "order": 219,
+  "order": 215,
   "lines": [
    {
     "line_id": "E01-L275",
@@ -10357,7 +10231,7 @@
   "id": "E01-S15-019",
   "scene": "15",
   "act": "Act 2",
-  "order": 220,
+  "order": 216,
   "lines": [
    {
     "line_id": "E01-L276",
@@ -10406,7 +10280,7 @@
   "id": "E01-S15-020",
   "scene": "15",
   "act": "Act 2",
-  "order": 221,
+  "order": 217,
   "lines": [
    {
     "line_id": "E01-L277",
@@ -10449,7 +10323,7 @@
   "id": "E01-S16-001",
   "scene": "16",
   "act": "Act 2",
-  "order": 222,
+  "order": 218,
   "lines": [
    {
     "line_id": "E01-L279",
@@ -10506,7 +10380,7 @@
   "id": "E01-S16-002",
   "scene": "16",
   "act": "Act 2",
-  "order": 223,
+  "order": 219,
   "lines": [
    {
     "line_id": "E01-L281",
@@ -10550,7 +10424,7 @@
   "id": "E01-S16-003",
   "scene": "16",
   "act": "Act 2",
-  "order": 224,
+  "order": 220,
   "lines": [
    {
     "line_id": "E01-L282",
@@ -10594,7 +10468,7 @@
   "id": "E01-S16-004",
   "scene": "16",
   "act": "Act 2",
-  "order": 225,
+  "order": 221,
   "lines": [],
   "duration_s": 1.4,
   "type": "DATA_VISUAL",
@@ -10618,7 +10492,7 @@
   "id": "E01-S16-005",
   "scene": "16",
   "act": "Act 2",
-  "order": 226,
+  "order": 222,
   "lines": [
    {
     "line_id": "E01-L283",
@@ -10662,7 +10536,7 @@
   "id": "E01-S16-006",
   "scene": "16",
   "act": "Act 2",
-  "order": 227,
+  "order": 223,
   "lines": [
    {
     "line_id": "E01-L284",
@@ -10704,7 +10578,7 @@
   "id": "E01-S16-007",
   "scene": "16",
   "act": "Act 2",
-  "order": 228,
+  "order": 224,
   "lines": [
    {
     "line_id": "E01-L285",
@@ -10756,7 +10630,7 @@
   "id": "E01-S16-008",
   "scene": "16",
   "act": "Act 2",
-  "order": 229,
+  "order": 225,
   "lines": [
    {
     "line_id": "E01-L287",
@@ -10800,7 +10674,7 @@
   "id": "E01-S16-009",
   "scene": "16",
   "act": "Act 2",
-  "order": 230,
+  "order": 226,
   "lines": [
    {
     "line_id": "E01-L287",
@@ -10844,7 +10718,7 @@
   "id": "E01-S16-010",
   "scene": "16",
   "act": "Act 2",
-  "order": 231,
+  "order": 227,
   "lines": [
    {
     "line_id": "E01-L288",
@@ -10888,7 +10762,7 @@
   "id": "E01-S16-011",
   "scene": "16",
   "act": "Act 2",
-  "order": 232,
+  "order": 228,
   "lines": [
    {
     "line_id": "E01-L289",
@@ -10931,7 +10805,7 @@
   "id": "E01-S16-012",
   "scene": "16",
   "act": "Act 2",
-  "order": 233,
+  "order": 229,
   "lines": [
    {
     "line_id": "E01-L290",
@@ -10990,7 +10864,7 @@
   "id": "E01-S16-013",
   "scene": "16",
   "act": "Act 2",
-  "order": 234,
+  "order": 230,
   "lines": [
    {
     "line_id": "E01-L293",
@@ -11039,7 +10913,7 @@
   "id": "E01-S16-014",
   "scene": "16",
   "act": "Act 2",
-  "order": 235,
+  "order": 231,
   "lines": [
    {
     "line_id": "E01-L294",
@@ -11083,7 +10957,7 @@
   "id": "E01-S16-015",
   "scene": "16",
   "act": "Act 2",
-  "order": 236,
+  "order": 232,
   "lines": [
    {
     "line_id": "E01-L295",
@@ -11127,7 +11001,7 @@
   "id": "E01-S16-016",
   "scene": "16",
   "act": "Act 2",
-  "order": 237,
+  "order": 233,
   "lines": [
    {
     "line_id": "E01-L295",
@@ -11168,7 +11042,7 @@
   "id": "E01-S16-017",
   "scene": "16",
   "act": "Act 2",
-  "order": 238,
+  "order": 234,
   "lines": [
    {
     "line_id": "E01-L296",
@@ -11220,7 +11094,7 @@
   "id": "E01-S16-018",
   "scene": "16",
   "act": "Act 2",
-  "order": 239,
+  "order": 235,
   "lines": [],
   "duration_s": 1.0,
   "type": "SET_STILL",
@@ -11255,7 +11129,7 @@
   "id": "E01-S16-019",
   "scene": "16",
   "act": "Act 2",
-  "order": 240,
+  "order": 236,
   "lines": [
    {
     "line_id": "E01-L298",
@@ -11292,7 +11166,7 @@
   "id": "E01-S17-001",
   "scene": "17",
   "act": "Act 3",
-  "order": 241,
+  "order": 237,
   "lines": [
    {
     "line_id": "E01-L301",
@@ -11364,7 +11238,7 @@
   "id": "E01-S17-002",
   "scene": "17",
   "act": "Act 3",
-  "order": 242,
+  "order": 238,
   "lines": [
    {
     "line_id": "E01-L302",
@@ -11410,7 +11284,7 @@
   "id": "E01-S17-003",
   "scene": "17",
   "act": "Act 3",
-  "order": 243,
+  "order": 239,
   "lines": [
    {
     "line_id": "E01-L303",
@@ -11459,7 +11333,7 @@
   "id": "E01-S17-004",
   "scene": "17",
   "act": "Act 3",
-  "order": 244,
+  "order": 240,
   "lines": [
    {
     "line_id": "E01-L304",
@@ -11503,7 +11377,7 @@
   "id": "E01-S17-005",
   "scene": "17",
   "act": "Act 3",
-  "order": 245,
+  "order": 241,
   "lines": [
    {
     "line_id": "E01-L305",
@@ -11512,11 +11386,19 @@
     "text": "She is right.",
     "part": null,
     "seconds": 1.15
+   },
+   {
+    "line_id": "E01-L306",
+    "speaker": "LUCÍA",
+    "tags": "",
+    "text": "Thank you. Jax. Say something.",
+    "part": null,
+    "seconds": 1.65
    }
   ],
-  "duration_s": 1.8,
+  "duration_s": 3.9,
   "type": "CHARACTER_STILL",
-  "description": "The Baron: 'She is right.'",
+  "description": "The Baron: 'She is right.' Lucía: 'Say something.'",
   "camera": "hold",
   "motion": "none",
   "characters": [
@@ -11552,51 +11434,7 @@
   "id": "E01-S17-006",
   "scene": "17",
   "act": "Act 3",
-  "order": 246,
-  "lines": [
-   {
-    "line_id": "E01-L306",
-    "speaker": "LUCÍA",
-    "tags": "",
-    "text": "Thank you. Jax. Say something.",
-    "part": null,
-    "seconds": 1.65
-   }
-  ],
-  "duration_s": 2.2,
-  "type": "CHARACTER_STILL",
-  "description": "Lucía from behind.",
-  "camera": "hold",
-  "motion": "none",
-  "characters": [
-   {
-    "id": "lucia",
-    "mouth_visible": false,
-    "speaking_in_shot": true,
-    "needs_mouth_patch": false
-   }
-  ],
-  "needs_mouth_patch": false,
-  "image_source": "REUSE of E01-J058 (new crop/move/grade)",
-  "library_assets": [
-   "assets/characters/lucia/master.jpg",
-   "assets/sets/postchaise/cab.jpg",
-   "$SU_WORK/E01/stills/e01-j058_lucia_driving_from_behind.png (from E01-J058)"
-  ],
-  "real_footage": "none",
-  "new_image_job": null,
-  "compositing": "Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). Any text, numbers or tags added in code.",
-  "sound": "Cab under strain; no score.",
-  "risk": {
-   "level": "low",
-   "reason": "library reuse, no faces speaking"
-  }
- },
- {
-  "id": "E01-S17-007",
-  "scene": "17",
-  "act": "Act 3",
-  "order": 247,
+  "order": 242,
   "lines": [],
   "duration_s": 1.8,
   "type": "SET_STILL",
@@ -11630,10 +11468,10 @@
   }
  },
  {
-  "id": "E01-S17-008",
+  "id": "E01-S17-007",
   "scene": "17",
   "act": "Act 3",
-  "order": 248,
+  "order": 243,
   "lines": [
    {
     "line_id": "E01-L307",
@@ -11674,10 +11512,10 @@
   }
  },
  {
-  "id": "E01-S17-009",
+  "id": "E01-S17-008",
   "scene": "17",
   "act": "Act 3",
-  "order": 249,
+  "order": 244,
   "lines": [],
   "duration_s": 2.0,
   "type": "INSERT",
@@ -11706,10 +11544,10 @@
   }
  },
  {
-  "id": "E01-S17-010",
+  "id": "E01-S17-009",
   "scene": "17",
   "act": "Act 3",
-  "order": 250,
+  "order": 245,
   "lines": [
    {
     "line_id": "E01-L309",
@@ -11758,10 +11596,10 @@
   }
  },
  {
-  "id": "E01-S17-011",
+  "id": "E01-S17-010",
   "scene": "17",
   "act": "Act 3",
-  "order": 251,
+  "order": 246,
   "lines": [
    {
     "line_id": "E01-L311",
@@ -11822,10 +11660,10 @@
   }
  },
  {
-  "id": "E01-S17-012",
+  "id": "E01-S17-011",
   "scene": "17",
   "act": "Act 3",
-  "order": 252,
+  "order": 247,
   "lines": [],
   "duration_s": 2.0,
   "type": "SET_STILL",
@@ -11877,10 +11715,10 @@
   }
  },
  {
-  "id": "E01-S17-013",
+  "id": "E01-S17-012",
   "scene": "17",
   "act": "Act 3",
-  "order": 253,
+  "order": 248,
   "lines": [
    {
     "line_id": "E01-L312",
@@ -11889,43 +11727,7 @@
     "text": "That doesn't change the money.",
     "part": null,
     "seconds": 1.48
-   }
-  ],
-  "duration_s": 2.1,
-  "type": "CHARACTER_STILL",
-  "description": "Lucía, quieter.",
-  "camera": "hold",
-  "motion": "none",
-  "characters": [
-   {
-    "id": "lucia",
-    "mouth_visible": false,
-    "speaking_in_shot": true,
-    "needs_mouth_patch": false
-   }
-  ],
-  "needs_mouth_patch": false,
-  "image_source": "REUSE of E01-J058 (new crop/move/grade)",
-  "library_assets": [
-   "assets/characters/lucia/master.jpg",
-   "assets/sets/postchaise/cab.jpg",
-   "$SU_WORK/E01/stills/e01-j058_lucia_driving_from_behind.png (from E01-J058)"
-  ],
-  "real_footage": "none",
-  "new_image_job": null,
-  "compositing": "Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). Any text, numbers or tags added in code.",
-  "sound": "Cab under strain; no score.",
-  "risk": {
-   "level": "low",
-   "reason": "library reuse, no faces speaking"
-  }
- },
- {
-  "id": "E01-S17-014",
-  "scene": "17",
-  "act": "Act 3",
-  "order": 254,
-  "lines": [
+   },
    {
     "line_id": "E01-L313",
     "speaker": "BARON",
@@ -11935,10 +11737,10 @@
     "seconds": 3.63
    }
   ],
-  "duration_s": 5.2,
+  "duration_s": 7.2,
   "type": "CHARACTER_STILL",
-  "description": "The Baron: 'On the twenty-fourth I was making jam.'",
-  "camera": "hold",
+  "description": "Lucía, quieter. The Baron: 'On the twenty-fourth I was making jam.'",
+  "camera": "slow push-in 3%",
   "motion": "none",
   "characters": [
    {
@@ -11968,7 +11770,7 @@
   "id": "E01-S18-19-001",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 255,
+  "order": 249,
   "lines": [
    {
     "line_id": "E01-L315",
@@ -12010,7 +11812,7 @@
   "id": "E01-S18-19-002",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 256,
+  "order": 250,
   "lines": [
    {
     "line_id": "E01-L316",
@@ -12082,7 +11884,7 @@
   "id": "E01-S18-19-003",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 257,
+  "order": 251,
   "lines": [
    {
     "line_id": "E01-L319",
@@ -12119,7 +11921,7 @@
   "id": "E01-S18-19-004",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 258,
+  "order": 252,
   "lines": [
    {
     "line_id": "E01-L320",
@@ -12170,7 +11972,7 @@
   "id": "E01-S18-19-005",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 259,
+  "order": 253,
   "lines": [
    {
     "line_id": "E01-L321",
@@ -12230,7 +12032,7 @@
   "id": "E01-S18-19-006",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 260,
+  "order": 254,
   "lines": [
    {
     "line_id": "E01-L322",
@@ -12268,7 +12070,7 @@
   "id": "E01-S18-19-007",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 261,
+  "order": 255,
   "lines": [
    {
     "line_id": "E01-L323",
@@ -12335,7 +12137,7 @@
   "id": "E01-S18-19-008",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 262,
+  "order": 256,
   "lines": [],
   "duration_s": 2.0,
   "type": "INSERT",
@@ -12368,7 +12170,7 @@
   "id": "E01-S18-19-009",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 263,
+  "order": 257,
   "lines": [
    {
     "line_id": "E01-L327",
@@ -12455,7 +12257,7 @@
   "id": "E01-S18-19-010",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 264,
+  "order": 258,
   "lines": [
    {
     "line_id": "E01-L330",
@@ -12506,7 +12308,7 @@
   "id": "E01-S18-19-011",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 265,
+  "order": 259,
   "lines": [
    {
     "line_id": "E01-L331",
@@ -12551,7 +12353,7 @@
   "id": "E01-S18-19-012",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 266,
+  "order": 260,
   "lines": [
    {
     "line_id": "E01-L332",
@@ -12610,7 +12412,7 @@
   "id": "E01-S18-19-013",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 267,
+  "order": 261,
   "lines": [
    {
     "line_id": "E01-L334",
@@ -12669,7 +12471,7 @@
   "id": "E01-S18-19-014",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 268,
+  "order": 262,
   "lines": [],
   "duration_s": 2.4,
   "type": "CHARACTER_STILL",
@@ -12716,7 +12518,7 @@
   "id": "E01-S18-19-015",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 269,
+  "order": 263,
   "lines": [
    {
     "line_id": "E01-L336",
@@ -12769,7 +12571,7 @@
   "id": "E01-S18-19-016",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 270,
+  "order": 264,
   "lines": [
    {
     "line_id": "E01-L338",
@@ -12820,7 +12622,7 @@
   "id": "E01-S18-19-017",
   "scene": "18–19",
   "act": "Act 3",
-  "order": 271,
+  "order": 265,
   "lines": [],
   "duration_s": 3.0,
   "type": "CHARACTER_STILL",
@@ -12860,7 +12662,7 @@
   "id": "E01-S20-001",
   "scene": "20",
   "act": "Act 3",
-  "order": 272,
+  "order": 266,
   "lines": [],
   "duration_s": 1.0,
   "type": "INSERT",
@@ -12893,7 +12695,7 @@
   "id": "E01-S20-002",
   "scene": "20",
   "act": "Act 3",
-  "order": 273,
+  "order": 267,
   "lines": [
    {
     "line_id": "E01-L340",
@@ -12950,7 +12752,7 @@
   "id": "E01-S20-003",
   "scene": "20",
   "act": "Act 3",
-  "order": 274,
+  "order": 268,
   "lines": [
    {
     "line_id": "E01-L341",
@@ -12999,7 +12801,7 @@
   "id": "E01-S20-004",
   "scene": "20",
   "act": "Act 3",
-  "order": 275,
+  "order": 269,
   "lines": [
    {
     "line_id": "E01-L342",
@@ -13051,7 +12853,7 @@
   "id": "E01-S20-005",
   "scene": "20",
   "act": "Act 3",
-  "order": 276,
+  "order": 270,
   "lines": [
    {
     "line_id": "E01-L343",
@@ -13095,7 +12897,7 @@
   "id": "E01-S20-006",
   "scene": "20",
   "act": "Act 3",
-  "order": 277,
+  "order": 271,
   "lines": [],
   "duration_s": 1.4,
   "type": "CHARACTER_STILL",
@@ -13135,7 +12937,7 @@
   "id": "E01-S20-007",
   "scene": "20",
   "act": "Act 3",
-  "order": 278,
+  "order": 272,
   "lines": [
    {
     "line_id": "E01-L344",
@@ -13179,7 +12981,7 @@
   "id": "E01-S20-008",
   "scene": "20",
   "act": "Act 3",
-  "order": 279,
+  "order": 273,
   "lines": [
    {
     "line_id": "E01-L345",
@@ -13223,7 +13025,7 @@
   "id": "E01-S20-009",
   "scene": "20",
   "act": "Act 3",
-  "order": 280,
+  "order": 274,
   "lines": [
    {
     "line_id": "E01-L345",
@@ -13258,7 +13060,7 @@
   "id": "E01-S20-010",
   "scene": "20",
   "act": "Act 3",
-  "order": 281,
+  "order": 275,
   "lines": [
    {
     "line_id": "E01-L346",
@@ -13310,7 +13112,7 @@
   "id": "E01-S20-011",
   "scene": "20",
   "act": "Act 3",
-  "order": 282,
+  "order": 276,
   "lines": [
    {
     "line_id": "E01-L348",
@@ -13354,7 +13156,7 @@
   "id": "E01-S20-012",
   "scene": "20",
   "act": "Act 3",
-  "order": 283,
+  "order": 277,
   "lines": [
    {
     "line_id": "E01-L349",
@@ -13406,7 +13208,7 @@
   "id": "E01-S21-001",
   "scene": "21",
   "act": "Act 3",
-  "order": 284,
+  "order": 278,
   "lines": [],
   "duration_s": 4.0,
   "type": "REAL_FOOTAGE",
@@ -13452,7 +13254,7 @@
   "id": "E01-S21-002",
   "scene": "21",
   "act": "Act 3",
-  "order": 285,
+  "order": 279,
   "lines": [
    {
     "line_id": "E01-L351",
@@ -13522,7 +13324,7 @@
   "id": "E01-S21-003",
   "scene": "21",
   "act": "Act 3",
-  "order": 286,
+  "order": 280,
   "lines": [
    {
     "line_id": "E01-L352",
@@ -13580,7 +13382,7 @@
   "id": "E01-S21-004",
   "scene": "21",
   "act": "Act 3",
-  "order": 287,
+  "order": 281,
   "lines": [
    {
     "line_id": "E01-L354",
@@ -13629,7 +13431,7 @@
   "id": "E01-S21-005",
   "scene": "21",
   "act": "Act 3",
-  "order": 288,
+  "order": 282,
   "lines": [
    {
     "line_id": "E01-L355",
@@ -13678,7 +13480,7 @@
   "id": "E01-S21-006",
   "scene": "21",
   "act": "Act 3",
-  "order": 289,
+  "order": 283,
   "lines": [
    {
     "line_id": "E01-L356",
@@ -13722,7 +13524,7 @@
   "id": "E01-S21-007",
   "scene": "21",
   "act": "Act 3",
-  "order": 290,
+  "order": 284,
   "lines": [
    {
     "line_id": "E01-L357",
@@ -13766,7 +13568,7 @@
   "id": "E01-S21-008",
   "scene": "21",
   "act": "Act 3",
-  "order": 291,
+  "order": 285,
   "lines": [
    {
     "line_id": "E01-L358",
@@ -13801,7 +13603,7 @@
   "id": "E01-S21-009",
   "scene": "21",
   "act": "Act 3",
-  "order": 292,
+  "order": 286,
   "lines": [
    {
     "line_id": "E01-L359",
@@ -13856,7 +13658,7 @@
   "id": "E01-S21-010",
   "scene": "21",
   "act": "Act 3",
-  "order": 293,
+  "order": 287,
   "lines": [
    {
     "line_id": "E01-L359",
@@ -13914,7 +13716,7 @@
   "id": "E01-S21-011",
   "scene": "21",
   "act": "Act 3",
-  "order": 294,
+  "order": 288,
   "lines": [
    {
     "line_id": "E01-L361",
@@ -13958,7 +13760,7 @@
   "id": "E01-S21-012",
   "scene": "21",
   "act": "Act 3",
-  "order": 295,
+  "order": 289,
   "lines": [
    {
     "line_id": "E01-L362",
@@ -14013,7 +13815,7 @@
   "id": "E01-S21-013",
   "scene": "21",
   "act": "Act 3",
-  "order": 296,
+  "order": 290,
   "lines": [
    {
     "line_id": "E01-L362",
@@ -14057,7 +13859,7 @@
   "id": "E01-S21-014",
   "scene": "21",
   "act": "Act 3",
-  "order": 297,
+  "order": 291,
   "lines": [
    {
     "line_id": "E01-L363",
@@ -14107,7 +13909,7 @@
   "id": "E01-S21-015",
   "scene": "21",
   "act": "Act 3",
-  "order": 298,
+  "order": 292,
   "lines": [
    {
     "line_id": "E01-L364",
@@ -14151,7 +13953,7 @@
   "id": "E01-S21-016",
   "scene": "21",
   "act": "Act 3",
-  "order": 299,
+  "order": 293,
   "lines": [],
   "duration_s": 3.0,
   "type": "CHARACTER_STILL",
@@ -14186,7 +13988,7 @@
   "id": "E01-S21-017",
   "scene": "21",
   "act": "Act 3",
-  "order": 300,
+  "order": 294,
   "lines": [
    {
     "line_id": "E01-L365",
@@ -14230,7 +14032,7 @@
   "id": "E01-S21-018",
   "scene": "21",
   "act": "Act 3",
-  "order": 301,
+  "order": 295,
   "lines": [
    {
     "line_id": "E01-L366",
@@ -14274,7 +14076,7 @@
   "id": "E01-S21-019",
   "scene": "21",
   "act": "Act 3",
-  "order": 302,
+  "order": 296,
   "lines": [
    {
     "line_id": "E01-L367",
@@ -14318,7 +14120,7 @@
   "id": "E01-S21-020",
   "scene": "21",
   "act": "Act 3",
-  "order": 303,
+  "order": 297,
   "lines": [],
   "duration_s": 3.6,
   "type": "SET_STILL",
@@ -14379,7 +14181,7 @@
   "id": "E01-S21-021",
   "scene": "21",
   "act": "Act 3",
-  "order": 304,
+  "order": 298,
   "lines": [
    {
     "line_id": "E01-L368",
@@ -14423,7 +14225,7 @@
   "id": "E01-S21-022",
   "scene": "21",
   "act": "Act 3",
-  "order": 305,
+  "order": 299,
   "lines": [
    {
     "line_id": "E01-L369",
@@ -14467,7 +14269,7 @@
   "id": "E01-S21-023",
   "scene": "21",
   "act": "Act 3",
-  "order": 306,
+  "order": 300,
   "lines": [
    {
     "line_id": "E01-L370",
@@ -14511,7 +14313,7 @@
   "id": "E01-S21-024",
   "scene": "21",
   "act": "Act 3",
-  "order": 307,
+  "order": 301,
   "lines": [
    {
     "line_id": "E01-L372",
@@ -14554,7 +14356,7 @@
   "id": "E01-S21-025",
   "scene": "21",
   "act": "Act 3",
-  "order": 308,
+  "order": 302,
   "lines": [
    {
     "line_id": "E01-L373",
@@ -14606,7 +14408,7 @@
   "id": "E01-S21-026",
   "scene": "21",
   "act": "Act 3",
-  "order": 309,
+  "order": 303,
   "lines": [
    {
     "line_id": "E01-L375",
@@ -14650,7 +14452,7 @@
   "id": "E01-S21-027",
   "scene": "21",
   "act": "Act 3",
-  "order": 310,
+  "order": 304,
   "lines": [],
   "duration_s": 2.6,
   "type": "REAL_FOOTAGE",
@@ -14696,7 +14498,7 @@
   "id": "E01-S21-028",
   "scene": "21",
   "act": "Act 3",
-  "order": 311,
+  "order": 305,
   "lines": [
    {
     "line_id": "E01-L376",
@@ -14740,7 +14542,7 @@
   "id": "E01-S21-029",
   "scene": "21",
   "act": "Act 3",
-  "order": 312,
+  "order": 306,
   "lines": [
    {
     "line_id": "E01-L377",
@@ -14790,7 +14592,7 @@
   "id": "E01-S22-001",
   "scene": "22",
   "act": "Act 3",
-  "order": 313,
+  "order": 307,
   "lines": [
    {
     "line_id": "E01-L379",
@@ -14831,7 +14633,7 @@
   "id": "E01-S22-002",
   "scene": "22",
   "act": "Act 3",
-  "order": 314,
+  "order": 308,
   "lines": [
    {
     "line_id": "E01-L380",
@@ -14910,7 +14712,7 @@
   "id": "E01-S22-003",
   "scene": "22",
   "act": "Act 3",
-  "order": 315,
+  "order": 309,
   "lines": [
    {
     "line_id": "E01-L381",
@@ -14960,7 +14762,7 @@
   "id": "E01-S22-004",
   "scene": "22",
   "act": "Act 3",
-  "order": 316,
+  "order": 310,
   "lines": [],
   "duration_s": 1.8,
   "type": "TWO_SHOT",
@@ -15014,7 +14816,7 @@
   "id": "E01-S22-005",
   "scene": "22",
   "act": "Act 3",
-  "order": 317,
+  "order": 311,
   "lines": [],
   "duration_s": 2.4,
   "type": "INSERT",
@@ -15041,7 +14843,7 @@
   "id": "E01-S22-006",
   "scene": "22",
   "act": "Act 3",
-  "order": 318,
+  "order": 312,
   "lines": [
    {
     "line_id": "E01-L382",
@@ -15082,7 +14884,7 @@
   "id": "E01-S22-007",
   "scene": "22",
   "act": "Act 3",
-  "order": 319,
+  "order": 313,
   "lines": [],
   "duration_s": 1.0,
   "type": "CHARACTER_STILL",
@@ -15122,7 +14924,7 @@
   "id": "E01-S22-008",
   "scene": "22",
   "act": "Act 3",
-  "order": 320,
+  "order": 314,
   "lines": [
    {
     "line_id": "E01-L383",
@@ -15179,7 +14981,7 @@
   "id": "E01-S22-009",
   "scene": "22",
   "act": "Act 3",
-  "order": 321,
+  "order": 315,
   "lines": [
    {
     "line_id": "E01-L385",
@@ -15224,7 +15026,7 @@
   "id": "E01-S22-010",
   "scene": "22",
   "act": "Act 3",
-  "order": 322,
+  "order": 316,
   "lines": [
    {
     "line_id": "E01-L386",
@@ -15266,7 +15068,7 @@
   "id": "E01-S22-011",
   "scene": "22",
   "act": "Act 3",
-  "order": 323,
+  "order": 317,
   "lines": [
    {
     "line_id": "E01-L387",
@@ -15315,7 +15117,7 @@
   "id": "E01-S22-012",
   "scene": "22",
   "act": "Act 3",
-  "order": 324,
+  "order": 318,
   "lines": [
    {
     "line_id": "E01-L388",
@@ -15359,7 +15161,7 @@
   "id": "E01-S22-013",
   "scene": "22",
   "act": "Act 3",
-  "order": 325,
+  "order": 319,
   "lines": [
    {
     "line_id": "E01-L389",
@@ -15409,7 +15211,7 @@
   "id": "E01-S22-014",
   "scene": "22",
   "act": "Act 3",
-  "order": 326,
+  "order": 320,
   "lines": [
    {
     "line_id": "E01-L390",
@@ -15453,7 +15255,7 @@
   "id": "E01-S22-015",
   "scene": "22",
   "act": "Act 3",
-  "order": 327,
+  "order": 321,
   "lines": [
    {
     "line_id": "E01-L391",
@@ -15503,7 +15305,7 @@
   "id": "E01-S22-016",
   "scene": "22",
   "act": "Act 3",
-  "order": 328,
+  "order": 322,
   "lines": [
    {
     "line_id": "E01-L392",
@@ -15548,7 +15350,7 @@
   "id": "E01-S22-017",
   "scene": "22",
   "act": "Act 3",
-  "order": 329,
+  "order": 323,
   "lines": [
    {
     "line_id": "E01-L393",
@@ -15600,7 +15402,7 @@
   "id": "E01-S22-018",
   "scene": "22",
   "act": "Act 3",
-  "order": 330,
+  "order": 324,
   "lines": [],
   "duration_s": 2.0,
   "type": "CHARACTER_STILL",
@@ -15635,7 +15437,7 @@
   "id": "E01-S22-019",
   "scene": "22",
   "act": "Act 3",
-  "order": 331,
+  "order": 325,
   "lines": [],
   "duration_s": 1.8,
   "type": "INSERT",
@@ -15663,7 +15465,7 @@
   "id": "E01-S22-020",
   "scene": "22",
   "act": "Act 3",
-  "order": 332,
+  "order": 326,
   "lines": [
    {
     "line_id": "E01-L395",
@@ -15708,7 +15510,7 @@
   "id": "E01-S22-021",
   "scene": "22",
   "act": "Act 3",
-  "order": 333,
+  "order": 327,
   "lines": [
    {
     "line_id": "E01-L396",
@@ -15717,44 +15519,7 @@
     "text": "I'm sorry?",
     "part": null,
     "seconds": 0.86
-   }
-  ],
-  "duration_s": 1.5,
-  "type": "SET_STILL",
-  "description": "Chichikov: 'I'm sorry?'",
-  "camera": "hold",
-  "motion": "none",
-  "characters": [
-   {
-    "id": "chichikov",
-    "mouth_visible": false,
-    "speaking_in_shot": true,
-    "needs_mouth_patch": false
-   }
-  ],
-  "needs_mouth_patch": false,
-  "image_source": "REUSE of E01-J120 (new crop/move/grade)",
-  "library_assets": [
-   "assets/characters/chichikov/master.jpg",
-   "assets/props/inlaid-box/master.jpg",
-   "assets/sets/customs/master.jpg",
-   "$SU_WORK/E01/stills/e01-j120_chich_soft_hall.png (from E01-J120)"
-  ],
-  "real_footage": "none",
-  "new_image_job": null,
-  "compositing": "Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). Any text, numbers or tags added in code.",
-  "sound": "Hall hush; clock tick; C4 tension rises.",
-  "risk": {
-   "level": "low",
-   "reason": "library reuse, no faces speaking"
-  }
- },
- {
-  "id": "E01-S22-022",
-  "scene": "22",
-  "act": "Act 3",
-  "order": 334,
-  "lines": [
+   },
    {
     "line_id": "E01-L397",
     "speaker": "JAX",
@@ -15764,9 +15529,9 @@
     "seconds": 2.13
    }
   ],
-  "duration_s": 2.7,
+  "duration_s": 4.1,
   "type": "CHARACTER_STILL",
-  "description": "The Baron's eyes as Jax explains.",
+  "description": "'I'm sorry?' The Baron's eyes as Jax explains.",
   "camera": "hold",
   "motion": "eyes widen",
   "characters": [
@@ -15794,10 +15559,10 @@
   }
  },
  {
-  "id": "E01-S22-023",
+  "id": "E01-S22-022",
   "scene": "22",
   "act": "Act 3",
-  "order": 335,
+  "order": 328,
   "lines": [],
   "duration_s": 1.0,
   "type": "INSERT",
@@ -15822,10 +15587,10 @@
   }
  },
  {
-  "id": "E01-S22-024",
+  "id": "E01-S22-023",
   "scene": "22",
   "act": "Act 3",
-  "order": 336,
+  "order": 329,
   "lines": [
    {
     "line_id": "E01-L398",
@@ -15867,10 +15632,10 @@
   }
  },
  {
-  "id": "E01-S22-025",
+  "id": "E01-S22-024",
   "scene": "22",
   "act": "Act 3",
-  "order": 337,
+  "order": 330,
   "lines": [],
   "duration_s": 2.4,
   "type": "INSERT",
@@ -15894,10 +15659,10 @@
   }
  },
  {
-  "id": "E01-S22-026",
+  "id": "E01-S22-025",
   "scene": "22",
   "act": "Act 3",
-  "order": 338,
+  "order": 331,
   "lines": [],
   "duration_s": 1.8,
   "type": "INSERT",
@@ -15921,10 +15686,10 @@
   }
  },
  {
-  "id": "E01-S22-027",
+  "id": "E01-S22-026",
   "scene": "22",
   "act": "Act 3",
-  "order": 339,
+  "order": 332,
   "lines": [
    {
     "line_id": "E01-L400",
@@ -15971,10 +15736,10 @@
   }
  },
  {
-  "id": "E01-S22-028",
+  "id": "E01-S22-027",
   "scene": "22",
   "act": "Act 3",
-  "order": 340,
+  "order": 333,
   "lines": [],
   "duration_s": 3.5,
   "type": "INSERT",
@@ -15998,10 +15763,10 @@
   }
  },
  {
-  "id": "E01-S22-029",
+  "id": "E01-S22-028",
   "scene": "22",
   "act": "Act 3",
-  "order": 341,
+  "order": 334,
   "lines": [
    {
     "line_id": "E01-L401",
@@ -16035,10 +15800,10 @@
   }
  },
  {
-  "id": "E01-S22-030",
+  "id": "E01-S22-029",
   "scene": "22",
   "act": "Act 3",
-  "order": 342,
+  "order": 335,
   "lines": [
    {
     "line_id": "E01-L402",
@@ -16080,10 +15845,10 @@
   }
  },
  {
-  "id": "E01-S22-031",
+  "id": "E01-S22-030",
   "scene": "22",
   "act": "Act 3",
-  "order": 343,
+  "order": 336,
   "lines": [
    {
     "line_id": "E01-L403",
@@ -16116,10 +15881,10 @@
   }
  },
  {
-  "id": "E01-S22-032",
+  "id": "E01-S22-031",
   "scene": "22",
   "act": "Act 3",
-  "order": 344,
+  "order": 337,
   "lines": [],
   "duration_s": 1.4,
   "type": "SET_STILL",
@@ -16144,10 +15909,10 @@
   }
  },
  {
-  "id": "E01-S22-033",
+  "id": "E01-S22-032",
   "scene": "22",
   "act": "Act 3",
-  "order": 345,
+  "order": 338,
   "lines": [
    {
     "line_id": "E01-L404",
@@ -16205,7 +15970,7 @@
   "id": "E01-S23-001",
   "scene": "23",
   "act": "Act 4",
-  "order": 346,
+  "order": 339,
   "lines": [],
   "duration_s": 1.0,
   "type": "INSERT",
@@ -16237,7 +16002,7 @@
   "id": "E01-S23-002",
   "scene": "23",
   "act": "Act 4",
-  "order": 347,
+  "order": 340,
   "lines": [
    {
     "line_id": "E01-L408",
@@ -16301,7 +16066,7 @@
   "id": "E01-S23-003",
   "scene": "23",
   "act": "Act 4",
-  "order": 348,
+  "order": 341,
   "lines": [
    {
     "line_id": "E01-L410",
@@ -16344,7 +16109,7 @@
   "id": "E01-S23-004",
   "scene": "23",
   "act": "Act 4",
-  "order": 349,
+  "order": 342,
   "lines": [
    {
     "line_id": "E01-L411",
@@ -16389,7 +16154,7 @@
   "id": "E01-S23-005",
   "scene": "23",
   "act": "Act 4",
-  "order": 350,
+  "order": 343,
   "lines": [
    {
     "line_id": "E01-L412",
@@ -16440,7 +16205,7 @@
   "id": "E01-S24-001",
   "scene": "24",
   "act": "Act 4",
-  "order": 351,
+  "order": 344,
   "lines": [],
   "duration_s": 2.0,
   "type": "REAL_FOOTAGE",
@@ -16486,7 +16251,7 @@
   "id": "E01-S24-002",
   "scene": "24",
   "act": "Act 4",
-  "order": 352,
+  "order": 345,
   "lines": [
    {
     "line_id": "E01-L414",
@@ -16555,7 +16320,7 @@
   "id": "E01-S24-003",
   "scene": "24",
   "act": "Act 4",
-  "order": 353,
+  "order": 346,
   "lines": [],
   "duration_s": 1.6,
   "type": "SET_STILL",
@@ -16588,7 +16353,7 @@
   "id": "E01-S24-004",
   "scene": "24",
   "act": "Act 4",
-  "order": 354,
+  "order": 347,
   "lines": [
    {
     "line_id": "E01-L420",
@@ -16637,7 +16402,7 @@
   "id": "E01-S24-005",
   "scene": "24",
   "act": "Act 4",
-  "order": 355,
+  "order": 348,
   "lines": [
    {
     "line_id": "E01-L423",
@@ -16673,7 +16438,7 @@
   "id": "E01-S24-006",
   "scene": "24",
   "act": "Act 4",
-  "order": 356,
+  "order": 349,
   "lines": [],
   "duration_s": 1.4,
   "type": "SET_STILL",
@@ -16703,7 +16468,7 @@
   "id": "E01-S24-007",
   "scene": "24",
   "act": "Act 4",
-  "order": 357,
+  "order": 350,
   "lines": [],
   "duration_s": 8.0,
   "type": "SET_STILL",
@@ -16730,7 +16495,7 @@
   "id": "E01-S24-008",
   "scene": "24",
   "act": "Act 4",
-  "order": 358,
+  "order": 351,
   "lines": [
    {
     "line_id": "E01-L425",
@@ -16801,7 +16566,7 @@
   "id": "E01-S24-009",
   "scene": "24",
   "act": "Act 4",
-  "order": 359,
+  "order": 352,
   "lines": [
    {
     "line_id": "E01-L427",
@@ -16850,7 +16615,7 @@
   "id": "E01-S24-010",
   "scene": "24",
   "act": "Act 4",
-  "order": 360,
+  "order": 353,
   "lines": [
    {
     "line_id": "E01-L427",
@@ -16894,7 +16659,7 @@
   "id": "E01-S24-011",
   "scene": "24",
   "act": "Act 4",
-  "order": 361,
+  "order": 354,
   "lines": [
    {
     "line_id": "E01-L428",
@@ -16903,43 +16668,7 @@
     "text": "Your radio's off.",
     "part": null,
     "seconds": 1.02
-   }
-  ],
-  "duration_s": 1.6,
-  "type": "CHARACTER_STILL",
-  "description": "Lucía from behind: 'Your radio's off.'",
-  "camera": "hold",
-  "motion": "none",
-  "characters": [
-   {
-    "id": "lucia",
-    "mouth_visible": false,
-    "speaking_in_shot": true,
-    "needs_mouth_patch": false
-   }
-  ],
-  "needs_mouth_patch": false,
-  "image_source": "REUSE of E01-J058 (new crop/move/grade)",
-  "library_assets": [
-   "assets/characters/lucia/master.jpg",
-   "assets/sets/postchaise/cab.jpg",
-   "$SU_WORK/E01/stills/e01-j058_lucia_driving_from_behind.png (from E01-J058)"
-  ],
-  "real_footage": "none",
-  "new_image_job": null,
-  "compositing": "Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). Any text, numbers or tags added in code.",
-  "sound": "Vacuum outside: score only (C1 chase); cab interior dry.",
-  "risk": {
-   "level": "low",
-   "reason": "library reuse, no faces speaking"
-  }
- },
- {
-  "id": "E01-S24-012",
-  "scene": "24",
-  "act": "Act 4",
-  "order": 362,
-  "lines": [
+   },
    {
     "line_id": "E01-L429",
     "speaker": "BARON",
@@ -16949,11 +16678,11 @@
     "seconds": 4.29
    }
   ],
-  "duration_s": 4.9,
+  "duration_s": 6.4,
   "type": "CHARACTER_STILL",
-  "description": "'They are not worthy of the words.'",
-  "camera": "hold",
-  "motion": "none",
+  "description": "'Your radio's off.' 'They are not worthy of the words.'",
+  "camera": "slow push-in 3%",
+  "motion": "fist lowers (warp)",
   "characters": [
    {
     "id": "baron",
@@ -16979,10 +16708,10 @@
   }
  },
  {
-  "id": "E01-S24-013",
+  "id": "E01-S24-012",
   "scene": "24",
   "act": "Act 4",
-  "order": 363,
+  "order": 355,
   "lines": [],
   "duration_s": 2.0,
   "type": "INSERT",
@@ -17011,10 +16740,10 @@
   }
  },
  {
-  "id": "E01-S24-014",
+  "id": "E01-S24-013",
   "scene": "24",
   "act": "Act 4",
-  "order": 364,
+  "order": 356,
   "lines": [
    {
     "line_id": "E01-L430",
@@ -17053,10 +16782,10 @@
   }
  },
  {
-  "id": "E01-S24-015",
+  "id": "E01-S24-014",
   "scene": "24",
   "act": "Act 4",
-  "order": 365,
+  "order": 357,
   "lines": [],
   "duration_s": 2.2,
   "type": "SET_STILL",
@@ -17083,7 +16812,7 @@
   "id": "E01-S25-001",
   "scene": "25",
   "act": "Act 4",
-  "order": 366,
+  "order": 358,
   "lines": [
    {
     "line_id": "E01-L432",
@@ -17146,7 +16875,7 @@
   "id": "E01-S25-002",
   "scene": "25",
   "act": "Act 4",
-  "order": 367,
+  "order": 359,
   "lines": [],
   "duration_s": 1.3,
   "type": "INSERT",
@@ -17173,7 +16902,7 @@
   "id": "E01-S25-003",
   "scene": "25",
   "act": "Act 4",
-  "order": 368,
+  "order": 360,
   "lines": [
    {
     "line_id": "E01-L433",
@@ -17182,13 +16911,21 @@
     "text": "Yes.",
     "part": null,
     "seconds": 0.68
+   },
+   {
+    "line_id": "E01-L434",
+    "speaker": "NOAKES",
+    "tags": "CONT'D",
+    "text": "No, that's its name.",
+    "part": null,
+    "seconds": 1.32
    }
   ],
-  "duration_s": 2.6,
+  "duration_s": 5.7,
   "type": "SET_STILL",
-  "description": "'Yes.' Nothing.",
-  "camera": "hold",
-  "motion": "none",
+  "description": "'Yes.' Nothing. 'No, that's its name.' Nothing.",
+  "camera": "very slow push-in 3%",
+  "motion": "console screen spinner (code)",
   "characters": [
    {
     "id": "noakes",
@@ -17225,40 +16962,7 @@
   "id": "E01-S25-004",
   "scene": "25",
   "act": "Act 4",
-  "order": 369,
-  "lines": [
-   {
-    "line_id": "E01-L434",
-    "speaker": "NOAKES",
-    "tags": "CONT'D",
-    "text": "No, that's its name.",
-    "part": null,
-    "seconds": 1.32
-   }
-  ],
-  "duration_s": 3.2,
-  "type": "DATA_VISUAL",
-  "description": "The console screen: HOLDING… Nothing.",
-  "camera": "hold",
-  "motion": "spinner",
-  "characters": [],
-  "needs_mouth_patch": false,
-  "image_source": "BUILT IN CODE",
-  "library_assets": [],
-  "real_footage": "none",
-  "new_image_job": null,
-  "compositing": "Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). Any text, numbers or tags added in code.",
-  "sound": "Hall hush; clock tick; C4 tension.",
-  "risk": {
-   "level": "low",
-   "reason": "library reuse, no faces speaking"
-  }
- },
- {
-  "id": "E01-S25-005",
-  "scene": "25",
-  "act": "Act 4",
-  "order": 370,
+  "order": 361,
   "lines": [
    {
     "line_id": "E01-L435",
@@ -17304,10 +17008,10 @@
   }
  },
  {
-  "id": "E01-S25-006",
+  "id": "E01-S25-005",
   "scene": "25",
   "act": "Act 4",
-  "order": 371,
+  "order": 362,
   "lines": [
    {
     "line_id": "E01-L436",
@@ -17353,10 +17057,10 @@
   }
  },
  {
-  "id": "E01-S25-007",
+  "id": "E01-S25-006",
   "scene": "25",
   "act": "Act 4",
-  "order": 372,
+  "order": 363,
   "lines": [
    {
     "line_id": "E01-L437",
@@ -17365,43 +17069,7 @@
     "text": "What are you saving them for?",
     "part": null,
     "seconds": 1.49
-   }
-  ],
-  "duration_s": 2.1,
-  "type": "CHARACTER_STILL",
-  "description": "Mira.",
-  "camera": "hold",
-  "motion": "none",
-  "characters": [
-   {
-    "id": "mira",
-    "mouth_visible": false,
-    "speaking_in_shot": true,
-    "needs_mouth_patch": false
-   }
-  ],
-  "needs_mouth_patch": false,
-  "image_source": "REUSE of E01-J142 (new crop/move/grade)",
-  "library_assets": [
-   "assets/characters/mira/master.jpg",
-   "assets/sets/customs/clamp-console.jpg",
-   "$SU_WORK/E01/stills/e01-j142_mira_console_back34.png (from E01-J142)"
-  ],
-  "real_footage": "none",
-  "new_image_job": null,
-  "compositing": "Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). Any text, numbers or tags added in code.",
-  "sound": "Hall hush; clock tick; C4 tension.",
-  "risk": {
-   "level": "low",
-   "reason": "library reuse, no faces speaking"
-  }
- },
- {
-  "id": "E01-S25-008",
-  "scene": "25",
-  "act": "Act 4",
-  "order": 373,
-  "lines": [
+   },
    {
     "line_id": "E01-L438",
     "speaker": "NOAKES",
@@ -17411,9 +17079,9 @@
     "seconds": 1.18
    }
   ],
-  "duration_s": 1.8,
+  "duration_s": 3.8,
   "type": "CHARACTER_STILL",
-  "description": "Noakes: 'My retirement.'",
+  "description": "Noakes on the headset: 'What are you saving them for?' 'My retirement.'",
   "camera": "hold",
   "motion": "none",
   "characters": [
@@ -17441,10 +17109,10 @@
   }
  },
  {
-  "id": "E01-S25-009",
+  "id": "E01-S25-007",
   "scene": "25",
   "act": "Act 4",
-  "order": 374,
+  "order": 364,
   "lines": [],
   "duration_s": 1.4,
   "type": "INSERT",
@@ -17473,10 +17141,10 @@
   }
  },
  {
-  "id": "E01-S25-010",
+  "id": "E01-S25-008",
   "scene": "25",
   "act": "Act 4",
-  "order": 375,
+  "order": 365,
   "lines": [],
   "duration_s": 1.3,
   "type": "INSERT",
@@ -17500,10 +17168,10 @@
   }
  },
  {
-  "id": "E01-S25-011",
+  "id": "E01-S25-009",
   "scene": "25",
   "act": "Act 4",
-  "order": 376,
+  "order": 366,
   "lines": [
    {
     "line_id": "E01-L439",
@@ -17552,10 +17220,10 @@
   }
  },
  {
-  "id": "E01-S25-012",
+  "id": "E01-S25-010",
   "scene": "25",
   "act": "Act 4",
-  "order": 377,
+  "order": 367,
   "lines": [
    {
     "line_id": "E01-L441",
@@ -17597,10 +17265,10 @@
   }
  },
  {
-  "id": "E01-S25-013",
+  "id": "E01-S25-011",
   "scene": "25",
   "act": "Act 4",
-  "order": 378,
+  "order": 368,
   "lines": [
    {
     "line_id": "E01-L441",
@@ -17641,10 +17309,10 @@
   }
  },
  {
-  "id": "E01-S25-014",
+  "id": "E01-S25-012",
   "scene": "25",
   "act": "Act 4",
-  "order": 379,
+  "order": 369,
   "lines": [
    {
     "line_id": "E01-L442",
@@ -17686,10 +17354,10 @@
   }
  },
  {
-  "id": "E01-S25-015",
+  "id": "E01-S25-013",
   "scene": "25",
   "act": "Act 4",
-  "order": 380,
+  "order": 370,
   "lines": [
    {
     "line_id": "E01-L443",
@@ -17719,10 +17387,10 @@
   }
  },
  {
-  "id": "E01-S25-016",
+  "id": "E01-S25-014",
   "scene": "25",
   "act": "Act 4",
-  "order": 381,
+  "order": 371,
   "lines": [
    {
     "line_id": "E01-L444",
@@ -17731,43 +17399,7 @@
     "text": "And until Earth says yes?",
     "part": null,
     "seconds": 1.65
-   }
-  ],
-  "duration_s": 2.2,
-  "type": "CHARACTER_STILL",
-  "description": "Mira: 'And until Earth says yes?'",
-  "camera": "hold",
-  "motion": "none",
-  "characters": [
-   {
-    "id": "mira",
-    "mouth_visible": false,
-    "speaking_in_shot": true,
-    "needs_mouth_patch": false
-   }
-  ],
-  "needs_mouth_patch": false,
-  "image_source": "REUSE of E01-J142 (new crop/move/grade)",
-  "library_assets": [
-   "assets/characters/mira/master.jpg",
-   "assets/sets/customs/clamp-console.jpg",
-   "$SU_WORK/E01/stills/e01-j142_mira_console_back34.png (from E01-J142)"
-  ],
-  "real_footage": "none",
-  "new_image_job": null,
-  "compositing": "Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). Any text, numbers or tags added in code.",
-  "sound": "Hall hush; clock tick; C4 tension.",
-  "risk": {
-   "level": "low",
-   "reason": "library reuse, no faces speaking"
-  }
- },
- {
-  "id": "E01-S25-017",
-  "scene": "25",
-  "act": "Act 4",
-  "order": 382,
-  "lines": [
+   },
    {
     "line_id": "E01-L445",
     "speaker": "NOAKES",
@@ -17777,10 +17409,10 @@
     "seconds": 2.82
    }
   ],
-  "duration_s": 3.4,
+  "duration_s": 5.6,
   "type": "CHARACTER_STILL",
-  "description": "Noakes: 'nothing has happened.'",
-  "camera": "hold",
+  "description": "Noakes: 'Until Earth says yes, Dr Sen, nothing has happened.'",
+  "camera": "slow push-in 3%",
   "motion": "none",
   "characters": [
    {
@@ -17807,10 +17439,10 @@
   }
  },
  {
-  "id": "E01-S25-018",
+  "id": "E01-S25-015",
   "scene": "25",
   "act": "Act 4",
-  "order": 383,
+  "order": 372,
   "lines": [],
   "duration_s": 2.0,
   "type": "INSERT",
@@ -17843,7 +17475,7 @@
   "id": "E01-S26-001",
   "scene": "26",
   "act": "Act 4",
-  "order": 384,
+  "order": 373,
   "lines": [
    {
     "line_id": "E01-L447",
@@ -17906,7 +17538,7 @@
   "id": "E01-S26-002",
   "scene": "26",
   "act": "Act 4",
-  "order": 385,
+  "order": 374,
   "lines": [
    {
     "line_id": "E01-L451",
@@ -17980,7 +17612,7 @@
   "id": "E01-S26-003",
   "scene": "26",
   "act": "Act 4",
-  "order": 386,
+  "order": 375,
   "lines": [],
   "duration_s": 1.0,
   "type": "SET_STILL",
@@ -18006,7 +17638,7 @@
   "id": "E01-S26-004",
   "scene": "26",
   "act": "Act 4",
-  "order": 387,
+  "order": 376,
   "lines": [
    {
     "line_id": "E01-L454",
@@ -18039,7 +17671,7 @@
   "id": "E01-S26-005",
   "scene": "26",
   "act": "Act 4",
-  "order": 388,
+  "order": 377,
   "lines": [],
   "duration_s": 2.4,
   "type": "SET_STILL",
@@ -18069,7 +17701,7 @@
   "id": "E01-S27-001",
   "scene": "27",
   "act": "Act 4",
-  "order": 389,
+  "order": 378,
   "lines": [],
   "duration_s": 2.0,
   "type": "CHARACTER_STILL",
@@ -18123,7 +17755,7 @@
   "id": "E01-S27-002",
   "scene": "27",
   "act": "Act 4",
-  "order": 390,
+  "order": 379,
   "lines": [
    {
     "line_id": "E01-L456",
@@ -18164,7 +17796,7 @@
   "id": "E01-S27-003",
   "scene": "27",
   "act": "Act 4",
-  "order": 391,
+  "order": 380,
   "lines": [
    {
     "line_id": "E01-L457",
@@ -18210,7 +17842,7 @@
   "id": "E01-S27-004",
   "scene": "27",
   "act": "Act 4",
-  "order": 392,
+  "order": 381,
   "lines": [
    {
     "line_id": "E01-L458",
@@ -18262,7 +17894,7 @@
   "id": "E01-S27-005",
   "scene": "27",
   "act": "Act 4",
-  "order": 393,
+  "order": 382,
   "lines": [],
   "duration_s": 1.6,
   "type": "INSERT",
@@ -18289,7 +17921,7 @@
   "id": "E01-S27-006",
   "scene": "27",
   "act": "Act 4",
-  "order": 394,
+  "order": 383,
   "lines": [
    {
     "line_id": "E01-L460",
@@ -18338,7 +17970,7 @@
   "id": "E01-S27-007",
   "scene": "27",
   "act": "Act 4",
-  "order": 395,
+  "order": 384,
   "lines": [
    {
     "line_id": "E01-L462",
@@ -18396,7 +18028,7 @@
   "id": "E01-S27-008",
   "scene": "27",
   "act": "Act 4",
-  "order": 396,
+  "order": 385,
   "lines": [
    {
     "line_id": "E01-L463",
@@ -18429,7 +18061,7 @@
   "id": "E01-S27-009",
   "scene": "27",
   "act": "Act 4",
-  "order": 397,
+  "order": 386,
   "lines": [
    {
     "line_id": "E01-L464",
@@ -18475,7 +18107,7 @@
   "id": "E01-S27-010",
   "scene": "27",
   "act": "Act 4",
-  "order": 398,
+  "order": 387,
   "lines": [
    {
     "line_id": "E01-L465",
@@ -18508,7 +18140,7 @@
   "id": "E01-S27-011",
   "scene": "27",
   "act": "Act 4",
-  "order": 399,
+  "order": 388,
   "lines": [],
   "duration_s": 1.0,
   "type": "INSERT",
@@ -18536,7 +18168,7 @@
   "id": "E01-S27-012",
   "scene": "27",
   "act": "Act 4",
-  "order": 400,
+  "order": 389,
   "lines": [
    {
     "line_id": "E01-L466",
@@ -18569,7 +18201,7 @@
   "id": "E01-S27-013",
   "scene": "27",
   "act": "Act 4",
-  "order": 401,
+  "order": 390,
   "lines": [
    {
     "line_id": "E01-L467",
@@ -18602,7 +18234,7 @@
   "id": "E01-S27-014",
   "scene": "27",
   "act": "Act 4",
-  "order": 402,
+  "order": 391,
   "lines": [
    {
     "line_id": "E01-L468",
@@ -18648,7 +18280,7 @@
   "id": "E01-S27-015",
   "scene": "27",
   "act": "Act 4",
-  "order": 403,
+  "order": 392,
   "lines": [
    {
     "line_id": "E01-L469",
@@ -18706,7 +18338,7 @@
   "id": "E01-S27-016",
   "scene": "27",
   "act": "Act 4",
-  "order": 404,
+  "order": 393,
   "lines": [
    {
     "line_id": "E01-L470",
@@ -18762,7 +18394,7 @@
   "id": "E01-S27-017",
   "scene": "27",
   "act": "Act 4",
-  "order": 405,
+  "order": 394,
   "lines": [
    {
     "line_id": "E01-L471",
@@ -18803,7 +18435,7 @@
   "id": "E01-S27-018",
   "scene": "27",
   "act": "Act 4",
-  "order": 406,
+  "order": 395,
   "lines": [
    {
     "line_id": "E01-L473",
@@ -18839,7 +18471,7 @@
   "id": "E01-S27-019",
   "scene": "27",
   "act": "Act 4",
-  "order": 407,
+  "order": 396,
   "lines": [
    {
     "line_id": "E01-L473",
@@ -18872,7 +18504,7 @@
   "id": "E01-S27-020",
   "scene": "27",
   "act": "Act 4",
-  "order": 408,
+  "order": 397,
   "lines": [
    {
     "line_id": "E01-L474",
@@ -18934,7 +18566,7 @@
   "id": "E01-S27-021",
   "scene": "27",
   "act": "Act 4",
-  "order": 409,
+  "order": 398,
   "lines": [],
   "duration_s": 1.4,
   "type": "CHARACTER_STILL",
@@ -18970,7 +18602,7 @@
   "id": "E01-S28-001",
   "scene": "28",
   "act": "Act 4",
-  "order": 410,
+  "order": 399,
   "lines": [
    {
     "line_id": "E01-L478",
@@ -19019,7 +18651,7 @@
   "id": "E01-S28-002",
   "scene": "28",
   "act": "Act 4",
-  "order": 411,
+  "order": 400,
   "lines": [
    {
     "line_id": "E01-L479",
@@ -19063,7 +18695,7 @@
   "id": "E01-S28-003",
   "scene": "28",
   "act": "Act 4",
-  "order": 412,
+  "order": 401,
   "lines": [],
   "duration_s": 1.4,
   "type": "INSERT",
@@ -19091,7 +18723,7 @@
   "id": "E01-S28-004",
   "scene": "28",
   "act": "Act 4",
-  "order": 413,
+  "order": 402,
   "lines": [],
   "duration_s": 1.0,
   "type": "DATA_VISUAL",
@@ -19115,7 +18747,7 @@
   "id": "E01-S28-005",
   "scene": "28",
   "act": "Act 4",
-  "order": 414,
+  "order": 403,
   "lines": [
    {
     "line_id": "E01-L481",
@@ -19152,7 +18784,7 @@
   "id": "E01-S28-006",
   "scene": "28",
   "act": "Act 4",
-  "order": 415,
+  "order": 404,
   "lines": [
    {
     "line_id": "E01-L482",
@@ -19196,7 +18828,7 @@
   "id": "E01-S28-007",
   "scene": "28",
   "act": "Act 4",
-  "order": 416,
+  "order": 405,
   "lines": [],
   "duration_s": 2.4,
   "type": "DATA_VISUAL",
@@ -19220,7 +18852,7 @@
   "id": "E01-S28-008",
   "scene": "28",
   "act": "Act 4",
-  "order": 417,
+  "order": 406,
   "lines": [
    {
     "line_id": "E01-L484",
@@ -19262,7 +18894,7 @@
   "id": "E01-S28-009",
   "scene": "28",
   "act": "Act 4",
-  "order": 418,
+  "order": 407,
   "lines": [
    {
     "line_id": "E01-L485",
@@ -19306,7 +18938,7 @@
   "id": "E01-S28-010",
   "scene": "28",
   "act": "Act 4",
-  "order": 419,
+  "order": 408,
   "lines": [],
   "duration_s": 2.0,
   "type": "INSERT",
@@ -19340,7 +18972,7 @@
   "id": "E01-S28-011",
   "scene": "28",
   "act": "Act 4",
-  "order": 420,
+  "order": 409,
   "lines": [],
   "duration_s": 2.4,
   "type": "INSERT",
@@ -19368,7 +19000,7 @@
   "id": "E01-S28-012",
   "scene": "28",
   "act": "Act 4",
-  "order": 421,
+  "order": 410,
   "lines": [
    {
     "line_id": "E01-L487",
@@ -19409,7 +19041,7 @@
   "id": "E01-S28-013",
   "scene": "28",
   "act": "Act 4",
-  "order": 422,
+  "order": 411,
   "lines": [
    {
     "line_id": "E01-L488",
@@ -19418,43 +19050,7 @@
     "text": "Where will you go?",
     "part": null,
     "seconds": 1.17
-   }
-  ],
-  "duration_s": 1.8,
-  "type": "CHARACTER_STILL",
-  "description": "Noakes: 'Where will you go?'",
-  "camera": "hold",
-  "motion": "none",
-  "characters": [
-   {
-    "id": "noakes",
-    "mouth_visible": false,
-    "speaking_in_shot": true,
-    "needs_mouth_patch": false
-   }
-  ],
-  "needs_mouth_patch": false,
-  "image_source": "REUSE of E01-J143 (new crop/move/grade)",
-  "library_assets": [
-   "assets/characters/noakes/master.jpg",
-   "assets/sets/customs/clamp-console.jpg",
-   "$SU_WORK/E01/stills/e01-j143_noakes_headset_back.png (from E01-J143)"
-  ],
-  "real_footage": "none",
-  "new_image_job": null,
-  "compositing": "Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). Any text, numbers or tags added in code.",
-  "sound": "Hall; silence at 1.3 s.",
-  "risk": {
-   "level": "low",
-   "reason": "library reuse, no faces speaking"
-  }
- },
- {
-  "id": "E01-S28-014",
-  "scene": "28",
-  "act": "Act 4",
-  "order": 423,
-  "lines": [
+   },
    {
     "line_id": "E01-L489",
     "speaker": "MIRA",
@@ -19472,9 +19068,9 @@
     "seconds": 2.08
    }
   ],
-  "duration_s": 4.2,
+  "duration_s": 5.9,
   "type": "INSERT",
-  "description": "She closes the notebook and puts it under her arm.",
+  "description": "'Where will you go?' She closes the notebook and puts it under her arm.",
   "camera": "hold",
   "motion": "cover closes",
   "characters": [],
@@ -19495,10 +19091,10 @@
   }
  },
  {
-  "id": "E01-S28-015",
+  "id": "E01-S28-014",
   "scene": "28",
   "act": "Act 4",
-  "order": 424,
+  "order": 412,
   "lines": [
    {
     "line_id": "E01-L491",
@@ -19547,7 +19143,7 @@
   "id": "E01-S29-001",
   "scene": "29",
   "act": "Act 4",
-  "order": 425,
+  "order": 413,
   "lines": [
    {
     "line_id": "E01-L493",
@@ -19592,7 +19188,7 @@
   "id": "E01-S29-002",
   "scene": "29",
   "act": "Act 4",
-  "order": 426,
+  "order": 414,
   "lines": [],
   "duration_s": 1.4,
   "type": "SET_STILL",
@@ -19633,7 +19229,7 @@
   "id": "E01-S29-003",
   "scene": "29",
   "act": "Act 4",
-  "order": 427,
+  "order": 415,
   "lines": [
    {
     "line_id": "E01-L494",
@@ -19670,7 +19266,7 @@
   "id": "E01-S29-004",
   "scene": "29",
   "act": "Act 4",
-  "order": 428,
+  "order": 416,
   "lines": [
    {
     "line_id": "E01-L495",
@@ -19728,7 +19324,7 @@
   "id": "E01-S29-005",
   "scene": "29",
   "act": "Act 4",
-  "order": 429,
+  "order": 417,
   "lines": [],
   "duration_s": 9.0,
   "type": "SET_STILL",
@@ -19769,7 +19365,7 @@
   "id": "E01-S29-006",
   "scene": "29",
   "act": "Act 4",
-  "order": 430,
+  "order": 418,
   "lines": [
    {
     "line_id": "E01-L498",
@@ -19814,7 +19410,7 @@
   "id": "E01-S29-007",
   "scene": "29",
   "act": "Act 4",
-  "order": 431,
+  "order": 419,
   "lines": [
    {
     "line_id": "E01-L500",
@@ -19863,7 +19459,7 @@
   "id": "E01-S29-008",
   "scene": "29",
   "act": "Act 4",
-  "order": 432,
+  "order": 420,
   "lines": [
    {
     "line_id": "E01-L502",
@@ -19908,7 +19504,7 @@
   "id": "E01-S29-009",
   "scene": "29",
   "act": "Act 4",
-  "order": 433,
+  "order": 421,
   "lines": [
    {
     "line_id": "E01-L503",
@@ -19952,7 +19548,7 @@
   "id": "E01-S29-010",
   "scene": "29",
   "act": "Act 4",
-  "order": 434,
+  "order": 422,
   "lines": [
    {
     "line_id": "E01-L504",
@@ -20001,7 +19597,7 @@
   "id": "E01-S29-011",
   "scene": "29",
   "act": "Act 4",
-  "order": 435,
+  "order": 423,
   "lines": [
    {
     "line_id": "E01-L505",
@@ -20065,7 +19661,7 @@
   "id": "E01-S29-012",
   "scene": "29",
   "act": "Act 4",
-  "order": 436,
+  "order": 424,
   "lines": [
    {
     "line_id": "E01-L507",
@@ -20074,12 +19670,20 @@
     "text": "There are nine sections.",
     "part": null,
     "seconds": 1.12
+   },
+   {
+    "line_id": "E01-L508",
+    "speaker": "MIRA",
+    "tags": "O.S.",
+    "text": "Which is why twelve is so exclusive.",
+    "part": null,
+    "seconds": 2.27
    }
   ],
-  "duration_s": 1.7,
+  "duration_s": 4.5,
   "type": "CHARACTER_STILL",
-  "description": "Jax's visor: 'There are nine sections.'",
-  "camera": "hold",
+  "description": "Jax's visor: 'There are nine sections.' 'Which is why twelve is so exclusive.'",
+  "camera": "slow push-in 3%",
   "motion": "none",
   "characters": [
    {
@@ -20109,52 +19713,7 @@
   "id": "E01-S29-013",
   "scene": "29",
   "act": "Act 4",
-  "order": 437,
-  "lines": [
-   {
-    "line_id": "E01-L508",
-    "speaker": "MIRA",
-    "tags": "O.S.",
-    "text": "Which is why twelve is so exclusive.",
-    "part": null,
-    "seconds": 2.27
-   }
-  ],
-  "duration_s": 2.9,
-  "type": "SET_STILL",
-  "description": "Mira at the ramp: 'Which is why twelve is so exclusive.'",
-  "camera": "push-in 3%",
-  "motion": "none",
-  "characters": [
-   {
-    "id": "mira",
-    "mouth_visible": false,
-    "speaking_in_shot": true,
-    "needs_mouth_patch": false
-   }
-  ],
-  "needs_mouth_patch": false,
-  "image_source": "REUSE of E01-J163 (new crop/move/grade)",
-  "library_assets": [
-   "assets/characters/mira/ref-suit-helmet.jpg",
-   "assets/sets/apron/master.jpg",
-   "assets/ship/master.jpg",
-   "$SU_WORK/E01/stills/e01-j163_mira_bound_2.png (from E01-J163)"
-  ],
-  "real_footage": "none",
-  "new_image_job": null,
-  "compositing": "Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). Any text, numbers or tags added in code.",
-  "sound": "Suit radios; vacuum; C1 chase; silence on the throw.",
-  "risk": {
-   "level": "low",
-   "reason": "library reuse, no faces speaking"
-  }
- },
- {
-  "id": "E01-S29-014",
-  "scene": "29",
-  "act": "Act 4",
-  "order": 438,
+  "order": 425,
   "lines": [
    {
     "line_id": "E01-L509",
@@ -20200,10 +19759,10 @@
   }
  },
  {
-  "id": "E01-S29-015",
+  "id": "E01-S29-014",
   "scene": "29",
   "act": "Act 4",
-  "order": 439,
+  "order": 426,
   "lines": [
    {
     "line_id": "E01-L510",
@@ -20251,10 +19810,10 @@
   }
  },
  {
-  "id": "E01-S29-016",
+  "id": "E01-S29-015",
   "scene": "29",
   "act": "Act 4",
-  "order": 440,
+  "order": 427,
   "lines": [
    {
     "line_id": "E01-L511",
@@ -20263,43 +19822,7 @@
     "text": "Baron, come on—",
     "part": null,
     "seconds": 0.86
-   }
-  ],
-  "duration_s": 1.5,
-  "type": "CHARACTER_STILL",
-  "description": "Jax's visor.",
-  "camera": "hold",
-  "motion": "none",
-  "characters": [
-   {
-    "id": "jax",
-    "mouth_visible": false,
-    "speaking_in_shot": true,
-    "needs_mouth_patch": false
-   }
-  ],
-  "needs_mouth_patch": false,
-  "image_source": "REUSE of E01-J115 (new crop/move/grade)",
-  "library_assets": [
-   "assets/characters/jax/ref-helmet.jpg",
-   "assets/characters/jax/master.jpg",
-   "$SU_WORK/E01/stills/e01-j115_jax_visor_close.png (from E01-J115)"
-  ],
-  "real_footage": "none",
-  "new_image_job": null,
-  "compositing": "Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). Any text, numbers or tags added in code.",
-  "sound": "Suit radios; vacuum; C1 chase; silence on the throw.",
-  "risk": {
-   "level": "low",
-   "reason": "library reuse, no faces speaking"
-  }
- },
- {
-  "id": "E01-S29-017",
-  "scene": "29",
-  "act": "Act 4",
-  "order": 441,
-  "lines": [
+   },
    {
     "line_id": "E01-L512",
     "speaker": "BARON",
@@ -20309,9 +19832,9 @@
     "seconds": 3.54
    }
   ],
-  "duration_s": 4.1,
+  "duration_s": 5.5,
   "type": "SET_STILL",
-  "description": "The Baron: 'Go to the far side.'",
+  "description": "'Baron, come on—' The Baron: 'Go to the far side.'",
   "camera": "push-in 4%",
   "motion": "none",
   "characters": [
@@ -20341,10 +19864,10 @@
   }
  },
  {
-  "id": "E01-S29-018",
+  "id": "E01-S29-016",
   "scene": "29",
   "act": "Act 4",
-  "order": 442,
+  "order": 428,
   "lines": [
    {
     "line_id": "E01-L513",
@@ -20393,10 +19916,10 @@
   }
  },
  {
-  "id": "E01-S29-019",
+  "id": "E01-S29-017",
   "scene": "29",
   "act": "Act 4",
-  "order": 443,
+  "order": 429,
   "lines": [
    {
     "line_id": "E01-L515",
@@ -20437,10 +19960,10 @@
   }
  },
  {
-  "id": "E01-S29-020",
+  "id": "E01-S29-018",
   "scene": "29",
   "act": "Act 4",
-  "order": 444,
+  "order": 430,
   "lines": [
    {
     "line_id": "E01-L516",
@@ -20499,10 +20022,10 @@
   }
  },
  {
-  "id": "E01-S29-021",
+  "id": "E01-S29-019",
   "scene": "29",
   "act": "Act 4",
-  "order": 445,
+  "order": 431,
   "lines": [],
   "duration_s": 2.4,
   "type": "INSERT",
@@ -20540,10 +20063,10 @@
   }
  },
  {
-  "id": "E01-S29-022",
+  "id": "E01-S29-020",
   "scene": "29",
   "act": "Act 4",
-  "order": 446,
+  "order": 432,
   "lines": [],
   "duration_s": 1.0,
   "type": "SET_STILL",
@@ -20576,10 +20099,10 @@
   }
  },
  {
-  "id": "E01-S29-023",
+  "id": "E01-S29-021",
   "scene": "29",
   "act": "Act 4",
-  "order": 447,
+  "order": 433,
   "lines": [
    {
     "line_id": "E01-L519",
@@ -20626,10 +20149,10 @@
   }
  },
  {
-  "id": "E01-S29-024",
+  "id": "E01-S29-022",
   "scene": "29",
   "act": "Act 4",
-  "order": 448,
+  "order": 434,
   "lines": [],
   "duration_s": 1.4,
   "type": "SET_STILL",
@@ -20654,10 +20177,10 @@
   }
  },
  {
-  "id": "E01-S29-025",
+  "id": "E01-S29-023",
   "scene": "29",
   "act": "Act 4",
-  "order": 449,
+  "order": 435,
   "lines": [],
   "duration_s": 5.0,
   "type": "SET_STILL",
@@ -20689,7 +20212,7 @@
   "id": "E01-S30-001",
   "scene": "30",
   "act": "Act 4",
-  "order": 450,
+  "order": 436,
   "lines": [],
   "duration_s": 2.0,
   "type": "DATA_VISUAL",
@@ -20713,7 +20236,7 @@
   "id": "E01-S30-002",
   "scene": "30",
   "act": "Act 4",
-  "order": 451,
+  "order": 437,
   "lines": [
    {
     "line_id": "E01-L522",
@@ -20804,7 +20327,7 @@
   "id": "E01-S30-003",
   "scene": "30",
   "act": "Act 4",
-  "order": 452,
+  "order": 438,
   "lines": [],
   "duration_s": 3.0,
   "type": "REAL_FOOTAGE",
@@ -20850,7 +20373,7 @@
   "id": "E01-S30-004",
   "scene": "30",
   "act": "Act 4",
-  "order": 453,
+  "order": 439,
   "lines": [],
   "duration_s": 1.4,
   "type": "DATA_VISUAL",
@@ -20883,7 +20406,7 @@
   "id": "E01-S30-005",
   "scene": "30",
   "act": "Act 4",
-  "order": 454,
+  "order": 440,
   "lines": [],
   "duration_s": 2.4,
   "type": "REAL_FOOTAGE",
@@ -20929,7 +20452,7 @@
   "id": "E01-S30-006",
   "scene": "30",
   "act": "Act 4",
-  "order": 455,
+  "order": 441,
   "lines": [
    {
     "line_id": "E01-L524",
@@ -20972,7 +20495,7 @@
   "id": "E01-S30-007",
   "scene": "30",
   "act": "Act 4",
-  "order": 456,
+  "order": 442,
   "lines": [],
   "duration_s": 2.4,
   "type": "SET_STILL",
@@ -21043,7 +20566,7 @@
   "id": "E01-S30-008",
   "scene": "30",
   "act": "Act 4",
-  "order": 457,
+  "order": 443,
   "lines": [
    {
     "line_id": "E01-L525",
@@ -21086,7 +20609,7 @@
   "id": "E01-S30-009",
   "scene": "30",
   "act": "Act 4",
-  "order": 458,
+  "order": 444,
   "lines": [
    {
     "line_id": "E01-L525",
@@ -21174,7 +20697,7 @@
   "id": "E01-S30-010",
   "scene": "30",
   "act": "Act 4",
-  "order": 459,
+  "order": 445,
   "lines": [
    {
     "line_id": "E01-L527",
@@ -21217,7 +20740,7 @@
   "id": "E01-S30-011",
   "scene": "30",
   "act": "Act 4",
-  "order": 460,
+  "order": 446,
   "lines": [
    {
     "line_id": "E01-L528",
@@ -21266,7 +20789,7 @@
   "id": "E01-S30-012",
   "scene": "30",
   "act": "Act 4",
-  "order": 461,
+  "order": 447,
   "lines": [
    {
     "line_id": "E01-L529",
@@ -21318,7 +20841,7 @@
   "id": "E01-S30-013",
   "scene": "30",
   "act": "Act 4",
-  "order": 462,
+  "order": 448,
   "lines": [
    {
     "line_id": "E01-L531",
@@ -21406,7 +20929,7 @@
   "id": "E01-S30-014",
   "scene": "30",
   "act": "Act 4",
-  "order": 463,
+  "order": 449,
   "lines": [],
   "duration_s": 1.4,
   "type": "CHARACTER_STILL",
@@ -21446,7 +20969,7 @@
   "id": "E01-S30-015",
   "scene": "30",
   "act": "Act 4",
-  "order": 464,
+  "order": 450,
   "lines": [],
   "duration_s": 1.0,
   "type": "INSERT",
@@ -21473,7 +20996,7 @@
   "id": "E01-S30-016",
   "scene": "30",
   "act": "Act 4",
-  "order": 465,
+  "order": 451,
   "lines": [
    {
     "line_id": "E01-L534",
@@ -21516,7 +21039,7 @@
   "id": "E01-S30-017",
   "scene": "30",
   "act": "Act 4",
-  "order": 466,
+  "order": 452,
   "lines": [
    {
     "line_id": "E01-L535",
@@ -21560,7 +21083,7 @@
   "id": "E01-S30-018",
   "scene": "30",
   "act": "Act 4",
-  "order": 467,
+  "order": 453,
   "lines": [
    {
     "line_id": "E01-L536",
@@ -21640,7 +21163,7 @@
   "id": "E01-S30-019",
   "scene": "30",
   "act": "Act 4",
-  "order": 468,
+  "order": 454,
   "lines": [],
   "duration_s": 3.0,
   "type": "REAL_FOOTAGE",
@@ -21686,7 +21209,7 @@
   "id": "E01-S30-020",
   "scene": "30",
   "act": "Act 4",
-  "order": 469,
+  "order": 455,
   "lines": [
    {
     "line_id": "E01-L537",
@@ -21729,7 +21252,7 @@
   "id": "E01-S30-021",
   "scene": "30",
   "act": "Act 4",
-  "order": 470,
+  "order": 456,
   "lines": [
    {
     "line_id": "E01-L537",
@@ -21809,7 +21332,7 @@
   "id": "E01-S30-022",
   "scene": "30",
   "act": "Act 4",
-  "order": 471,
+  "order": 457,
   "lines": [
    {
     "line_id": "E01-L538",
@@ -21867,7 +21390,7 @@
   "id": "E01-S30-023",
   "scene": "30",
   "act": "Act 4",
-  "order": 472,
+  "order": 458,
   "lines": [],
   "duration_s": 3.4,
   "type": "DATA_VISUAL",
@@ -21891,7 +21414,7 @@
   "id": "E01-S30-024",
   "scene": "30",
   "act": "Act 4",
-  "order": 473,
+  "order": 459,
   "lines": [
    {
     "line_id": "E01-L541",
@@ -21946,7 +21469,7 @@
   "id": "E01-S30-025",
   "scene": "30",
   "act": "Act 4",
-  "order": 474,
+  "order": 460,
   "lines": [
    {
     "line_id": "E01-L542",
@@ -22001,7 +21524,7 @@
   "id": "E01-S30-026",
   "scene": "30",
   "act": "Act 4",
-  "order": 475,
+  "order": 461,
   "lines": [
    {
     "line_id": "E01-L543",
@@ -22049,7 +21572,7 @@
   "id": "E01-S31-001",
   "scene": "31",
   "act": "Tag",
-  "order": 476,
+  "order": 462,
   "lines": [
    {
     "line_id": "E01-L546",
@@ -22114,7 +21637,7 @@
   "id": "E01-S31-002",
   "scene": "31",
   "act": "Tag",
-  "order": 477,
+  "order": 463,
   "lines": [],
   "duration_s": 1.0,
   "type": "INSERT",
@@ -22146,7 +21669,7 @@
   "id": "E01-S31-003",
   "scene": "31",
   "act": "Tag",
-  "order": 478,
+  "order": 464,
   "lines": [],
   "duration_s": 1.0,
   "type": "INSERT",
@@ -22174,7 +21697,7 @@
   "id": "E01-S31-004",
   "scene": "31",
   "act": "Tag",
-  "order": 479,
+  "order": 465,
   "lines": [],
   "duration_s": 2.2,
   "type": "INSERT",
@@ -22207,7 +21730,7 @@
   "id": "E01-S31-005",
   "scene": "31",
   "act": "Tag",
-  "order": 480,
+  "order": 466,
   "lines": [],
   "duration_s": 2.4,
   "type": "INSERT",
@@ -22235,7 +21758,7 @@
   "id": "E01-S31-006",
   "scene": "31",
   "act": "Tag",
-  "order": 481,
+  "order": 467,
   "lines": [],
   "duration_s": 1.6,
   "type": "INSERT",
@@ -22261,7 +21784,7 @@
   "id": "E01-S31-007",
   "scene": "31",
   "act": "Tag",
-  "order": 482,
+  "order": 468,
   "lines": [],
   "duration_s": 3.0,
   "type": "INSERT",
@@ -22295,7 +21818,7 @@
   "id": "E01-S31-008",
   "scene": "31",
   "act": "Tag",
-  "order": 483,
+  "order": 469,
   "lines": [],
   "duration_s": 2.6,
   "type": "INSERT",
@@ -22335,7 +21858,7 @@
   "id": "E01-S31-009",
   "scene": "31",
   "act": "Tag",
-  "order": 484,
+  "order": 470,
   "lines": [
    {
     "line_id": "E01-L549",
@@ -22378,7 +21901,7 @@
   "id": "E01-S31-010",
   "scene": "31",
   "act": "Tag",
-  "order": 485,
+  "order": 471,
   "lines": [
    {
     "line_id": "E01-L550",
@@ -22435,7 +21958,7 @@
   "id": "E01-S31-011",
   "scene": "31",
   "act": "Tag",
-  "order": 486,
+  "order": 472,
   "lines": [
    {
     "line_id": "E01-L552",
@@ -22495,7 +22018,7 @@
   "id": "E01-S31-012",
   "scene": "31",
   "act": "Tag",
-  "order": 487,
+  "order": 473,
   "lines": [],
   "duration_s": 1.4,
   "type": "DATA_VISUAL",
@@ -22519,7 +22042,7 @@
   "id": "E01-S31-013",
   "scene": "31",
   "act": "Tag",
-  "order": 488,
+  "order": 474,
   "lines": [
    {
     "line_id": "E01-L555",
@@ -22563,7 +22086,7 @@
   "id": "E01-S31-014",
   "scene": "31",
   "act": "Tag",
-  "order": 489,
+  "order": 475,
   "lines": [
    {
     "line_id": "E01-L556",
@@ -22614,7 +22137,7 @@
   "id": "E01-S31-015",
   "scene": "31",
   "act": "Tag",
-  "order": 490,
+  "order": 476,
   "lines": [
    {
     "line_id": "E01-L558",
@@ -22651,7 +22174,7 @@
   "id": "E01-S31-016",
   "scene": "31",
   "act": "Tag",
-  "order": 491,
+  "order": 477,
   "lines": [],
   "duration_s": 4.2,
   "type": "DATA_VISUAL",
@@ -22675,7 +22198,7 @@
   "id": "E01-S31-017",
   "scene": "31",
   "act": "Tag",
-  "order": 492,
+  "order": 478,
   "lines": [],
   "duration_s": 1.2,
   "type": "BLACK",
@@ -22699,7 +22222,7 @@
   "id": "E01-SWWR-001",
   "scene": "WWR",
   "act": "What was real",
-  "order": 493,
+  "order": 479,
   "lines": [
    {
     "line_id": "E01-L561",
@@ -22754,7 +22277,7 @@
   "id": "E01-SWWR-002",
   "scene": "WWR",
   "act": "What was real",
-  "order": 494,
+  "order": 480,
   "lines": [
    {
     "line_id": "E01-L561",
@@ -22809,7 +22332,7 @@
   "id": "E01-SWWR-003",
   "scene": "WWR",
   "act": "What was real",
-  "order": 495,
+  "order": 481,
   "lines": [
    {
     "line_id": "E01-L561",
@@ -22857,7 +22380,7 @@
   "id": "E01-SEND-001",
   "scene": "END",
   "act": "What was real",
-  "order": 496,
+  "order": 482,
   "lines": [],
   "duration_s": 5.0,
   "type": "TITLE",

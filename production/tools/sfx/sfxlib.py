@@ -251,6 +251,12 @@ def reverb(x, R, rt60=2.0, wet=0.3, damp=6000, pre=0.012, tilt=1.0, tail=True):
     return dry * (1 - wet) + wetx * wet
 
 
+def circ(fn, x):
+    """apply a causal filter function to an exactly periodic loop without a start transient"""
+    L = len(x)
+    return fn(np.tile(x, (3, 1)) if x.ndim == 2 else np.tile(x, 3))[L:2 * L]
+
+
 def periodic_reverb(x, R, rt60, wet, damp=5000):
     """reverb of an exactly periodic loop: tile x three times, convolve, take the middle
     copy -> the result is itself an exact loop (steady-state response)."""
@@ -329,6 +335,7 @@ def finish(x, loop, fade_in, fade_out, peak_db=-6.0):
         if fo:
             e[-fo:] = np.linspace(1, 0, fo) ** 1.5
         x = x * (e[:, None] if x.ndim == 2 else e)
+        x = x - x.mean(axis=0)
     pk = np.abs(x).max()
     x = x * (10 ** (peak_db / 20) / max(pk, 1e-12))
     return x
