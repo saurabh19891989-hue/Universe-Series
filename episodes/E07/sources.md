@@ -48,10 +48,9 @@ salt tallies, Carmen as the planner and guarantor, the throw, the brine, Mattias
   own way of giving a receipt and **the Sky-god is never named, shown, quoted as a character or
   joked about**; "I bought every story… for a price" is as near as the script goes. Nyame stays
   off-screen, as canon requires.
-- **Not taken:** the four captures themselves as scenes (python, leopard, hornets, fairy are named
-  only in passing: "the python, the hornets, the doll" was cut to keep him brief); any picture-book,
-  novel, comic, film or television Anansi; in particular nothing of the suited, hatted American
-  "Mr Nancy".
+- **Not taken:** the four captures themselves (python, leopard, hornets, fairy) are not staged;
+  only the leopard is named, in the tiger correction. No picture-book, novel, comic, film or
+  television Anansi; in particular nothing of the suited, hatted American "Mr Nancy".
 
 ## 2. Akan tradition (Gold Coast), W. H. Barker and Cecilia Sinclair, *West African Folk-Tales* (London: Harrap, 1917) — card 11
 - **Edition (read by the library):** tales I–III. US public domain (1917).

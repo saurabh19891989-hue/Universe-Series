@@ -1,0 +1,151 @@
+{
+ "1-cold-open-and-act1": {
+  "window": [
+   135.4,
+   315.4
+  ],
+  "lines_in_window": 65,
+  "wer_vs_script_text": 0.0536,
+  "errors_vs_script_text": [
+   "delete: 'who' -> ''",
+   "insert: '' -> 'one thousand'",
+   "substitute: 'fourteen oh' -> 'four hundred'",
+   "insert: '' -> 'one thousand four'",
+   "substitute: 'fourteen' -> 'hundred'",
+   "substitute: 'none' -> 'nont'",
+   "substitute: 'that' -> 'there'",
+   "substitute: 'bay' -> 'bait'",
+   "insert: '' -> 'they'",
+   "substitute: 'they're' -> 'are'",
+   "substitute: 'a' -> 'one'",
+   "delete: 'and' -> ''",
+   "substitute: 'miss' -> 'ms'",
+   "substitute: 'chich chicha' -> 'chitcha chitcha'",
+   "substitute: 'lot' -> 'not'",
+   "insert: '' -> 'here on a'",
+   "substitute: 'hieronymus karl' -> 'ms carl'",
+   "substitute: 'hussar' -> 'huzzah'"
+  ],
+  "ref_words": 485,
+  "counts": {
+   "sub": 15,
+   "ins": 9,
+   "dele": 2
+  },
+  "wer_vs_spoken_respelling": 0.0597
+ },
+ "2-act2": {
+  "window": [
+   125.3,
+   305.4
+  ],
+  "lines_in_window": 50,
+  "wer_vs_script_text": 0.062,
+  "errors_vs_script_text": [
+   "substitute: 'drawer' -> 'draw'",
+   "substitute: 'voss' -> 'vos'",
+   "substitute: 'man' -> 'man's'",
+   "substitute: 'oczakow' -> 'ochikov'",
+   "insert: '' -> 'it's'",
+   "substitute: 'metres' -> 'meters'",
+   "substitute: 'stories' -> 'story's'",
+   "substitute: 'se' -> 'senorita'",
+   "delete: 'orita' -> ''",
+   "substitute: 'postilion' -> 'pustillion'",
+   "substitute: 'tunes' -> 'toons'",
+   "insert: '' -> 'it's'",
+   "substitute: 'postilion' -> 'pustillion'",
+   "insert: '' -> 'there was a pustillion in it long ago he played very well and it was very'"
+  ],
+  "ref_words": 468,
+  "counts": {
+   "sub": 10,
+   "ins": 18,
+   "dele": 1
+  },
+  "wer_vs_spoken_respelling": 0.0621
+ },
+ "3-act3": {
+  "window": [
+   106.6,
+   286.6
+  ],
+  "lines_in_window": 51,
+  "wer_vs_script_text": 0.0464,
+  "errors_vs_script_text": [
+   "substitute: 'ceres' -> 'series'",
+   "substitute: 'lucha' -> 'lucia'",
+   "substitute: 'owed' -> 'old'",
+   "substitute: 'promise' -> 'promised'",
+   "substitute: 'you'd' -> 'you'",
+   "insert: '' -> 'do'",
+   "substitute: 'oczakow' -> 'ochikov'",
+   "insert: '' -> 'a'",
+   "substitute: 'astride' -> 'stride'",
+   "insert: '' -> 'change'",
+   "substitute: 'changed cannonballs' -> 'cannon balls'",
+   "substitute: 'mid' -> 'midair'",
+   "delete: 'air' -> ''",
+   "insert: '' -> 'do'",
+   "insert: '' -> 'do'",
+   "substitute: 'to' -> 'two'",
+   "substitute: 'and' -> 'an'",
+   "insert: '' -> 'welcome back baron listed voss heritage sh'"
+  ],
+  "ref_words": 539,
+  "counts": {
+   "sub": 12,
+   "ins": 12,
+   "dele": 1
+  },
+  "wer_vs_spoken_respelling": 0.0482
+ },
+ "4-act4-and-tag": {
+  "window": [
+   130.6,
+   310.6
+  ],
+  "lines_in_window": 66,
+  "wer_vs_script_text": 0.0806,
+  "errors_vs_script_text": [
+   "delete: 'pip' -> ''",
+   "substitute: 'jax' -> 'jacks'",
+   "substitute: 'metre' -> 'meter'",
+   "substitute: 'metres' -> 'meters'",
+   "substitute: 'kilometres' -> 'kilometers'",
+   "insert: '' -> 'note'",
+   "substitute: 'noted' -> 'it'",
+   "substitute: 'metres' -> 'meters'",
+   "substitute: 'boulder' -> 'bolder'",
+   "substitute: 'luc' -> 'lucia's'",
+   "delete: 'a's' -> ''",
+   "substitute: 'metres' -> 'meters'",
+   "insert: '' -> 'it's'",
+   "substitute: 'madam' -> 'madame'",
+   "substitute: 'i'm a' -> 'zyma cartographers'",
+   "delete: 'cartographer' -> ''",
+   "insert: '' -> 'they'",
+   "substitute: 'they're' -> 'are'",
+   "insert: '' -> 'they'",
+   "substitute: 'they're' -> 'are'",
+   "insert: '' -> 'eh'",
+   "substitute: 'metres' -> 'meters'",
+   "substitute: 'lunar' -> 'lunakuria'",
+   "delete: 'courier' -> ''",
+   "substitute: 'a hatchet' -> 'hatch it'",
+   "substitute: 'baron come' -> 'bearing command'",
+   "delete: 'on' -> ''",
+   "substitute: 'side' -> 'aside'",
+   "substitute: 'what' -> 'well'",
+   "substitute: 'know' -> 'now'",
+   "insert: '' -> 'ms ortega is owed eight months'"
+  ],
+  "ref_words": 484,
+  "counts": {
+   "sub": 23,
+   "ins": 11,
+   "dele": 5
+  },
+  "wer_vs_spoken_respelling": 0.0936
+ }
+}
