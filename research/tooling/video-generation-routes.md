@@ -66,3 +66,21 @@ temporary machine, never in the repo).
   a browser already signed in to the owner's Google account; Google's terms on that are unread.
 - **Text models on the plan**, usable headless: possible extra writing/critic capacity.
 - Headless runs cannot approve shell commands; do not use `--dangerously-skip-permissions`.
+
+## Flow test result (owner ran six clips on AI Pro, 27 Nov night; checked by frames)
+- Six 8-second clips from our approved stills, Omni Flash 1.2, 720p (three upscaled to 1080p).
+  144 credits = 24 a clip, as the help page says. Owner had 906 monthly credits left afterwards.
+- Motion: natural acting and camera moves; no duplicated or frozen frames (frame-difference check);
+  faces hold from first to last frame in all four clips with Jax; props (PIP lens iris, stamp arm
+  with dust, ink mark) behave physically. Black windows stay black, so NASA video can still be keyed in.
+- Talking shot: the clip speaks "Take it. Take it. Take it." (speech-to-text, 1.0-2.2 s) and the
+  mouth is open over the same frames. So Omni gives lip-sync with its own generated voice.
+  Not yet tested: the same voice across several clips; Flow's custom/preset voices.
+- Drift from the brief: the wide shot pushes far past the start frame and adds a puff of smoke;
+  the customs clip adds a pointing finger. Minor.
+- **Visible watermark:** a small translucent four-point star, bottom right, on every clip. Flow's
+  help says the visible mark is a toggle but is applied automatically for accounts in India,
+  South Korea and Vietnam. We do not remove or hide it.
+- Not checked: sound quality (agents cannot hear), playback smoothness by eye.
+- Next test pack: `samples/motion/flow-coldopen/` (12 new clips, about 230 credits) to rebuild the
+  whole Episode 1 cold open with Omni, with Jax and Temi speaking on camera.

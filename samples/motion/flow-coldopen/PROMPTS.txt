@@ -1,0 +1,48 @@
+GOOGLE FLOW — EPISODE 1 COLD OPEN, 12 NEW CLIPS (about 230 credits)
+Same steps as the first test: flow.google → Frames to Video → model Gemini Omni Flash 1.2 → 720p,
+landscape 16:9 → upload the picture as the FIRST frame → paste the prompt → set the length shown →
+generate → upscale to 1080p (free) → download. Name the downloads 01.mp4 … 12.mp4.
+
+VOICES — this is the main thing being tested. If Flow shows a voice option (a "Voices" or
+"custom voice" picker): make ONE voice for Jax from a male preset (warm, quick, slightly rough
+baritone) and use that same voice on every Jax clip (01, 03, 06, 07, 09, 10, 11); make ONE voice
+for Temi from a female preset (bright, friendly, Nigerian English) and use it on 04 and 05. Tell me
+the preset names. If there is no voice option, just paste the prompts as they are.
+If a clip comes out wrong (face changes, wrong words), generate it once more; do not retry more
+than twice — tell me which one failed instead.
+
+01  (01-jax-which-left.jpg) — 6 seconds
+A worn spaceship cockpit. The man in the orange jacket, mouth half full of sandwich, glances to his right and asks, puzzled and unbothered: "Which one's the left?" Then he keeps chewing and looks back at his console. Jax's voice: a warm, quick, slightly rough baritone with a light Mediterranean accent, a fast-talking charmer. Slow push-in. Photorealistic live-action film, natural smooth motion, natural lip movement matching the words, the same face throughout, the windows stay black, no new people, no text, no music.
+
+02  (02-coffee-machine.jpg) — 6 seconds
+Close on a battered coffee machine taped to a spaceship console. Its small green light flickers and goes out; the last wisp of steam fades from the pot; the little screens beside it go dark one after another. Nobody speaks. Slow push-in. Photorealistic live-action film, no people, no text, no music, only quiet cockpit hum and small clicks.
+
+03  (03-jax-coffee-outrage.jpg) — 6 seconds
+The man lowers his sandwich, stares off-camera in disbelief and says, genuinely outraged: "They can't take the coffee machine." He holds the look. Jax's voice: a warm, quick, slightly rough baritone with a light Mediterranean accent, a fast-talking charmer. Locked-off camera. Photorealistic live-action film, natural smooth motion, natural lip movement matching the words, the same face throughout, the window stays black, no new people, no text, no music.
+
+04  (04-temi-recoveries.jpg) — 8 seconds
+A bright modern call centre. The woman in the headset looks straight into the camera and says, cheerfully and briskly: "Good morning! This is Temi in Recoveries. Your vessel is being recovered. Full recovery, including the air, at six tonight." She keeps smiling. Temi's voice: bright, friendly, professional, Nigerian English. Locked-off camera, colleagues move softly in the background. Photorealistic live-action footage like a video call, natural lip movement matching the words, the same face throughout, no text, no music.
+
+05  (05-temi-hello.jpg) — 6 seconds
+The same woman in the headset, as if the call has just restarted, says with exactly the same bright cheer: "Hello! You're speaking to Temi in Recoveries!" and smiles, waiting. Temi's voice: bright, friendly, professional, Nigerian English. Locked-off camera. Photorealistic live-action footage like a video call, natural lip movement matching the words, the same face throughout, no text, no music.
+
+06  (06-jax-payment.jpg) — 6 seconds
+The man leans toward a screen off-camera with his most charming smile and says, fast, selling hard: "Temi! Hi! I'm about to make a payment. A big one. Enormous." He nods as if that settles it. Jax's voice: a warm, quick, slightly rough baritone with a light Mediterranean accent, a fast-talking charmer. Locked-off camera. Photorealistic live-action film, natural smooth motion, natural lip movement matching the words, the same face throughout, the window stays black, no new people, no text, no music.
+
+07  (07-jax-winning.jpg) — 8 seconds
+The man turns to his right and asks, baffled: "Why does she keep doing that?" He listens for three seconds to someone off-camera, eyebrows rising. Then he says, pleased with himself: "And I'm winning." He takes a bite of his sandwich. Jax's voice: a warm, quick, slightly rough baritone with a light Mediterranean accent, a fast-talking charmer. Locked-off camera. Photorealistic live-action film, natural smooth motion, natural lip movement matching the words, the same face throughout, the windows stay black, no new people, no text, no music.
+
+08  (08-pip-swivel.jpg) — 6 seconds
+An old brass-and-cream robot on a cockpit desk: a lamp-like lens head on a jointed arm above a brass weighing scale. A soft bell rings somewhere. The lens head swivels smoothly toward the sound, its amber light brightening, and holds still, listening. Nobody speaks. Locked-off camera. Photorealistic live-action film, no people, no text, no music, one soft shop-door bell.
+
+09  (09-jax-eyes.jpg) — 6 seconds
+Extreme close-up of the man's eyes, lit by a screen. He narrows them and asks quietly, off-screen mouth: "Is?" A pause. His eyes widen with sudden greed and he whispers: "Take it." Jax's voice: a warm, quick, slightly rough baritone with a light Mediterranean accent. Locked-off camera, screen light flickering on his skin. Photorealistic live-action film, the same face throughout, no text, no music.
+
+10  (10-jax-parcel.jpg) — 6 seconds
+Over the man's shoulder, from behind, facing a dark monitor. He leans in toward the monitor and asks, half to himself: "Who sends a parcel to a crater?" Then he sits slowly back. We never see his mouth. Jax's voice: a warm, quick, slightly rough baritone with a light Mediterranean accent. Locked-off camera, the monitor stays pure black, console lights blink. Photorealistic live-action film, no new people, no text, no music.
+
+11  (11-jax-lucky.jpg) — 6 seconds
+The man stares at something off-camera a moment longer than he would like, uneasy. Then he shrugs it off, forces a small grin and says: "Lucky." He turns back to his controls. Jax's voice: a warm, quick, slightly rough baritone with a light Mediterranean accent. Slow push-in. Photorealistic live-action film, natural smooth motion, natural lip movement matching the word, the same face throughout, the windows stay black, no new people, no text, no music.
+
+12  (12-pip-and-jax.jpg) — 6 seconds
+In the foreground an old brass-and-cream robot with a glowing amber lens head tilts its head and its light pulses gently in a steady rhythm, as if speaking calmly. In the soft-focus background the pilot, in shadow, throws up one hand and drops it. Nobody's voice is heard. Locked-off camera. Photorealistic live-action film, the windows stay black, no new people, no text, no music, only quiet cockpit hum.

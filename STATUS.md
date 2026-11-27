@@ -295,4 +295,10 @@ Gemini API key is saved as a network secret on the Default environment
   No video capability (confirmed directly). It does make pictures from a reference
   (`samples/look-agy/`), a possible second picture route beside Codex. Details in
   `research/tooling/video-generation-routes.md`. Owner is making the six Flow test clips himself.
+- **Flow/Omni test clips received and checked by frames (27 Nov night):** quality is the first
+  that meets the owner's "real movie" bar: natural motion, faces hold, lip-sync works with Omni's
+  own voice. Visible star watermark is forced for India accounts. Next: owner runs the 12-clip
+  cold open pack (`samples/motion/flow-coldopen/`); showrunner cuts the full moving cold open.
+  Decision after that: Google AI Ultra plan and who operates Flow. Results in
+  `research/tooling/video-generation-routes.md`.
 
