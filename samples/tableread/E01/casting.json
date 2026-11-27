@@ -151,6 +151,10 @@
   [
    "(?i)\\bNoakes\\b",
    "Noaks"
+  ],
+  [
+   "(?i)\\bMira\\b",
+   "Meera"
   ]
  ],
  "filters": {

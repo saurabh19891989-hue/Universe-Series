@@ -66,6 +66,15 @@ Last updated: 2026-11-27 (session 1)
   run open image models faster).
 - Owner wants to see the free photoreal round (`samples/look-real/`) before deciding on tools.
 
+- IMAGE ROUTE UNDER TEST (27 Nov, latest): OpenAI Codex CLI 0.172.0 installed on the cloud
+  machine and logged in with the owner's ChatGPT Pro subscription by device code (login lives
+  only on this machine; redo with `codex login --device-auth` in a new session). Built-in image
+  generation (`codex exec`, reference images via `-i`) made a photoreal Jax in 56 s with no API
+  charge; it draws on the plan's Codex allowance. Character test running, capped at 40 images:
+  `samples/look-codex/`. OpenAI terms on scripted use and commercial use NOT yet read.
+- Free alternatives researched: Cloudflare Workers AI (FLUX.2 klein 4B, Apache-2.0, reference
+  images, ~70–95 free images/day), Kaggle, Modal. See `research/tooling/free-photoreal-routes.md`.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|
