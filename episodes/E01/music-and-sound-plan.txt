@@ -1,7 +1,7 @@
 # E01 "The Parcel Nobody Ordered" — music and sound plan
 
-Status: plan for the showrunner's ruling. Nobody has listened to anything (agents cannot hear audio). Every cue and effect below goes to the owner as a listening reel before it is locked.
-Shot ids refer to `episodes/E01/shotlist.json`. Planned running time 35:13.
+Status: SPOTTING GUIDE (showrunner ruling, 27 Nov). The composer is writing the E01 score; its cue sheet is `samples/e01/music/cues.json`. This file says where music goes; the composer's cues are what plays. Nobody has listened to anything (agents cannot hear audio). Every cue and effect below goes to the owner as a listening reel before it is locked.
+Shot ids refer to `episodes/E01/shotlist.json`. Planned running time 35:31 (rebuilt after rulings: three act-break bumpers, 12 s throw silence, 16:9).
 
 ## 1. What we already have (samples/music, samples/music/v2)
 
@@ -39,43 +39,75 @@ Mix rule: A1 and A5 are bass-heavy; under dialogue use the `-under-dialogue` ver
 
 Total new music: about 9 minutes of material, most of it built as stems so one cue serves several scenes.
 
+## 2b. Mapping to the composer's cue list
+
+Composer's titles (from the brief; ids where `samples/e01/music/` already has files: M01, M02, M03a, M03b, M04a, M04b, M04c, M11; `cues.json` so far documents only M11).
+
+| My cue / spot | Composer cue title (id) | Notes |
+|---|---|---|
+| Cold open (0) | Cold open (M01) | Opens on silence; PIP stamp accents; hard out to the title sting. |
+| Approach (2) | Approach (M02) | Over the real pole flyover; thins as the Atlas letters go out. |
+| M4 Voss motif used for Chichikov (5, 12, 16, 22, 25, 28, 31) | Chichikov's motif (M03a 20 s; M03b underscore 45 s) | Replaces the v2 M4 in E01. |
+| C6 Baron motif, four orchestrations that thin by act | The Baron's theme (M04a grand 30 s; M04b threadbare 40 s; M04c sad tune, cello 45 s) | M04a in Act 1 and the colour-return beat in 22; M04b in Acts 3–4 (and the "scheduled shuttle" collapse in 22); M04c under the confession in 14 and the refusal on the apron in 29. |
+| C2 broken harpsichord (13) | The montage harpsichord | — |
+| C3 frozen post-horn march (15) | The frozen post horn | Diegetic; thaw, march, stumble. |
+| Offer (16) | The offer | Under Chichikov's pitch; ends on the Act Two button. |
+| C8 exterior pad (9, 21) + C9 "Oczakow" story (21) | The rim | C9 can be a section of "The rim"; it must stop dead before "There. You listened to the end." and leave 3 s of silence after "You are the audience". |
+| C1 chase variant (23, 24, 26, 29 run-in) | The chase with its long held note | The held note is the 8 s hang-time jump (`E01-S24-007`). |
+| C5 inner wall (27) | The dark floor | — |
+| Hatchet arc (29) | The throw (M11) | M11 has 12 s of digital silence from 10.0 s to 22.0 s. The arc shot is now 13.5 s (`E01-S29-005`) so the silence starts on the release and M11's release lands as the rover lurches free, with the glock at +13.2 s for the glint over the rim. M11's "Darts" pizz button (26.4 s) lands about 3 s before "Darts." in the conform: move the button or trim at the edit. |
+| Far side and V.O. (30) | Far side | Nothing under Temi; ends under Jax's closing V.O. |
+| Tag (31) | Tag | No change for the padlock or the stove; nothing under the warrant. |
+| What was real, end card | End note | Under PIP's end note, into the 5 s end card. |
+
+**Needed but not in the composer's list** (ask the composer, or use the existing file named):
+1. **Main title sting**: none in the list. Use the existing `v2/A1-title-sting-10s` and `v2/A1-endcard-sting-5s`, or ask for E01 versions in the score's key.
+2. **C1 "Post-chaise" caper** (6, 7 Act One button, 8 the drive, 22 run-out): the light, forward-moving comedy cue. The chase cue covers 23–29, but the first drive and the act-one button need a lighter version. Highest-priority gap.
+3. **C4 tension "Clause nine / Seal the port"** (22, 25, and the dead stop in 28): locked to the hall clock's ticks, must cut dead for the 1.3 s silence. Second-highest gap.
+4. **Mira's motif** (4, 18–19, 27, 28 walk-away): the existing `v2/M2-mira-motif-v2` works if the score's key allows; otherwise an E01 version.
+5. **Lucía's motif (C7)** (1, 16 ribbon, 22 after the ribbon hold, 29 trunk): a short warm phrase.
+6. **Parcel bell (C10)** (0 job chime, 1, 20, 31): two notes, partly a sound effect we record.
+7. **Emotional cue** for the turn in 14, the salute and lift-off in 29 and "an old man on the Moon" in 30: the approved `v2/A4-emotional-v2`, unless "Far side" or M04c covers these.
+8. **Act-break bumpers** (`E01-SB1-001`, `E01-SB2-001`, `E01-SB3-001`, 3.5 s each): no new cue; the score continues from each act-out button across the bumper (Act One button into C1; the offer's end resolving; "Seal the port" tension tipping into the chase).
+
 ## 3. Cue sheet by scene
 
-| Scene | Music | Silence (deliberate) |
-|---|---|---|
-| 0 Cold open | Opens in silence on PIP's lens. M3 PIP motif accents the report stamp (`E01-S00-016/017`). C10 bell on the job chime. M1 Jax two notes under "Lucky." Hard cut to the A1 title sting (10 s). | Black at the top (2 s); 1.3 s of nothing before the engine coughs; the coffee machine stays dark in silence. |
-| Title | v2/A1-title-sting-10s. | — |
-| 1 Cargo hold | No score until the parcel: C10 bell on celesta and C7 Lucía phrase under "It's warm" / "Something in here is alive". | — |
-| 2 On approach | A1 under-dialogue over the real pole flyover, thinning as the letters go out; a single held note while the street names die; stops for Mamani; button after "That is not the point of them." | — |
-| 3 Customs desk | No music under dialogue (the hall's huge reverb is the score). One dry pizzicato on SEIZED; C6 Baron fanfare, tiny and distant, under "I used to be taller!". | The reflection beat. |
-| 4 Mira's desk | M2 Mira solo phrase over the notebook left open. | — |
-| 5 Bench | M4 Voss motif enters very softly when Chichikov is noticed; one dry pizzicato when the bench is empty. | Empty bench beat. |
-| 6 Holding bay | C6 Baron fanfare (full band) on the bow; sparse C1 colours; score holds one note through the lock attempt. | Fingers on the padlock, the tap, the clock that does not tick. |
-| 7 Noakes's office | Light C1 pizzicato under PIP's regulation; C1 3 s button on "Inventory." End of Act One. | — |
-| 8 Post-chaise | C1 "Post-chaise" over the pole and the rim wide (no effects outside); in the cab it continues under dialogue at low level; C6 (Act 2 orchestration) under "the palace of the King of the Moon". | — |
-| 9 Rim and inn door | C8 pad over the descent and the inn window. | SCORE STOPS for the three knocks: absolute silence. Suit radio only after. |
-| 10 Parlour | Small C6 phrase on "This stove was cast from the barrel of a Turkish cannon"; nothing under the flame (the gas whump is the joke). | — |
-| 11 Signature | None. | Silence while the signature fades (a tiny glassy shimmer only). |
-| 12 Office | M4 Voss motif (pizzicato) from the box opening; one held note through the pen hover. | — |
-| 13 Montage | C2 broken harpsichord throughout; resolves wrongly on "Laurel". | — |
-| 14 Prove one | C6 Act 2 (thinner) under "The famous one". A4 enters at Lucía's arms unfolding. | NO SCORE for the 9 s hold of the old man holding his own hair (room tone only). |
-| 15 Cold store | No score until the thaw; C3 frozen march (diegetic) from the ice crack; M3 PIP motif two soft notes under "That is… the post"; A4 one chord under "That is what it's for." | Frost and drip before the crack. |
-| 16 The offer | M4 Voss motif under Chichikov throughout (very low); C7 Lucía phrase cut off when her hand closes on the ribbon; M4 button. End of Act Two. | — |
-| 17 Climbing back | None under the row. | "Silence. The engine." — engine only. |
-| 18–19 Office, corridor | M2 Mira colour after "Filing it would be courageous"; M1 Jax two notes under "I don't know"; M2 phrase as her reflection leaves. | The reflection pause before "I don't know". |
-| 20 Cargo hold | No score until PIP's opinion: C10 bell on celesta; button after "Good." | — |
-| 21 Outer rim | C8 pad very low; C9 "Oczakow" under the cannonball story (stops before "You listened to the end"); A4 low for the promise and the hatchet. | Three full seconds after "You are the audience" (score out, radio hiss only); "Nothing on the channel" after "lie for his life". |
-| 22 The signing | Hall clock ticks; C4 tension under Chichikov; C6 full band returns for the colour beat ("I believe I am taller"), then breaks apart mid-phrase at "scheduled shuttle"; M1 Jax under "Both or neither"; C1 caper hit as they run. C4 rises under "Seal the port". End of Act Three. | Three seconds silent on Lucía's ribbon. |
-| 23 Corridor | Klaxon; C1 chase variant starts. | — |
-| 24 The chase | C1 chase (score only outside: no engine, no dust, nothing); in the cab dry voices over the score. | One single held note for the hang-time jump; the landing is silent outside. |
-| 25 Clamp console | C4 tension, locked to the clock; M4 Voss motif inverted when the grey hand taps the device. | The "nothing"s between Noakes's answers. |
-| 26 Inner edge | C1 chase to the lip. | CUT TO BLACK: total silence 1.5 s, then "Lights." |
-| 27 Inner wall | C5 "The inner wall": cold pulse, M2 rising as Mira guides, brass light on the ramp. | Frost beats. |
-| 28 The key | C4 cuts dead as she turns the key. M2 Mira motif full statement as she walks away down the hall. | 1.3 s of total silence before AUTHORITY TO LOCK — RECEIVED (no score). |
-| 29 Bay nine | C1 chase to the ramp; C6 Baron motif as a single cornet (Act 4) under his refusal; A4 on the tricorn salute and the lift-off wide. | TOTAL SILENCE for the hatchet arc (no score, no effects); silence before A4's final note on the small figure with a hat. |
-| 30 Bridge afterwards | Nothing under Temi; A4 one chord under "a small silence, for an old man on the Moon"; M3 PIP note on READ; A1 under-dialogue under Jax's closing V.O. | After Temi is cut off; the long silence; the beat after "It prefers her". |
-| 31 Tag | M4 Voss motif on celesta, slow, under Chichikov; no score change for the padlock and the stove; C10 bell (two notes) on the warm parcel; nothing under the warrant. | Before and after the three knocks; the warrant refresh (one tick only); cut to black. |
-| What was real | v2/A1-main-title-full-90-v2-under-dialogue under PIP, then A1-endcard-sting-5s. | — |
+| Scene | Music | Composer cue | Silence (deliberate) |
+|---|---|---|---|
+| 0 Cold open | Opens in silence on PIP's lens. M3 PIP motif accents the report stamp (`E01-S00-016/017`). C10 bell on the job chime. M1 Jax two notes under "Lucky." Hard cut to the A1 title sting (10 s). | Cold open (M01) | Black at the top (2 s); 1.3 s of nothing before the engine coughs; the coffee machine stays dark in silence. |
+| Title | v2/A1-title-sting-10s. | — (existing A1 sting) | — |
+| 1 Cargo hold | No score until the parcel: C10 bell on celesta and C7 Lucía phrase under "It's warm" / "Something in here is alive". | — (gap: C7, C10) | — |
+| 2 On approach | A1 under-dialogue over the real pole flyover, thinning as the letters go out; a single held note while the street names die; stops for Mamani; button after "That is not the point of them." | Approach (M02) | — |
+| 3 Customs desk | No music under dialogue (the hall's huge reverb is the score). One dry pizzicato on SEIZED; C6 Baron fanfare, tiny and distant, under "I used to be taller!". | Baron's theme (M04a), tiny | The reflection beat. |
+| 4 Mira's desk | M2 Mira solo phrase over the notebook left open. | — (gap: Mira motif) | — |
+| 5 Bench | M4 Voss motif enters very softly when Chichikov is noticed; one dry pizzicato when the bench is empty. | Chichikov's motif (M03a) | Empty bench beat. |
+| 6 Holding bay | C6 Baron fanfare (full band) on the bow; sparse C1 colours; score holds one note through the lock attempt. | Baron's theme (M04a); gap: C1 | Fingers on the padlock, the tap, the clock that does not tick. |
+| 7 Noakes's office | Light C1 pizzicato under PIP's regulation; C1 3 s button on "Inventory." End of Act One. | — (gap: C1 button) | — |
+| 8 Post-chaise | C1 "Post-chaise" over the pole and the rim wide (no effects outside); in the cab it continues under dialogue at low level; C6 (Act 2 orchestration) under "the palace of the King of the Moon". | — (gap: C1); Baron's theme (M04a/b) | — |
+| 9 Rim and inn door | C8 pad over the descent and the inn window. | The rim | SCORE STOPS for the three knocks: absolute silence. Suit radio only after. |
+| 10 Parlour | Small C6 phrase on "This stove was cast from the barrel of a Turkish cannon"; nothing under the flame (the gas whump is the joke). | Baron's theme (M04a) | — |
+| 11 Signature | None. | — (silence) | Silence while the signature fades (a tiny glassy shimmer only). |
+| 12 Office | M4 Voss motif (pizzicato) from the box opening; one held note through the pen hover. | Chichikov's motif (M03a/b) | — |
+| 13 Montage | C2 broken harpsichord throughout; resolves wrongly on "Laurel". | The montage harpsichord | — |
+| 14 Prove one | C6 Act 2 (thinner) under "The famous one". A4 enters at Lucía's arms unfolding. | Baron's theme (M04c); A4 | NO SCORE for the 9 s hold of the old man holding his own hair (room tone only). |
+| 15 Cold store | No score until the thaw; C3 frozen march (diegetic) from the ice crack; M3 PIP motif two soft notes under "That is… the post"; A4 one chord under "That is what it's for." | The frozen post horn | Frost and drip before the crack. |
+| 16 The offer | M4 Voss motif under Chichikov throughout (very low); C7 Lucía phrase cut off when her hand closes on the ribbon; M4 button. End of Act Two. | The offer; Chichikov's motif (M03b) | — |
+| 17 Climbing back | None under the row. | — (no score) | "Silence. The engine." — engine only. |
+| 18–19 Office, corridor | M2 Mira colour after "Filing it would be courageous"; M1 Jax two notes under "I don't know"; M2 phrase as her reflection leaves. | — (gap: Mira motif) | The reflection pause before "I don't know". |
+| 20 Cargo hold | No score until PIP's opinion: C10 bell on celesta; button after "Good." | — (gap: C10) | — |
+| 21 Outer rim | C8 pad very low; C9 "Oczakow" under the cannonball story (stops before "You listened to the end"); A4 low for the promise and the hatchet. | The rim | Three full seconds after "You are the audience" (score out, radio hiss only); "Nothing on the channel" after "lie for his life". |
+| 22 The signing | Hall clock ticks; C4 tension under Chichikov; C6 full band returns for the colour beat ("I believe I am taller"), then breaks apart mid-phrase at "scheduled shuttle"; M1 Jax under "Both or neither"; C1 caper hit as they run. C4 rises under "Seal the port". End of Act Three. | — (gap: C4 tension); Baron's theme (M04a then M04b); Chichikov's motif | Three seconds silent on Lucía's ribbon. |
+| 23 Corridor | Klaxon; C1 chase variant starts. | The chase with its long held note | — |
+| 24 The chase | C1 chase (score only outside: no engine, no dust, nothing); in the cab dry voices over the score. | The chase with its long held note | One single held note for the hang-time jump; the landing is silent outside. |
+| 25 Clamp console | C4 tension, locked to the clock; M4 Voss motif inverted when the grey hand taps the device. | — (gap: C4 tension); Chichikov's motif | The "nothing"s between Noakes's answers. |
+| 26 Inner edge | C1 chase to the lip. | The chase (tail) | CUT TO BLACK: total silence 1.5 s, then "Lights." |
+| 27 Inner wall | C5 "The inner wall": cold pulse, M2 rising as Mira guides, brass light on the ramp. | The dark floor | Frost beats. |
+| 28 The key | C4 cuts dead as she turns the key. M2 Mira motif full statement as she walks away down the hall. | — (gap: C4 dead stop; Mira motif) | 1.3 s of total silence before AUTHORITY TO LOCK — RECEIVED (no score). |
+| 29 Bay nine | C1 chase to the ramp; C6 Baron motif as a single cornet (Act 4) under his refusal; A4 on the tricorn salute and the lift-off wide. | The throw (M11); the chase; Baron's theme (M04c); A4 | TOTAL SILENCE for 12 s on the hatchet arc (M11 10.0–22.0 s; no effects); silence before A4's final note on the small figure with a hat. |
+| 30 Bridge afterwards | Nothing under Temi; A4 one chord under "a small silence, for an old man on the Moon"; M3 PIP note on READ; A1 under-dialogue under Jax's closing V.O. | Far side | After Temi is cut off; the long silence; the beat after "It prefers her". |
+| 31 Tag | M4 Voss motif on celesta, slow, under Chichikov; no score change for the padlock and the stove; C10 bell (two notes) on the warm parcel; nothing under the warrant. | Tag; Chichikov's motif | Before and after the three knocks; the warrant refresh (one tick only); cut to black. |
+| What was real | v2/A1-main-title-full-90-v2-under-dialogue under PIP, then A1-endcard-sting-5s. | End note | — |
+| Act-break bumpers B1, B2, B3 | Score continues across each 3.5 s real plate; no dialogue. | (continuation of the act-out cue) | — |
 
 ## 4. Vacuum rule (exteriors)
 

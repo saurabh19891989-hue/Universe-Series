@@ -13,8 +13,8 @@ def _cabin(R, L, power=1.0, rattle=1.0):
     def noisy(R, d):
         c = []
         for _ in range(2):
-            c.append(lp(brown(R, d), 160, 3) * 2.2 * power + bp(pink(R, d), 250, 1200, 2) * 0.28 * power
-                     + bp(pink(R, d), 600, 3000, 2) * 0.05)
+            c.append(lp(brown(R, d), 160, 3) * 2.2 * power + bp(pink(R, d), 250, 1200, 2) * 0.9 * power
+                     + bp(pink(R, d), 600, 3000, 2) * 0.12)
         return np.stack(c, axis=1)
     x = noise_loop(noisy, R, L, 0.7)
     x /= np.abs(x).max()

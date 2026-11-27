@@ -122,6 +122,12 @@ Last updated: 2026-11-27 (session 1)
   `episodes/E01/image-jobs.json`. New Mira/Lucía and three Ep 1 faces sent to owner for approval.
 - Channel kit done: `channel/CHANNEL-KIT.md` (recommended name "Secret Universe Series").
 
+- Episode 1 stills (27 Nov): shot list rebuilt — 487 shots, 35:31, 192 image jobs (53 / 89 / 50
+  by priority) in `episodes/E01/image-jobs.json`. Stills runner started (2 Codex jobs; library
+  builder capped at 2, stops after Episode 1 sets and props). Stills are kept in git as JPG
+  (`episodes/E01/stills/`, log `stills-log.json`) because AI images cannot be regenerated
+  identically. Mira/Lucía jobs run last pending the owner's approval of their new masters.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|

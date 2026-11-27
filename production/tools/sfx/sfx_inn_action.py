@@ -52,7 +52,7 @@ def inn_quiet(R):
     L = 24.0
     n = N(L)
     t = np.arange(n) / SR
-    x = noise_loop(lambda R, d: np.stack([lp(pink(R, d), 500, 2), lp(pink(R, d), 500, 2)], axis=1), R, L, 0.8)
+    x = noise_loop(lambda R, d: np.stack([bp(pink(R, d), 100, 3000, 2), bp(pink(R, d), 100, 3000, 2)], axis=1), R, L, 0.8)
     x = x / np.abs(x).max() * 0.18
     x += (0.03 * np.sin(2 * np.pi * pf(55, L) * t))[:, None]
     ev = np.zeros((n, 2))
@@ -261,7 +261,7 @@ def cable_groan(R):
     while tt < d - 0.3:
         place(out, modal([R.uniform(300, 700)], [0.5], [0.02], 0.08, R, True) * (0.15 + 0.5 * tt / d), tt, 1.0, R.uniform(-.7, .7))
         tt += max(0.04, 0.45 * (1 - tt / d) ** 1.5 + 0.03) * R.uniform(0.6, 1.4)
-    out += (lp(brown(R, d), 130, 3) * 1.5 * (0.3 + 0.7 * t / d))[:, None]
+    out += (lp(brown(R, d), 130, 3) * 0.4 * (0.3 + 0.7 * t / d))[:, None]
     return lp(out, 1000, 4)
 
 
@@ -396,8 +396,8 @@ def liftoff(R):
     t = T(d)
     out = np.zeros((N(d), 2))
     amp = np.clip(t / 3.5, 0, 1) ** 1.5 * np.exp(-np.clip(t - 6.5, 0, None) / 1.8) * 0.9 + 0.12 * np.clip((t - 2) / 3, 0, 1)
-    b1 = lp(brown(R, d), 140, 3) * 3.0
-    b2 = lp(brown(R, d), 140, 3) * 3.0
+    b1 = lp(brown(R, d), 140, 3) * 1.2 + bp(pink(R, d), 140, 700, 2) * 0.8
+    b2 = lp(brown(R, d), 140, 3) * 1.2 + bp(pink(R, d), 140, 700, 2) * 0.8
     trem = 1 + 0.35 * np.sin(2 * np.pi * (7 + 4 * np.clip(t / 6, 0, 1)) * t) * np.clip(t / 4, 0, 1)
     sub = np.sin(phase_of(26 + 24 * np.clip(t / 6, 0, 1)))
     out[:, 0] = (b1 * trem + sub * 0.6) * amp

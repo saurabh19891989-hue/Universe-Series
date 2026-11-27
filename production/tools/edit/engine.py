@@ -717,7 +717,20 @@ def weave_at(seed, i, amp):
     return (amp * 0.6 * smooth_noise(seed + 11, t, 0.9, 2), amp * smooth_noise(seed + 13, t, 0.7, 2))
 
 
-def render_shot(job):
+def render_shot(job, tries=3):
+    """Worker entry with retry (a shared machine can kill an encoder under us)."""
+    err = None
+    for k in range(tries):
+        try:
+            r = _render_shot(job)
+            r["retries"] = k
+            return r
+        except (BrokenPipeError, RuntimeError) as e:
+            err = e
+    raise RuntimeError(f"shot {job['shot']['id']} failed {tries}x: {err}")
+
+
+def _render_shot(job):
     """Worker entry: renders one shot to an H.264 segment. job = dict(shot, ctx_spec, out, ...)."""
     import time
     t0 = time.time()
@@ -736,7 +749,8 @@ def render_shot(job):
            "-crf", str(enc.get("crf", 18)), "-profile:v", "high", "-pix_fmt", "yuv420p", "-tune", "film",
            "-x264-params", "threads=1:keyint=48", "-color_primaries", "bt709", "-color_trc", "bt709",
            "-colorspace", "bt709", "-an", tmp]
-    ff = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+    elog = open(job["out"] + ".enc.log", "w")
+    ff = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=elog)
     trans_in = sh.get("in", {}); trans_out = sh.get("out", {})
     stills = {}
     for i in range(nf):
@@ -754,7 +768,9 @@ def render_shot(job):
         for st in job.get("stills", []):
             if i == int(round(st * fps)):
                 stills[st] = fr.copy()
-    ff.stdin.close(); ff.wait()
+    ff.stdin.close(); rc = ff.wait(); elog.close()
+    if rc != 0:
+        raise RuntimeError(f"encoder exit {rc}: " + open(job["out"] + ".enc.log").read()[-300:])
     os.replace(tmp, job["out"])
     for st, fr in stills.items():
         Image.fromarray(fr).save(f"{job['still_dir']}/{sh['id']}_{st:.2f}.jpg", quality=90)

@@ -1232,5 +1232,441 @@
     "resets_at": "2026-12-02 17:30 UTC"
    }
   }
+ },
+ {
+  "time": "2026-11-27T16:07:28",
+  "type": "run",
+  "purpose": "step4 post-chaise exterior three-quarter (new, PROPOSED)",
+  "job": "chaise-ext",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/chaise-ext/chaise-ext.png",
+  "file": "assets/sets/postchaise/master.jpg",
+  "refs": [],
+  "seconds": 39.7,
+  "tokens": 5851,
+  "status": "accepted",
+  "note": "new set PROPOSED; horse head on bonnet, trunk on roof, black sky",
+  "jpg_bytes": 543242,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 64.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:07:27",
+  "type": "run",
+  "purpose": "step4 post-chaise cab interior from back seat (new, PROPOSED)",
+  "job": "chaise-cab",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/chaise-cab/chaise-cab.png",
+  "file": "assets/sets/postchaise/cab-interior.jpg",
+  "refs": [],
+  "seconds": 38.7,
+  "tokens": 10131,
+  "status": "accepted",
+  "note": "new set PROPOSED; windscreen pure black",
+  "jpg_bytes": 294286,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 64.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:07:22",
+  "type": "run",
+  "purpose": "step4 Silver Hatchet inn exterior (new, PROPOSED)",
+  "job": "hatchet-ext",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/hatchet-ext/hatchet-ext.png",
+  "file": "assets/sets/inn/exterior.jpg",
+  "refs": [],
+  "seconds": 33.7,
+  "tokens": 5620,
+  "status": "accepted",
+  "note": "new set PROPOSED; half sun half dark",
+  "jpg_bytes": 354809,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 63.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:07:46",
+  "type": "run",
+  "purpose": "step4 Silver Hatchet parlour (new, PROPOSED)",
+  "job": "parlour",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/parlour/parlour.png",
+  "file": "assets/sets/inn/parlour.jpg",
+  "refs": [],
+  "seconds": 57.9,
+  "tokens": 10092,
+  "status": "accepted",
+  "note": "new set PROPOSED; slot window shows bright exterior (sun source)",
+  "jpg_bytes": 523582,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 64.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "read_at": "2026-11-27T16:08:07Z",
+  "source": "rollout-2026-11-27T16-06-48-01a21dc2-65a0-7ae2-b2a1-ae4992931805.jsonl",
+  "five_hour": {
+   "used_percent": 64.0,
+   "window_minutes": 300,
+   "resets_at": "2026-11-27 19:25 UTC"
+  },
+  "weekly": {
+   "used_percent": 94.0,
+   "window_minutes": 10080,
+   "resets_at": "2026-12-02 17:30 UTC"
+  },
+  "type": "allowance_check",
+  "label": "after 50 images"
+ },
+ {
+  "time": "2026-11-27T16:08:51",
+  "type": "run",
+  "purpose": "step4 Silver Hatchet cold store (new, PROPOSED)",
+  "job": "coldstore",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/coldstore/coldstore.png",
+  "file": "assets/sets/inn/cold-store.jpg",
+  "refs": [
+   "parlour.jpg"
+  ],
+  "seconds": 44.0,
+  "tokens": 8520,
+  "status": "accepted",
+  "note": "new set PROPOSED; window pure black",
+  "jpg_bytes": 445188,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 65.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:09:04",
+  "type": "run",
+  "purpose": "step4 bay nine apron with the ship",
+  "job": "apron",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/apron/apron.png",
+  "file": "assets/sets/bay9/apron.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 56.1,
+  "tokens": 10000,
+  "status": "accepted",
+  "note": "ship matches master; ramp down; black sky",
+  "jpg_bytes": 497480,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 65.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:08:47",
+  "type": "run",
+  "purpose": "step5 prop: brown-paper parcel",
+  "job": "parcel",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/parcel/parcel.png",
+  "file": "assets/props/parcel/master.jpg",
+  "refs": [],
+  "seconds": 39.0,
+  "tokens": 5558,
+  "status": "accepted",
+  "note": "labels illegible (checked at full res); NOTE hold set parcel is unlabelled",
+  "jpg_bytes": 441622,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 65.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:08:42",
+  "type": "run",
+  "purpose": "step5 prop: small dented silver hatchet",
+  "job": "hatchet-prop",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/hatchet-prop/hatchet-prop.png",
+  "file": "assets/props/hatchet/master.jpg",
+  "refs": [],
+  "seconds": 34.2,
+  "tokens": 9585,
+  "status": "accepted",
+  "note": "silver, dented, engraved pattern only",
+  "jpg_bytes": 357752,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 65.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:10:18",
+  "type": "run",
+  "purpose": "step5 prop: brass post horn white with frost",
+  "job": "horn-frost",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/horn-frost/horn-frost.png",
+  "file": "assets/props/posthorn/frosted.jpg",
+  "refs": [
+   "cold-store.jpg"
+  ],
+  "seconds": 41.8,
+  "tokens": 14087,
+  "status": "accepted",
+  "note": "coiled post horn white with frost",
+  "jpg_bytes": 433321,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 66.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:10:24",
+  "type": "run",
+  "purpose": "step5 prop: battered travelling trunk",
+  "job": "trunk",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/trunk/trunk.png",
+  "file": "assets/props/trunk/master.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 48.5,
+  "tokens": 12845,
+  "status": "accepted",
+  "note": "tag blank",
+  "jpg_bytes": 445482,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 67.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:10:17",
+  "type": "run",
+  "purpose": "step5 prop: Chichikov's inlaid box open with contracts",
+  "job": "box-open",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/box-open/box-open.png",
+  "file": "assets/props/chichikov-box/open-contracts.jpg",
+  "refs": [
+   "ref-hands-box.jpg"
+  ],
+  "seconds": 41.6,
+  "tokens": 7816,
+  "status": "accepted",
+  "note": "FLAG: background window shows a city skyline - crop or mask; box matches",
+  "jpg_bytes": 347272,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 66.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:10:20",
+  "type": "run",
+  "purpose": "step5 prop: rubber stamp and ink pad",
+  "job": "stamp-pad",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/stamp-pad/stamp-pad.png",
+  "file": "assets/props/stamp/master.jpg",
+  "refs": [
+   "desk-glass-screen.jpg"
+  ],
+  "seconds": 44.3,
+  "tokens": 13656,
+  "status": "accepted",
+  "note": "no text",
+  "jpg_bytes": 337096,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 66.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:11:33",
+  "type": "run",
+  "purpose": "step5 prop: post horn thawing",
+  "job": "horn-thaw",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/horn-thaw/horn-thaw.png",
+  "file": "assets/props/posthorn/thawing.jpg",
+  "refs": [
+   "horn-frost.png"
+  ],
+  "seconds": 45.5,
+  "tokens": 19025,
+  "status": "accepted",
+  "note": "same horn, drop on bell",
+  "jpg_bytes": 386785,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 69.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 95.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:11:26",
+  "type": "run",
+  "purpose": "step5 prop: old brass padlock on wire mesh",
+  "job": "padlock",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/padlock/padlock.png",
+  "file": "assets/props/padlock/master.jpg",
+  "refs": [
+   "holding-cage.jpg"
+  ],
+  "seconds": 39.0,
+  "tokens": 12458,
+  "status": "accepted",
+  "note": "no engraving",
+  "jpg_bytes": 391492,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 69.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 95.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:11:32",
+  "type": "run",
+  "purpose": "step5 prop: PIP lens bright (speaking)",
+  "job": "pip-lens",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/pip-lens/pip-lens.png",
+  "file": "assets/props/pip/ref-lens-bright.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 43.4,
+  "tokens": 11640,
+  "status": "accepted",
+  "note": "matches master; window black",
+  "jpg_bytes": 344783,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 69.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 95.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:11:37",
+  "type": "run",
+  "purpose": "step5 prop: PIP stamp arm mid-stamp",
+  "job": "pip-stamp",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/pip-stamp/pip-stamp.png",
+  "file": "assets/props/pip/ref-mid-stamp.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 49.8,
+  "tokens": 18984,
+  "status": "accepted",
+  "note": "matches master; blank slip",
+  "jpg_bytes": 306380,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 69.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 95.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "read_at": "2026-11-27T16:12:01Z",
+  "source": "rollout-2026-11-27T16-10-49-01a21dc6-12ff-7320-aba1-307bdd7165e2.jsonl",
+  "five_hour": {
+   "used_percent": 69.0,
+   "window_minutes": 300,
+   "resets_at": "2026-11-27 19:25 UTC"
+  },
+  "weekly": {
+   "used_percent": 95.0,
+   "window_minutes": 10080,
+   "resets_at": "2026-12-02 17:30 UTC"
+  },
+  "type": "allowance_check",
+  "label": "after 70 images (steps 1-5 done)"
  }
 ]

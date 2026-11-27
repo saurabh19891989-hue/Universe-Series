@@ -60,10 +60,10 @@ def cargo_tone(R):
     t = np.arange(n) / SR
 
     def noisy(R, d):
-        rum = lp(brown(R, d), 130, 3) * 3.0
-        rum2 = lp(brown(R, d), 130, 3) * 3.0
-        vent = bp(pink(R, d), 500, 2600, 2) * 0.55
-        vent2 = bp(pink(R, d), 500, 2600, 2) * 0.55
+        rum = lp(brown(R, d), 130, 3) * 1.5
+        rum2 = lp(brown(R, d), 130, 3) * 1.5
+        vent = bp(pink(R, d), 300, 2600, 2) * 3.0
+        vent2 = bp(pink(R, d), 300, 2600, 2) * 3.0
         return np.stack([rum + vent, rum2 + vent2], axis=1)
     x = noise_loop(noisy, R, L, 0.8)
     x /= np.abs(x).max()

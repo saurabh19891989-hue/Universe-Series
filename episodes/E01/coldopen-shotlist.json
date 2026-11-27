@@ -214,20 +214,21 @@
       "close_px": 5,
       "max_regions": 1,
       "plate": {
-       "src": "${SCRATCH}/art/nasa/art001e002160.jpg",
-       "x": 0.78,
-       "y": 0.42,
+       "src": "${SCRATCH}/art/nasa/art001e002581.jpg",
+       "x": 0.6,
+       "y": 0.52,
        "scale": 1.05,
        "depth": 0.35,
-       "blur": 1.8,
+       "blur": 1.6,
+       "rot": -12,
        "drift": {
         "dx": 0.01,
         "dzoom": 0.015
        },
        "level": {
         "black": 0.03,
-        "gamma": 1.0,
-        "gain": 0.95,
+        "gamma": 1.05,
+        "gain": 1.05,
         "tint": [
          0.97,
          0.99,
@@ -245,7 +246,7 @@
     ]
    },
    "credits": [
-    "Moon: NASA, Artemis I, art001e002160 (public domain, NASA media guidelines)"
+    "Moon: NASA, Artemis I, art001e002581 (public domain, NASA media guidelines)"
    ]
   },
   {
@@ -1247,20 +1248,21 @@
       "close_px": 5,
       "max_regions": 1,
       "plate": {
-       "src": "${SCRATCH}/art/nasa/art001e002160.jpg",
-       "x": 0.74,
-       "y": 0.42,
+       "src": "${SCRATCH}/art/nasa/art001e002581.jpg",
+       "x": 0.56,
+       "y": 0.52,
        "scale": 1.15,
        "depth": 0.35,
-       "blur": 1.8,
+       "blur": 1.6,
+       "rot": -12,
        "drift": {
         "dx": 0.01,
         "dzoom": 0.015
        },
        "level": {
         "black": 0.03,
-        "gamma": 1.0,
-        "gain": 0.95,
+        "gamma": 1.05,
+        "gain": 1.05,
         "tint": [
          0.97,
          0.99,
@@ -1277,7 +1279,7 @@
     ]
    },
    "credits": [
-    "Moon: NASA, Artemis I, art001e002160 (public domain, NASA media guidelines)"
+    "Moon: NASA, Artemis I, art001e002581 (public domain, NASA media guidelines)"
    ]
   },
   {
@@ -1835,20 +1837,21 @@
       "close_px": 5,
       "max_regions": 1,
       "plate": {
-       "src": "${SCRATCH}/art/nasa/art001e002160.jpg",
-       "x": 0.8,
-       "y": 0.42,
+       "src": "${SCRATCH}/art/nasa/art001e002581.jpg",
+       "x": 0.62,
+       "y": 0.52,
        "scale": 1.0,
        "depth": 0.35,
-       "blur": 1.8,
+       "blur": 1.6,
+       "rot": -12,
        "drift": {
         "dx": 0.01,
         "dzoom": 0.015
        },
        "level": {
         "black": 0.03,
-        "gamma": 1.0,
-        "gain": 0.95,
+        "gamma": 1.05,
+        "gain": 1.05,
         "tint": [
          0.97,
          0.99,
@@ -1867,7 +1870,7 @@
     ]
    },
    "credits": [
-    "Moon: NASA, Artemis I, art001e002160 (public domain, NASA media guidelines)"
+    "Moon: NASA, Artemis I, art001e002581 (public domain, NASA media guidelines)"
    ]
   },
   {
@@ -2613,20 +2616,21 @@
       "close_px": 5,
       "max_regions": 1,
       "plate": {
-       "src": "${SCRATCH}/art/nasa/art001e002160.jpg",
-       "x": 0.76,
-       "y": 0.42,
+       "src": "${SCRATCH}/art/nasa/art001e002581.jpg",
+       "x": 0.58,
+       "y": 0.52,
        "scale": 1.1,
        "depth": 0.35,
-       "blur": 1.8,
+       "blur": 1.6,
+       "rot": -12,
        "drift": {
         "dx": -0.01,
         "dzoom": 0.015
        },
        "level": {
         "black": 0.03,
-        "gamma": 1.0,
-        "gain": 0.95,
+        "gamma": 1.05,
+        "gain": 1.05,
         "tint": [
          0.97,
          0.99,
@@ -2643,7 +2647,7 @@
     ]
    },
    "credits": [
-    "Moon: NASA, Artemis I, art001e002160 (public domain, NASA media guidelines)"
+    "Moon: NASA, Artemis I, art001e002581 (public domain, NASA media guidelines)"
    ]
   },
   {

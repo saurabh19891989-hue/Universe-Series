@@ -169,7 +169,7 @@ def atlas_map(label="THE SILVER HATCHET — SHACKLETON FLOOR",
     for nm, state in held:
         def dr(tt, i, alpha=False, state=state):
             return _atlas_draw(state, label, st)
-        clips.append(ClipSpec("01_atlas_held_" + nm, 5.0, dr, "teal", stills=[2.0 if nm.startswith("00") else 5.0 and 2.0]))
+        clips.append(ClipSpec("01_atlas_held_" + nm, 5.0, dr, "teal", stills=[2.0], alpha=False))
     return clips
 
 
@@ -518,7 +518,7 @@ def bank_call():
     for st, dur in [("connecting", 6.0), ("live", 6.0), ("frozen", 6.0), ("black", 4.0)]:
         kw = {"timer_stop": 2.0} if st == "frozen" else {}
         clips.append(ClipSpec("04_bank_call_" + st, dur, mk(st, **kw), "lcd", stills=[3.0], dual=True,
-                              matte=m if st in ("live", "frozen") else None))
+                              matte=m if st in ("live", "frozen") else None, alpha=(st in ("live", "frozen"))))
 
     def seq(t, i, alpha=False):
         if t < 4.0:

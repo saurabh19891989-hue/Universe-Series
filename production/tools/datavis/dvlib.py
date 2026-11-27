@@ -232,7 +232,7 @@ def _glass(look):
     return out
 
 
-def core(frame, i, t, look):
+def core(frame, i, t, look, return_pre=False):
     """emissive display look: soft + bloom + scan lines + flicker + grain. float32 RGB 0..~1"""
     x = frame.astype(np.float32)
     if look.soft > 0:
@@ -260,10 +260,12 @@ def core(frame, i, t, look):
     # flicker: slow wobble + frame jitter
     g = 1.0 + look.flicker * (math.sin(t * 7.3 + look.seed) * 0.5 + (rnd(look.seed, i) - 0.5) * 1.6)
     x = x * g
+    pre = np.clip(x, 0, 1.5)
     if look.grain > 0:
         n = _noise(i)
         x = x + (n * look.grain * (0.25 + np.clip(x.mean(axis=2), 0, 1)))[..., None]
-    return np.clip(x, 0, 1.5)
+    x = np.clip(x, 0, 1.5)
+    return (x, pre) if return_pre else x
 
 
 def glass(x, i, t, look):
@@ -308,7 +310,7 @@ def _ff_h264(path):
     return subprocess.Popen(
         ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
          "-r", str(FPS), "-i", "-", "-vf", "scale=out_color_matrix=bt709:out_range=tv,format=yuv420p",
-         "-c:v", "libx264", "-crf", "16", "-preset", "medium", "-threads", "2", "-r", str(FPS),
+         "-c:v", "libx264", "-crf", "16", "-preset", "medium", "-threads", "1", "-r", str(FPS),
          "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
          "-movflags", "+faststart", path], stdin=subprocess.PIPE)
 
@@ -316,8 +318,8 @@ def _ff_h264(path):
 def _ff_prores(path):
     return subprocess.Popen(
         ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}",
-         "-r", str(FPS), "-i", "-", "-c:v", "prores_ks", "-profile:v", "4444", "-qscale:v", "9",
-         "-pix_fmt", "yuva444p10le", "-vendor", "apl0", "-threads", "2", path], stdin=subprocess.PIPE)
+         "-r", str(FPS), "-i", "-", "-c:v", "prores_ks", "-profile:v", "4444", "-qscale:v", "16",
+         "-pix_fmt", "yuva444p10le", "-vendor", "apl0", "-threads", "1", path], stdin=subprocess.PIPE)
 
 
 def _call(spec, t, i, alpha):
@@ -339,7 +341,7 @@ def render(spec, outdir, stilldir=None, quick=False):
         t = i / FPS
         img = _call(spec, t, i, False)
         fr = to_f(img) if isinstance(img, Image.Image) else img
-        c = core(fr, i, t, spec.look)
+        c, c_pre = core(fr, i, t, spec.look, True)
         g = glass(c, i, t, spec.look)
         out8 = (np.clip(g, 0, 1) * 255 + 0.5).astype(np.uint8)
         p264.stdin.write(out8.tobytes())
@@ -347,9 +349,9 @@ def render(spec, outdir, stilldir=None, quick=False):
             if spec.dual:
                 img2 = _call(spec, t, i, True)
                 fr2 = to_f(img2) if isinstance(img2, Image.Image) else img2
-                c2 = core(fr2, i, t, spec.look)
+                c2 = core(fr2, i, t, spec.look, True)[1]
             else:
-                c2 = c
+                c2 = c_pre
             pm.stdin.write(to_alpha(c2).tobytes())
         if i in still_idx and stilldir:
             os.makedirs(stilldir, exist_ok=True)

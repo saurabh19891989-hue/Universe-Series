@@ -18,8 +18,8 @@ def hall_tone(R):
     t = np.arange(n) / SR
 
     def noisy(R, d):
-        a = lp(brown(R, d), 110, 3) * 2.5 + bp(pink(R, d), 120, 900, 2) * 0.35
-        b = lp(brown(R, d), 110, 3) * 2.5 + bp(pink(R, d), 120, 900, 2) * 0.35
+        a = lp(brown(R, d), 110, 3) * 1.2 + bp(pink(R, d), 120, 900, 2) * 3.0
+        b = lp(brown(R, d), 110, 3) * 1.2 + bp(pink(R, d), 120, 900, 2) * 3.0
         return np.stack([a, b], axis=1)
     x = noise_loop(noisy, R, L, 1.0)
     x /= np.abs(x).max()

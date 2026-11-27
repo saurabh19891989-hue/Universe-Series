@@ -603,8 +603,8 @@ def _clamp_draw(t, mode, t_key2=None, t_open=None, t_pop=None, t_key2_out=None):
 def clamp_console():
     cl = []
     cl.append(ClipSpec("10a_clamp_closed", 10.0, lambda t, i, alpha=False: _clamp_draw(t, "closed"), "white",
-                       stills=[4.0], cues={"note": "KEY 1 in, KEY 2 empty; loopable hold"}))
-    cl.append(ClipSpec("10b_clamp_open", 10.0, lambda t, i, alpha=False: _clamp_draw(t, "open"), "white", stills=[4.0]))
+                       stills=[4.0], alpha=False, cues={"note": "KEY 1 in, KEY 2 empty; loopable hold"}))
+    cl.append(ClipSpec("10b_clamp_open", 10.0, lambda t, i, alpha=False: _clamp_draw(t, "open"), "white", stills=[4.0], alpha=False))
     cl.append(ClipSpec("10c_clamp_popup_authority_received", 12.0,
                        lambda t, i, alpha=False: _clamp_draw(t, "popup", t_pop=4.5), "white", stills=[2.0, 8.0],
                        cues={"popup_arrives": 4.5}))
@@ -716,6 +716,6 @@ def warrant(final_hold=6.0):
                          "settled_nobody_from": WTL["refresh1"], "clean_hold_s": final_hold},
                    notes="Final image of the episode. Last %.0f s is a clean hold on CAPTAIN: nobody." % final_hold),
           ClipSpec("12b_warrant_final_hold", 10.0, lambda t, i, alpha=False: _warrant_draw(WTL["refresh1"] + 3.0),
-                   lookobj=_warrant_hold_look, stills=[5.0],
+                   lookobj=_warrant_hold_look, stills=[5.0], alpha=False,
                    notes="10 s of the settled last frame with minimal flicker/grain (no scan roll) for the freeze at the end.")]
     return cl

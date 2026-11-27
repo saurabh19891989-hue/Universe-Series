@@ -42,18 +42,33 @@ ref("jaxC", C+"jax/ref-closeup.jpg", "Jax Vale close-up", "EXISTS")
 ref("jaxP", C+"jax/ref-profile.jpg", "Jax Vale profile", "EXISTS")
 ref("jaxH", C+"jax/ref-helmet.jpg", "Jax Vale in pressure suit and helmet", "EXISTS")
 ref("jaxL", C+"jax/ref-laugh.jpg", "Jax Vale laughing", "EXISTS")
-ref("mira", C+"mira/master.jpg", "Dr Mira Sen", "PLANNED")
-ref("miraS", C+"mira/ref-suit-helmet.jpg", "Dr Mira Sen in customs pressure suit and helmet", "GAP")
-ref("lucia", C+"lucia/master.jpg", "Lucía Ortega", "PLANNED")
+ref("mira", C+"mira/master.jpg", "Dr Mira Sen", "EXISTS")
+ref("miraS", C+"mira/ref-suit-helmet.jpg", "Dr Mira Sen in customs pressure suit and helmet", "EXISTS")
+ref("lucia", C+"lucia/master.jpg", "Lucía Ortega", "EXISTS")
 ref("luciaS", C+"lucia/ref-suit-helmet.jpg", "Lucía Ortega in pressure suit and helmet", "GAP")
 ref("baron", C+"baron/master.jpg", "the Baron", "EXISTS")
 ref("baronS", C+"baron/ref-fullbody-suit.jpg", "the Baron full body in pressure suit", "EXISTS")
 ref("baronL", C+"baron/ref-laugh.jpg", "the Baron laughing", "EXISTS")
-ref("baronHT", C+"baron/ref-helmet-tricorn.jpg", "the Baron in helmet with his tricorn strapped on top", "GAP")
+ref("baronHT", C+"baron/ref-suit-tricorn-helmet.jpg", "the Baron in helmet with his tricorn strapped on top", "EXISTS")
 ref("chich", C+"chichikov/master.jpg", "Chichikov", "EXISTS")
-ref("noakes", C+"noakes/master.jpg", "Superintendent Noakes", "PLANNED")
-ref("temi", C+"temi/master.jpg", "Temi Adeyemi", "PLANNED")
-ref("mamani", C+"mamani/master.jpg", "Officer Mamani", "PLANNED")
+ref("noakes", C+"noakes/master.jpg", "Superintendent Noakes", "EXISTS")
+ref("temi", C+"temi/master.jpg", "Temi Adeyemi", "EXISTS")
+ref("mamani", C+"mamani/master.jpg", "Officer Mamani", "EXISTS")
+
+for _k, _f, _l in [("jaxB", "jax/ref-back.jpg", "Jax Vale from behind"), ("jaxS", "jax/ref-silhouette.jpg", "Jax Vale in silhouette"),
+                   ("jaxGH", "jax/ref-glove-hatchet.jpg", "Jax Vale's suit glove holding the hatchet"), ("jaxTQ", "jax/ref-threequarter.jpg", "Jax Vale three-quarter"),
+                   ("jaxF", "jax/ref-fullbody.jpg", "Jax Vale full body"),
+                   ("baronE", "baron/ref-eyes-closeup.jpg", "the Baron's eyes close-up"), ("baronBP", "baron/ref-back-pigtail.jpg", "the Baron from behind with his pigtail"),
+                   ("baronST", "baron/ref-seated-trunk.jpg", "the Baron seated on his trunk"),
+                   ("chichSoft", "chichikov/ref-softfocus-bench.jpg", "Chichikov in soft focus"), ("chichHB", "chichikov/ref-hands-box.jpg", "Chichikov's gloved hands and inlaid box"),
+                   ("chichBW", "chichikov/ref-back-dark-window.jpg", "Chichikov from behind against a dark window"),
+                   ("luciaD", "lucia/ref-driving-from-behind.jpg", "Lucía Ortega driving, from behind"), ("luciaW", "lucia/ref-wrist-ribbon.jpg", "Lucía Ortega's wrist and red ribbon"),
+                   ("luciaF", "lucia/ref-fullbody-stride.jpg", "Lucía Ortega full body"),
+                   ("miraB", "mira/ref-back.jpg", "Dr Mira Sen from behind"), ("miraG", "mira/ref-glass-screen.jpg", "Dr Mira Sen behind the customs glass"),
+                   ("miraL", "mira/ref-loupe-eye.jpg", "Dr Mira Sen's eye in the loupe"),
+                   ("noakesBC", "noakes/ref-back-console-headset.jpg", "Noakes from behind at the console with headset"),
+                   ("noakesH", "noakes/ref-hands-stamp.jpg", "Noakes's hands with the stamp"), ("noakesR", "noakes/ref-reflection-monitor.jpg", "Noakes reflected in a dark monitor")]:
+    ref(_k, C + _f, _l, "EXISTS")
 S = "assets/sets/"
 ref("bridge", S+"bridge/master.jpg", "the bridge set", "EXISTS")
 ref("hold", S+"hold/master.jpg", "the cargo hold set", "PLANNED")
@@ -81,7 +96,7 @@ ref("pipW", P+"pip/ref-wrist.jpg", "PIP's wrist unit (same amber lens, strapped 
 ref("crawler", "assets/vehicles/crawler/master.jpg", "the customs crawler", "GAP")
 ref("notebook", P+"notebook/master.jpg", "Mira's battered paper notebook", "GAP")
 
-CHAR_OF = {"jax": "jax", "jaxC": "jax", "jaxP": "jax", "jaxH": "jax", "jaxL": "jax", "mira": "mira", "miraS": "mira",
+CHAR_OF = {"jaxB": "jax", "jaxS": "jax", "jaxGH": "jax", "jaxTQ": "jax", "jaxF": "jax", "baronE": "baron", "baronBP": "baron", "baronST": "baron", "chichSoft": "chichikov", "chichHB": "chichikov", "chichBW": "chichikov", "luciaD": "lucia", "luciaW": "lucia", "luciaF": "lucia", "miraB": "mira", "miraG": "mira", "miraL": "mira", "noakesBC": "noakes", "noakesH": "noakes", "noakesR": "noakes", "jax": "jax", "jaxC": "jax", "jaxP": "jax", "jaxH": "jax", "jaxL": "jax", "mira": "mira", "miraS": "mira",
            "lucia": "lucia", "luciaS": "lucia", "baron": "baron", "baronS": "baron", "baronL": "baron", "baronHT": "baron",
            "chich": "chichikov", "noakes": "noakes", "temi": "temi", "mamani": "mamani", "pip": "pip", "pipW": "pip"}
 
@@ -102,9 +117,7 @@ LIB_GAP_JOBS = [
  ("pipW", "PIP's wrist unit: the same brass-and-cream lens housing and amber lens as PIP, miniaturised onto a worn leather wrist strap on a man's forearm in a burnt-orange sleeve, macro product shot, dark background.", ["pip", "jax"]),
  ("crawler", "A customs crawler: a squat six-wheeled pressurised lunar patrol rover of original design, white and dull yellow, one round cab window, a grapple launcher on the roof, scuffed by regolith dust, side view, on grey lunar ground under a low hard sun, black sky.", []),
  ("notebook", "A battered pocket notebook with a cracked brown cover and swollen ink-stained pages, on a steel desk, macro.", []),
- ("miraS", "Full body, Dr Mira Sen in a slim indigo customs pressure suit with a clear-visor helmet, loupe on a chain clipped outside the suit, standing on grey lunar regolith under a low hard sun, black sky.", ["mira", "jaxH"]),
  ("luciaS", "Full body, Lucía Ortega in a heavy scuffed engineer's pressure suit, helmet with clear visor, red ribbon tied round the outside of her glove cuff, on grey lunar regolith under a low hard sun, black sky.", ["lucia", "jaxH"]),
- ("baronHT", "Head and shoulders, the Baron in a patched pressure-suit helmet with a clear visor; his black tricorn hat is strapped absurdly on top of the helmet with a leather belt; the white moustache fills the lower visor; low hard sun, black sky.", ["baron", "baronS"]),
 ]
 
 # ---------------------------------------------------------------- footage
@@ -115,6 +128,7 @@ def foot(cid, in_s=None, out_s=None, note="", fallback=None):
              kind=x["kind"], resolution=x.get("resolution"), media_duration_s=x.get("duration_s"),
              has_audio_or_music=x.get("has_audio_or_music"),
              in_s=in_s, out_s=out_s, note=note)
+    d["plates_status"] = "pending e01-plates.json"
     if fallback:
         f = CANDS[fallback]
         d["fallback"] = dict(id=fallback, title=f["title"], credit=f["credit_line"], verified=f["verified"], kind=f["kind"])
@@ -135,22 +149,24 @@ FT = {
  "farside": lambda a, b, n="": foot("a2_flyby_1min_2160p30", a, b, "Simulated Artemis II flyby built from real LRO data (4K). Strip audio; check for burnt-in text. " + n, "art002e012216"),
  "earthrise": lambda a, b, n="": foot("ART-SAW4_2022_325_1305_SHARED_art001m1203251305", a, b, "Real Orion Earthrise video (142 s); audio stripped. " + n, "art002e016299"),
  "peek": lambda n="": foot("art002e021283", None, None, "Real Artemis II still, Earth from the far side (5568x3712). " + n),
+ "nearfar": lambda n="": foot("art002e012216", None, None, "Real Artemis II still across the near and far side (5568x3712). " + n),
+ "approach": lambda n="": foot("art001e001999", None, None, "Real Orion still approaching the Moon (4000x3000). " + n),
 }
 
 # ---------------------------------------------------------------- shots
 JOBS = OrderedDict()   # id -> job dict
 SHOTS = []
-SCENE_ORDER = ["0", "T", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16",
+SCENE_ORDER = ["0", "T", "1", "2", "3", "4", "5", "6", "7", "B1", "8", "9", "10", "11", "12", "13", "14", "15", "16",
                "17", "18–19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "WWR", "END"]
 ACT = {"0": "Cold open", "T": "Cold open", **{k: "Act 1" for k in "1 2 3 4 5 6 7".split()},
        **{k: "Act 2" for k in "8 9 10 11 12 13 14 15 16".split()},
        **{k: "Act 3" for k in ["17", "18–19", "20", "21", "22"]},
-       **{k: "Act 4" for k in "23 24 25 26 27 28 29 30".split()}, "31": "Tag", "WWR": "What was real", "END": "What was real"}
+       **{k: "Act 4" for k in "23 24 25 26 27 28 29 30".split()}, "B1": "Act 2", "B2": "Act 3", "B3": "Act 4", "31": "Tag", "WWR": "What was real", "END": "What was real"}
 BARON_SAT = {"Cold open": 100, "Act 1": 100, "Act 2": 87, "Act 3": 73, "Act 4": 60, "Tag": 60}
 
 def J(group, name, refs, desc):
     jid = f"E01-J{len(JOBS)+1:03d}"
-    JOBS[jid] = dict(job_id=jid, group=group, target_file=f"$SU_WORK/E01/stills/{jid.lower()}_{name}.png",
+    JOBS[jid] = dict(job_id=jid, group=group, target_file=f"episodes/E01/stills/{jid.lower()}_{name}.png",
                      references=[REF[r]["path"] for r in refs], ref_keys=refs, shot_description=desc, used_by=[])
     return jid
 
@@ -172,11 +188,11 @@ def prompt_for(job):
             f"{job['shot_description']} {' '.join(who)} {HOUSE} After saving, reply with the file path and nothing else.")
 
 cur = dict(scene=None, n=0)
-def s(sc, typ, lines, beat, desc, cam, mot, chars="", img=None, assets=(), ft=None, comp=None, snd=None, risk=None):
+def s(sc, typ, lines, beat, desc, cam, mot, chars="", img=None, assets=(), ft=None, comp=None, snd=None, risk=None, layers=(), extra=None):
     if cur["scene"] != sc:
         cur.update(scene=sc, n=0)
     cur["n"] += 1
-    SHOTS.append(dict(sc=sc, typ=typ, lines=lines, beat=beat, desc=desc, cam=cam, mot=mot, chars=chars, img=img,
+    SHOTS.append(dict(layers=list(layers), extra=extra or {}, sc=sc, typ=typ, lines=lines, beat=beat, desc=desc, cam=cam, mot=mot, chars=chars, img=img,
                       assets=list(assets), ft=ft, comp=comp, snd=snd, risk=risk, n=cur["n"]))
 
 # ================================================================= COLD OPEN (0)
@@ -394,6 +410,7 @@ s("7", "SET_STILL", [166], 0.0, "Noakes: back by six, stamped at one minute past
 s("7", "SET_STILL", [167], 0.0, "Mira in the doorway.", "hold", "none", "mira", door_mira)
 s("7", "SET_STILL", [168, 169], 2.0, "The office, wide: 'Road trip.' 'Inventory.'", "slow pull-out 4%", "none", "noakes,jax", office_wide, snd="Caper button; END OF ACT ONE (2 s black optional).")
 
+s("B1", "REAL_FOOTAGE", [], 3.5, "Act-break bumper: the real Moon, near side and far side in one frame, from Artemis II.", "slow push-in 3%", "real still", "", "REAL", ft=FT["nearfar"](), comp="Full frame. No text.", snd="No dialogue; score continues from the Act One button into C1.", risk=("low", "verified still"))
 # ================================================================= 8 POST-CHAISE
 rim_plate = J("EXT plates", "rim_road_plate", [], "Generated lunar terrain plate (not a photograph): a pale graded service road running along the bright white rim of a huge polar crater, the Sun sitting right on the horizon throwing very long hard shadows, on one side a slope dropping into total black shadow, black sky, no vehicles, no people.")
 cab_back = J("SET post-chaise", "cab_from_back_seat", ["cab", "baron", "lucia", "jax"], "Inside an old rover cab, shot from the back seat looking forward through the windscreen: four heads in silhouette (a driver with short hair, a curly-haired man beside her, an old man in a tricorn hat behind, a woman with a dark braid), a red ribbon on the driver's wrist on the wheel; the windscreen is pure black.")
@@ -403,7 +420,7 @@ mira_cab_note = pages  # merged: reuse, no new image
 lucia_driving = J("Lucía", "lucia_driving_from_behind", ["lucia", "cab"], "Lucía Ortega seen from behind and slightly right, driving the rover, hands on the wheel, her face turned away toward a pure-black windscreen.")
 s("8", "REAL_FOOTAGE", [(172, 0, 4.0)], 1.0, "The real south pole from above: Shackleton's bright rim and black pit.", "slow push-in 6% toward the rim", "real still", "", "REAL", ft=FT["clem"]("Push toward Shackleton at the pole."), comp="Full frame, honest grade.", snd="Score: A2-style caper (new cue C1 'Post-chaise') starts.")
 s("8", "SET_STILL", [(172, 4.0, None)], 2.0, "A white road on a white rim, the Sun on the horizon, a slope into ink; the Baron's rover crawls along, carved horse's head on the bonnet, LOT 14 trunk plainly on the roof rack.", "lateral parallax 6% (3 layers: foreground rocks, road, horizon); rover translates across", "rover translates; dust kicked up falls ballistically (no billowing)", "", rim_plate, assets=[REF["chaise"]["path"]],
-  comp="GENERATED TERRAIN — NOT REAL FOOTAGE. Library post-chaise cut-out composited with contact shadow; trunk with LOT 14 tag readable in every wide.", snd="Exterior: no effects at all (vacuum). Score only.", risk=("medium", "a generated plate must not be passed off as real; ground-level pole view does not exist as a photograph"))
+  comp="NOT REAL FOOTAGE (generated terrain). Library post-chaise cut-out composited with contact shadow; trunk with LOT 14 tag readable in every wide.", snd="Exterior: no effects at all (vacuum). Score only.", risk=("medium", "a generated plate must not be passed off as real; ground-level pole view does not exist as a photograph"))
 s("8", "SET_STILL", [173, 174, 175], 0.0, "The cab from the back seat: four heads, the tricorn, Lucía's ribbon on the wheel, the bright rim through the windscreen.", "handheld drift 1.5% + cabin bounce (2 Hz, 3 px)", "windscreen plate slides; bounce", "lucia,jax,mira,baron", cab_back, comp="Rim plate (generated) in the windscreen, moving.", snd="Cab: dry rover hum, rattles, the trunk thumping on the roof.", risk=("medium", "4 characters in one image, though all from behind"))
 s("8", "INSERT", [176, 177], 0.0, "The Baron's lace cuff points out of the side window.", "hold", "plate slides past the window", "baron", baron_point, comp="Rim plate in the side window.")
 s("8", "INSERT", [178], 0.0, "Lucía's ribbon on the wheel.", "hold; bounce", "wheel jiggle (warp)", "", wheel_ribbon)
@@ -415,13 +432,17 @@ s("8", "SET_STILL", [187], 0.0, "The cab: Jax in the passenger seat.", "crop on 
 s("8", "REAL_FOOTAGE", [188], 2.0, "The Sun at the pole, going round, not rising.", "footage move only", "real visualisation", "", "REAL", ft=FT["poleEarth"](0, 8, "Section where the Sun circles near the horizon."), comp="Full frame; Baron V.O. over it.", risk=("medium", "unverified plate"))
 
 # ================================================================= 9 RIM / INN DOOR
-inn_door = J("SET hatchet", "four_suits_iron_door", ["innx", "jaxH", "baronHT", "miraS", "luciaS"], "Four figures in pressure suits at a round iron door cut into crater rock, half in hard sunlight half in black shadow; one holds up a notebook and pencil; one wears a tricorn strapped on his helmet; faces small behind reflective visors.")
+pl_jax_door = J("Plates 9 inn door", "plate_jax_suit_knock", ["jaxH", "jaxF"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Jax Vale in a pressure suit and helmet, full body, standing at a door, one gloved fist raised to knock; hard low sun from frame left, plain black background.")
+pl_baron_door = J("Plates 9 inn door", "plate_baron_suit_door", ["baronHT", "baronS"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. The Baron in his pressure suit with the tricorn strapped on his helmet, full body, standing proudly; hard low sun from frame left, plain black background.")
+pl_mira_door = J("Plates 9 inn door", "plate_mira_suit_notebook", ["miraS", "mira"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Dr Mira Sen in her customs pressure suit and helmet, full body, holding up a notebook and pencil; hard low sun from frame left, plain black background.")
+pl_lucia_door = J("Plates 9 inn door", "plate_lucia_suit_door", ["luciaS", "lucia"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Lucía Ortega in her engineer's pressure suit and helmet, full body, standing square; hard low sun from frame left, plain black background.")
+DOOR_LAYERS = [pl_jax_door, pl_baron_door, pl_mira_door, pl_lucia_door]
 fist = J("Jax", "gloved_fist_knock", ["jaxH"], "Insert: a gloved pressure-suit fist mid-knock against a round riveted iron door, hard sunlight, black shadow.")
 s("9", "REAL_FOOTAGE", [190], 2.0, "Over the bright rim, down to where the light ends.", "footage move only", "real", "", "REAL", ft=FT["fly"](20, 30, "Section descending toward the shadow line."), comp="Full frame.", snd="Silence: score only.", risk=("medium", "unverified plate"))
-s("9", "SET_STILL", [], 3.0, "Cut into the crater wall, half in sun and half in dark: one lit window and a painted sign, THE SILVER HATCHET, its letters flaking one by one.", "slow push-in 5%", "window glow flickers; sign letters flake (code)", "", "LIB:innx", comp="Library exterior; sign lettering in code; tiny rover cut-out parked.", snd="Silence: score only.")
-s("9", "SET_STILL", [], 1.4, "Four suited figures at a round iron door. Mira holds up her notebook.", "hold", "none", "jax,baron,mira,lucia", inn_door, risk=("high", "4 suited characters, 4 references: generate as two two-shots and layer if consistency fails"))
+s("9", "SET_STILL", [], 3.0, "Cut into the crater wall, half in sun and half in dark: one lit window and a painted sign, THE SILVER HATCHET, its letters flaking one by one.", "slow push-in 5%", "window glow flickers; sign letters flake (code)", "", "LIB:innx", comp="Library exterior; sign lettering in code; tiny rover cut-out parked. NOT REAL FOOTAGE (generated exterior).", snd="Silence: score only.")
+s("9", "SET_STILL", [], 1.4, "Four suited figures at a round iron door. Mira holds up her notebook.", "hold", "none", "jax,baron,mira,lucia", "LIB:innx", layers=DOOR_LAYERS, comp="LAYERED: library inn exterior (door crop) + four suit plates, contact shadows and sun direction matched. NOT REAL FOOTAGE (generated exterior).", risk=("medium", "layered from four single plates; match sun direction and scale"))
 s("9", "INSERT", [], 2.4, "Jax's gloved fist knocks three times. The score stops. Not a sound.", "3 x 2-frame knock jolts", "none", "", fist, snd="SCORE DROPS OUT. Absolute silence for the knocks (the joke).")
-s("9", "SET_STILL", [192, 193], 0.8, "The four at the door.", "push-in 4%", "none", "jax,baron,mira,lucia", inn_door, snd="Suit radio (narrow); silence under.")
+s("9", "SET_STILL", [192, 193], 0.8, "The four at the door.", "push-in 4%", "none", "jax,baron,mira,lucia", "LIB:innx", layers=DOOR_LAYERS, comp="LAYERED as above, tighter on Mira. NOT REAL FOOTAGE (generated exterior).", snd="Suit radio (narrow); silence under.")
 
 # ================================================================= 10 PARLOUR
 parl_wide = J("SET hatchet", "parlour_wide_group", ["parl", "baron", "jax", "lucia"], "Wide of a low inn parlour cut into rock, crowded with impossible objects (a stuffed bear, a sabre bent into a knot, a jar of very large teeth), a slow wedge of sunlight across the floor; the Baron leads two visitors in, all small in frame, faces turned away.")
@@ -518,8 +539,14 @@ horn_frost = J("Props", "post_horn_frost", ["horn", "baron"], "Insert: old hands
 jax_fog = J("Jax", "jax_breath_fog", ["jax", "cold"], "Medium close-up of Jax Vale in a frost-white room, his breath clouding in front of his mouth, sceptical eyes.")
 lucia_fog = J("Lucía", "lucia_breath_fog", ["lucia", "cold"], "Medium close-up of Lucía Ortega in a frost-white room, arms wrapped round herself, breath clouding over her mouth.")
 horn_drip = J("Props", "horn_sweating_drip", ["horn"], "Macro insert: frost melting on a brass post horn's bell beside a blue flame, a single drop of water running down the brass.")
-group_march = J("Group", "four_round_stove_still", ["baron", "jax", "lucia", "mira", "parl"], "Wide: four people frozen still around a squat iron stove in a crowded rock parlour, an old man in a tricorn holding a brass post horn, the others staring at it in astonishment.")
-horn_stove = group_march  # merged: reuse, no new image
+parl_stove = J("SET hatchet", "parlour_stove_corner_empty", ["parl"], "The empty corner of a crowded rock parlour around a squat iron stove with a small blue flame, warm stove light from frame left, room for four people to be added, no people.")
+STOVE_LIGHT = "warm stove light from frame left, dim plain dark-brown background"
+pl_baron_horn = J("Plates 15 march", "plate_baron_horn", ["baron", "horn"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. The Baron, knees up, holding a brass post horn out toward a stove, still, eyes bright; " + "warm stove light from frame left, dim plain dark-brown background.")
+pl_jax_march = J("Plates 15 march", "plate_jax_astonished", ["jax", "jaxTQ"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Jax Vale, waist up, frozen in astonishment staring at something at chest height, lips closed; warm stove light from frame left, dim plain dark-brown background.")
+pl_lucia_march = J("Plates 15 march", "plate_lucia_astonished", ["lucia", "luciaF"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Lucía Ortega, waist up, frozen in astonishment, lips closed; warm stove light from frame left, dim plain dark-brown background.")
+pl_mira_march = J("Plates 15 march", "plate_mira_loupe_raised", ["mira", "miraL"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Dr Mira Sen, waist up, the brass loupe raised to one eye, leaning toward something at chest height, lips closed; warm stove light from frame left, dim plain dark-brown background.")
+MARCH_LAYERS = [pl_baron_horn, pl_jax_march, pl_lucia_march, pl_mira_march]
+horn_stove = parl_stove
 lucia_laugh = J("Lucía", "lucia_laugh_shocked", ["lucia", "parl"], "Close-up of Lucía Ortega laughing once in shock, one hand flying to cover her mouth, eyes wide.")
 loupe_bell = loupe_eye  # merged: reuse, no new image
 pip_wrist_glow = J("PIP", "wrist_glow_soft", ["pipW", "jax"], "Insert: PIP's wrist unit on a burnt-orange sleeve in a dim warm parlour, the amber lens glowing soft and steady.")
@@ -533,15 +560,15 @@ s("15", "CHARACTER_STILL", [265], 0.0, "Jax: 'Tunes don't freeze.'", "hold", "br
 s("15", "CHARACTER_STILL", [266], 0.0, "'Not where you are from.'", "hold", "steam", "baron", baron_frost)
 s("15", "CHARACTER_STILL", [267], 0.0, "Lucía: where's the postilion now?", "hold", "breath fog", "lucia", lucia_fog)
 s("15", "CHARACTER_STILL", [268], 0.0, "'Married a baker in Riga.'", "slow push-in 3%", "steam", "baron", baron_frost)
-s("15", "SET_STILL", [], 2.0, "He carries it back through to the stove and holds it near the blue flame.", "hold", "flame flicker", "baron", horn_stove)
+s("15", "SET_STILL", [], 2.0, "He carries it back through to the stove and holds it near the blue flame.", "hold", "flame flicker", "baron", horn_stove, layers=[pl_baron_horn], comp="LAYERED: empty stove corner + Baron plate.")
 s("15", "INSERT", [], 3.0, "The frost on the brass sweats. A drop runs down the bell.", "macro push-in 4%", "drop runs (code); frost recedes (animated mask)", "", horn_drip, snd="Tiny drip.")
 s("15", "INSERT", [], 1.0, "A small crack of ice.", "1-frame jolt", "none", "", horn_drip, snd="SFX: ice crack (sharp, small).")
-s("15", "SET_STILL", [], 7.0, "Then — tereng! tereng! — a bright, slightly out-of-tune march fills the room out of a horn no one is blowing. No one moves.", "hold, 1% push only", "breath fog; flame", "baron,jax:m,lucia:m,mira:m", group_march, snd="New cue C3: the frozen post-horn march (diegetic).", risk=("high", "four faces in one still; build as layers from approved singles if needed"))
+s("15", "SET_STILL", [], 7.0, "Then — tereng! tereng! — a bright, slightly out-of-tune march fills the room out of a horn no one is blowing. No one moves.", "hold, 1% push only", "breath fog; flame", "baron,jax:m,lucia:m,mira", parl_stove, layers=MARCH_LAYERS, comp="LAYERED: empty stove corner + four single plates, faces small, one warm key from the stove.", snd="New cue C3: the frozen post-horn march (diegetic).", risk=("medium", "layered from four approved singles; match light and scale"))
 s("15", "CHARACTER_STILL", [], 1.8, "Lucía laughs once, shocked.", "hold", "shoulder jolt", "lucia", lucia_laugh, snd="Lucía laugh (needs a recorded or built laugh).")
 s("15", "INSERT", [270], 0.0, "Mira's eye, huge in the loupe, looks into the bell.", "hold", "eye darts", "mira", loupe_bell)
 s("15", "CHARACTER_STILL", [271], 0.0, "'There was a postilion in it.'", "slow push-in 3%", "none", "baron", baron_warm)
 s("15", "INSERT", [272, 273, 274], 0.0, "On Jax's wrist, PIP's light glows soft and steady.", "very slow push-in 3%", "lens glow pulses with 'the post'", "pip", pip_wrist_glow, snd="PIP motif (M3) as two soft notes under the march.")
-s("15", "SET_STILL", [275], 1.8, "The march stumbles to its last note.", "hold", "none", "baron,jax:m,lucia:m,mira:m", group_march)
+s("15", "SET_STILL", [275], 1.8, "The march stumbles to its last note.", "hold", "none", "baron,jax:m,lucia:m,mira", parl_stove, layers=MARCH_LAYERS, comp="LAYERED as above.")
 s("15", "CHARACTER_STILL", [276], 0.0, "She lets the loupe fall and looks with her own eye.", "hold", "loupe drop: 2-frame fall + chain swing", "mira", mira_bare)
 s("15", "CHARACTER_STILL", [277], 1.4, "'No. That is what it's for.'", "hold", "none", "baron", baron_warm)
 
@@ -574,6 +601,7 @@ s("16", "SET_STILL", [296, 297], 0.0, "The soft shape: 'We supply her water.'", 
 s("16", "SET_STILL", [], 1.0, "He rises, a soft grey shape.", "the soft shape lifts 30 px (cut-out)", "none", "chichikov", chich_corner)
 s("16", "INSERT", [298], 2.0, "Where he sat: the contract, with little arrows drawn in the margin.", "slow push-in 5%", "none", "", contract_arrows, snd="Voss motif button; END OF ACT TWO.")
 
+s("B2", "REAL_FOOTAGE", [], 3.5, "Act-break bumper: real Earthrise over the lunar limb from Orion.", "footage move only", "real", "", "REAL", ft=FT["earthrise"](60, 63.5), comp="Full frame. No text.", snd="No dialogue; score continues from the Act Two button (M03 Chichikov) and resolves.", risk=("low", "verified plate"))
 # ================================================================= 17 CLIMBING BACK
 ink_stays = J("Props", "contract_signature_page", ["hall"], "Insert: a contract page on a steel desk with a blank signature line, a pen resting on it, hall lights.")
 date_loupe = ink_stays  # merged
@@ -647,7 +675,7 @@ jax_laugh = boulder  # merged: reuse, no new image
 boulder_xw = J("EXT plates", "boulder_extreme_wide", ["jaxH", "baronHT"], "Generated lunar exterior (not a photograph), extreme wide: two tiny suited figures on a boulder at the lip of a vast crater full of black shadow, empty black sky over a long bright horizon.")
 hatchet_pass = J("Props", "gloved_hands_hatchet", ["hatchet", "baronHT", "jaxH"], "Insert: two pairs of pressure-suit gloves, one patched and old, passing a small dented silver hatchet from one to the other, hard sunlight.")
 s("21", "REAL_FOOTAGE", [], 4.0, "Earth, low and half-lit on the horizon of the south pole.", "footage move only", "real", "", "REAL", ft=FT["poleEarth"](10, 20), comp="Full frame.", snd="A click. Private channel. Score: A4 emotional (v2) very low.", risk=("medium", "unverified; preferred SVS 4944 not logged"))
-s("21", "SET_STILL", [351], 0.0, "Two suited figures on a boulder at the edge of the world, backs to us; the tricorn strapped on the Baron's helmet; Earth low ahead.", "slow push-in 3%", "Earth shimmer none (vacuum); dust still", "jax,baron", boulder, ft=FT["earth"](), comp="GENERATED TERRAIN — NOT REAL FOOTAGE; real Earth disc composited low on the horizon (size: about 2 degrees, i.e. large).", snd="Suit radio, private channel (narrow, intimate). No exterior sound.", risk=("medium", "honesty label; Earth scale must be right (~4x the full Moon from Earth)"))
+s("21", "SET_STILL", [351], 0.0, "Two suited figures on a boulder at the edge of the world, backs to us; the tricorn strapped on the Baron's helmet; Earth low ahead.", "slow push-in 3%", "Earth shimmer none (vacuum); dust still", "jax,baron", boulder, ft=FT["earth"](), comp="NOT REAL FOOTAGE (generated terrain); real Earth disc composited low on the horizon (size: about 2 degrees, i.e. large).", snd="Suit radio, private channel (narrow, intimate). No exterior sound.", risk=("medium", "honesty label; Earth scale must be right (~4x the full Moon from Earth)"))
 s("21", "SET_STILL", [352, 353], 0.0, "Tighter on the two backs.", "push-in 5%", "none", "jax,baron", boulder)
 s("21", "CHARACTER_STILL", [354], 0.0, "The Baron's visor, Earth reflected, moustache a white shape behind the glass.", "slow push-in 4%", "reflection slides 1%", "baron", baron_visor)
 s("21", "CHARACTER_STILL", [355], 0.0, "Jax's visor.", "hold", "reflection drift", "jax", jax_visor, risk=("low", "visor reflection hides mouth"))
@@ -665,7 +693,7 @@ s("21", "CHARACTER_STILL", [], 3.0, "Jax laughs, in spite of himself, a real one
 s("21", "CHARACTER_STILL", [365], 0.0, "'You listened to the end.'", "hold", "none", "baron", baron_visor)
 s("21", "CHARACTER_STILL", [366], 0.0, "Jax: 'Did it happen?'", "hold", "none", "jax", jax_visor)
 s("21", "CHARACTER_STILL", [367], 0.0, "'It's happening now. You are the audience.'", "very slow push-in 2%", "none", "baron", baron_visor)
-s("21", "SET_STILL", [], 3.6, "A silence, long enough to hurt: two tiny figures on a boulder at the lip of the dark.", "hold (deliberate three-second hold plus cut breath)", "none", "jax,baron", boulder_xw, ft=FT["earth"](), comp="GENERATED TERRAIN — NOT REAL FOOTAGE; real Earth disc composited.", snd="Score out. Radio hiss only.")
+s("21", "SET_STILL", [], 3.6, "A silence, long enough to hurt: two tiny figures on a boulder at the lip of the dark.", "hold (deliberate three-second hold plus cut breath)", "none", "jax,baron", boulder_xw, ft=FT["earth"](), comp="NOT REAL FOOTAGE (generated terrain); real Earth disc composited.", snd="Score out. Radio hiss only.")
 s("21", "CHARACTER_STILL", [368], 0.0, "'I will come. By cannonball.'", "hold", "none", "baron", baron_visor)
 s("21", "CHARACTER_STILL", [369], 0.0, "Jax: not a real promise.", "hold", "none", "jax", jax_visor)
 s("21", "CHARACTER_STILL", [370], 0.0, "'It is the only kind I make.'", "hold", "none", "baron", baron_visor)
@@ -680,7 +708,14 @@ s("21", "SET_STILL", [377], 2.6, "'I'll watch it a little longer. It might do so
 hall_clock = J("SET customs", "hall_clock", ["hall"], "Insert: a large plain analogue wall clock in a concrete customs hall, the hands removed (we add them), flicker of a tube light.")
 hall_desk_plate = J("SET customs", "hall_signing_plate", ["hall", "board"], "Wide plate of a vast empty customs hall with one desk in the middle of the floor and a flip-number board on the wall behind it, no people (characters are added as layers).")
 chich_hall = J("Chichikov", "chich_soft_hall", ["chich", "box", "hall"], "At the far end of a vast customs hall, soft grey and out of focus: a plump man in an overcoat at a desk with a small inlaid box open in front of him.")
-three_shot = J("Group", "baron_jax_lucia_desk", ["baron", "jax", "lucia", "hall"], "Three-shot at a customs desk in a vast hall: the Baron holding a pen, looking sideways at Jax Vale; Lucía Ortega beside them with a packed kit bag at her feet; all lips closed.")
+HALL_LIGHT = "flat cool overhead tube light of a big concrete hall, plain mid-grey background"
+pl_baron22 = J("Plates 22 signing", "plate_baron_signing", ["baron", "baronE"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. The Baron, knees up, standing at desk height with a pen in his hand, looking sideways to frame right, moustache hiding his mouth; flat cool overhead tube light, plain mid-grey background.")
+pl_jax22 = J("Plates 22 signing", "plate_jax_signing", ["jax", "jaxTQ"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Jax Vale, knees up, standing at desk height, three-quarter to frame left, lips closed; flat cool overhead tube light, plain mid-grey background.")
+pl_lucia22 = J("Plates 22 signing", "plate_lucia_bag", ["lucia", "luciaF"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Lucía Ortega, full body, a packed kit bag at her feet, arms at her sides, watching frame left, lips closed; flat cool overhead tube light, plain mid-grey background.")
+pl_mira22 = J("Plates 22 signing", "plate_mira_stamp", ["mira", "stamp"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Dr Mira Sen, knees up, holding a heavy brass customs stamp, watching frame right, lips closed; flat cool overhead tube light, plain mid-grey background.")
+pl_noakes22 = J("Plates 22 signing", "plate_noakes_back_desk", ["noakes"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Noakes from behind, knees up, standing at desk height in customs uniform; flat cool overhead tube light, plain mid-grey background.")
+pl_chich22 = J("Plates 22 signing", "plate_chich_seated_box", ["chich", "chichHB"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Chichikov seated, full body, a small inlaid box open on a table edge in front of him (table may be cropped); flat cool overhead tube light, plain mid-grey background. (Composited heavily defocused.)")
+SIGN_LAYERS = [pl_noakes22, pl_baron22, pl_jax22, pl_lucia22, pl_mira22, pl_chich22]
 coat_colour = J("Baron", "coat_chest_detail", ["baron"], "Insert: the chest and brass buttons of a moth-eaten red 18th-century cavalry coat over a patched pressure suit, close.")
 lucia_hall = J("Lucía", "lucia_hall_mcu", ["lucia", "hall"], "Medium close-up of Lucía Ortega in a vast customs hall, watching someone beside her, breath held, lips closed.")
 baron_hands = J("Baron", "baron_looks_at_hands", ["baron", "hall"], "Medium close-up of the Baron looking down at his own open hands in wonder, moustache hiding his mouth, hall lights.")
@@ -692,10 +727,10 @@ baron_laugh_hall = J("Baron", "baron_laugh_hall", ["baron", "baronL", "hall"], "
 bag_grab = kitbag  # merged: reuse, no new image
 noakes_alone = J("Noakes", "noakes_alone_wide_board", ["noakes", "hall", "board"], "Wide: a tired man in customs uniform alone at one desk in the middle of a vast empty customs hall, small in frame, a flip-number board on the wall above him.")
 s("22", "INSERT", [379], 0.6, "The hall clock: 17:45.", "push-in 4%", "second hand ticks (code)", "", hall_clock, snd="Clock tick (first heard).")
-s("22", "SET_STILL", [380], 0.4, "One desk in the middle of the enormous hall; Chichikov soft at the far end; the Baron, Jax, Lucía with her bag, Mira with the stamp, Noakes; on the wall, the board: 1,094.", "slow push-in 4%", "layers parallax 2%", "noakes,baron,jax,lucia,mira,chichikov", hall_desk_plate,
-  comp="LAYERED: hall plate + cut-outs from approved singles (three_shot, mira_side, noakes, chich_hall). All small in frame.", risk=("high", "six characters in one wide; layered build, check every face"))
+s("22", "SET_STILL", [380], 0.4, "One desk in the middle of the enormous hall; Chichikov soft at the far end; the Baron, Jax, Lucía with her bag, Mira with the stamp, Noakes; on the wall, the board: 1,094.", "slow push-in 4%", "layers parallax 2%", "noakes,baron,jax,lucia,mira,chichikov", hall_desk_plate, layers=SIGN_LAYERS,
+  comp="LAYERED: empty hall plate + six single plates (Noakes back, Baron, Jax, Lucía, Mira, Chichikov defocused at the far end); all small in frame; board numbers in code.", risk=("medium", "six layers: match scale, light direction and contact shadows"))
 s("22", "SET_STILL", [381], 0.0, "Chichikov, soft grey, his box open: initial where the little arrows are.", "hold", "none", "chichikov", chich_hall)
-s("22", "TWO_SHOT", [], 1.8, "The Baron takes the pen. Looks at Jax. Signs.", "hold", "eye-line shift (warp)", "baron,jax:m,lucia:m", three_shot, risk=("high", "three faces in one generated image"))
+s("22", "TWO_SHOT", [], 1.8, "The Baron takes the pen. Looks at Jax. Signs.", "hold", "eye-line shift (warp)", "baron,jax:m,lucia:m", hall_desk_plate, layers=[pl_baron22, pl_jax22, pl_lucia22], comp="LAYERED: hall plate crop + Baron, Jax and Lucía plates at medium size.", risk=("medium", "layered three-shot; eye-lines must meet"))
 s("22", "INSERT", [], 2.4, "The ink. It stays. It stays.", "hold", "signature writes on and holds (code)", "", ink_stays)
 s("22", "INSERT", [382], 2.0, "The Baron's coat: the faded red seeps back to red.", "hold", "saturation ramp 60% to 100% (code, coat matte)", "", coat_colour)
 s("22", "CHARACTER_STILL", [], 0.8, "Lucía, breath held.", "hold", "breath", "lucia:m", lucia_hall)
@@ -725,16 +760,19 @@ s("22", "INSERT", [403], 0.2, "Jax looks at the clock: quarter to.", "hold", "se
 s("22", "SET_STILL", [], 1.4, "He grabs the parcel; Lucía grabs the Baron; they are gone.", "whip-pan 8%", "motion-blur streak layers", "", hall_desk_plate, snd="Caper hit (C1 sting); running feet.")
 s("22", "SET_STILL", [404, 405], 2.0, "Noakes, alone at the desk in the enormous hall. Above him: DAYS WITHOUT INCIDENT: 1,094. 'That was an incident. Seal the port.'", "slow push-in 5%", "tube flicker", "noakes", noakes_alone, snd="A3-style tension cue (new C4) enters; END OF ACT THREE.")
 
+s("B3", "REAL_FOOTAGE", [], 3.5, "Act-break bumper: the real Moon growing in Orion's window.", "slow push-in 4%", "real still", "", "REAL", ft=FT["approach"](), comp="Full frame. No text.", snd="No dialogue; the 'Seal the port' tension continues and tips into the chase.", risk=("low", "verified still"))
 # ================================================================= 23 CORRIDOR LEAP
 klaxon = J("SET customs", "klaxon_red", ["corr"], "Insert: a red rotating warning lamp on a concrete corridor wall, mid-turn, throwing red light.")
-leap = J("Group", "lucia_leap_baron_overhead", ["lucia", "baron", "corr"], "Hero silhouette against bright corridor lights: a strong woman mid-leap three metres off the floor in low gravity holding an old man in a tricorn and long coat straight over her head like a trophy belt; both shapes mostly in silhouette, red warning light.")
+pl_lucia_leap = J("Plates 23 leap", "plate_lucia_leap", ["lucia", "luciaF"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Lucía Ortega mid-leap in low gravity, both arms raised straight overhead as if holding something heavy above her head, strong backlight so she reads almost as a silhouette, red rim light; plain bright hazy background.")
+pl_baron_lift = J("Plates 23 leap", "plate_baron_lifted", ["baron", "baronS"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. The Baron held horizontally in the air as if lifted overhead, one hand clamping his tricorn, coat hanging, strong backlight so he reads almost as a silhouette, red rim light; plain bright hazy background.")
+LEAP_LAYERS = [pl_lucia_leap, pl_baron_lift]
 jax_run = J("Jax", "jax_running_parcel", ["jax", "parcel", "corr"], "Jax Vale running in a long bounding low-gravity stride down a red-lit corridor, the brown-paper parcel under one arm, motion, mostly silhouette.")
 boots_leave = jax_run  # merged: reuse, no new image
 s("23", "INSERT", [], 1.0, "A klaxon light turns red.", "hold", "light rotates (code)", "", klaxon, snd="SFX: klaxon (two-tone, ours).")
-s("23", "SET_STILL", [408, 409], 0.0, "Lucía mid-leap, the Baron held overhead like a trophy belt, three metres off the floor in one-sixth gravity.", "slow push-in 3%; 1% float drift", "red light sweeps", "lucia,baron", leap, risk=("high", "two-body pose; play as silhouette"))
+s("23", "SET_STILL", [408, 409], 0.0, "Lucía mid-leap, the Baron held overhead like a trophy belt, three metres off the floor in one-sixth gravity.", "slow push-in 3%; 1% float drift", "red light sweeps", "lucia,baron", "LIB:corr", layers=LEAP_LAYERS, comp="LAYERED: library corridor, backlit; Lucía plate with the Baron plate placed on her hands; both pushed toward silhouette.", risk=("medium", "two plates must read as one lift; hands hidden in silhouette"))
 s("23", "INSERT", [410], 0.0, "Boots leaving the floor.", "hold", "none", "", boots_leave)
 s("23", "SET_STILL", [411], 0.0, "Jax behind with the parcel.", "lateral move 5%", "red light", "jax", jax_run)
-s("23", "SET_STILL", [412], 0.4, "The Baron overhead: 'Mind my trunk. It is on the roof. It always is.'", "crop on the Baron; push 4%", "red light", "baron,lucia", leap, snd="C1 caper cue, chase variant, starts.")
+s("23", "SET_STILL", [412], 0.4, "The Baron overhead: 'Mind my trunk. It is on the roof. It always is.'", "crop on the Baron; push 4%", "red light", "baron,lucia", "LIB:corr", layers=LEAP_LAYERS, snd="C1 caper cue, chase variant, starts.")
 
 # ================================================================= 24 CHASE
 crawler_side = J("Vehicles", "crawler_alongside", ["crawler", "cab"], "From inside an old rover cab through its side window: a customs crawler driving alongside close enough to touch on a bright lunar road, black sky.")
@@ -746,20 +784,20 @@ wheels = J("Vehicles", "wheels_meet_dust", ["chaise"], "Insert: an old rover's w
 rear_window = J("Vehicles", "rear_window_crawler_nose_down", ["crawler", "cab"], "Through a rover's rear window: far behind, a customs crawler nose-down in a black gully, wheels in the air, perfectly still; a tiny card in its window.")
 s("24", "REAL_FOOTAGE", [], 2.0, "The real rim from above, racing.", "footage move only, speed-ramped 1.3x", "real", "", "REAL", ft=FT["fly"](40, 50), comp="Full frame.", snd="No exterior sound. Score only (C1 chase).", risk=("medium", "unverified"))
 s("24", "SET_STILL", [414, 415, 416, 417, 418], 0.0, "The post-chaise tears along the white rim, trunk on its roof; two customs crawlers behind. Not a sound outside.", "lateral parallax 8%, vehicles translate", "vehicles translate; ballistic dust", "", rim_plate, assets=[REF["chaise"]["path"], REF["crawler"]["path"]],
-  comp="GENERATED TERRAIN — NOT REAL FOOTAGE. Rover and two crawler cut-outs.", risk=("medium", "vehicle cut-outs must sit in the light"))
+  comp="NOT REAL FOOTAGE (generated terrain). Rover and two crawler cut-outs.", risk=("medium", "vehicle cut-outs must sit in the light"))
 s("24", "SET_STILL", [], 1.6, "A crawler slides up alongside, close enough to touch. Silent as a cloud.", "slow push 3%", "crawler drifts closer 20 px", "", crawler_side, comp="Rim plate behind.")
 s("24", "INSERT", [420, 421], 0.0, "Through its window: a blank visor, a card pressed to the glass: CUSTOMS. PULL OVER.", "hold", "none", "", card_window, comp="Card text in code.")
 s("24", "INSERT", [423], 0.8, "The card flips over: PLEASE.", "flip (two cut-out states)", "card flip", "", card_window)
-s("24", "SET_STILL", [], 1.4, "Ahead, the road kinks over a black gully. Lucía doesn't brake.", "push-in 6% (speed)", "plate slides", "", gully, comp="GENERATED TERRAIN — NOT REAL FOOTAGE.")
+s("24", "SET_STILL", [], 1.4, "Ahead, the road kinks over a black gully. Lucía doesn't brake.", "push-in 6% (speed)", "plate slides", "", gully, comp="NOT REAL FOOTAGE (generated terrain).")
 s("24", "SET_STILL", [], 8.0, "WIDE (HELD): the post-chaise leaves the rim and hangs in the air over the gully. Black below. Sun above. It hangs. It goes on hanging.", "hold; rover cut-out moves on a true 1/6 g arc (code), almost static", "rover ballistic arc; wheels still spinning", "", gully, assets=[REF["chaise"]["path"]],
-  comp="GENERATED TERRAIN — NOT REAL FOOTAGE. Rover arc computed (1.62 m/s2).", snd="Score holds one single note.", risk=("medium", "the hang must read as funny, not frozen: wheels spin and the arc moves"))
+  comp="NOT REAL FOOTAGE (generated terrain). Rover arc computed (1.62 m/s2).", snd="Score holds one single note.", risk=("medium", "the hang must read as funny, not frozen: wheels spin and the arc moves"))
 s("24", "SET_STILL", [425, 426], 0.0, "Inside: everyone an inch above their seats; parcel and tricorn floating, held down.", "1% float drift", "float bob (code)", "jax,baron,lucia", cab_air, snd="Cab: engine whine with no road noise.", risk=("medium", "three characters plus floating props"))
 s("24", "CHARACTER_STILL", [(427, 0, 6.5)], 0.0, "The Baron at the side window, fist raised, magnificent: 'Cowards of customs!'", "slow push-in 4%", "fist shake (warp)", "baron", baron_fist)
 s("24", "CHARACTER_STILL", [(427, 6.5, None)], 0.0, "Closer: 'I was swallowed by a fish and left by the front door!'", "push-in 6% to eyes", "none", "baron", baron_fist)
 s("24", "CHARACTER_STILL", [428, 429], 0.0, "'Your radio's off.' 'They are not worthy of the words.'", "slow push-in 3%", "fist lowers (warp)", "baron", baron_fist)
 s("24", "INSERT", [], 2.0, "The wheels meet the dust. Not a sound. Inside, everyone drops an inch.", "1-frame drop jolt", "dust arc", "", wheels, snd="Interior thump only (felt, not heard outside).")
 s("24", "INSERT", [430], 0.0, "The rear window: crawler one nose-down in the gully, wheels in the air, still asking nicely.", "hold", "none", "", rear_window)
-s("24", "SET_STILL", [], 2.2, "Ahead, in silence, a third crawler slews across the road.", "hold", "crawler slides into frame (cut-out)", "", rim_plate, assets=[REF["crawler"]["path"]], comp="GENERATED TERRAIN — NOT REAL FOOTAGE.")
+s("24", "SET_STILL", [], 2.2, "Ahead, in silence, a third crawler slews across the road.", "hold", "crawler slides into frame (cut-out)", "", rim_plate, assets=[REF["crawler"]["path"]], comp="NOT REAL FOOTAGE (generated terrain).")
 
 # ================================================================= 25 CLAMP CONSOLE
 console_wide = J("SET customs", "console_noakes_mira", ["console", "noakes", "mira", "hall"], "A two-slot clamp console under a flip-number board in a vast customs hall: Noakes from behind on a headset, Dr Mira Sen beside him with a key on a lanyard, her face turned to the console; far at the back of the hall a soft grey figure with a teacup.")
@@ -788,39 +826,43 @@ s("25", "INSERT", [], 2.0, "Mira's key slides into slot two. Her thumb rests on 
 # ================================================================= 26 INNER EDGE
 lip_plate = J("EXT plates", "inner_lip_plate", [], "Generated lunar terrain plate (not a photograph): a road at the very inner lip of a huge crater, a customs crawler parked across the road ahead, the rim falling away on the left into absolute black, low hard Sun.")
 headlamps = J("EXT plates", "headlamps_slope", [], "Pure darkness except two rover headlamp beams lighting three metres of steep grey lunar slope, then nothing at all.")
-s("26", "SET_STILL", [447, 448, 449, 450], 0.0, "Blocked ahead. A crawler behind. On the left, the inner lip of the crater and the black.", "push-in 6%", "plate slides", "", lip_plate, comp="GENERATED TERRAIN — NOT REAL FOOTAGE.", snd="Cab voices dry; no exterior sound.")
+s("26", "SET_STILL", [447, 448, 449, 450], 0.0, "Blocked ahead. A crawler behind. On the left, the inner lip of the crater and the black.", "push-in 6%", "plate slides", "", lip_plate, comp="NOT REAL FOOTAGE (generated terrain).", snd="Cab voices dry; no exterior sound.")
 s("26", "SET_STILL", [451, 452, 453], 0.0, "From the back seat: the lip on the left of the windscreen.", "handheld 2%", "bounce", "lucia,jax,baron", cab_back, comp="Lip plate in the windscreen.")
 s("26", "SET_STILL", [], 1.0, "The rover goes over the lip.", "tilt 5 degrees + drop", "plate tips", "", lip_plate)
 s("26", "BLACK", [454], 2.4, "CUT TO BLACK. Silence. 'Lights.'", "none", "none", img="CODE", snd="Total silence 1.5 s, then Lucía dry.")
-s("26", "SET_STILL", [], 2.4, "Headlamps: three metres of grey slope. Then nothing at all.", "hold", "headlamp flicker", "", headlamps, comp="GENERATED, labelled.")
+s("26", "SET_STILL", [], 2.4, "Headlamps: three metres of grey slope. Then nothing at all.", "hold", "headlamp flicker", "", headlamps, comp="NOT REAL FOOTAGE (generated).")
 
 # ================================================================= 27 INNER WALL
-faces_below = J("Group", "three_faces_lit_below", ["lucia", "jax", "baron", "cab"], "Inside a dark rover cab from the dashboard looking back: three faces (a woman driver with short hair, a curly-haired man, an old man with a huge white moustache and tricorn) lit only from below by dashboard glow, black beyond, lips closed, very still.")
+DASH = "lit only from below by green-amber dashboard glow, pure black background, lips closed, very still"
+pl_lucia_dash = J("Plates 27 dashboard", "plate_lucia_dash", ["lucia", "luciaD"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Lucía Ortega, head and shoulders, hands on a wheel just out of frame, lit only from below by green-amber dashboard glow, pure black background, lips closed, very still.")
+pl_jax_dash = J("Plates 27 dashboard", "plate_jax_dash", ["jax", "jaxC"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. Jax Vale, head and shoulders, lit only from below by green-amber dashboard glow, pure black background, lips closed, very still.")
+pl_baron_dash = J("Plates 27 dashboard", "plate_baron_dash", ["baron", "baronE"], "Layer plate for compositing: plain matched background (no set, no other people), lit to match the target set; full figure or knees-up so it can be scaled. The Baron with his tricorn, head and shoulders, lit only from below by green-amber dashboard glow, pure black background, moustache hiding his mouth, very still.")
+DASH_LAYERS = [pl_lucia_dash, pl_jax_dash, pl_baron_dash]
 frost3 = J("SET post-chaise", "frost_windscreen_3", ["cab"], "Insert: the same rover windscreen almost covered in thick frost ferns, a small clear patch, dashboard glow.")
 frost1 = frost3  # merged: reuse, no new image
 frost2 = frost3  # merged: reuse, no new image
 radio_grille = J("SET post-chaise", "cab_radio_grille", ["cab"], "Insert: an old rover dashboard radio speaker grille with one small green signal lamp lit, in near darkness.")
 mira_console_mic = J("Mira", "mira_console_headset_boom", ["mira", "noakes", "console"], "Dr Mira Sen at a console in a dim hall wearing a headset whose microphone boom sits right in front of her mouth, eyes intent on a screen; Noakes in shadow beside her.")
-s("27", "CHARACTER_STILL", [], 2.0, "Three faces lit from below by the dashboard. Black beyond.", "hold (held still)", "dashboard flicker", "lucia:m,jax:m,baron", faces_below, snd="Cab heater wheezing; battery whine.", risk=("high", "three faces in one still, low light; fallback: three singles"))
+s("27", "CHARACTER_STILL", [], 2.0, "Three faces lit from below by the dashboard. Black beyond.", "hold (held still)", "dashboard flicker", "lucia:m,jax:m,baron", "LIB:cab", layers=DASH_LAYERS, comp="LAYERED: library cab crushed to near black + three dashboard plates side by side.", snd="Cab heater wheezing; battery whine.", risk=("medium", "layered from three plates; same light on all three"))
 s("27", "INSERT", [456], 0.0, "Frost on the windscreen.", "hold", "frost stage 1: heavy-frost still revealed 20% through an animated mask", "", frost1, snd="Frost crackle.")
-s("27", "CHARACTER_STILL", [457], 0.0, "The Baron lit from below: 'That's why it is empty.'", "crop on Baron (upscaled)", "flicker", "baron", faces_below)
+s("27", "CHARACTER_STILL", [457], 0.0, "The Baron lit from below: 'That's why it is empty.'", "hold", "flicker", "baron", pl_baron_dash)
 s("27", "INSERT", [458, 459], 0.0, "PIP on the wrist, crackling.", "hold", "lens glow stutters", "pip", pip_wrist_glow, comp="Regrade cold and dark.")
 s("27", "INSERT", [], 1.6, "Frost, thicker.", "hold", "frost stage 2: mask reveals 55%", "", frost2)
 s("27", "INSERT", [460, 461], 0.0, "The cab radio: Mira on the open channel.", "hold", "signal lamp lights", "", radio_grille, snd="Mira filtered (open channel, wider with hiss).")
-s("27", "CHARACTER_STILL", [462], 0.0, "The three faces, very still: 'Hello, everyone.'", "hold", "flicker", "lucia:m,jax:m,baron", faces_below, risk=("low", "silent faces under radio V.O."))
+s("27", "CHARACTER_STILL", [462], 0.0, "The three faces, very still: 'Hello, everyone.'", "hold", "flicker", "lucia:m,jax:m,baron", "LIB:cab", layers=DASH_LAYERS, comp="LAYERED as above.", risk=("low", "silent faces under radio V.O."))
 s("27", "DATA_VISUAL", [463], 0.0, "A pale laser map blooms in the black, contour by contour: the inner wall, measured from orbit. A small dot: them.", "slow orbit 6 degrees", "contours bloom outward", img="CODE", comp="DATA_VISUAL 6 from LOLA altimetry (real data, rendered by us).")
-s("27", "CHARACTER_STILL", [464], 0.0, "Jax's eyes, lit from below.", "crop eyes only (upscaled)", "none", "jax", faces_below)
+s("27", "CHARACTER_STILL", [464], 0.0, "Jax's eyes, lit from below.", "crop eyes only", "none", "jax", pl_jax_dash)
 s("27", "DATA_VISUAL", [465], 0.0, "The map: LEFT 11°. The dot turns.", "hold", "dot moves", img="CODE")
 s("27", "INSERT", [], 1.0, "Lucía steers.", "hold", "wheel turn (warp)", "", wheel_ribbon, comp="Regrade dark, dashboard light.")
 s("27", "DATA_VISUAL", [466], 0.8, "STOP. They stop.", "hold", "dot halts", img="CODE")
 s("27", "DATA_VISUAL", [467], 0.0, "Four metres to the right, the wall goes down four kilometres: the map shows it.", "slow push 5% toward the drop", "drop highlighted in a cold line", img="CODE")
-s("27", "CHARACTER_STILL", [468], 0.0, "Jax's eyes.", "hold", "none", "jax", faces_below)
-s("27", "CHARACTER_STILL", [469], 0.0, "The three faces: 'You're the first one who's had to listen.'", "very slow push-in 2%", "flicker", "lucia:m,jax:m,baron", faces_below)
+s("27", "CHARACTER_STILL", [468], 0.0, "Jax's eyes.", "hold", "none", "jax", pl_jax_dash)
+s("27", "CHARACTER_STILL", [469], 0.0, "The three faces: 'You're the first one who's had to listen.'", "very slow push-in 2%", "flicker", "lucia:m,jax:m,baron", "LIB:cab", layers=DASH_LAYERS, comp="LAYERED as above.")
 s("27", "CHARACTER_STILL", [470], 0.0, "At the console, Mira; Noakes beside her in shadow: 'Dr Sen. Get off this channel.'", "hold", "screen glow", "mira,noakes", mira_console_mic, risk=("low", "mic boom hides her mouth; Noakes in shadow"))
 s("27", "DATA_VISUAL", [471, 472], 0.0, "The map: forward 40 m, a boulder the size of a house, round it on the left.", "slow orbit", "dot moves round the boulder", img="CODE")
 s("27", "INSERT", [(473, 0, 4.0)], 0.0, "Frost, nearly covering the glass.", "hold", "frost stage 3: 90% revealed", "", frost3)
 s("27", "DATA_VISUAL", [(473, 4.0, None)], 0.0, "The map: the service ramp to bay nine, climbing into the Sun.", "push-in 6%", "ramp lights up", img="CODE")
-s("27", "CHARACTER_STILL", [474, 475, 476], 0.6, "The Baron, softly: 'Madam, you are a wonder.'", "slow push-in 3%", "none", "baron", faces_below)
+s("27", "CHARACTER_STILL", [474, 475, 476], 0.6, "The Baron, softly: 'Madam, you are a wonder.'", "slow push-in 3%", "none", "baron", pl_baron_dash)
 s("27", "CHARACTER_STILL", [], 1.4, "At the console, Mira, alone in her work.", "hold", "none", "mira", mira_console_mic)
 
 # ================================================================= 28 THE KEY
@@ -837,7 +879,7 @@ s("28", "INSERT", [481], 0.0, "She draws the key out of the slot.", "hold", "key
 s("28", "CHARACTER_STILL", [482], 0.0, "Noakes: 'What are you doing?' Mira (O.S.): 'Nothing, sir. Earth hasn't said yes.'", "hold", "none", "noakes", noakes_headset)
 s("28", "DATA_VISUAL", [], 2.4, "Silence, one point three seconds of it. Then a box pops up on the console: AUTHORITY TO LOCK — RECEIVED.", "hold", "box pops after exactly 1.3 s", img="CODE", snd="NO SCORE. Silence, then a polite chime.")
 s("28", "INSERT", [484], 0.0, "Noakes's hand stops in mid-air.", "hold", "none", "", noakes_hand)
-s("28", "CHARACTER_STILL", [485], 0.0, "Mira, in profile: 'Courageous. Yes. I've heard.'", "hold", "mouth patch (profile, 5 visemes)", "mira:m", mira_profile, risk=("high", "profile mouth patch on the payoff line; test early, fallback: play on Noakes's hand"))
+s("28", "CHARACTER_STILL", [485], 0.0, "Mira from behind at the console: 'Courageous. Yes. I've heard.'", "slow push-in 2%", "none", "mira", mira_console, comp="Ruling: no mouth patch. Noakes's hand stopped in mid-air (previous shot) carries 'Dr Sen, that was—'; her line plays on her back.", risk=("low", "no patch"))
 s("28", "INSERT", [], 2.0, "Her badge laid on the desk. Then the stamp beside it. The key goes into her pocket.", "hold", "2 cuts", "", badge)
 s("28", "INSERT", [], 2.4, "Her notebook, entry 41: OWNER: —. She writes in the empty field: VOSS.", "hold", "write-on", "", pages)
 s("28", "INSERT", [487], 0.4, "At the back of the hall, a soft grey hand writes under a long list of names: SEN, M. 'Cartographer.'", "hold", "write-on", "", chich_notebook)
@@ -859,11 +901,11 @@ baron_salute = J("Baron", "baron_visor_salute", ["baronHT", "baron", "ship"], "C
 lucia_trunk = J("Lucía", "lucia_heaves_trunk", ["luciaS", "trunk", "ship"], "Lucía Ortega in a pressure suit heaving a battered steamer trunk with a brown luggage tag up a ship's cargo ramp, strong, black sky.")
 liftoff = J("EXT plates", "liftoff_speck_figure", ["chaise"], "Generated lunar exterior (not a photograph), extreme wide: over a bright white crater rim a tiny ship speck lifting into black sky; far below on an apron beside an old rover, one small motionless figure in a long coat and tricorn hat.")
 s("29", "SET_STILL", [493], 2.6, "The rover bursts up the ramp road into blinding Sun. At the top of the apron, 80 m ahead: The Unscheduled, clamp open, ramp up.", "slow push-in 4%; rover translates up the road", "rover translates; ballistic dust", "", apron_wide, assets=[REF["chaise"]["path"], REF["crawler"]["path"]],
-  comp="GENERATED TERRAIN — NOT REAL FOOTAGE. Geography in one wide: ship, ramp, ramp road 80 m below, rover, crawler.", snd="Suit radios (narrow). No exterior sound. C1 chase cue.")
+  comp="NOT REAL FOOTAGE (generated terrain). Geography in one wide: ship, ramp, ramp road 80 m below, rover, crawler.", snd="Suit radios (narrow). No exterior sound. C1 chase cue.")
 s("29", "SET_STILL", [], 1.4, "Jax out of the hatch with the parcel, bounding ahead in huge low strides.", "lateral move 5%", "bound (2 stills crossed)", "jax", jax_bound)
 s("29", "SET_STILL", [494], 0.6, "Behind the rover, a crawler fires a grapple line. Silent. It hooks the post-chaise by the tail; the rover slews.", "hold", "grapple line draws (code)", "", apron_wide)
 s("29", "SET_STILL", [495, 496], 0.0, "Jax on the ramp sets down the parcel. In his other hand, the silver hatchet.", "slow push-in 4%", "none", "jax", jax_ramp)
-s("29", "SET_STILL", [], 9.0, "WIDE (HELD): the hatchet rises in a long slow arc, turns over once at the top, comes down on the line. The line parts. The rover lurches free and races in. The glint keeps going, over the rim. Gone.", "hold (deliberate)", "glint on a true 1/6 g parabola (code); line parts; rover moves", "jax", throw_wide, comp="GENERATED TERRAIN — NOT REAL FOOTAGE. Arc computed: about 11-13 m/s lob over 80 m.", snd="TOTAL SILENCE: no score, no effects.", risk=("medium", "must read at phone size: glint needs a highlight trail"))
+s("29", "SET_STILL", [], 13.5, "WIDE (HELD): the hatchet rises in a long slow arc, turns over once at the top, comes down on the line. The line parts. The rover lurches free and races in. The glint keeps going, over the rim. Gone.", "hold (deliberate)", "glint on a true 1/6 g parabola (code); line parts; rover moves", "jax", throw_wide, comp="NOT REAL FOOTAGE (generated terrain). Arc computed: about 11-13 m/s lob over 80 m.", snd="TOTAL SILENCE for 12 s from the release (composer cue M11 'The throw': silence 10.0-22.0 s), then M11's warm release as the rover lurches free and the glint goes over the rim (+13.2 s).", risk=("medium", "13.5 s hold: must read at phone size; glint needs a highlight trail"))
 s("29", "SET_STILL", [498, 499], 0.0, "The rover races in.", "push-in 4%", "rover translates", "", apron_wide)
 s("29", "INSERT", [500, 501], 0.4, "'Darts.' His gloved hand, opening and closing, as if it belonged to someone else. 'Lot of… bars.'", "hold", "hand opens/closes (2 states)", "", glove_open)
 s("29", "SET_STILL", [502], 0.0, "PIP: clamp open, bay nine.", "hold", "none", "jax", jax_ramp)
@@ -881,7 +923,7 @@ s("29", "INSERT", [], 2.4, "His visor, the ship reflected in it. He lifts the tr
 s("29", "SET_STILL", [], 1.0, "Jax turns up the ramp.", "hold", "none", "jax", jax_ramp)
 s("29", "SET_STILL", [519], 0.0, "Lucía heaves the LOT 14 trunk up the ramp. Heavier than luggage. She doesn't notice.", "slow push-in 3%", "strain", "lucia", lucia_trunk)
 s("29", "SET_STILL", [], 1.4, "The ramp rises.", "hold", "ramp rotates up (cut-out)", "", apron_wide)
-s("29", "SET_STILL", [], 5.0, "The ship lifts, a speck over the white rim. Far below on the apron, beside the post-chaise, one small figure with a hat. It does not move.", "slow pull-out 6%", "ship speck rises", "", liftoff, comp="GENERATED TERRAIN — NOT REAL FOOTAGE. The 'figure' is the coat and tricorn on the horse's head; never closer than this.", snd="Silence, then A4 single sustained note.")
+s("29", "SET_STILL", [], 5.0, "The ship lifts, a speck over the white rim. Far below on the apron, beside the post-chaise, one small figure with a hat. It does not move.", "slow pull-out 6%", "ship speck rises", "", liftoff, comp="NOT REAL FOOTAGE (generated terrain). The 'figure' is the coat and tricorn on the horse's head; never closer than this.", snd="Silence, then A4 single sustained note.")
 
 # ================================================================= 30 BRIDGE AFTERWARDS
 three_backs = J("SET bridge", "bridge_three_backs", ["bridge", "jax", "mira", "lucia"], "The bridge from behind: three people seen from behind against the large pure-black window, a curly-haired man in burnt orange, a woman with a dark braid, a broad-shouldered woman with short hair; a call window glowing on a side screen.")
@@ -942,12 +984,55 @@ s("31", "TWO_SHOT", [558], 0.4, "He goes, out of frame. 'Correction filed.'", "h
 s("31", "DATA_VISUAL", [], 4.2, "The field flickers: CAPTAIN: VALE, JAX. It refreshes. It settles. CAPTAIN: nobody", "hold", "flicker, refresh, settle", img="CODE", snd="Silence; a single refresh tick.")
 s("31", "BLACK", [], 1.2, "CUT TO BLACK.", "none", "none", img="CODE", snd="Silence.")
 
+WWR_TEXT = "What was real. Shackleton crater is real. Its floor may not have seen the Sun for billions of years. It has been seen only faintly from orbit, by light bounced off its walls, and mapped by laser. Gravity is one-sixth of Earth's. Signals take about one point three seconds each way, and none from Earth reach the far side directly. There is no air, so no sound. Every person you saw was made digitally, and Earth on the horizon is a composite. The landscapes on the rim are illustrations. The Baron has asked me to say that he is not. I have noted his request. Footage and visualisations: NASA."
 # ================================================================= WWR
-s("WWR", "REAL_FOOTAGE", [(561, 0, 12.0)], 0.6, "What was real: the real south-pole flyover; credits small at the bottom.", "footage move only", "credits roll", "", "REAL", ft=FT["fly"](0, 12), comp="Full frame; credit crawl.", snd="A1 theme (v2) under PIP.")
+s("WWR", "REAL_FOOTAGE", [(561, 0, 12.0)], 0.6, "What was real: the real south-pole flyover; credits small at the bottom.", "footage move only", "credits roll", "", "REAL", ft=FT["fly"](0, 12), comp="Full frame; credit crawl.", snd="A1 theme (v2) under PIP.", extra=dict(on_screen_text=WWR_TEXT, credits_text="Footage and visualisations: NASA (credits per assets/e01-plates.json). Every person you saw was made digitally. Earth on the horizon is a composite. The landscapes on the rim are illustrations.", script_flag="FLAG FOR SCRIPT: end note gains 'The landscapes on the rim are illustrations.'"))
 s("WWR", "REAL_FOOTAGE", [(561, 12.0, 24.0)], 0.0, "The permanently shadowed regions visualisation.", "footage move only", "credits roll", "", "REAL", ft=FT["psr"](0, 12), comp="Full frame.")
-s("WWR", "REAL_FOOTAGE", [(561, 24.0, None)], 0.6, "Earth from the far side, real, from Orion.", "slow push-in 4%", "credits roll", "", "REAL", ft=FT["peek"](), comp="Full frame.")
+s("WWR", "REAL_FOOTAGE", [(561, 24.0, None)], 3.1, "Earth from the far side, real, from Orion.", "slow push-in 4%", "credits roll", "", "REAL", ft=FT["peek"](), comp="Full frame. 2.5 s reserved for the added sentence if PIP speaks it.", extra=dict(on_screen_text=WWR_TEXT, script_flag="FLAG FOR SCRIPT: add 'The landscapes on the rim are illustrations.' after 'Earth on the horizon is a composite.' (showrunner ruling; script-v3.md not edited here)."))
 s("END", "TITLE", [], 5.0, "End card.", "hold", "none", img="CODE", snd="A1-endcard-sting-5s.")
 
+
+EXTRA_REFS = {"jax_hold_back": ["jaxB"], "br_wide": ["jaxB"], "jax_ots": ["jaxB"], "jax_hatch": ["jaxS"], "glove_open": ["jaxGH"],
+              "hatchet_pass": ["jaxGH"], "jax_ramp": ["jaxGH"], "baron_eyes": ["baronE"], "baron_warm": ["baronE"], "baron_hall": ["baronE"],
+              "pigtail": ["baronBP"], "cage_wide": ["baronST"], "bench_chich": ["chichSoft"], "chich_corner": ["chichSoft"], "chich_hall": ["chichSoft"],
+              "box_knees": ["chichHB"], "box_open": ["chichHB"], "chich_night": ["chichBW"], "lucia_driving": ["luciaD"], "wheel_ribbon": ["luciaW"],
+              "hand_spanner": ["luciaW"], "lucia_palm": ["luciaW"], "arms": ["luciaW"], "arms_drop": ["luciaW"], "ribbon_close": ["luciaW"],
+              "mira_ots": ["miraB"], "mira_refl": ["miraG"], "mira_side": ["miraG"], "loupe_eye": ["miraL"], "mira_console": ["miraB"],
+              "mira_walk": ["miraB"], "noakes_headset": ["noakesBC"], "noakes_refl": ["noakesR"], "noakes_hands": ["noakesH"], "corr_backs": ["miraB", "jaxB"],
+              "mira_bound1": ["miraS"], "mira_bound2": ["miraS"]}
+for _n, _ks in EXTRA_REFS.items():
+    _jid = globals()[_n]
+    for _k in _ks:
+        if _k not in JOBS[_jid]["ref_keys"]:
+            JOBS[_jid]["ref_keys"].append(_k)
+    JOBS[_jid]["references"] = [REF[k]["path"] for k in JOBS[_jid]["ref_keys"]]
+
+# ---------- re-point footage at assets/e01-plates.json when it exists
+PLATES_PATH = f"{ROOT}/assets/e01-plates.json"
+PLATES = None
+if os.path.exists(PLATES_PATH):
+    _pj = json.load(open(PLATES_PATH, encoding="utf-8"))
+    _items = _pj if isinstance(_pj, list) else (_pj.get("plates") or _pj.get("assets") or list(_pj.values()))
+    PLATES = {}
+    for _it in _items:
+        if isinstance(_it, dict):
+            for _key in ("candidate_id", "id", "source_id", "asset_id"):
+                if _it.get(_key):
+                    PLATES[_it[_key]] = _it
+def repoint(ft):
+    if not ft:
+        return ft
+    if PLATES is None:
+        ft["plates_status"] = "pending e01-plates.json"
+        return ft
+    hit = PLATES.get(ft["id"]) or (PLATES.get(ft["fallback"]["id"]) if ft.get("fallback") else None)
+    if hit:
+        ft["plate"] = dict(local_path=hit.get("local_path") or hit.get("path"), credit=hit.get("credit") or hit.get("credit_line"),
+                           verified=hit.get("verified"), source_id=hit.get("candidate_id") or hit.get("id"))
+        ft["plates_status"] = "from e01-plates.json"
+    else:
+        ft["plates_status"] = "not in e01-plates.json: keep candidate and fallback, needs verification"
+    return ft
 # ---------------------------------------------------------------- build
 def line_info(spec):
     if isinstance(spec, int):
@@ -985,6 +1070,13 @@ for i, sh in enumerate(SHOTS):
     patch_any = any(c["needs_mouth_patch"] for c in chars)
     img = sh["img"]
     lib, job, src = list(sh["assets"]), None, None
+    layer_new, layer_ids = [], []
+    for lj in sh["layers"]:
+        layer_ids.append(lj)
+        if lj not in seen_img:
+            seen_img.add(lj)
+            jl = JOBS[lj]
+            layer_new.append(dict(job_id=lj, group=jl["group"], target_file=jl["target_file"], references=jl["references"], prompt=prompt_for(jl)))
     if img and img.startswith("E01-J"):
         jb = JOBS[img]
         jb["used_by"].append(None)  # filled below
@@ -1020,7 +1112,7 @@ for i, sh in enumerate(SHOTS):
                          ("low", "new single-subject image from its master")
         else:
             sh["risk"] = ("low", "reuse of an approved still (new crop, move or grade)")
-    comp = sh["comp"] or ("Grade: house look (cinema.py grade: halation, split tone, filmic curve, vignette, grain 0.022). "
+    comp = sh["comp"] or ("Grade: house look (cinema.py grade with letterbox=False: halation, split tone, filmic curve, vignette, grain 0.022). "
                           "Any text, numbers or tags added in code.")
     if any(c["id"] == "baron" for c in chars) or "baron" in (sh["desc"].lower()) and sh["typ"] in ("CHARACTER_STILL", "SET_STILL", "TWO_SHOT", "INSERT"):
         if any(c["id"] == "baron" for c in chars):
@@ -1033,14 +1125,16 @@ for i, sh in enumerate(SHOTS):
     if img and img.startswith("E01-J") and sh["sc"] in ("8", "9", "21", "24", "26", "29") and "GENERATED" not in comp:
         dsc = JOBS[img]["shot_description"].lower()
         if any(k in dsc for k in ("lunar", "pressure suit", "generated", "crater", "apron")) and "cab" not in dsc:
-            comp += " Exterior background is GENERATED, not real footage; log it as such."
+            comp += " NOT REAL FOOTAGE (generated exterior background); log it as such."
     sid = f"E01-S{sh['sc'].replace('–', '-').zfill(2) if sh['sc'][0].isdigit() else sh['sc']}-{sh['n']:03d}"
     rec = OrderedDict(
         id=sid, scene=sh["sc"], act=act, order=i + 1, lines=linfo, duration_s=dur, type=sh["typ"],
         description=sh["desc"], camera=sh["cam"], motion=sh["mot"], characters=chars, needs_mouth_patch=patch_any,
         image_source=src, library_assets=lib,
-        real_footage=sh["ft"] if sh["ft"] else "none",
-        new_image_job=job, compositing=comp, sound=snd, risk=dict(level=sh["risk"][0], reason=sh["risk"][1]))
+        real_footage=repoint(sh["ft"]) if sh["ft"] else "none",
+        frame="16:9 full frame, no letterbox",
+        new_image_job=job, layer_plates=layer_ids, new_layer_jobs=layer_new, honesty_label=("NOT REAL FOOTAGE" if "NOT REAL FOOTAGE" in comp else None), compositing=comp, sound=snd, risk=dict(level=sh["risk"][0], reason=sh["risk"][1]))
+    rec.update(sh["extra"])
     if patch_any:
         mouth_patches.append((sid, [c["id"] for c in chars if c["needs_mouth_patch"]], [l["text"] for l in linfo]))
     out.append(rec)
@@ -1049,12 +1143,44 @@ for i, sh in enumerate(SHOTS):
 for r in out:
     src = r["image_source"] or ""
     for jid in JOBS:
-        if jid in src:
+        if jid in src or jid in r["layer_plates"]:
             JOBS[jid]["used_by"].append(r["id"])
 for j in JOBS.values():
     j["used_by"] = [u for u in j["used_by"] if u]
 
 JOBS = OrderedDict((k, v) for k, v in JOBS.items() if v["used_by"])
+PRIO = {"Cold open": 1, "Act 1": 1, "Act 2": 2, "Act 3": 2, "Act 4": 3, "Tag": 3, "What was real": 3}
+act_of = {r["id"]: r["act"] for r in out}
+order_of = {r["id"]: r["order"] for r in out}
+for jid, j in JOBS.items():
+    j["used_by"] = list(OrderedDict.fromkeys(j["used_by"]))
+    j["priority"] = min(PRIO[act_of[u]] for u in j["used_by"])
+    j["first_use"] = min(order_of[u] for u in j["used_by"])
+keys = OrderedDict()
+for jid, j in sorted(JOBS.items(), key=lambda kv: (kv[1]["priority"], kv[1]["first_use"])):
+    k = (j["priority"], tuple(sorted(j["references"])))
+    keys.setdefault(k, []).append(jid)
+counter = Counter()
+for (p, refs_), jids in keys.items():
+    counter[p] += 1
+    bid = f"P{p}-B{counter[p]:02d}"
+    for jid in jids:
+        JOBS[jid]["batch"] = bid
+        JOBS[jid]["batch_references"] = list(refs_)
+for r in out:
+    for jo in ([r["new_image_job"]] if r["new_image_job"] else []) + r["new_layer_jobs"]:
+        jo["priority"] = JOBS[jo["job_id"]]["priority"]; jo["batch"] = JOBS[jo["job_id"]]["batch"]
+LAYER_OF = defaultdict(list)
+for r in out:
+    for lj in r["layer_plates"]:
+        LAYER_OF[lj].append(r["id"])
+img_jobs = []
+for jid, j in sorted(JOBS.items(), key=lambda kv: (kv[1]["priority"], kv[1]["batch"], kv[1]["first_use"])):
+    img_jobs.append(OrderedDict(id=jid, priority=j["priority"], batch=j["batch"], group=j["group"],
+                                kind=("layer plate" if jid in LAYER_OF and not any(jid in (r["image_source"] or "") for r in out) else "still"),
+                                prompt=prompt_for(j), references=j["references"], target=j["target_file"], shots=j["used_by"],
+                                layered_into=sorted(set(LAYER_OF.get(jid, [])))))
+json.dump(img_jobs, open(f"{ROOT}/episodes/E01/image-jobs.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 json.dump(out, open(f"{ROOT}/episodes/E01/shotlist.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 stats = dict(shots=out, jobs=JOBS, refs=REF, lib_gap_jobs=LIB_GAP_JOBS, mouth=mouth_patches)
 json.dump(stats, open(sys.argv[1] if len(sys.argv) > 1 else "/tmp/stats.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1, default=str)

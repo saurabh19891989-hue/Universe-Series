@@ -51,14 +51,16 @@ def pink(R, d):
     n = N(d)
     X = np.fft.rfft(R.standard_normal(n))
     f = np.fft.rfftfreq(n, 1 / SR)
-    f[0] = f[1]
-    X = X / np.sqrt(f / f[1])
-    return np.fft.irfft(X, n)
+    f = np.maximum(f, 20.0)                       # flat below 20 Hz: no infrasonic wander
+    X = X / np.sqrt(f / 20.0)
+    y = np.fft.irfft(X, n)
+    return y / (y.std() + 1e-12)
 
 
 def brown(R, d):
     x = np.cumsum(R.standard_normal(N(d)))
-    return hp(x, 20, 1)
+    y = hp(x, 20, 1)
+    return y / (y.std() + 1e-12)
 
 
 def _sos(kind, f, o):
