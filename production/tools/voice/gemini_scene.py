@@ -75,6 +75,9 @@ def tts(label, text, voice, style=None, out=None, speakers=None, turns=None, mod
         if not aud: rec["err"] = "no audio"; log(rec); continue
         wav = base64.b64decode(aud[-1]["data"])
         path = out or f"{W}/{label}.wav"
+        if wav[:4] != b"RIFF":   # 3.1 preview returns headerless PCM (24 kHz mono s16le)
+            import io, wave
+            buf = io.BytesIO(); w = wave.open(buf, "wb"); w.setnchannels(1); w.setsampwidth(2); w.setframerate(24000); w.writeframes(wav); w.close(); wav = buf.getvalue()
         open(path, "wb").write(wav)
         dur = sf.info(path).duration
         rec.update(dur=round(dur, 2), out_tokens=u.get("total_output_tokens"), in_tokens=u.get("total_input_tokens"))

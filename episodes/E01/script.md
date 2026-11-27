@@ -2,7 +2,7 @@
 ## Episode 1 — "The Parcel Nobody Ordered"
 ### Shooting script, draft 1 (from the approved outline v1 and the showrunner's ruling)
 
-Running time: about 35 minutes. 32 units (cold open, 30 scenes, tag), plus "What was real".
+Running time: about 35:40 (scene targets add up to 35:00, plus the 0:10 title and the 0:30 "What was real"). 4,818 spoken words. 32 units (cold open, 30 scenes, tag), plus "What was real".
 Visual style: photoreal characters and sets composited with real NASA footage, staged mostly
 as cinematic stills with camera moves and limited motion. Lip movement is scarce or absent.
 
@@ -411,7 +411,7 @@ A radio click.
 ```
 
 ### 3 · RIM PORT — CUSTOMS HALL — THE DESK
-**Thread:** B/C · **Target:** 90 s · **Visual:** PHOTOREAL SET STILL (the vast empty hall) / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** B/C · **Target:** 85 s · **Visual:** PHOTOREAL SET STILL (the vast empty hall) / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** Mira sits behind a glass customs screen. We play her as a reflection in the
 glass with Jax's face beyond it, and over Jax's shoulder. Her hands (ink-stained, stamping)
 carry the action. The licence record is an INSERT. The Baron is a tiny distant figure on a
@@ -724,7 +724,7 @@ He looks up. The bench is empty. The teacup is gone.
 ```
 
 ### 6 · CUSTOMS HALL — HOLDING BAY
-**Thread:** A/C · **Target:** 130 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** A/C · **Target:** 120 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** The Baron's moustache does the work: he can deliver every line on a still
 portrait, playing on eyebrows and the tilt of the tricorn. Mira is in profile or behind the
 loupe. Jax is over the shoulder. INSERTS: the layered labels, two fingers on the padlock, the
@@ -1022,7 +1022,7 @@ END OF ACT ONE.
 # ACT TWO — "The Silver Hatchet"
 
 ### 8 · THE POST-CHAISE — ON THE RIM ROAD
-**Thread:** A/B · **Target:** 65 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL (cab, from behind)
+**Thread:** A/B · **Target:** 60 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL (cab, from behind)
 **STAGING:** Open on Jax's V.O. over the real terrain. Then the cab is shot from the back
 seat, looking forward through the windscreen at the real plate: four heads, the tricorn,
 Lucía's ribbon on the wheel. All the dialogue plays as voices in a moving car, so nobody needs
@@ -1514,7 +1514,7 @@ He sits.
 ```
 
 ### 15 · THE SILVER HATCHET — COLD STORE
-**Thread:** A/B · **Target:** 95 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
+**Thread:** A/B · **Target:** 85 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
 **STAGING:** Breath fog and frost hide everyone's faces. The horn is the hero, as a run of
 INSERTS: the frost sweating, a drip, the bell. The music itself is sound design, so nothing
 needs to move. Mira's loupe gives a magnified eye. PIP is the glow on Jax's wrist. Hold the
@@ -1618,7 +1618,7 @@ The march stumbles to its last note.
 ```
 
 ### 16 · PARLOUR — THE OFFER
-**Thread:** A/B/C · **Target:** 85 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
+**Thread:** A/B/C · **Target:** 80 s · **Visual:** PHOTOREAL SET STILL / PHOTOREAL CLOSE-UP / INSERT
 **STAGING:** Chichikov is in deep soft focus in the corner chair behind the bear. While he
 speaks, hold on the others' faces (Jax, the Baron's eyes, Lucía). INSERTS: the number on the
 card, his hands on the box, Lucía's hand closing on her ribbon. He never needs a mouth.
@@ -1720,7 +1720,7 @@ END OF ACT TWO.
 # ACT THREE — "Both or Neither"
 
 ### 17 · THE POST-CHAISE — CLIMBING BACK
-**Thread:** B/C · **Target:** 70 s · **Visual:** PHOTOREAL SET STILL (cab, from behind) / INSERT
+**Thread:** B/C · **Target:** 65 s · **Visual:** PHOTOREAL SET STILL (cab, from behind) / INSERT
 **STAGING:** Again from the back seat, through the windscreen, as the cab climbs into a
 blinding white plate: four heads, one of them very still (Jax). The row plays as voices in a
 box, overlapping. The proof is an INSERT: the contract date swimming up through Mira's loupe.
@@ -1972,7 +1972,7 @@ Her reflection walks out of the glass. His stays.
 ```
 
 ### 20 · THE UNSCHEDULED — CARGO HOLD
-**Thread:** B · **Target:** 65 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** B · **Target:** 60 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Lucía packs with her back to us: hands, bag, clothes rammed in, the ribbon.
 Jax is a silhouette in the hatch light. PIP is the lamp glowing on the hold wall. It's a loud
 scene, carried on body angle and voice. The parcel sits in the middle of the frame
@@ -2066,7 +2066,7 @@ She doesn't look as if it is. She doesn't unpack, either.
 ```
 
 ### 21 · OUTER RIM — EARTH ON THE HORIZON
-**Thread:** A/C · **Target:** 145 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT
+**Thread:** A/C · **Target:** 135 s · **Visual:** REAL FOOTAGE WIDE / PHOTOREAL SET STILL / INSERT
 **STAGING:** The ideal no-lip-sync scene. Two suited figures sit on a boulder with their backs
 to us, Earth low ahead. The dialogue is all private suit radio. Close-ups are visors, with
 Earth reflected in the Baron's and his moustache a white shape behind the glass. INSERT:
@@ -2242,7 +2242,7 @@ as if it heard.
 ```
 
 ### 22 · CUSTOMS HALL — THE SIGNING
-**Thread:** A/B/C · **Target:** 130 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
+**Thread:** A/B/C · **Target:** 120 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
 **STAGING:** One composed wide of the single desk in the huge hall, with Chichikov in soft
 focus at its far end. Everything that matters is an INSERT: the clock, the ink that stays,
 colour seeping back into the red coat, Jax's pen touching the line, the signature fading. The
@@ -2622,7 +2622,7 @@ Headlamps: three metres of grey ground. Then nothing at all.
 ```
 
 ### 27 · SHACKLETON FLOOR — IN THE DARK
-**Thread:** A/B · **Target:** 90 s · **Visual:** PHOTOREAL CLOSE-UP (faces lit from below) / DATA VISUAL / INSERT
+**Thread:** A/B · **Target:** 80 s · **Visual:** PHOTOREAL CLOSE-UP (faces lit from below) / DATA VISUAL / INSERT
 **STAGING:** Three faces lit only by dashboard glow in total black, held still. Mira is voice
 only, on the open radio. Her map is a DATA VISUAL: a LOLA-style laser-altimetry terrain mesh
 blooming in the dark. INSERT: frost growing across the windscreen like ferns. Noakes is a
@@ -3028,7 +3028,7 @@ The Moon, small now, in the window.
 # TAG
 
 ### 31 · CUSTOMS HALL / CARGO HOLD / BRIDGE
-**Thread:** C · **Target:** 75 s · **Visual:** PHOTOREAL SET STILL / INSERT
+**Thread:** C · **Target:** 65 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** For the first time Chichikov is alone and in sharp focus, but seen from behind
 against the window, speaking into a small brass recorder. The trunk is all INSERTS, and the
 moustache shows under the lid. On the bridge, PIP reads aloud. Jax is shot over the shoulder
