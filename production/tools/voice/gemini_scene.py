@@ -38,7 +38,7 @@ def log(rec):
 def _strip_wav(b):
     return b
 
-def tts(label, text, voice, style=None, out=None, speakers=None, turns=None, model=MODEL, retries=4):
+def tts(label, text, voice, style=None, out=None, speakers=None, turns=None, model=MODEL, retries=10):
     """Single-speaker if turns is None. turns=[(speaker,text,style)] with speakers={name:voice} for multi."""
     def block(t, s, spk=None):
         ann = {"type": "speech_metadata"}
@@ -65,7 +65,7 @@ def tts(label, text, voice, style=None, out=None, speakers=None, turns=None, mod
         rec = {"label": label, "model": model, "voice": voice or speakers, "status": r.status_code, "secs": round(dt, 2), "attempt": a}
         if r.status_code != 200:
             rec["err"] = r.text[:300]; rec["retry_after"] = r.headers.get("retry-after"); log(rec)
-            time.sleep(10 if r.status_code == 429 else 3); continue
+            time.sleep((float(r.headers.get('retry-after') or 15) + 2) if r.status_code == 429 else 3); continue
         j = r.json(); u = j.get("usage", {})
         aud = [c for s in j["steps"] for c in s.get("content", []) if c.get("type") == "audio"]
         if not aud: rec["err"] = "no audio"; log(rec); continue

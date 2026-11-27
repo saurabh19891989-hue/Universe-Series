@@ -1,0 +1,16 @@
+{
+ "caps": {"total_images": 45, "pro_images": 8},
+ "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing (read 2026-11-27)",
+ "unit_prices_usd_per_output_image": {
+  "gemini-3.1-flash-image": {"0.5K": 0.045, "1K": 0.067, "2K": 0.101, "4K": 0.151},
+  "gemini-3-pro-image": {"1K/2K": 0.134, "4K": 0.24},
+  "gemini-nano-banana-2.1": {"1K": 0.0336, "2K": 0.0504, "4K": 0.113}
+ },
+ "entries": [],
+ "failed_attempts": [
+  {"time": "2026-11-27T12:30", "model": "gemini-3.1-flash-image", "purpose": "style A Jax (first call)", "result": "HTTP 429: limit 0 on Free Tier", "images": 0, "cost_usd": 0},
+  {"time": "2026-11-27T12:31", "model": "gemini-nano-banana-2.1 / gemini-3-pro-image / gemini-3.1-flash-lite-image / gemini-2.5-flash-image", "purpose": "tier probe (empty or 1-line prompt)", "result": "HTTP 429: limit 0 on Free Tier for every image model, both /interactions and :generateContent", "images": 0, "cost_usd": 0}
+ ],
+ "totals": {"images": 0, "pro_images": 0, "est_cost_usd": 0.0},
+ "status": "BLOCKED: the API key's project is on the Gemini API Free Tier, where all image models have a quota of 0. Text models answer (key is valid). Remedy: AI Studio > API keys/Projects > 'Set up billing' on that project, prepay min $5 (Cloud free-trial/$300 welcome credit cannot be used for the Gemini API)."
+}
