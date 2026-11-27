@@ -46,3 +46,23 @@ used for pictures. Asked to check the Gemini route.
 `samples/motion/flow-test/`: six approved pictures and prompts to run in Flow on the owner's
 existing AI Pro plan (about 150 credits) to judge Omni's smoothness, face consistency and a
 talking shot before any plan decision.
+
+## Antigravity CLI tested first-hand (27 Nov, ~18:50 UTC)
+Installed `agy` 1.5.18 on the cloud machine (official installer, checksum verified); owner signed
+in with his Google AI Pro account (one-time code pasted; login stored under `~/.gemini/` on this
+temporary machine, never in the repo).
+- **Video: none.** `agy models` lists only text models (Gemini 4 Hydrogen, Gemini 3.8 Flash,
+  Claude Sonnet 4.6, Claude Opus 4.6, GPT-OSS 120B): no Omni, no Veo. Asked for an MP4 from a
+  picture with instructions not to fake it, it answered "NO VIDEO CAPABILITY". Its tool list has
+  no video tool.
+- **Pictures: yes.** Tool `generate_image` (parameters `Prompt`, `ImagePaths`, `AspectRatio`,
+  `ImageName`), reached through the `image-generator` subagent. Test: Jax's master as reference →
+  new bazaar scene in 46 s, 1376x768, face and jacket held (`samples/look-agy/`). The model name
+  and the plan's picture allowance are not shown. Command used (headless, in a scratch folder):
+  `agy -p "<brief naming the reference file; no shell commands>" --sandbox --mode accept-edits`.
+  The picture is saved under `~/.gemini/antigravity-cli/brain/<conversation>/`.
+- **Browser control built in:** tools such as `open_browser_url`, `browser_click_element`,
+  `read_browser_page`. Not tried. This is the only way the CLI could reach Flow, and it would need
+  a browser already signed in to the owner's Google account; Google's terms on that are unread.
+- **Text models on the plan**, usable headless: possible extra writing/critic capacity.
+- Headless runs cannot approve shell commands; do not use `--dangerously-skip-permissions`.

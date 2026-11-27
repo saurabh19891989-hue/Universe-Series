@@ -291,4 +291,8 @@ Gemini API key is saved as a network secret on the Default environment
   Gemini route (subscription, like Codex). Research is in
   `research/tooling/video-generation-routes.md`. Waiting on the owner: run the six-clip test in
   Google Flow (`samples/motion/flow-test/`), and decide on the Antigravity CLI login test.
+- **Antigravity CLI test done (27 Nov, 18:50 UTC):** signed in on the owner's Google AI Pro plan.
+  No video capability (confirmed directly). It does make pictures from a reference
+  (`samples/look-agy/`), a possible second picture route beside Codex. Details in
+  `research/tooling/video-generation-routes.md`. Owner is making the six Flow test clips himself.
 
