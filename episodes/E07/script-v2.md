@@ -256,14 +256,14 @@ SMASH TO: MAIN TITLE.
 
 ### 1 · LA BLANCA — CARMEN'S KITCHEN
 **Thread:** B/A · **Target:** 82 s · **Holds:** 8 s · **Visual:** PHOTOREAL SET STILL / INSERT / PHOTOREAL CLOSE-UP
-**STAGING:** Card: DAY 1. Yellow and turquoise tile, plants, a radio playing cumbia, catchers
-hung on hooks by the door (at home you breathe free). Carmen keeps her back to the room, at the
-stove, for the whole scene: her lines play on her hands, the wooden spoon she points with, and
-the faces she is reading. Seo's line plays on her two hands flat on the table, as if it were a
-yoke. INSERTS: the brass lock and ticking meter on the tap; water poured to the brim; Jax's full
-glass, untouched (standing rule); the half-played board game. The dog drinks from Carmen's own
-glass. No one explains why Jax doesn't drink. Holds: the card, the tap, the glass and the dog,
-the board.
+**STAGING:** Card: DAY 1. Yellow and turquoise tile, plants, a radio playing cumbia, catchers hung
+on hooks by the door (at home you breathe free). Carmen keeps her back to the room, at the stove,
+for the whole scene: her lines play on her hands, the wooden spoon she points with, and the faces
+she is reading. Seo's line plays on her two hands flat on the table, as if it were a yoke.
+INSERTS: the brass lock and ticking meter on the tap; water poured to the brim; Jax's full glass,
+untouched (standing rule); the half-played board game. The dog drinks from Carmen's own glass. No
+one explains why Jax doesn't drink. Holds: the card (1 s), the tap (2 s), Seo's hands (1 s), the
+glass and the dog (2 s), the board (2 s).
 ```
 INT. CARMEN'S KITCHEN, LA BLANCA — DAY
 
@@ -652,13 +652,14 @@ She looks at Lucía.
 
 ### 5 · BENNU — THE WEB
 **Thread:** A/B · **Target:** 53 s · **Holds:** 9 s · **Visual:** REAL FOOTAGE WIDE (OSIRIS-REx) / DATA VISUAL / PHOTOREAL SET STILL (bridge, from behind)
-**STAGING:** Card: DAY 2. Open on real Bennu footage, then the real flight-path "web" (NASA's
-"A Web Around Asteroid Bennu") as if it were cable, with our cables composited over the rubble.
+**STAGING:** Card: DAY 2. Open on real Bennu footage, then the real flight-path "web" (NASA's "A
+Web Around Asteroid Bennu") as if it were cable, with our cables composited over the rubble.
 Voices over footage first. On the bridge: Seo from behind at the yoke, Idris at her shoulder
 (backs), Mira and Jax at the window with the real surface below them. Mira's two lines are the
-plant for 22: say them plainly and move on. Lucía's wrist is an INSERT: the ribbon, and tied to
-it now a small steel key. Anansi's first on-screen line is a voice humming down a cable through
-the hull: no face yet. Holds: the card and the first wide of Bennu, the web, the key, the hum.
+plant for 22: say them plainly and move on. Lucía's wrist is an INSERT: the ribbon, and tied to it
+now a small steel key. Anansi's first on-screen line is a voice humming down a cable through the
+hull: no face yet. Holds: the card and the first wide of Bennu (4 s), the web (2 s), the key
+(1 s), the hum (2 s).
 ```
 EXT. BENNU — DAY (REAL FOOTAGE)
 
@@ -888,12 +889,13 @@ END OF ACT ONE.
 magnificent gold catcher he does not take off, eating through its jaw-flap, the cord wound round
 one hand, the game board at his elbow with a game in progress. He corrects Earth twice in one
 breath (the plant for 15 and 19 is "Nobody asked me to. I was on a roll", and Carmen is in the
-room to hear it). Then every idea is hers, said to the pot; every time, he claims it. Play it on her spoon, his long fingers, and Lucía's eyes going
-from one to the other. She catches him cheating at the board without turning round (INSERT: his
-fingers, one seed too many, putting it back): it is the only time anyone in the episode is ahead
-of him, and he takes it as a compliment. INSERT: the top drawer, and the receipt already printed
-inside it. The cumbia on the radio picks up a highlife guitar line for the first time. Holds:
-the card, the seed, the drawer and Lucía's look.
+room to hear it). Then every idea is hers, said to the pot; every time, he claims it. Play it on
+her spoon, his long fingers, and Lucía's eyes going from one to the other. She catches him
+cheating at the board without turning round (INSERT: his fingers, one seed too many, putting it
+back): it is the only time anyone in the episode is ahead of him, and he takes it as a compliment.
+INSERT: the top drawer, and the receipt already printed inside it. The cumbia on the radio picks
+up a highlife guitar line for the first time. Holds: the card (1 s), the seed (3 s), the drawer
+and Lucía's look (5 s).
 ```
 INT. CARMEN'S KITCHEN — DAY
 
@@ -1165,15 +1167,15 @@ a small note.
 **Thread:** A/B · **Target:** 82 s · **Holds:** 28 s · **Visual:** MONTAGE (DATA VISUAL / INSERTS / REAL FOOTAGE)
 **STAGING:** The episode's one music-led montage: highlife guitars and a talking drum, with
 Carmen's cumbia accordion locking in underneath. Cards: DAY 3, DAY 4, DAY 5, DAY 6. Jax's V.O.
-runs fast. The float is a DATA VISUAL: three points (CERES, VESTA, BENNU), a dot of light
-crawling from Ceres to Vesta under a clock counting down from 14:00, and a ship's mark beating
-it through a gate. Everything else is hands and objects: Seo's hands on the yoke; a strongbox on
-a counter; yellow-sleeved hands stamping slowly; nets of white tiles drifting in through the
-hatch; Anansi's fingers. Idris's three appearances are three stills with someone in the doorway,
-and each of his lines plays on the face in the doorway, not on him; Seo's two words in the third
-are the only time anyone backs him, and she does not look at him when she says them. Seo's and
-Mira's other lines are off-screen over their hands. Holds: about fourteen pictures cut to the
-music, most of them under V.O.; 28 s is the music playing alone.
+runs fast. The float is a DATA VISUAL: three points (CERES, VESTA, BENNU), a dot of light crawling
+from Ceres to Vesta under a clock counting down from 14:00, and a ship's mark beating it through a
+gate. Everything else is hands and objects: Seo's hands on the yoke; a strongbox on a counter;
+yellow-sleeved hands stamping slowly; nets of white tiles drifting in through the hatch; Anansi's
+fingers. Idris's three appearances are three stills with someone in the doorway, and each of his
+lines plays on the face in the doorway, not on him; Seo's two words in the third are the only time
+anyone backs him, and she does not look at him when she says them. Seo's and Mira's other lines
+are off-screen over their hands. Holds: about fourteen pictures cut to the music, most of them
+under V.O.; the music plays alone between the V.O. lines (28 s).
 ```
 MONTAGE — CERES / VESTA / BENNU — DAYS 3 TO 6
 
@@ -1272,8 +1274,8 @@ her, a stencil: a neat square.
 **Thread:** B · **Target:** 36 s · **Holds:** 9 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** Card: DAY 6. The parcel in the middle of frame, strapped down, as always. The scene
 is Lucía's open palm (INSERT) as bonds are counted into it, and PIP's lamp on the hold wall. Jax
-from behind. Mira is a voice from the hatch. Holds: the card and the parcel, three full seconds
-of silence after "nothing", the palm.
+from behind. Mira is a voice from the hatch. Holds: the card and the parcel (3 s), the silence
+after "nothing" (3 s), the palm (3 s).
 ```
 INT. THE UNSCHEDULED — CARGO HOLD — NIGHT
 
@@ -1402,12 +1404,12 @@ Lucía does not see it.
 
 ### 12 · THE UNSCHEDULED — AIRLOCK, THEN BRIDGE
 **Thread:** B/C · **Target:** 60 s · **Holds:** 8 s · **Visual:** PHOTOREAL SET STILL / INSERT
-**STAGING:** Two helmets going onto two hooks (INSERT) starts it. Idris and Lucía side by side
-at the suit rack, shot from behind; his confession plays on his hands unbuckling, and it is
-quick: he has rehearsed it all the way back. Then one move to the bridge: Lucía bent to Jax's
-ear, both backs to us; Seo in the pilot's seat in the foreground, also from behind. The whole C
-beat is one INSERT of Seo's hand on the yoke, not moving. Holds: the helmets, the move to the
-bridge, three seconds on the hand.
+**STAGING:** Two helmets going onto two hooks (INSERT) starts it. Idris and Lucía side by side at
+the suit rack, shot from behind; his confession plays on his hands unbuckling, and it is quick: he
+has rehearsed it all the way back. Then one move to the bridge: Lucía bent to Jax's ear, both
+backs to us; Seo in the pilot's seat in the foreground, also from behind. The whole C beat is one
+INSERT of Seo's hand on the yoke, not moving. Holds: the helmets (2 s), the move to the bridge
+(3 s), the hand (3 s).
 ```
 INT. THE UNSCHEDULED — AIRLOCK — LATER
 
@@ -1481,11 +1483,12 @@ INSERT: Seo's hand on the yoke. It does not move at all.
 ### 13 · THE COUNTING HOUSE — THEY ASK
 **Thread:** A/C · **Target:** 49 s · **Holds:** 11 s · **Visual:** PHOTOREAL SET STILL / INSERT
 **STAGING:** The room is now full of nets: thousands of white tiles drifting like shoals of fish
-in gold light. The Company's request is a Guild-yellow slip (INSERT) read by Jax. Mira drifts to
-the wall where the cables come in and counts them with one finger: the fine thread running
-outward, away from the Sun, is an INSERT, and it hums. Anansi does not finish his formula: the
-first sign that something of his is missing. Jax's V.O. buttons the act. Holds: the wide of the
-nets (3 s), the thread (3 s), the stop (3 s), the slip.
+in gold light. The Company's request is a Guild-yellow slip (INSERT) read by Mira, who audits
+everything; she lets go of it and drifts to the wall where the cables come in, counting them
+with one finger: the fine thread running outward, away from the Sun, is an INSERT, and it hums.
+Anansi does not finish his formula: the first sign that something of his is missing. Jax's V.O.
+buttons the act. Holds: the wide of the nets (3 s), the slip (2 s), the thread (3 s), the stop
+(3 s).
 ```
 INT. COUNTING HOUSE — DAY
 
@@ -1493,7 +1496,7 @@ Nets everywhere: thousands of white tiles, drifting like shoals.
 
 INSERT: a yellow Guild slip. FROM VOSS WATER, OCCATOR WORKS.
 
-                         JAX
+                         MIRA
                     (reading)
           "The Board is pleased with both desks.
           Before the quarter ends, will the
@@ -1510,8 +1513,9 @@ INSERT: a yellow Guild slip. FROM VOSS WATER, OCCATOR WORKS.
                          ANANSI
           Eleven thousand names, in one hand.
 
-Mira has drifted to the wall, where the cables come in. She
-touches them, one by one.
+Mira lets the slip go. It hangs where she left it. She has drifted
+to the wall, where the cables come in. She touches them, one by
+one.
 
                          MIRA
           This one goes to Ceres. This one,
@@ -1645,14 +1649,14 @@ Lucía watches the fingers.
 ### 15 · CARMEN'S KITCHEN — THE TOP DRAWER
 **Thread:** B/A · **Target:** 87 s · **Holds:** 13 s · **Visual:** INSERT / PHOTOREAL CLOSE-UP / PHOTOREAL SET STILL
 **STAGING:** Late. One lamp. The drawer is out on the table and its contents are the scene
-(INSERTS): shaved meter wheels, tiles with the numbers filed down, a notebook in the slanting
-hand with dates going back years. Carmen stands in the doorway with her painted mask in her
-hand, lit from behind, so her face is in shadow for the hard lines: it is the first time in the
-episode she is facing her daughter. Lucía has her back to us at the table. "I asked you to call"
-is played on Lucía's hand closing on the ribbon, and then nothing for three seconds. The receipt
-line GUARANTOR is the last INSERT. Radio off. No score until the final line. Nothing in this
-scene is played for a laugh; the last line lands as a recognition, not a joke. Holds: the
-drawer (4 s), the beat, the ribbon and the silence after it (4 s), the receipt (3 s).
+(INSERTS): shaved meter wheels, tiles with the numbers filed down, a notebook in the slanting hand
+with dates going back years. Carmen stands in the doorway with her painted mask in her hand, lit
+from behind, so her face is in shadow for the hard lines: it is the first time in the episode she
+is facing her daughter. Lucía has her back to us at the table. "I asked you to call" is played on
+Lucía's hand closing on the ribbon, and then nothing for three seconds. The receipt line GUARANTOR
+is the last INSERT. Radio off. No score until the final line. Nothing in this scene is played for
+a laugh; the last line lands as a recognition, not a joke. Holds: the drawer (4 s), the beat
+(2 s), the ribbon and the silence after it (4 s), the receipt (3 s).
 ```
 INT. CARMEN'S KITCHEN — NIGHT
 
@@ -1922,15 +1926,15 @@ Nobody has an answer. He looks at the nets.
 
 ### 17 · THE WEB, OVER BENNU
 **Thread:** B/C · **Target:** 47 s · **Holds:** 13 s · **Visual:** REAL FOOTAGE WIDE (OSIRIS-REx) / PHOTOREAL CLOSE-UP (visors) / INSERT
-**STAGING:** *(Moved: in draft 1 this played before 18.)* The same minute, outside. Two suits on
-a cable above the real rubble, freeing a snagged net of white tiles; below them, small, the round
+**STAGING:** *(Moved: in draft 1 this played before 18.)* The same minute, outside. Two suits on a
+cable above the real rubble, freeing a snagged net of white tiles; below them, small, the round
 house with its window lit gold, where nobody is answering Anansi. Real footage of particles
 leaving Bennu's surface is the cutaway: a pebble lifts off by itself and drifts past them. Suit
 radio throughout. INSERT: Seo's neat steel cutter (from Episode 2; the one in the montage). The
-long second after "You'd know?" is the audience's: hold on her visor with Bennu in it (4 s).
-Idris is telling her he knows her papers are false (Episode 5) without saying it; she
-understands; the crew never will. Holds: the opening wide and the pebble (5 s), the cutter, the
-long second (4 s), the visor not turning.
+long second after "You'd know?" is the audience's: hold on her visor with Bennu in it (4 s). Idris
+is telling her he knows her papers are false (Episode 5) without saying it; she understands; the
+crew never will. Holds: the opening wide and the pebble (5 s), the cutter (2 s), the long second
+(4 s), the visor not turning (2 s).
 ```
 EXT. THE WEB, OVER BENNU — THE SAME MINUTE (REAL FOOTAGE)
 
@@ -2129,10 +2133,11 @@ INSERT: her boot scuffs the white.
 
 ### 21 · THE UNSCHEDULED — BRIDGE — HER CALL
 **Thread:** B · **Target:** 42 s · **Holds:** 9 s · **Visual:** PHOTOREAL SET STILL (from behind) / REAL FOOTAGE (window) / INSERT
-**STAGING:** Bennu big in the window; on the scope (INSERT) a launch closing. Backs of heads.
-Jax starts to sell and stops himself: the whole beat is that he doesn't. Idris's offer gets no
-answer from anyone; hold the nothing for three seconds. Last image: Lucía's helmet coming down
-over her face. Holds: the scope, the beat after "No", the unanswered offer (3 s), the helmet.
+**STAGING:** Bennu big in the window; on the scope (INSERT) a launch closing. Backs of heads. Jax
+starts to sell and stops himself: the whole beat is that he doesn't. Idris's offer gets no answer
+from anyone; hold the nothing for three seconds. Last image: Lucía's helmet coming down over her
+face. Holds: the scope (2 s), the beat after "No" (2 s), the unanswered offer (3 s), the helmet
+(2 s).
 ```
 INT. THE UNSCHEDULED — BRIDGE — DAY
 
@@ -2507,10 +2512,10 @@ She folds it into her pocket.
 loud and played on backs, hands flat on the table, and the lock. Then quiet. **[MOUTH 3]** is
 Carmen, face-on, close, for "Not in this kitchen": the first time in the episode we see her say
 anything. Voss's card is an INSERT (3 s: it is the first time the audience learns who holds the
-row that did not clear), and so is Lucía's boot with the first card already in it (Episode 5).
-The tap gives one drop (INSERT, held). **[MOUTH 4]** is Lucía's last line. Then three seconds of
-the glass with one drop in it, and nothing else. Holds: the lock (2 s), the silence after "I
-learned that here" (3 s), the card (3 s), the boot, the drop gathering (3 s), the glass (3 s).
+row that did not clear), and so is Lucía's boot with the first card already in it (Episode 5). The
+tap gives one drop (INSERT, held). **[MOUTH 4]** is Lucía's last line. Then three seconds of the
+glass with one drop in it, and nothing else. Holds: the lock (2 s), the silence after "I learned
+that here" (3 s), the card (3 s), the boot (1 s), the drop gathering (3 s), the glass (3 s).
 ```
 INT. CARMEN'S KITCHEN — NIGHT
 
@@ -2713,7 +2718,8 @@ INSERT: Seo, at the yoke, watches the key change hands.
 report and both replies are INSERTS on her wrist screen, each with the Guild's transit stamp:
 twenty-six minutes each way, shown as a clock that jumps. She already knows the last word before
 it arrives. Through the open bunk door, Lucía and Idris pass in the corridor, laughing; Seo, from
-behind, watches them go. No line. Cut to black on her hand closing the screen. Holds: all of it.
+behind, watches them go. No line. Cut to black on her hand closing the screen. Holds: all of it:
+three messages to read (18 s), two clock jumps (6 s), the corridor (8 s), her hand (3 s).
 ```
 INT. THE UNSCHEDULED — SEO'S BUNK — NIGHT
 
