@@ -149,6 +149,16 @@ Last updated: 2026-11-27 (session 1)
   Owner agreed that YouTube's own synthetic-content setting is answered truthfully at upload.
   Channel/series name still to be chosen by the owner from `channel/NAME-OPTIONS.md`.
 
+- **CODEX USAGE LIMIT HIT (27 Nov, ~16:35 UTC).** Exact message: "You've hit your usage limit.
+  Upgrade to Pro, visit https://chatgpt.com/settings/usage to purchase more credits or try
+  again at 7:25 PM." 5-hour window resets 19:25 UTC; WEEKLY allowance at 99%, resets 2 Dec
+  17:30 UTC. All image generation stopped; owner informed and will reset. To resume: library
+  builder (finish Mira/Lucía reference sets from the new masters, then write the line
+  MIRA-LUCIA-REFS-READY in `assets/LIBRARY-INDEX.md`; Arakawa master; customs crawler; Lucía
+  suit from new master) and the Episode 1 stills runner (`episodes/E01/stills-log.json` says
+  which jobs remain). Library so far: 91 accepted images; steps 1–5 done; Idris, Voss, Cass
+  PROPOSED (need owner approval; Idris looks too close to Jax); 13 bright set versions made.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|

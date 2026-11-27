@@ -2209,5 +2209,282 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T16:29:59",
+  "job": "e01/E01-J034",
+  "name": "e01-j034_cage_wide_baron",
+  "purpose": "E01 still E01-J034",
+  "refs": [
+   "holding-cage.jpg",
+   "master.jpg",
+   "master.jpg",
+   "ref-seated-trunk.jpg"
+  ],
+  "seconds": 111.7,
+  "tokens_used": 19515,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd5-eb1a-7cb3-adb5-d4115376a388",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 96.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 99.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:31:00",
+  "job": "e01/E01-J038",
+  "name": "e01-j038_baron_bow",
+  "purpose": "E01 still E01-J038",
+  "refs": [
+   "master.jpg",
+   "holding-cage-bright.jpg"
+  ],
+  "seconds": 60.3,
+  "tokens_used": 20230,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd7-a0be-76d3-a7de-d94e0b4761da",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 97.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 99.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:31:08",
+  "job": "e01/E01-J036",
+  "name": "e01-j036_baron_rising",
+  "purpose": "E01 still E01-J036",
+  "refs": [
+   "master.jpg",
+   "holding-cage-bright.jpg"
+  ],
+  "seconds": 123.8,
+  "tokens_used": 16672,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd6-c6cd-7bb3-8dd0-6bc5a8063f65",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 97.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 99.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:31:55",
+  "job": "e01/E01-J033",
+  "name": "e01-j033_card_on_bench",
+  "purpose": "E01 still E01-J033",
+  "refs": [
+   "master.jpg",
+   "ref-hands-box.jpg",
+   "master-bright.jpg"
+  ],
+  "seconds": 38.5,
+  "tokens_used": 11812,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd8-ce16-7af1-baa2-d8c9cf8928cd",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 99.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 99.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:32:15",
+  "job": "e01/E01-J030",
+  "name": "e01-j030_bench_two_chichikov",
+  "purpose": "E01 still E01-J030",
+  "refs": [
+   "master.jpg",
+   "master.jpg",
+   "master-bright.jpg",
+   "ref-softfocus-bench.jpg",
+   "e01-j029_bench_two_clean.png"
+  ],
+  "seconds": 58.7,
+  "tokens_used": 16398,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dd8-ce3a-7602-ad45-18f35410bced",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 100.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 100.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:32:47",
+  "job": "e01/E01-J040",
+  "name": "e01-j040_baron_ecu_eyes",
+  "purpose": "E01 still E01-J040",
+  "refs": [
+   "master.jpg",
+   "ref-eyes-closeup.jpg"
+  ],
+  "seconds": 31.0,
+  "tokens_used": 22562,
+  "success": false,
+  "images_generated": 1,
+  "returncode": 1,
+  "session": "01a21dd9-b3da-7411-b34f-26794b90f198",
+  "rate_limits": {
+   "limit_id": "premium",
+   "limit_name": null,
+   "primary": null,
+   "secondary": null,
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": [
+   "ERROR: You\u2019ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 7:25 PM.",
+   "ERROR: You\u2019ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 7:25 PM."
+  ]
+ },
+ {
+  "time": "2026-11-27T16:32:48",
+  "job": "e01/E01-J037",
+  "name": "e01-j037_ots_jax_to_baron",
+  "purpose": "E01 still E01-J037",
+  "refs": [
+   "master.jpg",
+   "master.jpg",
+   "holding-cage-bright.jpg"
+  ],
+  "seconds": 52.0,
+  "tokens_used": 10639,
+  "success": false,
+  "images_generated": 1,
+  "returncode": 1,
+  "session": "01a21dd9-6553-7b52-b334-4f09ecef7764",
+  "rate_limits": {
+   "limit_id": "premium",
+   "limit_name": null,
+   "primary": null,
+   "secondary": null,
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": [
+   "ERROR: You\u2019ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 7:25 PM.",
+   "ERROR: You\u2019ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 7:25 PM."
+  ]
  }
 ]

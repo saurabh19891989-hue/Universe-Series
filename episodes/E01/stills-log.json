@@ -17,7 +17,8 @@
     "assets/props/pip/master.jpg"
    ],
    "file": "episodes/E01/stills/e01-j001_pip_lens_dark.jpg",
-   "jpg_bytes": 226800
+   "jpg_bytes": 226800,
+   "style": "dark style - redo candidate"
   },
   "E01-J008": {
    "priority": 1,
@@ -36,26 +37,29 @@
     "assets/props/pip/master.jpg"
    ],
    "file": "episodes/E01/stills/e01-j008_pip_lens_swivel.jpg",
-   "jpg_bytes": 344025
+   "jpg_bytes": 344025,
+   "style": "dark style - redo candidate"
   },
   "E01-J012": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J016": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J013": {
@@ -80,12 +84,13 @@
   },
   "E01-J019": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J020": {
@@ -110,52 +115,57 @@
   },
   "E01-J022": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J024": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J025": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J035": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J041": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J043": {
@@ -170,42 +180,46 @@
   },
   "E01-J044": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J048": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J052": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J055": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J057": {
@@ -250,82 +264,90 @@
   },
   "E01-J064": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J069": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J070": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J100": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J105": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J072": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J078": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J102": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J082": {
@@ -360,32 +382,35 @@
   },
   "E01-J087": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J089": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J093": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J098": {
@@ -420,42 +445,46 @@
   },
   "E01-J108": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J111": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J112": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J131": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J113": {
@@ -470,52 +499,57 @@
   },
   "E01-J114": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J116": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J119": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J117": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J135": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J140": {
@@ -540,22 +574,24 @@
   },
   "E01-J150": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J154": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J155": {
@@ -570,22 +606,24 @@
   },
   "E01-J158": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J167": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J161": {
@@ -600,22 +638,24 @@
   },
   "E01-J166": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J169": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J171": {
@@ -670,32 +710,35 @@
   },
   "E01-J184": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J185": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J186": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: new Mira/Lucia masters approved by owner; job needs master only"
    ]
   },
   "E01-J010": {
@@ -715,7 +758,8 @@
     "assets/props/pip/master.jpg"
    ],
    "file": "episodes/E01/stills/e01-j010_pip_stamp_arm.jpg",
-   "jpg_bytes": 266026
+   "jpg_bytes": 266026,
+   "style": "dark style - redo candidate"
   },
   "E01-J002": {
    "priority": 1,
@@ -736,7 +780,8 @@
     "assets/characters/jax/ref-back.jpg"
    ],
    "file": "episodes/E01/stills/e01-j002_bridge_wide_jax_back.jpg",
-   "jpg_bytes": 295583
+   "jpg_bytes": 295583,
+   "style": "dark style - redo candidate"
   },
   "E01-J006": {
    "priority": 1,
@@ -1077,40 +1122,949 @@
   },
   "E01-J033": {
    "priority": 1,
-   "status": "rejected-retrying",
-   "attempts": 1,
+   "status": "accepted",
+   "attempts": 2,
    "seconds": [
-    55.6
+    55.6,
+    38.5
    ],
    "tokens": [
-    7704
+    7704,
+    11812
    ],
    "notes": [
-    "REJECTED: showed Chichikov's whole face at a workshop table; job is an insert of hand + card on the customs-hall bench; script semi-legible"
+    "REJECTED: showed Chichikov's whole face at a workshop table; job is an insert of hand + card on the customs-hall bench; script semi-legible",
+    "Retry: hands-only insert, grey glove lays cream card on customs bench slats, strokes are not letters. Prompt changed: insert-only, no face, added hands+hall refs"
    ],
    "refs_used": [
-    "assets/characters/chichikov/master.jpg"
-   ]
+    "assets/characters/chichikov/master.jpg",
+    "assets/characters/chichikov/ref-hands-box.jpg",
+    "assets/sets/customs/master-bright.jpg"
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Close insert, hands only: a grey-gloved hand and grey overcoat cuff laying a cream calling card on the worn wooden slats of a long customs-hall waiting bench (steel armrest, polished concrete floor and hall lights soft behind). The card carries a few faint pale-grey looping pen strokes that are NOT letters and cannot be read. No face in frame, the man is cropped at the wrist and cuff. Pavel Chichikov: Russian man, 45, round pleasant forgettable face, neither handsome nor plain; good grey overcoat, grey gloves, a small inlaid wooden travelling box. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later). | extra ref note: Image 2 shows his grey gloves and coat cuff; image 3 is the customs hall (bench design).",
+   "file": "episodes/E01/stills/e01-j033_card_on_bench.jpg",
+   "jpg_bytes": 442610
   },
   "E01-J030": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 2,
+   "seconds": [
+    55.7,
+    58.7
+   ],
+   "tokens": [
+    16274,
+    16398
+   ],
+   "notes": [
+    "REJECTED: plate kept identical (good) but the man is tiny on a distant bench row, not at the far end of Jax's own bench",
+    "Retry: J029 plate kept identical; Chichikov (face matches master) on Jax's bench end with box and teacup. He is only mildly soft, not deeply out of focus - editor can defocus. Prompt changed: placement made explicit, J029 plate added as ref 5"
+   ],
+   "refs_used": [
+    "assets/characters/chichikov/master.jpg",
+    "assets/props/inlaid-box/master.jpg",
+    "assets/sets/customs/master-bright.jpg",
+    "assets/characters/chichikov/ref-softfocus-bench.jpg",
+    "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/e01/accepted-png/e01-j029_bench_two_clean.png"
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Edit of the bench plate (image 5): on the SAME long wooden bench that Jax Vale sits on, at its far end about three metres from him on the right side of frame, sits a plump polite man in a grey overcoat with a small inlaid box on his knees and a teacup in his hand, turned toward Jax; he is in the mid-ground, his head at about the same height as Jax's shoulder line, filling roughly a third of the frame height, softly out of focus but clearly a man and clearly on Jax's bench, not on another row. Keep everything else in image 5 identical. Pavel Chichikov: Russian man, 45, round pleasant forgettable face, neither handsome nor plain; good grey overcoat, grey gloves, a small inlaid wooden travelling box. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later). | extra ref note: Image 5 is the bench plate to edit (E01-J029): keep its framing, Jax Vale, the bench and the hall identical; only add the man at the soft far end.",
+   "file": "episodes/E01/stills/e01-j030_bench_two_chichikov.jpg",
+   "jpg_bytes": 395781
+  },
+  "E01-J034": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    111.7
+   ],
+   "tokens": [
+    19515
+   ],
+   "notes": [
+    "Cage wide: clock, bear in hussar jacket, saddle with shoot, Baron on trunk with brown-paper parcel, hands on it; Baron matches master; tags blank"
+   ],
+   "refs_used": [
+    "assets/sets/customs/holding-cage.jpg",
+    "assets/characters/baron/master.jpg",
+    "assets/props/trunk/master.jpg",
+    "assets/characters/baron/ref-seated-trunk.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j034_cage_wide_baron.jpg",
+   "jpg_bytes": 789494
+  },
+  "E01-J038": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    60.3
+   ],
+   "tokens": [
+    20230
+   ],
+   "notes": [
+    "Sweeping bow, tricorn swept off, coat flaring, among cage junk; Baron matches master, moustache covers mouth"
+   ],
+   "refs_used": [
+    "assets/characters/baron/master.jpg",
+    "assets/sets/customs/holding-cage-bright.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j038_baron_bow.jpg",
+   "jpg_bytes": 748208
+  },
+  "E01-J036": {
    "priority": 1,
    "status": "pending",
    "attempts": 1,
    "seconds": [
-    55.7
+    123.8
    ],
    "tokens": [
-    16274
+    16672
    ],
-   "notes": [],
+   "notes": [
+    "REJECTED: Baron good but the parcel is drawn as a hessian sack, not the brown-paper parcel (key prop continuity)",
+    "attempt 2 prepared (parcel ref added), not run: usage limit"
+   ],
    "refs_used": [
-    "assets/characters/chichikov/master.jpg",
-    "assets/props/inlaid-box/master.jpg",
-    "assets/sets/customs/master.jpg",
-    "assets/characters/chichikov/ref-softfocus-bench.jpg",
-    "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/e01/accepted-png/e01-j029_bench_two_clean.png"
+    "assets/characters/baron/master.jpg",
+    "assets/sets/customs/holding-cage-bright.jpg"
+   ]
+  },
+  "E01-J040": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    31.0
    ],
-   "prompt_changed": " | extra ref note: Image 5 is the bench plate to edit (E01-J029): keep its framing, Jax Vale, the bench and the hall identical; only add the man at the soft far end."
+   "tokens": [
+    22562
+   ],
+   "notes": [
+    "ECU Baron eyes/brows above moustache, matches master; reads astonished more than wounded. Image saved before the usage-limit error"
+   ],
+   "refs_used": [
+    "assets/characters/baron/master.jpg",
+    "assets/characters/baron/ref-eyes-closeup.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j040_baron_ecu_eyes.jpg",
+   "jpg_bytes": 491688
+  },
+  "E01-J037": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    52.0
+   ],
+   "tokens": [
+    10639
+   ],
+   "notes": [
+    "OTS Jax curls/orange jacket to Baron behind cage mesh with padlock; Baron matches master, mouth hidden. Image was saved before the usage-limit error on this run"
+   ],
+   "refs_used": [
+    "assets/characters/jax/master.jpg",
+    "assets/characters/baron/master.jpg",
+    "assets/sets/customs/holding-cage-bright.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j037_ots_jax_to_baron.jpg",
+   "jpg_bytes": 602114
+  },
+  "E01-J023": {
+   "priority": 1,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J028": {
+   "priority": 1,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J042": {
+   "priority": 1,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J045": {
+   "priority": 1,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J046": {
+   "priority": 1,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J047": {
+   "priority": 1,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J049": {
+   "priority": 1,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J050": {
+   "priority": 1,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J053": {
+   "priority": 1,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J051": {
+   "priority": 1,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J054": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J056": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J109": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J059": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J060": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J063": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J065": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J068": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J079": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J080": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J095": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J066": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J084": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J085": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J067": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J073": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J071": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J128": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J074": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J134": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J075": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J076": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J077": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J081": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J083": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J088": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J090": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J091": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J096": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J092": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J094": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J097": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J129": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J101": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J103": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J104": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J107": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J125": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J110": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J115": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J118": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J120": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J123": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J121": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J122": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J124": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J126": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J132": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J133": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J127": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J136": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J137": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J138": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J139": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J141": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J142": {
+   "priority": 2,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J143": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J145": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J146": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J147": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J153": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J148": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J149": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J159": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J160": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J151": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J152": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J183": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J156": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J157": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J170": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J188": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J162": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J163": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J164": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J165": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J168": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J172": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J173": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J174": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J175": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J176": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J180": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J181": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J187": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J189": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J190": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J191": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
+  },
+  "E01-J192": {
+   "priority": 3,
+   "status": "pending",
+   "attempts": 0,
+   "seconds": [],
+   "tokens": [],
+   "notes": []
   }
  },
  "allowance": [
@@ -1121,6 +2075,14 @@
    "five_hour_used_percent": 71.0,
    "five_hour_resets": "2026-11-27 19:25 UTC",
    "weekly_used_percent": 95.0,
+   "weekly_resets": "2026-12-02 17:30 UTC"
+  },
+  {
+   "read_at": "2026-11-27T16:33:05Z",
+   "label": "after usage limit hit (last non-null reading, rollout 16-31-56)",
+   "five_hour_used_percent": 99.0,
+   "five_hour_resets": "2026-11-27 19:25 UTC",
+   "weekly_used_percent": 99.0,
    "weekly_resets": "2026-12-02 17:30 UTC"
   }
  ],
@@ -1135,5 +2097,14 @@
   "assets/sets/apron/master.jpg": "assets/sets/bay9/apron.jpg",
   "assets/props/posthorn/master.jpg": "assets/props/posthorn/frosted.jpg",
   "assets/props/inlaid-box/master.jpg": "assets/characters/chichikov/ref-hands-box.jpg"
+ },
+ "usage_limit_stop": {
+  "time": "2026-11-27T16:32Z",
+  "message": "ERROR: You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 7:25 PM.",
+  "jobs": [
+   "E01-J037",
+   "E01-J040"
+  ],
+  "note": "both runs had already saved their image; no retry made; batch E01-J036/J042/J045/J046 never started"
  }
 }

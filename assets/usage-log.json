@@ -2425,5 +2425,120 @@
   },
   "type": "allowance_check",
   "label": "before new Mira/Lucia ref sets"
+ },
+ {
+  "time": "2026-11-27T16:31:12",
+  "type": "run",
+  "purpose": "new-master ref: mira-ref-front",
+  "job": "m-front",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/m-front/mira-ref-front.png",
+  "file": "assets/characters/mira/ref-front.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 98.5,
+  "tokens": 10376,
+  "status": "accepted",
+  "note": "from LOCKED new master (cand-3); bright",
+  "jpg_bytes": 210781,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 97.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 99.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:30:20",
+  "type": "run",
+  "purpose": "new-master ref: lucia-ref-front",
+  "job": "l-front",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/l-front/lucia-ref-front.png",
+  "file": "assets/characters/lucia/ref-front.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 46.1,
+  "tokens": 7682,
+  "status": "accepted",
+  "note": "from LOCKED new master (cand-2); bright",
+  "jpg_bytes": 214833,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 97.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 99.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:32:40",
+  "type": "run",
+  "purpose": "new-master ref: mira-ref-profile",
+  "job": "m-profile",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/m-profile/mira-ref-profile.png",
+  "file": "assets/characters/mira/ref-profile.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 87.1,
+  "tokens": 10451,
+  "status": "accepted",
+  "note": "image saved although the run ended with the usage-limit error",
+  "jpg_bytes": 234763,
+  "allowance_after": {
+   "five_hour": null,
+   "weekly": null
+  }
+ },
+ {
+  "time": "2026-11-27T16:32:15",
+  "type": "run",
+  "purpose": "new-master ref: lucia-ref-profile",
+  "job": "l-profile",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/l-profile/lucia-ref-profile.png",
+  "file": "assets/characters/lucia/ref-profile.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 62.3,
+  "tokens": 17975,
+  "status": "accepted",
+  "note": "from LOCKED new master",
+  "jpg_bytes": 263307,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 100.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 99.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "read_at": "2026-11-27T16:33:24Z",
+  "source": "rollout-2026-11-27T16-31-56-01a21dd9-6553-7b52-b334-4f09ecef7764.jsonl",
+  "five_hour": null,
+  "weekly": null,
+  "type": "allowance_check",
+  "label": "USAGE LIMIT HIT"
+ },
+ {
+  "type": "usage_limit_hit",
+  "time": "2026-11-27T16:32:39",
+  "message": "ERROR: You\u2019ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 7:25 PM.",
+  "five_hour_resets_at": "2026-11-27 19:25 UTC",
+  "weekly_used_percent": 99,
+  "weekly_resets_at": "2026-12-02 17:30 UTC",
+  "stopped_during": "Mira/Lucia new-master ref sets (4 of 13 done)"
  }
 ]

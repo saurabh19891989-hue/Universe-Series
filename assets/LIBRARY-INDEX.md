@@ -42,11 +42,15 @@ Rule reminders: windows pure black where real footage goes; bright style from 27
 | `assets/characters/lucia/candidate-2.jpg` | v3 Lucia candidate 2 | none (text only) | CANDIDATE (owner to choose) | CANDIDATE |
 | `assets/characters/lucia/candidate-3.jpg` | v3 Lucia candidate 3 | none (text only) | CANDIDATE (owner to choose) | CANDIDATE; may read a little over 29 |
 | `assets/characters/lucia/master.jpg` | step1 Lucia redo younger, candidate A | none (text only) | TEST (younger redo; superseded if a v3 candidate wins) | picked: wrestler build, ribbon on wrist, reads ~30 |
+| `assets/characters/lucia/ref-front.jpg` | new-master ref: lucia-ref-front | master.jpg | DERIVED from PROPOSED/TEST master | from LOCKED new master (cand-2); bright |
+| `assets/characters/lucia/ref-profile.jpg` | new-master ref: lucia-ref-profile | master.jpg | DERIVED from PROPOSED/TEST master | from LOCKED new master |
 | `assets/characters/mamani/master.jpg` | step2 Mamani master (new face) | none (text only) | LOCKED (owner, 27 Nov) | new face PROPOSED; window shows lunar exterior (fine for an inset still) |
 | `assets/characters/mira/candidate-1.jpg` | v3 Mira candidate 1 | none (text only) | CANDIDATE (owner to choose) | CANDIDATE; corner window shows a planet (crop/mask); close to candidate 3 |
 | `assets/characters/mira/candidate-2.jpg` | v3 Mira candidate 2 | none (text only) | CANDIDATE (owner to choose) | CANDIDATE; nose stud, holds loupe |
 | `assets/characters/mira/candidate-3.jpg` | v3 Mira candidate 3 | none (text only) | CANDIDATE (owner to choose) | CANDIDATE; close to candidate 1 |
 | `assets/characters/mira/master.jpg` | step1 Mira redo younger, candidate A | none (text only) | TEST (younger redo; superseded if a v3 candidate wins) | picked: sharper eyes, clear ink stains, reads 32-34 |
+| `assets/characters/mira/ref-front.jpg` | new-master ref: mira-ref-front | master.jpg | DERIVED from PROPOSED/TEST master | from LOCKED new master (cand-3); bright |
+| `assets/characters/mira/ref-profile.jpg` | new-master ref: mira-ref-profile | master.jpg | DERIVED from PROPOSED/TEST master | image saved although the run ended with the usage-limit error |
 | `assets/characters/noakes/master.jpg` | step2 Noakes master (new face) | none (text only) | LOCKED (owner, 27 Nov) | new face PROPOSED |
 | `assets/characters/noakes/ref-back-console-headset.jpg` | step3 Noakes ref from behind at console with headset | master.jpg | DERIVED from LOCKED master | same hair/uniform |
 | `assets/characters/noakes/ref-hands-stamp.jpg` | step3 Noakes ref hands holding rubber stamp | master.jpg | DERIVED from LOCKED master | papers illegible scribble |
@@ -96,10 +100,9 @@ Rule reminders: windows pure black where real footage goes; bright style from 27
 | `assets/sets/customs/board.jpg` | Flip-number board reading 1,094 (crop of clamp-console) | crop, no generation | DERIVED | upscaled crop, softer than a native frame |
 
 ## Notes for the shot runner (27 Nov)
-- Bright style: use the `*-bright.jpg` set versions as references from now on; the originals are the dark style. `desk.jpg` (dark) still shows a lunar horizon in its far window; use `desk-bright.jpg` (window black).
-- `sets/customs/master.jpg` was redone with a pure black window; the old one is `master-old.jpg` (RETIRED).
-- Mira and Lucía: `master.jpg` is the younger redo (TEST). Three v3 glamour candidates each (`candidate-1..3.jpg`) await the owner's choice; all `ref-*.jpg` of Mira and Lucía are derived from the current master and must be redone once a candidate wins.
-- Noakes, Temi, Mamani: LOCKED (owner, 27 Nov).
-- Still PROPOSED: idris, voss, cass (faces); hold, postchaise, hatchet (inn), apron sets; all new props. Arakawa rejected (likeness risk), not on disk.
-- Window flags (mask to black before compositing): `characters/chichikov/ref-softfocus-bench.jpg`, `characters/mira/ref-back.jpg`, `characters/mamani/master.jpg`, `characters/mira/candidate-1.jpg`, `props/inlaid-box/master.jpg`.
-- Not yet made: `assets/vehicles/crawler/master.jpg` (request 3; stopped at 99% weekly allowance). `mira/ref-suit-helmet.jpg` is waist-up, not the full body the request lists.
+- USAGE LIMIT HIT 16:32 UTC (5-hour window 100%, weekly 99%; 5-hour resets 19:25 UTC, weekly resets 2 Dec 17:30 UTC). Mira/Lucía ref sets from the NEW masters are INCOMPLETE: done ref-front and ref-profile for each. Still to make, MIRA: ref-glass-screen, ref-loupe-eye, ref-back, ref-suit-helmet; LUCÍA: ref-welding-visor, ref-driving-from-behind, ref-wrist-ribbon, ref-fullbody-stride, ref-suit-helmet. The ready line has NOT been written. Do not use anything in old-v2/.
+- Mira = candidate-3, Lucía = candidate-2: LOCKED (owner, 27 Nov) as master.jpg. Noakes, Temi, Mamani LOCKED.
+- Bright style: use the `*-bright.jpg` set versions. `desk.jpg` (dark) has a lunar horizon in its window; use `desk-bright.jpg`. `customs/master.jpg` redone with a black window (old = master-old.jpg, retired).
+- Still PROPOSED: faces idris, voss, cass; sets hold, postchaise, hatchet (inn), apron; all new props. Arakawa rejected (likeness risk).
+- Mask windows to black before compositing: chichikov/ref-softfocus-bench.jpg, mamani/master.jpg, props/inlaid-box/master.jpg; clamp-console-bright.jpg booth glass went black (cosmetic).
+- Not yet made: vehicles/crawler/master.jpg (request 3).

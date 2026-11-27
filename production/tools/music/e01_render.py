@@ -105,8 +105,10 @@ def bus(raw, wav_out, meta, dialogue):
     return x
 
 
-def to_mp3(wav, mp3, dur):
-    kbps = 192 if dur * 192000 / 8 < 2.95e6 else 176
+def to_mp3(wav, mp3, dur, kbps=None):
+    """Review copies: 192 kbps (176 if that would pass 3 MB); under-dialogue copies 128 kbps to keep the
+    review folder under 60 MB (the WAV masters are full quality)."""
+    kbps = kbps or (192 if dur * 192000 / 8 < 2.95e6 else 176)
     subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", wav, "-c:a", "libmp3lame",
                     "-b:a", f"{kbps}k", mp3], check=True)
     return kbps
@@ -154,8 +156,10 @@ def render(fn):
         wav = os.path.join(WAV_DIR, name + suffix + ".wav")
         x = bus(raw, wav, meta, dlg)
         mp3 = os.path.join(MP3_DIR, name + suffix + ".mp3")
-        kbps = to_mp3(wav, mp3, meta["duration"])
+        kbps = to_mp3(wav, mp3, meta["duration"], 128 if dlg else None)
         st = sulib.analyse(mp3, os.path.join(SPEC_DIR, name + suffix + ".jpg"))
+        if dlg:
+            os.remove(os.path.join(SPEC_DIR, name + suffix + ".jpg"))   # keep one spectrogram per cue
         st["wav_duration_s"] = round(len(x) / SR, 4)
         st["mp3_kbps"] = kbps
         st["mp3_mb"] = round(os.path.getsize(mp3) / 1e6, 2)
@@ -214,8 +218,10 @@ def render(fn):
             wav = os.path.join(WAV_DIR, ex["name"] + suffix + ".wav")
             sf.write(wav, y, SR, subtype="PCM_24")
             mp3 = os.path.join(MP3_DIR, ex["name"] + suffix + ".mp3")
-            kb = to_mp3(wav, mp3, em["duration"])
+            kb = to_mp3(wav, mp3, em["duration"], 128 if kind == "under_dialogue" else None)
             st = sulib.analyse(mp3, os.path.join(SPEC_DIR, ex["name"] + suffix + ".jpg"))
+            if kind == "under_dialogue":
+                os.remove(os.path.join(SPEC_DIR, ex["name"] + suffix + ".jpg"))
             st.update(wav_duration_s=round(len(y) / SR, 4), mp3_kbps=kb, mp3_mb=round(os.path.getsize(mp3) / 1e6, 2),
                       silences=silence_check(y, em, "wav") + silence_check(decode(mp3), em, "mp3"))
             efiles[kind] = {"wav_master": wav, "mp3": os.path.relpath(mp3, sulib.REPO)}

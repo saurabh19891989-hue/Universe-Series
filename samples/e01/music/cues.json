@@ -1,0 +1,4527 @@
+{
+ "episode": "E01 - The Parcel Nobody Ordered",
+ "cues": [
+  {
+   "id": "M01",
+   "title": "Cold open - the repossession",
+   "scenes": [
+    "0"
+   ],
+   "duration": 75.9,
+   "key": "D Dorian / D minor (PIP's march in D)",
+   "tempo": "112 BPM 4/4, swing in the Jax section",
+   "hits": [
+    [
+     3.4,
+     "music enters after the silent black top"
+    ],
+    [
+     9.0,
+     "engine dies (cello power-down glide)"
+    ],
+    [
+     13.2,
+     "coffee light goes out (celesta blip)"
+    ],
+    [
+     40.95,
+     "shop-door bell = job arrives (music stops at 40.6, bell is SFX)"
+    ],
+    [
+     56.0,
+     "\"Take it\" - PIP's stamp (bass drum + pizz chord)"
+    ],
+    [
+     61.7,
+     "engine coughs back (low swell, Jax motif)"
+    ],
+    [
+     74.5,
+     "button"
+    ],
+    [
+     75.9,
+     "hard out: the title sting starts here"
+    ]
+   ],
+   "motifs": [
+    "JAX",
+    "MAIN head (bassoon)",
+    "PIP (in D)"
+   ],
+   "silences": [
+    [
+     0.0,
+     2.0
+    ],
+    [
+     40.6,
+     41.85
+    ],
+    [
+     60.4,
+     61.7
+    ]
+   ],
+   "plan": [
+    "cold open (0)"
+   ],
+   "name": "E01-M01-cold-open",
+   "midi": "samples/e01/music/midi/E01-M01-cold-open.mid",
+   "instruments": {
+    "pizzB": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "bsn": "bsn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/bassoon-SOLO-sustain.sfz",
+    "clar": "cl - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/clarinet-SOLO-sustain.sfz",
+    "low": "vc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SEC-sustain.sfz",
+    "cel": "celesta - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Keys/celesta.sfz",
+    "picc": "picc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/piccolo-SOLO-sustain.sfz",
+    "glock": "glock - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Percussion/glockenspiel.sfz",
+    "pad": "vln2 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/2nd-violin-SEC-sustain.sfz",
+    "timp": "timp - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Percussion/timpani-hit.sfz",
+    "drums": "percussion: VPO 3 (bass drum, cymbals, snare, triangle) + GeneralUser GS kit (woodblocks, rim, hats)"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M01-cold-open.wav",
+     "mp3": "samples/e01/music/E01-M01-cold-open.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M01-cold-open-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M01-cold-open-under-dialogue.mp3"
+    },
+    "stems": {
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M01-cold-open-harmony.wav",
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M01-cold-open-melody.wav",
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M01-cold-open-percussion.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -18.3,
+     "LRA_LU": 13.7,
+     "true_peak_dBTP": -1.7,
+     "Peak level dB": -1.719713,
+     "RMS level dB": -21.758512,
+     "Flat factor": 0.0,
+     "duration_s": 75.94,
+     "short_term_LUFS_every_4s": [
+      -34.3,
+      -28.4,
+      -23.3,
+      -25.2,
+      -20.8,
+      -20.4,
+      -20.7,
+      -20.2,
+      -17.7,
+      -25.3,
+      -18.3,
+      -25.4,
+      -26.6,
+      -16.0,
+      -50.7,
+      -18.1,
+      -14.4,
+      -14.6
+     ],
+     "bands_dB": {
+      "sub<60": -23.8,
+      "low60-250": -3.4,
+      "mid250-2k": -2.9,
+      "hi2k-6k": -17.6,
+      "air>6k": -27.3
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 75.9,
+     "mp3_kbps": 192,
+     "mp3_mb": 1.82,
+     "silences": [
+      {
+       "window_s": [
+        0.0,
+        2.0
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        40.6,
+        41.85
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        60.4,
+        61.7
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        0.0,
+        2.0
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        40.6,
+        41.85
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        60.4,
+        61.7
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    },
+    "under_dialogue": {
+     "lufs_I": -21.3,
+     "LRA_LU": 15.2,
+     "true_peak_dBTP": -1.8,
+     "Peak level dB": -1.776269,
+     "RMS level dB": -25.241927,
+     "Flat factor": 0.0,
+     "duration_s": 75.94,
+     "short_term_LUFS_every_4s": [
+      -39.0,
+      -33.6,
+      -27.5,
+      -32.2,
+      -26.0,
+      -25.2,
+      -25.7,
+      -26.0,
+      -22.9,
+      -26.6,
+      -18.2,
+      -29.2,
+      -29.0,
+      -18.8,
+      -55.4,
+      -22.1,
+      -17.7,
+      -18.5
+     ],
+     "bands_dB": {
+      "sub<60": -37.7,
+      "low60-250": -5.9,
+      "mid250-2k": -1.4,
+      "hi2k-6k": -20.3,
+      "air>6k": -21.5
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 75.9,
+     "mp3_kbps": 128,
+     "mp3_mb": 1.22,
+     "silences": [
+      {
+       "window_s": [
+        0.0,
+        2.0
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        40.6,
+        41.85
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        60.4,
+        61.7
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        0.0,
+        2.0
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        40.6,
+        41.85
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        60.4,
+        61.7
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    }
+   },
+   "mix": {
+    "target_lufs_main": -18.0,
+    "target_lufs_under_dialogue": -21.0,
+    "hall_rt60_s": 1.6
+   }
+  },
+  {
+   "id": "M02",
+   "title": "Approach to the pole",
+   "scenes": [
+    "2"
+   ],
+   "duration": 58.0,
+   "key": "D Lydian (wonder) -> D minor",
+   "tempo": "72 BPM 4/4",
+   "hits": [
+    [
+     10.0,
+     "letters start to go: celesta figure drops notes at 10.0, 12.1, 14.2, 16.2, 18.3"
+    ],
+    [
+     20.2,
+     "single held note A5 (11.3 s) while the street names die"
+    ],
+    [
+     31.8,
+     "stop for Mamani (silence to 44.2)"
+    ],
+    [
+     44.4,
+     "soft return under PIP"
+    ],
+    [
+     52.8,
+     "button after 'That is not the point of them.'"
+    ]
+   ],
+   "motifs": [
+    "MAIN head in major (horn), in minor (cellos)"
+   ],
+   "silences": [
+    [
+     31.8,
+     44.2
+    ]
+   ],
+   "plan": [
+    "approach (2)"
+   ],
+   "name": "E01-M02-approach",
+   "midi": "samples/e01/music/midi/E01-M02-approach.mid",
+   "instruments": {
+    "vln": "vln1 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SEC-sustain.sfz",
+    "vla": "vln2 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/2nd-violin-SEC-sustain.sfz",
+    "vc": "vc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SEC-sustain.sfz",
+    "cb": "cb - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/bass-SEC-sustain.sfz",
+    "hn": "hn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/french-horn-SEC-sustain.sfz",
+    "harp": "harp - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/harp-sustain.sfz",
+    "cel": "celesta - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Keys/celesta.sfz",
+    "pizz": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M02-approach.wav",
+     "mp3": "samples/e01/music/E01-M02-approach.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M02-approach-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M02-approach-under-dialogue.mp3"
+    },
+    "stems": {
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M02-approach-melody.wav",
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M02-approach-harmony.wav",
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M02-approach-percussion.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -19.2,
+     "LRA_LU": 10.8,
+     "true_peak_dBTP": -5.8,
+     "Peak level dB": -5.853702,
+     "RMS level dB": -23.951698,
+     "Flat factor": 0.0,
+     "duration_s": 58.03,
+     "short_term_LUFS_every_4s": [
+      -18.9,
+      -16.0,
+      -16.4,
+      -19.3,
+      -23.9,
+      -17.5,
+      -21.1,
+      -26.7,
+      null,
+      null,
+      null,
+      -21.1,
+      -20.0,
+      -30.5
+     ],
+     "bands_dB": {
+      "sub<60": -28.6,
+      "low60-250": -8.6,
+      "mid250-2k": -1.1,
+      "hi2k-6k": -10.5,
+      "air>6k": -29.3
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 58.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 1.39,
+     "silences": [
+      {
+       "window_s": [
+        31.8,
+        44.2
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        31.8,
+        44.2
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    },
+    "under_dialogue": {
+     "lufs_I": -22.2,
+     "LRA_LU": 11.5,
+     "true_peak_dBTP": -9.1,
+     "Peak level dB": -9.147468,
+     "RMS level dB": -26.527143,
+     "Flat factor": 0.0,
+     "duration_s": 58.03,
+     "short_term_LUFS_every_4s": [
+      -21.2,
+      -18.9,
+      -19.3,
+      -22.3,
+      -26.8,
+      -21.4,
+      -25.3,
+      -31.2,
+      null,
+      null,
+      null,
+      -23.6,
+      -22.6,
+      -34.8
+     ],
+     "bands_dB": {
+      "sub<60": -44.1,
+      "low60-250": -8.6,
+      "mid250-2k": -0.8,
+      "hi2k-6k": -16.5,
+      "air>6k": -29.1
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 58.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.93,
+     "silences": [
+      {
+       "window_s": [
+        31.8,
+        44.2
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        31.8,
+        44.2
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    }
+   },
+   "mix": {
+    "target_lufs_main": -19.0,
+    "target_lufs_under_dialogue": -22.0,
+    "hall_rt60_s": 2.8
+   }
+  },
+  {
+   "id": "M03a",
+   "title": "Chichikov's motif - statement",
+   "scenes": [
+    "5",
+    "12",
+    "16",
+    "31"
+   ],
+   "duration": 20.0,
+   "key": "B minor",
+   "tempo": "126 BPM 3/4 (bar 8 is 2/4: a beat short), ritardando at the end",
+   "hits": [
+    [
+     0.0,
+     "first note"
+    ],
+    [
+     10.0,
+     "the short bar"
+    ]
+   ],
+   "motifs": [
+    "CHICHIKOV"
+   ],
+   "silences": [],
+   "name": "E01-M03a-chichikov-motif-20s",
+   "midi": "samples/e01/music/midi/E01-M03a-chichikov-motif-20s.mid",
+   "instruments": {
+    "box": "music box - GeneralUser GS v2.0.3",
+    "mand": "mandolin (GS bank 16) - GeneralUser GS v2.0.3",
+    "pizz": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "chords": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "cl": "cl - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/clarinet-SOLO-sustain.sfz",
+    "cel": "celesta - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Keys/celesta.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M03a-chichikov-motif-20s.wav",
+     "mp3": "samples/e01/music/E01-M03a-chichikov-motif-20s.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M03a-chichikov-motif-20s-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M03a-chichikov-motif-20s-under-dialogue.mp3"
+    },
+    "stems": {
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M03a-chichikov-motif-20s-melody.wav",
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M03a-chichikov-motif-20s-harmony.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -19.2,
+     "LRA_LU": 3.1,
+     "true_peak_dBTP": -7.2,
+     "Peak level dB": -7.245916,
+     "RMS level dB": -22.524056,
+     "Flat factor": 0.0,
+     "duration_s": 20.04,
+     "short_term_LUFS_every_4s": [
+      -18.8,
+      -19.5,
+      -18.7,
+      -18.9,
+      -27.7
+     ],
+     "bands_dB": {
+      "sub<60": -40.3,
+      "low60-250": -10.3,
+      "mid250-2k": -0.5,
+      "hi2k-6k": -18.7,
+      "air>6k": -34.3
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 20.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.48,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -22.2,
+     "LRA_LU": 2.5,
+     "true_peak_dBTP": -11.1,
+     "Peak level dB": -11.069656,
+     "RMS level dB": -25.243017,
+     "Flat factor": 0.0,
+     "duration_s": 20.04,
+     "short_term_LUFS_every_4s": [
+      -21.9,
+      -23.0,
+      -21.5,
+      -21.7,
+      -29.1
+     ],
+     "bands_dB": {
+      "sub<60": -54.6,
+      "low60-250": -12.8,
+      "mid250-2k": -0.3,
+      "hi2k-6k": -23.9,
+      "air>6k": -33.6
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 20.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.32,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -19.0,
+    "target_lufs_under_dialogue": -22.0,
+    "hall_rt60_s": 2.0
+   }
+  },
+  {
+   "id": "M03b",
+   "title": "Chichikov's motif - underscore",
+   "scenes": [
+    "5",
+    "12",
+    "16",
+    "25"
+   ],
+   "duration": 45.0,
+   "key": "B minor",
+   "tempo": "120 BPM 3/4 (two short bars)",
+   "hits": [],
+   "motifs": [
+    "CHICHIKOV"
+   ],
+   "silences": [],
+   "name": "E01-M03b-chichikov-underscore-45s",
+   "midi": "samples/e01/music/midi/E01-M03b-chichikov-underscore-45s.mid",
+   "instruments": {
+    "box": "music box - GeneralUser GS v2.0.3",
+    "mand": "mandolin (GS bank 16) - GeneralUser GS v2.0.3",
+    "pizz": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "chords": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "cl": "cl - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/clarinet-SOLO-sustain.sfz",
+    "cel": "celesta - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Keys/celesta.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M03b-chichikov-underscore-45s.wav",
+     "mp3": "samples/e01/music/E01-M03b-chichikov-underscore-45s.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M03b-chichikov-underscore-45s-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M03b-chichikov-underscore-45s-under-dialogue.mp3"
+    },
+    "stems": {
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M03b-chichikov-underscore-45s-melody.wav",
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M03b-chichikov-underscore-45s-harmony.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -21.2,
+     "LRA_LU": 8.1,
+     "true_peak_dBTP": -6.5,
+     "Peak level dB": -6.497315,
+     "RMS level dB": -24.011613,
+     "Flat factor": 0.0,
+     "duration_s": 45.02,
+     "short_term_LUFS_every_4s": [
+      -25.6,
+      -18.5,
+      -19.4,
+      -25.5,
+      -23.0,
+      -20.9,
+      -22.1,
+      -21.4,
+      -20.6,
+      -19.8,
+      -28.2
+     ],
+     "bands_dB": {
+      "sub<60": -33.6,
+      "low60-250": -6.4,
+      "mid250-2k": -1.2,
+      "hi2k-6k": -22.7,
+      "air>6k": -40.5
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 45.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 1.08,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -24.2,
+     "LRA_LU": 7.2,
+     "true_peak_dBTP": -9.8,
+     "Peak level dB": -9.780688,
+     "RMS level dB": -26.90601,
+     "Flat factor": 0.0,
+     "duration_s": 45.02,
+     "short_term_LUFS_every_4s": [
+      -28.3,
+      -22.3,
+      -23.0,
+      -28.4,
+      -25.9,
+      -23.1,
+      -25.2,
+      -23.7,
+      -22.9,
+      -23.6,
+      -30.3
+     ],
+     "bands_dB": {
+      "sub<60": -50.2,
+      "low60-250": -9.8,
+      "mid250-2k": -0.5,
+      "hi2k-6k": -28.6,
+      "air>6k": -40.3
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 45.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.72,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -21.0,
+    "target_lufs_under_dialogue": -24.0,
+    "hall_rt60_s": 2.0
+   }
+  },
+  {
+   "id": "M04a",
+   "title": "The Baron's theme - grand",
+   "scenes": [
+    "3",
+    "6",
+    "10",
+    "11"
+   ],
+   "duration": 30.0,
+   "key": "D major (march); sad tune B minor underneath",
+   "tempo": "104 BPM 4/4; bar 6 is 3/4 (a bar too short)",
+   "hits": [
+    [
+     0.0,
+     "march starts"
+    ],
+    [
+     11.54,
+     "the short bar"
+    ],
+    [
+     15.0,
+     "the wrong note (C natural)"
+    ],
+    [
+     17.88,
+     "second strain; sad tune enters in cellos"
+    ]
+   ],
+   "motifs": [
+    "BARON march",
+    "SAD TUNE"
+   ],
+   "silences": [],
+   "name": "E01-M04a-baron-theme-grand-30s",
+   "midi": "samples/e01/music/midi/E01-M04a-baron-theme-grand-30s.mid",
+   "instruments": {
+    "hpsi": "harpsichord - GeneralUser GS v2.0.3",
+    "hpsi2": "coupled harpsichord (GS bank 8) - GeneralUser GS v2.0.3, detuned +24 cents",
+    "hn": "hn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/french-horn-SEC-sustain.sfz",
+    "vln": "vln1 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SEC-sustain.sfz",
+    "vc": "vc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SEC-sustain.sfz",
+    "cb": "cb - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/bass-SEC-sustain.sfz",
+    "timp": "timp - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Percussion/timpani-hit.sfz",
+    "vc_solo": "vc_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SOLO-sustain.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M04a-baron-theme-grand-30s.wav",
+     "mp3": "samples/e01/music/E01-M04a-baron-theme-grand-30s.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M04a-baron-theme-grand-30s-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M04a-baron-theme-grand-30s-under-dialogue.mp3"
+    },
+    "stems": {
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M04a-baron-theme-grand-30s-melody.wav",
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M04a-baron-theme-grand-30s-harmony.wav",
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M04a-baron-theme-grand-30s-percussion.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -16.2,
+     "LRA_LU": 2.2,
+     "true_peak_dBTP": -4.4,
+     "Peak level dB": -4.509368,
+     "RMS level dB": -19.280636,
+     "Flat factor": 0.0,
+     "duration_s": 30.02,
+     "short_term_LUFS_every_4s": [
+      -16.5,
+      -16.2,
+      -16.3,
+      -17.1,
+      -16.7,
+      -15.6,
+      -15.0
+     ],
+     "bands_dB": {
+      "sub<60": -20.5,
+      "low60-250": -6.2,
+      "mid250-2k": -1.8,
+      "hi2k-6k": -11.2,
+      "air>6k": -19.0
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 30.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.72,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -20.3,
+     "LRA_LU": 2.4,
+     "true_peak_dBTP": -7.4,
+     "Peak level dB": -7.725653,
+     "RMS level dB": -22.955383,
+     "Flat factor": 0.0,
+     "duration_s": 30.02,
+     "short_term_LUFS_every_4s": [
+      -20.7,
+      -20.5,
+      -20.5,
+      -21.1,
+      -20.7,
+      -19.7,
+      -18.7
+     ],
+     "bands_dB": {
+      "sub<60": -34.5,
+      "low60-250": -7.1,
+      "mid250-2k": -1.1,
+      "hi2k-6k": -16.5,
+      "air>6k": -18.8
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 30.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.48,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -16.0,
+    "target_lufs_under_dialogue": -20.0,
+    "hall_rt60_s": 2.2
+   }
+  },
+  {
+   "id": "M04b",
+   "title": "The Baron's theme - threadbare (solo harpsichord)",
+   "scenes": [
+    "14",
+    "20",
+    "22"
+   ],
+   "duration": 40.0,
+   "key": "D major -> B minor",
+   "tempo": "84 BPM 4/4 with a stuck note, a short bar and a gap",
+   "hits": [
+    [
+     11.43,
+     "stuck repeated B"
+    ],
+    [
+     15.71,
+     "the gap"
+    ],
+    [
+     22.86,
+     "sad tune (right hand alone)"
+    ]
+   ],
+   "motifs": [
+    "BARON march",
+    "SAD TUNE"
+   ],
+   "silences": [],
+   "name": "E01-M04b-baron-theme-threadbare-40s",
+   "midi": "samples/e01/music/midi/E01-M04b-baron-theme-threadbare-40s.mid",
+   "instruments": {
+    "hpsi": "harpsichord - GeneralUser GS v2.0.3",
+    "hpsi2": "coupled harpsichord (GS bank 8) - GeneralUser GS v2.0.3, detuned +24 cents",
+    "hn": "hn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/french-horn-SEC-sustain.sfz",
+    "vln": "vln1 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SEC-sustain.sfz",
+    "vc": "vc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SEC-sustain.sfz",
+    "cb": "cb - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/bass-SEC-sustain.sfz",
+    "timp": "timp - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Percussion/timpani-hit.sfz",
+    "vc_solo": "vc_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SOLO-sustain.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M04b-baron-theme-threadbare-40s.wav",
+     "mp3": "samples/e01/music/E01-M04b-baron-theme-threadbare-40s.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M04b-baron-theme-threadbare-40s-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M04b-baron-theme-threadbare-40s-under-dialogue.mp3"
+    },
+    "stems": {
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M04b-baron-theme-threadbare-40s-melody.wav",
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M04b-baron-theme-threadbare-40s-harmony.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -20.2,
+     "LRA_LU": 5.7,
+     "true_peak_dBTP": -7.3,
+     "Peak level dB": -7.328602,
+     "RMS level dB": -24.256712,
+     "Flat factor": 0.0,
+     "duration_s": 40.03,
+     "short_term_LUFS_every_4s": [
+      -19.2,
+      -19.3,
+      -19.6,
+      -19.4,
+      -19.6,
+      -22.9,
+      -20.6,
+      -22.9,
+      -29.8,
+      -138.5
+     ],
+     "bands_dB": {
+      "sub<60": -38.0,
+      "low60-250": -7.8,
+      "mid250-2k": -1.3,
+      "hi2k-6k": -11.9,
+      "air>6k": -15.5
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 40.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.96,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -23.2,
+     "LRA_LU": 5.9,
+     "true_peak_dBTP": -9.8,
+     "Peak level dB": -9.870966,
+     "RMS level dB": -26.954327,
+     "Flat factor": 0.0,
+     "duration_s": 40.03,
+     "short_term_LUFS_every_4s": [
+      -22.3,
+      -22.1,
+      -22.5,
+      -22.4,
+      -22.5,
+      -26.0,
+      -23.5,
+      -26.4,
+      -33.4,
+      -142.0
+     ],
+     "bands_dB": {
+      "sub<60": -51.8,
+      "low60-250": -8.8,
+      "mid250-2k": -0.9,
+      "hi2k-6k": -16.5,
+      "air>6k": -15.1
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 40.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.64,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -20.0,
+    "target_lufs_under_dialogue": -23.0,
+    "hall_rt60_s": 1.8
+   }
+  },
+  {
+   "id": "M04c",
+   "title": "The Baron's sad tune - solo cello",
+   "scenes": [
+    "14",
+    "21",
+    "29"
+   ],
+   "duration": 45.0,
+   "key": "B minor",
+   "tempo": "52 BPM 4/4, slowing to 44",
+   "hits": [],
+   "motifs": [
+    "SAD TUNE"
+   ],
+   "silences": [],
+   "name": "E01-M04c-baron-sad-tune-cello-45s",
+   "midi": "samples/e01/music/midi/E01-M04c-baron-sad-tune-cello-45s.mid",
+   "instruments": {
+    "hpsi": "harpsichord - GeneralUser GS v2.0.3",
+    "hpsi2": "coupled harpsichord (GS bank 8) - GeneralUser GS v2.0.3, detuned +24 cents",
+    "hn": "hn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/french-horn-SEC-sustain.sfz",
+    "vln": "vln1 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SEC-sustain.sfz",
+    "vc": "vc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SEC-sustain.sfz",
+    "cb": "cb - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/bass-SEC-sustain.sfz",
+    "timp": "timp - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Percussion/timpani-hit.sfz",
+    "vc_solo": "vc_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SOLO-sustain.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M04c-baron-sad-tune-cello-45s.wav",
+     "mp3": "samples/e01/music/E01-M04c-baron-sad-tune-cello-45s.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M04c-baron-sad-tune-cello-45s-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M04c-baron-sad-tune-cello-45s-under-dialogue.mp3"
+    },
+    "stems": {
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M04c-baron-sad-tune-cello-45s-melody.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -20.2,
+     "LRA_LU": 2.3,
+     "true_peak_dBTP": -10.9,
+     "Peak level dB": -10.890578,
+     "RMS level dB": -22.48603,
+     "Flat factor": 0.0,
+     "duration_s": 45.02,
+     "short_term_LUFS_every_4s": [
+      -20.1,
+      -20.8,
+      -21.9,
+      -20.1,
+      -20.4,
+      -19.3,
+      -19.5,
+      -20.0,
+      -19.8,
+      -20.0,
+      -23.3
+     ],
+     "bands_dB": {
+      "sub<60": -50.5,
+      "low60-250": -1.1,
+      "mid250-2k": -6.7,
+      "hi2k-6k": -27.3,
+      "air>6k": -44.2
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 45.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 1.08,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -23.2,
+     "LRA_LU": 2.2,
+     "true_peak_dBTP": -13.7,
+     "Peak level dB": -13.715503,
+     "RMS level dB": -25.506444,
+     "Flat factor": 0.0,
+     "duration_s": 45.02,
+     "short_term_LUFS_every_4s": [
+      -22.5,
+      -23.5,
+      -24.7,
+      -23.0,
+      -23.3,
+      -22.7,
+      -22.5,
+      -22.6,
+      -23.2,
+      -23.6,
+      -27.1
+     ],
+     "bands_dB": {
+      "sub<60": -60.5,
+      "low60-250": -1.5,
+      "mid250-2k": -5.5,
+      "hi2k-6k": -33.5,
+      "air>6k": -44.1
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 45.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.72,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -20.0,
+    "target_lufs_under_dialogue": -23.0,
+    "hall_rt60_s": 2.4
+   }
+  },
+  {
+   "id": "M05",
+   "title": "The inventory montage (the harpsichord that has gone wrong)",
+   "scenes": [
+    "13"
+   ],
+   "duration": 55.0,
+   "key": "D major, moving D-G-D-A-B-D per block",
+   "tempo": "132 BPM 4/4, 5-bar blocks, every second block ends on a 7/8 bar (dropped beat)",
+   "hits": [
+    [
+     0.0,
+     "stamp hit 1 (cut point)"
+    ],
+    [
+     9.09,
+     "stamp hit 2 (cut point)"
+    ],
+    [
+     17.95,
+     "stamp hit 3 (cut point)"
+    ],
+    [
+     27.05,
+     "stamp hit 4 (cut point)"
+    ],
+    [
+     35.91,
+     "stamp hit 5 (cut point)"
+    ],
+    [
+     45.0,
+     "stamp hit 6 (cut point)"
+    ],
+    [
+     53.86,
+     "end button"
+    ]
+   ],
+   "motifs": [
+    "BARON march (harpsichord)",
+    "MIRA clockwork (celesta)"
+   ],
+   "silences": [],
+   "note": "second harpsichord layer 35 cents flat (coupled harpsichord), music-box doubling, a sticking A in each block, ends on the 'wrong' (minor) chord",
+   "plan": [
+    "C2 inventory (13)"
+   ],
+   "name": "E01-M05-inventory-montage",
+   "midi": "samples/e01/music/midi/E01-M05-inventory-montage.mid",
+   "instruments": {
+    "hpsi": "harpsichord - GeneralUser GS v2.0.3",
+    "hpsi2": "coupled harpsichord (GS bank 8) - GeneralUser GS v2.0.3, detuned -35 cents",
+    "box": "music box - GeneralUser GS v2.0.3",
+    "bsn": "bsn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/bassoon-SOLO-sustain.sfz",
+    "pizz": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "cel": "celesta - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Keys/celesta.sfz",
+    "glock": "glock - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Percussion/glockenspiel.sfz",
+    "drums": "percussion: VPO 3 (bass drum, cymbals, snare, triangle) + GeneralUser GS kit (woodblocks, rim, hats)"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M05-inventory-montage.wav",
+     "mp3": "samples/e01/music/E01-M05-inventory-montage.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M05-inventory-montage-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M05-inventory-montage-under-dialogue.mp3"
+    },
+    "stems": {
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M05-inventory-montage-melody.wav",
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M05-inventory-montage-harmony.wav",
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M05-inventory-montage-percussion.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -17.3,
+     "LRA_LU": 1.9,
+     "true_peak_dBTP": -2.8,
+     "Peak level dB": -2.932614,
+     "RMS level dB": -20.9746,
+     "Flat factor": 0.0,
+     "duration_s": 55.03,
+     "short_term_LUFS_every_4s": [
+      -16.9,
+      -18.1,
+      -16.9,
+      -16.8,
+      -16.8,
+      -16.8,
+      -18.1,
+      -17.3,
+      -18.4,
+      -17.0,
+      -18.1,
+      -16.3,
+      -16.3
+     ],
+     "bands_dB": {
+      "sub<60": -28.8,
+      "low60-250": -16.3,
+      "mid250-2k": -0.8,
+      "hi2k-6k": -10.2,
+      "air>6k": -12.7
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 55.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 1.32,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -20.3,
+     "LRA_LU": 2.1,
+     "true_peak_dBTP": -6.1,
+     "Peak level dB": -6.067727,
+     "RMS level dB": -23.653328,
+     "Flat factor": 0.0,
+     "duration_s": 55.03,
+     "short_term_LUFS_every_4s": [
+      -19.8,
+      -21.0,
+      -20.2,
+      -19.8,
+      -19.9,
+      -19.8,
+      -21.2,
+      -20.7,
+      -22.0,
+      -20.1,
+      -20.8,
+      -19.5,
+      -18.9
+     ],
+     "bands_dB": {
+      "sub<60": -43.7,
+      "low60-250": -18.2,
+      "mid250-2k": -0.6,
+      "hi2k-6k": -14.0,
+      "air>6k": -11.8
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 55.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.88,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -17.0,
+    "target_lufs_under_dialogue": -20.0,
+    "hall_rt60_s": 1.6
+   }
+  },
+  {
+   "id": "M06",
+   "title": "The frozen post horn (diegetic)",
+   "scenes": [
+    "15"
+   ],
+   "duration": 35.0,
+   "key": "Bb (natural notes of a Bb post horn: F4 Bb4 D5 F5 Bb5)",
+   "tempo": "free, then 80 BPM (quarter) in 6/8",
+   "hits": [
+    [
+     0.4,
+     "the crack (in the ice)"
+    ],
+    [
+     1.6,
+     "stuck notes"
+    ],
+    [
+     7.5,
+     "the march begins"
+    ],
+    [
+     25.2,
+     "stumbles to its last note"
+    ],
+    [
+     29.14,
+     "one more try: cracks and sags"
+    ]
+   ],
+   "motifs": [
+    "POST HORN march"
+   ],
+   "silences": [],
+   "note": "dry and close: solo horn + side drum, 0.35 s tiny-room tail; low-passed at 700 Hz at the start (still in the ice), opening to full bandwidth as it thaws; pitch wobble about 2 %",
+   "plan": [
+    "C3 frozen post-horn march (15)"
+   ],
+   "name": "E01-M06-frozen-post-horn",
+   "midi": "samples/e01/music/midi/E01-M06-frozen-post-horn.mid",
+   "instruments": {
+    "horn": "tpt_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/trumpet-SOLO-sustain.sfz",
+    "drums": "percussion: VPO 3 (bass drum, cymbals, snare, triangle) + GeneralUser GS kit (woodblocks, rim, hats)"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M06-frozen-post-horn.wav",
+     "mp3": "samples/e01/music/E01-M06-frozen-post-horn.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M06-frozen-post-horn-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M06-frozen-post-horn-under-dialogue.mp3"
+    },
+    "stems": {
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M06-frozen-post-horn-melody.wav",
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M06-frozen-post-horn-percussion.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -18.2,
+     "LRA_LU": 17.7,
+     "true_peak_dBTP": -8.6,
+     "Peak level dB": -8.666056,
+     "RMS level dB": -24.17894,
+     "Flat factor": 0.0,
+     "duration_s": 35.04,
+     "short_term_LUFS_every_4s": [
+      -36.0,
+      -28.0,
+      -19.2,
+      -17.2,
+      -16.7,
+      -18.4,
+      -18.4,
+      -21.5
+     ],
+     "bands_dB": {
+      "sub<60": -62.0,
+      "low60-250": -23.6,
+      "mid250-2k": -0.7,
+      "hi2k-6k": -8.6,
+      "air>6k": -33.4
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 35.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.84,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -21.2,
+     "LRA_LU": 16.5,
+     "true_peak_dBTP": -11.1,
+     "Peak level dB": -11.100842,
+     "RMS level dB": -26.636675,
+     "Flat factor": 0.0,
+     "duration_s": 35.04,
+     "short_term_LUFS_every_4s": [
+      -36.9,
+      -31.1,
+      -22.6,
+      -20.1,
+      -19.5,
+      -21.2,
+      -21.2,
+      -24.6
+     ],
+     "bands_dB": {
+      "sub<60": -71.7,
+      "low60-250": -19.3,
+      "mid250-2k": -0.4,
+      "hi2k-6k": -11.6,
+      "air>6k": -30.4
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 35.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.56,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -18.0,
+    "target_lufs_under_dialogue": -21.0,
+    "hall_rt60_s": 0.35
+   }
+  },
+  {
+   "id": "M07a",
+   "title": "The offer / Both or neither (60 s)",
+   "scenes": [
+    "16",
+    "18-19",
+    "22"
+   ],
+   "duration": 60.0,
+   "key": "B minor / B Phrygian (C) with F# and F",
+   "tempo": "60 BPM 4/4 (one tick per second)",
+   "hits": [
+    [
+     0.0,
+     "clock starts"
+    ],
+    [
+     8.0,
+     "pitched tick enters"
+    ],
+    [
+     16.0,
+     "cluster gains a note"
+    ],
+    [
+     28.0,
+     "cluster gains a note"
+    ],
+    [
+     44.0,
+     "cluster gains a note"
+    ]
+   ],
+   "motifs": [
+    "CHICHIKOV (bent, music box)",
+    "clock (from A3)"
+   ],
+   "silences": [],
+   "name": "E01-M07-offer-60s",
+   "midi": "samples/e01/music/midi/E01-M07-offer-60s.mid",
+   "instruments": {
+    "tick": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "cb": "cb - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/bass-SEC-sustain.sfz",
+    "hi": "vln1 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SEC-sustain.sfz",
+    "mid": "vla - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/viola-SEC-sustain.sfz",
+    "cel": "celesta - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Keys/celesta.sfz",
+    "box": "music box - GeneralUser GS v2.0.3",
+    "drums": "percussion: VPO 3 (bass drum, cymbals, snare, triangle) + GeneralUser GS kit (woodblocks, rim, hats)"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M07-offer-60s.wav",
+     "mp3": "samples/e01/music/E01-M07-offer-60s.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M07-offer-60s-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M07-offer-60s-under-dialogue.mp3"
+    },
+    "stems": {
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M07-offer-60s-percussion.wav",
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M07-offer-60s-harmony.wav",
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M07-offer-60s-melody.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -22.4,
+     "LRA_LU": 7.1,
+     "true_peak_dBTP": -8.1,
+     "Peak level dB": -8.098301,
+     "RMS level dB": -25.906208,
+     "Flat factor": 0.0,
+     "duration_s": 60.02,
+     "short_term_LUFS_every_4s": [
+      -28.2,
+      -30.4,
+      -27.1,
+      -24.2,
+      -24.6,
+      -24.3,
+      -23.7,
+      -22.9,
+      -21.7,
+      -22.2,
+      -21.8,
+      -21.2,
+      -21.0,
+      -20.7,
+      -21.8
+     ],
+     "bands_dB": {
+      "sub<60": -28.0,
+      "low60-250": -8.5,
+      "mid250-2k": -1.4,
+      "hi2k-6k": -9.1,
+      "air>6k": -26.4
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 60.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 1.44,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -25.4,
+     "LRA_LU": 6.9,
+     "true_peak_dBTP": -11.3,
+     "Peak level dB": -11.269894,
+     "RMS level dB": -28.481578,
+     "Flat factor": 0.0,
+     "duration_s": 60.02,
+     "short_term_LUFS_every_4s": [
+      -31.6,
+      -33.6,
+      -30.1,
+      -27.1,
+      -28.3,
+      -28.2,
+      -27.3,
+      -26.1,
+      -24.8,
+      -25.6,
+      -25.0,
+      -24.4,
+      -24.2,
+      -23.8,
+      -25.1
+     ],
+     "bands_dB": {
+      "sub<60": -40.6,
+      "low60-250": -9.2,
+      "mid250-2k": -0.8,
+      "hi2k-6k": -13.8,
+      "air>6k": -25.2
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 60.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.96,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -22.0,
+    "target_lufs_under_dialogue": -25.0,
+    "hall_rt60_s": 2.4
+   }
+  },
+  {
+   "id": "M07b",
+   "title": "The offer / Both or neither (90 s)",
+   "scenes": [
+    "16",
+    "18-19",
+    "22"
+   ],
+   "duration": 90.0,
+   "key": "B minor / B Phrygian (C) with F# and F",
+   "tempo": "60 BPM 4/4 (one tick per second)",
+   "hits": [
+    [
+     0.0,
+     "clock starts"
+    ],
+    [
+     8.0,
+     "pitched tick enters"
+    ],
+    [
+     24.0,
+     "cluster gains a note"
+    ],
+    [
+     44.0,
+     "cluster gains a note"
+    ],
+    [
+     64.0,
+     "cluster gains a note"
+    ]
+   ],
+   "motifs": [
+    "CHICHIKOV (bent, music box)",
+    "clock (from A3)"
+   ],
+   "silences": [],
+   "name": "E01-M07-offer-90s",
+   "midi": "samples/e01/music/midi/E01-M07-offer-90s.mid",
+   "instruments": {
+    "tick": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "cb": "cb - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/bass-SEC-sustain.sfz",
+    "hi": "vln1 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SEC-sustain.sfz",
+    "mid": "vla - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/viola-SEC-sustain.sfz",
+    "cel": "celesta - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Keys/celesta.sfz",
+    "box": "music box - GeneralUser GS v2.0.3",
+    "drums": "percussion: VPO 3 (bass drum, cymbals, snare, triangle) + GeneralUser GS kit (woodblocks, rim, hats)"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M07-offer-90s.wav",
+     "mp3": "samples/e01/music/E01-M07-offer-90s.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M07-offer-90s-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M07-offer-90s-under-dialogue.mp3"
+    },
+    "stems": {
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M07-offer-90s-percussion.wav",
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M07-offer-90s-harmony.wav",
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M07-offer-90s-melody.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -22.2,
+     "LRA_LU": 6.5,
+     "true_peak_dBTP": -7.3,
+     "Peak level dB": -7.331689,
+     "RMS level dB": -25.73492,
+     "Flat factor": 0.0,
+     "duration_s": 90.02,
+     "short_term_LUFS_every_4s": [
+      -25.9,
+      -30.6,
+      -27.3,
+      -24.8,
+      -27.0,
+      -27.5,
+      -24.8,
+      -24.1,
+      -22.6,
+      -23.9,
+      -23.2,
+      -22.7,
+      -22.6,
+      -21.5,
+      -22.2,
+      -22.0,
+      -21.4,
+      -20.9,
+      -20.5,
+      -20.4,
+      -20.5,
+      -19.2
+     ],
+     "bands_dB": {
+      "sub<60": -28.8,
+      "low60-250": -8.5,
+      "mid250-2k": -1.3,
+      "hi2k-6k": -9.1,
+      "air>6k": -26.3
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 90.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 2.16,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -25.2,
+     "LRA_LU": 6.6,
+     "true_peak_dBTP": -10.2,
+     "Peak level dB": -10.169245,
+     "RMS level dB": -28.299671,
+     "Flat factor": 0.0,
+     "duration_s": 90.02,
+     "short_term_LUFS_every_4s": [
+      -29.4,
+      -34.0,
+      -30.2,
+      -27.7,
+      -30.3,
+      -30.9,
+      -28.4,
+      -27.9,
+      -25.8,
+      -27.6,
+      -26.8,
+      -26.1,
+      -26.0,
+      -24.7,
+      -25.5,
+      -25.2,
+      -24.6,
+      -24.1,
+      -23.6,
+      -23.5,
+      -23.7,
+      -22.5
+     ],
+     "bands_dB": {
+      "sub<60": -41.4,
+      "low60-250": -9.3,
+      "mid250-2k": -0.8,
+      "hi2k-6k": -13.8,
+      "air>6k": -25.1
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 90.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 1.44,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -22.0,
+    "target_lufs_under_dialogue": -25.0,
+    "hall_rt60_s": 2.4
+   }
+  },
+  {
+   "id": "M08",
+   "title": "The rim - the heart of the episode",
+   "scenes": [
+    "21"
+   ],
+   "duration": 130.0,
+   "key": "B minor (sad tune) with a D-major warm middle",
+   "tempo": "free (60 BPM grid)",
+   "hits": [
+    [
+     2.0,
+     "held string F#5 begins"
+    ],
+    [
+     14.0,
+     "far horn: sad tune fragment"
+    ],
+    [
+     33.8,
+     "'Oczakow': the story (frame drum, pizz walk, oboe)"
+    ],
+    [
+     52.0,
+     "cymbal swell starts"
+    ],
+    [
+     59.5,
+     "'I changed' - the swell peaks"
+    ],
+    [
+     69.0,
+     "dead stop before 'There. You listened to the end.'"
+    ],
+    [
+     80.2,
+     "held string returns (3 s after 'You are the audience')"
+    ],
+    [
+     82.0,
+     "sad tune complete on solo cello"
+    ],
+    [
+     114.0,
+     "D major: the hatchet / 'it might do something'"
+    ]
+   ],
+   "motifs": [
+    "SAD TUNE (horn, cello)"
+   ],
+   "silences": [
+    [
+     32.0,
+     33.8
+    ],
+    [
+     69.0,
+     80.2
+    ]
+   ],
+   "loops": [
+    [
+     4.0,
+     30.0,
+     "A: held string bed (C8 exterior colour)"
+    ],
+    [
+     38.0,
+     66.0,
+     "B: Oczakow walk (C9)"
+    ],
+    [
+     82.0,
+     114.0,
+     "C: sad tune over held string (8 bars of 4 s)"
+    ]
+   ],
+   "plan": [
+    "The rim (21) incl. C9 Oczakow as section B",
+    "C8 pad colour in section A"
+   ],
+   "name": "E01-M08-the-rim",
+   "midi": "samples/e01/music/midi/E01-M08-the-rim.mid",
+   "instruments": {
+    "held": "vln_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SOLO-sustain.sfz",
+    "held2": "vln_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SOLO-sustain.sfz",
+    "hn": "hn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/french-horn-SEC-sustain.sfz",
+    "vc_solo": "vc_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SOLO-sustain.sfz",
+    "pad": "vln2 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/2nd-violin-SEC-sustain.sfz",
+    "low": "vc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SEC-sustain.sfz",
+    "harp": "harp - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/harp-sustain.sfz",
+    "pizz": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "ob": "ob - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/oboe-SOLO-sustain.sfz",
+    "drums": "percussion: VPO 3 (bass drum, cymbals, snare, triangle) + GeneralUser GS kit (woodblocks, rim, hats)"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M08-the-rim.wav",
+     "mp3": "samples/e01/music/E01-M08-the-rim.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M08-the-rim-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M08-the-rim-under-dialogue.mp3"
+    },
+    "stems": {
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M08-the-rim-harmony.wav",
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M08-the-rim-melody.wav",
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M08-the-rim-percussion.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -23.4,
+     "LRA_LU": 6.4,
+     "true_peak_dBTP": -11.9,
+     "Peak level dB": -11.858607,
+     "RMS level dB": -27.388839,
+     "Flat factor": 0.0,
+     "duration_s": 130.03,
+     "short_term_LUFS_every_4s": [
+      -27.6,
+      -24.7,
+      -22.9,
+      -22.2,
+      -22.0,
+      -22.1,
+      -23.0,
+      -24.0,
+      -34.4,
+      -25.3,
+      -24.5,
+      -25.3,
+      -24.7,
+      -23.9,
+      -23.7,
+      -21.2,
+      -21.2,
+      -114.1,
+      null,
+      null,
+      -23.8,
+      -21.9,
+      -23.5,
+      -23.2,
+      -22.2,
+      -22.0,
+      -23.0,
+      -22.5,
+      -23.9,
+      -25.8,
+      -27.3,
+      -28.2
+     ],
+     "bands_dB": {
+      "sub<60": -40.5,
+      "low60-250": -5.4,
+      "mid250-2k": -2.1,
+      "hi2k-6k": -10.1,
+      "air>6k": -26.6
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 130.0,
+     "mp3_kbps": 176,
+     "mp3_mb": 2.6,
+     "silences": [
+      {
+       "window_s": [
+        32.0,
+        33.8
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        69.0,
+        80.2
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        32.0,
+        33.8
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        69.0,
+        80.2
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    },
+    "under_dialogue": {
+     "lufs_I": -26.4,
+     "LRA_LU": 6.4,
+     "true_peak_dBTP": -14.1,
+     "Peak level dB": -14.103889,
+     "RMS level dB": -29.79129,
+     "Flat factor": 0.0,
+     "duration_s": 130.03,
+     "short_term_LUFS_every_4s": [
+      -30.8,
+      -27.7,
+      -26.3,
+      -25.1,
+      -24.8,
+      -24.4,
+      -26.2,
+      -28.2,
+      -39.3,
+      -30.7,
+      -29.3,
+      -29.6,
+      -29.8,
+      -28.4,
+      -27.5,
+      -24.3,
+      -24.5,
+      -123.9,
+      -160.3,
+      -160.3,
+      -27.0,
+      -24.6,
+      -25.6,
+      -25.3,
+      -24.6,
+      -24.6,
+      -25.3,
+      -25.0,
+      -26.5,
+      -28.1,
+      -29.4,
+      -30.0
+     ],
+     "bands_dB": {
+      "sub<60": -53.1,
+      "low60-250": -5.5,
+      "mid250-2k": -1.7,
+      "hi2k-6k": -15.0,
+      "air>6k": -25.6
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 130.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 2.08,
+     "silences": [
+      {
+       "window_s": [
+        32.0,
+        33.8
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        69.0,
+        80.2
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        32.0,
+        33.8
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        69.0,
+        80.2
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    }
+   },
+   "mix": {
+    "target_lufs_main": -23.0,
+    "target_lufs_under_dialogue": -26.0,
+    "hall_rt60_s": 3.0
+   }
+  },
+  {
+   "id": "C9",
+   "title": "'Oczakow' - the cannonball story (from The rim, section B)",
+   "scenes": [
+    "21"
+   ],
+   "duration": 35.4,
+   "key": "B minor (sad tune) with a D-major warm middle",
+   "tempo": "free (60 BPM grid)",
+   "hits": [
+    [
+     0.2,
+     "'Oczakow': the story (frame drum, pizz walk, oboe)"
+    ],
+    [
+     18.4,
+     "cymbal swell starts"
+    ],
+    [
+     25.9,
+     "'I changed' - the swell peaks"
+    ],
+    [
+     35.4,
+     "dead stop before 'There. You listened to the end.'"
+    ]
+   ],
+   "motifs": [
+    "SAD TUNE (horn, cello)"
+   ],
+   "silences": [
+    [
+     0,
+     0.19999999999999574
+    ]
+   ],
+   "plan": [
+    "The rim (21) incl. C9 Oczakow as section B",
+    "C8 pad colour in section A"
+   ],
+   "name": "E01-C9-oczakow",
+   "midi": "samples/e01/music/midi/E01-M08-the-rim.mid",
+   "instruments": {
+    "held": "vln_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SOLO-sustain.sfz",
+    "held2": "vln_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SOLO-sustain.sfz",
+    "hn": "hn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/french-horn-SEC-sustain.sfz",
+    "vc_solo": "vc_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SOLO-sustain.sfz",
+    "pad": "vln2 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/2nd-violin-SEC-sustain.sfz",
+    "low": "vc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SEC-sustain.sfz",
+    "harp": "harp - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/harp-sustain.sfz",
+    "pizz": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "ob": "ob - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/oboe-SOLO-sustain.sfz",
+    "drums": "percussion: VPO 3 (bass drum, cymbals, snare, triangle) + GeneralUser GS kit (woodblocks, rim, hats)"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C9-oczakow.wav",
+     "mp3": "samples/e01/music/E01-C9-oczakow.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C9-oczakow-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-C9-oczakow-under-dialogue.mp3"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -23.3,
+     "LRA_LU": 4.6,
+     "true_peak_dBTP": -11.8,
+     "Peak level dB": -11.817442,
+     "RMS level dB": -27.417344,
+     "Flat factor": 0.0,
+     "duration_s": 35.42,
+     "short_term_LUFS_every_4s": [
+      -33.0,
+      -23.2,
+      -24.8,
+      -25.0,
+      -23.3,
+      -23.4,
+      -23.3,
+      -21.2
+     ],
+     "bands_dB": {
+      "sub<60": -35.3,
+      "low60-250": -7.4,
+      "mid250-2k": -1.4,
+      "hi2k-6k": -10.1,
+      "air>6k": -29.5
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 35.4,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.85,
+     "silences": [
+      {
+       "window_s": [
+        0,
+        0.19999999999999574
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        0,
+        0.19999999999999574
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    },
+    "under_dialogue": {
+     "lufs_I": -27.2,
+     "LRA_LU": 6.8,
+     "true_peak_dBTP": -13.9,
+     "Peak level dB": -13.956063,
+     "RMS level dB": -30.629896,
+     "Flat factor": 0.0,
+     "duration_s": 35.42,
+     "short_term_LUFS_every_4s": [
+      -37.2,
+      -28.4,
+      -30.3,
+      -28.8,
+      -28.6,
+      -27.4,
+      -27.4,
+      -24.2
+     ],
+     "bands_dB": {
+      "sub<60": -51.5,
+      "low60-250": -8.3,
+      "mid250-2k": -0.9,
+      "hi2k-6k": -13.9,
+      "air>6k": -27.2
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 35.4,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.57,
+     "silences": [
+      {
+       "window_s": [
+        0,
+        0.19999999999999574
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        0,
+        0.19999999999999574
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    }
+   },
+   "mix": {
+    "target_lufs_main": -23.0,
+    "target_lufs_under_dialogue": -26.0,
+    "hall_rt60_s": 3.0
+   },
+   "excerpt_of": [
+    "M08",
+    33.6,
+    69.0
+   ]
+  },
+  {
+   "id": "M09",
+   "title": "The chase (no exterior sound: the score carries it)",
+   "scenes": [
+    "24"
+   ],
+   "duration": 60.0,
+   "key": "D minor",
+   "tempo": "148 BPM 4/4, 3+3+2 ostinato",
+   "hits": [
+    [
+     11.5,
+     "the card: 'Pull over' (trumpet)"
+    ],
+    [
+     18.2,
+     "'please' (pizz sigh)"
+    ],
+    [
+     21.0,
+     "rover leaves the road: ONE held note A5 begins"
+    ],
+    [
+     31.5,
+     "held note ends (10.5 s): landing in silence"
+    ],
+    [
+     32.0,
+     "score resumes"
+    ],
+    [
+     33.0,
+     "Baron's march fragment (horns) under his speech"
+    ],
+    [
+     56.6,
+     "last button"
+    ]
+   ],
+   "motifs": [
+    "MAIN ostinato",
+    "JAX head (bassoon/clarinet)",
+    "BARON march (horns)"
+   ],
+   "silences": [
+    [
+     56.9,
+     60.0
+    ]
+   ],
+   "held_note": [
+    21.0,
+    31.5,
+    "A5, first violins, single note"
+   ],
+   "name": "E01-M09-chase",
+   "midi": "samples/e01/music/midi/E01-M09-chase.mid",
+   "instruments": {
+    "ost": "vc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SEC-sustain.sfz",
+    "vla": "vla - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/viola-SEC-sustain.sfz",
+    "cb": "cb - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/bass-SEC-sustain.sfz",
+    "held": "vln1 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SEC-sustain.sfz",
+    "hn": "hn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/french-horn-SEC-sustain.sfz",
+    "tpt": "tpt - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/trumpet-SEC-sustain.sfz",
+    "bsn": "bsn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/bassoon-SOLO-sustain.sfz",
+    "cl": "cl - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/clarinet-SOLO-sustain.sfz",
+    "timp": "timp - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Percussion/timpani-hit.sfz",
+    "pizz": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "drums": "percussion: VPO 3 (bass drum, cymbals, snare, triangle) + GeneralUser GS kit (woodblocks, rim, hats)"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M09-chase.wav",
+     "mp3": "samples/e01/music/E01-M09-chase.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M09-chase-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M09-chase-under-dialogue.mp3"
+    },
+    "stems": {
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M09-chase-harmony.wav",
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M09-chase-melody.wav",
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M09-chase-percussion.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -17.2,
+     "LRA_LU": 2.2,
+     "true_peak_dBTP": -4.3,
+     "Peak level dB": -4.271835,
+     "RMS level dB": -20.048765,
+     "Flat factor": 0.0,
+     "duration_s": 60.02,
+     "short_term_LUFS_every_4s": [
+      -17.2,
+      -17.4,
+      -16.9,
+      -17.3,
+      -17.7,
+      -17.8,
+      -16.6,
+      -15.7,
+      -16.7,
+      -16.4,
+      -18.2,
+      -17.2,
+      -18.1,
+      -18.0,
+      -159.3
+     ],
+     "bands_dB": {
+      "sub<60": -20.1,
+      "low60-250": -3.5,
+      "mid250-2k": -3.0,
+      "hi2k-6k": -14.3,
+      "air>6k": -29.3
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 60.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 1.44,
+     "silences": [
+      {
+       "window_s": [
+        56.9,
+        60.0
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        56.9,
+        60.0
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    },
+    "under_dialogue": {
+     "lufs_I": -20.2,
+     "LRA_LU": 2.3,
+     "true_peak_dBTP": -7.8,
+     "Peak level dB": -7.782556,
+     "RMS level dB": -22.899427,
+     "Flat factor": 0.0,
+     "duration_s": 60.02,
+     "short_term_LUFS_every_4s": [
+      -20.1,
+      -20.2,
+      -19.7,
+      -20.3,
+      -20.4,
+      -21.6,
+      -20.7,
+      -19.7,
+      -19.2,
+      -19.3,
+      -20.8,
+      -19.9,
+      -20.8,
+      -20.7,
+      -155.2
+     ],
+     "bands_dB": {
+      "sub<60": -33.9,
+      "low60-250": -4.7,
+      "mid250-2k": -1.9,
+      "hi2k-6k": -19.8,
+      "air>6k": -28.7
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 60.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.96,
+     "silences": [
+      {
+       "window_s": [
+        56.9,
+        60.0
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        56.9,
+        60.0
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    }
+   },
+   "mix": {
+    "target_lufs_main": -17.0,
+    "target_lufs_under_dialogue": -20.0,
+    "hall_rt60_s": 1.0
+   }
+  },
+  {
+   "id": "M10",
+   "title": "The dark floor / the inner wall - Mira's voice brings the map",
+   "scenes": [
+    "27"
+   ],
+   "duration": 84.0,
+   "key": "F (Mira's Sa), Eb colour, ends F major",
+   "tempo": "66 BPM 4/4, easing at the end",
+   "hits": [
+    [
+     1.0,
+     "low pulse on F starts"
+    ],
+    [
+     18.5,
+     "Mira's line enters (flute)"
+    ],
+    [
+     30.0,
+     "the laser map blooms: celesta clockwork"
+    ],
+    [
+     57.0,
+     "Mira again, surer (after Noakes)"
+    ],
+    [
+     71.5,
+     "'...climbs into the Sun': soft brass F major chord"
+    ],
+    [
+     84.0,
+     "hard cut on the cut to scene 28"
+    ]
+   ],
+   "motifs": [
+    "MIRA (flute, celesta clockwork)"
+   ],
+   "silences": [],
+   "plan": [
+    "C5 the inner wall (27)"
+   ],
+   "name": "E01-M10-dark-floor",
+   "midi": "samples/e01/music/midi/E01-M10-dark-floor.mid",
+   "instruments": {
+    "cb": "cb - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/bass-SEC-sustain.sfz",
+    "timp": "timp - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Percussion/timpani-hit.sfz",
+    "fl": "fl - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/flute-SOLO-sustain.sfz",
+    "cel": "celesta - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Keys/celesta.sfz",
+    "pad": "vln2 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/2nd-violin-SEC-sustain.sfz",
+    "harp": "harp - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/harp-sustain.sfz",
+    "vc": "vc_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SOLO-sustain.sfz",
+    "glass": "GM program - GeneralUser GS v2.0.3",
+    "hn": "hn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/french-horn-SEC-sustain.sfz",
+    "tpt": "tpt - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/trumpet-SEC-sustain.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M10-dark-floor.wav",
+     "mp3": "samples/e01/music/E01-M10-dark-floor.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M10-dark-floor-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M10-dark-floor-under-dialogue.mp3"
+    },
+    "stems": {
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M10-dark-floor-percussion.wav",
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M10-dark-floor-melody.wav",
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M10-dark-floor-harmony.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -21.2,
+     "LRA_LU": 10.7,
+     "true_peak_dBTP": -9.2,
+     "Peak level dB": -9.184932,
+     "RMS level dB": -24.424746,
+     "Flat factor": 0.0,
+     "duration_s": 84.02,
+     "short_term_LUFS_every_4s": [
+      -29.6,
+      -30.4,
+      -29.4,
+      -29.5,
+      -27.7,
+      -21.6,
+      -20.7,
+      -20.5,
+      -21.6,
+      -19.6,
+      -24.3,
+      -23.2,
+      -22.8,
+      -22.5,
+      -19.5,
+      -19.1,
+      -18.1,
+      -21.3,
+      -20.1,
+      -19.7,
+      -19.9
+     ],
+     "bands_dB": {
+      "sub<60": -21.8,
+      "low60-250": -6.9,
+      "mid250-2k": -1.3,
+      "hi2k-6k": -13.8,
+      "air>6k": -38.8
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 84.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 2.02,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -24.2,
+     "LRA_LU": 10.8,
+     "true_peak_dBTP": -12.5,
+     "Peak level dB": -12.467131,
+     "RMS level dB": -27.29012,
+     "Flat factor": 0.0,
+     "duration_s": 84.02,
+     "short_term_LUFS_every_4s": [
+      -33.1,
+      -33.6,
+      -33.2,
+      -32.6,
+      -31.0,
+      -25.0,
+      -23.8,
+      -24.2,
+      -24.4,
+      -22.9,
+      -27.1,
+      -25.9,
+      -25.5,
+      -25.2,
+      -22.7,
+      -22.2,
+      -21.6,
+      -23.9,
+      -22.9,
+      -22.7,
+      -22.9
+     ],
+     "bands_dB": {
+      "sub<60": -38.8,
+      "low60-250": -7.7,
+      "mid250-2k": -0.9,
+      "hi2k-6k": -19.4,
+      "air>6k": -38.2
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 84.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 1.34,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -21.0,
+    "target_lufs_under_dialogue": -24.0,
+    "hall_rt60_s": 2.6
+   }
+  },
+  {
+   "id": "M11",
+   "title": "The throw (12 s of silence in the middle)",
+   "scenes": [
+    "29"
+   ],
+   "duration": 30.0,
+   "key": "D minor build -> D major release",
+   "tempo": "132 BPM 4/4",
+   "hits": [
+    [
+     10.0,
+     "dead stop: silence begins (hatchet leaves Jax's hand)"
+    ],
+    [
+     22.0,
+     "release: warm D major"
+    ],
+    [
+     23.2,
+     "the glint over the rim (glock)"
+    ],
+    [
+     29.0,
+     "'Darts.' (pizz button)"
+    ]
+   ],
+   "motifs": [
+    "MAIN ostinato"
+   ],
+   "silences": [
+    [
+     10.0,
+     22.0
+    ]
+   ],
+   "plan": [
+    "hatchet arc (29)"
+   ],
+   "name": "E01-M11-the-throw",
+   "midi": "samples/e01/music/midi/E01-M11-the-throw.mid",
+   "instruments": {
+    "ost": "vc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SEC-sustain.sfz",
+    "cb": "cb - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/bass-SEC-sustain.sfz",
+    "vln": "vln1 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SEC-sustain.sfz",
+    "hn": "hn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/french-horn-SEC-sustain.sfz",
+    "timp": "timp - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Percussion/timpani-hit.sfz",
+    "glock": "glock - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Percussion/glockenspiel.sfz",
+    "pizz": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "pad": "vln2 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/2nd-violin-SEC-sustain.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M11-the-throw.wav",
+     "mp3": "samples/e01/music/E01-M11-the-throw.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M11-the-throw-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M11-the-throw-under-dialogue.mp3"
+    },
+    "stems": {
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M11-the-throw-harmony.wav",
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M11-the-throw-melody.wav",
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M11-the-throw-percussion.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -18.0,
+     "LRA_LU": 7.6,
+     "true_peak_dBTP": -6.7,
+     "Peak level dB": -6.669245,
+     "RMS level dB": -23.43173,
+     "Flat factor": 0.0,
+     "duration_s": 30.02,
+     "short_term_LUFS_every_4s": [
+      -18.3,
+      -16.8,
+      -22.3,
+      -154.4,
+      -154.4,
+      -22.2,
+      -17.8
+     ],
+     "bands_dB": {
+      "sub<60": -20.8,
+      "low60-250": -5.5,
+      "mid250-2k": -2.0,
+      "hi2k-6k": -10.9,
+      "air>6k": -24.1
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 30.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.72,
+     "silences": [
+      {
+       "window_s": [
+        10.0,
+        22.0
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        10.0,
+        22.0
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    },
+    "under_dialogue": {
+     "lufs_I": -21.0,
+     "LRA_LU": 7.1,
+     "true_peak_dBTP": -9.8,
+     "Peak level dB": -9.823274,
+     "RMS level dB": -25.989169,
+     "Flat factor": 0.0,
+     "duration_s": 30.02,
+     "short_term_LUFS_every_4s": [
+      -21.2,
+      -20.2,
+      -25.2,
+      -156.6,
+      -156.6,
+      -24.8,
+      -20.6
+     ],
+     "bands_dB": {
+      "sub<60": -34.9,
+      "low60-250": -6.3,
+      "mid250-2k": -1.3,
+      "hi2k-6k": -17.2,
+      "air>6k": -24.3
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 30.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.48,
+     "silences": [
+      {
+       "window_s": [
+        10.0,
+        22.0
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        10.0,
+        22.0
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    }
+   },
+   "mix": {
+    "target_lufs_main": -18.0,
+    "target_lufs_under_dialogue": -21.0,
+    "hall_rt60_s": 2.0
+   }
+  },
+  {
+   "id": "M12a",
+   "title": "Far side / afterwards (bridge)",
+   "scenes": [
+    "30"
+   ],
+   "duration": 100.0,
+   "key": "D minor -> D major",
+   "tempo": "56 BPM 4/4 (half-time theme), easing at the end",
+   "hits": [
+    [
+     17.5,
+     "main theme, small (clarinet) - nothing under Temi before this"
+    ],
+    [
+     46.5,
+     "Mira's motif fragment"
+    ],
+    [
+     53.0,
+     "coffee light comes on (glock)"
+    ],
+    [
+     54.2,
+     "PIP's march fragment"
+    ],
+    [
+     61.4,
+     "one chord for 'an old man on the Moon'"
+    ],
+    [
+     81.6,
+     "PIP's note on READ"
+    ],
+    [
+     84.0,
+     "Jax V.O.: theme on strings"
+    ]
+   ],
+   "motifs": [
+    "MAIN",
+    "MIRA",
+    "PIP",
+    "JAX",
+    "A4 colour (one chord)"
+   ],
+   "silences": [
+    [
+     0.0,
+     17.0
+    ]
+   ],
+   "plan": [
+    "far side (30)"
+   ],
+   "name": "E01-M12a-far-side-afterwards",
+   "midi": "samples/e01/music/midi/E01-M12a-far-side-afterwards.mid",
+   "instruments": {
+    "cb": "cb - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/bass-SEC-sustain.sfz",
+    "cl": "cl - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/clarinet-SOLO-sustain.sfz",
+    "harp": "harp - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/harp-sustain.sfz",
+    "pad": "vln2 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/2nd-violin-SEC-sustain.sfz",
+    "vc": "vc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SEC-sustain.sfz",
+    "fl": "fl - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/flute-SOLO-sustain.sfz",
+    "picc": "picc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/piccolo-SOLO-sustain.sfz",
+    "glock": "glock - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Percussion/glockenspiel.sfz",
+    "pizz": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "vln": "vln1 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SEC-sustain.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M12a-far-side-afterwards.wav",
+     "mp3": "samples/e01/music/E01-M12a-far-side-afterwards.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M12a-far-side-afterwards-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M12a-far-side-afterwards-under-dialogue.mp3"
+    },
+    "stems": {
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M12a-far-side-afterwards-harmony.wav",
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M12a-far-side-afterwards-melody.wav",
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M12a-far-side-afterwards-percussion.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -21.1,
+     "LRA_LU": 14.3,
+     "true_peak_dBTP": -5.9,
+     "Peak level dB": -6.298042,
+     "RMS level dB": -26.339521,
+     "Flat factor": 0.0,
+     "duration_s": 100.03,
+     "short_term_LUFS_every_4s": [
+      -172.3,
+      -172.3,
+      -172.3,
+      -172.3,
+      -20.0,
+      -19.2,
+      -19.0,
+      -20.8,
+      -20.0,
+      -23.5,
+      -25.2,
+      -28.0,
+      -23.4,
+      -24.4,
+      -28.8,
+      -21.5,
+      -28.7,
+      -25.3,
+      -34.2,
+      -34.8,
+      -32.2,
+      -19.4,
+      -19.7,
+      -18.5,
+      -23.8
+     ],
+     "bands_dB": {
+      "sub<60": -45.8,
+      "low60-250": -11.4,
+      "mid250-2k": -0.8,
+      "hi2k-6k": -10.4,
+      "air>6k": -26.6
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 100.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 2.4,
+     "silences": [
+      {
+       "window_s": [
+        0.0,
+        17.0
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        0.0,
+        17.0
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    },
+    "under_dialogue": {
+     "lufs_I": -24.1,
+     "LRA_LU": 12.8,
+     "true_peak_dBTP": -8.6,
+     "Peak level dB": -8.560316,
+     "RMS level dB": -28.679565,
+     "Flat factor": 0.0,
+     "duration_s": 100.03,
+     "short_term_LUFS_every_4s": [
+      -172.3,
+      -172.3,
+      -172.3,
+      -172.3,
+      -23.1,
+      -21.8,
+      -22.2,
+      -23.4,
+      -22.5,
+      -25.2,
+      -27.6,
+      -30.9,
+      -26.8,
+      -28.6,
+      -31.5,
+      -24.7,
+      -30.5,
+      -27.1,
+      -34.8,
+      -35.5,
+      -34.8,
+      -22.5,
+      -23.0,
+      -21.8,
+      -26.6
+     ],
+     "bands_dB": {
+      "sub<60": -58.2,
+      "low60-250": -11.6,
+      "mid250-2k": -0.4,
+      "hi2k-6k": -16.1,
+      "air>6k": -25.5
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 100.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 1.6,
+     "silences": [
+      {
+       "window_s": [
+        0.0,
+        17.0
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        0.0,
+        17.0
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    }
+   },
+   "mix": {
+    "target_lufs_main": -21.0,
+    "target_lufs_under_dialogue": -24.0,
+    "hall_rt60_s": 2.6
+   }
+  },
+  {
+   "id": "M12b",
+   "title": "Tag - Chichikov, the knocks, nobody",
+   "scenes": [
+    "31"
+   ],
+   "duration": 45.0,
+   "key": "B minor (Chichikov) -> D Dorian (Jax) -> Bbmaj7(#11) unresolved",
+   "tempo": "126 BPM 3/4 then Jax's swing over the same pulse",
+   "hits": [
+    [
+     0.6,
+     "Chichikov's motif (music box)"
+    ],
+    [
+     8.8,
+     "silence: padlock (~9.5) and stove (~11) are SFX"
+    ],
+    [
+     12.5,
+     "three knocks (SFX), still silent"
+    ],
+    [
+     15.2,
+     "parcel bell, two notes (celesta)"
+    ],
+    [
+     17.5,
+     "nothing under the warrant"
+    ],
+    [
+     42.6,
+     "'nobody': unresolved Bbmaj7(#11), E on top"
+    ],
+    [
+     45.0,
+     "hard cut to black"
+    ]
+   ],
+   "motifs": [
+    "CHICHIKOV",
+    "PARCEL BELL",
+    "JAX (last chord)"
+   ],
+   "silences": [
+    [
+     8.8,
+     15.1
+    ],
+    [
+     17.6,
+     42.55
+    ]
+   ],
+   "plan": [
+    "tag (31)"
+   ],
+   "name": "E01-M12b-tag",
+   "midi": "samples/e01/music/midi/E01-M12b-tag.mid",
+   "instruments": {
+    "box": "music box - GeneralUser GS v2.0.3",
+    "mand": "mandolin (GS bank 16) - GeneralUser GS v2.0.3",
+    "pizz": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "chords": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "cl": "cl - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/clarinet-SOLO-sustain.sfz",
+    "cel": "celesta - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Keys/celesta.sfz",
+    "cl2": "cl - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/clarinet-SOLO-sustain.sfz",
+    "gtr": "GM program - FluidR3_GM",
+    "walk": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "pad": "vln2 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/2nd-violin-SEC-sustain.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M12b-tag.wav",
+     "mp3": "samples/e01/music/E01-M12b-tag.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M12b-tag-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M12b-tag-under-dialogue.mp3"
+    },
+    "stems": {
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M12b-tag-melody.wav",
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M12b-tag-harmony.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -20.3,
+     "LRA_LU": 13.5,
+     "true_peak_dBTP": -8.3,
+     "Peak level dB": -8.308084,
+     "RMS level dB": -29.162897,
+     "Flat factor": 0.0,
+     "duration_s": 45.02,
+     "short_term_LUFS_every_4s": [
+      -19.3,
+      -22.7,
+      -156.2,
+      -28.3,
+      -58.6,
+      -157.2,
+      -157.2,
+      -157.2,
+      -157.2,
+      -157.2,
+      -22.4
+     ],
+     "bands_dB": {
+      "sub<60": -29.4,
+      "low60-250": -9.7,
+      "mid250-2k": -0.6,
+      "hi2k-6k": -19.2,
+      "air>6k": -39.1
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 45.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 1.08,
+     "silences": [
+      {
+       "window_s": [
+        8.8,
+        15.1
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        17.6,
+        42.55
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        8.8,
+        15.1
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        17.6,
+        42.55
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    },
+    "under_dialogue": {
+     "lufs_I": -23.3,
+     "LRA_LU": 14.8,
+     "true_peak_dBTP": -11.6,
+     "Peak level dB": -11.617696,
+     "RMS level dB": -31.923807,
+     "Flat factor": 0.0,
+     "duration_s": 45.02,
+     "short_term_LUFS_every_4s": [
+      -22.4,
+      -24.8,
+      null,
+      -33.6,
+      -63.6,
+      null,
+      null,
+      null,
+      null,
+      null,
+      -25.1
+     ],
+     "bands_dB": {
+      "sub<60": -44.9,
+      "low60-250": -10.7,
+      "mid250-2k": -0.4,
+      "hi2k-6k": -25.3,
+      "air>6k": -38.7
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 45.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.72,
+     "silences": [
+      {
+       "window_s": [
+        8.8,
+        15.1
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        17.6,
+        42.55
+       ],
+       "source": "wav",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        8.8,
+        15.1
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      },
+      {
+       "window_s": [
+        17.6,
+        42.55
+       ],
+       "source": "mp3",
+       "peak_dbfs": "-inf (digital zero)"
+      }
+     ]
+    }
+   },
+   "mix": {
+    "target_lufs_main": -20.0,
+    "target_lufs_under_dialogue": -23.0,
+    "hall_rt60_s": 1.8
+   }
+  },
+  {
+   "id": "M13",
+   "title": "'What was real' bed (into the 5-s end sting)",
+   "scenes": [
+    "WWR"
+   ],
+   "duration": 40.0,
+   "key": "E minor / G major, ends on B (dominant) into the E-minor end sting",
+   "tempo": "88 BPM 4/4",
+   "hits": [
+    [
+     10.9,
+     "theme head on flute (soft)"
+    ],
+    [
+     38.2,
+     "dominant link into the end sting"
+    ]
+   ],
+   "motifs": [
+    "MAIN head (in E)"
+   ],
+   "silences": [],
+   "name": "E01-M13-what-was-real-bed",
+   "midi": "samples/e01/music/midi/E01-M13-what-was-real-bed.mid",
+   "instruments": {
+    "harp": "harp - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/harp-sustain.sfz",
+    "cel": "celesta - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Keys/celesta.sfz",
+    "pizz": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "pad": "vln2 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/2nd-violin-SEC-sustain.sfz",
+    "fl": "fl - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/flute-SOLO-sustain.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M13-what-was-real-bed.wav",
+     "mp3": "samples/e01/music/E01-M13-what-was-real-bed.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M13-what-was-real-bed-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M13-what-was-real-bed-under-dialogue.mp3"
+    },
+    "stems": {
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M13-what-was-real-bed-harmony.wav",
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M13-what-was-real-bed-melody.wav",
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M13-what-was-real-bed-percussion.wav"
+    },
+    "with_end_sting": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M13-what-was-real-bed-with-end-sting.wav",
+     "mp3": "samples/e01/music/E01-M13-what-was-real-bed-with-end-sting.mp3",
+     "duration_s": 44.97
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -22.1,
+     "LRA_LU": 2.4,
+     "true_peak_dBTP": -10.3,
+     "Peak level dB": -10.287441,
+     "RMS level dB": -24.795855,
+     "Flat factor": 0.0,
+     "duration_s": 40.03,
+     "short_term_LUFS_every_4s": [
+      -23.0,
+      -21.8,
+      -21.6,
+      -20.4,
+      -22.3,
+      -23.2,
+      -20.9,
+      -22.4,
+      -22.9,
+      -24.0
+     ],
+     "bands_dB": {
+      "sub<60": -34.5,
+      "low60-250": -4.2,
+      "mid250-2k": -2.2,
+      "hi2k-6k": -17.2,
+      "air>6k": -42.4
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 40.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.96,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -25.1,
+     "LRA_LU": 1.7,
+     "true_peak_dBTP": -14.3,
+     "Peak level dB": -14.299815,
+     "RMS level dB": -27.526075,
+     "Flat factor": 0.0,
+     "duration_s": 40.03,
+     "short_term_LUFS_every_4s": [
+      -25.8,
+      -24.6,
+      -24.5,
+      -23.9,
+      -25.1,
+      -25.8,
+      -24.2,
+      -25.4,
+      -25.7,
+      -27.3
+     ],
+     "bands_dB": {
+      "sub<60": -52.0,
+      "low60-250": -4.3,
+      "mid250-2k": -2.1,
+      "hi2k-6k": -24.2,
+      "air>6k": -43.3
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 40.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.64,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -22.0,
+    "target_lufs_under_dialogue": -25.0,
+    "hall_rt60_s": 2.2
+   }
+  },
+  {
+   "id": "M06b",
+   "title": "The frozen post horn (diegetic) - 20 s",
+   "scenes": [
+    "15"
+   ],
+   "duration": 20.0,
+   "key": "Bb (natural notes of a Bb post horn: F4 Bb4 D5 F5 Bb5)",
+   "tempo": "free, then 80 BPM (quarter) in 6/8",
+   "hits": [
+    [
+     0.4,
+     "the crack (in the ice)"
+    ],
+    [
+     1.2,
+     "stuck notes"
+    ],
+    [
+     2.7,
+     "the march begins"
+    ],
+    [
+     20.18,
+     "stumbles to its last note"
+    ]
+   ],
+   "motifs": [
+    "POST HORN march"
+   ],
+   "silences": [],
+   "note": "dry and close: solo horn + side drum, 0.35 s tiny-room tail; low-passed at 700 Hz at the start (still in the ice), opening to full bandwidth as it thaws; pitch wobble about 2 %",
+   "plan": [
+    "C3 frozen post-horn march (15)"
+   ],
+   "name": "E01-M06b-frozen-post-horn-20s",
+   "midi": "samples/e01/music/midi/E01-M06b-frozen-post-horn-20s.mid",
+   "instruments": {
+    "horn": "tpt_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/trumpet-SOLO-sustain.sfz",
+    "drums": "percussion: VPO 3 (bass drum, cymbals, snare, triangle) + GeneralUser GS kit (woodblocks, rim, hats)"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M06b-frozen-post-horn-20s.wav",
+     "mp3": "samples/e01/music/E01-M06b-frozen-post-horn-20s.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-M06b-frozen-post-horn-20s-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-M06b-frozen-post-horn-20s-under-dialogue.mp3"
+    },
+    "stems": {
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M06b-frozen-post-horn-20s-melody.wav",
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-M06b-frozen-post-horn-20s-percussion.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -18.3,
+     "LRA_LU": 11.9,
+     "true_peak_dBTP": -9.1,
+     "Peak level dB": -9.154279,
+     "RMS level dB": -23.289798,
+     "Flat factor": 0.0,
+     "duration_s": 20.04,
+     "short_term_LUFS_every_4s": [
+      -29.3,
+      -19.6,
+      -17.7,
+      -15.8,
+      -21.2
+     ],
+     "bands_dB": {
+      "sub<60": -60.3,
+      "low60-250": -21.6,
+      "mid250-2k": -0.7,
+      "hi2k-6k": -8.5,
+      "air>6k": -31.9
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 20.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.48,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -21.3,
+     "LRA_LU": 11.0,
+     "true_peak_dBTP": -11.4,
+     "Peak level dB": -11.455673,
+     "RMS level dB": -25.689181,
+     "Flat factor": 0.0,
+     "duration_s": 20.04,
+     "short_term_LUFS_every_4s": [
+      -30.7,
+      -23.1,
+      -20.5,
+      -18.7,
+      -24.1
+     ],
+     "bands_dB": {
+      "sub<60": -71.2,
+      "low60-250": -17.4,
+      "mid250-2k": -0.4,
+      "hi2k-6k": -11.6,
+      "air>6k": -29.0
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 20.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.32,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -18.0,
+    "target_lufs_under_dialogue": -21.0,
+    "hall_rt60_s": 0.35
+   }
+  },
+  {
+   "id": "C1",
+   "title": "'Post-chaise' caper",
+   "scenes": [
+    "6",
+    "7",
+    "8",
+    "22 run-out"
+   ],
+   "duration": 75.0,
+   "key": "D Mixolydian (C natural swagger)",
+   "tempo": "128 BPM 4/4",
+   "hits": [
+    [
+     3.75,
+     "cornet hook"
+    ],
+    [
+     18.75,
+     "bassoon joins"
+    ],
+    [
+     33.75,
+     "B section: Jax's head on bassoon, cornet calls"
+    ],
+    [
+     48.75,
+     "hook returns, full"
+    ],
+    [
+     63.75,
+     "build"
+    ],
+    [
+     71.25,
+     "stop-time ending"
+    ],
+    [
+     72.66,
+     "final button"
+    ]
+   ],
+   "motifs": [
+    "POST HORN hint (cornet)",
+    "JAX head (major, bassoon)",
+    "LUCIA colour (rasgueado)"
+   ],
+   "silences": [],
+   "note": "stems are melody / rhythm / bass so it can drop to nothing for vacuum gags",
+   "plan": [
+    "C1 Post-chaise (6, 7, 8, 22)"
+   ],
+   "name": "E01-C1-post-chaise-caper",
+   "midi": "samples/e01/music/midi/E01-C1-post-chaise-caper.mid",
+   "instruments": {
+    "cornet": "tpt_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/trumpet-SOLO-sustain.sfz",
+    "bsn": "bsn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/bassoon-SOLO-sustain.sfz",
+    "glock": "glock - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Percussion/glockenspiel.sfz",
+    "gtr": "GM program - FluidR3_GM",
+    "pizzU": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "drums": "percussion: VPO 3 (bass drum, cymbals, snare, triangle) + GeneralUser GS kit (woodblocks, rim, hats)",
+    "bass": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C1-post-chaise-caper.wav",
+     "mp3": "samples/e01/music/E01-C1-post-chaise-caper.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C1-post-chaise-caper-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-C1-post-chaise-caper-under-dialogue.mp3"
+    },
+    "stems": {
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C1-post-chaise-caper-melody.wav",
+     "rhythm": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C1-post-chaise-caper-rhythm.wav",
+     "bass": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C1-post-chaise-caper-bass.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -17.2,
+     "LRA_LU": 4.9,
+     "true_peak_dBTP": -4.4,
+     "Peak level dB": -4.405963,
+     "RMS level dB": -20.226008,
+     "Flat factor": 0.0,
+     "duration_s": 75.02,
+     "short_term_LUFS_every_4s": [
+      -20.3,
+      -16.8,
+      -17.0,
+      -17.4,
+      -17.8,
+      -18.1,
+      -20.1,
+      -20.5,
+      -18.2,
+      -18.4,
+      -18.2,
+      -18.6,
+      -15.5,
+      -15.5,
+      -15.8,
+      -15.4,
+      -15.8,
+      -15.7
+     ],
+     "bands_dB": {
+      "sub<60": -27.5,
+      "low60-250": -4.3,
+      "mid250-2k": -2.5,
+      "hi2k-6k": -12.4,
+      "air>6k": -30.0
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 75.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 1.8,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -20.2,
+     "LRA_LU": 3.4,
+     "true_peak_dBTP": -6.5,
+     "Peak level dB": -6.525054,
+     "RMS level dB": -23.004196,
+     "Flat factor": 0.0,
+     "duration_s": 75.02,
+     "short_term_LUFS_every_4s": [
+      -22.9,
+      -20.3,
+      -20.5,
+      -20.7,
+      -21.0,
+      -20.5,
+      -22.2,
+      -22.6,
+      -19.5,
+      -19.9,
+      -19.4,
+      -20.0,
+      -19.3,
+      -19.2,
+      -19.4,
+      -19.0,
+      -19.3,
+      -19.5
+     ],
+     "bands_dB": {
+      "sub<60": -39.6,
+      "low60-250": -5.1,
+      "mid250-2k": -1.8,
+      "hi2k-6k": -16.7,
+      "air>6k": -28.2
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 75.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 1.2,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -17.0,
+    "target_lufs_under_dialogue": -20.0,
+    "hall_rt60_s": 1.4
+   }
+  },
+  {
+   "id": "C1ba",
+   "title": "C1 button A (ta-da)",
+   "scenes": [
+    "7 act-one button",
+    "8",
+    "22"
+   ],
+   "duration": 3.0,
+   "key": "D",
+   "tempo": "128 BPM",
+   "hits": [
+    [
+     1.05,
+     "button hit"
+    ]
+   ],
+   "motifs": [
+    "POST HORN hint"
+   ],
+   "silences": [],
+   "plan": [
+    "C1 3-s buttons"
+   ],
+   "name": "E01-C1-button-a",
+   "midi": "samples/e01/music/midi/E01-C1-button-a.mid",
+   "instruments": {
+    "cornet": "tpt_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/trumpet-SOLO-sustain.sfz",
+    "bsn": "bsn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/bassoon-SOLO-sustain.sfz",
+    "gtr": "GM program - FluidR3_GM",
+    "bass": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "drums": "percussion: VPO 3 (bass drum, cymbals, snare, triangle) + GeneralUser GS kit (woodblocks, rim, hats)"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C1-button-a.wav",
+     "mp3": "samples/e01/music/E01-C1-button-a.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C1-button-a-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-C1-button-a-under-dialogue.mp3"
+    },
+    "stems": {
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C1-button-a-melody.wav",
+     "rhythm": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C1-button-a-rhythm.wav",
+     "bass": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C1-button-a-bass.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -17.3,
+     "LRA_LU": 20.0,
+     "true_peak_dBTP": -8.7,
+     "Peak level dB": -8.714096,
+     "RMS level dB": -22.699761,
+     "Flat factor": 0.0,
+     "duration_s": 3.02,
+     "short_term_LUFS_every_4s": [],
+     "bands_dB": {
+      "sub<60": -41.3,
+      "low60-250": -9.9,
+      "mid250-2k": -1.3,
+      "hi2k-6k": -8.2,
+      "air>6k": -28.1
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 3.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.07,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -20.1,
+     "LRA_LU": 20.0,
+     "true_peak_dBTP": -9.4,
+     "Peak level dB": -9.372014,
+     "RMS level dB": -24.833619,
+     "Flat factor": 0.0,
+     "duration_s": 3.02,
+     "short_term_LUFS_every_4s": [],
+     "bands_dB": {
+      "sub<60": -51.8,
+      "low60-250": -8.9,
+      "mid250-2k": -1.0,
+      "hi2k-6k": -11.7,
+      "air>6k": -25.8
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 3.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.05,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -17.0,
+    "target_lufs_under_dialogue": -20.0,
+    "hall_rt60_s": 1.2
+   }
+  },
+  {
+   "id": "C1bb",
+   "title": "C1 button B (deflation)",
+   "scenes": [
+    "7 act-one button",
+    "8",
+    "22"
+   ],
+   "duration": 3.0,
+   "key": "D",
+   "tempo": "128 BPM",
+   "hits": [
+    [
+     1.05,
+     "button hit"
+    ]
+   ],
+   "motifs": [
+    "POST HORN hint"
+   ],
+   "silences": [],
+   "plan": [
+    "C1 3-s buttons"
+   ],
+   "name": "E01-C1-button-b",
+   "midi": "samples/e01/music/midi/E01-C1-button-b.mid",
+   "instruments": {
+    "cornet": "tpt_solo - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/trumpet-SOLO-sustain.sfz",
+    "bsn": "bsn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Woodwinds/bassoon-SOLO-sustain.sfz",
+    "gtr": "GM program - FluidR3_GM",
+    "bass": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz",
+    "drums": "percussion: VPO 3 (bass drum, cymbals, snare, triangle) + GeneralUser GS kit (woodblocks, rim, hats)"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C1-button-b.wav",
+     "mp3": "samples/e01/music/E01-C1-button-b.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C1-button-b-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-C1-button-b-under-dialogue.mp3"
+    },
+    "stems": {
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C1-button-b-melody.wav",
+     "rhythm": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C1-button-b-rhythm.wav",
+     "bass": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C1-button-b-bass.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -17.0,
+     "LRA_LU": 20.0,
+     "true_peak_dBTP": -2.7,
+     "Peak level dB": -2.667415,
+     "RMS level dB": -21.543191,
+     "Flat factor": 0.0,
+     "duration_s": 3.02,
+     "short_term_LUFS_every_4s": [],
+     "bands_dB": {
+      "sub<60": -38.5,
+      "low60-250": -7.4,
+      "mid250-2k": -0.9,
+      "hi2k-6k": -29.3,
+      "air>6k": -44.0
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 3.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.07,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -20.2,
+     "LRA_LU": 20.0,
+     "true_peak_dBTP": -7.7,
+     "Peak level dB": -7.725146,
+     "RMS level dB": -24.873301,
+     "Flat factor": 0.0,
+     "duration_s": 3.02,
+     "short_term_LUFS_every_4s": [],
+     "bands_dB": {
+      "sub<60": -52.6,
+      "low60-250": -10.0,
+      "mid250-2k": -0.5,
+      "hi2k-6k": -36.1,
+      "air>6k": -45.2
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 3.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.05,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -17.0,
+    "target_lufs_under_dialogue": -20.0,
+    "hall_rt60_s": 1.2
+   }
+  },
+  {
+   "id": "C4",
+   "title": "'Clause nine / Seal the port' (tension)",
+   "scenes": [
+    "22",
+    "25",
+    "28 dead stop"
+   ],
+   "duration": 88.0,
+   "key": "B minor / Phrygian (C)",
+   "tempo": "60 BPM 4/4: one beat per hall-clock tick",
+   "hits": [
+    [
+     0.0,
+     "bar line 1: clean cut point"
+    ],
+    [
+     4.0,
+     "bar line 2: clean cut point"
+    ],
+    [
+     8.0,
+     "bar line 3: clean cut point"
+    ],
+    [
+     12.0,
+     "bar line 4: clean cut point"
+    ],
+    [
+     16.0,
+     "bar line 5: clean cut point"
+    ],
+    [
+     20.0,
+     "bar line 6: clean cut point"
+    ],
+    [
+     24.0,
+     "bar line 7: clean cut point"
+    ],
+    [
+     28.0,
+     "bar line 8: clean cut point"
+    ],
+    [
+     32.0,
+     "bar line 9: clean cut point"
+    ],
+    [
+     36.0,
+     "bar line 10: clean cut point"
+    ],
+    [
+     40.0,
+     "bar line 11: clean cut point"
+    ],
+    [
+     44.0,
+     "bar line 12: clean cut point"
+    ],
+    [
+     48.0,
+     "bar line 13: clean cut point"
+    ],
+    [
+     52.0,
+     "bar line 14: clean cut point"
+    ],
+    [
+     56.0,
+     "bar line 15: clean cut point"
+    ],
+    [
+     60.0,
+     "bar line 16: clean cut point"
+    ],
+    [
+     64.0,
+     "bar line 17: clean cut point"
+    ],
+    [
+     68.0,
+     "bar line 18: clean cut point"
+    ],
+    [
+     72.0,
+     "bar line 19: clean cut point"
+    ],
+    [
+     76.0,
+     "bar line 20: clean cut point"
+    ],
+    [
+     80.0,
+     "bar line 21: clean cut point"
+    ],
+    [
+     84.0,
+     "bar line 22: clean cut point"
+    ],
+    [
+     64.0,
+     "'Seal the port': high strings start to rise"
+    ],
+    [
+     88.0,
+     "dead stop (hard end)"
+    ]
+   ],
+   "motifs": [
+    "CHICHIKOV inverted (celesta)",
+    "clock"
+   ],
+   "silences": [],
+   "note": "every bar line (every 4.0 s) is a clean dead-stop point for the 1.3 s silence in 28",
+   "plan": [
+    "C4 Clause nine / Seal the port (22, 25, 28)"
+   ],
+   "name": "E01-C4-clause-nine-seal-the-port",
+   "midi": "samples/e01/music/midi/E01-C4-clause-nine-seal-the-port.mid",
+   "instruments": {
+    "ost": "vc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SEC-sustain.sfz",
+    "cb": "cb - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/bass-SEC-sustain.sfz",
+    "hn": "hn - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Brass/french-horn-SEC-sustain.sfz",
+    "cel": "celesta - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Keys/celesta.sfz",
+    "hi": "vln1 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SEC-sustain.sfz",
+    "drums": "percussion: VPO 3 (bass drum, cymbals, snare, triangle) + GeneralUser GS kit (woodblocks, rim, hats)"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C4-clause-nine-seal-the-port.wav",
+     "mp3": "samples/e01/music/E01-C4-clause-nine-seal-the-port.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C4-clause-nine-seal-the-port-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-C4-clause-nine-seal-the-port-under-dialogue.mp3"
+    },
+    "stems": {
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C4-clause-nine-seal-the-port-harmony.wav",
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C4-clause-nine-seal-the-port-melody.wav",
+     "percussion": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C4-clause-nine-seal-the-port-percussion.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -20.3,
+     "LRA_LU": 5.2,
+     "true_peak_dBTP": -4.2,
+     "Peak level dB": -4.189866,
+     "RMS level dB": -22.776911,
+     "Flat factor": 0.0,
+     "duration_s": 88.03,
+     "short_term_LUFS_every_4s": [
+      -21.9,
+      -22.5,
+      -19.9,
+      -21.5,
+      -23.8,
+      -22.7,
+      -20.5,
+      -21.9,
+      -21.5,
+      -22.7,
+      -19.4,
+      -20.7,
+      -22.1,
+      -21.9,
+      -21.4,
+      -22.6,
+      -22.7,
+      -22.6,
+      -18.4,
+      -17.9,
+      -17.8,
+      -16.5
+     ],
+     "bands_dB": {
+      "sub<60": -29.8,
+      "low60-250": -5.1,
+      "mid250-2k": -1.8,
+      "hi2k-6k": -15.8,
+      "air>6k": -36.8
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 88.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 2.11,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -23.3,
+     "LRA_LU": 4.7,
+     "true_peak_dBTP": -7.5,
+     "Peak level dB": -7.532515,
+     "RMS level dB": -25.62526,
+     "Flat factor": 0.0,
+     "duration_s": 88.03,
+     "short_term_LUFS_every_4s": [
+      -25.0,
+      -25.7,
+      -23.1,
+      -24.7,
+      -26.0,
+      -25.3,
+      -23.4,
+      -24.7,
+      -24.1,
+      -25.1,
+      -22.4,
+      -23.7,
+      -24.8,
+      -24.6,
+      -24.3,
+      -25.9,
+      -25.5,
+      -25.5,
+      -21.3,
+      -21.0,
+      -21.0,
+      -20.0
+     ],
+     "bands_dB": {
+      "sub<60": -46.3,
+      "low60-250": -6.2,
+      "mid250-2k": -1.2,
+      "hi2k-6k": -22.6,
+      "air>6k": -37.4
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 88.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 1.41,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -20.0,
+    "target_lufs_under_dialogue": -23.0,
+    "hall_rt60_s": 2.0
+   }
+  },
+  {
+   "id": "C7",
+   "title": "Lucia's motif",
+   "scenes": [
+    "1",
+    "16",
+    "22",
+    "29"
+   ],
+   "duration": 15.0,
+   "key": "D major (I-IV-V)",
+   "tempo": "6/8 <-> 3/4 sesquialtera, eighth = 240 (1.5 s per bar)",
+   "hits": [
+    [
+     3.0,
+     "marimba answer"
+    ],
+    [
+     7.5,
+     "second answer"
+    ],
+    [
+     13.5,
+     "last chord"
+    ]
+   ],
+   "motifs": [
+    "LUCIA (new)"
+   ],
+   "silences": [],
+   "note": "son-jarocho-LIKE rhythm only (an inspiration, not a son); marimba = GeneralUser GS",
+   "plan": [
+    "C7 Lucia (M6)"
+   ],
+   "name": "E01-C7-lucia-motif",
+   "midi": "samples/e01/music/midi/E01-C7-lucia-motif.mid",
+   "instruments": {
+    "gtr": "GM program - FluidR3_GM",
+    "mar": "GM program - GeneralUser GS v2.0.3",
+    "bass": "pizz - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/all-strings-SEC-pizzicato.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C7-lucia-motif.wav",
+     "mp3": "samples/e01/music/E01-C7-lucia-motif.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C7-lucia-motif-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-C7-lucia-motif-under-dialogue.mp3"
+    },
+    "stems": {
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C7-lucia-motif-harmony.wav",
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C7-lucia-motif-melody.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -18.9,
+     "LRA_LU": 2.5,
+     "true_peak_dBTP": -6.1,
+     "Peak level dB": -6.128614,
+     "RMS level dB": -21.453846,
+     "Flat factor": 0.0,
+     "duration_s": 15.02,
+     "short_term_LUFS_every_4s": [
+      -18.4,
+      -18.7,
+      -18.6
+     ],
+     "bands_dB": {
+      "sub<60": -42.2,
+      "low60-250": -3.5,
+      "mid250-2k": -2.6,
+      "hi2k-6k": -22.0,
+      "air>6k": -34.9
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 15.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.36,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -21.9,
+     "LRA_LU": 2.2,
+     "true_peak_dBTP": -9.3,
+     "Peak level dB": -9.321528,
+     "RMS level dB": -24.38267,
+     "Flat factor": 0.0,
+     "duration_s": 15.02,
+     "short_term_LUFS_every_4s": [
+      -21.5,
+      -21.8,
+      -21.5
+     ],
+     "bands_dB": {
+      "sub<60": -58.0,
+      "low60-250": -3.6,
+      "mid250-2k": -2.5,
+      "hi2k-6k": -28.1,
+      "air>6k": -35.5
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 15.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.24,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -19.0,
+    "target_lufs_under_dialogue": -22.0,
+    "hall_rt60_s": 1.8
+   }
+  },
+  {
+   "id": "C10",
+   "title": "Parcel bell - two notes on celesta",
+   "scenes": [
+    "1",
+    "20",
+    "31"
+   ],
+   "duration": 2.5,
+   "key": "E -> C# (a falling minor third, the shop-door bell)",
+   "tempo": "free",
+   "hits": [
+    [
+     0.05,
+     "first note"
+    ],
+    [
+     1.05,
+     "second note"
+    ]
+   ],
+   "motifs": [
+    "PARCEL BELL (new)"
+   ],
+   "silences": [],
+   "plan": [
+    "C10 parcel bell"
+   ],
+   "name": "E01-C10-parcel-bell-celesta",
+   "midi": "samples/e01/music/midi/E01-C10-parcel-bell-celesta.mid",
+   "instruments": {
+    "cel": "celesta - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Keys/celesta.sfz"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C10-parcel-bell-celesta.wav",
+     "mp3": "samples/e01/music/E01-C10-parcel-bell-celesta.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C10-parcel-bell-celesta-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-C10-parcel-bell-celesta-under-dialogue.mp3"
+    },
+    "stems": {
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C10-parcel-bell-celesta-melody.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -20.6,
+     "LRA_LU": 0.0,
+     "true_peak_dBTP": -12.1,
+     "Peak level dB": -12.06386,
+     "RMS level dB": -25.015851,
+     "Flat factor": 0.0,
+     "duration_s": 2.54,
+     "short_term_LUFS_every_4s": [],
+     "bands_dB": {
+      "sub<60": -16.2,
+      "low60-250": -18.4,
+      "mid250-2k": -0.2,
+      "hi2k-6k": -42.1,
+      "air>6k": -52.2
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 2.5,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.06,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -23.7,
+     "LRA_LU": 0.0,
+     "true_peak_dBTP": -13.8,
+     "Peak level dB": -13.831979,
+     "RMS level dB": -28.162858,
+     "Flat factor": 0.0,
+     "duration_s": 2.54,
+     "short_term_LUFS_every_4s": [],
+     "bands_dB": {
+      "sub<60": -29.0,
+      "low60-250": -16.3,
+      "mid250-2k": -0.1,
+      "hi2k-6k": -43.1,
+      "air>6k": -48.1
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 2.5,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.04,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -22.0,
+    "target_lufs_under_dialogue": -25.0,
+    "hall_rt60_s": 1.8
+   }
+  },
+  {
+   "id": "C8",
+   "title": "'Between the light and the dark' - exterior pad",
+   "scenes": [
+    "9",
+    "21",
+    "29"
+   ],
+   "duration": 120.0,
+   "key": "D (modal: D add9, Bbmaj7, Gm9, Asus, Dm, C, Bb, A, D)",
+   "tempo": "no pulse; a chord every 13.3 s",
+   "hits": [
+    [
+     0.0,
+     "chord change"
+    ],
+    [
+     13.3,
+     "chord change"
+    ],
+    [
+     26.7,
+     "chord change"
+    ],
+    [
+     40.0,
+     "chord change"
+    ],
+    [
+     53.3,
+     "chord change"
+    ],
+    [
+     66.7,
+     "chord change"
+    ],
+    [
+     80.0,
+     "chord change"
+    ],
+    [
+     93.3,
+     "chord change"
+    ],
+    [
+     106.7,
+     "chord change"
+    ]
+   ],
+   "motifs": [
+    "none (colour)"
+   ],
+   "silences": [],
+   "loops": [
+    [
+     13.3,
+     106.7,
+     "any chord boundary is a loop/cut point"
+    ]
+   ],
+   "plan": [
+    "C8 exterior pad 120 s (+30 s variant)"
+   ],
+   "name": "E01-C8-between-light-and-dark-pad",
+   "midi": "samples/e01/music/midi/E01-C8-between-light-and-dark-pad.mid",
+   "instruments": {
+    "cb": "cb - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/bass-SEC-sustain.sfz",
+    "low": "vc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SEC-sustain.sfz",
+    "vla": "vla - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/viola-SEC-sustain.sfz",
+    "hi": "vln1 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SEC-sustain.sfz",
+    "choir": "GM program - GeneralUser GS v2.0.3"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C8-between-light-and-dark-pad.wav",
+     "mp3": "samples/e01/music/E01-C8-between-light-and-dark-pad.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C8-between-light-and-dark-pad-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-C8-between-light-and-dark-pad-under-dialogue.mp3"
+    },
+    "stems": {
+     "harmony": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C8-between-light-and-dark-pad-harmony.wav",
+     "melody": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/stems/E01-C8-between-light-and-dark-pad-melody.wav"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -22.2,
+     "LRA_LU": 2.4,
+     "true_peak_dBTP": -7.5,
+     "Peak level dB": -7.522315,
+     "RMS level dB": -25.030794,
+     "Flat factor": 0.0,
+     "duration_s": 120.02,
+     "short_term_LUFS_every_4s": [
+      -36.7,
+      -24.8,
+      -22.2,
+      -22.6,
+      -22.7,
+      -23.0,
+      -23.0,
+      -22.0,
+      -22.2,
+      -22.3,
+      -21.4,
+      -22.4,
+      -22.1,
+      -22.1,
+      -23.2,
+      -23.2,
+      -22.7,
+      -22.1,
+      -22.5,
+      -22.6,
+      -21.3,
+      -21.8,
+      -21.7,
+      -20.7,
+      -21.1,
+      -21.1,
+      -20.7,
+      -22.0,
+      -26.2,
+      -48.0
+     ],
+     "bands_dB": {
+      "sub<60": -33.6,
+      "low60-250": -5.5,
+      "mid250-2k": -1.6,
+      "hi2k-6k": -15.3,
+      "air>6k": -39.2
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 120.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 2.88,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -25.2,
+     "LRA_LU": 2.5,
+     "true_peak_dBTP": -12.0,
+     "Peak level dB": -11.964609,
+     "RMS level dB": -27.851226,
+     "Flat factor": 0.0,
+     "duration_s": 120.02,
+     "short_term_LUFS_every_4s": [
+      -39.6,
+      -27.8,
+      -25.3,
+      -25.7,
+      -25.6,
+      -25.9,
+      -25.9,
+      -25.2,
+      -25.4,
+      -25.4,
+      -24.4,
+      -25.3,
+      -25.0,
+      -25.2,
+      -26.2,
+      -26.2,
+      -25.8,
+      -25.0,
+      -25.3,
+      -25.4,
+      -24.3,
+      -24.8,
+      -24.7,
+      -23.7,
+      -23.9,
+      -24.0,
+      -23.6,
+      -25.2,
+      -29.1,
+      -50.7
+     ],
+     "bands_dB": {
+      "sub<60": -48.3,
+      "low60-250": -6.2,
+      "mid250-2k": -1.2,
+      "hi2k-6k": -22.3,
+      "air>6k": -40.0
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 120.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 1.92,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -22.0,
+    "target_lufs_under_dialogue": -25.0,
+    "hall_rt60_s": 3.2
+   }
+  },
+  {
+   "id": "C8s",
+   "title": "'Between the light and the dark' - 30 s variant",
+   "scenes": [
+    "9",
+    "21",
+    "29"
+   ],
+   "duration": 30.0,
+   "key": "D (modal: D add9, Bbmaj7, Gm9, Asus, Dm, C, Bb, A, D)",
+   "tempo": "no pulse; a chord every 13.3 s",
+   "hits": [
+    [
+     0.0,
+     "chord change"
+    ],
+    [
+     13.3,
+     "chord change"
+    ],
+    [
+     26.7,
+     "chord change"
+    ]
+   ],
+   "motifs": [
+    "none (colour)"
+   ],
+   "silences": [],
+   "plan": [
+    "C8 exterior pad 120 s (+30 s variant)"
+   ],
+   "name": "E01-C8s-between-light-and-dark-30s",
+   "midi": "samples/e01/music/midi/E01-C8-between-light-and-dark-pad.mid",
+   "instruments": {
+    "cb": "cb - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/bass-SEC-sustain.sfz",
+    "low": "vc - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/cello-SEC-sustain.sfz",
+    "vla": "vla - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/viola-SEC-sustain.sfz",
+    "hi": "vln1 - Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples): Strings/1st-violin-SEC-sustain.sfz",
+    "choir": "GM program - GeneralUser GS v2.0.3"
+   },
+   "files": {
+    "main": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C8s-between-light-and-dark-30s.wav",
+     "mp3": "samples/e01/music/E01-C8s-between-light-and-dark-30s.mp3"
+    },
+    "under_dialogue": {
+     "wav_master": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/music/E01-C8s-between-light-and-dark-30s-under-dialogue.wav",
+     "mp3": "samples/e01/music/E01-C8s-between-light-and-dark-30s-under-dialogue.mp3"
+    }
+   },
+   "measurements": {
+    "main": {
+     "lufs_I": -23.4,
+     "LRA_LU": 9.9,
+     "true_peak_dBTP": -11.2,
+     "Peak level dB": -11.206502,
+     "RMS level dB": -26.771879,
+     "Flat factor": 0.0,
+     "duration_s": 30.02,
+     "short_term_LUFS_every_4s": [
+      -36.7,
+      -24.8,
+      -22.2,
+      -22.6,
+      -22.7,
+      -23.0,
+      -25.3
+     ],
+     "bands_dB": {
+      "sub<60": -35.4,
+      "low60-250": -5.0,
+      "mid250-2k": -1.8,
+      "hi2k-6k": -15.3,
+      "air>6k": -39.6
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 30.0,
+     "mp3_kbps": 192,
+     "mp3_mb": 0.72,
+     "silences": []
+    },
+    "under_dialogue": {
+     "lufs_I": -26.4,
+     "LRA_LU": 9.9,
+     "true_peak_dBTP": -13.3,
+     "Peak level dB": -13.32914,
+     "RMS level dB": -29.605059,
+     "Flat factor": 0.0,
+     "duration_s": 30.02,
+     "short_term_LUFS_every_4s": [
+      -39.6,
+      -27.8,
+      -25.3,
+      -25.7,
+      -25.6,
+      -25.9,
+      -28.2
+     ],
+     "bands_dB": {
+      "sub<60": -49.2,
+      "low60-250": -5.9,
+      "mid250-2k": -1.3,
+      "hi2k-6k": -22.2,
+      "air>6k": -40.2
+     },
+     "samples_at_full_scale": 0,
+     "wav_duration_s": 30.0,
+     "mp3_kbps": 128,
+     "mp3_mb": 0.48,
+     "silences": []
+    }
+   },
+   "mix": {
+    "target_lufs_main": -22.0,
+    "target_lufs_under_dialogue": -25.0,
+    "hall_rt60_s": 3.2
+   },
+   "excerpt_of": [
+    "C8",
+    0.0,
+    30.0
+   ]
+  }
+ ],
+ "plan": "episodes/E01/music-and-sound-plan.txt (spotting guide); 'plan' on each cue names the slot it fills",
+ "libraries": {
+  "Virtual Playing Orchestra 3 (SSO / VSCO-2 CE / No Budget Orchestra / Iowa samples)": "http://virtualplaying.com/virtual-playing-orchestra/ - 'I enforce no restrictions on using this library to make music, even for commercial purposes'",
+  "GeneralUser GS v2.0.3": "https://github.com/mrbumpy409/GeneralUser-GS - 'You may use GeneralUser GS without restriction for your own music creation, private or commercial.'",
+  "FluidR3_GM": "MIT licence (Frank Wen), Debian package fluid-soundfont-gm"
+ },
+ "notes": "Hit points are in seconds from the cue start and were placed against the table-read timings (samples/tableread/E01/timings.json, lines.csv). Nobody has listened to these files."
+}
