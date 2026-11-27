@@ -588,5 +588,230 @@
     "resets_at": "2026-12-02 17:30 UTC"
    }
   }
+ },
+ {
+  "time": "2026-11-27T15:59:25",
+  "type": "run",
+  "purpose": "step3 Lucia ref welding visor",
+  "job": "lucia-visor",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/lucia-visor/lucia-visor.png",
+  "file": "assets/characters/lucia/ref-welding-visor.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 123.0,
+  "tokens": 12342,
+  "status": "accepted",
+  "note": "visor down, ribbon visible",
+  "jpg_bytes": 374267,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 53.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 92.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:58:00",
+  "type": "run",
+  "purpose": "step3 Lucia ref from behind driving rover",
+  "job": "lucia-drive",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/lucia-drive/lucia-drive.png",
+  "file": "assets/characters/lucia/ref-driving-from-behind.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 38.0,
+  "tokens": 8056,
+  "status": "accepted",
+  "note": "hair and ribbon match; windscreen pure black",
+  "jpg_bytes": 202313,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 53.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 92.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:57:57",
+  "type": "run",
+  "purpose": "step3 Lucia ref hand and wrist with red ribbon",
+  "job": "lucia-ribbon",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/lucia-ribbon/lucia-ribbon.png",
+  "file": "assets/characters/lucia/ref-wrist-ribbon.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 34.9,
+  "tokens": 21279,
+  "status": "accepted",
+  "note": "signature insert",
+  "jpg_bytes": 299826,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 53.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 92.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:58:16",
+  "type": "run",
+  "purpose": "step3 Lucia ref full body mid-stride",
+  "job": "lucia-stride",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/lucia-stride/lucia-stride.png",
+  "file": "assets/characters/lucia/ref-fullbody-stride.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 54.3,
+  "tokens": 14189,
+  "status": "accepted",
+  "note": "same face, small",
+  "jpg_bytes": 328353,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 53.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 92.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:00:41",
+  "type": "run",
+  "purpose": "step3 Baron ref front neutral",
+  "job": "baron-front",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/baron-front/baron-front.png",
+  "file": "assets/characters/baron/ref-front.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 52.0,
+  "tokens": 21010,
+  "status": "accepted",
+  "note": "same face",
+  "jpg_bytes": 321910,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 55.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 92.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:00:25",
+  "type": "run",
+  "purpose": "step3 Baron ref profile",
+  "job": "baron-profile",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/baron-profile/baron-profile.png",
+  "file": "assets/characters/baron/ref-profile.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 35.4,
+  "tokens": 9250,
+  "status": "accepted",
+  "note": "same face, pigtail visible",
+  "jpg_bytes": 250633,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 55.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 92.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:00:27",
+  "type": "run",
+  "purpose": "step3 Baron ref eyes and eyebrows close-up",
+  "job": "baron-eyes",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/baron-eyes/baron-eyes.png",
+  "file": "assets/characters/baron/ref-eyes-closeup.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 38.1,
+  "tokens": 7735,
+  "status": "accepted",
+  "note": "eyes/brows, mouth hidden",
+  "jpg_bytes": 428343,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 55.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 92.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:00:45",
+  "type": "run",
+  "purpose": "step3 Baron ref patched pressure suit, tricorn strapped on helmet",
+  "job": "baron-suit",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/baron-suit/baron-suit.png",
+  "file": "assets/characters/baron/ref-suit-tricorn-helmet.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-fullbody-suit.jpg"
+  ],
+  "seconds": 55.3,
+  "tokens": 14363,
+  "status": "accepted",
+  "note": "tricorn strapped on helmet; black sky",
+  "jpg_bytes": 357519,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 55.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 93.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "read_at": "2026-11-27T16:01:03Z",
+  "source": "rollout-2026-11-27T15-59-49-01a21dbc-00bd-7302-afc4-8cd9899088ca.jsonl",
+  "five_hour": {
+   "used_percent": 55.0,
+   "window_minutes": 300,
+   "resets_at": "2026-11-27 19:25 UTC"
+  },
+  "weekly": {
+   "used_percent": 93.0,
+   "window_minutes": 10080,
+   "resets_at": "2026-12-02 17:30 UTC"
+  },
+  "type": "allowance_check",
+  "label": "after 30 images"
  }
 ]

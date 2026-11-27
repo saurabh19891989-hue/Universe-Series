@@ -36,7 +36,7 @@ def lufs(path):
     return v if v > -69.9 else None
 
 
-def analyse(x, loop, conducted):
+def analyse(x, loop, conducted, pulsed=False):
     mono = x.mean(axis=1)
     pk = np.abs(x).max()
     rms = np.sqrt((x ** 2).mean())
@@ -69,7 +69,7 @@ def analyse(x, loop, conducted):
         lvl = abs(20 * np.log10(a / b))
         r["loop_join_step_ratio"] = round(ratio, 3)
         r["loop_join_level_diff_db"] = round(float(lvl), 2)
-        if ratio > 1.0 or lvl > 3.0:
+        if ratio > 1.0 or (lvl > 3.0 and not pulsed):
             ok = False
             notes.append("loop join not clean")
     r["pass"] = bool(ok)
@@ -79,14 +79,17 @@ def analyse(x, loop, conducted):
 
 def one(e, out_dir):
     R = S.rng_for(e["name"])
-    x = e["fn"](R)
+    try:
+        x = e["fn"](R)
+    except Exception as ex_:
+        raise RuntimeError("effect %s failed: %r" % (e["name"], ex_)) from ex_
     x = S.finish(x, e["loop"], e["fade_in"], e["fade_out"], -6.0)
     if x.ndim == 1:
         x = x[:, None]
     path = os.path.join(out_dir, e["name"] + ".wav")
     S.write_wav24(path, x)
     y = S.read_wav24(path)                        # analyse what was actually written
-    a = analyse(y, e["loop"], e["conducted"])
+    a = analyse(y, e["loop"], e["conducted"], e["pulsed"])
     a["lufs_integrated"] = lufs(path)
     return e, y, path, a
 

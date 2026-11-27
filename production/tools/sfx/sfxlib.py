@@ -13,7 +13,7 @@ REG = []          # registry of effects, filled by the @sfx decorator
 
 
 def sfx(name, desc, scenes, loop=False, review=False, conducted=False, bed=None,
-        peak=None, fade_in=0.003, fade_out=0.03, group="", note=""):
+        peak=None, fade_in=0.003, fade_out=0.03, group="", note="", pulsed=False):
     """Register an effect.  The function receives (R) a seeded numpy Generator and
     returns a mono (n,) or stereo (n,2) float array.
 
@@ -25,7 +25,7 @@ def sfx(name, desc, scenes, loop=False, review=False, conducted=False, bed=None,
     def deco(fn):
         REG.append(dict(name=name, fn=fn, desc=desc, scenes=scenes, loop=loop, review=review,
                         conducted=conducted, bed=bed, peak=peak, fade_in=fade_in,
-                        fade_out=fade_out, group=group, note=note))
+                        fade_out=fade_out, group=group, note=note, pulsed=pulsed))
         return fn
     return deco
 
@@ -301,7 +301,7 @@ def write_wav24(path, x):
     x = np.asarray(x)
     if x.ndim == 1:
         x = x[:, None]
-    q = np.round(np.clip(x, -1, 1) * 8388607).astype("<i4")
+    q = np.ascontiguousarray(np.round(np.clip(x, -1, 1) * 8388607).astype("<i4"))
     raw = q.astype("<i4").view(np.uint8).reshape(-1, 4)[:, :3].tobytes()
     with wave.open(path, "wb") as w:
         w.setnchannels(x.shape[1])

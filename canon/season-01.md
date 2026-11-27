@@ -200,3 +200,8 @@ All Season 1 guests are public domain in the US, EU/UK and India per `research/c
 - Sun Wukong: a hero; avoid every screen and game design.
 - Kakudmi and Revati (Season 4 idea): owner decision before use; an original analogue may be safer.
 - An Odyssey feature film was released in 2026: our Jax must not resemble it in any way.
+
+**Showrunner ruling, 27 Nov — Sun Wukong (ep 8).** He is honoured in some temples, so he is
+written as the hero of the episode: formidable, proud, funny on his own terms the way the
+novel makes him, never the butt of the joke. The comedy is aimed at the contract and the
+officials who tried to cage him with a title. The owner has the final say before the script.

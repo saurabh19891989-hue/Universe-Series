@@ -1,0 +1,224 @@
+# E01 shot list — summary
+
+Planned against `script-v3.md` and the table-read timings (`samples/tableread/E01/lines.csv`, `timings.json`). Data: `shotlist.json` (one object per shot). Built by `build_shotlist.py` (in the builder session scratchpad, not in the repo). Nothing here has been generated, downloaded or listened to. Status: **for the showrunner's ruling.**
+
+**How durations were planned.** Each shot = the table-read length of the lines it carries + 0.5 s between lines + 0.6 s breath per dialogue shot + the scene's stated silences, holds and insert beats. The table read's narration and slates are dropped (picture carries them). Line ids are `E01-L###` = the 1-based data row in `lines.csv`; a shot that carries part of a long line says which seconds.
+
+## 1. Totals
+
+- **Shots:** 484
+- **Planned running time:** 35:13 (2113 s), inside the 33–37 min target. Table read with narration: 31:36; without narration and stings: about 27:03.
+- **Average shot length:** 4.4 s overall.
+
+| Act | Shots | Minutes | Average shot length |
+|---|---|---|---|
+| Cold open | 24 | 1:40 | 4.2 s |
+| Act 1 | 109 | 8:07 | 4.5 s |
+| Act 2 | 104 | 8:21 | 4.8 s |
+| Act 3 | 103 | 7:23 | 4.3 s |
+| Act 4 | 123 | 8:05 | 3.9 s |
+| Tag | 17 | 0:55 | 3.2 s |
+| What was real | 4 | 0:43 | 10.8 s |
+
+| Type | Shots | Screen time |
+|---|---|---|
+| INSERT | 143 | 8:42 |
+| CHARACTER_STILL | 140 | 9:54 |
+| SET_STILL | 121 | 10:12 |
+| DATA_VISUAL | 31 | 1:56 |
+| TWO_SHOT | 24 | 2:06 |
+| REAL_FOOTAGE | 20 | 2:01 |
+| BLACK | 3 | 0:07 |
+| TITLE | 2 | 0:15 |
+
+Dialogue-carrying shots: 372, average 5.0 s. Scenes built mainly from inserts (4, 13, 25, 28, the tag) cut faster on purpose, as their staging notes ask; dialogue scenes average 3.8–5.9 s (section 5); five sit just under 4 s (0, 2, 4, 22, 29) because their staging asks for runs of inserts, while their dialogue shots themselves average over 4.5 s. Longest stills are the deliberate holds: the hang-time jump (8 s), the old man holding his hair (9 s), the hatchet arc (9 s), the march (7 s), and the 3.6 s silence after "You are the audience".
+
+## 2. The generation bill (distinct new images)
+
+**177 new episode stills**, plus **6 library-gap references** that the library must hold before the stills that need them (below). Every job names its reference images; no face is generated from text alone. Episode stills are re-used across 484 shots by crop, move, relight and grade (on average each new image appears in 2.4 shots).
+
+| Group | New images |
+|---|---|
+| Baron | 23 |
+| Jax | 23 |
+| Mira | 21 |
+| Lucía | 18 |
+| Props | 16 |
+| SET customs | 15 |
+| Chichikov | 11 |
+| EXT plates | 9 |
+| PIP | 8 |
+| Noakes | 7 |
+| SET hatchet | 5 |
+| Group | 4 |
+| SET post-chaise | 4 |
+| Vehicles | 4 |
+| SET bridge | 3 |
+| SET hold | 2 |
+| Baron+Lucía | 1 |
+| Jax+Mira | 1 |
+| Noakes+Chichikov | 1 |
+| Noakes+Mira | 1 |
+
+By number of character references per job: 0 refs: 32, 1 refs: 105, 2 refs: 31, 3 refs: 6, 4 refs: 3.
+Cost at the measured rate (about 55 s per single-reference image, about 130 s for two or more references; about 0.43 points of the 5-hour window each): roughly 183 images ≈ 79 points of a 5-hour window, i.e. one window if nothing is rejected; budget for 30–40% rejects, so plan two windows and two or three days at 2 jobs in parallel.
+
+**Library gaps** (not on the library agent's list; needed before the shots that use them):
+
+- `assets/props/pip/ref-wrist.jpg` — PIP's wrist unit: the same brass-and-cream lens housing and amber lens as PIP, miniaturised onto a worn leather wrist strap on a man's forearm in a burnt-orange sleeve, macro product shot, dark background. References: assets/props/pip/master.jpg, assets/characters/jax/master.jpg.
+- `assets/vehicles/crawler/master.jpg` — A customs crawler: a squat six-wheeled pressurised lunar patrol rover of original design, white and dull yellow, one round cab window, a grapple launcher on the roof, scuffed by regolith dust, side view, on grey lunar ground under a low hard sun, black sky. References: none.
+- `assets/props/notebook/master.jpg` — A battered pocket notebook with a cracked brown cover and swollen ink-stained pages, on a steel desk, macro. References: none.
+- `assets/characters/mira/ref-suit-helmet.jpg` — Full body, Dr Mira Sen in a slim indigo customs pressure suit with a clear-visor helmet, loupe on a chain clipped outside the suit, standing on grey lunar regolith under a low hard sun, black sky. References: assets/characters/mira/master.jpg, assets/characters/jax/ref-helmet.jpg.
+- `assets/characters/lucia/ref-suit-helmet.jpg` — Full body, Lucía Ortega in a heavy scuffed engineer's pressure suit, helmet with clear visor, red ribbon tied round the outside of her glove cuff, on grey lunar regolith under a low hard sun, black sky. References: assets/characters/lucia/master.jpg, assets/characters/jax/ref-helmet.jpg.
+- `assets/characters/baron/ref-helmet-tricorn.jpg` — Head and shoulders, the Baron in a patched pressure-suit helmet with a clear visor; his black tricorn hat is strapped absurdly on top of the helmet with a leather belt; the white moustache fills the lower visor; low hard sun, black sky. References: assets/characters/baron/master.jpg, assets/characters/baron/ref-fullbody-suit.jpg.
+
+**Library items assumed (being built now)**; if any is missing, the jobs that cite it wait:
+
+`assets/characters/mira/master.jpg`, `assets/characters/lucia/master.jpg`, `assets/characters/noakes/master.jpg`, `assets/characters/temi/master.jpg`, `assets/characters/mamani/master.jpg`, `assets/sets/hold/master.jpg`, `assets/sets/customs/desk.jpg`, `assets/sets/customs/holding-cage.jpg`, `assets/sets/customs/noakes-office.jpg`, `assets/sets/customs/corridor.jpg`, `assets/sets/customs/clamp-console.jpg`, `assets/sets/customs/board.jpg`, `assets/sets/postchaise/master.jpg`, `assets/sets/postchaise/cab.jpg`, `assets/sets/hatchet/exterior.jpg`, `assets/sets/hatchet/parlour.jpg`, `assets/sets/hatchet/coldstore.jpg`, `assets/sets/apron/master.jpg`, `assets/props/parcel/master.jpg`, `assets/props/hatchet/master.jpg`, `assets/props/posthorn/master.jpg`, `assets/props/trunk/master.jpg`, `assets/props/inlaid-box/master.jpg`, `assets/props/stamp/master.jpg`, `assets/props/padlock/master.jpg`.
+
+Note: the existing customs-hall master (`assets/sets/customs/master.jpg`) shows a model-drawn planet in its far window. It must be regenerated with a pure-black window (or painted out) before it is used as a reference, or every hall shot inherits a fake sky.
+
+## 3. Mouth patches
+
+**6** shots need a mouth patch (pipeline: paste only the mouth region onto the approved still with a soft edge):
+
+- `E01-S00-008` — temi: "Good morning! This is Temi in Recoveries. Your vessel is being recovered. Full recovery, including the air, at six tonight, lunar time. Please remain seated while—"
+- `E01-S00-022` — jax: "Lucky."
+- `E01-S06-006` — jax: "...The swamp guy?"
+- `E01-S22-020` — jax: "Both or neither."
+- `E01-S22-023` — jax: "Neither."
+- `E01-S28-009` — mira: "Courageous. Yes. I've heard."
+
+Everything else plays on the listener, backs, hands, visors, breath fog, a sandwich, a speaking-disc in the customs glass, a headset boom or the Baron's moustache. Temi's patch sits inside a low-frame-rate call window, which hides patch shimmer. Mira's profile patch (28) is the riskiest; its fallback is to play the line on Noakes's hand.
+
+## 4. Real footage
+
+- Real footage full frame (incl. title): **2:12**.
+- Real footage inside windows / composites (bridge, office, corridor, cold store, Earth disc over generated horizons): **1:41**.
+- Real imagery as the base of data visuals (Atlas map): **0:17**.
+- Exterior shots whose ground or background is generated (rim road, inn door, boulder, gully, apron, lift-off), labelled NOT REAL FOOTAGE: **2:25**.
+- Everything else is stills and code: **31:04** of picture without any real plate.
+
+The real universe is felt mainly through the bridge window, the opening pole flyover, Earth at the pole, the far side and Earthset in 30, and "What was real". No real photograph exists of the ground at Shackleton's rim, so every rim-road, gully, boulder, apron and lift-off wide is a generated plate (or, if the showrunner prefers, a terrain render from LOLA elevation data, which would need its own asset entry).
+
+| Asset id (candidates.json) | What | Credit | Verified | Shots | Seconds | Fallback |
+|---|---|---|---|---|---|---|
+| `Moon Below Orion art001m1013251756` | Flight Day 6: Orion Focuses on Moon | NASA / JSC | yes | 3 | 18 | `art001e000270` (verified) |
+| `art001e000270` | Orion Approaches Moon for Outbound Powered Flyby | NASA / JSC | yes | 1 | 7 | — |
+| `ART-SAW4_2022_325_1305_SHARED_art001m1203251305` | Earth Rise as Seen from Orion Spacecraft | NASA / JSC | yes | 1 | 10 | `art002e016299` (verified) |
+| `SVS-3686/SPflyover_v07_lg.mp4` | LRO/LOLA Lunar South Pole Flyover | Animator: Alex Kekesi, Ernie Wright, Marte Newcomb | **NO** | 5 | 35 | `ARC-20210920-AAV3366-VIPER-LandingSiteAnnouncement-YouTubeHD` (verified) |
+| `PIA12077` | Moon Rugged South Polar Region Composite | NASA/JPL | yes | 14 | 49 | — |
+| `art002e016299` | Earthrise Captured by Orion | NASA / JSC | yes | 3 | 13 | — |
+| `PIA00001` | South Pole Region of the Moon as Seen by Clementine | NASA/JPL/USGS | yes | 2 | 8 | — |
+| `File:Lunar South Pole Illumination with Earth and Sun (SVS5228).webm` | Lunar South Pole Illumination with Earth and Sun (SVS5228) | NASA's Scientific Visualization Studio - Ernie Wri | **NO** | 5 | 27 | `art002e016299` (verified) |
+| `SVS-4043/shot1_on_1080p30.mp4` | LRO Peers into Permanent Shadows | Animator: Ernie Wright; Producer: Dan Gallagher; S | **NO** | 2 | 20 | `GSFC_20130306_Moons_m11218_Shadowed` (verified) |
+| `ART-DL-1_2022_325_1209_SHARED_art001m1013251209` | Earthset as Orion Prepares for Outbound Powered Flyby | NASA / JSC | yes | 2 | 12 | `art002e021278` (verified) |
+| `a2_flyby_1min_2160p30` | Simulated Artemis II Lunar Flyby Visualization | NASA's Scientific Visualization Studio/Ernie Wrigh | yes | 8 | 32 | `art002e012216` (verified) |
+| `art002e021283` | Taking a Peek at Earth from the Far Side of the Moon | NASA | yes | 2 | 16 | — |
+
+"Verified" in `candidates.json` only means the download URL answered HTTP 200 in the research sweep; **no plate has been viewed**, so every in/out point in the shot list is a proposal to confirm on viewing (and every narrated NASA video needs its audio stripped and a check for burnt-in captions).
+
+**Not yet verified, and what replaces each:**
+
+- SVS 3686 (LOLA south-pole flyover; scenes 2, 9, 24, WWR) → VIPER landing-site tour (verified; strip narration, check overlays) or a slow push on PIA12077 (verified still).
+- SVS 5228 (Earth and Sun from the pole; 8, 21) → Orion's real photo of Earth (art002e016299, verified) composited over a generated horizon. **The preferred SVS 4944 is not in `candidates.json` at all**: log and verify it first, or rule SVS 5228 in.
+- SVS 4043 (permanent shadow; 15 window, WWR) → "The Moon's Permanently Shadowed Regions" (GSFC_20130306…, verified, narrated: strip audio).
+- SVS 3634 is named only as a fallback route and is not relied on.
+- Moon Below Orion (verified, no stated duration) → art001e000270 still in the window.
+
+## 5. Per scene: planned against the table read
+
+| Scene | Shots | Planned | Table read (no narration) | Difference | Avg shot | Why it grows |
+|---|---|---|---|---|---|---|
+| 0 | 23 | 1:30 | 1:06 | +23 s | 3.9 s | 1.3 s silence, inserts, title cut |
+| T | 1 | 0:10 | — | — | 10.0 s | breathing between lines |
+| 1 | 9 | 0:40 | 0:31 | +9 s | 4.5 s | breathing between lines |
+| 2 | 17 | 1:05 | 0:46 | +19 s | 3.8 s | breathing between lines |
+| 3 | 16 | 1:17 | 0:58 | +20 s | 4.8 s | breathing between lines |
+| 4 | 8 | 0:31 | 0:23 | +8 s | 3.8 s | breathing between lines |
+| 5 | 11 | 0:54 | 0:44 | +10 s | 4.9 s | breathing between lines |
+| 6 | 30 | 2:21 | 1:56 | +25 s | 4.7 s | lock silence, clock, not-looking beat |
+| 7 | 18 | 1:18 | 1:06 | +12 s | 4.3 s | breathing between lines |
+| 8 | 11 | 1:05 | 0:52 | +13 s | 5.9 s | establishing pole + rim wide |
+| 9 | 5 | 0:20 | 0:11 | +9 s | 4.1 s | silent knock |
+| 10 | 10 | 0:47 | 0:38 | +9 s | 4.7 s | breathing between lines |
+| 11 | 8 | 0:39 | 0:31 | +8 s | 4.9 s | breathing between lines |
+| 12 | 7 | 0:40 | 0:32 | +8 s | 5.7 s | 3 s pen hover |
+| 13 | 12 | 0:50 | 0:39 | +11 s | 4.2 s | harpsichord inserts |
+| 14 | 12 | 1:02 | 0:47 | +15 s | 5.1 s | 9 s hair hold |
+| 15 | 20 | 1:24 | 0:59 | +25 s | 4.2 s | drip, crack, 7 s march hold |
+| 16 | 19 | 1:34 | 1:21 | +13 s | 4.9 s | breathing between lines |
+| 17 | 13 | 0:52 | 0:42 | +10 s | 4.0 s | breathing between lines |
+| 18–19 | 17 | 1:27 | 1:14 | +13 s | 5.1 s | reflection beats |
+| 20 | 12 | 0:50 | 0:42 | +7 s | 4.1 s | breathing between lines |
+| 21 | 29 | 2:08 | 1:45 | +23 s | 4.4 s | Earth cutaways, laugh, 3 s silence |
+| 22 | 32 | 2:06 | 1:33 | +33 s | 3.9 s | ink, coat, 3 s ribbon hold |
+| 23 | 5 | 0:20 | 0:18 | +2 s | 4.1 s | breathing between lines |
+| 24 | 14 | 0:58 | 0:38 | +21 s | 4.2 s | 8 s hang-time hold |
+| 25 | 15 | 1:02 | 0:50 | +12 s | 4.1 s | breathing between lines |
+| 26 | 5 | 0:24 | 0:16 | +8 s | 4.7 s | breathing between lines |
+| 27 | 21 | 1:29 | 1:16 | +13 s | 4.2 s | breathing between lines |
+| 28 | 14 | 0:37 | 0:22 | +15 s | 2.6 s | breathing between lines |
+| 29 | 23 | 1:29 | 0:58 | +31 s | 3.9 s | 9 s hatchet arc, lift-off wide |
+| 30 | 26 | 1:46 | 1:20 | +25 s | 4.1 s | Earthset, long silences, report hold |
+| 31 | 17 | 0:55 | 0:32 | +23 s | 3.2 s | grace notes, knocks, warrant settle |
+| WWR | 3 | 0:38 | 0:35 | +3 s | 12.7 s | breathing between lines |
+| END | 1 | 0:05 | — | — | 5.0 s | breathing between lines |
+| **Total** | 484 | **35:13** | 27:03 | +490 s | 4.4 s | |
+
+## 6. The ten riskiest shots and how to de-risk them
+
+| # | Shot(s) | Risk | De-risk |
+|---|---|---|---|
+| 1 | `E01-S22-002` six-character wide at the signing; `E01-S22-004` three-shot (Baron, Jax, Lucía) | Six faces must match six masters in one frame; three faces in one generation. | Never generate the six-shot. Build it as layers: an empty hall plate (job) + cut-outs from approved singles (`three_shot`, `mira_side`, Noakes, `chich_hall`), all small in frame. Generate the three-shot once with three refs; if any face drifts, rebuild it as a two-shot plus a single, composited. |
+| 2 | `E01-S15-013` / `E01-S15-018` four people frozen round the stove for the march | Four faces, two of them women the model ages. | Hold it wide and dim so faces are small; generate as two two-shots and layer; state ages firmly. Fallback: play the march on the horn insert, the Baron's eyes and backs of heads. |
+| 3 | `E01-S27-001` three faces lit from below in the dark cab (used 6 times) | Three faces, low light, then cropped to single eyes (upscaling). | Generate three singles with the same dashboard light and lay them side by side in the cab plate; crops then come from full-resolution singles. |
+| 4 | `E01-S09-003` four suited figures at the iron door | Four references, two of them library gaps (Mira's and Lucía's suits). | Make the suit references first; keep visors reflective so only silhouettes must match; layer two two-shots if needed. |
+| 5 | `E01-S23-002` Lucía mid-leap with the Baron overhead | Two-body pose the model gets wrong (hands, weight). | Pure silhouette against the corridor lights; generate Lucía leaping and the lifted Baron separately and composite. Anatomy is hidden in black. |
+| 6 | `E01-S28-009` Mira, profile, "Courageous. Yes. I've heard." | Profile mouth patch on a payoff line; profiles drift. | Test this patch before any other Mira work. Fallback already planned: the line over Noakes's stopped hand (`E01-S28-008`), Mira's profile silent. |
+| 7 | Every set window: `E01-S00-003`, `E01-S07-001`, `E01-S18-19-009`, `E01-S15-002`, `E01-S30-002` and the hall wides | The generator may not leave windows pure black; `composite_window.py` has one hard-coded polygon for one test image; the customs-hall master already has a fake planet in its window. | Generalise the composite tool: one window-mask file per set master, reused for every crop. Reject any still whose window is not near-black (simple pixel check). Regenerate the hall master. |
+| 8 | All unverified plates: `E01-S02-001`, `E01-S09-001`, `E01-S21-001/009/012/027`, `E01-S24-001`, `E01-S15-002`, `E01-SWWR-001/002` | The SVS host refused the sweep; SVS 4944 is not logged; nothing has been viewed; narrated NASA clips may carry captions or logos. | A Sonnet footage audit: download, view, strip audio, check for logos and burnt-in text, and write exact in/out seconds back into the shot list. Each shot names a verified fallback. |
+| 9 | `E01-S24-007` hang-time jump (8 s) and `E01-S29-005` hatchet arc (9 s) | Long holds can read as a frozen frame, or vanish at phone size. | Animate in code on true one-sixth-g arcs; spinning wheels and dust on the jump; a highlight trail and one spin on the hatchet; test-render both at 360p before the cut. |
+| 10 | The exteriors with generated ground (`E01-S08-002`, `E01-S21-002`, `E01-S21-020`, scenes 24, 26, 29) | About 2.5 min of exteriors have generated ground; a viewer could take them for NASA footage. | Label them in the edit log; always cut through an interior or a real plate rather than butting generated against real; add a line to "What was real" (ruling 1). Draw Earth at its true size (about 2 degrees, nearly four full Moons). |
+
+Also watch: the Mira and Lucía masters are still "REDO younger"; 63 of the 177 jobs reference one of them, so their casting gates a third of the bill. Push-ins over about 15% and eyes-only crops need upscaling from the 1672-wide originals (`upscale_cutout.py`), which can soften faces.
+
+## 7. Staging notes that cannot be done as written, and what I did instead
+
+- **2 and 21, "prefer NASA SVS 4944".** SVS 4944 is not in `candidates.json`. Planned: SVS 3686 flyover (2) and SVS 5228 Earth-and-Sun at the pole (8, 21), both unverified, with verified fallbacks named. Ruling needed: log 4944, or accept 5228.
+- **21, "Earth low ahead" behind two figures on a boulder.** No real ground-level plate exists. The boulder, figures and horizon are generated; only the Earth disc is real (Orion photo). Labelled as a composite.
+- **8, 9, 24, 26, 29, "real footage wide" with the rover on the terrain.** Same problem: the ground-level rim is generated. Each of these scenes opens on the real universe (pole flyover or Clementine still), then cuts to the generated wide. Alternative: a terrain render from LOLA elevation data (real data, rendered by us), which needs a new asset entry and a renderer.
+- **4, "Noakes … never a speaking face".** His long lines play over a soft, dim reflection in her monitor, cut off at the chin by the bezel. If it still reads as a speaking face, the lines move to Mira's hand on the notebook.
+- **3, Jax's spoken lines through the glass.** The staging covers Mira but not Jax, who faces camera. Added a round perforated speaking-disc in the customs glass at mouth height: he talks through it and it hides his mouth. A small design addition that can recur at every customs desk in the series.
+- **8, "one profile of Mira writing".** Played as the notebook insert only, to avoid a profile (profiles drift most).
+- **15, "her bare eye for the first time".** To keep this true, every earlier Mira face is through glass, mesh, a curio cabinet, a reflection or the loupe (`jax_mira_nolook` through the cage mesh, `mira_watch` through cabinet glass, the cold-store close-up with the loupe raised). In 22 she is behind the desk glass, so 28 stays "the first time with nothing between her and the camera".
+- **27, "frost: three stills with progressively more frost".** One heavy-frost still revealed in three stages by an animated mask: same picture, one image instead of three.
+- **0, "Jax mostly a silhouette or profile".** Kept to silhouette and three-quarter; the profile still was dropped (drift risk).
+- **Mouth patches beyond the staging (6).** Temi in her call window, Jax "Lucky", "The swamp guy?", "Both or neither", "Neither", and Mira "Courageous". Each has a no-patch fallback on the listener.
+
+## 8. Data visuals to build in code
+
+All text on screen is ours, added in code, never by the generator (the style line bans readable text). One house UI font for ship and customs screens, a copperplate for the regulation, a handwriting font with jitter for tags and notebooks.
+
+1. **Atlas address losing its letters (2).** Real PIA12077 polar still, desaturated and contoured; glowing label "THE SILVER HATCHET — SHACKLETON FLOOR"; letters dim from the end in five held stages (HATCH, HAT, SILVER, THE, gone), about 0.4 s per dim; then HATCHET LANE, BEAN ROW, STRAW STAIRS go out like lamps with a 0.3 s after-glow.
+2. **PIP's report screens (0, 2, 16, 30).** Amber-on-black postal form: "REPORT #1,204 — RE: CAPTAIN. \"TAKE IT\" (x5)", "#1,205 — RE: THE ATLAS", "#1,206 — RE: MAN, AVERAGE", "#1,207 — SENT"; lines stamp on with the stamp thunk; for #1,207 a small grey "READ — 00:00:01.3" appears exactly 2.6 s after SENT.
+3. **Warrant screen settling on "nobody" (31).** A customs warrant list (Ortega, Sen, PIP, Munchausen); last field "CAPTAIN: nobody" in lower case; on "Correction filed" it flickers to "CAPTAIN: VALE, JAX" for 0.5 s, refresh wipe, settles back on "nobody".
+4. **The clocks.** Bridge digital clock 17:59:58 ticking to 18:00:00 (30); hall analogue clock hands composited onto the `hall_clock` still at 17:45 with a moving second hand (22, 25); the second hand is the only motion in Noakes's waits.
+5. **The clamp console (25, 28).** "BAY 9 CLAMP — CLOSED", "KEY 1 — SUPERINTENDENT", "KEY 2 — DUTY OFFICER", a HOLDING spinner, a status flip to "OPEN", and after exactly 1.3 s of nothing a pop-up "AUTHORITY TO LOCK — RECEIVED". Verbs as the script fixes them: closed, locked, open.
+6. **Mira's laser map of the inner wall (27).** A LOLA-style mesh of Shackleton's inner wall blooming contour by contour in the black; the rover as a small dot; heading cues (LEFT 11°, STOP); the four-kilometre drop as a cold line; the house-sized boulder; the service ramp lighting up toward the Sun. Best built from real LOLA elevation data (needs an asset entry); otherwise a synthetic mesh, labelled as such.
+7. **The bank call window (0, 30).** An original smiling bank logo (no real bank); a call window running Temi's library still as low-fps video with compression blocks; the 1.3 s lag shown as freezes; a reset animation on "Hello!"; in 30 her still freezes mid-word and the window cuts to black as Earth sets.
+8. **The flip-number board (4, 22, 25, 31 and every hall wide).** "RIM PORT CUSTOMS — DAYS WITHOUT INCIDENT", mechanical flaps reading 1,094 in every shot until the tag, where they read 0; tracked onto each crop of the board still; one flap flutter in the tag.
+
+Also in code: engine readouts (0), the job card with a blank fee (0), the cargo-camera feed (0), Mamani's control inset (2), the licence record with its empty fields (3), the deletion record (4), Regulation 41(c) scrolling in copperplate (7), Mira's wrist display "LOT 14 — PUBLIC SALE" (6), every tag, label and card (LOT 14, THE BARON, RESIDUE, c/o the Baron, the calling card, PULL OVER / PLEASE), the SEIZED impression, the reversed ABANDONED stamp face, the "24th" through the loupe (rack focus), handwriting write-ons, the fading signatures (11, 22), the coat-saturation ramp (22) and the per-act Baron desaturation (100 / 87 / 73 / 60%), the flaking inn sign (9), breath fog and frost masks, the grapple line, and the rover's and hatchet's one-sixth-g arcs.
+
+## 9. Rulings needed from the showrunner
+
+1. **Generated exteriors.** Accept generated ground plates for the rim road, boulder, gully, apron and lift-off (about 2.5 min), or commission a LOLA terrain render. Either way, add to "What was real": "The landscapes on the rim are illustrations." (It now says only that Earth on the horizon is a composite.)
+2. **SVS 4944.** Log and verify it, or accept SVS 5228 (also unverified), with the Orion-Earth composite as fallback.
+3. **Six mouth patches**, including Mira's profile patch in 28.
+4. **Six library-gap references** (PIP's wrist unit, the customs crawler, Mira's notebook, Mira's and Lucía's suits, the Baron's helmet with the tricorn), and regenerating the customs-hall master with a black window.
+5. **The speaking-disc in the customs glass** as a set element.
+6. **Music.** The caper (A2) and tension (A3) cues were never approved (the owner liked A1, A4, A5). The sound plan writes new caper and tension cues instead.
+7. **Real-footage share.** About 4 minutes of real footage (full frame and in windows) in 35. If more is wanted, add 3–5 s real bumpers at the act breaks; the plates are already in hand.
+8. **Frame.** `cinema.py` letterboxes to 2.39:1 and the stills are 16:9. Keep the letterbox (it gives vertical room to reframe) or deliver full 16:9.
+9. **Order of work.** Mira and Lucía casting first (63 jobs wait on them), then the footage audit, then generation scene by scene, with the group shots built last from approved singles.

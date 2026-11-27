@@ -326,7 +326,6 @@ class Lights:
                     if alive >= 0.999:
                         continue
                     k = to + (1 - to) * alive
-                    dead = lum(img)[..., None] * (1 - ds) + img * ds * 0 + img * (1 - ds) * 0
                     dead = img * (1 - ds) + lum(img)[..., None] * ds
                     mix = img * alive + dead * k * (1 - alive)
                     img = img * (1 - m[..., None]) + mix * m[..., None]
@@ -610,7 +609,9 @@ class Shot:
             self.base = b
             self.bh, self.bw = b.shape[:2]
         elif self.base_spec.get("kind") == "gfx":
-            self.base = gfx.Gfx(self.base_spec, self.path).render(t, self.bw, self.bh) if not hasattr(self, "_bg") else self._bg
+            if not hasattr(self, "_bgfx"):
+                self._bgfx = gfx.Gfx(self.base_spec, self.path)
+            self.base = self._bgfx.render(t, self.bw, self.bh)
         base = self.lights.apply(self.base, t, tg)
         if self.focus:
             base = self.focus.apply(base, t, self.dur)
