@@ -1823,7 +1823,7 @@
   },
   "E01-J109": {
    "priority": 2,
-   "status": "pending",
+   "status": "rejected-retrying",
    "attempts": 1,
    "seconds": [
     55.4
@@ -1831,7 +1831,9 @@
    "tokens": [
     25291
    ],
-   "notes": [],
+   "notes": [
+    "REJECTED: Baron matches but reads cheerful/bright-eyed, not tired, and there is no white glare"
+   ],
    "refs_used": [
     "assets/characters/baron/master.jpg",
     "assets/sets/postchaise/cab-bright.jpg"
