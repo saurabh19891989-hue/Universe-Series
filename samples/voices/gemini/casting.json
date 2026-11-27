@@ -1,0 +1,27 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "primary": {
+    "JAX": "zubenelgenubi",
+    "MIRA": "en-in-podcaster-6",
+    "PIP": "en-gb-advisor-8",
+    "BARON": "de-de-storyteller-8"
+  },
+  "alt": {
+    "JAX": "en-us-tutor-7",
+    "MIRA": "en-in-training-7",
+    "PIP": "en-gb-tutor-8",
+    "BARON": "en-us-enzo"
+  },
+  "styles": [
+    "fast, confiding voiceover, wry, a salesman's warmth, like narrating a heist film, slightly self-mocking",
+    "flat, clipped, precise, officious British civil servant, never raising his voice",
+    "quick, exasperated but amused, rapid retort",
+    "flat, clipped, pedantic, officious, deadpan bureaucratic precision",
+    "dry, precise, low-key, matter-of-fact, quietly alarmed underneath",
+    "theatrically indignant, bombastic, booming, grand, an elderly aristocratic stage actor deeply offended",
+    "quick, puzzled and wary",
+    "flat, deadpan, reading from a registry, clipped and officious",
+    "genuinely hushed, almost a whisper, quiet, slow and serious",
+    "fast confiding voiceover, wry, then slowing with rueful self-mockery on the last sentence"
+  ]
+}
