@@ -48,6 +48,9 @@ if __name__ == "__main__":
     CAST = [l.split("|") for l in open(os.path.join(SRC, "cast_pick.txt")).read().strip().splitlines()]
     cells = []
     for f, lab in CAST:
-        im = filmify(src(f)); cells.append((im, lab))
+        im = filmify(src(f))
+        if im.width > im.height:   # keep the sheet grid tight: centre-crop landscape takes to 3:4
+            cw = int(im.height * 3 / 4); im = im.crop(((im.width - cw) // 2, 0, (im.width + cw) // 2, im.height))
+        cells.append((im, lab))
         im.save(os.path.join(OUT, "portrait-" + lab.split()[0].lower().replace(".", "") + ".jpg"), quality=88)
     sheet(cells, 480, "SECRET UNIVERSE - photoreal cast test (FLUX.1-schnell via AI Horde unless noted; shared film finish)", "cast-sheet.jpg", 6)

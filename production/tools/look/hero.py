@@ -195,6 +195,52 @@ def hero_bridge(a, cache):
     return finish(out)
 
 
+def clean_patches(img, rects):
+    """Remove AI-invented badges/flags/name tags: inpaint each rect (source px) and re-grain."""
+    u8 = (np.clip(img, 0, 1) * 255).astype(np.uint8)
+    m = np.zeros(u8.shape[:2], np.uint8)
+    for x0, y0, x1, y1 in rects:
+        m[y0:y1, x0:x1] = 255
+    out = cv2.inpaint(u8, m, 9, cv2.INPAINT_TELEA).astype(np.float32) / 255
+    n = RNG.standard_normal(out.shape).astype(np.float32) * 0.02
+    mm = cv2.GaussianBlur(m.astype(np.float32) / 255, (0, 0), 3)[..., None]
+    return np.clip(out + n * mm, 0, 1)
+
+
+def hero_bridge_insitu(a, cache):
+    """Bridge two-shot generated with the actors in place; replace the dark window with the real Moon."""
+    src = load(a.bridge)
+    if a.patches:
+        r = [tuple(int(v) for v in t.split(",")) for t in a.patches.split(";")]
+        src = clean_patches(src, r)
+    bg = cover(src, W, H, 0.5, 0.5)
+    # window matte = hand-drawn window polygon (source px)  x  NOT(people), people from rembg
+    sc = max(W / src.shape[1], H / src.shape[0]); ox = (src.shape[1] * sc - W) / 2; oy = (src.shape[0] * sc - H) / 2
+    poly = np.array([[float(v) for v in p.split(",")] for p in a.win_poly.split(";")]) * sc - [ox, oy]
+    keep = np.zeros((H, W), np.uint8); cv2.fillPoly(keep, [poly.astype(np.int32)], 1)
+    tmp = os.path.join(cache, "_src_clean.png"); os.makedirs(cache, exist_ok=True)
+    Image.fromarray((src * 255).astype(np.uint8)).save(tmp)
+    people = cutout(tmp, cache)[..., 3]
+    people = cover(np.repeat(people[..., None], 3, 2), W, H, 0.5, 0.5)[..., 0]
+    matte = cv2.GaussianBlur(keep.astype(np.float32), (0, 0), 2.0) * (1 - people)
+    matte = matte[..., None]
+    ref = np.median(bg[keep > 0].reshape(-1, 3), 0)
+    bg = np.clip(bg - matte * (1 - matte) * 2 * ref, 0, 1)     # spill suppression on hair edges
+    ys, xs = np.nonzero(keep)
+    x0, x1, y0, y1 = xs.min(), xs.max() + 1, ys.min(), ys.max() + 1
+    plate = np.zeros_like(bg)
+    plate[y0:y1, x0:x1] = cover(load(a.moon), x1 - x0, y1 - y0, a.win_cx, 0.5, zoom=a.win_zoom)
+    plate = lens_blur(plate, a.bg_blur) * a.plate_gain   # focus is on the actors
+    plate = plate + 0.025 * np.float32([0.6, 0.7, 0.8])     # faint glass haze lifts the black of space
+    out = bg * (1 - matte) + plate * matte
+    # the Moon is now the brightest thing in the room: cool spill + rim on everything near the window
+    glow = cv2.GaussianBlur((plate * matte).mean(2), (0, 0), 50)[..., None]
+    out = out + glow * np.float32([0.7, 0.8, 0.95]) * 0.18
+    edge = np.clip(cv2.GaussianBlur(matte[..., 0], (0, 0), 3) - matte[..., 0], 0, 1)[..., None]
+    out = out + edge * np.float32([0.75, 0.85, 1.0]) * 0.12
+    return finish(out)
+
+
 def hero_ship(a, cache):
     moon = load(a.moon)
     out = cover(moon, W, H, 0.6, 0.5, zoom=1.0)
@@ -202,7 +248,8 @@ def hero_ship(a, cache):
     # luminance-refined matte so pure black studio background never leaks in
     lum = ship[..., :3].max(2)
     ship[..., 3] = ship[..., 3] * np.clip((lum - 0.015) / 0.05, 0, 1) ** 0.5
-    f = match_to_plate(ship, out, strength=0.5, sat=0.8, black=0.0)
+    f = match_to_plate(ship, out, strength=0.5, sat=0.65, black=0.0)
+    f[..., :3] *= 0.88
     f = rim(f, (1, -0.2), width=4, color=(1.0, 0.97, 0.92), k=0.5)
     place(out, f, a.ship_x, a.ship_y, a.ship_scale, wrap=True, soft=0.7)
     return finish(out, grain=0.014)
@@ -216,8 +263,8 @@ def hero_baron(a, cache):
     f = match_to_plate(bar, plate, strength=0.3, sat=0.92, black=0.015)
     f = rim(f, (-1, -0.4), width=10, color=(0.85, 0.92, 1.0), k=0.65)   # sunlight from plate left
     out = plate.copy()
-    sc = 1080 * 1.2 / bar.shape[0]
-    place(out, f, int(W - bar.shape[1] * sc * 0.92), int(H - bar.shape[0] * sc + 40), sc, wrap=True, soft=0.3)
+    sc = 1080 * 1.1 / bar.shape[0]
+    place(out, f, int(W - bar.shape[1] * sc * 0.95), int(H - bar.shape[0] * sc + 110), sc, wrap=True, soft=0.3)
     return finish(out)
 
 
@@ -232,13 +279,16 @@ if __name__ == "__main__":
     ap.add_argument("--win-seed", type=float, nargs=2, default=(0.5, 0.3))
     ap.add_argument("--bg-blur", type=float, default=14)
     ap.add_argument("--only", default="123")
+    ap.add_argument("--insitu", type=int, default=0); ap.add_argument("--patches", default="")
+    ap.add_argument("--win-poly", default="");
+    ap.add_argument("--win-dist", type=float, default=0.12); ap.add_argument("--plate-gain", type=float, default=0.65)
     ap.add_argument("--jax-xy", type=int, nargs=2, default=(60, 230)); ap.add_argument("--mira-xy", type=int, nargs=2, default=(1150, 250))
     ap.add_argument("--fig-scale", type=float, default=0.9); ap.add_argument("--fg-occluder", type=int, default=1)
     ap.add_argument("--ship-x", type=int, default=760); ap.add_argument("--ship-y", type=int, default=380)
     ap.add_argument("--ship-scale", type=float, default=0.5)
     a = ap.parse_args()
     cache = os.path.join(a.outdir, "_cut")
-    for k, fn in [("1", hero_bridge), ("2", hero_ship), ("3", hero_baron)]:
+    for k, fn in [("1", hero_bridge_insitu if a.insitu else hero_bridge), ("2", hero_ship), ("3", hero_baron)]:
         if k in a.only:
             t = time.time(); img = fn(a, cache); save(img, os.path.join(a.outdir, f"hero-{k}.jpg"))
             print(f"hero-{k} {time.time()-t:.1f}s", flush=True)

@@ -293,5 +293,473 @@
   "session": null,
   "rate_limits": null,
   "errors": []
+ },
+ {
+  "time": "2026-11-27T14:59:20",
+  "job": "B_jax1",
+  "name": "jax1_laugh",
+  "purpose": "B consistency Jax 1",
+  "refs": [
+   "jax_test.png"
+  ],
+  "seconds": 43.3,
+  "tokens_used": 11800,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d83-f679-7c00-9d3e-502585662ea3",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 31.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 89.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T14:59:35",
+  "job": "B_jax2",
+  "name": "jax2_alarm",
+  "purpose": "B consistency Jax 2",
+  "refs": [
+   "jax_test.png"
+  ],
+  "seconds": 58.7,
+  "tokens_used": 19274,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d83-f693-7a93-a41b-9d3144a11d96",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 31.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 89.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:00:29",
+  "job": "B_jax3",
+  "name": "jax3_profile_moon",
+  "purpose": "B consistency Jax 3",
+  "refs": [
+   "jax_test.png"
+  ],
+  "seconds": 44.9,
+  "tokens_used": 10936,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d84-fc4d-7f92-8c2e-17ebba3674d0",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 32.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 89.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:00:50",
+  "job": "B_jax4",
+  "name": "jax4_ots_customs",
+  "purpose": "B consistency Jax 4",
+  "refs": [
+   "jax_test.png"
+  ],
+  "seconds": 66.6,
+  "tokens_used": 13177,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d84-fc67-7ed3-b20d-7d3b442b9bcb",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 32.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 89.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:01:56",
+  "job": "B_jax5",
+  "name": "jax5_helmet_lunar",
+  "purpose": "B consistency Jax 5",
+  "refs": [
+   "jax_test.png"
+  ],
+  "seconds": 57.3,
+  "tokens_used": 12347,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d86-2103-7992-854a-59b0fb084c98",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 33.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 89.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:01:58",
+  "job": "B_jax6",
+  "name": "jax6_cargo_parcel",
+  "purpose": "B consistency Jax 6",
+  "refs": [
+   "jax_test.png"
+  ],
+  "seconds": 59.8,
+  "tokens_used": 8197,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d86-2122-7421-bdfd-f3431ec92163",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 33.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 89.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:02:47",
+  "job": "B_jax8",
+  "name": "jax8_wide_hall",
+  "purpose": "B consistency Jax 8",
+  "refs": [
+   "jax_test.png"
+  ],
+  "seconds": 39.0,
+  "tokens_used": 14152,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d87-3188-7133-888e-6bd3068a3d46",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 34.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 89.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:02:58",
+  "job": "B_jax7",
+  "name": "jax7_quiet_closeup",
+  "purpose": "B consistency Jax 7",
+  "refs": [
+   "jax_test.png"
+  ],
+  "seconds": 50.0,
+  "tokens_used": 14104,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d87-3168-7711-8b88-18c65208237e",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 34.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 89.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:04:10",
+  "job": "B_mira1",
+  "name": "mira1_loupe",
+  "purpose": "B consistency mira 1",
+  "refs": [
+   "mira_master.png"
+  ],
+  "seconds": 56.0,
+  "tokens_used": 14809,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d88-3006-75c3-bb9b-a9acd12316be",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 35.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 89.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:04:14",
+  "job": "B_baron1",
+  "name": "baron1_laugh",
+  "purpose": "B consistency baron 1",
+  "refs": [
+   "baron_master.png"
+  ],
+  "seconds": 60.3,
+  "tokens_used": 14767,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d88-3002-7b10-bff5-00a9a6f0eb02",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 35.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 89.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:05:15",
+  "job": "B_baron2",
+  "name": "baron2_closeup_worried",
+  "purpose": "B consistency baron 2",
+  "refs": [
+   "baron_master.png"
+  ],
+  "seconds": 53.1,
+  "tokens_used": 18477,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d89-3b4f-7c83-a2bc-914b1ec5db4d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 36.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 90.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:06:12",
+  "job": "B_mira2",
+  "name": "mira2_window_night",
+  "purpose": "B consistency mira 2",
+  "refs": [
+   "mira_master.png"
+  ],
+  "seconds": 110.1,
+  "tokens_used": 21060,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d89-3b57-7190-8242-5a1272a9e3d6",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 36.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 90.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]
