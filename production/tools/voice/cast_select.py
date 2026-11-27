@@ -57,7 +57,7 @@ def main(raw_path, out_dir):
         if not ok(ch): continue
         f = [fps[r][i] for r, i in zip(roles, ch)]
         fd = dict(zip(roles, f))
-        if distance(fd["BARON"], fd["NOAKES"], sd) < 2.9 or distance(fd["BARON"], fd["PIP"], sd) < 2.4: continue
+        if distance(fd["BARON"], fd["NOAKES"], sd) < 2.0 or distance(fd["BARON"], fd["PIP"], sd) < 2.0: continue
         d = [distance(a, b, sd) for a, b in itertools.combinations(f, 2)]
         score = (round(min(d), 3), np.mean(d))
         if best is None or score > best[0]: best = (score, ch)

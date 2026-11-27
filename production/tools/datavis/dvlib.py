@@ -1,4 +1,4 @@
-"""Shared machinery for the Episode 1 data visuals (Secret Universe).
+"""Shared machinery for the Episode 1 data visuals (Universe Undelivered).
 
 Everything is drawn in code (Pillow + numpy + OpenCV) and piped to ffmpeg.
 A visual is a ClipSpec: a draw(t, i) function that returns the *emissive*

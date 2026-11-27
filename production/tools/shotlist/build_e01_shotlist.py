@@ -128,7 +128,6 @@ def foot(cid, in_s=None, out_s=None, note="", fallback=None):
              kind=x["kind"], resolution=x.get("resolution"), media_duration_s=x.get("duration_s"),
              has_audio_or_music=x.get("has_audio_or_music"),
              in_s=in_s, out_s=out_s, note=note)
-    d["plates_status"] = "pending e01-plates.json"
     if fallback:
         f = CANDS[fallback]
         d["fallback"] = dict(id=fallback, title=f["title"], credit=f["credit_line"], verified=f["verified"], kind=f["kind"])
@@ -984,11 +983,11 @@ s("31", "TWO_SHOT", [558], 0.4, "He goes, out of frame. 'Correction filed.'", "h
 s("31", "DATA_VISUAL", [], 4.2, "The field flickers: CAPTAIN: VALE, JAX. It refreshes. It settles. CAPTAIN: nobody", "hold", "flicker, refresh, settle", img="CODE", snd="Silence; a single refresh tick.")
 s("31", "BLACK", [], 1.2, "CUT TO BLACK.", "none", "none", img="CODE", snd="Silence.")
 
-WWR_TEXT = "What was real. Shackleton crater is real. Its floor may not have seen the Sun for billions of years. It has been seen only faintly from orbit, by light bounced off its walls, and mapped by laser. Gravity is one-sixth of Earth's. Signals take about one point three seconds each way, and none from Earth reach the far side directly. There is no air, so no sound. Every person you saw was made digitally, and Earth on the horizon is a composite. The landscapes on the rim are illustrations. The Baron has asked me to say that he is not. I have noted his request. Footage and visualisations: NASA."
+WWR_TEXT = "What was real. Shackleton crater is real. Its floor may not have seen the Sun for billions of years. It has been seen only faintly from orbit, by light bounced off its walls, and mapped by laser. Gravity is one-sixth of Earth's. Signals take about one point three seconds each way, and none from Earth reach the far side directly. There is no air, so no sound. Every person you saw was made digitally. Earth over the lunar horizon was photographed from lunar orbit, by Apollo 8 and Artemis II; behind our characters it is a composite. The landscapes on the rim are illustrations, and some views are NASA visualisations, one of them of the Apollo 17 valley, not this crater. The Baron has asked me to say that he is not. I have noted his request. Footage and visualisations: NASA."
 # ================================================================= WWR
-s("WWR", "REAL_FOOTAGE", [(561, 0, 12.0)], 0.6, "What was real: the real south-pole flyover; credits small at the bottom.", "footage move only", "credits roll", "", "REAL", ft=FT["fly"](0, 12), comp="Full frame; credit crawl.", snd="A1 theme (v2) under PIP.", extra=dict(on_screen_text=WWR_TEXT, credits_text="Footage and visualisations: NASA (credits per assets/e01-plates.json). Every person you saw was made digitally. Earth on the horizon is a composite. The landscapes on the rim are illustrations.", script_flag="FLAG FOR SCRIPT: end note gains 'The landscapes on the rim are illustrations.'"))
+s("WWR", "REAL_FOOTAGE", [(561, 0, 12.0)], 0.6, "What was real: the real south-pole flyover; credits small at the bottom.", "footage move only", "credits roll", "", "REAL", ft=FT["fly"](0, 12), comp="Full frame; credit crawl.", snd="A1 theme (v2) under PIP.", extra=dict(on_screen_text=WWR_TEXT, credits_text="Footage and visualisations: NASA (credits per assets/e01-plates.json). Every person you saw was made digitally. Earth over the horizon was photographed from lunar orbit (Apollo 8, Artemis II); behind our characters it is a composite. The landscapes on the rim are illustrations; some views are NASA visualisations, including the Apollo 17 valley.", script_flag="FLAG FOR SCRIPT: end note wording corrected after the plates audit (see on_screen_text)."))
 s("WWR", "REAL_FOOTAGE", [(561, 12.0, 24.0)], 0.0, "The permanently shadowed regions visualisation.", "footage move only", "credits roll", "", "REAL", ft=FT["psr"](0, 12), comp="Full frame.")
-s("WWR", "REAL_FOOTAGE", [(561, 24.0, None)], 3.1, "Earth from the far side, real, from Orion.", "slow push-in 4%", "credits roll", "", "REAL", ft=FT["peek"](), comp="Full frame. 2.5 s reserved for the added sentence if PIP speaks it.", extra=dict(on_screen_text=WWR_TEXT, script_flag="FLAG FOR SCRIPT: add 'The landscapes on the rim are illustrations.' after 'Earth on the horizon is a composite.' (showrunner ruling; script-v3.md not edited here)."))
+s("WWR", "REAL_FOOTAGE", [(561, 24.0, None)], 6.6, "Earth from the far side, real, from Orion.", "slow push-in 4%", "credits roll", "", "REAL", ft=FT["peek"](), comp="Full frame. 6 s reserved for the corrected sentences if PIP speaks them.", extra=dict(on_screen_text=WWR_TEXT, script_flag="FLAG FOR SCRIPT: replace 'Every person you saw was made digitally, and Earth on the horizon is a composite.' with the on_screen_text wording (Earth photographed from lunar orbit; composite behind the characters; rim landscapes illustrated; some NASA visualisations incl. the Apollo 17 valley). script-v3.md not edited."))
 s("END", "TITLE", [], 5.0, "End card.", "hold", "none", img="CODE", snd="A1-endcard-sting-5s.")
 
 
@@ -1007,32 +1006,79 @@ for _n, _ks in EXTRA_REFS.items():
             JOBS[_jid]["ref_keys"].append(_k)
     JOBS[_jid]["references"] = [REF[k]["path"] for k in JOBS[_jid]["ref_keys"]]
 
-# ---------- re-point footage at assets/e01-plates.json when it exists
-PLATES_PATH = f"{ROOT}/assets/e01-plates.json"
-PLATES = None
-if os.path.exists(PLATES_PATH):
-    _pj = json.load(open(PLATES_PATH, encoding="utf-8"))
-    _items = _pj if isinstance(_pj, list) else (_pj.get("plates") or _pj.get("assets") or list(_pj.values()))
-    PLATES = {}
-    for _it in _items:
-        if isinstance(_it, dict):
-            for _key in ("candidate_id", "id", "source_id", "asset_id"):
-                if _it.get(_key):
-                    PLATES[_it[_key]] = _it
-def repoint(ft):
-    if not ft:
-        return ft
-    if PLATES is None:
-        ft["plates_status"] = "pending e01-plates.json"
-        return ft
-    hit = PLATES.get(ft["id"]) or (PLATES.get(ft["fallback"]["id"]) if ft.get("fallback") else None)
-    if hit:
-        ft["plate"] = dict(local_path=hit.get("local_path") or hit.get("path"), credit=hit.get("credit") or hit.get("credit_line"),
-                           verified=hit.get("verified"), source_id=hit.get("candidate_id") or hit.get("id"))
-        ft["plates_status"] = "from e01-plates.json"
-    else:
-        ft["plates_status"] = "not in e01-plates.json: keep candidate and fallback, needs verification"
-    return ft
+# ---------------------------------------------------------------- plates (assets/e01-plates.json), per shot
+PLATES = {x["nasa_id_or_svs_id"]: x for x in json.load(open(f"{ROOT}/assets/e01-plates.json", encoding="utf-8")) if x.get("nasa_id_or_svs_id")}
+def _kind(k):
+    for w in ("OBSERVED", "DATA_VIS", "COMPOSITE", "ARTIST_CONCEPT"):
+        if (k or "").startswith(w):
+            return w
+    return k
+def plate(pid, a=None, b=None, note="", fb=None, seq=None):
+    x = PLATES[pid]
+    assert x["status"] not in ("REJECT", "NOT_DOWNLOADED_403"), pid
+    d = OrderedDict(id=pid, title=x["title"], local_path=x["local_path"], credit=x["credit_line"], kind=_kind(x["kind"]),
+                    plate_status=x["status"], media_type=x["media_type"], resolution=x["resolution"], verified=True,
+                    verified_means="downloaded, audio stripped, hashed and checked on a contact sheet (assets/e01-plates.json)",
+                    in_s=a, out_s=b, crop_notes=x.get("crop_notes"), usable_ranges=x.get("usable_ranges"), note=note)
+    if seq:
+        d["sequence"] = [OrderedDict(id=s_, local_path=PLATES[s_]["local_path"], credit=PLATES[s_]["credit_line"]) for s_ in seq]
+    if fb:
+        f = PLATES[fb]
+        d["fallback"] = OrderedDict(id=fb, local_path=f["local_path"], credit=f["credit_line"], kind=_kind(f["kind"]))
+    return d
+VIPER = "ARC-20210920-AAV3366-VIPER-LandingSiteAnnouncement-YouTubeHD"
+LEE = "GSFC_20190513_m4714_Lee_Lincoln_Scarp_Moon_Flyover"
+PSR = "GSFC_20130306_Moons_m11218_Shadowed"
+LEE_LABEL = "On-screen lower-third (small): 'Apollo 17 landing area — NASA visualisation'. Apollo 17 terrain (Taurus-Littrow), NOT Shackleton."
+STAND = "Real lunar terrain (Artemis II far-side photograph) standing in for the view over Shackleton; graded dark; not Shackleton."
+PLATE_PLAN = {
+ "E01-S00-003": (plate("a2_flyby_1min_2160p30", 28, 33, "Moon filling the window (fills frame 34-41 s).", "art002e009212"), None),
+ "E01-S00-011": (plate("art002e009212", note="Full Moon still in the window behind PIP, defocused.", fb="art002e009057"), None),
+ "E01-S00-018": (plate("lunarflyby_1min_2160p30", 0, 4, "Moon growing in the window.", "art002e009212"), None),
+ "E01-ST-001": (plate("as08-14-2383", note="Apollo 8 Earthrise, slow push under the title.", fb="art002e021278"), "MAIN TITLE: SECRET UNIVERSE over the real Apollo 8 Earthrise photograph."),
+ "E01-S02-001": (plate(VIPER, 4, 13, "Clean range: Moon turning to the south pole. Avoid 14-19 s (label).", "a2_flyby_1min_2160p30"), "The south pole turns up toward us (NASA visualisation from LRO data)."),
+ "E01-S02-002": (plate(VIPER, 20, 22.1, "South-pole terrain in the window; faint graticule graded out.", "art002e009282"), None),
+ "E01-S02-012": (plate(VIPER, 22.1, 26.2, "Window, defocused.", "art002e009282"), None),
+ "E01-S02-017": (plate(VIPER, 136, 140, "Low oblique shadowed terrain in the window as they descend.", "art002e009282"), None),
+ "E01-S03-001": (plate(VIPER, 140, 143.5, "Low oblique shadowed terrain: landing.", "art002e009282"), "Landing at Rim Port: south-polar terrain sliding past below (NASA visualisation)."),
+ "E01-S03-002": (plate("art002e021007", note="Earth disc cut out and placed low in the hall's far window (composite).", fb="art002e021278"), None),
+ "E01-S07-001": (plate("art002e009282", note=STAND, fb="art002e009283"), None),
+ "E01-SB1-001": (plate("art002e012216", note="Act-break bumper, slow push.", fb="art002e012702"), None),
+ "E01-S08-001": (plate(VIPER, 26.0, 28.0, "South-pole terrain, then hold on the last frame (still-frame extension 3.6 s) with a slow push.", "PIA13523"), "The south pole from above (NASA visualisation from LRO data)."),
+ "E01-S08-011": (plate("art002e009282", note="Long hard shadows under a low Sun (Artemis II far-side photograph, not the pole). Slow push across the shadows.", fb="art002e009281"), "Long shadows under a Sun that sits on the horizon (real photograph of lunar terrain)."),
+ "E01-S09-001": (plate(VIPER, 143.5, 150.5, "Low oblique run into shadow.", LEE), "Over the bright terrain, down to where the light ends (NASA visualisation)."),
+ "E01-S15-002": (plate(PSR, 42, 48, "Crater interior in shadow (clean range) inside the frost frame.", "art002m1200970119"), None),
+ "E01-SB2-001": (plate("art002e021219", note="Act-break bumper: Artemis II Earthset still, slow push.", fb="art002e021278"), "Act-break bumper: real Earthset over the lunar limb, photographed by Artemis II."),
+ "E01-S17-001": (plate(LEE, 12, 14.8, "Low oblique run, pushed toward white glare. " + LEE_LABEL, "art002e009284"), "Out of the shadow into glare: sunlit lunar terrain (Apollo 17 area, NASA visualisation)."),
+ "E01-S18-19-005": (plate("art002e009282", note=STAND, fb="art002e009283"), None),
+ "E01-S18-19-009": (plate("art002e009283", note=STAND + " Long window: pan 4% across the still as they walk.", fb="art002e009282"), None),
+ "E01-S21-001": (plate("art002e021278", note="Earth low on the lunar limb, photographed from lunar orbit (not from the surface). Slow push.", fb="art002e021007"), "Earth, low and half-lit on the lunar horizon (real photograph from lunar orbit, Artemis II)."),
+ "E01-S21-002": (plate("art002e021278", note="Earth disc cut from this photo and composited low over the generated horizon at true size (about 2 degrees).", fb="art002e021007"), None),
+ "E01-S21-009": (plate("as08-14-2383", note="Apollo 8 Earthrise, slow push; orbital vantage.", fb="as08-14-2384"), "Earth alone over the lunar horizon (Apollo 8, from lunar orbit)."),
+ "E01-S21-012": (plate("art002e021007", note="Earth low, wide; slow push.", fb="art002e021283"), "Earth, low (Artemis II, from lunar orbit)."),
+ "E01-S21-020": (plate("art002e021278", note="Earth disc composited low over the generated horizon.", fb="art002e021007"), None),
+ "E01-S21-027": (plate("art002e021283", note="Earth peeking over the limb; 1% drift so it 'shifts a hair'.", fb="art002e021219"), "Nothing on the channel. Earth, low, shifts a hair on the horizon (Artemis II photograph)."),
+ "E01-SB3-001": (plate("art002e009212", note="Act-break bumper: full Moon, slow push.", fb="art002e009057"), "Act-break bumper: the real Moon, photographed by Artemis II."),
+ "E01-S24-001": (plate(LEE, 14.8, 16.8, "Speed-ramped 1.3x. " + LEE_LABEL, VIPER), "Lunar terrain racing past (Apollo 17 area, NASA visualisation)."),
+ "E01-S30-002": (plate("art002e021278", note="In the window: Earth low over the grey limb, slow drift down.", fb="art002e021219"), None),
+ "E01-S30-003": (plate("art002e009289", note="Earth sinking behind the limb as a time-lapse of four real stills cross-dissolved (0.75 s each), cropped to the window.", fb="ART-DL-1_2022_325_1209_SHARED_art001m1013251209", seq=["art002e009287", "art002e021283", "art002e021219", "art002e009289"]), "Earth slips below the horizon (four Artemis II photographs as a time-lapse)."),
+ "E01-S30-005": (plate("art002e012216", note="Far side below, slow drift.", fb="art002e012702"), "Silence. The far side's grey below the window (real photograph)."),
+ "E01-S30-007": (plate("art002e009283", note="Window: far side below.", fb="art002e012216"), None),
+ "E01-S30-009": (plate("art002e012702", note="Window: far-side highlands.", fb="art002e009283"), None),
+ "E01-S30-013": (plate("art002e009285", note="Window: far side.", fb="art002e015231"), None),
+ "E01-S30-018": (plate("art002e015231", note="Window: far side.", fb="art002e009285"), None),
+ "E01-S30-019": (plate("art002e009281", note="Terminator and far side below, full frame, slow push.", fb="art002e009283"), "A small silence, for an old man on the Moon: the far side and the terminator (real photograph)."),
+ "E01-S30-021": (plate("art002e009283", note="Window: far side.", fb="art002e012702"), None),
+ "E01-S30-024": (plate("a2_flyby_1min_2160p30", 32, 42, "Far side fully lit, filling the frame (34-41 s), starting to recede.", "art002e009288"), "The far side filling the frame below (NASA visualisation from LRO data)."),
+ "E01-S30-025": (plate("lunarflyby_1min_2160p30", 30, 33.3, "Far-side crescent.", "art002e009281"), "The far side drifting below (NASA visualisation)."),
+ "E01-S30-026": (plate("art002e021296", note="Dark limb with Earth glint, slow push.", fb="art002e009280b"), "'We definitely left him.' The dark limb with a glint of Earth (Artemis II photograph)."),
+ "E01-S31-001": (plate("art002e009282", note=STAND + " Night grade.", fb="art002e009283"), None),
+ "E01-SWWR-001": (plate(VIPER, 4, 13, "Then 20-24 s (two clean ranges joined with a dissolve).", "PIA13523"), "What was real: the south-pole flyover (NASA visualisation from LRO data); credits small at the bottom."),
+ "E01-SWWR-002": (plate(PSR, 42, 48, "Then 91-97 s (two clean ranges).", "PIA13523"), "Permanently shadowed regions (NASA visualisation)."),
+ "E01-SWWR-003": (plate("art002e021283", note="Slow push.", fb="art002e021278"), "Earth from the far side of the Moon (Artemis II photograph)."),
+}
+for _sid in ["E01-S02-003", "E01-S02-004", "E01-S02-005", "E01-S02-006", "E01-S02-007", "E01-S02-008", "E01-S02-011"]:
+    PLATE_PLAN[_sid] = (plate("PIA13523", note="Atlas base map: real LROC south-polar mosaic (shows Shackleton at the pole); crop the caption and grid, desaturate, contour.", fb="PIA00001"), None)
 # ---------------------------------------------------------------- build
 def line_info(spec):
     if isinstance(spec, int):
@@ -1127,11 +1173,17 @@ for i, sh in enumerate(SHOTS):
         if any(k in dsc for k in ("lunar", "pressure suit", "generated", "crater", "apron")) and "cab" not in dsc:
             comp += " NOT REAL FOOTAGE (generated exterior background); log it as such."
     sid = f"E01-S{sh['sc'].replace('–', '-').zfill(2) if sh['sc'][0].isdigit() else sh['sc']}-{sh['n']:03d}"
+    if sh["ft"] and sid not in PLATE_PLAN:
+        raise SystemExit("footage shot without a plate: " + sid)
+    if sid in PLATE_PLAN and PLATE_PLAN[sid][1]:
+        sh["desc"] = PLATE_PLAN[sid][1]
+    if sid in PLATE_PLAN and PLATE_PLAN[sid][0]["id"] == LEE:
+        comp += " " + LEE_LABEL
     rec = OrderedDict(
         id=sid, scene=sh["sc"], act=act, order=i + 1, lines=linfo, duration_s=dur, type=sh["typ"],
         description=sh["desc"], camera=sh["cam"], motion=sh["mot"], characters=chars, needs_mouth_patch=patch_any,
         image_source=src, library_assets=lib,
-        real_footage=repoint(sh["ft"]) if sh["ft"] else "none",
+        real_footage=PLATE_PLAN[sid][0] if sid in PLATE_PLAN else "none",
         frame="16:9 full frame, no letterbox",
         new_image_job=job, layer_plates=layer_ids, new_layer_jobs=layer_new, honesty_label=("NOT REAL FOOTAGE" if "NOT REAL FOOTAGE" in comp else None), compositing=comp, sound=snd, risk=dict(level=sh["risk"][0], reason=sh["risk"][1]))
     rec.update(sh["extra"])

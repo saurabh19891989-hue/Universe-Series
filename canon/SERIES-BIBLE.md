@@ -1,4 +1,8 @@
-# SECRET UNIVERSE — Series Bible v1.0 (draft)
+# UNIVERSE UNDELIVERED — Series Bible v1.0 (draft)
+
+**Names (owner, 27 Nov):** the show is **Universe Undelivered**; the YouTube channel is
+**Legends Overheard**. "Secret Universe" was the working title and survives only in old file
+names and script headers.
 
 Status: showrunner draft, 27 Nov 2026. Replaces v0.1 (`research/v0.1/`). Guest rights and
 location choices are provisional until the character bank and footage audit are reconciled.

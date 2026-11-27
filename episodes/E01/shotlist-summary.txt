@@ -24,7 +24,7 @@ Planned against `script-v3.md` and the table-read timings (`samples/tableread/E0
 
 - **Shots:** 487
 - **Frame:** full 16:9 on every shot, no letterbox (ruling).
-- **Planned running time:** 35:31 (2131 s), under the 36:00 cap. Table read with narration: 31:36; without narration and stings: about 27:03.
+- **Planned running time:** 35:34 (2134 s), under the 36:00 cap. Table read with narration: 31:36; without narration and stings: about 27:03.
 - **Average shot length:** 4.4 s overall.
 
 | Act | Shots | Minutes | Average shot length |
@@ -35,7 +35,7 @@ Planned against `script-v3.md` and the table-read timings (`samples/tableread/E0
 | Act 3 | 104 | 7:26 | 4.3 s |
 | Act 4 | 124 | 8:13 | 4.0 s |
 | Tag | 17 | 0:55 | 3.2 s |
-| What was real | 4 | 0:46 | 11.4 s |
+| What was real | 4 | 0:49 | 12.3 s |
 
 | Type | Shots | Screen time |
 |---|---|---|
@@ -44,7 +44,7 @@ Planned against `script-v3.md` and the table-read timings (`samples/tableread/E0
 | SET_STILL | 121 | 10:17 |
 | DATA_VISUAL | 31 | 1:56 |
 | TWO_SHOT | 24 | 2:06 |
-| REAL_FOOTAGE | 23 | 2:14 |
+| REAL_FOOTAGE | 23 | 2:18 |
 | BLACK | 3 | 0:07 |
 | TITLE | 2 | 0:15 |
 
@@ -106,42 +106,74 @@ Cost at the measured rate (about 55 s per single-reference image, about 130 s fo
 
 Everything else plays on the listener, backs, hands, visors, breath fog, a sandwich, a speaking-disc in the customs glass, a headset boom or the Baron's moustache. All five approved. Temi's patch sits inside a low-frame-rate call window, which hides patch shimmer. Mira's "Courageous" was NOT approved: it now plays on Noakes's hand stopping in mid-air (`E01-S28-008`) and on her back at the console (`E01-S28-009`).
 
-## 4. Real footage
+## 4. Real footage (re-pointed at assets/e01-plates.json)
 
-- Real footage full frame (incl. title and the three act-break bumpers `E01-SB1-001`, `E01-SB2-001`, `E01-SB3-001`, 3.5 s each, verified NASA plates, no dialogue): **2:24**.
-- Real footage inside windows / composites (bridge, office, corridor, cold store, Earth disc over generated horizons): **1:41**.
-- Real imagery as the base of data visuals (Atlas map): **0:17**.
-- Shots labelled NOT REAL FOOTAGE (`honesty_label` field: generated rim road, inn exterior, boulder, gully, apron, lift-off): **0:00**.
-- Everything else is stills and code: **31:09** of picture without any real plate.
+Every REAL_FOOTAGE shot, window composite, Atlas base map and act-break bumper now points at a downloaded, audio-stripped, contact-sheet-checked plate from `assets/e01-plates.json` (local path, exact credit line, kind, in/out seconds for video, a fallback plate). No SVS item is used (SVS files return 403 from this machine). No shot is pending.
 
-The real universe is felt mainly through the bridge window, the opening pole flyover, Earth at the pole, the far side and Earthset in 30, and "What was real". No real photograph exists of the ground at Shackleton's rim, so every rim-road, gully, boulder, apron and lift-off wide is a generated plate (or, if the showrunner prefers, a terrain render from LOLA elevation data, which would need its own asset entry).
+| Use | OBSERVED (camera photographs) | DATA_VIS (rendered from measured data) | Total |
+|---|---|---|---|
+| full frame (incl. title and bumpers) | 1:18 | 1:10 | 2:28 |
+| inside windows / composites | 1:15 | 0:26 | 1:41 |
+| base of data visuals (Atlas map) | 0:00 | 0:17 | 0:17 |
+| **all** | **2:33** | **1:52** | **4:25** |
 
-| Asset id (candidates.json) | What | Credit | Verified | Shots | Seconds | Fallback |
-|---|---|---|---|---|---|---|
-| `Moon Below Orion art001m1013251756` | Flight Day 6: Orion Focuses on Moon | NASA / JSC | yes | 3 | 18 | `art001e000270` (verified) |
-| `art001e000270` | Orion Approaches Moon for Outbound Powered Flyby | NASA / JSC | yes | 1 | 7 | — |
-| `ART-SAW4_2022_325_1305_SHARED_art001m1203251305` | Earth Rise as Seen from Orion Spacecraft | NASA / JSC | yes | 2 | 14 | `art002e016299` (verified) |
-| `SVS-3686/SPflyover_v07_lg.mp4` | LRO/LOLA Lunar South Pole Flyover | Animator: Alex Kekesi, Ernie Wright, Marte Newcomb | **NO** | 5 | 35 | `ARC-20210920-AAV3366-VIPER-LandingSiteAnnouncement-YouTubeHD` (verified) |
-| `PIA12077` | Moon Rugged South Polar Region Composite | NASA/JPL | yes | 14 | 49 | — |
-| `art002e016299` | Earthrise Captured by Orion | NASA / JSC | yes | 3 | 13 | — |
-| `art002e012216` | Across the Moon’s Near Side and Far Side -- art002e012216 | NASA / JSC | yes | 1 | 4 | — |
-| `PIA00001` | South Pole Region of the Moon as Seen by Clementine | NASA/JPL/USGS | yes | 2 | 8 | — |
-| `File:Lunar South Pole Illumination with Earth and Sun (SVS5228).webm` | Lunar South Pole Illumination with Earth and Sun (SVS5228) | NASA's Scientific Visualization Studio - Ernie Wri | **NO** | 5 | 27 | `art002e016299` (verified) |
-| `SVS-4043/shot1_on_1080p30.mp4` | LRO Peers into Permanent Shadows | Animator: Ernie Wright; Producer: Dan Gallagher; S | **NO** | 2 | 20 | `GSFC_20130306_Moons_m11218_Shadowed` (verified) |
-| `art001e001999` | Flight Day 19: Orion Approaches the Moon | NASA / JSC | yes | 1 | 4 | — |
-| `ART-DL-1_2022_325_1209_SHARED_art001m1013251209` | Earthset as Orion Prepares for Outbound Powered Flyby | NASA / JSC | yes | 2 | 12 | `art002e021278` (verified) |
-| `a2_flyby_1min_2160p30` | Simulated Artemis II Lunar Flyby Visualization | NASA's Scientific Visualization Studio/Ernie Wrigh | yes | 8 | 32 | `art002e012216` (verified) |
-| `art002e021283` | Taking a Peek at Earth from the Far Side of the Moon | NASA | yes | 2 | 19 | — |
+- Shots labelled NOT REAL FOOTAGE (generated ground, inn exterior, boulder, gully, apron, lift-off): **2:32**. In two of them (`E01-S21-002`, `E01-S21-020`) a real Earth disc from an Artemis II photo is composited over the generated horizon.
+- The two Apollo 17 shots (`E01-S17-001`, `E01-S24-001`, Lee Lincoln scarp flyover) carry an on-screen lower-third: 'Apollo 17 landing area — NASA visualisation'. They are not Shackleton.
+- Office, corridor and night-hall windows use a real Artemis II photograph of far-side terrain (`art002e009282/009283`) as a stand-in view; noted per shot as not Shackleton.
 
-**Every REAL_FOOTAGE and window shot is marked `pending e01-plates.json`**: that file did not exist at rebuild time. When it appears, rerun the generator; it re-points each shot to the plate's local path, credit and verified flag and keeps the fallbacks. "Verified" in `candidates.json` only means the download URL answered HTTP 200 in the research sweep; **no plate has been viewed**, so every in/out point in the shot list is a proposal to confirm on viewing (and every narrated NASA video needs its audio stripped and a check for burnt-in captions).
+| Plate id | What | Kind | Status | Exact credit line | Shots | Seconds | Local file |
+|---|---|---|---|---|---|---|---|
+| `a2_flyby_1min_2160p30` | Simulated Artemis II Lunar Flyby Visualization | DATA_VIS | USE | NASA's Scientific Visualization Studio/Ernie Wright | 2 | 14 | `a2_flyby_1min_2160p30.mp4` |
+| `art002e009212` | Orientale on Display | OBSERVED | USE | NASA (Artemis II crew photograph; 'Credit: NASA') | 2 | 10 | `art002e009212.jpg` |
+| `lunarflyby_1min_2160p30` | Artemis II Lunar Flyby Visualization for April 1 Launch | DATA_VIS | USE | Ernie Wright, NASA's Scientific Visualization Studio | 2 | 6 | `lunarflyby_1min_2160p30.mp4` |
+| `as08-14-2383` | Apollo 8 Mission image, Earth over the horizon of the m | OBSERVED | USE | NASA (Apollo 8 Hasselblad frame) | 2 | 17 | `as08-14-2383.jpg` |
+| `ARC-20210920-AAV3366-VIPER-LandingSiteAnnouncement-YouTubeHD` | Tour of NASA Moon Rover South Pole Landing Site | DATA_VIS | USE_RANGES_ONLY | NASA's Scientific Visualization Studio (page: 'Video credit: NASA's Scientific Visualization Studio') | 8 | 49 | `ARC-20210920-AAV3366-VIPER-LandingSiteAnnouncement-YouTubeHD.mp4` |
+| `PIA13523` | The Lunar South Pole | DATA_VIS | MARGINAL | NASA/GSFC/Arizona State University | 7 | 17 | `PIA13523.jpg` |
+| `art002e021007` | Earthset Views | OBSERVED | USE | NASA (Artemis II crew photograph; 'Credit: NASA') | 2 | 10 | `art002e021007.jpg` |
+| `art002e009282` | Shadows Across Vavilov Crater | OBSERVED | USE | NASA (Artemis II crew photograph; 'Credit: NASA') | 4 | 24 | `art002e009282.jpg` |
+| `art002e012216` | Across the Moon’s Near Side and Far Side -- art002e0122 | OBSERVED | USE | NASA (Artemis II crew photograph; 'Credit: NASA') | 2 | 6 | `art002e012216.jpg` |
+| `GSFC_20130306_Moons_m11218_Shadowed` | The Moon's Permanently Shadowed Regions | DATA_VIS | USE_RANGES_ONLY | Dan Gallagher, Chris Smith (NASA/GSFC) | 2 | 20 | `GSFC_20130306_Moons_m11218_Shadowed.mp4` |
+| `art002e021219` | Earthset on the Far Side | OBSERVED | USE | NASA (Artemis II crew photograph; 'Credit: NASA') | 1 | 4 | `art002e021219.jpg` |
+| `GSFC_20190513_m4714_Lee_Lincoln_Scarp_Moon_Flyover` | Lee Lincoln Scarp at the Apollo 17 Landing Site | DATA_VIS | USE | David Ladd, Tom Waters, Ernie Wright (NASA/GSFC Scientific Visualization Studio) | 2 | 5 | `GSFC_20190513_m4714_Lee_Lincoln_Scarp_Moon_Flyover.mp4` |
+| `art002e009283` | Ready for a Close Up | OBSERVED | USE | NASA (Artemis II crew photograph; 'Credit: NASA') | 3 | 15 | `art002e009283.jpg` |
+| `art002e021278` | A Breathtaking Earthset from Orion | OBSERVED | USE | NASA (Artemis II crew photograph; 'Credit: NASA') | 4 | 22 | `art002e021278.jpg` |
+| `art002e021283` | Taking a Peek at Earth from the Far Side of the Moon | OBSERVED | USE | NASA (Artemis II crew photograph; 'Credit: NASA') | 2 | 21 | `art002e021283.jpg` |
+| `art002e009289` | A Setting Earth | OBSERVED | USE | NASA (Artemis II crew photograph; 'Credit: NASA') | 1 | 3 | `art002e009289.jpg` |
+| `art002e012702` | Poynting and Keeler Craters on the Lunar Far Side | OBSERVED | USE | NASA (Artemis II crew photograph; 'Credit: NASA') | 1 | 6 | `art002e012702.jpg` |
+| `art002e009285` | The Edge of Two Worlds | OBSERVED | USE | NASA (Artemis II crew photograph; 'Credit: NASA') | 1 | 6 | `art002e009285.jpg` |
+| `art002e015231` | Crescent Earth Over Lunar Horizon | OBSERVED | USE | NASA (Artemis II crew photograph; 'Credit: NASA') | 1 | 2 | `art002e015231.jpg` |
+| `art002e009281` | Shadows at the Edge of Lunar Day | OBSERVED | USE | NASA (Artemis II crew photograph; 'Credit: NASA') | 1 | 3 | `art002e009281.jpg` |
+| `art002e021296` | Hertzsprung in Light and Shadow | OBSERVED | USE | NASA (Artemis II crew photograph; 'Credit: NASA') | 1 | 4 | `art002e021296.jpg` |
 
-**Not yet verified, and what replaces each:**
+Local files are under the session scratchpad `e01/plates/` (see `assets/e01-plates.json` for full paths and hashes); they are not in the repo and must be moved to Drive or the build machine.
 
-- SVS 3686 (LOLA south-pole flyover; scenes 2, 9, 24, WWR) → VIPER landing-site tour (verified; strip narration, check overlays) or a slow push on PIA12077 (verified still).
-- SVS 5228 (Earth and Sun from the pole; 8, 21) → Orion's real photo of Earth (art002e016299, verified) composited over a generated horizon. **The preferred SVS 4944 is not in `candidates.json` at all**: log and verify it first, or rule SVS 5228 in.
-- SVS 4043 (permanent shadow; 15 window, WWR) → "The Moon's Permanently Shadowed Regions" (GSFC_20130306…, verified, narrated: strip audio).
-- SVS 3634 is named only as a fallback route and is not relied on.
-- Moon Below Orion (verified, no stated duration) → art001e000270 still in the window.
+**What the plates cannot cover (and what covers it):**
+- Ground-level view along the Shackleton rim (8, 9, 17, 24, 26, 29): never photographed. Generated ground labelled NOT REAL FOOTAGE; real VIPER-tour and Apollo 17 terrain visualisations only as establishing shots.
+- Shackleton's interior in visible light (26–27): does not exist. Scene plays on black, headlamps (generated) and the laser-map data visual; the cold-store window uses the shadowed-regions visualisation.
+- Earth low on the horizon from the surface (21): only orbital photographs exist (Apollo 8, Artemis II). Used as cutaways and as the Earth disc in composites; the end note now says so.
+- A moving Earthset (30): no clean video. Built as a time-lapse of four Artemis II stills (`art002e009287` > `021283` > `021219` > `009289`).
+- Real Moon in a cockpit window (0, 2): no clean Orion-window video. NASA flyby visualisations (`a2_flyby`, `lunarflyby`) and the VIPER tour fill the windows; one Artemis II full-Moon still.
+- SVS 4944, 4893, 3634, 3686, 4043, 5633: not downloadable here (403). The owner can fetch them from a normal connection; the URLs are in `assets/e01-plates.json`.
+
+### Credits block (copied exactly from assets/e01-plates.md, section 6; draft pending owner sign-off)
+
+**Description block (draft, pending owner sign-off):**
+
+Real space imagery in this episode:
+- Moon and Earth photographs from the Artemis II mission (6 April 2026): NASA.
+- Apollo 8 and Apollo 17 lunar-orbit photographs: NASA.
+- Lunar visualisations built from Lunar Reconnaissance Orbiter data (LRO, LOLA, LROC): NASA's Scientific Visualization Studio; Ernie Wright; David Ladd; Tom Waters; Dan Gallagher; Chris Smith; NASA Goddard Space Flight Center.
+- South-polar terrain tour: NASA's Scientific Visualization Studio.
+- Moon and Earth images from the Lunar Reconnaissance Orbiter Camera: NASA/Goddard/Arizona State University.
+- Milky Way panorama: ESO/S. Brunier (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+- Artemis I Orion camera footage: NASA.
+All NASA material is used under NASA's media guidelines; NASA does not endorse this production. The characters, story and score are fiction. Lunar surface views of the south pole are visualisations from measured data, not photographs.
+
+**End-note (WWR) small-print version:** "Imagery: NASA (Artemis I, II; Apollo 8, 17; LRO/LROC/LOLA; Scientific Visualization Studio) and ESO/S. Brunier (CC BY 4.0). Surface views are data visualisations. Not endorsed by NASA or ESO."
+
+Per-plate credit lines for the plates actually used are in the plate table above (field `credit_line`, exact wording).
+
+Note on the block: this plan uses no ESO Milky Way panorama and no Artemis I footage, so those two lines drop out of the final credits unless a later cut adds them. Plates used: Artemis II stills, Apollo 8 stills, the VIPER south-pole tour, the shadowed-regions clip, the a2_flyby and lunarflyby visualisations, the Lee Lincoln (Apollo 17) flyover and the PIA13523 LROC polar mosaic.
 
 ## 5. Per scene: planned against the table read
 
@@ -182,9 +214,9 @@ The real universe is felt mainly through the bridge window, the opening pole fly
 | 29 | 23 | 1:33 | 0:58 | +35 s | 4.1 s | 13.5 s hatchet arc (M11 silence), lift-off wide |
 | 30 | 26 | 1:46 | 1:20 | +25 s | 4.1 s | Earthset, long silences, report hold |
 | 31 | 17 | 0:55 | 0:32 | +23 s | 3.2 s | grace notes, knocks, warrant settle |
-| WWR | 3 | 0:41 | 0:35 | +5 s | 13.5 s | 2.5 s reserved for the added sentence |
+| WWR | 3 | 0:44 | 0:35 | +9 s | 14.7 s | 2.5 s reserved for the added sentence |
 | END | 1 | 0:05 | — | — | 5.0 s | breathing between lines |
-| **Total** | 487 | **35:31** | 27:03 | +508 s | 4.4 s | |
+| **Total** | 487 | **35:34** | 27:03 | +511 s | 4.4 s | |
 
 ## 6. The ten riskiest shots and how to de-risk them
 
@@ -196,16 +228,19 @@ The real universe is felt mainly through the bridge window, the opening pole fly
 | 4 | `E01-S09-003/005` four suits at the iron door | Four plates on one generated exterior; Lucía's suit reference is still missing. | Make the Lucía suit reference first (request 5); keep visors reflective; match sun direction from frame left. |
 | 5 | `E01-S23-002/005` the leap | Two plates must read as one lift. | Push both toward silhouette against the corridor backlight; place the Baron plate on Lucía's raised hands; hands hidden in black. |
 | 6 | Every set window: `E01-S00-003`, `E01-S07-001`, `E01-S18-19-009`, `E01-S15-002`, `E01-S30-002` and the hall wides | The generator may not leave windows pure black; `composite_window.py` has one hard-coded polygon for one test image; the hall master has a fake planet (request 1). | Generalise the composite tool: one window-mask file per set master, reused for every crop. Reject any still whose window is not near-black (pixel check). |
-| 7 | All REAL_FOOTAGE and window shots | `assets/e01-plates.json` did not exist at rebuild; no plate has been viewed; narrated NASA clips may carry captions or logos. | Rerun the generator when the file lands; it re-points shots and keeps fallbacks. The plates agent checks logos and burnt-in text and writes exact in/out seconds. |
+| 7 | VIPER tour shots (`E01-S02-001`, `S02-002/012/017`, `S03-001`, `S08-001`, `S09-001`, `WWR-001`) and the shadowed-regions clip | Only short clean ranges exist (labels, logos and rover renders elsewhere); range boundaries were sampled, not played end to end. | Cut strictly inside the ranges in `e01-plates.json` (4–13, 20–28, 136–152 s; 42–48, 91–97 s), play each range once before locking, grade out the faint graticule. |
 | 8 | `E01-S24-007` hang-time jump (8 s) and `E01-S29-005` hatchet arc (13.5 s) | Long holds can read as a frozen frame, or vanish at phone size. | Animate in code on true one-sixth-g arcs; spinning wheels and dust on the jump; highlight trail and one spin on the hatchet; test-render at 360p before the cut. The arc is timed to M11's silence (10.0–22.0 s). |
 | 9 | The 35 shots labelled NOT REAL FOOTAGE (about 2.5 min) | A viewer could take generated exteriors for NASA footage. | `honesty_label` on every such shot; never butt generated directly against real; the end note now says "The landscapes on the rim are illustrations." Earth drawn at true size (about 2 degrees). |
+| 10b | Apollo 17 stand-in (`E01-S17-001`, `E01-S24-001`) and far-side windows | Real terrain from the wrong place could be read as Shackleton. | On-screen lower-third on the Apollo 17 shots; window stand-ins noted per shot; end note says some views are visualisations of the Apollo 17 valley. |
 | 10 | Mira and Lucía (in 63+ jobs) | New younger masters are with the owner for approval. | Planned against them now. If the owner changes either face, every job citing that master regenerates; run priority-1 jobs without Mira/Lucía first. |
 
 Also: push-ins over about 15% and eyes-only crops need upscaling from the 1672-wide originals (`upscale_cutout.py`), which can soften faces.
 
 ## 7. Staging notes that cannot be done as written, and what was done instead
 
-- **2 and 21, "prefer NASA SVS 4944".** Not in `candidates.json`; the plates agent is testing it. Current choices: SVS 3686 (2) and SVS 5228 (8, 21), marked pending `e01-plates.json`, with verified fallbacks.
+- **2 and 21, "prefer NASA SVS 4944".** SVS files cannot be downloaded from this machine (403). Scene 2 uses the VIPER south-pole tour (clean ranges); scene 21's Earth uses real orbital photographs (Artemis II `art002e021278`, `art002e021007`, `art002e021283`; Apollo 8 `as08-14-2383`), and the Earth behind the two figures is a disc cut from `art002e021278`, composited. If the owner fetches SVS 4944 from a normal connection, it can replace the 21 cutaways.
+- **30, "Earth sinking behind the grey limb" as motion.** No clean moving Earthset exists. Built as a time-lapse of four Artemis II stills; the far side below the window uses Artemis II far-side stills with slow drifts.
+- **0 and 2, the real Moon in the window.** No clean Orion-window video (the Orion clips were rejected for hardware and logos). The windows use the a2_flyby / lunarflyby visualisations, the VIPER tour and the Artemis II full-Moon still `art002e009212`.
 - **8, 9, 21, 24, 26, 29, exterior wides.** No ground-level rim photograph exists. Generated ground, labelled NOT REAL FOOTAGE (ruling: accepted). Each of these scenes opens on a real plate first.
 - **28, Mira's "Courageous".** Per ruling: no patch. Noakes's hand stopping in mid-air carries the beat before it; her line plays on her back at the console; her last line on her back walking away (as written).
 - **4, Noakes "never a speaking face".** His lines play over a soft, dim monitor reflection cut at the chin. If it reads as a speaking face, the lines move to Mira's hand on the notebook.
@@ -213,7 +248,7 @@ Also: push-ins over about 15% and eyes-only crops need upscaling from the 1672-w
 - **8, "one profile of Mira writing".** Played as the notebook insert only (profiles drift).
 - **15, "her bare eye for the first time".** Every earlier Mira face is through glass, mesh, cabinet glass, a reflection or the loupe; in 22 she is behind the desk glass, so 28 stays "the first time with nothing between her and the camera".
 - **27, "three frost stills".** One heavy-frost still revealed in three stages by an animated mask.
-- **What was real.** The sentence "The landscapes on the rim are illustrations." is in the shot list's `on_screen_text` / `credits_text` fields (`E01-SWWR-001`, `E01-SWWR-003`), with a `script_flag` asking for it in the script. `script-v3.md` was not edited. 2.5 s are reserved in case PIP speaks it.
+- **What was real (corrected after the plates audit).** "Earth on the horizon is a composite" no longer covers what is on screen: the Earth cutaways in 21 and 30 are real orbital photographs, and only the Earth behind the characters is a composite. Proposed end-note wording (in `on_screen_text` of `E01-SWWR-001/003`, with a `script_flag`; `script-v3.md` not edited): "…Every person you saw was made digitally. Earth over the lunar horizon was photographed from lunar orbit, by Apollo 8 and Artemis II; behind our characters it is a composite. The landscapes on the rim are illustrations, and some views are NASA visualisations, one of them of the Apollo 17 valley, not this crater. The Baron has asked me to say that he is not…" 6 s are reserved in case PIP speaks the longer version. Everything else in the end note still holds (Shackleton seen faintly from orbit and mapped by laser; one-sixth gravity; 1.3 s each way; no air, no sound).
 
 ## 8. Data visuals to build in code
 
@@ -233,7 +268,7 @@ Also in code: engine readouts, the job card with a blank fee, the cargo-camera f
 ## 9. Rulings applied (showrunner, 27 Nov)
 
 1. Generated exteriors accepted and labelled NOT REAL FOOTAGE; end-note sentence added in the shot list and flagged for the script.
-2. Plates: `assets/e01-plates.json` not present at rebuild; all footage shots marked `pending e01-plates.json`; the generator re-points them when the file exists.
+2. Plates: every footage, window, Atlas and bumper shot now points at `assets/e01-plates.json` (local path, exact credit, kind, in/out, fallback); no SVS item is used; no pending markers remain. No new generated substitutes were needed: every SVS-dependent shot was covered by a downloaded plate (VIPER tour, shadowed-regions clip, Artemis II and Apollo 8 stills, Apollo 17 flyover); the ground-level exteriors were already generated and labelled.
 3. Five mouth patches approved; Mira's restaged on Noakes's hand and her back.
 4. Library requests listed in section 0.
 5. Speaking-disc kept.
@@ -244,7 +279,8 @@ Also in code: engine readouts, the job card with a blank fee, the cargo-camera f
 
 ## 10. Still blocked
 
-- `assets/e01-plates.json` (plates agent): every real-footage and window shot waits on it.
+- Plate files live only in the session scratchpad (`e01/plates/`); they must be moved to Drive or the build machine before the scratchpad is cleared.
+- Optional upgrade: the owner fetches SVS 4944 / 4893 / 3634 from a normal connection (403 here).
 - Library: 5 requests in section 0 to do, plus the sets and props not yet on disk (hold, desk, cage, office, corridor, console, board, post-chaise and cab, inn exterior, parlour, cold store, apron, and the parcel, hatchet, post horn, trunk, inlaid box, stamp and padlock masters).
 - Owner approval of the Mira and Lucía masters.
 - Composer cue sheet: `samples/e01/music/cues.json` lists only M11 so far; the other cue timings are mapped by title only.

@@ -2540,5 +2540,13 @@
   "weekly_used_percent": 99,
   "weekly_resets_at": "2026-12-02 17:30 UTC",
   "stopped_during": "Mira/Lucia new-master ref sets (4 of 13 done)"
+ },
+ {
+  "read_at": "2026-11-27T16:37:51Z",
+  "source": "rollout-2026-11-27T16-31-56-01a21dd9-6553-7b52-b334-4f09ecef7764.jsonl",
+  "five_hour": null,
+  "weekly": null,
+  "type": "allowance_check",
+  "label": "resume after owner reset"
  }
 ]

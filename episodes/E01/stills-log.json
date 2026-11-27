@@ -2084,6 +2084,17 @@
    "five_hour_resets": "2026-11-27 19:25 UTC",
    "weekly_used_percent": 99.0,
    "weekly_resets": "2026-12-02 17:30 UTC"
+  },
+  {
+   "read_at": "2026-11-27T16:38:01Z",
+   "label": "resume after owner reset",
+   "source": "rollout-2026-11-27T16-31-56-01a21dd9-6553-7b52-b334-4f09ecef7764.jsonl",
+   "source_mtime": "16:32:47Z",
+   "newer_rollouts_without_reading": 0,
+   "five_hour_used_percent": 99.0,
+   "five_hour_resets": "2026-11-27 19:25 UTC",
+   "weekly_used_percent": 99.0,
+   "weekly_resets": "2026-12-02 17:30 UTC"
   }
  ],
  "ref_substitutions": {

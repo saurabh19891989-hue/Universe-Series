@@ -1,4 +1,4 @@
-"""Visual 11 (Mira's laser map, built from real LRO LOLA elevation data) and 13 (title cards)."""
+"""Visual 11 (Mira's laser map, real LRO LOLA elevation data) and 13 (title cards, channel ident)."""
 import os, math, urllib.request
 import numpy as np
 import cv2
@@ -340,23 +340,28 @@ GOLD = (226, 205, 160)
 SILVER = (222, 228, 236)
 
 
-def titles():
+def titles(main=("UNIVERSE", "UNDELIVERED"), channel="LEGENDS OVERHEARD", episode="The Parcel Nobody Ordered"):
     cl = []
     # ---- Option A: classical (Cinzel + Cormorant Garamond Italic)
-    A_main = [("SECRET", "cinzel", 200, 600, 430, 46, GOLD), ("UNIVERSE", "cinzel", 200, 600, 650, 46, GOLD),
-              ("—  ✦  —", "cormorant", 52, 500, 805, 10, mul(GOLD, 0.8))]
-    A_main = [("SECRET UNIVERSE", "cinzel", 170, 600, 500, 40, GOLD),
-              ("—   ✦   —", "cormorant", 56, 500, 650, 6, mul(GOLD, 0.75))]
+    A_main = [(main[0], "cinzel", 190, 600, 430, 40, GOLD), (main[1], "cinzel", 190, 600, 650, 40, GOLD),
+              ("\u2014    \u00b7    \u2014", "cormorant", 60, 500, 830, 4, mul(GOLD, 0.75))]
     cl.append(_title_clip("13a_title_main_optionA_cinzel", 10.0, A_main, (255, 240, 200)))
     A_ep = [("EPISODE ONE", "cinzel", 44, 500, 440, 28, mul(GOLD, 0.8)),
-            ("The Parcel Nobody Ordered", "cormorant-i", 150, 500, 570, 2, (236, 226, 204))]
+            (episode, "cormorant-i", 150, 500, 570, 2, (236, 226, 204))]
     cl.append(_title_clip("13b_episode_card_optionA_cormorant", 8.0, A_ep, (255, 246, 220), fade=(0.5, 2.0, 6.8, 8.0),
                           sweep_t=(2.2, 6.0), zoom=0.03))
     # ---- Option B: modern (Jost light, wide tracking)
-    B_main = [("SECRET", "jost", 168, 300, 420, 70, SILVER), ("UNIVERSE", "jost", 168, 300, 625, 70, SILVER)]
+    B_main = [(main[0], "jost", 168, 300, 420, 70, SILVER), (main[1], "jost", 168, 300, 625, 70, SILVER)]
     cl.append(_title_clip("13c_title_main_optionB_jost", 10.0, B_main, (215, 235, 255), sweep_dir=(1, 0.0)))
     B_ep = [("EPISODE 1", "jost", 40, 400, 450, 34, mul(SILVER, 0.7)),
-            ("THE PARCEL NOBODY ORDERED", "jost", 74, 300, 570, 16, SILVER)]
+            (episode.upper(), "jost", 74, 300, 570, 16, SILVER)]
     cl.append(_title_clip("13d_episode_card_optionB_jost", 8.0, B_ep, (215, 235, 255), sweep_dir=(1, 0.0),
                           fade=(0.5, 2.0, 6.8, 8.0), sweep_t=(2.2, 6.0), zoom=0.03))
+    # ---- channel ident, 3 s
+    ID_A = [(channel, "cinzel", 84, 500, 540, 30, GOLD)]
+    cl.append(_title_clip("13e_channel_ident_optionA_cinzel", 3.0, ID_A, (255, 240, 200),
+                          fade=(0.3, 1.0, 2.2, 3.0), sweep_t=(0.6, 2.4), zoom=0.015))
+    ID_B = [(channel, "jost", 70, 300, 540, 34, SILVER)]
+    cl.append(_title_clip("13f_channel_ident_optionB_jost", 3.0, ID_B, (215, 235, 255), sweep_dir=(1, 0.0),
+                          fade=(0.3, 1.0, 2.2, 3.0), sweep_t=(0.6, 2.4), zoom=0.015))
     return cl

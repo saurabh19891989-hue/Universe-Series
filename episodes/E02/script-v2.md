@@ -149,9 +149,8 @@ INSERT: Temi's call window flickers awake, smiling, in pieces.
           to make a very large payment—
 
                          PIP
-          She cannot hear you, Captain. That is
-          rather the point of the next ninety
-          seconds.
+          She cannot hear you. That is rather
+          the point.
 
 Three small, polite knocks from somewhere below.
 
@@ -230,13 +229,7 @@ bright eyes above it.
 
                          BARON
           Señorita. You carried me up the ramp.
-
-                         LUCÍA
-          I did?
-
-                         BARON
-          Beautifully. I have never been lifted
-          with such feeling.
+          Beautifully.
 
 He unfolds out of the trunk, a joint at a time: coatless,
 bareheaded, lace cuffs, patched pressure suit. Jax in the hatch.
@@ -328,20 +321,8 @@ over a pressure suit, visor down, dusting, in a vacuum.
 
                          ASTOLFO
           Crowns. Old empires. Lost their names
-          and kept the noise.
-
-                         MIRA
-          There's no air out here.
-
-                         ASTOLFO
-          That's why we keep them outside.
-          Indoors they're unbearable.
-
-                         MIRA
-          And all this is—
-
-                         ASTOLFO
-          Everything Earth loses comes here.
+          and kept the noise. Everything Earth
+          loses comes here.
           Time, vows, reputations, wits.
           Everything except madness. Madness
           never leaves Earth.
@@ -403,14 +384,8 @@ INSERT: AIR — 29%.
                          LUCÍA (O.S.)
                     (radio, inside the intake)
           Half the recycler's gone. The bank
-          took the good half.
-
-                         JAX
-          Can you fix it?
-
-                         LUCÍA (O.S.)
-          With parts. Nobody sells parts out
-          here.
+          took the good half. Nobody sells
+          parts out here.
 
                          JAX
           Then we buy air.
@@ -457,8 +432,7 @@ LOCATION: NONE. STATUS: UNSENT. NO SIGNAL.
 
                          PIP (V.O.)
           Then I shall file it under nowhere.
-          Unsent. I'm talking to myself out
-          here. It's very poor company.
+          Unsent.
 
 INSERT: the watch goes into Jax's glove. The glove closes.
 
@@ -529,20 +503,13 @@ Jax steps forward. Selling.
 
                          JAX
           Your Highness. Jax Vale. He's told us
-          all about you. Princess of the Moon,
+          about you. Princess of the Moon,
           carried off by—
 
                          KAGUYA
           He tells people that. I wasn't
           carried. I left. I'd finished my
           letter.
-
-                         BARON
-          It was a very long letter.
-
-                         KAGUYA
-          It was a very long goodbye. You
-          weren't born.
 
                          BARON
           I was there in spirit.
@@ -561,15 +528,6 @@ Jax steps forward. Selling.
 
 INSERT: Mira's eye behind her loupe, on a flask label. LOST WITS —
 A MAGISTRATE OF PADUA.
-
-                         MIRA
-                    (under her breath)
-          These are labelled.
-
-                         ASTOLFO
-          Everything's labelled. I'm on the
-          third shelf. Somewhere. I keep moving
-          myself.
 
                          JAX
           Your Highness, we need three things.
@@ -630,9 +588,9 @@ The fan rises. The eyes are gone.
 
                          PIP (V.O.)
                     (from Jax's wrist)
-          Your Highness, forgive me. Is this a
-          lost-property office? Because if so,
-          it is unlicensed, and I'm obliged to—
+          Your Highness. Is this a lost-property
+          office? Because if so, it is
+          unlicensed, and I'm obliged to—
 
                          KAGUYA
           It is. It isn't. File whatever you
@@ -698,14 +656,8 @@ below them.
           At local sunset, in forty hours, my
           warrant to hold the relay expires, and
           it returns to civilian traffic. First
-          in the queue is your bank.
-
-                         MIRA
-                    (quietly)
-          And then two weeks of night.
-
-                         ARAKAWA (V.O.)
-          Then the lunar night. I do not need to
+          in the queue is your bank. Then two
+          weeks of lunar night. I do not need to
           come down, Captain. The night will
           come down. I would rather you came up.
 
@@ -744,13 +696,12 @@ INSERT (STEADFAST): her hand flat on the console. Done.
           That is the worst kind.
 
                          JAX
-          Lucía. How long does the ship last in
-          the dark?
+          Lucía. How long do we last in the
+          dark?
 
                          LUCÍA
                     (radio)
-          On half a recycler and one engine? Ask
-          me in Celsius.
+          On half a recycler? Ask me in Celsius.
 
                          JAX
           In hours.
@@ -759,10 +710,11 @@ INSERT (STEADFAST): her hand flat on the console. Done.
           Not two weeks.
 ```
 
-### 6 · THE KEEPING HOUSE STEPS
+### 6 · THE KEEPING HOUSE STEPS — A CALL
 **Thread:** B/C · **Target:** T6 s · **Visual:** PHOTOREAL SET STILL / INSERT / REAL FOOTAGE WIDE
-**STAGING:** Continuous on the sunlit steps. Seo is radio only. Lucía's folded arms and ribbon are
-an INSERT. Suits and visors throughout.
+**STAGING:** Continuous on the sunlit steps, cut straight on from 5 with no new establishing shot
+(draft 2 plays it as the tail of 5; it keeps its number so the scene count matches the outline).
+Seo is radio only. Lucía's folded arms and ribbon are an INSERT. Suits and visors throughout.
 
 ```
 EXT. THE KEEPING HOUSE — THE STEPS — CONTINUOUS
@@ -793,19 +745,6 @@ INSERT: Lucía's arms folded, the ribbon tight on her wrist.
 
                          LUCÍA
           People in a hurry say "no hurry".
-
-                         JAX
-          And people in no hurry?
-
-                         LUCÍA
-          Don't call.
-
-                         MIRA
-          So which is she?
-
-                         LUCÍA
-          The third kind. The kind who calls
-          the right ship.
 ```
 
 ### 7 · SEO'S WRECKED SHUTTLE
@@ -825,9 +764,6 @@ INT. SEO'S SHUTTLE — CONTINUOUS
 Tilted. Quiet. HAN SEO-YEON sits in the pilot's seat in a scuffed
 flight helmet, gloved hands resting on the dead column, doing
 nothing at all, very calmly. Jax and Lucía at the hatch.
-
-                         SEO
-          Thank you for coming.
 
                          JAX
           You seem very relaxed for someone with
@@ -877,7 +813,7 @@ hatch, at their ship on the ridge. At the line of the horizon
 behind it.
 
                          SEO (CONT'D)
-          Is that yours? On the ridge?
+          That ship on the ridge. Yours?
 
                          JAX
           Why?
@@ -893,14 +829,9 @@ behind it.
                          SEO
           I've been sitting here two days
           watching it peep. It's very regular.
-          Like a cat at a window.
-
-                         LUCÍA
-          Two days watching Earth?
-
-                         SEO
-          There's nothing else on. Nothing from
-          Earth reaches the radio out here. Best
+          Like a cat at a window. There's
+          nothing else on. Nothing from Earth
+          reaches the radio out here. Best
           silence there is.
 ```
 
@@ -1054,22 +985,6 @@ A pause behind the blind.
                          KAGUYA
           ...I like her.
 
-                         JAX
-          What about him?
-
-The Baron looks very interested in the ceiling.
-
-                         KAGUYA
-          I tested Hieronymus in seventeen
-          eighty-six. He brought me his own lost
-          hatchet, as a present.
-
-                         BARON
-          It was a very good hatchet.
-
-                         KAGUYA
-          He took it home with him.
-
                          MIRA
           What happens if we fail?
 
@@ -1115,11 +1030,8 @@ PIP's lens brightens. And brightens.
 
 INSERT: PIP's screen. REPORT #1,210 — RE: EVERYONE. UNSENT.
 
-                         ASTOLFO
-          On whom?
-
-                         PIP
-          Everyone. These are all stamped, Sir
+                         PIP (CONT'D)
+          These are all stamped, Sir
           Astolfo. Somebody paid for every one
           of these to arrive.
 
@@ -1148,9 +1060,8 @@ INSERT: a gauntlet holds up an old postal invoice. CARRIAGE ACCOUNT.
 NEXT FORWARDING OFFICE: LA MANCHA STATION, MARS.
 
                          PIP (CONT'D)
-          That is our parcel's invoice. Lost by
-          the courier before last. It has a next
-          address.
+          That is our parcel's invoice. It has a
+          next address.
 
                          ASTOLFO
           Is that good?
@@ -1208,11 +1119,7 @@ Lucía turns.
 
                          JAX
           Do what?
-
-                         LUCÍA
-          The screwdriver.
-
-                         JAX
+                    (he looks round; sees it)
           Oh. Darts.
 
                          LUCÍA
@@ -1247,9 +1154,8 @@ INSERT: the Baron's eyes, above the moustache. Noticing.
           Did you ever fall in?
 
                          BARON
-          Constantly. Swamps, rivers, a whale.
-          The trick is to climb out with an
-          anecdote.
+          Constantly. The trick is to climb out
+          with an anecdote.
 
                          JAX
           Lucha. Silver roots. Gold trunk. White
@@ -1443,9 +1349,8 @@ fruit. It is beautiful.
           Tell me.
 
                          JAX
-          We flew to the Peak of Eternal Light,
-          where the Sun never quite sets. A storm
-          came off the rim. Not a storm of wind.
+          We flew to the Peak of Eternal Light.
+          A storm came off the rim. Not a storm of wind.
           A storm of light.
 
 INSERT: the fan behind the blind, opening slowly. Delighted.
@@ -1484,13 +1389,8 @@ Silence behind the blind. Then:
 The door opens. Lucía, a sheet of paper in her hand.
 
                          LUCÍA
-          Sorry. Is this where I hand it in?
-
-                         KAGUYA
-          Hand what in?
-
-                         LUCÍA
-          The invoice.
+          Sorry. Is this where I hand in the
+          invoice?
 
 INSERT: the invoice in Lucía's grease-black hand. She reads it.
 
@@ -1606,14 +1506,8 @@ notebook. The heap she mapped an hour ago is not the heap in front
 of her.
 
                          MIRA
-          It moved.
-
-                         JAX
-          Heaps move.
-
-                         MIRA
-          This one grew. Something new got lost
-          while I was drawing.
+          It moved. Something new got lost while
+          I was drawing.
 
 She turns to a low shelf. Stops.
 
@@ -1808,8 +1702,8 @@ bright Valley. Mira behind him, notebook under her arm.
           before."
 
                          JAX
-          It's a riddle. Old ladies love a
-          riddle. My grandmother did riddles.
+          It's a riddle. My grandmother did
+          riddles.
 
                          MIRA
           You don't know if you had a
@@ -1847,9 +1741,6 @@ A long beat. She closes the notebook.
 
                          MIRA
           Yes.
-
-                         JAX
-          Thank you.
 
 He goes. She stays. Opens the notebook again.
 
@@ -1973,9 +1864,8 @@ The robe in its open box. Jax, Mira, Lucía. PIP on Jax's wrist.
                          KAGUYA
           Your Directorate has never found
           anyone. It finds what people want.
-          Their home port. Their owner. Their
-          debts. Want nothing, and there is
-          nothing to find you by.
+          Want nothing, and there is nothing to
+          find you by.
 
 INSERT: Mira's pencil, moving.
 
@@ -2021,13 +1911,6 @@ INSERT: the amber lens on Jax's wrist. It dims, a little.
           It doesn't take your life. It takes
           what your life was for.
 
-                         LUCÍA
-          Then it's a no.
-
-                         KAGUYA
-          It's an offer. I make them. People
-          decide.
-
                          JAX
           What did it take from you?
 
@@ -2052,13 +1935,7 @@ mailsack where Astolfo left him. Everyone around him.
 INSERT: Jax's wrist. SUNSET — 03:40:00.
 
                          LUCÍA
-          No.
-
-                         JAX
-          We haven't—
-
-                         LUCÍA
-          We're not wiping PIP.
+          No. We're not wiping PIP.
 
                          MIRA
           Then put it on me.
@@ -2099,13 +1976,6 @@ She turns to the sorting bench.
 
                          SEO
           It isn't my ship.
-
-                         LUCÍA
-          Funny. You fly it like it is.
-
-                         SEO
-          I fly everything like it's mine. It's
-          the only way it comes back.
 
                          PIP
           May I.
@@ -2207,13 +2077,6 @@ He says nothing. That's an answer.
                     (lightly)
           Men are so dramatic.
 
-                         JAX
-          Sounds like he meant it.
-
-                         KAGUYA
-          They always mean it. That's what makes
-          it dramatic.
-
 A faint crackle on Jax's receiver.
 
 INSERT: the dial on his suit. Very far away, under the static, a
@@ -2275,13 +2138,8 @@ The Baron stands before the blind. Astolfo with his duster. Jax by
 the door. The Baron's moustache is white again, his lace bright.
 
                          KAGUYA
-          You're staying.
-
-                         BARON
-          How did you know?
-
-                         KAGUYA
-          Your moustache. Nothing fades here.
+          You're staying. Your moustache told
+          me. Nothing fades here.
 
                          BARON
           I have never stayed anywhere in my
@@ -2289,13 +2147,8 @@ the door. The Baron's moustache is white again, his lace bright.
           wife.
 
                          ASTOLFO
-          You stayed at my card table.
-
-                         BARON
-          I was winning.
-
-                         ASTOLFO
-          You were cheating.
+          You stayed at my card table. Till
+          you'd won my horn.
 
                          BARON
           I was exaggerating my hand.
@@ -2316,9 +2169,8 @@ handkerchief.
 
                          BARON
           I found something of yours. In the
-          chaff, on the big heap. Everything
-          there shines like silver. It took me
-          an hour to see it.
+          chaff, on the big heap, where
+          everything shines like silver.
 
 INSERT: the lace falls open. The silver hatchet. Dented.
 
@@ -2347,9 +2199,7 @@ INSERT: the lace falls open. The silver hatchet. Dented.
           Comfort is the other robe, Hieronymus.
           Mind it doesn't make you forget.
 
-                         BARON
-          I have never been comfortable in my
-          life. I shan't start now.
+The Baron, who has an answer for everything, has none for that.
 ```
 
 ### 23 · THE DEAD-LETTER VAULT — THE ROBE
@@ -2563,14 +2413,9 @@ Moon's near face and writes EARTH SEES. The far face: SHE SEES.
           I know. I had one in my glove.
 
                          KAGUYA
-          I'll pay it. You'll owe me.
-
-                         JAX
-          Owe you what?
-
-                         KAGUYA
-          One impossible task. I'll name it when
-          I like.
+          I'll pay it. You'll owe me one
+          impossible task. I'll name it when I
+          like.
 
                          JAX
           Done.
@@ -2579,13 +2424,11 @@ Moon's near face and writes EARTH SEES. The far face: SHE SEES.
           You didn't ask what it was.
 
                          JAX
-          She said it's impossible. What's to
-          ask?
+          It's impossible. What's to ask?
 
                          MIRA
                     (to Seo)
-          Low, at sunset. There'll be no light
-          down there.
+          There'll be no light down there.
 
                          SEO
           There's a laser map of every metre of
@@ -2779,8 +2622,6 @@ step of the Keeping House. Jax at the foot of the ship's ramp.
 
                          BARON
           I am mostly books. Read me sometime.
-          And send your invoice to the Moon,
-          Señorita. I'll see it's framed.
 
                          KAGUYA
                     (radio, from the doorway)
@@ -2793,21 +2634,11 @@ step of the Keeping House. Jax at the foot of the ship's ramp.
                          KAGUYA
           It'll be impossible.
 
-                         ASTOLFO
-                    (holding up a flask)
-          I've got his wits here, in case.
-                    (checking the label)
-          No. Mine. For safekeeping.
-
                          BARON
           I said I'd come by cannonball. I meant
           it. Keep the hatchet sharp. It's my
           landing light.
-
-                         JAX
-          I'll keep it sharp.
-
-                         BARON
+                    (a beat)
           And Captain. Stop leaving places
           before they've finished with you.
 
@@ -2905,19 +2736,8 @@ Two seconds of engine noise on the open channel. Then:
                          ARAKAWA (V.O.)
           It is not sweet. It is paperwork.
 
-                         LUCÍA (V.O.)
-          Seo! The left mount's going!
-
-                         SEO
-          How long?
-
-                         LUCÍA (V.O.)
-          Long enough if you stop asking!
-
                          MIRA
-          Ridge. Up. Then down hard. The laser
-          says that valley's deeper than it
-          looks.
+          Ridge. Up. Then down hard.
 
 INSERT: Seo's gloved hands. Steady.
 
@@ -3058,13 +2878,7 @@ Jax turns to Mira, beside him.
           Captain. Where do you want her?
 
                          JAX
-          Mars. Gently.
-
-                         SEO
-          I don't do gently.
-
-                         JAX
-          Neither does Mars.
+          Mars.
 
 In the pilot's seat, Seo flies, helmet on, as if she had always
 been there.

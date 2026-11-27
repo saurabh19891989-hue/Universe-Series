@@ -1,4 +1,6 @@
-# Secret Universe — project rules
+# Universe Undelivered (channel: Legends Overheard) — project rules
+
+Working title was "Secret Universe"; older files still use it.
 
 Original YouTube fiction series. Real space footage is the set; the story, characters and
 score are ours. 30–40 minute episodes; first test is Season 1 = 10 episodes.

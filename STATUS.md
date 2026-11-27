@@ -159,6 +159,16 @@ Last updated: 2026-11-27 (session 1)
   which jobs remain). Library so far: 91 accepted images; steps 1–5 done; Idris, Voss, Cass
   PROPOSED (need owner approval; Idris looks too close to Jax); 13 bright set versions made.
 
+- NAMES DECIDED (27 Nov): channel **Legends Overheard**, show **Universe Undelivered**. Title
+  card being remade. Owner is creating the YouTube channel with another agent
+  (`production/prompts/PROMPT-youtube-channel-agent.md`) and starting a laptop bridge session
+  (`production/prompts/PROMPT-laptop-bridge-session.md`) that will message this session.
+  Do NOT call request_computer_folder: it would cut this session's link to the owner's other
+  sessions, and the laptop offers no folder to cloud sessions anyway.
+- Codex allowance reset by the owner (27 Nov, ~16:50 UTC); library builder and stills runner resumed.
+- Episode 1 NASA plates: 34 usable (7 videos, 27 stills) in scratchpad `e01/plates/`, manifest
+  `assets/e01-plates.json`; 8 SVS items blocked (403) — to be fetched by the laptop bridge.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|
