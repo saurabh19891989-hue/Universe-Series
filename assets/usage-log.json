@@ -2974,5 +2974,101 @@
   },
   "type": "allowance_check",
   "label": "after fixes batch"
+ },
+ {
+  "time": "2026-11-27T16:51:31",
+  "type": "run",
+  "purpose": "Arakawa candidate 1 (new face)",
+  "job": "arakawa-a",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/arakawa-a/arakawa-c1.png",
+  "file": null,
+  "refs": [],
+  "seconds": 48.7,
+  "tokens": 6051,
+  "status": "rejected",
+  "note": "REJECT: again drifts toward a well-known real actress (likeness rule)",
+  "jpg_bytes": null,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 20.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 3.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:51:29",
+  "type": "run",
+  "purpose": "Arakawa candidate 2 (new face)",
+  "job": "arakawa-b",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/arakawa-b/arakawa-c2.png",
+  "file": "assets/characters/arakawa/candidate-2.jpg",
+  "refs": [],
+  "seconds": 46.8,
+  "tokens": 5788,
+  "status": "accepted",
+  "note": "CANDIDATE; original face; FLAG windows show a landscape (mask)",
+  "jpg_bytes": 266612,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 20.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 3.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:52:20",
+  "type": "run",
+  "purpose": "Idris candidate 1 (new face, recast)",
+  "job": "idris-a",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/idris-a/idris-c1.png",
+  "file": "assets/characters/idris/candidate-1.jpg",
+  "refs": [],
+  "seconds": 49.2,
+  "tokens": 5955,
+  "status": "accepted",
+  "note": "CANDIDATE recast; clearly unlike Jax; FLAG window landscape",
+  "jpg_bytes": 456985,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 21.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 3.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:52:22",
+  "type": "run",
+  "purpose": "Idris candidate 2 (new face, recast)",
+  "job": "idris-b",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/idris-b/idris-c2.png",
+  "file": "assets/characters/idris/candidate-2.jpg",
+  "refs": [],
+  "seconds": 51.8,
+  "tokens": 21301,
+  "status": "accepted",
+  "note": "CANDIDATE recast; clearly unlike Jax; FLAG window planet",
+  "jpg_bytes": 493684,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 22.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 3.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
  }
 ]

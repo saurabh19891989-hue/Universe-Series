@@ -169,6 +169,9 @@ Last updated: 2026-11-27 (session 1)
 - Episode 1 NASA plates: 34 usable (7 videos, 27 stills) in scratchpad `e01/plates/`, manifest
   `assets/e01-plates.json`; 8 SVS items blocked (403) — to be fetched by the laptop bridge.
 
+- CODEX LIMIT RULE CHANGED (27 Nov, late): next time the limit is hit, wait for the time it
+  shows and resume automatically; do not ask the owner to reset.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|

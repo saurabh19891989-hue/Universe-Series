@@ -86,17 +86,20 @@ Instruction template:
 - Pass the prompt on stdin in the wrapper; `-i` can swallow a prompt given as an argument.
 
 ## 4. Usage limit
-The remaining allowance can be read (read-only) from the newest
-`~/.codex/sessions/**/rollout-*.jsonl`, field `rate_limits` (5-hour and weekly percentages and
-reset times). Measured: about 0.43 points of the 5-hour window per image, so roughly 230
-images per window; the weekly counter moves about 2 points per 30 images. Check before and
-after every batch and write both numbers in the usage log.
-
-
-Image runs draw on the plan's Codex allowance. If a run fails with a usage-limit, rate-limit
-or quota message: stop all generation at once, do not retry, record the exact message in
-`STATUS.md`, and tell the owner — the owner resets it. Log every run in the episode's
-`usage-log.json` (purpose, seconds, tokens, success).
+**Owner's rule (27 Nov, late): when the limit is hit, WAIT for the time it shows. Do not ask
+the owner to reset it.**
+- If a run fails with a usage-limit, rate-limit or quota message: stop all generation at once,
+  do not retry, and report the exact message and the reset time it gives.
+- The main session records it in `STATUS.md`, tells the owner in one line, and schedules its own
+  wake-up for a few minutes after the stated time; it then resumes the image agents where
+  they stopped. If the weekly allowance is the one exhausted, the wait is until the weekly
+  reset. Meanwhile everything that does not need images carries on.
+- The remaining allowance can be read (read-only) from the newest
+  `~/.codex/sessions/**/rollout-*.jsonl`, field `rate_limits` (5-hour and weekly percentages and
+  reset times). Measured: about 0.43 points of the 5-hour window per image, so roughly 230
+  images per window. Check before and after every batch and write both numbers in the usage log.
+- Spread the work: plan batches so the most important images (current episode, priority 1)
+  are done first in each window.
 
 ## 5. Rules of the road (from OpenAI's pages, read 27 Nov 2026 — `research/tooling/openai-terms.md`)
 The quotes were collected through a summarising fetch tool; re-check the live pages before relying on wording.

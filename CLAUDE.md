@@ -18,8 +18,9 @@ State lives on disk, never only in a chat. Update `STATUS.md` when a milestone l
   (Goodfellas, Guardians, British comedy, Zimmer, Ilaiyaraaja) are guidelines — improvise.
 - Pictures: generated through the Codex CLI on the owner's ChatGPT Pro subscription (owner,
   27 Nov). Every recurring character, set and prop has one approved master image; new images
-  always use it as a reference so faces never change. If a usage limit is hit: stop, tell the
-  owner, they reset it.
+  always use it as a reference so faces never change. If a usage limit is hit: stop, note the
+  reset time it shows, WAIT for that time and resume by yourself (owner, 27 Nov late) — do not
+  ask the owner to reset it.
 - Everything else free or in-house (voices Kokoro, composed music, own sound and editing). No paid
   subscriptions or per-episode API costs. Temporary credits may be used only as a one-time
   booster, never as something the pipeline depends on.

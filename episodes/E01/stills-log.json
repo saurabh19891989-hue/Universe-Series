@@ -106,24 +106,30 @@
   },
   "E01-J019": {
    "priority": 1,
-   "status": "rejected-retrying",
-   "attempts": 1,
+   "status": "accepted",
+   "attempts": 2,
    "seconds": [
-    134.9
+    134.9,
+    48.3
    ],
    "tokens": [
-    17503
+    17503,
+    12404
    ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
     "released: new Mira/Lucia masters approved by owner; job needs master only",
-    "REJECTED: insert shows Mira's full face (face matches new master) - job is hands-only insert"
+    "REJECTED: insert shows Mira's full face (face matches new master) - job is hands-only insert",
+    "Retry: hands-only, ink-stained fingers squaring blank form behind scratched glass, indigo sleeves, stamp + pad; bright desk. Prompt changed: insert framing"
    ],
    "refs_used": [
     "assets/characters/mira/master.jpg",
     "assets/sets/customs/desk-bright.jpg",
     "assets/props/stamp/master.jpg"
-   ]
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Insert: a woman's ink-stained fingers at a steel customs desk behind a scratched glass screen, squaring a blank form, a heavy brass-handled stamp and ink pad beside it. FRAMING: hands-only close insert; the woman's face is completely out of frame (crop at the collar or lower); only her hands, cuffs and the desk are visible. Dr Mira Sen: Bengali Indian woman, mid-30s (she must look 34, not older), dark braid, sharp tired eyes, ink-stained fingers; indigo customs flight suit, brass loupe on a chain. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later).",
+   "file": "episodes/E01/stills/e01-j019_mira_hands_desk.jpg",
+   "jpg_bytes": 439026
   },
   "E01-J020": {
    "priority": 1,
@@ -147,33 +153,42 @@
   },
   "E01-J022": {
    "priority": 1,
-   "status": "rejected-retrying",
-   "attempts": 1,
+   "status": "accepted",
+   "attempts": 2,
    "seconds": [
-    126.5
+    126.5,
+    45.5
    ],
    "tokens": [
-    14297
+    14297,
+    22383
    ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
     "released: new Mira/Lucia masters approved by owner; job needs master only",
-    "REJECTED: macro insert shows Mira's full face and the master's ship corridor background instead of the customs desk"
+    "REJECTED: macro insert shows Mira's full face and the master's ship corridor background instead of the customs desk",
+    "Retry: hands-only stamp slam on blank form at customs desk; stamp matches prop master (wooden handle, not brass as job text says); ink-stained fingers. Prompt changed: framing + desk ref"
    ],
    "refs_used": [
     "assets/props/stamp/master.jpg",
-    "assets/characters/mira/master.jpg"
-   ]
+    "assets/characters/mira/master.jpg",
+    "assets/sets/customs/desk-bright.jpg"
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. Macro insert: a heavy brass-handled customs stamp slamming onto a blank paper form at a steel desk, an ink-stained hand on the handle, motion frozen at impact. FRAMING: hands-only close insert; the woman's face is completely out of frame (crop at the collar or lower); only her hands, cuffs and the desk are visible. Dr Mira Sen: Bengali Indian woman, mid-30s (she must look 34, not older), dark braid, sharp tired eyes, ink-stained fingers; indigo customs flight suit, brass loupe on a chain. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later). | extra ref note: The last image is the customs desk set for the background.",
+   "file": "episodes/E01/stills/e01-j022_stamp_seized_hit.jpg",
+   "jpg_bytes": 388482
   },
   "E01-J024": {
    "priority": 1,
    "status": "rejected-retrying",
-   "attempts": 1,
+   "attempts": 2,
    "seconds": [
-    41.4
+    41.4,
+    41.5
    ],
    "tokens": [
-    9668
+    9668,
+    10374
    ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
@@ -187,7 +202,7 @@
   },
   "E01-J025": {
    "priority": 1,
-   "status": "pending",
+   "status": "rejected-retrying",
    "attempts": 1,
    "seconds": [
     115.7
@@ -197,7 +212,8 @@
    ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: new Mira/Lucia masters approved by owner; job needs master only"
+    "released: new Mira/Lucia masters approved by owner; job needs master only",
+    "REJECTED: Mira shown directly facing camera and Noakes' reflection is sharp and clear; shot must be only the faint reflection in the dead monitor"
    ],
    "refs_used": [
     "assets/characters/noakes/master.jpg",
@@ -208,13 +224,23 @@
   },
   "E01-J035": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "rejected-retrying",
+   "attempts": 1,
+   "seconds": [
+    116.3
+   ],
+   "tokens": [
+    12525
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: new Mira/Lucia masters approved by owner; job needs master only"
+    "released: new Mira/Lucia masters approved by owner; job needs master only",
+    "REJECTED: Mira+Jax (backs match) are on the far side of the mesh, i.e. outside the cage; script has them inside, locking the gate behind them"
+   ],
+   "refs_used": [
+    "assets/characters/mira/master.jpg",
+    "assets/characters/jax/master.jpg",
+    "assets/sets/customs/holding-cage-bright.jpg"
    ]
   },
   "E01-J041": {

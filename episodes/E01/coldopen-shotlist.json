@@ -1,6 +1,6 @@
 {
  "version": 1,
- "name": "E01-coldopen-v1",
+ "name": "E01-coldopen-v2",
  "episode": "E01",
  "unit": "0",
  "vars": {
@@ -286,23 +286,18 @@
     },
     {
      "kind": "screen",
-     "src": "${SCRATCH}/e01/datavis/E01-0-readouts.mp4",
-     "gfx": {
-      "name": "readouts",
-      "drop_at": [
-       0.25,
-       99,
-       1.0,
-       99,
-       99,
-       99
-      ]
-     },
+     "src": "${SCRATCH}/e01/datavis/03_engine_readouts_to_zero.mp4",
+     "in_s": 2.55,
      "res": [
-      1600,
-      900
+      1920,
+      1080
      ],
      "spill": 0.08,
+     "treat": {
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
      "quad": [
       [
        0.085,
@@ -320,12 +315,7 @@
        0.075,
        0.92
       ]
-     ],
-     "treat": {
-      "scanlines": 0.14,
-      "bloom": 0.3,
-      "glass_black": 0.03
-     }
+     ]
     }
    ],
    "audio": {
@@ -408,8 +398,8 @@
        },
        "level": {
         "black": 0.035,
-        "gamma": 1.15,
-        "gain": 0.72,
+        "gamma": 1.2,
+        "gain": 0.62,
         "tint": [
          0.95,
          0.98,
@@ -710,9 +700,9 @@
         0.33
        ],
        "gain_in": [
-        0.32,
-        0.36,
-        0.42
+        0.16,
+        0.19,
+        0.24
        ],
        "gain_out": 1.0,
        "feather_px": 30
@@ -726,9 +716,9 @@
         0.37
        ],
        "gain_in": [
-        0.42,
-        0.45,
-        0.5
+        0.28,
+        0.31,
+        0.36
        ],
        "gain_out": 1.0,
        "feather_px": 30
@@ -821,8 +811,8 @@
        },
        "level": {
         "black": 0.035,
-        "gamma": 1.15,
-        "gain": 0.72,
+        "gamma": 1.2,
+        "gain": 0.62,
         "tint": [
          0.95,
          0.98,
@@ -837,17 +827,18 @@
     },
     {
      "kind": "screen",
-     "src": "${SCRATCH}/e01/datavis/E01-0-bank-logo.mp4",
-     "gfx": {
-      "name": "bank_call",
-      "temi": "${REPO}/assets/characters/temi/master.jpg",
-      "logo_until": 99
-     },
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_connecting.mp4",
+     "in_s": 0.0,
      "res": [
-      800,
-      450
+      960,
+      540
      ],
      "spill": 0.08,
+     "treat": {
+      "scanlines": 0.15,
+      "bloom": 0.5,
+      "glass_black": 0.04
+     },
      "quad": [
       [
        0.887,
@@ -865,12 +856,7 @@
        0.888,
        0.468
       ]
-     ],
-     "treat": {
-      "scanlines": 0.2,
-      "bloom": 0.6,
-      "glass_black": 0.04
-     }
+     ]
     }
    ],
    "audio": {
@@ -982,17 +968,18 @@
     },
     {
      "kind": "screen",
-     "src": "${SCRATCH}/e01/datavis/E01-0-bank-call.mp4",
-     "gfx": {
-      "name": "bank_call",
-      "temi": "${REPO}/assets/characters/temi/master.jpg",
-      "logo_until": 0.0
-     },
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_live.mp4",
+     "in_s": 0.0,
      "res": [
-      1600,
-      900
+      1920,
+      1080
      ],
      "spill": 0.08,
+     "treat": {
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
      "quad": [
       [
        0.085,
@@ -1011,10 +998,18 @@
        0.92
       ]
      ],
-     "treat": {
-      "scanlines": 0.14,
-      "bloom": 0.3,
-      "glass_black": 0.03
+     "inset": {
+      "src": "${REPO}/assets/characters/temi/master.jpg",
+      "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png",
+      "crop": [
+       0.14,
+       0.0,
+       0.86,
+       0.95
+      ],
+      "cx": 0.5,
+      "cy": 0.42,
+      "zoom_per_s": 0.012
      }
     }
    ],
@@ -1147,24 +1142,18 @@
     },
     {
      "kind": "screen",
-     "src": "${SCRATCH}/e01/datavis/E01-0-bank-call-lag.mp4",
-     "gfx": {
-      "name": "bank_call",
-      "temi": "${REPO}/assets/characters/temi/master.jpg",
-      "logo_until": 0.0,
-      "freeze": [
-       [
-        0.0,
-        1.0
-       ]
-      ],
-      "freeze_t": 9.0
-     },
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_frozen.mp4",
+     "in_s": 1.0,
      "res": [
-      1600,
-      900
+      1920,
+      1080
      ],
      "spill": 0.08,
+     "treat": {
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
      "quad": [
       [
        0.085,
@@ -1183,11 +1172,68 @@
        0.92
       ]
      ],
+     "inset": {
+      "src": "${REPO}/assets/characters/temi/master.jpg",
+      "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png",
+      "crop": [
+       0.14,
+       0.0,
+       0.86,
+       0.95
+      ],
+      "cx": 0.5,
+      "cy": 0.42,
+      "zoom_per_s": 0.0,
+      "pixelate": 16
+     },
+     "t1": 1.0
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_live.mp4",
+     "in_s": 3.0,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.08,
      "treat": {
-      "scanlines": 0.14,
-      "bloom": 0.3,
-      "glass_black": 0.03
-     }
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0.085,
+       0.1
+      ],
+      [
+       0.915,
+       0.085
+      ],
+      [
+       0.925,
+       0.905
+      ],
+      [
+       0.075,
+       0.92
+      ]
+     ],
+     "inset": {
+      "src": "${REPO}/assets/characters/temi/master.jpg",
+      "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png",
+      "crop": [
+       0.14,
+       0.0,
+       0.86,
+       0.95
+      ],
+      "cx": 0.5,
+      "cy": 0.42,
+      "zoom_per_s": 0.012
+     },
+     "t0": 1.0
     }
    ],
    "audio": {
@@ -1319,17 +1365,18 @@
     },
     {
      "kind": "screen",
-     "src": "${SCRATCH}/e01/datavis/E01-0-bank-call-reset.mp4",
-     "gfx": {
-      "name": "bank_call",
-      "temi": "${REPO}/assets/characters/temi/master.jpg",
-      "logo_until": 0.3
-     },
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_connecting.mp4",
+     "in_s": 0.5,
      "res": [
-      1600,
-      900
+      1920,
+      1080
      ],
      "spill": 0.08,
+     "treat": {
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
      "quad": [
       [
        0.085,
@@ -1348,11 +1395,54 @@
        0.92
       ]
      ],
+     "t1": 0.35
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_live.mp4",
+     "in_s": 0.0,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.08,
      "treat": {
-      "scanlines": 0.14,
-      "bloom": 0.3,
-      "glass_black": 0.03
-     }
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0.085,
+       0.1
+      ],
+      [
+       0.915,
+       0.085
+      ],
+      [
+       0.925,
+       0.905
+      ],
+      [
+       0.075,
+       0.92
+      ]
+     ],
+     "inset": {
+      "src": "${REPO}/assets/characters/temi/master.jpg",
+      "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png",
+      "crop": [
+       0.14,
+       0.0,
+       0.86,
+       0.95
+      ],
+      "cx": 0.5,
+      "cy": 0.42,
+      "zoom_per_s": 0.012
+     },
+     "t0": 0.35
     }
    ],
    "audio": {
@@ -1466,9 +1556,9 @@
         0.33
        ],
        "gain_in": [
-        0.32,
-        0.36,
-        0.42
+        0.16,
+        0.19,
+        0.24
        ],
        "gain_out": 1.0,
        "feather_px": 30
@@ -1482,9 +1572,9 @@
         0.37
        ],
        "gain_in": [
-        0.42,
-        0.45,
-        0.5
+        0.28,
+        0.31,
+        0.36
        ],
        "gain_out": 1.0,
        "feather_px": 30
@@ -1625,9 +1715,9 @@
         0.33
        ],
        "gain_in": [
-        0.32,
-        0.36,
-        0.42
+        0.16,
+        0.19,
+        0.24
        ],
        "gain_out": 1.0,
        "feather_px": 30
@@ -1641,9 +1731,9 @@
         0.37
        ],
        "gain_in": [
-        0.42,
-        0.45,
-        0.5
+        0.28,
+        0.31,
+        0.36
        ],
        "gain_out": 1.0,
        "feather_px": 30
@@ -1922,9 +2012,9 @@
         0.33
        ],
        "gain_in": [
-        0.32,
-        0.36,
-        0.42
+        0.16,
+        0.19,
+        0.24
        ],
        "gain_out": 1.0,
        "feather_px": 30
@@ -1938,9 +2028,9 @@
         0.37
        ],
        "gain_in": [
-        0.42,
-        0.45,
-        0.5
+        0.28,
+        0.31,
+        0.36
        ],
        "gain_out": 1.0,
        "feather_px": 30
@@ -2079,9 +2169,9 @@
         0.33
        ],
        "gain_in": [
-        0.32,
-        0.36,
-        0.42
+        0.16,
+        0.19,
+        0.24
        ],
        "gain_out": 1.0,
        "feather_px": 30
@@ -2095,9 +2185,9 @@
         0.37
        ],
        "gain_in": [
-        0.42,
-        0.45,
-        0.5
+        0.28,
+        0.31,
+        0.36
        ],
        "gain_out": 1.0,
        "feather_px": 30
@@ -2190,9 +2280,9 @@
         0.33
        ],
        "gain_in": [
-        0.32,
-        0.36,
-        0.42
+        0.16,
+        0.19,
+        0.24
        ],
        "gain_out": 1.0,
        "feather_px": 30
@@ -2206,9 +2296,9 @@
         0.37
        ],
        "gain_in": [
-        0.42,
-        0.45,
-        0.5
+        0.28,
+        0.31,
+        0.36
        ],
        "gain_out": 1.0,
        "feather_px": 30
@@ -2280,19 +2370,18 @@
     },
     {
      "kind": "screen",
-     "src": "${SCRATCH}/e01/datavis/E01-0-report-1204.mp4",
-     "gfx": {
-      "name": "report",
-      "type_start": 0.05,
-      "cps": 42,
-      "stamp_at": 1.75,
-      "stamp": "FILED"
-     },
+     "src": "${SCRATCH}/e01/datavis/02_pip_report_1204.mp4",
+     "in_s": 2.1,
      "res": [
-      1600,
-      900
+      1920,
+      1080
      ],
      "spill": 0.08,
+     "treat": {
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
      "quad": [
       [
        0.085,
@@ -2310,12 +2399,7 @@
        0.075,
        0.92
       ]
-     ],
-     "treat": {
-      "scanlines": 0.14,
-      "bloom": 0.3,
-      "glass_black": 0.03
-     }
+     ]
     }
    ],
    "audio": {
@@ -2388,8 +2472,8 @@
        },
        "level": {
         "black": 0.035,
-        "gamma": 1.15,
-        "gain": 0.72,
+        "gamma": 1.2,
+        "gain": 0.62,
         "tint": [
          0.95,
          0.98,
@@ -2687,23 +2771,18 @@
     },
     {
      "kind": "screen",
-     "src": "${SCRATCH}/e01/datavis/E01-0-cargo-parcel.mp4",
-     "gfx": {
-      "name": "cargo",
-      "src": "${REPO}/samples/look-codex/jax-6-cargo-parcel.jpg",
-      "crop": [
-       0.6,
-       0.4,
-       0.82,
-       0.565
-      ],
-      "dur": 3.2
-     },
+     "src": "${SCRATCH}/e01/datavis/05_cargo_screen.mp4",
+     "in_s": 1.0,
      "res": [
-      1600,
-      900
+      1920,
+      1080
      ],
      "spill": 0.08,
+     "treat": {
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
      "quad": [
       [
        0.085,
@@ -2722,10 +2801,25 @@
        0.92
       ]
      ],
-     "treat": {
-      "scanlines": 0.14,
-      "bloom": 0.3,
-      "glass_black": 0.03
+     "inset": {
+      "src": "${REPO}/samples/look-codex/jax-6-cargo-parcel.jpg",
+      "matte": "${SCRATCH}/e01/datavis/05_cargo_screen_matte.png",
+      "crop": [
+       0.58,
+       0.36,
+       0.84,
+       0.6
+      ],
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom_per_s": 0.03,
+      "mono": [
+       0.62,
+       0.9,
+       0.7
+      ],
+      "gain": 0.85,
+      "pixelate": 2
      }
     }
    ],

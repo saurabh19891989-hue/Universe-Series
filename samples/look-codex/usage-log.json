@@ -3337,5 +3337,168 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T16:51:34",
+  "job": "e01/E01-J035",
+  "name": "e01-j035_cage_gate_mira_jax",
+  "purpose": "E01 still E01-J035",
+  "refs": [
+   "master.jpg",
+   "master.jpg",
+   "holding-cage-bright.jpg"
+  ],
+  "seconds": 116.3,
+  "tokens_used": 12525,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21de9-9aca-7c73-a762-2b294906051d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 20.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 3.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:52:20",
+  "job": "e01/E01-J022",
+  "name": "e01-j022_stamp_seized_hit",
+  "purpose": "E01 still E01-J022",
+  "refs": [
+   "master.jpg",
+   "master.jpg",
+   "desk-bright.jpg"
+  ],
+  "seconds": 45.5,
+  "tokens_used": 22383,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21deb-62db-71a3-807a-80edab16e5c5",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 21.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 3.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:52:23",
+  "job": "e01/E01-J019",
+  "name": "e01-j019_mira_hands_desk",
+  "purpose": "E01 still E01-J019",
+  "refs": [
+   "master.jpg",
+   "desk-bright.jpg",
+   "master.jpg"
+  ],
+  "seconds": 48.3,
+  "tokens_used": 12404,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21deb-6323-70a0-809c-2382273b7f88",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 22.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 3.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:53:02",
+  "job": "e01/E01-J024",
+  "name": "e01-j024_notebook_pages",
+  "purpose": "E01 still E01-J024",
+  "refs": [
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 41.5,
+  "tokens_used": 10374,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dec-1598-7bf3-b566-a21586921ef9",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 23.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 4.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]

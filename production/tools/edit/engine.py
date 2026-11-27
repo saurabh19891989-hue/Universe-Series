@@ -604,6 +604,8 @@ class Shot:
                     ent["video"] = Video(p) if is_video(p) else None
                     ent["still"] = None if is_video(p) else load_rgb(p)
                     self.log.append(f"screen content: {L['src']}")
+                    if L.get("inset"):
+                        ent["inset"] = self._prep_inset(L["inset"], L.get("res", [1920, 1080]))
                 else:
                     g = L.get("gfx", {})
                     ent["gfx"] = gfx.Gfx(g, self.path)
@@ -618,6 +620,44 @@ class Shot:
         self.focus = Focus(sh["focus"], self.base.shape[:2]) if sh.get("focus") else None
         self.cam = sh.get("camera", {})
         self.st0 = cam_at(self.cam, 0, self.dur, self.seed)
+
+    def _prep_inset(self, ins, res):
+        """A still placed into a clip through its matte (e.g. the agent's face in a call window)."""
+        cw, ch = res
+        m = np.asarray(Image.open(self.path(ins["matte"])).convert("L").resize((cw, ch), Image.BILINEAR), np.float32) / 255
+        ys, xs = np.where(m > 0.5)
+        x0, y0, x1, y1 = xs.min(), ys.min(), xs.max() + 1, ys.max() + 1
+        img = load_rgb(self.path(ins["src"]))
+        if ins.get("crop"):
+            a, b, c, d = ins["crop"]; hh, ww = img.shape[:2]
+            img = img[int(b * hh):int(d * hh), int(a * ww):int(c * ww)]
+        img = apply_grade_local(img, ins.get("grade"))
+        self.log.append(f"screen inset: {ins['src']} through {ins['matte']}")
+        return dict(m=m, box=(x0, y0, x1, y1), img=img, spec=ins, bg=None)
+
+    def _apply_inset(self, c, ins, t):
+        x0, y0, x1, y1 = ins["box"]; bw, bh = x1 - x0, y1 - y0
+        sp = ins["spec"]; img = ins["img"]; ih, iw = img.shape[:2]
+        if c.shape[:2] != ins["m"].shape:
+            c = cv2.resize(c, (ins["m"].shape[1], ins["m"].shape[0]), interpolation=cv2.INTER_AREA)
+        z = 1.0 + sp.get("zoom_per_s", 0.01) * t
+        s = max(bw / iw, bh / ih) * z
+        cx, cy = sp.get("cx", 0.5) * iw, sp.get("cy", 0.45) * ih
+        M = np.float64([[s, 0, bw / 2 - cx * s], [0, s, bh / 2 - cy * s]])
+        fit = cv2.warpAffine(img, M, (bw, bh), flags=cv2.INTER_AREA if s < 1 else cv2.INTER_CUBIC, borderMode=cv2.BORDER_REFLECT)
+        px = sp.get("pixelate")
+        if px and any(a <= t < b for a, b in sp.get("pixelate_when", [[0, 1e9]])):
+            fit = cv2.resize(cv2.resize(fit, (max(1, bw // px), max(1, bh // px)), interpolation=cv2.INTER_AREA), (bw, bh), interpolation=cv2.INTER_NEAREST)
+        if sp.get("mono"):
+            g = lum(fit)[..., None]; fit = g * np.float32(sp["mono"])
+        m = ins["m"][y0:y1, x0:x1, None]
+        reg = c[y0:y1, x0:x1]
+        if ins["bg"] is None:     # the clip's flat window colour; anything brighter is an overlay (badge, spinner)
+            ins["bg"] = np.median(reg[m[..., 0] > 0.5], axis=0)
+        over = np.clip(reg - ins["bg"] - 0.04, 0, 1) * sp.get("overlay_gain", 1.4)
+        c = c.copy()
+        c[y0:y1, x0:x1] = reg * (1 - m) + (fit * sp.get("gain", 0.9) + over) * m
+        return c
 
     def _plate_level(self, p, pl, glass):
         """Match the plate to the set: crush its black to the glass level, set exposure and tint."""
@@ -684,7 +724,7 @@ class Shot:
             d = L.get("depth", 1.0)
             Mc = cam_matrix(st, (self.bw, self.bh), (W, H), d, self.st0, weave)
             op = L.get("opacity", 1.0)
-            if "fade_in" in L or "fade_out" in L:
+            if k != "text" and ("t0" in L or "t1" in L or "fade_in" in L or "fade_out" in L):
                 op *= min(1, max(0, (t - L.get("t0", 0)) / max(1e-3, L.get("fade_in", 1e-3))))
                 if "t1" in L:
                     op *= min(1, max(0, (L["t1"] - t) / max(1e-3, L.get("fade_out", 1e-3))))
@@ -706,6 +746,8 @@ class Shot:
                     c = ent["video"].at(L.get("in_s", 0) + t)
                 else:
                     c = ent["still"]
+                if ent.get("inset"):
+                    c = self._apply_inset(c, ent["inset"], t)
                 c = screen_treat(c, L.get("treat", {}), t)
                 ch, cw = c.shape[:2]
                 q = np.float32([[p[0] * self.bw, p[1] * self.bh] for p in L["quad"]])
