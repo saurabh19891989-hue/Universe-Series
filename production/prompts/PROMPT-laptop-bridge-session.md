@@ -16,6 +16,14 @@ Start
    publishes, deletes, pays or changes account settings needs my OK in this chat first.
 
 Jobs you will be asked to do
+0. How Drive is already connected on this laptop. My other project, Secret India Research,
+   lives on this computer (the folder Secret-India-Research) and already archives to Google
+   Drive with rclone. Before anything else, look there (read only — change nothing in that
+   project): its CONSTITUTION.md, RESUME-NEXT-SESSION.md, upload/ and remote/ folders and any
+   rclone scripts, to learn which rclone remote name it uses, how it copies and verifies files
+   (size and MD5 check before deleting local copies), and how it uploads to YouTube Studio
+   through Chrome. Reuse the same remote and the same method here. Never print or copy the
+   rclone token; refer to the remote by name only.
 A. Drive. My Drive folder is "Secret-Universe-Series" (id 1b128WbDC7xrUCYKpxGzg6PyYXZ_s4Z98)
    with subfolders 01-samples-for-review, 02-episodes, 03-channel-kit, 04-locked-cast-masters,
    05-backups-not-in-github. Use rclone (already authorised on this laptop) to list, download

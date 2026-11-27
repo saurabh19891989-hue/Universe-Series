@@ -1291,7 +1291,7 @@
   },
   "E01-J028": {
    "priority": 1,
-   "status": "pending",
+   "status": "rejected-retrying",
    "attempts": 1,
    "seconds": [
     44.3
@@ -1299,7 +1299,9 @@
    "tokens": [
     19695
    ],
-   "notes": [],
+   "notes": [
+    "REJECTED: background customs hall is full of people; the hall must be empty (staffed for three)"
+   ],
    "refs_used": [
     "assets/props/pip/ref-wrist.jpg",
     "assets/characters/jax/master.jpg"
@@ -1428,11 +1430,23 @@
   },
   "E01-J050": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    44.1
+   ],
+   "tokens": [
+    10328
+   ],
+   "notes": [
+    "PIP wrist unit unstrapped on Noakes's desk, amber lens glowing (faces camera rather than straight up), matches ref-wrist; office matches; window black"
+   ],
+   "refs_used": [
+    "assets/props/pip/ref-wrist.jpg",
+    "assets/sets/customs/noakes-office-bright.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j050_wrist_on_desk.jpg",
+   "jpg_bytes": 486565
   },
   "E01-J053": {
    "priority": 1,

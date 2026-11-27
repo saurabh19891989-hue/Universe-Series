@@ -3014,5 +3014,45 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T16:45:24",
+  "job": "e01/E01-J050",
+  "name": "e01-j050_wrist_on_desk",
+  "purpose": "E01 still E01-J050",
+  "refs": [
+   "ref-wrist.jpg",
+   "noakes-office-bright.jpg"
+  ],
+  "seconds": 44.1,
+  "tokens_used": 10328,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21de5-0f32-7e50-a530-744dd534243c",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 12.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 2.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]
