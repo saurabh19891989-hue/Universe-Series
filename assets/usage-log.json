@@ -312,5 +312,125 @@
     "resets_at": "2026-12-02 17:30 UTC"
    }
   }
+ },
+ {
+  "time": "2026-11-27T15:47:45",
+  "type": "run",
+  "purpose": "step3 Jax ref gloved hand with silver hatchet",
+  "job": "jax-hatchet",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/jax-hatchet/jax-hatchet.png",
+  "file": "assets/characters/jax/ref-glove-hatchet.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 35.5,
+  "tokens": 7699,
+  "status": "accepted",
+  "note": "FLAG: blade reads dark steel not silver; remake from the hatchet prop master later",
+  "jpg_bytes": 288206,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 47.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 91.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:48:59",
+  "type": "run",
+  "purpose": "step3 Mira ref front neutral",
+  "job": "mira-front",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/mira-front/mira-front.png",
+  "file": "assets/characters/mira/ref-front.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 110.0,
+  "tokens": 8047,
+  "status": "accepted",
+  "note": "same face as new master",
+  "jpg_bytes": 171674,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 47.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 91.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "read_at": "2026-11-27T15:49:13Z",
+  "source": "rollout-2026-11-27T15-47-09-01a21db0-6743-76e0-a163-f8301d9b077c.jsonl",
+  "five_hour": {
+   "used_percent": 47.0,
+   "window_minutes": 300,
+   "resets_at": "2026-11-27 19:25 UTC"
+  },
+  "weekly": {
+   "used_percent": 91.0,
+   "window_minutes": 10080,
+   "resets_at": "2026-12-02 17:30 UTC"
+  },
+  "type": "allowance_check",
+  "label": "after 15 images"
+ },
+ {
+  "time": "2026-11-27T15:50:01",
+  "type": "run",
+  "purpose": "step3 Mira ref profile",
+  "job": "mira-profile",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/mira-profile/mira-profile.png",
+  "file": "assets/characters/mira/ref-profile.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 47.2,
+  "tokens": 14436,
+  "status": "accepted",
+  "note": "same face; braid loose",
+  "jpg_bytes": 156221,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 48.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 91.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:51:27",
+  "type": "run",
+  "purpose": "step3 Mira ref behind glass customs screen",
+  "job": "mira-glass",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/mira-glass/mira-glass.png",
+  "file": "assets/characters/mira/ref-glass-screen.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 133.9,
+  "tokens": 28581,
+  "status": "accepted",
+  "note": "same face; background busier than script's empty hall",
+  "jpg_bytes": 319113,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 49.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 91.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
  }
 ]

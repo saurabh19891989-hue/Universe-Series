@@ -88,6 +88,22 @@ Last updated: 2026-11-27 (session 1)
 - Running: library builder (`assets/`, `samples/library/`) and Episode 1 shot list
   (`episodes/E01/shotlist.json`). New session: run `bash production/tools/setup/codex_setup.sh`.
 
+- PARALLEL PRODUCTION (27 Nov, owner asked for speed) — ten jobs running:
+  | Job | Output |
+  |---|---|
+  | Image library (Codex; Ep 1 first, then whole cast) | `assets/`, `samples/library/` |
+  | Ep 1 shot list | `episodes/E01/shotlist.json` |
+  | Edit engine + cold open render | `production/tools/edit/`, `samples/e01/` |
+  | Ep 1 data visuals (screens, map, title) | `production/tools/datavis/`, `samples/e01/datavis/` |
+  | Ep 1 NASA plates download + credits | `assets/e01-plates.json` |
+  | Ep 1 score cues | `samples/e01/music/` |
+  | Ep 1 sound effects | `samples/e01/sfx/` |
+  | Ep 1 final dialogue stems (recast for distinct voices) | `episodes/E01/dialogue-conform.json`, `samples/e01/dialogue/` |
+  | Ep 2 outline (stops for showrunner ruling) | `episodes/E02/outline.md` |
+  | Channel launch kit (names, copy, trailer script) | `channel/CHANNEL-KIT.md` |
+  Shared large media: scratchpad `e01/` (plates, datavis, sfx, music, dialogue, renders) — not in git.
+  Drive: approved masters in `04-locked-cast-masters` (id 1UR4BaNbE6KNyXL6oktr1-oJrzqZ5DW63).
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|
