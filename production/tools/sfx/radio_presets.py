@@ -62,10 +62,10 @@ def measure(chain, wav_in):
     db = 10 * np.log10(p + 1e-20)
     sm = np.convolve(db, np.ones(9) / 9, mode="same")
     mx = sm[(f > 200) & (f < 8000)].max()
-    inband = np.where(sm > mx - 3)[0]
+    inband = np.where(sm > mx - 6)[0]
     lo, hi = f[inband[0]], f[inband[-1]]
     at = lambda hz: float(round(sm[np.argmin(abs(f - hz))] - mx, 1))
-    return dict(minus3db_band_hz=[round(float(lo)), round(float(hi))], rel_db_at_100hz=at(100), rel_db_at_250hz=at(250),
+    return dict(minus6db_band_hz=[round(float(lo)), round(float(hi))], rel_db_at_100hz=at(100), rel_db_at_250hz=at(250),
                 rel_db_at_1000hz=at(1000), rel_db_at_4000hz=at(4000), rel_db_at_8000hz=at(8000))
 
 

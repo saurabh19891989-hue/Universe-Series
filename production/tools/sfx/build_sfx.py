@@ -25,6 +25,18 @@ DEF_OUT = "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b
 DEF_REV = "/home/user/Universe-Series/samples/e01/sfx"
 
 
+# The 30 effects that get MP3 review copies (selected for script importance and variety)
+REVIEW30 = """ship_bridge_roomtone_loop ship_cargohold_tone_loop ship_engine_dies_and_returns
+ship_systems_powerdown_sequence coffee_machine_last_gurgle coffee_machine_triumph_click_drip
+pip_stamp_thunk_a pip_lens_glow_bed_loop bank_chime bank_jingle shop_door_bell earth_call_dead_air_1p3s
+customs_hall_roomtone_loop footsteps_lowg_distant_pattern flipboard_run_down_to_zero
+klaxon_seal_the_port_loop clamp_release_far_through_structure rover_cabin_hum_moving_loop
+rover_airborne_dropout rover_landing_thud_felt suit_fan_breath_jax_loop radio_click_on
+inn_stove_ignite_whup frost_crack_ice_small grapple_fire_hull_thunk line_parting_snap_hull
+trunk_knocks_inside_a liftoff_felt_in_cabin smash_cut_main_title_hit
+ui_streetlamps_going_out_sequence cut_to_black_soft_tail""".split()
+
+
 def lufs(path):
     p = subprocess.run(["ffmpeg", "-nostats", "-hide_banner", "-i", path, "-af", "ebur128=peak=none", "-f", "null", "-"],
                        capture_output=True, text=True)
@@ -115,6 +127,9 @@ def main():
     os.makedirs(a.review, exist_ok=True)
     reg = [e for e in S.REG if a.only in e["name"]]
     names = [e["name"] for e in S.REG]
+    assert len(REVIEW30) == 30 and set(REVIEW30) <= set(names)
+    for e in S.REG:
+        e["review"] = e["name"] in REVIEW30
     assert len(names) == len(set(names)), "duplicate effect names"
     with ThreadPoolExecutor(4) as ex:
         res = list(ex.map(lambda e: one(e, a.out), reg))
