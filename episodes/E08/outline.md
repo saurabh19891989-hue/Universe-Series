@@ -18,7 +18,7 @@ stage or game look.
 Lucía knows the name) paid his first secret: "Io. Ask what he keeps under the mountain." Pell has
 told Seo to find out who the friend is. Lucía was owed twelve months and ten days leaving Ceres;
 PIP's last report was #1,251 and his reader is "never further away than 1.3 seconds". The crew
-believe one of them sabotaged the Venus gate (E06, not on disk) and suspect Idris; it was Seo.
+believe one of them sabotaged the Venus gate (E06; its stop-note was checked) and suspect Idris; it was Seo.
 **Hands on to E09 (draft seen in progress):** Lucía cannot walk; the count is thirteen months and
 four days; reports end at #1,265; the ship runs for a harbour under Europa's ice; Wukong's line.
 

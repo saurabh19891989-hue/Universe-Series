@@ -1,0 +1,82 @@
+EPISODE 4 — TWO FIXES NEEDED, FOUND WHILE REVISING EPISODE 5
+From: the Episode 5 revision writer, 27 Nov. For: whoever holds episodes/E04/script-v2.md.
+I have not edited any Episode 4 file. Line numbers are from E04 script-v2.md as it stood on
+27 Nov (17:13) and will move when it is revised. Both fixes follow the showrunner's rulings in
+canon/season-01.md, "Showrunner rulings, 27 Nov (evening)".
+
+----------------------------------------------------------------------------------------------
+FIX 1 — TAG (unit 28), about line 3018: when label one fell off
+----------------------------------------------------------------------------------------------
+Now:
+    JAX
+    It fell off. Years ago.
+
+Change to:
+    JAX
+    It fell off. In the spring.
+
+Why: Episode 1 says "Thirty-two. One fell off in the spring", and Episode 5's cold open repeats it
+("It fell off in the spring"). The ruling: label one fell off "in the spring"; "years ago" is the
+error. Nothing else in the exchange needs to change: Oyuna's "It was sold. A strip of brown paper
+with half a postmark..." still answers it. (In Episode 5 the prop is fixed as a torn strip showing
+PIP's audit stamp, half a round date mark and one letter "…A"; "half a postmark" is consistent
+with that. Do not add any legible place name to it.)
+
+----------------------------------------------------------------------------------------------
+FIX 2 — UNIT 27 (Deimos dock / bridge) and the standing rule: the READ stamp is one way
+----------------------------------------------------------------------------------------------
+The rule (Episode 3's, now law for the season): a READ stamp counts from SEND to the moment the
+report is read, one way, on the reader's clock. PIP waits the full round trip to learn it. At
+Mars, Phobos and Deimos that is 00:11:00, then 00:11:04, and PIP waits twenty-two minutes for the
+receipt. Episode 4 currently prints the round trip. Four places:
+
+(a) Standing staging rules, about lines 62–63. Now:
+    "Earth is eleven minutes away each way, so any READ takes at least twenty-two minutes."
+  Change to something like:
+    "Earth is eleven minutes away each way. A READ stamp counts one way, so it says 00:11:04;
+    PIP waits twenty-two minutes to see it."
+
+(b) Unit 27 header, about line 2849. Now:
+    "Place: light delay (READ in twenty-two minutes and four seconds)"
+  Change to:
+    "Place: light delay (READ — 00:11:04; the receipt reaches PIP twenty-two minutes after SEND)"
+
+(c) Unit 27 insert, about line 2917. Now:
+    "...a small grey line: READ — 00:22:04."
+  Change to:
+    "...a small grey line: READ — 00:11:04."
+
+(d) Unit 27, PIP's speech, about lines 2919–2923. Now:
+    PIP (CONT'D)
+    Every one of them, Captain. Read. Even the thirteen. Twenty-two minutes and four seconds.
+    They always take the four seconds.
+  The last sentence has to change as well as the number. "Always" contradicts the Moon, where the
+  stamp was a flat 1.3 seconds with nothing added (Episodes 1–2), and it contradicts Episode 3,
+  where the first Mars stamp was 00:11:00 flat and PIP says of 00:11:04 that "they have never
+  taken four seconds over anything of mine". Suggested replacement (33 words against 20,
+  about four seconds longer):
+    PIP (CONT'D)
+    Every one of them, Captain. Read. Even the thirteen. Eleven minutes and four seconds each. I
+    waited twenty-two to be told. They take the four seconds now. They never did on the Moon.
+  Any wording is fine so long as: the stamp is eleven minutes and four seconds; the twenty-two
+  minutes is PIP's wait, not the stamp; and the four seconds is something that began at Mars,
+  not something "they always" do.
+
+Not affected, leave as they are: unit 25's title and V.O. ("Twenty-two minutes. Eleven for the word
+to reach Earth, and eleven for Earth to say so") describe a message and its answer, which is a
+round trip and is correct; "Report twelve twenty-two" (about line 1188) is a report number.
+
+Why it matters downstream: Episode 5, scene 4, now turns on the comparison. PIP: "At Mars it took
+eleven minutes. Tonight, one point three seconds. Captain, the reader has moved." If Episode 4
+still shows 00:22:04, that line is wrong on its face.
+
+----------------------------------------------------------------------------------------------
+For information only (no change asked)
+----------------------------------------------------------------------------------------------
+- Report numbers: Episode 4 reaches #1,238 and reserves #1,239; Episode 5 uses #1,240 and #1,241.
+- Label count: by a search of Episode 4 (not a full read) the parcel gains Oyuna's delivery slip
+  and no new forwarding label, so it enters Episode 5 with thirty-two labels and thirty-three
+  postings. Episode 5's cold open shows "thirty-two labels". If Episode 4 is revised to add a
+  label, tell the Episode 5 holder: one number changes in three places.
+- Wages: Episode 4 ends at ten months, one week and three days; Episode 5 is twenty-six days later
+  (Voss: "eleven months and six days").

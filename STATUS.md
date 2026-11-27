@@ -271,4 +271,13 @@ Gemini API key is saved as a network secret on the Default environment
   development", off). Free Hugging Face video spaces (LTX-2.5, LTX-2.3, Wan 2.2 image-to-video)
   are reachable but the anonymous allowance is used up; a free Hugging Face token is needed.
   25 real NASA videos are already on disk (Artemis I/II, LRO) for moving space footage.
+- **Moving video works (27 Nov, ~17:52 UTC).** Owner saved a free Hugging Face token (network
+  secret for host `lightricks-ltx-2-5.hf.space`, Default environment). `scratchpad/motion/i2v.py`
+  turns an approved still into a 5-second 1472x832 moving clip in about 31 s with the open model
+  LTX-2.5; first test `samples/motion/test1-jax-moving.mp4` (Jax bites and chews; face holds;
+  black window stays black). Daily allowance on the free token is small and not yet measured.
+  A builder is remaking the Episode 1 cold open with every shot moving, plus real NASA video.
+- First drafts of Episodes 6, 8, 9 and the Episode 4 critic review are on disk. Next writing
+  steps (punch-ups 6/8/9, revisions 3/4, finale) wait until the owner has judged the new sample;
+  they run on Opus.
 

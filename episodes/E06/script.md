@@ -40,8 +40,9 @@ plays without lip-sync.
 - **PIP** is the lens on Jax's wrist and a brass relay lamp carried aboard the tender. **Every
   report gets an INSERT of its number** (#1,242 in the cold open, #1,243 in 6, #1,244 in 20). From
   22 to 26 his lens is out.
-- **In Act 4 the two ships talk through brass speaking tubes** (no electrics). Tube voices are
-  hollow and close. Icarus, outside, speaks down a taut wire: thinner still.
+- **From 18, and through all of Act 4, voices between rooms and ships come through brass
+  speaking tubes** (no electrics). Tube voices are hollow and close. Icarus, outside in 23,
+  speaks down a taut wire: thinner still.
 - **Jax keeps away from the meltwater.** No one explains it.
 - **Lucía's ribbon** is tied over her suit cuff outside. **Mira's loupe** is on its chain;
   reflections are for silent beats only. **Idris** is played on his hands: a small brass

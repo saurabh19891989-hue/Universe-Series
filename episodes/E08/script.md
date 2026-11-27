@@ -16,8 +16,8 @@ the mountain"); only Lucía knows he is Mattias Voss. Pell has told Seo to find 
 is. Lucía was left owed twelve months and ten days; she says "thirteen" here and the exact count
 at the end is thirteen months and four days (the figure E09 already uses). PIP's last report was
 #1,251; E09 opens at #1,266. PIP knows his reader is "never further away than 1.3 seconds". From
-E06, not on disk, per the season plan: someone aboard sabotaged the Venus gate; suspicion sits on
-Idris; it was Seo. From E05: Idris knows Seo's papers carry the sample name Hong Gildong. From
+E06 (it landed after this draft; only its stop-note was checked): someone aboard sabotaged the
+Venus gate; the crew think saboteur and caller are one person and suspect Idris; it was Seo. From E05: Idris knows Seo's papers carry the sample name Hong Gildong. From
 E03: "I don't carry bows." From E02: Arakawa, "I would rather arrest you than find you on a
 hillside." **Handed on to E09:** Lucía badly hurt (a radiation dose taken at an open engine,
 then more than double weight; she cannot walk) and lying in the ship's titanium strongbox; course
@@ -1945,7 +1945,8 @@ Ahead, rising over the curve of the world: a wall of red.
 **STAGING:** A spectacle nobody has seen: inside the eye, an amphitheatre of cloud, brick red and
 salmon walls turning slowly round a cream floor far below, the barge tiny in the middle with
 banners streaming, the ship sixty metres above with its hold open. Wind under everything. The
-stringing is ONE INSERT in a single move, as casual as doing up a shoe; then the pluck by his
+stringing is ONE INSERT: he turns the bow over once to look along the horn (keep it under a
+second), then strings it in a single move, as casual as doing up a shoe; then the pluck by his
 ear, and **one clear note** (sound design: a single bright string tone, bird-like; do not
 underline it with score). Hold everyone still for two seconds after it. The shot is ONE HELD
 WIDE with the score out: the arrow climbing the red amphitheatre, the gold cord unreeling. In
@@ -1986,9 +1987,10 @@ bow. One arrow.
                          WUKONG
           Nobody asked you to carry it.
 
-INSERT, one move, like a man doing up a shoe: Jax braces the bow
-against his boot, bends it, slips the string home. He plucks it,
-by his ear.
+INSERT: Jax turns the bow over once, looking along the horn for
+cracks, like a man checking fruit. Then, in one move, like doing
+up a shoe: he braces it against his boot, bends it, slips the
+string home. He plucks it, by his ear.
 
 It sings. One clear note, like a bird.
 
