@@ -128,5 +128,79 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T14:56:52",
+  "job": "A_han",
+  "name": "han_master",
+  "purpose": "A master Han",
+  "refs": [],
+  "seconds": 34.2,
+  "tokens_used": 5608,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d81-d77d-7e23-a7d9-0f71ded35137",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 29.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 89.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T14:57:04",
+  "job": "A_chichikov",
+  "name": "chichikov_master",
+  "purpose": "A master Chichikov",
+  "refs": [],
+  "seconds": 46.8,
+  "tokens_used": 9639,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d81-d779-7793-9f2b-741a0ddc9389",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 30.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 89.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]
