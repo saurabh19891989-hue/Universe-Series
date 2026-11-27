@@ -13,35 +13,41 @@
     24346
    ],
    "notes": [
-    "PIP lens matches master (brass rim, cream chipped housing); near-black surround as specified. Dark style - redo candidate (story-dark cold-open beat, may keep)"
+    "PIP lens matches master (brass rim, cream chipped housing); near-black surround as specified. Dark style - redo candidate (story-dark cold-open beat, may keep)",
+    "BRIGHT REDO (run without the old image as ref - started before it was added): brighter, richer lens, same design; black surround kept for the cold-open beat. Replaces dark version"
    ],
    "refs_used": [
     "assets/props/pip/master.jpg"
    ],
    "file": "episodes/E01/stills/e01-j001_pip_lens_dark.jpg",
-   "jpg_bytes": 226800,
-   "style": "dark style - redo candidate",
+   "jpg_bytes": 385916,
+   "style": "bright (redone 27 Nov)",
    "prompt_changed": " | extra ref note: The last reference image is the previously approved version of this exact shot: make the same shot, same framing and staging, now brightly lit with rich vivid colour."
   },
   "E01-J008": {
    "priority": 1,
    "status": "accepted",
-   "attempts": 1,
+   "attempts": 2,
    "seconds": [
-    51.6
+    51.6,
+    45.7
    ],
    "tokens": [
-    16924
+    16924,
+    13960
    ],
    "notes": [
-    "PIP matches master, head swivelled camera-left, windows black, no text. Dark style - redo candidate"
+    "PIP matches master, head swivelled camera-left, windows black, no text. Dark style - redo candidate",
+    "BRIGHT REDO with old image as ref: identical staging, teal/amber/magenta console colour, PIP matches master, windows black. Replaces dark version"
    ],
    "refs_used": [
-    "assets/props/pip/master.jpg"
+    "assets/props/pip/master.jpg",
+    "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/e01/redo-src/e01-j008_pip_lens_swivel.png"
    ],
    "file": "episodes/E01/stills/e01-j008_pip_lens_swivel.jpg",
-   "jpg_bytes": 344025,
-   "style": "dark style - redo candidate"
+   "jpg_bytes": 511954,
+   "style": "bright (redone 27 Nov)",
+   "prompt_changed": " | extra ref note: The last reference image is the previously approved version of this exact shot: make the same shot, same framing and staging, now brightly lit with rich vivid colour."
   },
   "E01-J012": {
    "priority": 1,
@@ -89,22 +95,33 @@
   },
   "E01-J013": {
    "priority": 1,
-   "status": "held for new masters",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "pending",
+   "attempts": 1,
+   "seconds": [
+    67.0
+   ],
+   "tokens": [
+    32043
+   ],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
+   ],
+   "refs_used": [
+    "assets/characters/lucia/master.jpg",
+    "assets/characters/jax/master.jpg",
+    "assets/characters/lucia/ref-wrist-ribbon.jpg"
    ]
   },
   "E01-J017": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J019": {
@@ -136,22 +153,24 @@
   },
   "E01-J020": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J021": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J022": {
@@ -285,12 +304,13 @@
   },
   "E01-J043": {
    "priority": 1,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J044": {
@@ -339,14 +359,25 @@
   },
   "E01-J052": {
    "priority": 1,
-   "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    114.0
+   ],
+   "tokens": [
+    9977
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: new Mira/Lucia masters approved by owner; job needs master only"
-   ]
+    "released: new Mira/Lucia masters approved by owner; job needs master only",
+    "Small distant Mira (braid, indigo suit; new master) standing still in lit doorway beyond Noakes's office; window black"
+   ],
+   "refs_used": [
+    "assets/characters/mira/master.jpg",
+    "assets/sets/customs/noakes-office-bright.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j052_mira_doorway_small.jpg",
+   "jpg_bytes": 537534
   },
   "E01-J055": {
    "priority": 2,
@@ -361,42 +392,46 @@
   },
   "E01-J057": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J058": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J061": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J062": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J064": {
@@ -489,32 +524,35 @@
   },
   "E01-J082": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J086": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J106": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J087": {
@@ -552,32 +590,35 @@
   },
   "E01-J098": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J130": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J099": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J108": {
@@ -626,12 +667,13 @@
   },
   "E01-J113": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J114": {
@@ -691,22 +733,24 @@
   },
   "E01-J140": {
    "priority": 2,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J144": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J150": {
@@ -733,12 +777,13 @@
   },
   "E01-J155": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J158": {
@@ -765,12 +810,13 @@
   },
   "E01-J161": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J166": {
@@ -797,52 +843,57 @@
   },
   "E01-J171": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J177": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J178": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J179": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J182": {
    "priority": 3,
-   "status": "held for new masters",
+   "status": "pending",
    "attempts": 0,
    "seconds": [],
    "tokens": [],
    "notes": [
-    "Mira/Lucia job: owner direction 27 Nov, wait for new masters"
+    "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
+    "released: MIRA-LUCIA-REFS-READY"
    ]
   },
   "E01-J184": {
@@ -881,44 +932,54 @@
   "E01-J010": {
    "priority": 1,
    "status": "accepted",
-   "attempts": 1,
+   "attempts": 2,
    "seconds": [
-    51.7
+    51.7,
+    47.4
    ],
    "tokens": [
-    10672
+    10672,
+    14100
    ],
    "notes": [
-    "PIP stamp arm down on blank slip, dust puff, matches master; no text. Dark style - redo candidate"
+    "PIP stamp arm down on blank slip, dust puff, matches master; no text. Dark style - redo candidate",
+    "BRIGHT REDO with old image as ref: same stamp-arm macro, brighter teal/amber, PIP matches. Replaces dark version"
    ],
    "refs_used": [
-    "assets/props/pip/master.jpg"
+    "assets/props/pip/master.jpg",
+    "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/e01/redo-src/e01-j010_pip_stamp_arm.png"
    ],
    "file": "episodes/E01/stills/e01-j010_pip_stamp_arm.jpg",
-   "jpg_bytes": 266026,
-   "style": "dark style - redo candidate"
+   "jpg_bytes": 554619,
+   "style": "bright (redone 27 Nov)",
+   "prompt_changed": " | extra ref note: The last reference image is the previously approved version of this exact shot: make the same shot, same framing and staging, now brightly lit with rich vivid colour."
   },
   "E01-J002": {
    "priority": 1,
    "status": "accepted",
-   "attempts": 1,
+   "attempts": 2,
    "seconds": [
-    61.7
+    61.7,
+    66.8
    ],
    "tokens": [
-    12534
+    12534,
+    15982
    ],
    "notes": [
-    "Jax from behind (curly hair, orange jacket match ref-back), sandwich + one hand on controls, bridge matches master, window pure black. Dark style - redo candidate"
+    "Jax from behind (curly hair, orange jacket match ref-back), sandwich + one hand on controls, bridge matches master, window pure black. Dark style - redo candidate",
+    "BRIGHT REDO with old image as ref: same composition, warmer brighter bridge, window black, Jax back matches. Replaces dark version"
    ],
    "refs_used": [
-    "assets/sets/bridge/master.jpg",
+    "assets/sets/bridge/master-bright.jpg",
     "assets/characters/jax/master.jpg",
-    "assets/characters/jax/ref-back.jpg"
+    "assets/characters/jax/ref-back.jpg",
+    "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/e01/redo-src/e01-j002_bridge_wide_jax_back.png"
    ],
    "file": "episodes/E01/stills/e01-j002_bridge_wide_jax_back.jpg",
-   "jpg_bytes": 295583,
-   "style": "dark style - redo candidate"
+   "jpg_bytes": 608438,
+   "style": "bright (redone 27 Nov)",
+   "prompt_changed": " | extra ref note: The last reference image is the previously approved version of this exact shot: make the same shot, same framing and staging, now brightly lit with rich vivid colour."
   },
   "E01-J006": {
    "priority": 1,
@@ -1067,24 +1128,29 @@
   },
   "E01-J007": {
    "priority": 1,
-   "status": "accepted",
-   "attempts": 1,
+   "status": "rejected-retrying",
+   "attempts": 2,
    "seconds": [
-    58.2
+    58.2,
+    67.1
    ],
    "tokens": [
-    14400
+    14400,
+    19014
    ],
    "notes": [
-    "PIP sharp foreground matches master; Jax behind is lit and only mildly soft rather than a dark silhouette (consistent with brighter direction), back/profile matches hair+jacket; window black"
+    "PIP sharp foreground matches master; Jax behind is lit and only mildly soft rather than a dark silhouette (consistent with brighter direction), back/profile matches hair+jacket; window black",
+    "REJECTED: silhouette fix attempt: Jax is now a flat sharp cut-out with a traced orange outline - looks pasted, not photographic, and not out of focus"
    ],
    "refs_used": [
     "assets/props/pip/master.jpg",
     "assets/characters/jax/master.jpg",
-    "assets/sets/bridge/master.jpg"
+    "assets/sets/bridge/master-bright.jpg",
+    "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/e01/redo-src/e01-j007_pip_fg_jax_bg.png"
    ],
    "file": "episodes/E01/stills/e01-j007_pip_fg_jax_bg.jpg",
-   "jpg_bytes": 483872
+   "jpg_bytes": 483872,
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. PIP sharp in the foreground on the bridge console, amber lens glowing; behind it, soft and out of focus, Jax Vale seated with his back three-quarters to us as a true dark silhouette: his body and face unlit and near-black, readable only by a thin warm amber rim light from the console tracing the edge of his curly hair, shoulder and jacket against the pure-black window. The PIP foreground and the console are brightly lit. PIP: small brass-and-cream machine like a desk lamp crossed with a postal scale, one glowing amber lens, a rubber-stamp arm; photographed as a real practical object. Jax Vale: Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later). | extra ref note: The last reference image is the earlier version of this shot: keep PIP, the console and the framing, but Jax must now be a true dark rim-lit silhouette."
   },
   "E01-J014": {
    "priority": 1,
@@ -1421,10 +1487,18 @@
   "E01-J023": {
    "priority": 1,
    "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
-   "notes": []
+   "attempts": 1,
+   "seconds": [
+    57.0
+   ],
+   "tokens": [
+    11977
+   ],
+   "notes": [],
+   "refs_used": [
+    "assets/sets/customs/master-bright.jpg",
+    "assets/characters/baron/master.jpg"
+   ]
   },
   "E01-J028": {
    "priority": 1,

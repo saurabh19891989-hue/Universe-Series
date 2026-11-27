@@ -312,14 +312,14 @@ def to_alpha(x):
 # --------------------------------------------------------------------------
 class ClipSpec:
     def __init__(self, name, dur, draw, look="amber", alpha=True, stills=(), cues=None,
-                 matte=None, dual=False, notes="", prores=True, lookobj=None):
+                 matte=None, dual=False, notes="", prores=True, lookobj=None, prores_q=16):
         """draw(t, i, alpha=False) -> PIL image or float array.
         dual=True: the alpha version is drawn separately (alpha=True), e.g. to leave a placeholder
         window empty; matte = list of (x0,y0,x1,y1) rectangles saved as a PNG matte."""
         self.name, self.dur, self.draw = name, dur, draw
         self.look = lookobj or LOOKS[look]
         self.alpha, self.stills, self.cues, self.notes = alpha, list(stills), cues or {}, notes
-        self.matte, self.dual, self.prores = matte, dual, prores
+        self.matte, self.dual, self.prores, self.prores_q = matte, dual, prores, prores_q
 
 
 def _ff_h264(path):
@@ -331,10 +331,10 @@ def _ff_h264(path):
          "-movflags", "+faststart", path], stdin=subprocess.PIPE)
 
 
-def _ff_prores(path):
+def _ff_prores(path, q=16):
     return subprocess.Popen(
         ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}",
-         "-r", str(FPS), "-i", "-", "-c:v", "prores_ks", "-profile:v", "4444", "-qscale:v", "16",
+         "-r", str(FPS), "-i", "-", "-c:v", "prores_ks", "-profile:v", "4444", "-qscale:v", str(q),
          "-pix_fmt", "yuva444p10le", "-vendor", "apl0", "-threads", "1", path], stdin=subprocess.PIPE)
 
 
@@ -356,7 +356,7 @@ def render(spec, outdir, stilldir=None, quick=False, skip_existing=False):
     if quick:
         n = min(n, 48)
     p264 = _ff_h264(os.path.join(outdir, spec.name + ".mp4"))
-    pm = _ff_prores(os.path.join(outdir, spec.name + "_alpha.mov")) if (spec.alpha and spec.prores) else None
+    pm = _ff_prores(os.path.join(outdir, spec.name + "_alpha.mov"), spec.prores_q) if (spec.alpha and spec.prores) else None
     still_idx = {int(round(s * FPS)): k for k, s in enumerate(spec.stills)}
     for i in range(n):
         t = i / FPS

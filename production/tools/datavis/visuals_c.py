@@ -275,7 +275,7 @@ def laser_map(synthetic=False, source_label="LOLA 5 M/PX"):
     return [ClipSpec("11_laser_map_mira", DUR, draw, lookobj=Look(base=(0.003, 0.006, 0.01), soft=0.8, bloom=1.0, bloom_r=(2.5, 11),
                                                                   chroma=1.0, scan=0.12, flicker=0.02, curve=0.0, vignette=0.55,
                                                                   dust=0.8, seed=51, hum=0.04),
-                     stills=[5.0, 8.0, 12.0, 22.0, 27.0, 31.0, 38.0, 46.0],
+                     stills=[5.0, 8.0, 12.0, 22.0, 27.0, 31.0, 38.0, 46.0], prores_q=32,
                      cues={"black_until": 2.0, "dot_appears": 2.0, "contours_bloom": "3-12", "left_eleven_degrees": 12.5,
                            "driving": "13-20", "stop_4m_from_edge": 20.0, "forward_40m": "26-28.5", "round_boulder": "28.5-31.5",
                            "ramp_named": 32.0, "reaches_ramp": 42.0},

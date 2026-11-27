@@ -42,10 +42,19 @@ def main():
     ap.add_argument("--only", nargs="*")
     ap.add_argument("--quick", action="store_true")
     ap.add_argument("--procs", type=int, default=4)
+    ap.add_argument("--cues-only", action="store_true", help="only (re)write cues.json for all clips")
     ap.add_argument("--skip-existing", action="store_true", help="do not re-render clips already finished")
     a = ap.parse_args()
     reg = registry()
     keys = a.only or list(reg)
+    if a.cues_only:
+        allc = {}
+        for k in reg:
+            for s in reg[k]():
+                allc[s.name] = {"duration_s": s.dur, "alpha_mov": bool(s.alpha and s.prores), "cues_s": s.cues, "notes": s.notes}
+        os.makedirs(OUT, exist_ok=True)
+        json.dump(allc, open(os.path.join(OUT, "cues.json"), "w"), indent=1, ensure_ascii=False)
+        return
     jobs = []
     for k in keys:
         n = len(reg[k]())
