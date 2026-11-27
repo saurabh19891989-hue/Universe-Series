@@ -209,6 +209,12 @@ Last updated: 2026-11-27 (session 1)
   is a protected mark). Laser map uses real LOLA data (PGDA product 78).
 - Disk: cleared old look-test models; ~33 GB free.
 
+- CAST AND EPISODE 2 LOOK APPROVED (Fri 27 Nov night): owner chose Kaguya 1, Astolfo 2, Arakawa 2,
+  Idris 2; approved Voss and Cass; approved the five Episode 2 places. All LOCKED in
+  `canon/CHARACTER-LOCKS.md` and `assets/`. To do when images resume: brighter Voss from his
+  master; mask scenery out of Idris's and the bareheaded Baron's windows; reference sets for
+  Idris, Arakawa, Kaguya, Astolfo.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|
