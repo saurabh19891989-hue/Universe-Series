@@ -208,9 +208,10 @@ officials who tried to cage him with a title. The owner has the final say before
 
 **Showrunner rulings, 27 Nov (evening) — after the Episode 5 critic**
 - **PIP's READ stamp** counts from SEND to the moment the report is read: one way, on the
-  reader's clock (Episode 3's rule). PIP waits the full round trip to learn it. Moon, eps 1–2:
-  00:00:01.3. Mars, Phobos and Deimos, eps 3–4: 00:11:00, then 00:11:04 (PIP waits twenty-two
-  minutes for the receipt). **From Episode 5 onward the stamp is 1.3 seconds wherever the ship
+  reader's clock (Episode 3's rule). PIP waits the full round trip to learn it. Moon: 1.3 s on
+  the near side (ep 1), 1.7 s from the far side through the relay at L2 (ep 2, where PIP first
+  notices: "Somebody on Earth opens them as they land"). Mars, Phobos and Deimos, eps 3–4:
+  00:11:00, then 00:11:04 (PIP waits twenty-two minutes for the receipt). **From Episode 5 onward the stamp is 1.3 seconds wherever the ship
   is:** the reader has moved and now keeps about four hundred thousand kilometres from the
   ship — the Moon's distance from Earth. PIP notices in ep 5 ("At Mars it took eleven minutes.
   Tonight, one point three seconds. Captain, the reader has moved."). Nobody learns who until

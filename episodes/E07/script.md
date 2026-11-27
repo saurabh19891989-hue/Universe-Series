@@ -1026,7 +1026,9 @@ runs fast. The float is a DATA VISUAL: three points (CERES, VESTA, BENNU), a dot
 crawling from Ceres to Vesta under a clock counting down from 14:00, and a ship's mark beating
 it through a gate. Everything else is hands and objects: Seo's hands on the yoke; a strongbox on
 a counter; yellow-sleeved hands stamping slowly; nets of white tiles drifting in through the
-hatch; Anansi's fingers. Idris's three appearances are three stills with someone in the doorway.
+hatch; Anansi's fingers. Idris's three appearances are three stills with someone in the doorway,
+and each of his lines plays on the face in the doorway, not on him. Seo's and Mira's single lines
+are off-screen over their hands.
 ```
 MONTAGE — CERES / VESTA / BENNU — DAYS 3 TO 6
 

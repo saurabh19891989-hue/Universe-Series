@@ -108,7 +108,7 @@ plays without lip-sync.
 dog; the wax Board. **Text only:** Auditor Pell ("P.", messages sent more than forty minutes
 before they arrive); Mattias Voss (a slip Mira reads); the gate board; the Year Clock.
 
-Jax narration: four V.O. lines (1, 13, 26), each skipping time or lying.
+Jax narration: three V.O. lines (1, 13, 26), each skipping time or lying.
 
 ---
 
@@ -440,10 +440,22 @@ DATA VISUAL: the belt, the yellow moon, the ring of grey ticks.
 Closed.
 
                          IDRIS
+          Since Venus I've been the man who
+          broke the gate. I've played a
+          prince, a pirate and a widower.
+          Saboteur is the first part I didn't
+          write myself.
+
+                         SEO
+          You're not good in it.
+
+                         IDRIS
+          Thank you. I think.
+                    (a beat)
           Over half an hour for a word to
-          reach Earth from here. I once waited
-          that long for a woman in Basra to
-          say no.
+          reach Earth from here. I once
+          waited that long for a woman in
+          Basra to say no.
 
                          SEO
           Did she?
@@ -605,6 +617,11 @@ Nobody moves.
                          MIRA
           So was the Baron.
 
+                         OYUNA
+          In my family's songs he arrives on
+          the third night. After that, nobody
+          sleeps.
+
                          CHAMBERLAIN
           He prefers the name. It isn't
           what's on the door.
@@ -647,6 +664,8 @@ INSERT: page one. REPORT #1,204 — RE: CAPTAIN. "TAKE IT" (x5).
                     (reading, level)
           "Take it. Take it. Take it. Take it.
           Take it."
+                    (a beat)
+          The unit counted.
 
 She turns the page. Behind her, the grey shape's cup stops
 halfway to its mouth.
@@ -825,6 +844,27 @@ that nobody in the scene looks at. Plant it plainly.
 ```
 INT. THE HALL OF THE SEAT — CONTINUOUS
 
+INSERT: Mira's loupe, at the foot of the contract. A signature
+that slides off the eye.
+
+                         MIRA
+          It's witnessed. "P. I. Ch—"
+
+                         WUKONG
+          A grey man. I have fought an army of
+          a hundred thousand, and I remember
+          every face. His I could not draw
+          you.
+
+                         JAX
+          Average?
+
+                         WUKONG
+          That is the word. These eyes see
+          through any disguise. He was not
+          wearing one. There was nothing to
+          see through.
+
                          OYUNA
           There is a quicker way. The
           Register is upstairs. An entry can
@@ -901,6 +941,15 @@ A silence nobody likes. Jax breaks it.
                          WUKONG
           Then I accept your carriage.
 
+                         PIP (V.O.)
+          Signature required.
+
+                         WUKONG
+          On delivery.
+
+INSERT: he tucks the needle behind his ear, like a carpenter's
+pencil.
+
 Lucía crouches at the plinth and takes hold of the stone.
 
                          LUCÍA
@@ -968,6 +1017,12 @@ Click.
 
                          IDRIS
           Should I be jealous?
+
+                         SEO
+          Of a file?
+
+                         IDRIS
+          Of anyone who has read you.
 ```
 
 ### 9 · THE RESIDENCE — THE HALL OF DEFERENCE
@@ -1102,6 +1157,14 @@ cushion. Mira and Oyuna watch.
           of Jupiter. Out there, in a year,
           he is a tale children get wrong.
 
+                         MIRA
+          That's a cage.
+
+                         CHAMBERLAIN
+          It is a page, Doctor. You would be
+          amazed what people will sit still
+          for, to stay on one.
+
 Oyuna turns pages. INSERT: columns of names. Some crossed through
 in red, still plain to read. Her finger stops. Line 40. Line 42.
 Between them, a ruled line with nothing on it. Clean paper.
@@ -1125,7 +1188,9 @@ INSERT: his hand shuts the book.
           unless the senior officer present
           allows it, and I am always the
           senior officer present. I had the
-          others transferred.
+          others transferred. Everything in
+          this mountain devolves upon me. I
+          prefer it.
 ```
 
 ### 11 · THE CAUSEWAY OVER THE LAKE
@@ -1191,6 +1256,11 @@ The Chamberlain looks. He has not.
           am asking about the precedence.
 
 Silence. The lake ticks as it cools.
+
+                         LUCÍA
+                    (from under the Seat)
+          Could precedence hurry? I'm holding
+          a piano.
 
                          MIRA
                     (loupe, over the cushion)
@@ -1288,7 +1358,13 @@ and understands.
           would have asked to be paid.
 
                          WUKONG
-          I would.
+          I would. I'll invoice.
+
+                         LUCÍA
+          They don't pay.
+
+                         WUKONG
+          I have not finished asking.
 
 WIDE (HELD): no sound. Behind them the mountain's flank splits.
 Fire. Then, climbing out of it, blue-white, taller and taller
@@ -1362,7 +1438,12 @@ long yellow streak of sulphur burns itself down her port side.
 
                          LUCÍA
                     (radio)
-          Meet us in what?
+          Meet us in what? And you're sure
+          he's a piano?
+
+                         WUKONG
+                    (radio)
+          A good one.
 
 Round the mountain's shoulder: a stone pier. Moored to it, a boat.
 ```
@@ -1519,6 +1600,11 @@ INSERT: the stern gallery. Open to the sky. Two brass wheels.
                          JAX
           It's not a boat.
 
+                         WUKONG
+          It has a prow, a tiller and a
+          figurehead. I have been called
+          things on thinner evidence.
+
 Lucía is already climbing aft.
 
                          WUKONG
@@ -1666,9 +1752,13 @@ COUNT OF ENJOYING IT."
 She closes the folder on her finger, keeping the place.
 
                          ARAKAWA (CONT'D)
-          The fleet holds the belt. This ship
-          goes down after them. Juno's road.
-          Fast, and under.
+          The Auditor is over half an hour
+          away. By the time he forbids it, it
+          will have been done. That is the
+          one mercy of this planet. The fleet
+          holds the belt. This ship goes down
+          after them. Juno's road. Fast, and
+          under.
 ```
 
 ### 18 · THE BARGE — THE FALL
@@ -1712,6 +1802,20 @@ Oyuna, with the Register.
           airtight.
 
                          JAX
+          Oyuna. How many names in that
+          thing?
+
+                         OYUNA
+          Four hundred. I have them now.
+
+                         JAX
+          Already?
+
+                         OYUNA
+          It's a short book. Most of it is
+          titles.
+
+                         JAX (CONT'D)
                     (radio)
           Lucha. Your badge.
 
@@ -1835,8 +1939,8 @@ banners streaming: the barge. Sixty metres above it, hold open,
 engines howling: the Unscheduled.
 
                          SEO (V.O.)
-          I can't come lower. You can't come
-          higher.
+          Any lower and I can't climb out
+          again. You'll have to come up.
 
                          LUCÍA (V.O.)
           I've nothing left to give her!
@@ -1901,6 +2005,9 @@ cord hangs threaded through the ring.
                          IDRIS (V.O.)
           It's through the winch. He has
           threaded the winch.
+
+                         SEO (V.O.)
+          Taking up the slack.
 
 EXT. THE BARGE
 
@@ -2047,7 +2154,8 @@ listening: hold them. "Something goes out of his shoulders" is a real beat: one 
 before, one after. The stern is an INSERT: a small figure bent over two brass wheels. The strike
 is two INSERTS of the page: the pen drawing one stroke through the name; then stroke and name
 fading together, leaving a ruled line of clean paper (match it exactly to line 41 in 10). **[MOUTH
-2]**: Mira lifts her visor to get the loupe to the page; her line is on her face, close, lit red.
+2]**: Mira's loupe is pressed to her clear visor over the page; her line is on her face behind
+the glass, close, lit red.
 Her look at Jax is silent. After Wukong's last line, **three full seconds of wind and nothing
 else.** Then two feet on the deck, and the Seat cracking behind him. He does not look heroic
 standing up. He looks relieved, like a man putting down shopping.
@@ -2178,7 +2286,9 @@ INSERT: above them, the Steadfast's great grapple arms close on
 the barge's gilded prow. The gold cord hangs taut between boat and
 ship: one caught, both caught.
 
-Wukong walks aft. He takes the needle from behind his ear.
+Wukong lifts off the gilt helmet, looks at it once, and drops it
+over the side. The stone half-mask. The eyes. He walks aft, and
+takes the needle from behind his ear.
 
 INSERT (HELD): the needle, between two fingers. It lengthens.
 Thickens. An iron staff, banded gold at each end, grounded on the
@@ -2231,6 +2341,11 @@ yellow streak of sulphur down the port side. Nine Unscheduleds.
 
                          IDRIS (V.O.)
           I thought you might.
+
+                         PIP (V.O.)
+                    (from the box)
+          Eight of them are filing reports.
+          Their numbering is wrong.
 
                          JAX
           Seo. Cut the line. Go and be eight
@@ -2453,8 +2568,21 @@ Jax looks up, and sees Seo.
                          SEO
           No. Not today.
 
-He takes it for pride. He turns back to Lucía. Seo stays on the
-ladder.
+He takes it for pride. He turns back to Lucía. Idris comes down
+the ladder past Seo, and stops one rung below her.
+
+                         IDRIS
+                    (low)
+          The second pass was the best flying
+          I have ever seen.
+
+                         SEO
+          It was late.
+
+                         IDRIS
+          Yes.
+
+He goes on down. Seo stays on the ladder.
 ```
 
 ### 26 · THE STRONGBOX, THEN THE BRIDGE — AFTERWARDS
@@ -2477,6 +2605,14 @@ The titanium box, one side open. Inside, on blankets: Lucía.
 Beside her head, the parcel. Jax sits against the box.
 
                          LUCÍA
+          Did he get up?
+
+                         JAX
+          Walked the length of the boat.
+
+                         LUCÍA
+          Good. He was heavy.
+                    (a beat)
           This is the box.
 
                          JAX
@@ -2545,8 +2681,15 @@ INT. THE UNSCHEDULED — BRIDGE — NIGHT
 Jupiter's cloud tops sliding away under the window. Mira, Oyuna,
 Idris. Seo flying, helmet on. Jax comes in.
 
+                         IDRIS
+          She let us go. A commander of the
+          Directorate.
+
                          MIRA
-          She can't take another dose. She
+          She let a lifeboat go. We happened
+          to be in it.
+                    (a beat)
+          Lucía can't take another dose. She
           needs rock over her. Or ice.
 
                          OYUNA
@@ -2571,9 +2714,11 @@ Idris. Seo flying, helmet on. Jax comes in.
                          PIP
           Status. The Register of Dignities
           is aboard. Four hundred titles.
-          Miss Tseren has learned them.
-          Commander Arakawa has read my
-          reports and corrected my
+          Miss Tseren has learned them. Mr
+          Sun signed for his own delivery by
+          removing himself. I have no form
+          for that. Commander Arakawa has
+          read my reports and corrected my
           punctuation. I am filing one on
           her.
 

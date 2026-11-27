@@ -80,7 +80,7 @@ Europa's ice.*
   port behind. The hunter you end up respecting.
 - **Cass Rook** — rival courier captain, Nigerian-British, charming, for sale. Frenemy.
 
-**Recurring Storied** — Baron Munchausen (stowaway and unreliable guest narrator), Captain Nemo
+**Recurring Storied** — Baron Munchausen (stowaway in eps 1–2; he stays in the Valley of Lost Things at the end of ep 2 and has promised to return by cannonball; unreliable guest narrator), Captain Nemo
 (ally with a submarine and a grudge against empires), Scheherazade (information broker; nobody
 leaves her salon before the story ends), Sun Wukong (the cavalry, unfortunately).
 **Anant** — an original wandering sage who turns up rarely and asks the one question nobody wants.

@@ -137,7 +137,7 @@ the near side under it is in night.
 | KAGUYA | Guest. A Japanese woman of indeterminate age, with no visible years and every one of them in her eyes. Layered Heian court robes adapted to the Moon: heavy silk over a pressure layer, long hair, a folding fan. Usually seen as a seated figure behind a bamboo blind. Design from the old tale and Heian court dress, **never from any film or anime**. |
 | ASTOLFO | Guest. An English paladin out of Ariosto, cheerful and practical: battered plate over a pressure suit, an old visored helm, a feather duster, and a flask of his own wits that he keeps losing. Not any anime design. |
 | HAN SEO-YEON ("SEO") | New crew. Korean woman, early 30s, the best flyer in three planets. Plain grey flight suit, scuffed flight helmet. Still, watchful, warm when she forgets to guard it. Tucked in the lining of her flight helmet: a photo of an older woman in a rescue pilot's helmet. |
-| COMMANDER TOMOE ARAKAWA | Directorate Enforcement. Japanese woman, about 50, Directorate grey, no ornament, cropped grey hair. Upright. She looks as if she has never once been late. |
+| COMMANDER TOMOE ARAKAWA | Directorate Enforcement. Japanese woman, 40s, severe dark Directorate uniform with no ornament and no real-world insignia; face, hair and uniform exactly as the locked master (`assets/characters/arakawa/master.jpg`). Upright. She looks as if she has never once been late. |
 
 **Also heard:** TEMI (Recoveries, Lagos), one broken line in the cold open in her E01 voice; later
 PIP reads her message. **Silent:** PAVEL CHICHIKOV (as E01, in soft focus on Arakawa's bridge).

@@ -245,3 +245,19 @@ Gemini API key is saved as a network secret on the Default environment
 - Moving multi-GB finished videos from the cloud machine to Drive (connector handles small
   files only; rclone needs a one-time authorisation). See `research/tooling/` when it lands.
 - Upload route to YouTube (API from server vs Chrome on the laptop as on Secret India).
+
+## 27 Nov, evening (later)
+- **Episode 2 script LOCKED** (`episodes/E02/script-v3.md`, 4,072 spoken words, about 35:40).
+  Showrunner read all dialogue. Dialogue audio and shot list are being built.
+- **Episode 5 critic back** (ready after fixes); rulings recorded at the end of
+  `canon/season-01.md` (READ stamps, label one, Ilse, gates, Lupin's favour); revision to v3 running.
+- **Episode 7 first draft done**; punch-up running. Episodes 6, 8, 9 drafts and critics on 3, 4 running.
+- **Episode 1 production dialogue done** (voices only, 27:13): four review MP3s sent to the owner
+  in chat and in `samples/e01/dialogue/`. Nobody has listened yet. Bank is now "Brindlelark" with
+  our own lark logo (name web-searched only, no trademark-register check).
+- **Six new locked masters** (kaguya, astolfo, arakawa, idris, voss, cass) copied to Drive
+  `04-locked-cast-masters`.
+- **Drive connector limit is now about 3 MB per file** from this session (was 10 MB). Three of the
+  four dialogue MP3s (parts 1, 2, 4) did not upload; part 3 did. New review audio is cut into
+  parts under 2.9 MB.
+

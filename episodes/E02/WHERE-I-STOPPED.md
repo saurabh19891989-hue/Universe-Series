@@ -3,3 +3,9 @@
 3. **What moved:** Arakawa's terms (5) now play before the audience (4, cut to 1:30), so the siege starts at 3:55; 6 is merged into 7; 18 is in Act 2 after 15 and sends the Voss drone down; 19 is outdoors (Lucía takes the drone off the hull, then the robe's terms); 22 is on the silver heap. Arakawa counts down by radio six times; SUNSET and AIR are inserts throughout; in 25 her temptation is two equal readouts (two hours to sunset, two hours to descend) and she lets them drift apart.
 4. **Next:** showrunner read and lock; a three-voice A/B reel (Kaguya, Arakawa, Seo) for the owner before the table read; check the Earthrise plate's Earth phase by eye (must be nearly full: Artemis I outbound, 21 Nov 2022, is the candidate); owner approval of the Kaguya, Astolfo and Arakawa masters; shot list. Nobody has heard or seen anything yet.
 5. **Open for the showrunner:** the bible still lists the Baron as a recurring stowaway (not mine to edit); "the Valley's shadow" is a shadow from Earth, and the ship sits in sunlight (geometry in the script header); READ stamps are now 1.7 s, and E05's last scene still says 1.3; Arakawa is "about 50" here and "40s" in CHARACTER-LOCKS; a Heian instrument beside koto and shakuhachi is the owner's call; `research/locations/02` should record that the Valley lies beyond the west limb.
+
+**LOCKED by the showrunner, 27 Nov evening.** `script-v3.md` is final: all dialogue read by the
+showrunner. Settled: the ship sits in sunlight, hidden from Earth by the rim wall (bright, as the
+owner wants); READ stamp 1.7 s from the far side (season plan ruling); Arakawa is in her 40s, as
+the locked master; the bible's Baron line is aligned (he stays in the Valley). Still open for the
+owner: a Heian instrument in the score. Next: dialogue audio for the owner, shot list, image jobs.

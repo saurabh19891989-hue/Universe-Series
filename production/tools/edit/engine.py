@@ -86,14 +86,18 @@ def shape_mask(shape, s):
 # ------------------------------------------------------------------ sources
 class Video:
     """Video plate source (any ffmpeg-readable file). Loops; returns float RGB."""
-    def __init__(self, path, max_w=2400):
+    def __init__(self, path, max_w=2400, loop=True):
+        self.loop = loop
         self.cap = cv2.VideoCapture(path)
         self.fps = self.cap.get(cv2.CAP_PROP_FPS) or 24
         self.n = int(self.cap.get(cv2.CAP_PROP_FRAME_COUNT)) or 1
         self.idx = -1; self.frame = None; self.max_w = max_w
 
     def at(self, t):
-        i = int(t * self.fps) % self.n
+        i = int(max(0.0, t) * self.fps + 1e-6)
+        i = i % self.n if self.loop else min(i, self.n - 2)
+        if i == self.idx and self.frame is not None:
+            return self.frame
         if i != self.idx + 1:
             self.cap.set(cv2.CAP_PROP_POS_FRAMES, i)
         ok, f = self.cap.read()
@@ -200,6 +204,73 @@ def inpaint_under(img, mask, dilate=9):
     return img * (1 - a) + fill * a
 
 
+# ------------------------------------------------------------------ parallax depth (simple masks, no models)
+def build_depth(img, spec, zero=None):
+    """Smooth pseudo-depth in [-0.5, 0.5] (positive = nearer) from simple cues: what is in focus
+    (sharp = subject), a floor ramp (lower = nearer) and optional hand shapes. `zero` is a mask
+    of areas that must not move against the base (window frames, screen quads)."""
+    h, w = img.shape[:2]
+    sw = 418; sh_ = max(2, int(round(h * sw / w)))
+    g = cv2.resize(lum(np.clip(img, 0, 1)), (sw, sh_), interpolation=cv2.INTER_AREA)
+    lap = np.abs(cv2.Laplacian(cv2.GaussianBlur(g, (0, 0), 1.0), cv2.CV_32F))
+    f = cv2.GaussianBlur(lap, (0, 0), sw * 0.03)
+    f = np.clip(f / (np.percentile(f, 96) + 1e-6), 0, 1)
+    yy = (np.arange(sh_, dtype=np.float32) / max(1, sh_ - 1))[:, None] ** 1.4
+    d = spec.get("focus_w", 0.65) * f + spec.get("floor_w", 0.35) * np.broadcast_to(yy, f.shape)
+    for r in spec.get("regions", []):
+        m = shape_mask((sh_, sw), r)
+        d = d * (1 - m) + r.get("depth", 1.0) * m
+    d = cv2.GaussianBlur(d.astype(np.float32), (0, 0), sw * spec.get("smooth", 0.035))
+    d = d - float(np.median(d))
+    d = d / (float(np.abs(d).max()) * 2 + 1e-6)
+    d = cv2.resize(d, (w, h), interpolation=cv2.INTER_CUBIC)
+    if zero is not None:
+        z = cv2.dilate((zero > 0.05).astype(np.float32), np.ones((31, 31), np.uint8))
+        d = d * (1 - cv2.GaussianBlur(z, (0, 0), 24))
+    return d.astype(np.float32)
+
+
+class Motes:
+    """Fine dust drifting in the lit air of an interior: additive, brighter where the frame is lit."""
+    def __init__(self, spec, W, H, seed):
+        self.s = spec; self.W = W; self.H = H
+        rng = np.random.default_rng(seed + 77)
+        n = int(spec.get("n", 70))
+        self.p0 = rng.uniform(0, 1, (n, 2)).astype(np.float32)
+        sp = spec.get("speed", 9.0)
+        ang = rng.uniform(0, 2 * math.pi, n)
+        self.v = (np.stack([np.cos(ang), np.sin(ang) * 0.6 - 0.25], 1) * rng.uniform(0.3, 1.0, (n, 1)) * sp).astype(np.float32)
+        self.ph = rng.uniform(0, 6.283, (n, 3)).astype(np.float32)
+        self.z = rng.uniform(0, 1, n).astype(np.float32) ** 1.6          # 1 = near (bigger, softer, faster)
+        self.tw = rng.uniform(0.15, 0.5, n).astype(np.float32)
+        self.kern = {}
+        for r in (1, 2, 3, 5):
+            k = cv2.getGaussianKernel(6 * r + 1, r * 0.9); self.kern[r] = (k @ k.T / (k @ k.T).max()).astype(np.float32)
+        self.col = np.float32(spec.get("color", [1.0, 0.93, 0.8]))
+
+    def render(self, out, t):
+        s = self.s; W, H = self.W, self.H
+        hw, hh = W // 2, H // 2
+        can = np.zeros((hh, hw), np.float32)
+        wob = np.stack([np.sin(t * 0.7 + self.ph[:, 0]), np.cos(t * 0.5 + self.ph[:, 1])], 1) * 6.0
+        pos = (self.p0 * [W, H] + (self.v * (0.5 + self.z[:, None]) * t) + wob * (0.4 + self.z[:, None]))
+        pos[:, 0] %= W; pos[:, 1] %= H
+        tw = 0.55 + 0.45 * np.sin(t * self.tw * 6.283 + self.ph[:, 2])
+        for (x, y), z, a in zip(pos, self.z, tw):
+            r = 1 if z < 0.45 else (2 if z < 0.75 else (3 if z < 0.93 else 5))
+            k = self.kern[r]; kh = k.shape[0] // 2
+            cx, cy = int(x / 2), int(y / 2)
+            x0, x1, y0, y1 = cx - kh, cx + kh + 1, cy - kh, cy + kh + 1
+            if x0 < 0 or y0 < 0 or x1 > hw or y1 > hh:
+                continue
+            can[y0:y1, x0:x1] += k * (a * (1.0 if r < 3 else (0.55 if r == 3 else 0.3)))
+        lit = cv2.resize(lum(out), (W // 16, H // 16), interpolation=cv2.INTER_AREA)
+        lit = cv2.GaussianBlur(lit, (0, 0), 4)
+        lit = np.clip((lit - s.get("lit_lo", 0.12)) / s.get("lit_span", 0.5), 0.0, 1.0) ** 1.2
+        can = cv2.resize(can, (W, H), interpolation=cv2.INTER_LINEAR) * cv2.resize(lit, (W, H), interpolation=cv2.INTER_LINEAR)
+        return out + can[..., None] * self.col * s.get("gain", 0.2)
+
+
 # ------------------------------------------------------------------ camera
 def cam_at(cam, t, dur, seed):
     """Camera state (cx, cy, zoom, rot) in normalised base coords at shot time t."""
@@ -233,6 +304,9 @@ def cam_at(cam, t, dur, seed):
         st["dx"] = amp * smooth_noise(seed, t, per)
         st["dy"] = amp * 0.7 * smooth_noise(seed + 1, t, per * 1.2)
         st["rot"] += dr.get("rot_deg", 0.0) * smooth_noise(seed + 2, t, per * 1.5)
+    br = cam.get("breath")
+    if br:                                   # focus breathing: a tiny slow zoom oscillation
+        st["zoom"] *= 1 + br.get("zoom", 0.0015) * smooth_noise(seed + 5, t, br.get("period_s", 4.5), 2)
     for sh in cam.get("shake", []):
         d = t - sh["at"]
         if 0 <= d < sh.get("decay_s", 0.35) * 4:
@@ -297,6 +371,28 @@ class Lights:
                     hsv = cv2.cvtColor(np.clip(base, 0, 1), cv2.COLOR_RGB2HSV)
                     em = np.clip((hsv[..., 2] - 0.45) / 0.3, 0, 1) * np.clip((hsv[..., 1] - 0.25) / 0.3, 0, 1)
                     m = m * cv2.GaussianBlur(em, (0, 0), 2)
+                self.cache[i] = bbox(m)
+            elif s["type"] == "practicals":
+                # every lamp (warm, bright, saturated) and every lit screen (cool) found by colour;
+                # lamps flicker fast and small, screens pulse slowly; each also moves its own halo
+                hsv = cv2.cvtColor(np.clip(base, 0, 1), cv2.COLOR_RGB2HSV)
+                hh_, ss_, vv_ = hsv[..., 0], hsv[..., 1], hsv[..., 2]
+                ex = np.ones((self.h, self.w), np.float32)
+                for e in s.get("exclude", []):
+                    ex *= 1 - shape_mask((self.h, self.w), dict(e, feather_px=e.get("feather_px", 12)))
+                warm = (np.clip((vv_ - 0.72) / 0.2, 0, 1) * np.clip((ss_ - 0.25) / 0.25, 0, 1) * ((hh_ > 12) & (hh_ < 62))) * ex
+                cool = (np.clip((vv_ - 0.5) / 0.25, 0, 1) * np.clip((ss_ - 0.3) / 0.25, 0, 1) * ((hh_ > 75) & (hh_ < 215))) * ex
+                ent = {}
+                for nm, m in (("warm", warm), ("cool", cool)):
+                    m = m.astype(np.float32)
+                    core = cv2.GaussianBlur(m, (0, 0), 2.5)
+                    small = cv2.resize(m, (self.w // 8, self.h // 8), interpolation=cv2.INTER_AREA)
+                    halo = cv2.resize(cv2.GaussianBlur(small, (0, 0), self.w * 0.045 / 8), (self.w, self.h), interpolation=cv2.INTER_LINEAR)
+                    halo = np.clip(halo * 2.2, 0, 1)
+                    ent[nm] = bbox(np.clip(core + 0.55 * halo, 0, 1.2), thr=0.02)
+                self.cache[i] = ent
+            elif s["type"] == "sweep":
+                m = rect_mask((self.h, self.w), s.get("rect", [0, 0, 1, 1]), s.get("feather_px", 30))
                 self.cache[i] = bbox(m)
             elif s["type"] in ("lens", "led"):
                 yy, xx = np.mgrid[0:self.h, 0:self.w].astype(np.float32)
@@ -390,6 +486,22 @@ class Lights:
                     if on > 0:
                         self.add(img, c["core"], col * 1.1 * on)
                         self.add(img, c["glow"], col * s.get("glow_gain", 0.45) * on)
+            elif ty == "practicals":
+                c = self.cache[i]
+                nf = smooth_noise(self.seed + 3 * i + 1, t, 1.0 / s.get("lamp_hz", 7.0), 3)
+                dip = max(0.0, smooth_noise(self.seed + 3 * i + 2, t, 2.3, 2) - 0.72) * 3.0   # rare soft sag
+                self.mul(img, c["warm"], 1 + s.get("lamp", 0.07) * nf - s.get("lamp_dip", 0.12) * dip)
+                ns = smooth_noise(self.seed + 3 * i + 3, t, 1.0 / s.get("screen_hz", 0.55), 2)
+                nq = smooth_noise(self.seed + 3 * i + 4, t, 0.11, 2)
+                self.mul(img, c["cool"], 1 + s.get("screen", 0.12) * ns + s.get("screen_shimmer", 0.03) * nq)
+            elif ty == "sweep":
+                ys, xs, m = self.cache[i]
+                if m.size:
+                    hh_, ww_ = m.shape
+                    u = (np.arange(ww_, dtype=np.float32)[None, :] / self.w - 0.6 * np.arange(hh_, dtype=np.float32)[:, None] / self.h)
+                    c0 = s.get("from", -0.3) + (s.get("to", 1.0) - s.get("from", -0.3)) * ((t / s.get("period_s", 9.0)) % 1.0)
+                    band = np.exp(-((u - c0 + (xs.start - 0.6 * ys.start * self.w / self.h) / self.w) / s.get("width", 0.07)) ** 2)
+                    img[ys, xs] += (band * m)[..., None] * np.float32(s.get("color", [0.9, 0.95, 1.0])) * s.get("gain", 0.05)
             elif ty == "flash":
                 d = t - s["at"]
                 if 0 <= d < s.get("dur", 0.25):
