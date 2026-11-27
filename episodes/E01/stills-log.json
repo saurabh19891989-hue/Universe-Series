@@ -878,7 +878,7 @@
   },
   "E01-J007": {
    "priority": 1,
-   "status": "pending",
+   "status": "accepted",
    "attempts": 1,
    "seconds": [
     58.2
@@ -886,12 +886,16 @@
    "tokens": [
     14400
    ],
-   "notes": [],
+   "notes": [
+    "PIP sharp foreground matches master; Jax behind is lit and only mildly soft rather than a dark silhouette (consistent with brighter direction), back/profile matches hair+jacket; window black"
+   ],
    "refs_used": [
     "assets/props/pip/master.jpg",
     "assets/characters/jax/master.jpg",
     "assets/sets/bridge/master.jpg"
-   ]
+   ],
+   "file": "episodes/E01/stills/e01-j007_pip_fg_jax_bg.jpg",
+   "jpg_bytes": 483872
   }
  },
  "allowance": [
