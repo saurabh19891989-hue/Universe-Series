@@ -10,12 +10,12 @@ Usage:
                [--ref ref.png --ref-scale 0.6 --face]
   local_gen.py --batch jobs.json      # list of {out,prompt,seed,ref,...}; loads the model once
 """
-import argparse, json, time
+import argparse, json, os, time
 import torch
 from diffusers import StableDiffusionPipeline, LCMScheduler
 from PIL import Image
 
-NEG = "blurry, deformed, extra fingers, bad hands, text, watermark, logo, signature, photo, 3d render"
+NEG = os.environ.get("LOOK_NEG") or "blurry, deformed, extra fingers, bad hands, text, watermark, logo, signature, photo, 3d render"
 STYLE = ("graphic novel realism illustration, bold clean ink linework, cel shading, dramatic cinematic "
          "orange rim light, teal fill light, limited palette of deep space navy, burnt orange, teal and cream")
 
@@ -25,7 +25,7 @@ _pipe = {"p": None, "ip": None}
 def load(ip=None):
     if _pipe["p"] is None:
         torch.set_num_threads(4)
-        p = StableDiffusionPipeline.from_pretrained("Lykon/dreamshaper-8", variant="fp16",
+        p = StableDiffusionPipeline.from_pretrained(os.environ.get("LOOK_MODEL", "Lykon/dreamshaper-8"), variant="fp16",
                                                     torch_dtype=torch.float32, safety_checker=None)
         p.scheduler = LCMScheduler.from_config(p.scheduler.config)
         p.load_lora_weights("latent-consistency/lcm-lora-sdv1-5", adapter_name="lcm")
@@ -53,6 +53,7 @@ def gen(out, prompt, seed=1, steps=5, w=512, h=768, cfg=1.5, ref=None, ref_scale
     elif _pipe["ip"]:
         p.set_ip_adapter_scale(0.0)
         kw["ip_adapter_image"] = Image.new("RGB", (224, 224))
+    style = style and not os.environ.get("LOOK_NOSTYLE")
     full = f"{prompt}, {STYLE}" if style else prompt
     t = time.time()
     img = p(full, negative_prompt=NEG, num_inference_steps=steps, guidance_scale=cfg, width=w, height=h,

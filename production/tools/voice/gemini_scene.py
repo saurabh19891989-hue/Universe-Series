@@ -49,6 +49,8 @@ def tts(label, text, voice, style=None, out=None, speakers=None, turns=None, mod
         d = {"type": "text", "text": t}
         if len(ann) > 1: d["annotations"] = [ann]
         return d
+    if "3.1" in model and style and not turns:   # 3.1 preview has no speech_metadata: direction goes in the text
+        text = f"Say this {style}: {text}"; style = None
     if turns:
         content = [block(t, s, sp) for sp, t, s in turns]
         sc = {"speakers": [{"speaker": k, "voice": v} for k, v in speakers.items()]}
@@ -148,7 +150,9 @@ def pick(lang, gender=None, accent_sub=None):
 RANGE_JAX = "zubenelgenubi"
 def cmd_range():
     R = f"{OUT}/range"
+    only = os.environ.get("RANGE_ONLY")
     def go(name, text, voice, style=None):
+        if only and name not in only.split(","): return
         try: p = tts("range_" + name + SUF, text, voice, style)
         except Quota: raise
         except Exception as e: print("skip", name, e); return
