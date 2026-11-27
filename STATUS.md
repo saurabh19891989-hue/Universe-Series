@@ -286,4 +286,9 @@ Gemini API key is saved as a network secret on the Default environment
 - First drafts of Episodes 6, 8, 9 and the Episode 4 critic review are on disk. Next writing
   steps (punch-ups 6/8/9, revisions 3/4, finale) wait until the owner has judged the new sample;
   they run on Opus.
+- **Owner's verdict on cold open v2 (27 Nov night):** frozen shots do not work at all; the LTX
+  clip is not smooth or natural enough; none of the five routes offered is acceptable; check the
+  Gemini route (subscription, like Codex). Research is in
+  `research/tooling/video-generation-routes.md`. Waiting on the owner: run the six-clip test in
+  Google Flow (`samples/motion/flow-test/`), and decide on the Antigravity CLI login test.
 

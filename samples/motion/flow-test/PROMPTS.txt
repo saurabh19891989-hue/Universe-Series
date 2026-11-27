@@ -1,0 +1,24 @@
+GOOGLE FLOW TEST — 6 clips, about 150 credits in total
+Open flow.google (signed in with the Google account that has the AI plan).
+New project → "Frames to Video" (start from an image). Model: Gemini Omni Flash 1.2. Quality 720p, landscape 16:9, length 8 seconds.
+For each clip: upload the picture as the FIRST frame, paste its prompt, generate, download the result
+(use the free "upscale to 1080p" if offered). Name the downloads 1.mp4 … 6.mp4 and put them in the
+Drive folder Secret-Universe-Series / 01-samples-for-review.
+
+1  (picture 1-jax-sandwich.jpg)
+A worn spaceship cockpit. The man in the orange jacket takes a slow bite of his sandwich, chews, glances up at a screen off-camera, stops chewing and frowns. Console lights blink behind him. Slow push-in, handheld feel. Photorealistic live-action film, natural smooth human motion, the same face throughout, the window stays black, no new people, no text, no music.
+
+2  (picture 2-bridge-wide.jpg)
+Wide shot of the cockpit from behind the pilot. The screens on the console flicker and go dark one by one; the pilot lowers his sandwich, leans forward and taps a dead screen twice, then drops back in his seat. Slow dolly forward. Photorealistic live-action film, natural smooth motion, the windows stay black, no new people, no text, no music.
+
+3  (picture 3-pip-lens.jpg)
+Extreme close-up of an old brass robot lens. The amber lamp inside wakes, flickers and brightens; the iris rings rotate and tighten like a camera focusing; the light pulses gently as if it is speaking. Locked-off macro shot, reflections slide across the scratched brass. Photorealistic, no text, no music.
+
+4  (picture 4-pip-stamp.jpg)
+A brass robot arm lifts a wooden rubber stamp, holds it for a moment, then slams it down on the paper; dust jumps; the arm lifts away leaving a fresh ink mark. Locked-off close shot. Photorealistic live-action film, no readable text, no music.
+
+5  (picture 5-jax-talks.jpg)  — the talking test
+The man looks straight at someone off-camera and says quickly, with a salesman's grin, in English: "Take it. Take it, take it, take it." Then he leans back, pleased with himself. Natural lip movement matching the words, natural smooth motion, the same face throughout, the window stays black. Photorealistic live-action film, no music.
+
+6  (picture 6-mira-and-jax.jpg)
+A customs counter seen over the shoulder of a woman with a long dark braid. Behind the scratched glass, the man in the orange jacket leans on the counter, raises his eyebrows, shrugs and taps the steel counter twice with one finger; the woman tilts her head slightly and does not turn round. The round metal speaker grille stays in front of his mouth. The desk lamp flickers once. Slow sideways camera drift. Photorealistic live-action film, natural smooth motion, the same faces throughout, no new people, no text, no music.
