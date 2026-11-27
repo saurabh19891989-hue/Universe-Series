@@ -75,6 +75,13 @@ Last updated: 2026-11-27 (session 1)
 - Free alternatives researched: Cloudflare Workers AI (FLUX.2 klein 4B, Apache-2.0, reference
   images, ~70–95 free images/day), Kaggle, Modal. See `research/tooling/free-photoreal-routes.md`.
 
+- CODEX IMAGE ROUTE CONFIRMED (27 Nov): owner chose it. 30-image test: photoreal, and one
+  reference keeps a character consistent. Runbook: `production/IMAGE-PIPELINE.md`; looks:
+  `canon/CHARACTER-LOCKS.md` (8 masters at TEST status, awaiting the owner's casting approval).
+  Weekly Codex allowance was 88% used before the test and 90% after; it resets 2 Dec 17:30 UTC
+  (owner says they can reset it). Login automation: one-tap device login per session for now.
+- Episode 1 table-read delivered to the owner (31:36, `samples/tableread/E01/`); awaiting feedback.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|

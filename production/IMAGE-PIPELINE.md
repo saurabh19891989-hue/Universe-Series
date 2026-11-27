@@ -68,7 +68,27 @@ film, not an illustration, not CGI.
   face, hair, age and costume the same. Rejected images are deleted, not kept "just in case".
 - Mouth and blink variants for a shot are made as edits of the approved shot, not new images.
 
+## 3a. What the 30-image test showed (27 Nov, `samples/look-codex/`)
+- One reference image keeps a character recognisably the same across expression, angle,
+  lighting, helmet, full body and two-person shots. Profiles and very small faces drift a
+  little: check them hardest.
+- About 55 s and about 12k tokens per image; two-reference shots about 130 s. No refusals.
+- **Real footage must be composited by us**, never by the model: asked to put a NASA photo in
+  the window, the model redrew the Moon. Generate sets with pure-black windows and insert the
+  real plate ourselves (`production/tools/look/composite_window.py`).
+- **Mouth and blink:** an "identical image, mouth open" edit re-renders the whole frame, so
+  cutting between frames would shimmer. Paste only the mouth or eye region onto the original
+  with a soft edge (see `edit-talk-loop-patched.mp4`).
+- The model tends to make women look 5–10 years older than written; say the age firmly.
+- Pass the prompt on stdin in the wrapper; `-i` can swallow a prompt given as an argument.
+
 ## 4. Usage limit
+The remaining allowance can be read (read-only) from the newest
+`~/.codex/sessions/**/rollout-*.jsonl`, field `rate_limits` (5-hour and weekly percentages and
+reset times). Measured: about 0.43 points of the 5-hour window per image, so roughly 230
+images per window; the weekly counter moves about 2 points per 30 images. Check before and
+after every batch and write both numbers in the usage log.
+
 
 Image runs draw on the plan's Codex allowance. If a run fails with a usage-limit, rate-limit
 or quota message: stop all generation at once, do not retry, record the exact message in

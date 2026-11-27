@@ -9,15 +9,15 @@ owner has not approved the face) · LOCKED (owner approved; master in `assets/ch
 
 | Id | Character | Locked description (use verbatim in prompts) | Master | Status |
 |---|---|---|---|---|
-| jax | Jax Vale, captain | Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets | `samples/look-codex/test1-jax-cockpit.jpg` | TEST |
-| mira | Dr. Mira Sen, cartographer | Bengali Indian woman, mid-30s, dark braid, sharp tired eyes, ink-stained fingers; indigo flight suit, brass loupe on a chain | — | PROPOSED |
-| lucia | Lucía "Lucha" Ortega, engineer | Mexican woman, early 30s, strong athletic build, short practical hair; grease-stained coveralls, a red ribbon tied round her wrist | — | PROPOSED |
+| jax | Jax Vale, captain | Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets | `samples/look-codex/cast-jax-test.jpg` | TEST |
+| mira | Dr. Mira Sen, cartographer | Bengali Indian woman, mid-30s, dark braid, sharp tired eyes, ink-stained fingers; indigo flight suit, brass loupe on a chain | `samples/look-codex/cast-mira.jpg` | TEST |
+| lucia | Lucía "Lucha" Ortega, engineer | Mexican woman, early 30s, strong athletic build, short practical hair; grease-stained coveralls, a red ribbon tied round her wrist | `samples/look-codex/cast-lucia.jpg` | TEST |
 | idris | Idris al-Rahhal, navigator | Iraqi Arab man, 40, elegant, trimmed beard, gambler's smile; threadbare but beautiful embroidered coat | — | PROPOSED |
-| seo | Han Seo-yeon, pilot | Korean woman, 30, composed, cropped hair, unreadable expression; plain grey pilot's jacket | — | PROPOSED |
-| oyuna | Oyuna Tseren, archivist | Mongolian woman in her 50s, calm lined face, long grey-streaked hair; layered wool, worn leather satchel | — | PROPOSED |
-| pip | PIP, ship's computer (a prop, not a face) | Small brass-and-cream machine like a desk lamp crossed with a postal scale, one glowing amber lens, a rubber-stamp arm; photographed as a real practical object | — | PROPOSED |
-| baron | Baron Munchausen | German man in his 70s, enormous white moustache that completely covers his mouth, black tricorn hat; moth-eaten red 18th-century cavalry coat over a patched pressure suit. Design after Doré's 1862 engravings, never any film | — | PROPOSED |
-| chichikov | Pavel Chichikov, buyer for Voss | Russian man, 45, round pleasant forgettable face, neither handsome nor plain; good grey overcoat, grey gloves, a small inlaid wooden travelling box | — | PROPOSED |
+| seo | Han Seo-yeon, pilot | Korean woman, 30, composed, cropped hair, unreadable expression; plain grey pilot's jacket | `samples/look-codex/cast-han.jpg` | TEST |
+| oyuna | Oyuna Tseren, archivist | Mongolian woman in her 50s, calm lined face, long grey-streaked hair; layered wool, worn leather satchel | `samples/look-codex/cast-oyuna.jpg` | TEST |
+| pip | PIP, ship's computer (a prop, not a face) | Small brass-and-cream machine like a desk lamp crossed with a postal scale, one glowing amber lens, a rubber-stamp arm; photographed as a real practical object | `samples/look-codex/cast-pip.jpg` | TEST |
+| baron | Baron Munchausen | German man in his 70s, enormous white moustache that completely covers his mouth, black tricorn hat; moth-eaten red 18th-century cavalry coat over a patched pressure suit. Design after Doré's 1862 engravings, never any film | `samples/look-codex/cast-baron.jpg` | TEST |
+| chichikov | Pavel Chichikov, buyer for Voss | Russian man, 45, round pleasant forgettable face, neither handsome nor plain; good grey overcoat, grey gloves, a small inlaid wooden travelling box | `samples/look-codex/cast-chichikov.jpg` | TEST |
 | voss | Soren Voss, patriarch | Scandinavian man, late 60s, silver hair, kind eyes that do not blink enough; immaculate dark suit of an unfamiliar cut | — | PROPOSED |
 | ilse | Ilse Voss, heir | To be written | — | — |
 | mattias | Mattias Voss, younger son | To be written | — | — |

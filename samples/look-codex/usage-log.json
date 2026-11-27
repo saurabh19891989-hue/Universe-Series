@@ -956,5 +956,253 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T15:10:51",
+  "job": "D_hall",
+  "name": "set_customs_hall",
+  "purpose": "D set customs hall",
+  "refs": [],
+  "seconds": 34.4,
+  "tokens_used": 5508,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d8e-a555-75c2-963c-888d84dc6cd7",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 39.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 90.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:10:57",
+  "job": "D_bridge",
+  "name": "set_bridge",
+  "purpose": "D set bridge",
+  "refs": [],
+  "seconds": 39.8,
+  "tokens_used": 10264,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d8e-a55c-7ea3-b6a8-5b864c246d5c",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 39.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 90.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:11:58",
+  "job": "D_ship",
+  "name": "set_ship_exterior",
+  "purpose": "D ship exterior",
+  "refs": [],
+  "seconds": 45.8,
+  "tokens_used": 7283,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d8f-7e68-7a13-a69a-d01b8a319f4f",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 40.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 90.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:12:00",
+  "job": "F_hero",
+  "name": "hero_model",
+  "purpose": "F hero model: NASA moon into cockpit window",
+  "refs": [
+   "jax_test.png",
+   "moon.jpg"
+  ],
+  "seconds": 47.8,
+  "tokens_used": 10787,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d8f-7e5c-7ac0-b19b-2c95a64c88b4",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 40.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 90.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:14:27",
+  "job": "E_jax_mira",
+  "name": "two_jax_mira",
+  "purpose": "E two-shot Jax+Mira",
+  "refs": [
+   "jax_test.png",
+   "mira_master.png"
+  ],
+  "seconds": 129.2,
+  "tokens_used": 10674,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d90-7c09-7d73-b948-960047c8120e",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 41.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 90.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T15:14:27",
+  "job": "E_jax_baron",
+  "name": "two_jax_baron",
+  "purpose": "E two-shot Jax+Baron",
+  "refs": [
+   "jax_test.png",
+   "baron_master.png"
+  ],
+  "seconds": 129.4,
+  "tokens_used": 12108,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21d90-7c10-7db0-bfe5-e55cb7e77085",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 41.0,
+    "window_minutes": 300,
+    "resets_at": 1795807550
+   },
+   "secondary": {
+    "used_percent": 90.0,
+    "window_minutes": 10080,
+    "resets_at": 1796232609
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "summary": true,
+  "images_generated_this_test": 30,
+  "failed_runs_no_image": 2,
+  "rate_limits_start": {
+   "5h_window_used_percent": 28,
+   "weekly_used_percent": 88
+  },
+  "rate_limits_end": {
+   "5h_window_used_percent": 41,
+   "weekly_used_percent": 90,
+   "5h_resets": "2026-11-27T19:25Z",
+   "weekly_resets": "2026-12-02T17:30Z"
+  },
+  "source": "rate_limits snapshot in ~/.codex/sessions/**/rollout-*.jsonl (token_count events); run.log/stdout shows no allowance info",
+  "note": "~0.43 percentage points of the 5-hour window per image; weekly moved 2 points over 30 images (1-point granularity)"
  }
 ]
