@@ -301,4 +301,8 @@ Gemini API key is saved as a network secret on the Default environment
   cold open pack (`samples/motion/flow-coldopen/`); showrunner cuts the full moving cold open.
   Decision after that: Google AI Ultra plan and who operates Flow. Results in
   `research/tooling/video-generation-routes.md`.
+- **Flow automation (27 Nov night):** owner wants Flow automated. Not possible safely on the cloud
+  machine (no safe Google sign-in here). Route: laptop Claude session operating Flow in the
+  owner's own Chrome — prompt in `production/prompts/PROMPT-laptop-flow-operator.md`. Waiting on
+  the owner to start that session and paste the prompt.
 

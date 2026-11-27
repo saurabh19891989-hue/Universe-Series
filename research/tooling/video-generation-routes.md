@@ -84,3 +84,22 @@ temporary machine, never in the repo).
 - Not checked: sound quality (agents cannot hear), playback smoothness by eye.
 - Next test pack: `samples/motion/flow-coldopen/` (12 new clips, about 230 credits) to rebuild the
   whole Episode 1 cold open with Omni, with Jax and Temi speaking on camera.
+
+## Automating Flow (owner asked 27 Nov night: do it in a browser on the cloud machine)
+- Google Terms of Service (effective 30 Jul 2026), "Don't abuse our services": forbids "using
+  automated means to access content from any of our services in violation of the machine-readable
+  instructions" and "bypassing our systems or protective measures". labs.google/robots.txt only
+  disallows /404. So ordinary automation of our own paid use is not forbidden by the text read;
+  getting round a captcha or a bot check would be. Google may suspend or delete the account on
+  violation. Flow's own extra terms, if any, were not found.
+- Not done on the cloud machine: there is no safe way for the owner to type his Google password
+  into a browser here (never through chat); Google commonly refuses sign-ins from automated
+  browsers on servers and working round that is exactly the forbidden bypass; and a signed-in
+  Google web session here would put his whole Gmail and Drive on a temporary machine.
+- Route chosen: a Claude session on the owner's laptop operates Flow in his own, already
+  signed-in Chrome (`production/prompts/PROMPT-laptop-flow-operator.md`): one clip by hand to
+  write a runbook, then the pack, then a small script for whole episodes. It stops at any check.
+- Watermark: the help page's India sentence continues with an exception for the AI Ultra 20x
+  plan (quote was cut off) — to confirm on the account's profile menu.
+- Risk to note: the account in use is the owner's main Google account. For scale (Ultra), a
+  separate Google account for the show would keep Gmail and Drive out of harm's way.
