@@ -869,6 +869,25 @@ class Shot:
         c[y0:y1, x0:x1] = reg * (1 - m) + (fit * sp.get("gain", 0.9) + over) * m
         return c
 
+    def _video_window_mask(self, frame):
+        """Moving base (image-to-video clip): key the glass on every frame, so a head or hand that
+        crosses the window occludes the plate. The key is limited to the first frame's glass area
+        grown by `track_px` (dark hair or jackets elsewhere never become windows) and eased over
+        `smooth` of the previous frame's mask so the edge does not boil."""
+        ws = self.win["spec"]
+        if "_zone" not in self.win:
+            m0 = self.win["mask"]
+            k = int(ws.get("track_px", 24)) * 2 + 1
+            self.win["_zone"] = cv2.dilate((m0 > 0.05).astype(np.uint8), np.ones((k, k), np.uint8))
+        m, _ = window_mask(frame, dict(ws, max_regions=ws.get("max_regions", 1)))
+        m = m * self.win["_zone"]
+        a = ws.get("smooth", 0.35)
+        prev = self.win.get("_prev")
+        if prev is not None and prev.shape == m.shape:
+            m = a * prev + (1 - a) * m
+        self.win["_prev"] = m
+        self.win["mask"] = m
+
     def _plate_level(self, p, pl, glass):
         """Match the plate to the set: crush its black to the glass level, set exposure and tint."""
         lv = pl.get("level", {})
@@ -929,6 +948,8 @@ class Shot:
             b = apply_relight(apply_grade_local(b, self.base_spec.get("grade")), self.base_spec.get("relight"))
             self.base = b
             self.bh, self.bw = b.shape[:2]
+            if self.win and self.win["spec"].get("per_frame", True):
+                self._video_window_mask(b)
         elif self.base_spec.get("kind") == "gfx":
             if not hasattr(self, "_bgfx"):
                 self._bgfx = gfx.Gfx(self.base_spec, self.path)

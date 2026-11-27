@@ -1,0 +1,3124 @@
+{
+ "version": 1,
+ "name": "E01-coldopen-v2-motion",
+ "episode": "E01",
+ "unit": "0",
+ "vars": {
+  "SCRATCH": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad"
+ },
+ "output": {
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "crf": 18,
+  "preset": "medium",
+  "letterbox": null
+ },
+ "finish": {
+  "grain": 0.02,
+  "halation": 0.45,
+  "weave_px": 0.45,
+  "vignette": 0.38,
+  "saturation": 1.02
+ },
+ "dialogue": {
+  "timing_sheet": "${REPO}/samples/tableread/E01/lines.csv",
+  "file": "1-cold-open-and-act1",
+  "scene": "0",
+  "source_wav": "${SCRATCH}/tableread/act1_norm.wav",
+  "stems_dir": "${SCRATCH}/e01/dialogue",
+  "skip_kinds": [
+   "narration",
+   "sting"
+  ],
+  "offset_s": 0.0,
+  "gain_db": 0.0
+ },
+ "music": [
+  {
+   "id": "jax-motif-bed",
+   "src": "${REPO}/samples/music/v2/M1-jax-motif-v2.mp3",
+   "start_s": 50.0,
+   "gain_db": -9,
+   "duck": true,
+   "fade_in": 1.5,
+   "fade_out": 1.6,
+   "trim_s": 25.8
+  },
+  {
+   "id": "title-sting",
+   "src": "${REPO}/samples/music/v2/A1-title-sting-10s.mp3",
+   "gain_db": 0,
+   "duck": false,
+   "fade_out": 0.3,
+   "start_s": 75.88
+  }
+ ],
+ "sfx": [
+  {
+   "id": "roomtone-bridge",
+   "src": "${SCRATCH}/e01/sfx/roomtone-bridge.wav",
+   "placeholder": "roomtone",
+   "start_s": 0.0,
+   "loop_s": 75.88,
+   "gain_db": -20,
+   "fade_in": 2.5,
+   "fade_out": 0.02,
+   "duck": true
+  },
+  {
+   "id": "lens-on",
+   "src": "${SCRATCH}/e01/sfx/lens-on.wav",
+   "placeholder": "blip",
+   "gain_db": -14,
+   "duck": false,
+   "start_s": 3.45
+  },
+  {
+   "id": "powerdown-engine",
+   "src": "${SCRATCH}/e01/sfx/powerdown-engine.wav",
+   "placeholder": "powerdown",
+   "gain_db": -8,
+   "duck": false,
+   "start_s": 9.45
+  },
+  {
+   "id": "powerdown-nav",
+   "src": "${SCRATCH}/e01/sfx/powerdown-nav.wav",
+   "placeholder": "powerdown",
+   "gain_db": -12,
+   "duck": false,
+   "start_s": 10.2
+  },
+  {
+   "id": "click-1",
+   "src": "${SCRATCH}/e01/sfx/click-1.wav",
+   "placeholder": "click",
+   "gain_db": -14,
+   "duck": false,
+   "start_s": 11.2
+  },
+  {
+   "id": "click-2",
+   "src": "${SCRATCH}/e01/sfx/click-2.wav",
+   "placeholder": "click",
+   "gain_db": -14,
+   "duck": false,
+   "start_s": 11.4
+  },
+  {
+   "id": "click-3",
+   "src": "${SCRATCH}/e01/sfx/click-3.wav",
+   "placeholder": "click",
+   "gain_db": -14,
+   "duck": false,
+   "start_s": 11.75
+  },
+  {
+   "id": "click-4",
+   "src": "${SCRATCH}/e01/sfx/click-4.wav",
+   "placeholder": "click",
+   "gain_db": -14,
+   "duck": false,
+   "start_s": 12.0
+  },
+  {
+   "id": "coffee-off",
+   "src": "${SCRATCH}/e01/sfx/coffee-off.wav",
+   "placeholder": "powerdown",
+   "gain_db": -16,
+   "duck": false,
+   "start_s": 12.95
+  },
+  {
+   "id": "bank-chime",
+   "src": "${SCRATCH}/e01/sfx/bank-chime.wav",
+   "placeholder": "chime",
+   "gain_db": -8,
+   "duck": false,
+   "start_s": 17.15
+  },
+  {
+   "id": "bank-chime-2",
+   "src": "${SCRATCH}/e01/sfx/bank-chime-2.wav",
+   "placeholder": "chime",
+   "gain_db": -12,
+   "duck": false,
+   "start_s": 32.55
+  },
+  {
+   "id": "shop-bell",
+   "src": "${SCRATCH}/e01/sfx/shop-bell.wav",
+   "placeholder": "shopbell",
+   "gain_db": -6,
+   "duck": false,
+   "start_s": 41.05
+  },
+  {
+   "id": "job-blip",
+   "src": "${SCRATCH}/e01/sfx/job-blip.wav",
+   "placeholder": "blip",
+   "gain_db": -16,
+   "duck": false,
+   "start_s": 44.65
+  },
+  {
+   "id": "stamp-thunk",
+   "src": "${SCRATCH}/e01/sfx/stamp-thunk.wav",
+   "placeholder": "thunk",
+   "gain_db": -2,
+   "duck": false,
+   "start_s": 56.15
+  },
+  {
+   "id": "report-stamp",
+   "src": "${SCRATCH}/e01/sfx/report-stamp.wav",
+   "placeholder": "thunk",
+   "gain_db": -12,
+   "duck": false,
+   "start_s": 62.3
+  },
+  {
+   "id": "engine-cough",
+   "src": "${SCRATCH}/e01/sfx/engine-cough.wav",
+   "placeholder": "engine_cough",
+   "gain_db": -4,
+   "duck": false,
+   "start_s": 63.2
+  },
+  {
+   "id": "revive-1",
+   "src": "${SCRATCH}/e01/sfx/revive-1.wav",
+   "placeholder": "blip",
+   "gain_db": -18,
+   "duck": false,
+   "start_s": 64.0
+  },
+  {
+   "id": "revive-2",
+   "src": "${SCRATCH}/e01/sfx/revive-2.wav",
+   "placeholder": "blip",
+   "gain_db": -18,
+   "duck": false,
+   "start_s": 64.3
+  },
+  {
+   "id": "revive-3",
+   "src": "${SCRATCH}/e01/sfx/revive-3.wav",
+   "placeholder": "blip",
+   "gain_db": -18,
+   "duck": false,
+   "start_s": 64.8
+  },
+  {
+   "id": "revive-4",
+   "src": "${SCRATCH}/e01/sfx/revive-4.wav",
+   "placeholder": "blip",
+   "gain_db": -18,
+   "duck": false,
+   "start_s": 65.1
+  }
+ ],
+ "duck": {
+  "music_db": -12,
+  "sfx_db": -5
+ },
+ "loudness": {
+  "integrated": -16.0,
+  "true_peak_ceiling": -2.0
+ },
+ "credits": [
+  "Music: Secret Universe score (in-house), A1 title sting, M1 Jax motif",
+  "Moon from Orion: NASA (Artemis II), 'Artemis II: Moments Around the Moon' (jsc2026m000089), public domain per NASA media guidelines",
+  "Lunar flyby visualisation: NASA's Scientific Visualization Studio/Ernie Wright (a2_flyby_1min_2160p30), public domain per NASA media guidelines",
+  "Shadowed crater: Dan Gallagher, Chris Smith (NASA/GSFC), 'The Moon's Permanently Shadowed Regions' (GSFC_20130306_Moons_m11218_Shadowed), public domain per NASA media guidelines"
+ ],
+ "shots": [
+  {
+   "id": "S01a",
+   "scene": "0",
+   "duration_s": 1.45,
+   "type": "REAL_FOOTAGE",
+   "note": "REAL: the Moon's limb from Orion (Artemis II). Slow push.",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.0
+    },
+    "to": {
+     "cx": 0.5,
+     "cy": 0.52,
+     "zoom": 1.06
+    },
+    "ease": "linear"
+   },
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/mv/plates/nasa_moonlimb.mp4",
+     "loop": false,
+     "grade": {
+      "exposure": 0.25,
+      "gain": [
+       1.04,
+       1.0,
+       0.95
+      ],
+      "sat": 1.25,
+      "gamma": 1.05
+     }
+    }
+   ],
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "credits": [
+    "Moon from Orion: NASA (Artemis II), 'Artemis II: Moments Around the Moon' (jsc2026m000089), public domain per NASA media guidelines"
+   ]
+  },
+  {
+   "id": "S01b",
+   "scene": "0",
+   "duration_s": 1.95,
+   "type": "REAL_FOOTAGE",
+   "note": "REAL: grazing-light craters sliding past (Artemis II), slowed to 0.72x.",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.0
+    },
+    "to": {
+     "cx": 0.53,
+     "cy": 0.5,
+     "zoom": 1.08
+    },
+    "ease": "linear"
+   },
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/mv/plates/nasa_terrain.mp4",
+     "speed": 0.72,
+     "loop": false,
+     "grade": {
+      "exposure": 0.25,
+      "gain": [
+       1.04,
+       1.0,
+       0.95
+      ],
+      "sat": 1.25,
+      "gamma": 1.05
+     }
+    }
+   ],
+   "credits": [
+    "Moon from Orion: NASA (Artemis II), 'Artemis II: Moments Around the Moon' (jsc2026m000089), public domain per NASA media guidelines"
+   ]
+  },
+  {
+   "id": "S01",
+   "scene": "0",
+   "duration_s": 2.9,
+   "type": "CHARACTER_STILL",
+   "note": "BLACK. PIP's amber lens blinks on; the first line is a light, not a mouth.",
+   "camera": {
+    "from": {
+     "cx": 0.532,
+     "cy": 0.25,
+     "zoom": 2.3,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.532,
+     "cy": 0.24,
+     "zoom": 2.55,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 1.5,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/props/pip/master.jpg",
+     "relight": [
+      {
+       "shape": "ellipse",
+       "x": 0.532,
+       "y": 0.228,
+       "rx": 0.09,
+       "ry": 0.17,
+       "gain_in": 1.0,
+       "gain_out": 0.0,
+       "feather": 0.05
+      }
+     ],
+     "grade": {
+      "exposure": -0.15,
+      "sat": 0.92
+     }
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-02"
+    ]
+   },
+   "lights": [
+    {
+     "type": "lens",
+     "x": 0.532,
+     "y": 0.228,
+     "r": 0.04,
+     "color": [
+      1.0,
+      0.5,
+      0.15
+     ],
+     "env": "PIP",
+     "idle": 0.5,
+     "env_gain": 0.5,
+     "off_level": 0.0,
+     "glow_r": 2.2,
+     "glow_gain": 0.3,
+     "on_at": 0.05,
+     "on_dur": 0.5,
+     "spill": {
+      "r": 2.6,
+      "off": 0.0
+     }
+    }
+   ],
+   "in": {
+    "type": "cut"
+   },
+   "motion_pending": {
+    "still": "${REPO}/episodes/E01/stills/e01-j001_pip_lens_dark.jpg",
+    "gen": "g01_lens"
+   }
+  },
+  {
+   "id": "S02",
+   "scene": "0",
+   "duration_s": 2.9,
+   "type": "CHARACTER_STILL",
+   "note": "Jax in silhouette against the real Moon. Holds as PIP answers (listener).",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.0,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.49,
+     "cy": 0.49,
+     "zoom": 1.045,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 2.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/characters/jax/ref-silhouette.jpg",
+     "grade": {
+      "exposure": -0.35,
+      "gain": [
+       1.0,
+       0.97,
+       0.95
+      ]
+     },
+     "window": {
+      "key": "white",
+      "thresh": 0.9,
+      "region": [
+       0.47,
+       0.04,
+       1.0,
+       0.83
+      ],
+      "feather_px": 1.2,
+      "grow_px": 0,
+      "glass_keep": 1.0,
+      "close_px": 5,
+      "max_regions": 1,
+      "plate": {
+       "src": "${SCRATCH}/mv/plates/nasa_a2.mp4",
+       "x": 0.6,
+       "y": 0.52,
+       "scale": 1.05,
+       "depth": 0.35,
+       "blur": 0.6,
+       "rot": -12,
+       "drift": {
+        "dx": 0.01,
+        "dzoom": 0.015
+       },
+       "level": {
+        "black": 0.04,
+        "gamma": 1.0,
+        "gain": 1.15,
+        "tint": [
+         1.06,
+         1.0,
+         0.92
+        ]
+       },
+       "in_s": 9.0,
+       "speed": 0.6
+      }
+     }
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-03",
+     "0-04"
+    ]
+   },
+   "credits": [
+    "Lunar flyby visualisation: NASA's Scientific Visualization Studio/Ernie Wright (a2_flyby_1min_2160p30), public domain per NASA media guidelines"
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S03",
+   "scene": "0",
+   "duration_s": 1.9,
+   "type": "INSERT",
+   "note": "INSERT: engine readouts drop to zero; NAV follows.",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.0,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.06,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 1.5,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/sets/bridge/master.jpg",
+     "blur": 14,
+     "grade": {
+      "exposure": -1.6,
+      "sat": 0.7
+     }
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/03_engine_readouts_to_zero.mp4",
+     "in_s": 2.55,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.08,
+     "treat": {
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0.085,
+       0.1
+      ],
+      [
+       0.915,
+       0.085
+      ],
+      [
+       0.925,
+       0.905
+      ],
+      [
+       0.075,
+       0.92
+      ]
+     ]
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-05"
+    ]
+   },
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S04",
+   "scene": "0",
+   "duration_s": 1.35,
+   "type": "SET_STILL",
+   "note": "Bridge wide, real Moon in the window. Screens die one by one.",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.0,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.5,
+     "cy": 0.49,
+     "zoom": 1.035,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 1.5,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/sets/bridge/master.jpg",
+     "window": {
+      "key": "black",
+      "thresh": 0.045,
+      "region": [
+       0.12,
+       0.06,
+       0.88,
+       0.48
+      ],
+      "feather_px": 1.4,
+      "grow_px": 1,
+      "glass_keep": 0.9,
+      "reflection": 0.05,
+      "plate": {
+       "src": "${SCRATCH}/mv/plates/nasa_a2.mp4",
+       "x": 0.4,
+       "y": 0.27,
+       "scale": 0.74,
+       "depth": 0.3,
+       "blur": 0.6,
+       "drift": {
+        "dx": -0.012,
+        "dy": 0.004,
+        "dzoom": 0.01
+       },
+       "level": {
+        "black": 0.04,
+        "gamma": 1.0,
+        "gain": 1.15,
+        "tint": [
+         1.06,
+         1.0,
+         0.92
+        ]
+       },
+       "in_s": 10.0,
+       "speed": 0.6
+      }
+     },
+     "grade": {
+      "exposure": -0.05
+     }
+    }
+   ],
+   "audio": {
+    "lines": []
+   },
+   "lights": [
+    {
+     "type": "die",
+     "regions": [
+      {
+       "rect": [
+        0.356,
+        0.428,
+        0.4,
+        0.475
+       ],
+       "at": 0.1
+      },
+      {
+       "rect": [
+        0.134,
+        0.45,
+        0.182,
+        0.528
+       ],
+       "at": 0.3
+      },
+      {
+       "rect": [
+        0.362,
+        0.515,
+        0.398,
+        0.54
+       ],
+       "at": 0.45
+      },
+      {
+       "rect": [
+        0.424,
+        0.442,
+        0.503,
+        0.546
+       ],
+       "at": 0.65
+      },
+      {
+       "rect": [
+        0.59,
+        0.466,
+        0.663,
+        0.555
+       ],
+       "at": 0.9
+      }
+     ],
+     "to": 0.14,
+     "dur": 0.3
+    },
+    {
+     "type": "flicker",
+     "rect": [
+      0.1,
+      0.4,
+      0.95,
+      0.7
+     ],
+     "depth": 0.06,
+     "rate_hz": 8
+    },
+    {
+     "type": "led",
+     "x": 0.598,
+     "y": 0.584,
+     "r": 0.0028,
+     "color": [
+      0.35,
+      1.0,
+      0.45
+     ],
+     "glow_r": 4.0,
+     "glow_gain": 0.5
+    }
+   ],
+   "credits": [
+    "Lunar flyby visualisation: NASA's Scientific Visualization Studio/Ernie Wright (a2_flyby_1min_2160p30), public domain per NASA media guidelines"
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S05",
+   "scene": "0",
+   "duration_s": 1.0,
+   "type": "INSERT",
+   "note": "INSERT: the coffee machine's little green light goes out (LED is a light effect added to the set still).",
+   "camera": {
+    "from": {
+     "cx": 0.575,
+     "cy": 0.575,
+     "zoom": 3.3,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.578,
+     "cy": 0.575,
+     "zoom": 3.45,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 1.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/sets/bridge/master.jpg",
+     "window": null,
+     "grade": {
+      "exposure": -0.05
+     }
+    }
+   ],
+   "audio": {
+    "lines": []
+   },
+   "lights": [
+    {
+     "type": "led",
+     "x": 0.598,
+     "y": 0.584,
+     "r": 0.0028,
+     "color": [
+      0.35,
+      1.0,
+      0.45
+     ],
+     "glow_r": 4.0,
+     "glow_gain": 0.5,
+     "off_at": 0.5,
+     "off_dur": 0.35
+    }
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S06",
+   "scene": "0",
+   "duration_s": 1.65,
+   "type": "CHARACTER_STILL",
+   "note": "Jax, alarm-red: 'They can't take the coffee machine.' (sample still, not yet a library ref)",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.45,
+     "zoom": 1.0,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.52,
+     "cy": 0.43,
+     "zoom": 1.08,
+     "rot": 0.0
+    },
+    "ease": "out",
+    "drift": {
+     "amp_px": 2.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/samples/look-codex/jax-2-alarm-red.jpg",
+     "grade": {
+      "exposure": -0.1
+     }
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-06"
+    ]
+   },
+   "lights": [
+    {
+     "type": "flicker",
+     "rect": [
+      0.3,
+      0.0,
+      0.55,
+      0.25
+     ],
+     "depth": 0.25,
+     "rate_hz": 3
+    }
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S07",
+   "scene": "0",
+   "duration_s": 2.0,
+   "type": "CHARACTER_STILL",
+   "note": "PIP: 'It was financed separately.' Lens pulses with his speech.",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.46,
+     "zoom": 1.12,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.51,
+     "cy": 0.45,
+     "zoom": 1.17,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 2.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/props/pip/master.jpg",
+     "relight": [
+      {
+       "shape": "ellipse",
+       "x": 0.47,
+       "y": 0.52,
+       "rx": 0.4,
+       "ry": 0.58,
+       "gain_in": 1.0,
+       "gain_out": 0.45,
+       "feather": 0.06
+      },
+      {
+       "shape": "rect",
+       "rect": [
+        0.58,
+        0.0,
+        1.0,
+        0.33
+       ],
+       "gain_in": [
+        0.16,
+        0.19,
+        0.24
+       ],
+       "gain_out": 1.0,
+       "feather_px": 30
+      },
+      {
+       "shape": "rect",
+       "rect": [
+        0.12,
+        0.0,
+        0.4,
+        0.37
+       ],
+       "gain_in": [
+        0.28,
+        0.31,
+        0.36
+       ],
+       "gain_out": 1.0,
+       "feather_px": 30
+      }
+     ],
+     "grade": {
+      "exposure": -0.15,
+      "sat": 0.92
+     }
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-07"
+    ]
+   },
+   "lights": [
+    {
+     "type": "lens",
+     "x": 0.532,
+     "y": 0.228,
+     "r": 0.04,
+     "color": [
+      1.0,
+      0.5,
+      0.15
+     ],
+     "env": "PIP",
+     "idle": 0.5,
+     "env_gain": 0.5,
+     "off_level": 0.3,
+     "glow_r": 2.2,
+     "glow_gain": 0.22
+    }
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S08",
+   "scene": "0",
+   "duration_s": 2.2,
+   "type": "SET_STILL",
+   "note": "A cheerful chime; the bank's smiling logo on the far monitor. Push in.",
+   "camera": {
+    "from": {
+     "cx": 0.62,
+     "cy": 0.45,
+     "zoom": 1.05,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.8,
+     "cy": 0.4,
+     "zoom": 1.55,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 2.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/sets/bridge/master.jpg",
+     "window": {
+      "key": "black",
+      "thresh": 0.045,
+      "region": [
+       0.12,
+       0.06,
+       0.88,
+       0.48
+      ],
+      "feather_px": 1.4,
+      "grow_px": 1,
+      "glass_keep": 0.9,
+      "reflection": 0.05,
+      "plate": {
+       "src": "${SCRATCH}/mv/plates/nasa_a2.mp4",
+       "x": 0.4,
+       "y": 0.27,
+       "scale": 0.74,
+       "depth": 0.3,
+       "blur": 0.6,
+       "drift": {
+        "dx": -0.012,
+        "dy": 0.004,
+        "dzoom": 0.01
+       },
+       "level": {
+        "black": 0.04,
+        "gamma": 1.0,
+        "gain": 1.15,
+        "tint": [
+         1.06,
+         1.0,
+         0.92
+        ]
+       },
+       "in_s": 10.6,
+       "speed": 0.6
+      }
+     },
+     "grade": {
+      "exposure": -0.05
+     }
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_connecting.mp4",
+     "in_s": 0.0,
+     "res": [
+      960,
+      540
+     ],
+     "spill": 0.08,
+     "treat": {
+      "scanlines": 0.15,
+      "bloom": 0.5,
+      "glass_black": 0.04
+     },
+     "quad": [
+      [
+       0.887,
+       0.333
+      ],
+      [
+       0.944,
+       0.327
+      ],
+      [
+       0.944,
+       0.462
+      ],
+      [
+       0.888,
+       0.468
+      ]
+     ]
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-08"
+    ]
+   },
+   "lights": [
+    {
+     "type": "die",
+     "regions": [
+      {
+       "rect": [
+        0.356,
+        0.428,
+        0.4,
+        0.475
+       ],
+       "at": -1
+      },
+      {
+       "rect": [
+        0.134,
+        0.45,
+        0.182,
+        0.528
+       ],
+       "at": -1
+      },
+      {
+       "rect": [
+        0.362,
+        0.515,
+        0.398,
+        0.54
+       ],
+       "at": -1
+      },
+      {
+       "rect": [
+        0.424,
+        0.442,
+        0.503,
+        0.546
+       ],
+       "at": -1
+      },
+      {
+       "rect": [
+        0.59,
+        0.466,
+        0.663,
+        0.555
+       ],
+       "at": -1
+      }
+     ],
+     "to": 0.14
+    }
+   ],
+   "credits": [
+    "Lunar flyby visualisation: NASA's Scientific Visualization Studio/Ernie Wright (a2_flyby_1min_2160p30), public domain per NASA media guidelines"
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S09",
+   "scene": "0",
+   "duration_s": 3.7,
+   "type": "DATA_VISUAL",
+   "note": "Call window: TEMI ADEYEMI, headset, bright (one still).",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.0,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.5,
+     "cy": 0.48,
+     "zoom": 1.07,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 1.5,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/sets/bridge/master.jpg",
+     "blur": 14,
+     "grade": {
+      "exposure": -1.6,
+      "sat": 0.7
+     }
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_live.mp4",
+     "in_s": 0.0,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.08,
+     "treat": {
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0.085,
+       0.1
+      ],
+      [
+       0.915,
+       0.085
+      ],
+      [
+       0.925,
+       0.905
+      ],
+      [
+       0.075,
+       0.92
+      ]
+     ],
+     "inset": {
+      "src": "${REPO}/assets/characters/temi/master.jpg",
+      "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png",
+      "crop": [
+       0.14,
+       0.0,
+       0.86,
+       0.95
+      ],
+      "cx": 0.5,
+      "cy": 0.42,
+      "zoom_per_s": 0.012
+     }
+    }
+   ],
+   "audio": {
+    "lines": []
+   },
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S10",
+   "scene": "0",
+   "duration_s": 3.75,
+   "type": "MOTION",
+   "note": "MOTION (t1_jax, image-to-video): Jax bites, chews, stares at the sandwich while Temi talks; moving Moon in the window (per-frame key).",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.0
+    },
+    "to": {
+     "cx": 0.48,
+     "cy": 0.47,
+     "zoom": 1.05
+    },
+    "ease": "inout"
+   },
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/motion/out/t1_jax.mp4",
+     "loop": false,
+     "grade": {
+      "exposure": 0.05,
+      "sat": 1.05
+     },
+     "window": {
+      "key": "black",
+      "thresh": 0.05,
+      "region": [
+       0.5,
+       0.0,
+       1.0,
+       0.5
+      ],
+      "feather_px": 1.4,
+      "grow_px": 1,
+      "glass_keep": 0.9,
+      "track_px": 30,
+      "smooth": 0.35,
+      "plate": {
+       "x": 0.78,
+       "y": 0.2,
+       "scale": 0.62,
+       "depth": 0.3,
+       "drift": {
+        "dx": -0.01
+       },
+       "src": "${SCRATCH}/mv/plates/nasa_a2.mp4",
+       "in_s": 11.0,
+       "speed": 0.6,
+       "blur": 0.6,
+       "level": {
+        "black": 0.04,
+        "gamma": 1.0,
+        "gain": 1.15,
+        "tint": [
+         1.06,
+         1.0,
+         0.92
+        ]
+       }
+      }
+     }
+    }
+   ],
+   "audio": {
+    "lines": []
+   },
+   "credits": [
+    "Lunar flyby visualisation: NASA's Scientific Visualization Studio/Ernie Wright (a2_flyby_1min_2160p30), public domain per NASA media guidelines"
+   ]
+  },
+  {
+   "id": "S11",
+   "scene": "0",
+   "duration_s": 2.15,
+   "type": "CHARACTER_STILL",
+   "note": "Jax, all charm: 'Temi! Hi! I'm about to make a payment-'",
+   "camera": {
+    "from": {
+     "cx": 0.45,
+     "cy": 0.45,
+     "zoom": 1.05,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.43,
+     "cy": 0.4,
+     "zoom": 1.16,
+     "rot": 0.0
+    },
+    "ease": "out",
+    "drift": {
+     "amp_px": 2.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/characters/jax/master.jpg"
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-09"
+    ]
+   },
+   "lights": [
+    {
+     "type": "flicker",
+     "rect": [
+      0.65,
+      0.5,
+      1.0,
+      0.7
+     ],
+     "depth": 0.1,
+     "rate_hz": 6
+    }
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S12",
+   "scene": "0",
+   "duration_s": 2.3,
+   "type": "DATA_VISUAL",
+   "note": "A full second of nothing (frozen, blocky), then '-we disable your-'.",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.48,
+     "zoom": 1.07,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.5,
+     "cy": 0.48,
+     "zoom": 1.09,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 1.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/sets/bridge/master.jpg",
+     "blur": 14,
+     "grade": {
+      "exposure": -1.6,
+      "sat": 0.7
+     }
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_frozen.mp4",
+     "in_s": 1.0,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.08,
+     "treat": {
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0.085,
+       0.1
+      ],
+      [
+       0.915,
+       0.085
+      ],
+      [
+       0.925,
+       0.905
+      ],
+      [
+       0.075,
+       0.92
+      ]
+     ],
+     "inset": {
+      "src": "${REPO}/assets/characters/temi/master.jpg",
+      "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png",
+      "crop": [
+       0.14,
+       0.0,
+       0.86,
+       0.95
+      ],
+      "cx": 0.5,
+      "cy": 0.42,
+      "zoom_per_s": 0.0,
+      "pixelate": 16
+     },
+     "t1": 1.0
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_live.mp4",
+     "in_s": 3.0,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.08,
+     "treat": {
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0.085,
+       0.1
+      ],
+      [
+       0.915,
+       0.085
+      ],
+      [
+       0.925,
+       0.905
+      ],
+      [
+       0.075,
+       0.92
+      ]
+     ],
+     "inset": {
+      "src": "${REPO}/assets/characters/temi/master.jpg",
+      "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png",
+      "crop": [
+       0.14,
+       0.0,
+       0.86,
+       0.95
+      ],
+      "cx": 0.5,
+      "cy": 0.42,
+      "zoom_per_s": 0.012
+     },
+     "t0": 1.0
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-10"
+    ]
+   },
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S13",
+   "scene": "0",
+   "duration_s": 1.35,
+   "type": "CHARACTER_STILL",
+   "note": "Jax silhouette, tighter: 'A big one. Enormous-'",
+   "camera": {
+    "from": {
+     "cx": 0.42,
+     "cy": 0.4,
+     "zoom": 1.35,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.42,
+     "cy": 0.4,
+     "zoom": 1.42,
+     "rot": 0.0
+    },
+    "ease": "out",
+    "drift": {
+     "amp_px": 2.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/characters/jax/ref-silhouette.jpg",
+     "grade": {
+      "exposure": -0.35,
+      "gain": [
+       1.0,
+       0.97,
+       0.95
+      ]
+     },
+     "window": {
+      "key": "white",
+      "thresh": 0.9,
+      "region": [
+       0.47,
+       0.04,
+       1.0,
+       0.83
+      ],
+      "feather_px": 1.2,
+      "grow_px": 0,
+      "glass_keep": 1.0,
+      "close_px": 5,
+      "max_regions": 1,
+      "plate": {
+       "src": "${SCRATCH}/mv/plates/nasa_a2.mp4",
+       "x": 0.56,
+       "y": 0.52,
+       "scale": 1.15,
+       "depth": 0.35,
+       "blur": 0.6,
+       "rot": -12,
+       "drift": {
+        "dx": 0.01,
+        "dzoom": 0.015
+       },
+       "level": {
+        "black": 0.04,
+        "gamma": 1.0,
+        "gain": 1.15,
+        "tint": [
+         1.06,
+         1.0,
+         0.92
+        ]
+       },
+       "in_s": 11.4,
+       "speed": 0.6
+      }
+     }
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-11"
+    ]
+   },
+   "credits": [
+    "Lunar flyby visualisation: NASA's Scientific Visualization Studio/Ernie Wright (a2_flyby_1min_2160p30), public domain per NASA media guidelines"
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S14",
+   "scene": "0",
+   "duration_s": 2.65,
+   "type": "DATA_VISUAL",
+   "note": "Reset: logo blinks, then 'Hello! You're speaking to Temi in Recoveries!'",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.0,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.04,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 1.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/sets/bridge/master.jpg",
+     "blur": 14,
+     "grade": {
+      "exposure": -1.6,
+      "sat": 0.7
+     }
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_connecting.mp4",
+     "in_s": 0.5,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.08,
+     "treat": {
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0.085,
+       0.1
+      ],
+      [
+       0.915,
+       0.085
+      ],
+      [
+       0.925,
+       0.905
+      ],
+      [
+       0.075,
+       0.92
+      ]
+     ],
+     "t1": 0.35
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_live.mp4",
+     "in_s": 0.0,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.08,
+     "treat": {
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0.085,
+       0.1
+      ],
+      [
+       0.915,
+       0.085
+      ],
+      [
+       0.925,
+       0.905
+      ],
+      [
+       0.075,
+       0.92
+      ]
+     ],
+     "inset": {
+      "src": "${REPO}/assets/characters/temi/master.jpg",
+      "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png",
+      "crop": [
+       0.14,
+       0.0,
+       0.86,
+       0.95
+      ],
+      "cx": 0.5,
+      "cy": 0.42,
+      "zoom_per_s": 0.012
+     },
+     "t0": 0.35
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-12"
+    ]
+   },
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S15",
+   "scene": "0",
+   "duration_s": 1.5,
+   "type": "CHARACTER_STILL",
+   "note": "Jax profile, to PIP: 'Why does she keep doing that?' (cropped clear of the reference's generated porthole Moon)",
+   "camera": {
+    "from": {
+     "cx": 0.56,
+     "cy": 0.42,
+     "zoom": 1.0,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.55,
+     "cy": 0.42,
+     "zoom": 1.05,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 2.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/characters/jax/ref-profile.jpg",
+     "crop": [
+      0.0,
+      0.04,
+      0.56,
+      0.86
+     ],
+     "grade": {
+      "exposure": -0.1
+     }
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-13"
+    ]
+   },
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S16",
+   "scene": "0",
+   "duration_s": 3.3,
+   "type": "CHARACTER_STILL",
+   "note": "PIP, closer: 'She is in Lagos. You are arguing with the past.'",
+   "camera": {
+    "from": {
+     "cx": 0.52,
+     "cy": 0.32,
+     "zoom": 1.65,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.53,
+     "cy": 0.3,
+     "zoom": 1.78,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 2.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/props/pip/master.jpg",
+     "relight": [
+      {
+       "shape": "ellipse",
+       "x": 0.47,
+       "y": 0.52,
+       "rx": 0.4,
+       "ry": 0.58,
+       "gain_in": 1.0,
+       "gain_out": 0.45,
+       "feather": 0.06
+      },
+      {
+       "shape": "rect",
+       "rect": [
+        0.58,
+        0.0,
+        1.0,
+        0.33
+       ],
+       "gain_in": [
+        0.16,
+        0.19,
+        0.24
+       ],
+       "gain_out": 1.0,
+       "feather_px": 30
+      },
+      {
+       "shape": "rect",
+       "rect": [
+        0.12,
+        0.0,
+        0.4,
+        0.37
+       ],
+       "gain_in": [
+        0.28,
+        0.31,
+        0.36
+       ],
+       "gain_out": 1.0,
+       "feather_px": 30
+      }
+     ],
+     "grade": {
+      "exposure": -0.15,
+      "sat": 0.92
+     }
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-14"
+    ]
+   },
+   "lights": [
+    {
+     "type": "lens",
+     "x": 0.532,
+     "y": 0.228,
+     "r": 0.04,
+     "color": [
+      1.0,
+      0.5,
+      0.15
+     ],
+     "env": "PIP",
+     "idle": 0.5,
+     "env_gain": 0.5,
+     "off_level": 0.3,
+     "glow_r": 2.2,
+     "glow_gain": 0.22
+    }
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S17",
+   "scene": "0",
+   "duration_s": 1.05,
+   "type": "CHARACTER_STILL",
+   "note": "'And I'm winning.'",
+   "camera": {
+    "from": {
+     "cx": 0.45,
+     "cy": 0.42,
+     "zoom": 1.0,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.45,
+     "cy": 0.42,
+     "zoom": 1.04,
+     "rot": 0.0
+    },
+    "ease": "out",
+    "drift": {
+     "amp_px": 2.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/characters/jax/ref-laugh.jpg",
+     "crop": [
+      0.22,
+      0.0,
+      0.86,
+      0.8
+     ]
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-15"
+    ]
+   },
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S18",
+   "scene": "0",
+   "duration_s": 3.55,
+   "type": "CHARACTER_STILL",
+   "note": "A soft old shop-door bell; PIP's lens swivels toward it (whip-pan into the lens).",
+   "camera": {
+    "keys": [
+     {
+      "cx": 0.47,
+      "cy": 0.4,
+      "zoom": 1.35,
+      "rot": 2.5,
+      "t": 0.0
+     },
+     {
+      "cx": 0.53,
+      "cy": 0.33,
+      "zoom": 1.5,
+      "rot": 0.0,
+      "t": 0.55,
+      "ease": "out"
+     },
+     {
+      "cx": 0.535,
+      "cy": 0.32,
+      "zoom": 1.56,
+      "rot": 0.0,
+      "t": 3.55,
+      "ease": "linear"
+     }
+    ],
+    "drift": {
+     "amp_px": 1.5,
+     "period_s": 7
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/props/pip/master.jpg",
+     "relight": [
+      {
+       "shape": "ellipse",
+       "x": 0.47,
+       "y": 0.52,
+       "rx": 0.4,
+       "ry": 0.58,
+       "gain_in": 1.0,
+       "gain_out": 0.45,
+       "feather": 0.06
+      },
+      {
+       "shape": "rect",
+       "rect": [
+        0.58,
+        0.0,
+        1.0,
+        0.33
+       ],
+       "gain_in": [
+        0.16,
+        0.19,
+        0.24
+       ],
+       "gain_out": 1.0,
+       "feather_px": 30
+      },
+      {
+       "shape": "rect",
+       "rect": [
+        0.12,
+        0.0,
+        0.4,
+        0.37
+       ],
+       "gain_in": [
+        0.28,
+        0.31,
+        0.36
+       ],
+       "gain_out": 1.0,
+       "feather_px": 30
+      }
+     ],
+     "grade": {
+      "exposure": -0.15,
+      "sat": 0.92
+     }
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-16"
+    ]
+   },
+   "lights": [
+    {
+     "type": "lens",
+     "x": 0.532,
+     "y": 0.228,
+     "r": 0.04,
+     "color": [
+      1.0,
+      0.5,
+      0.15
+     ],
+     "env": "PIP",
+     "idle": 0.5,
+     "env_gain": 0.5,
+     "off_level": 0.3,
+     "glow_r": 2.2,
+     "glow_gain": 0.22
+    }
+   ],
+   "motion_blur": [
+    {
+     "t0": 0.0,
+     "t1": 0.35,
+     "px": 13,
+     "dir": "h"
+    }
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S19",
+   "scene": "0",
+   "duration_s": 4.15,
+   "type": "DATA_VISUAL",
+   "note": "The job: one parcel, sealed, prepaid. Shackleton crater by six tonight. The fee is-",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.0,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.48,
+     "cy": 0.52,
+     "zoom": 1.09,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 1.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/sets/bridge/master.jpg",
+     "blur": 14,
+     "grade": {
+      "exposure": -1.6,
+      "sat": 0.7
+     }
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/E01-0-job.mp4",
+     "gfx": {
+      "name": "job",
+      "type_start": 0.1,
+      "cps": 30
+     },
+     "res": [
+      1600,
+      900
+     ],
+     "spill": 0.08,
+     "quad": [
+      [
+       0.085,
+       0.1
+      ],
+      [
+       0.915,
+       0.085
+      ],
+      [
+       0.925,
+       0.905
+      ],
+      [
+       0.075,
+       0.92
+      ]
+     ],
+     "treat": {
+      "scanlines": 0.14,
+      "bloom": 0.3,
+      "glass_black": 0.03
+     }
+    }
+   ],
+   "audio": {
+    "lines": []
+   },
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S20",
+   "scene": "0",
+   "duration_s": 4.1,
+   "type": "CHARACTER_STILL",
+   "note": "'Is?' ... 'Exactly what we owe. To the cent.' Jax listening; 'Take it.'",
+   "camera": {
+    "from": {
+     "cx": 0.45,
+     "cy": 0.42,
+     "zoom": 1.18,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.44,
+     "cy": 0.4,
+     "zoom": 1.3,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 2.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/characters/jax/ref-silhouette.jpg",
+     "grade": {
+      "exposure": -0.35,
+      "gain": [
+       1.0,
+       0.97,
+       0.95
+      ]
+     },
+     "window": {
+      "key": "white",
+      "thresh": 0.9,
+      "region": [
+       0.47,
+       0.04,
+       1.0,
+       0.83
+      ],
+      "feather_px": 1.2,
+      "grow_px": 0,
+      "glass_keep": 1.0,
+      "close_px": 5,
+      "max_regions": 1,
+      "plate": {
+       "src": "${SCRATCH}/mv/plates/nasa_a2.mp4",
+       "x": 0.62,
+       "y": 0.52,
+       "scale": 1.0,
+       "depth": 0.35,
+       "blur": 0.6,
+       "rot": -12,
+       "drift": {
+        "dx": 0.01,
+        "dzoom": 0.015
+       },
+       "level": {
+        "black": 0.04,
+        "gamma": 1.0,
+        "gain": 1.15,
+        "tint": [
+         1.06,
+         1.0,
+         0.92
+        ]
+       },
+       "in_s": 12.0,
+       "speed": 0.6
+      }
+     }
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-17",
+     "0-18",
+     "0-19"
+    ]
+   },
+   "credits": [
+    "Lunar flyby visualisation: NASA's Scientific Visualization Studio/Ernie Wright (a2_flyby_1min_2160p30), public domain per NASA media guidelines"
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S21",
+   "scene": "0",
+   "duration_s": 1.55,
+   "type": "CHARACTER_STILL",
+   "note": "PIP lens ECU: 'You have not read the-'",
+   "camera": {
+    "from": {
+     "cx": 0.532,
+     "cy": 0.24,
+     "zoom": 2.2,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.532,
+     "cy": 0.24,
+     "zoom": 2.3,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 2.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/props/pip/master.jpg",
+     "relight": [
+      {
+       "shape": "ellipse",
+       "x": 0.47,
+       "y": 0.52,
+       "rx": 0.4,
+       "ry": 0.58,
+       "gain_in": 1.0,
+       "gain_out": 0.45,
+       "feather": 0.06
+      },
+      {
+       "shape": "rect",
+       "rect": [
+        0.58,
+        0.0,
+        1.0,
+        0.33
+       ],
+       "gain_in": [
+        0.16,
+        0.19,
+        0.24
+       ],
+       "gain_out": 1.0,
+       "feather_px": 30
+      },
+      {
+       "shape": "rect",
+       "rect": [
+        0.12,
+        0.0,
+        0.4,
+        0.37
+       ],
+       "gain_in": [
+        0.28,
+        0.31,
+        0.36
+       ],
+       "gain_out": 1.0,
+       "feather_px": 30
+      }
+     ],
+     "grade": {
+      "exposure": -0.15,
+      "sat": 0.92
+     }
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-20"
+    ]
+   },
+   "lights": [
+    {
+     "type": "lens",
+     "x": 0.532,
+     "y": 0.228,
+     "r": 0.04,
+     "color": [
+      1.0,
+      0.5,
+      0.15
+     ],
+     "env": "PIP",
+     "idle": 0.5,
+     "env_gain": 0.5,
+     "off_level": 0.3,
+     "glow_r": 2.2,
+     "glow_gain": 0.22
+    }
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S22",
+   "scene": "0",
+   "duration_s": 1.65,
+   "type": "CHARACTER_STILL",
+   "note": "'Take it take it take it take it-' Fast push.",
+   "camera": {
+    "from": {
+     "cx": 0.47,
+     "cy": 0.42,
+     "zoom": 1.12,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.45,
+     "cy": 0.36,
+     "zoom": 1.32,
+     "rot": 0.0
+    },
+    "ease": "in",
+    "drift": {
+     "amp_px": 2.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/characters/jax/master.jpg"
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-21"
+    ]
+   },
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S23",
+   "scene": "0",
+   "duration_s": 1.35,
+   "type": "INSERT",
+   "note": "INSERT: PIP's rubber-stamp arm comes down. THUNK. 'Accepted.'",
+   "camera": {
+    "keys": [
+     {
+      "cx": 0.7,
+      "cy": 0.47,
+      "zoom": 2.6,
+      "rot": 0.0,
+      "t": 0.0
+     },
+     {
+      "cx": 0.7,
+      "cy": 0.555,
+      "zoom": 2.6,
+      "rot": 0.0,
+      "t": 0.1,
+      "ease": "in"
+     },
+     {
+      "cx": 0.7,
+      "cy": 0.56,
+      "zoom": 2.7,
+      "rot": 0.0,
+      "t": 1.35,
+      "ease": "out"
+     }
+    ],
+    "shake": [
+     {
+      "at": 0.1,
+      "amp_px": 16,
+      "decay_s": 0.09,
+      "hz": 11
+     }
+    ]
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/props/pip/master.jpg",
+     "relight": [
+      {
+       "shape": "ellipse",
+       "x": 0.47,
+       "y": 0.52,
+       "rx": 0.4,
+       "ry": 0.58,
+       "gain_in": 1.0,
+       "gain_out": 0.45,
+       "feather": 0.06
+      },
+      {
+       "shape": "rect",
+       "rect": [
+        0.58,
+        0.0,
+        1.0,
+        0.33
+       ],
+       "gain_in": [
+        0.16,
+        0.19,
+        0.24
+       ],
+       "gain_out": 1.0,
+       "feather_px": 30
+      },
+      {
+       "shape": "rect",
+       "rect": [
+        0.12,
+        0.0,
+        0.4,
+        0.37
+       ],
+       "gain_in": [
+        0.28,
+        0.31,
+        0.36
+       ],
+       "gain_out": 1.0,
+       "feather_px": 30
+      }
+     ],
+     "grade": {
+      "exposure": -0.15,
+      "sat": 0.92
+     }
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-22"
+    ]
+   },
+   "lights": [
+    {
+     "type": "flash",
+     "at": 0.1,
+     "dur": 0.18,
+     "gain": 0.35
+    }
+   ],
+   "motion_blur": [
+    {
+     "t0": 0.0,
+     "t1": 0.1,
+     "px": 21,
+     "dir": "v"
+    }
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S24",
+   "scene": "0",
+   "duration_s": 3.15,
+   "type": "CHARACTER_STILL",
+   "note": "PIP: 'I am also filing a report on you. Once is binding.'",
+   "camera": {
+    "from": {
+     "cx": 0.47,
+     "cy": 0.45,
+     "zoom": 1.2,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.52,
+     "cy": 0.44,
+     "zoom": 1.24,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 2.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/props/pip/master.jpg",
+     "relight": [
+      {
+       "shape": "ellipse",
+       "x": 0.47,
+       "y": 0.52,
+       "rx": 0.4,
+       "ry": 0.58,
+       "gain_in": 1.0,
+       "gain_out": 0.45,
+       "feather": 0.06
+      },
+      {
+       "shape": "rect",
+       "rect": [
+        0.58,
+        0.0,
+        1.0,
+        0.33
+       ],
+       "gain_in": [
+        0.16,
+        0.19,
+        0.24
+       ],
+       "gain_out": 1.0,
+       "feather_px": 30
+      },
+      {
+       "shape": "rect",
+       "rect": [
+        0.12,
+        0.0,
+        0.4,
+        0.37
+       ],
+       "gain_in": [
+        0.28,
+        0.31,
+        0.36
+       ],
+       "gain_out": 1.0,
+       "feather_px": 30
+      }
+     ],
+     "grade": {
+      "exposure": -0.15,
+      "sat": 0.92
+     }
+    }
+   ],
+   "audio": {
+    "lines": []
+   },
+   "lights": [
+    {
+     "type": "lens",
+     "x": 0.532,
+     "y": 0.228,
+     "r": 0.04,
+     "color": [
+      1.0,
+      0.5,
+      0.15
+     ],
+     "env": "PIP",
+     "idle": 0.5,
+     "env_gain": 0.5,
+     "off_level": 0.3,
+     "glow_r": 2.2,
+     "glow_gain": 0.22
+    }
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S25",
+   "scene": "0",
+   "duration_s": 2.55,
+   "type": "DATA_VISUAL",
+   "note": "INSERT: PIP's screen. REPORT #1,204 - RE: CAPTAIN. \"TAKE IT\" (x5).",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.0,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.05,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 1.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/sets/bridge/master.jpg",
+     "blur": 14,
+     "grade": {
+      "exposure": -1.6,
+      "sat": 0.7
+     }
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/02_pip_report_1204.mp4",
+     "in_s": 2.1,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.08,
+     "treat": {
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0.085,
+       0.1
+      ],
+      [
+       0.915,
+       0.085
+      ],
+      [
+       0.925,
+       0.905
+      ],
+      [
+       0.075,
+       0.92
+      ]
+     ]
+    }
+   ],
+   "audio": {
+    "lines": []
+   },
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S26",
+   "scene": "0",
+   "duration_s": 3.2,
+   "type": "SET_STILL",
+   "note": "One point three seconds. The left engine coughs back; lights, heating. Not the coffee (no green LED). Truck right with a foreground parallax layer.",
+   "camera": {
+    "from": {
+     "cx": 0.47,
+     "cy": 0.5,
+     "zoom": 1.06,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.53,
+     "cy": 0.49,
+     "zoom": 1.08,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 1.5,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/sets/bridge/master.jpg",
+     "window": {
+      "key": "black",
+      "thresh": 0.045,
+      "region": [
+       0.12,
+       0.06,
+       0.88,
+       0.48
+      ],
+      "feather_px": 1.4,
+      "grow_px": 1,
+      "glass_keep": 0.9,
+      "reflection": 0.05,
+      "plate": {
+       "src": "${SCRATCH}/mv/plates/nasa_a2.mp4",
+       "x": 0.4,
+       "y": 0.27,
+       "scale": 0.74,
+       "depth": 0.3,
+       "blur": 0.6,
+       "drift": {
+        "dx": -0.012,
+        "dy": 0.004,
+        "dzoom": 0.01
+       },
+       "level": {
+        "black": 0.04,
+        "gamma": 1.0,
+        "gain": 1.15,
+        "tint": [
+         1.06,
+         1.0,
+         0.92
+        ]
+       },
+       "in_s": 13.5,
+       "speed": 0.6
+      }
+     },
+     "grade": {
+      "exposure": -0.05
+     }
+    },
+    {
+     "kind": "cutout",
+     "src": "${REPO}/assets/sets/bridge/master.jpg",
+     "depth": 1.35,
+     "fill_behind": true,
+     "grade": {
+      "exposure": -0.05
+     },
+     "mask": {
+      "shape": "polygon",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0.12,
+        0
+       ],
+       [
+        0.135,
+        0.3
+       ],
+       [
+        0.2,
+        0.6
+       ],
+       [
+        0.215,
+        0.82
+       ],
+       [
+        0.42,
+        0.86
+       ],
+       [
+        0.43,
+        1.0
+       ],
+       [
+        0,
+        1.0
+       ]
+      ],
+      "feather_px": 2.5
+     }
+    }
+   ],
+   "audio": {
+    "lines": []
+   },
+   "lights": [
+    {
+     "type": "revive",
+     "regions": [
+      {
+       "rect": [
+        0.59,
+        0.466,
+        0.663,
+        0.555
+       ],
+       "at": 0.9
+      },
+      {
+       "rect": [
+        0.134,
+        0.45,
+        0.182,
+        0.528
+       ],
+       "at": 1.2
+      },
+      {
+       "rect": [
+        0.362,
+        0.515,
+        0.398,
+        0.54
+       ],
+       "at": 1.45
+      },
+      {
+       "rect": [
+        0.424,
+        0.442,
+        0.503,
+        0.546
+       ],
+       "at": 1.7
+      },
+      {
+       "rect": [
+        0.356,
+        0.428,
+        0.4,
+        0.475
+       ],
+       "at": 2.0
+      }
+     ],
+     "to": 0.14,
+     "dur": 0.35
+    },
+    {
+     "type": "flicker",
+     "rect": [
+      0.45,
+      0.02,
+      0.67,
+      0.1
+     ],
+     "depth": 0.25,
+     "rate_hz": 5
+    }
+   ],
+   "credits": [
+    "Lunar flyby visualisation: NASA's Scientific Visualization Studio/Ernie Wright (a2_flyby_1min_2160p30), public domain per NASA media guidelines"
+   ],
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S27",
+   "scene": "0",
+   "duration_s": 1.75,
+   "type": "REAL_FOOTAGE",
+   "note": "Jax off-screen: 'Who sends a parcel to a crater?' over a shadowed polar crater (NASA/GSFC visualisation).",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.0
+    },
+    "to": {
+     "cx": 0.5,
+     "cy": 0.53,
+     "zoom": 1.07
+    },
+    "ease": "linear"
+   },
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/mv/plates/nasa_crater.mp4",
+     "in_s": 0.4,
+     "loop": false,
+     "grade": {
+      "exposure": 0.35,
+      "gain": [
+       1.05,
+       1.0,
+       0.94
+      ],
+      "sat": 1.2
+     }
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-24"
+    ]
+   },
+   "credits": [
+    "Shadowed crater: Dan Gallagher, Chris Smith (NASA/GSFC), 'The Moon's Permanently Shadowed Regions' (GSFC_20130306_Moons_m11218_Shadowed), public domain per NASA media guidelines"
+   ]
+  },
+  {
+   "id": "S28",
+   "scene": "0",
+   "duration_s": 3.2,
+   "type": "DATA_VISUAL",
+   "note": "INSERT: the cargo screen. A brown-paper parcel, soft at the corners.",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.0,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.06,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 1.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/sets/bridge/master.jpg",
+     "blur": 14,
+     "grade": {
+      "exposure": -1.6,
+      "sat": 0.7
+     }
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/05_cargo_screen.mp4",
+     "in_s": 1.0,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.08,
+     "treat": {
+      "scanlines": 0.05,
+      "bloom": 0.12,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0.085,
+       0.1
+      ],
+      [
+       0.915,
+       0.085
+      ],
+      [
+       0.925,
+       0.905
+      ],
+      [
+       0.075,
+       0.92
+      ]
+     ],
+     "inset": {
+      "src": "${REPO}/samples/look-codex/jax-6-cargo-parcel.jpg",
+      "matte": "${SCRATCH}/e01/datavis/05_cargo_screen_matte.png",
+      "crop": [
+       0.58,
+       0.36,
+       0.84,
+       0.6
+      ],
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom_per_s": 0.03,
+      "mono": [
+       0.62,
+       0.9,
+       0.7
+      ],
+      "gain": 0.85,
+      "pixelate": 2
+     }
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-25"
+    ]
+   },
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S29",
+   "scene": "0",
+   "duration_s": 4.63,
+   "type": "CHARACTER_STILL",
+   "note": "Rack focus onto Jax looking at the parcel a moment too long. 'Lucky.' / 'Filed under \"arithmetic\".' Then SMASH.",
+   "camera": {
+    "from": {
+     "cx": 0.44,
+     "cy": 0.44,
+     "zoom": 1.06,
+     "rot": 0.0
+    },
+    "to": {
+     "cx": 0.42,
+     "cy": 0.42,
+     "zoom": 1.16,
+     "rot": 0.0
+    },
+    "ease": "inout",
+    "drift": {
+     "amp_px": 2.0,
+     "period_s": 7.0
+    }
+   },
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${REPO}/assets/characters/jax/ref-closeup.jpg",
+     "grade": {
+      "exposure": -0.15
+     }
+    }
+   ],
+   "audio": {
+    "lines": [
+     "0-26",
+     "0-27"
+    ]
+   },
+   "focus": {
+    "regions": [
+     {
+      "shape": "ellipse",
+      "x": 0.38,
+      "y": 0.42,
+      "rx": 0.26,
+      "ry": 0.45,
+      "depth": 0.2,
+      "feather": 0.08
+     }
+    ],
+    "default_depth": 1.0,
+    "from": 1.0,
+    "to": 0.2,
+    "t0": 0.0,
+    "t1": 1.1,
+    "strength": 7.0
+   },
+   "motion_pending": {
+    "still": "see production/MOTION-PIPELINE.md queue"
+   }
+  },
+  {
+   "id": "S30",
+   "scene": "0",
+   "duration_s": 10.0,
+   "type": "REAL_FOOTAGE",
+   "note": "MAIN TITLE over the Moon turning and filling the frame (NASA SVS flyby).",
+   "camera": {
+    "from": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.0
+    },
+    "to": {
+     "cx": 0.5,
+     "cy": 0.5,
+     "zoom": 1.06
+    },
+    "ease": "linear"
+   },
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/mv/plates/nasa_a2.mp4",
+     "in_s": 0.0,
+     "speed": 0.9,
+     "loop": false,
+     "grade": {
+      "exposure": 0.0,
+      "gain": [
+       1.06,
+       1.0,
+       0.93
+      ],
+      "sat": 1.2
+     }
+    },
+    {
+     "kind": "text",
+     "text": "UNIVERSE UNDELIVERED",
+     "size": 92,
+     "y": 0.9,
+     "t0": 0.15,
+     "fade_in": 0.5,
+     "t1": 9.2,
+     "fade_out": 0.8,
+     "track_from": 12,
+     "track_to": 30,
+     "track_s": 9.0,
+     "glow": 0.9,
+     "depth": 0.0
+    }
+   ],
+   "audio": {
+    "lines": []
+   },
+   "credits": [
+    "Lunar flyby visualisation: NASA's Scientific Visualization Studio/Ernie Wright (a2_flyby_1min_2160p30), public domain per NASA media guidelines"
+   ],
+   "out": {
+    "type": "fade",
+    "dur": 1.0
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.35
+   }
+  }
+ ]
+}

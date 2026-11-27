@@ -84,6 +84,9 @@ width) or `feather_px`.
   (plate width / base width), `rot`, `crop`, `flip`, `depth` (parallax, 0.3 = far), `blur`,
   `drift` {dx, dy, dzoom, drot over the shot}, `level` {black (crushed to 0), gamma, gain, tint}.
   A dark glass lifts the plate's black to the glass level; video plates loop.
+- On a `video` base (image-to-video clip) the black key is recomputed every frame (`per_frame`,
+  default true), limited to the first frame's glass grown by `track_px` (24) and eased with the
+  previous frame by `smooth` (0.35), so a head or hand crossing the window hides the plate.
 - Black key: the base's glass pixels are screen-blended back on top (reflections stay on top);
   `reflection` adds a faint mirrored interior + sheen. White key: soft luma edge, so backlit hair
   keeps its glow.

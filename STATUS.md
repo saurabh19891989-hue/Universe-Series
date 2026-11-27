@@ -277,6 +277,12 @@ Gemini API key is saved as a network secret on the Default environment
   LTX-2.5; first test `samples/motion/test1-jax-moving.mp4` (Jax bites and chews; face holds;
   black window stays black). Daily allowance on the free token is small and not yet measured.
   A builder is remaking the Episode 1 cold open with every shot moving, plus real NASA video.
+- **Free allowance measured (27 Nov, 17:58 UTC): one 5-s clip per day.** The next call was refused
+  ("272s requested vs. 105s left ... Try again in 23:53:41", reset ~17:52 UTC 28 Nov). Max 5 s per
+  clip. Interim cut `E01-coldopen-v2-motion` moves only where real NASA video, the one Jax clip and
+  the animated screens are; the other shots are still stills (marked `motion_pending`). The 10
+  remaining clips are queued in `scratchpad/mv/gen_queue.sh`; details `production/MOTION-PIPELINE.md`.
+  Needs a showrunner/owner ruling on how to get ~10 clips per episode (see that file).
 - First drafts of Episodes 6, 8, 9 and the Episode 4 critic review are on disk. Next writing
   steps (punch-ups 6/8/9, revisions 3/4, finale) wait until the owner has judged the new sample;
   they run on Opus.
