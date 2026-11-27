@@ -3,5 +3,10 @@
   "speech_seconds": 67.2,
   "rtf": 0.747,
   "episode_compute_hours_est": 0.41,
-  "words": 188
+  "words": 188,
+  "wer": 0.005,
+  "wer_errors": [
+    "substitute: 'i'd' -> 'i've'"
+  ],
+  "wer_model": "faster-whisper small int8"
 }

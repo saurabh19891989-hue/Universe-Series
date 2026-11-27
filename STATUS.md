@@ -13,7 +13,10 @@ Last updated: 2026-11-27 (session 1)
 
 ## Owner decisions on samples
 - Music (27 Nov): composed-by-us route approved (A1, A4, A5 liked). AI-generated music rejected; dropped.
-- Owner has ElevenLabs (no API key; how Secret India uses it is being checked) and a Google Cloud
+- Audio (27 Nov): ElevenLabs NOT needed. All audio is made in-house: composed score, our own
+  sound effects, and voices from the free engines under test (Gemini voices on the Google credit
+  remain an option if the owner wants them after hearing the free samples).
+- Owner has a Google Cloud
   account with $300 credit on the saurabh19891989 gmail account for Gemini voices and Nano Banana images.
 - Laptop link approved; laptop folder `Secret-India-Research` listed but not yet offered to cloud sessions.
 
