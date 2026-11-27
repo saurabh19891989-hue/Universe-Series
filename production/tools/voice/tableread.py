@@ -47,7 +47,7 @@ RESPELL = [
  (r"\b4471-C\b", "four, four, seven, one, C"), (r"\bMunchausen\b", "Munchowzen"),
  (r"\bLucía\b", "Looseea"), (r"\bLUCÍA\b", "Looseea"), (r"\bPIP\b", "Pip"), (r"\bNASA\b", "Nasa"),
  (r"\bDr\b\.?", "Doctor"), (r"\bMr\b\.?", "Mister"), (r"\bMrs\b\.?", "Missus"),
- (r"\bSeñorita\b", "Senyorita"), (r"\bun-seize\b", "un seize"), (r"(?i)\bNoakes\b", "Noaks"),
+ (r"\bSeñorita\b", "Senyorita"), (r"\bun-seize\b", "un seize"), (r"(?i)\bNoakes\b", "Noaks"), (r"(?i)\bMira\b", "Meera"),
 ]
 def respell(t):
     t = t.replace("*", "").replace("’", "'")

@@ -553,7 +553,7 @@
    "spoken_words": 1205,
    "target_s": 570,
    "narration_s": 55.51,
-   "integrated_lufs": -16.5,
+   "integrated_lufs": -16.4,
    "true_peak_dbtp": -2.1,
    "size_mb": 4.746
   },
@@ -563,9 +563,9 @@
    "spoken_words": 1068,
    "target_s": 510,
    "narration_s": 50.76,
-   "integrated_lufs": -16.5,
-   "true_peak_dbtp": -1.6,
-   "size_mb": 4.049
+   "integrated_lufs": -16.3,
+   "true_peak_dbtp": -1.7,
+   "size_mb": 4.047
   },
   "3-act3": {
    "duration_s": 394.58,
@@ -573,9 +573,9 @@
    "spoken_words": 1045,
    "target_s": 475,
    "narration_s": 32.87,
-   "integrated_lufs": -16.5,
-   "true_peak_dbtp": -1.5,
-   "size_mb": 3.562
+   "integrated_lufs": -16.4,
+   "true_peak_dbtp": -2.2,
+   "size_mb": 3.558
   },
   "4-act4-and-tag": {
    "duration_s": 524.48,
@@ -583,8 +583,8 @@
    "spoken_words": 1137,
    "target_s": 590,
    "narration_s": 83.06,
-   "integrated_lufs": -16.5,
-   "true_peak_dbtp": -1.7,
+   "integrated_lufs": -16.3,
+   "true_peak_dbtp": -1.8,
    "size_mb": 4.678
   }
  },
@@ -603,49 +603,49 @@
    "file": "E01-tableread-1-cold-open-and-act1.mp3",
    "duration_s": 527.34,
    "size_mb": 4.746,
-   "integrated_lufs": -16.5,
+   "integrated_lufs": -16.4,
    "true_peak_dbtp": -2.1,
-   "sample_peak_dbfs": -2.32,
+   "sample_peak_dbfs": -2.4,
    "clipped_samples": 0,
    "bitrate_kbps": 72.0,
    "limiter_ceiling_db": -3.8,
-   "attempts": 1
+   "attempts": 6
   },
   "2": {
    "file": "E01-tableread-2-act2.mp3",
    "duration_s": 450.31,
-   "size_mb": 4.049,
-   "integrated_lufs": -16.5,
-   "true_peak_dbtp": -1.6,
-   "sample_peak_dbfs": -1.94,
+   "size_mb": 4.047,
+   "integrated_lufs": -16.3,
+   "true_peak_dbtp": -1.7,
+   "sample_peak_dbfs": -1.81,
    "clipped_samples": 0,
    "bitrate_kbps": 71.9,
-   "limiter_ceiling_db": -3.8,
-   "attempts": 1
+   "limiter_ceiling_db": -4.0,
+   "attempts": 6
   },
   "3": {
    "file": "E01-tableread-3-act3.mp3",
    "duration_s": 394.58,
-   "size_mb": 3.562,
-   "integrated_lufs": -16.5,
-   "true_peak_dbtp": -1.5,
-   "sample_peak_dbfs": -2.0,
+   "size_mb": 3.558,
+   "integrated_lufs": -16.4,
+   "true_peak_dbtp": -2.2,
+   "sample_peak_dbfs": -2.87,
    "clipped_samples": 0,
-   "bitrate_kbps": 72.2,
-   "limiter_ceiling_db": -3.8,
-   "attempts": 1
+   "bitrate_kbps": 72.1,
+   "limiter_ceiling_db": -4.7,
+   "attempts": 6
   },
   "4": {
    "file": "E01-tableread-4-act4-and-tag.mp3",
    "duration_s": 524.48,
    "size_mb": 4.678,
-   "integrated_lufs": -16.5,
-   "true_peak_dbtp": -1.7,
-   "sample_peak_dbfs": -2.11,
+   "integrated_lufs": -16.3,
+   "true_peak_dbtp": -1.8,
+   "sample_peak_dbfs": -2.41,
    "clipped_samples": 0,
    "bitrate_kbps": 71.4,
    "limiter_ceiling_db": -4.4,
-   "attempts": 2
+   "attempts": 6
   }
  },
  "warnings": []

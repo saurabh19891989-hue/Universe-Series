@@ -1,0 +1,144 @@
+{
+ "1-cold-open-and-act1": {
+  "window": [
+   166.9,
+   346.9
+  ],
+  "lines_in_window": 65,
+  "wer_vs_script_text": 0.0493,
+  "errors_vs_script_text": [
+   "substitute: 'rim' -> 'rimport'",
+   "delete: 'port' -> ''",
+   "insert: '' -> 'one thousand'",
+   "substitute: 'fourteen oh' -> 'four hundred'",
+   "insert: '' -> 'one thousand four'",
+   "substitute: 'fourteen' -> 'hundred'",
+   "substitute: 'that' -> 'there'",
+   "insert: '' -> 'y'",
+   "substitute: 'mira's' -> 'mirror's'",
+   "insert: '' -> 'they'",
+   "substitute: 'they're' -> 'are'",
+   "substitute: 'grey' -> 'gray'",
+   "substitute: 'a' -> 'one'",
+   "delete: 'and' -> ''",
+   "substitute: 'lien' -> 'leon'",
+   "insert: '' -> 'chige and'",
+   "substitute: 'chich chicha' -> 'chige are'"
+  ],
+  "ref_words": 467,
+  "counts": {
+   "sub": 12,
+   "ins": 9,
+   "dele": 2
+  },
+  "wer_vs_spoken_respelling": 0.0535
+ },
+ "2-act2": {
+  "window": [
+   137.9,
+   317.9
+  ],
+  "lines_in_window": 49,
+  "wer_vs_script_text": 0.0647,
+  "errors_vs_script_text": [
+   "insert: '' -> 'address'",
+   "substitute: 'addressee' -> 'he'",
+   "substitute: 'drawer' -> 'draw'",
+   "insert: '' -> 'nooks'",
+   "substitute: 'noaks's' -> 'his'",
+   "substitute: 'voss' -> 'vos'",
+   "substitute: 'close' -> 'news'",
+   "substitute: 'oczakow' -> 'ochochof'",
+   "insert: '' -> 'it's'",
+   "insert: '' -> 'a'",
+   "substitute: 'metres' -> 'meters'",
+   "substitute: 'jax' -> 'jacks'",
+   "substitute: 'parlour' -> 'parler'",
+   "substitute: 'baron' -> 'barren'",
+   "substitute: 'stories' -> 'story's'",
+   "substitute: 'se' -> 'senorita'",
+   "delete: 'orita' -> ''",
+   "insert: '' -> 'madam you are the only person on the moon who can say probably'"
+  ],
+  "ref_words": 464,
+  "counts": {
+   "sub": 12,
+   "ins": 17,
+   "dele": 1
+  },
+  "wer_vs_spoken_respelling": 0.0648
+ },
+ "3-act3": {
+  "window": [
+   119.3,
+   299.3
+  ],
+  "lines_in_window": 45,
+  "wer_vs_script_text": 0.0373,
+  "errors_vs_script_text": [
+   "substitute: 'parlour' -> 'parlor'",
+   "substitute: 'tug' -> 'hug'",
+   "substitute: 'lucha' -> 'lucia'",
+   "substitute: 'owed' -> 'old'",
+   "substitute: 'you'd' -> 'you'",
+   "insert: '' -> 'so'",
+   "substitute: 'oczakow' -> 'ochikov'",
+   "insert: '' -> 'a'",
+   "substitute: 'astride' -> 'stride'",
+   "substitute: 'mid' -> 'midair'",
+   "delete: 'air' -> ''",
+   "insert: '' -> 'do'",
+   "insert: '' -> 'do'",
+   "substitute: 'to' -> 'two'",
+   "insert: '' -> 'quarter to six i'd made'"
+  ],
+  "ref_words": 509,
+  "counts": {
+   "sub": 9,
+   "ins": 9,
+   "dele": 1
+  },
+  "wer_vs_spoken_respelling": 0.0373
+ },
+ "4-act4-and-tag": {
+  "window": [
+   159.6,
+   339.6
+  ],
+  "lines_in_window": 65,
+  "wer_vs_script_text": 0.0521,
+  "errors_vs_script_text": [
+   "substitute: 'pip' -> 'fibre'",
+   "substitute: 'jax' -> 'jack's'",
+   "substitute: 'mira' -> 'mirror'",
+   "substitute: 'metre' -> 'meter'",
+   "substitute: 'metres' -> 'meters'",
+   "substitute: 'kilometres' -> 'kilometers'",
+   "substitute: 'metres' -> 'meters'",
+   "substitute: 'luc' -> 'lucia's'",
+   "delete: 'a's' -> ''",
+   "substitute: 'metres' -> 'meters'",
+   "substitute: 'madam' -> 'smadam'",
+   "insert: '' -> 'they'",
+   "substitute: 'they're' -> 'are'",
+   "insert: '' -> 'they'",
+   "substitute: 'they're' -> 'are'",
+   "substitute: 'mira' -> 'mirror'",
+   "substitute: 'voss' -> 'vos'",
+   "substitute: 'metres' -> 'meters'",
+   "substitute: 'mira' -> 'mirror'",
+   "delete: 'a' -> ''",
+   "substitute: 'bank's' -> 'bank'",
+   "substitute: 'side' -> 'aside'",
+   "substitute: 'what' -> 'well'",
+   "substitute: 'know' -> 'now'"
+  ],
+  "ref_words": 461,
+  "counts": {
+   "sub": 20,
+   "ins": 2,
+   "dele": 2
+  },
+  "wer_vs_spoken_respelling": 0.0565
+ }
+}
