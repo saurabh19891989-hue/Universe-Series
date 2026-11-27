@@ -197,7 +197,7 @@ class Cue:
         # space + tone: hall reverb, gentle low-cut, small low-mid dip, air shelf, glue compression
         chain = sox_fx or ["gain", "-4", "highpass", "28", "equalizer", "300", "1.2q", "-2",
                            "treble", "+2", "8000", "reverb", "35", "45", "90", "100", "15",
-                           "compand", "0.02,0.25", "6:-40,-30,-12,-10,0,-6", "-2", "-60", "0.05"]
+                           "compand", "0.02,0.25", "6:-70,-70,-24,-24,0,-12", "0", "-60", "0.05"]
         subprocess.run(["sox", "-q", raw, fx, "trim", "0", f"{dur:.2f}"] + chain +
                        ["fade", "t", "0.02", f"{dur:.2f}", "2.5"], check=True)
         master(fx, mp3)
