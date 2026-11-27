@@ -148,3 +148,24 @@ rights to whoever he used to be.
 Bow skill (ep 1, 8) · unease on water (ep 5, 9) · the dog (ep 3 onward) · "nobody" (ep 1, 4, 10)
 · the Baron's cannonball promise (ep 1 → 10) · PIP's reports being read (ep 4 → 10)
 · Arakawa's file (ep 8 → S2) · Lupin's favour (ep 5 → S2) · Kaguya's robe (ep 2 → S2).
+
+---
+
+## Footage reality check (from `research/locations/00-summary.md`, 27 Nov)
+
+| Ep | Place | Real footage | What it means for the episode |
+|---|---|---|---|
+| 1 | Moon south pole | ADEQUATE | Fine; more if NASA SVS clips verify |
+| 2 | Moon far side, Earthrise | RICH | Artemis footage; show-off episode |
+| 3 | Mars orbit / surface | ADEQUATE / RICH | 8K rover panoramas carry the western |
+| 4 | Phobos, Deimos | THIN | Play it indoors (the waiting room); stills for exteriors |
+| 5 | Venus | THIN | Gala interior is illustrated; few real exteriors |
+| 6 | Sun / Mercury | RICH / poor | Lean on the Sun; Mercury only in stills |
+| 7 | Small bodies | RICH for Bennu only | Stage the con around Bennu; Ceres and Vesta in stills |
+| 8 | Jupiter / Io | ADEQUATE / THIN | Chase at Jupiter; Io prison is illustrated |
+| 9 | Europa | THIN | Under the ice aboard the Nautilus: illustrated interiors |
+| 10 | Saturn system | ADEQUATE | Cassini stills and visualisations |
+
+Rule from the audit: use NASA, ESA/Hubble, ESA/Webb and ESO only. General esa.int media is
+non-commercial; JAXA needs permission; citizen-processed JunoCam images state no licence.
+NASA SVS entries (88 assets) are unverified until a real download is tested.

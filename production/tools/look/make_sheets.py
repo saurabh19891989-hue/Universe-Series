@@ -47,8 +47,8 @@ sheet([("r1/hzc_jax_neutra.webp", "neutral"), ("r1/hzc_jax_laughi.webp", "laughi
 sheet([("r2/ds_jax.png", "Jax"), ("r2/ds_mira.png", "Mira"), ("r2/ds_pip.png", "PIP"), ("r2/ds_baron.png", "Baron")], 600,
       "ROUTE 2  Local CPU: DreamShaper 8 (SD1.5) + LCM-LoRA, 5 steps, 512x768 - 77 to 187 s/image on the shared 4-core CPU", "r2-local-sheet.jpg")
 ex = ["laugh", "angry", "worried", "smirk"]
-sheet([(f"r2/jax_seed_{e}.png", f"seed only: {e}") for e in ex] + [(f"r2/jax_ipa_{e}.png", f"IP-Adapter ref: {e}") for e in ex], 400,
-      "CONSISTENCY  Local: top = same seed + descriptor; bottom = + IP-Adapter Plus (scale 0.55) fed the Route-2 Jax image", "r2-jax-consistency.jpg", cols=4)
+sheet([(f"r2/jax_seed_{e}.png", f"seed only: {e}") for e in ex] + [(f"r2/jax_ipa_{e}.png", f"IP-Adapter Plus 0.55: {e}") for e in ex] + [("r2/jax_face_ref.png", "face reference crop")] + [(f"r2/jax_face_{e}.png", f"IP-Adapter Plus-Face 0.4: {e}") for e in ex[:3]], 400,
+      "CONSISTENCY  Local SD1.5: row 1 same seed + descriptor; row 2 + IP-Adapter Plus on full Jax image; row 3 IP-Adapter Plus-Face on face crop", "r2-jax-consistency.jpg", cols=4)
 up = Image.open(os.path.join(ART, "up/mira_x4.png"))
 cut = Image.open(os.path.join(ART, "up/mira_cut2.png"))
 teal = Image.new("RGBA", cut.size, (30, 140, 138, 255)); teal.alpha_composite(cut)

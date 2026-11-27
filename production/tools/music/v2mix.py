@@ -74,7 +74,20 @@ def inst(name):
     return _INST[name]
 
 
-def gm_stem(pm_inst, length, gain=0.6, program=None):
+def active_rms_db(y, frame=0.05, window=30.0):
+    """RMS (dB) over the frames where the stem is actually playing."""
+    m = y.mean(axis=1)
+    f = int(frame * SR)
+    k = len(m) // f
+    if k == 0:
+        return -120.0
+    p = (m[:k * f].reshape(k, f) ** 2).mean(axis=1) + 1e-12
+    db = 10 * np.log10(p)
+    act = p[db > db.max() - window]
+    return float(10 * np.log10(act.mean()))
+
+
+def gm_stem(pm_inst, length, gain=0.6, program=None, sf2=None):
     """Render one GM track dry with GeneralUser GS (FluidSynth)."""
     pm = pretty_midi.PrettyMIDI(initial_tempo=120)
     i = copy.deepcopy(pm_inst)
@@ -88,7 +101,7 @@ def gm_stem(pm_inst, length, gain=0.6, program=None):
         pm.write(mid)
         subprocess.run(["fluidsynth", "-ni", "-q", "-g", str(gain), "-r", str(SR), "-F", wav,
                         "-o", "synth.reverb.active=0", "-o", "synth.chorus.active=0",
-                        "-o", "synth.polyphony=256", GUGS, mid], check=True)
+                        "-o", "synth.polyphony=256", sf2 or GUGS, mid], check=True)
         x, _ = sfzr.sf.read(wav, dtype="float32", always_2d=True)
     n = int(length * SR) + SR
     out = np.zeros((n, 2), np.float32)
@@ -131,12 +144,15 @@ def render_cue(mid_path, mix, name, tail=4.0, rt60=2.6, sub_dir=V2_DIR, dialogue
             if rest.notes:
                 y += gm_stem(rest, length)[:n] * 10 ** (spec.get("gm_gain", -4) / 20)
         elif spec.get("gm"):
-            y = gm_stem(pmi, length, program=spec.get("program"))[:n]
+            y = gm_stem(pmi, length, program=spec.get("program"),
+                       sf2=sulib.SF2 if spec.get("sf2") == "fluidr3" else None)[:n]
         else:
             s = sfzr.render_track(inst(spec["inst"]), pmi, length, seed=k,
                                   release=spec.get("release"), vel_scale=spec.get("vel", 1.0))
             y = np.zeros((n, 2), np.float32)
             y[:min(n, len(s))] = s[:n]
+        if "lvl" in spec:          # auto-balance: active-RMS target in dBFS (pre-master)
+            y = y * 10 ** ((spec["lvl"] - active_rms_db(y)) / 20)
         y = sfzr.pan_stereo(y * 10 ** (spec.get("gain", 0) / 20), spec.get("pan", 0))
         stems[pmi.name] = y
         dry += y
