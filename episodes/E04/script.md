@@ -409,6 +409,14 @@ His hand finds the pot of pebbles without looking.
           Earth gives me every joke it can't
           find an owner for. I send most of
           them back.
+                    (one eye over his shoulder, at Jax)
+          And you? What are you waiting for?
+
+                         JAX
+          Nothing. I'm in a hurry.
+
+                         NASREDDIN
+          That's the same thing, faster.
 
 A pneumatic tube on the wall goes THUNK. A brass capsule. He opens
 it without turning round.
@@ -800,6 +808,11 @@ Ding. INSERT: INCOMPLETE FORMS ARE NOT RECEIVED.
 
 Ding. INSERT: 7 IS NOT AN APPROVAL NUMBER. 7 IS A NUMBER.
 
+                         IDRIS
+          Double or nothing?
+
+Ding. INSERT: NOTHING IS NOT A FORM.
+
                          JAX
           How do we get an approval number?
 
@@ -978,21 +991,23 @@ in her hand.
           I don't hold with queue-jumping.
           It's how empires start.
                     (to Mira, kindly)
-          Dr Sen. Your notebook is famous in
-          my office. We have a copy.
+          Dr Sen. Your oath about the giant is
+          much admired in my office. We keep a
+          copy.
 
                          MIRA
-          You copied my notebook?
+          Why?
 
                          PELL
-          We copy everything. It's the only
+          We keep everything. It's the only
           way to be sure nothing has happened.
 
                          JAX
           You've come to arrest us.
 
                          PELL
-          Goodness, no. On Phobos you're not
+          Goodness, no. I've read your file,
+          Captain. Both pages. On Phobos you're not
           wanted. The Commander will want you
           again the moment you leave, and
           she'll be terribly fair about it.
@@ -1380,7 +1395,19 @@ WIDE (HELD): Lucía rising off the moon, slow and steady, arms out,
 over the grooves, with Mars enormous behind her. She keeps rising.
 She keeps rising.
 
-                         LUCÍA (CONT'D)
+                         JAX
+                    (radio)
+          Lucha. You're a satellite.
+
+                         LUCÍA
+                    (radio)
+          I'm a wrestler.
+
+                         PIP
+                    (radio)
+          Briefly, both.
+
+                         LUCÍA
                     (radio, a while later)
           When do I come down?
 
@@ -1645,6 +1672,16 @@ steady her.
                          MIRA
           P. Phobos. Eighteen seventy-seven.
 
+                         IDRIS
+                    (below, looking up)
+          If she lets go of the wall, how long
+          till she lands?
+
+                         PIP
+                    (from the satchel)
+          Long enough to regret it. Not long
+          enough to do anything about it.
+
 INSERT: Mira's fingers walk the brass labels. PHOBOS — 1877. A
 drawer slides out. One card, brown with age, in copperplate:
 
@@ -1825,7 +1862,8 @@ They turn. Pell, a cup of tea held at his chin.
 
                          PELL
           At my level, Dr Sen, they're the same
-          thing, with better chairs.
+          thing, with better chairs. And you
+          did swear you saw a giant.
 ```
 
 ### 17 · THE WAITING ROOM — WHY HE STAYS
@@ -2164,9 +2202,15 @@ Gazette. The crew behind him. Lucía's arms are folded.
 
                          PELL
                     (genuinely charmed)
+          Captain, you're a romantic.
+
+                         JAX
+          I'm a courier. It's worse.
+
+                         PELL
           The Directorate does not interfere
-          with the post, Captain. We have
-          people for that. Done.
+          with the post. We have people for
+          that. Done.
 
 INSERT: Form Zero. A Directorate stamp comes down: ALL HANDS —
 EXCEPT TSEREN, O., AND UNIT ("PIP").
@@ -2282,6 +2326,12 @@ REMAINS.
 
 INSERT: a green label pressed onto his brass. FRAGILE.
 
+                         JAX
+          PIP. You don't have to.
+
+                         PIP
+          I do, Captain. It's the post.
+
 Jax lowers him into a canvas mail sack, and the sack into the
 chute.
 
@@ -2339,9 +2389,15 @@ Pell's cup stops halfway to his chin.
 
                          PELL
           Oh, that's very good.
+                    (to Nasreddin's back)
+          You could have told me.
 
                          NASREDDIN
-                    (not turning)
+          You never asked. Eleven years,
+          Auditor, and you never once asked me
+          anything you didn't already know.
+
+                         NASREDDIN
           You said you never interfere with
           the post.
 
@@ -2583,6 +2639,11 @@ INSERT: Wen slides a slip across the desk to PIP. YOU'RE THE PARCEL.
           hundred and thirty-two times.
 
 INSERT: a new slip. 133.
+
+                         PIP (CONT'D)
+          He kept both halves. Every one.
+
+INSERT: Wen's thumb stops her stopwatch.
 ```
 
 ### 25 · MONTAGE — TWENTY-TWO MINUTES
@@ -2645,6 +2706,17 @@ On the wall: NOW SERVING: 0. It flips. 1. It flips again, and keeps
 flipping, every number in turn, faster and faster, a whir. Then:
 NOW SERVING: ALL.
 
+                         NASREDDIN
+          Listen. It's going to finish.
+
+                         OYUNA
+          I've heard it stop eleven thousand
+          times.
+
+                         NASREDDIN
+          Twelve. I counted one twice, to be
+          fair to it.
+
 The music box plays its very small march, and, for the first time
 since 1877, the last bar.
 
@@ -2679,6 +2751,12 @@ She bows to Oyuna.
           Eleven years for nothing would be a
           tragedy. Eleven years for a typo is
           only a very long joke.
+
+                         OYUNA
+          Where will you go?
+
+                         NASREDDIN
+          Somewhere I'm expected.
 
 He stands. And, for the first time, he turns round and faces the
 room.
@@ -2793,6 +2871,15 @@ each, in time, a small grey line: READ — 00:22:04.
                          LUCÍA
           No.
 
+                         IDRIS
+          And what did the navigator get?
+
+                         JAX
+          A story.
+
+                         IDRIS
+          I have stories. I wanted a share.
+
                          MIRA
                     (to Oyuna)
           Pell was right about one thing.
@@ -2857,7 +2944,13 @@ hatch.
 INSERT: the delivery slip from Phobos, on the parcel. Her small,
 neat signature. It stays.
 
+                         JAX
+          So it's delivered.
+
                          OYUNA
+          It was delivered to me. It isn't for
+          me.
+                    (a beat)
           Thirty-one labels. The first one's
           missing.
 
@@ -2875,6 +2968,9 @@ neat signature. It stays.
           Of course it is.
 
 She turns and looks at him. A long time.
+
+Behind Jax, in the corridor, Seo passing with a mug stops, out of
+the light. She already knows what is coming.
 
 [MOUTH 2/5]
 

@@ -188,12 +188,22 @@
   "E01-J025": {
    "priority": 1,
    "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "attempts": 1,
+   "seconds": [
+    115.7
+   ],
+   "tokens": [
+    14151
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
     "released: new Mira/Lucia masters approved by owner; job needs master only"
+   ],
+   "refs_used": [
+    "assets/characters/noakes/master.jpg",
+    "assets/characters/mira/master.jpg",
+    "assets/sets/customs/desk-bright.jpg",
+    "assets/characters/noakes/ref-reflection-monitor.jpg"
    ]
   },
   "E01-J035": {

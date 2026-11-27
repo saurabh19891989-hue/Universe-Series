@@ -3295,5 +3295,47 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T16:51:18",
+  "job": "e01/E01-J025",
+  "name": "e01-j025_noakes_reflection_monitor",
+  "purpose": "E01 still E01-J025",
+  "refs": [
+   "master.jpg",
+   "master.jpg",
+   "desk-bright.jpg",
+   "ref-reflection-monitor.jpg"
+  ],
+  "seconds": 115.7,
+  "tokens_used": 14151,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21de9-5fc4-7410-aac0-d33aebe7173e",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 20.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 3.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]
