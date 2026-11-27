@@ -767,3 +767,21 @@ def make_resolver(vars_):
             p = p.replace("${" + k + "}", v)
         return p
     return r
+
+
+def preview_shot(job):
+    """Graded still frames of one shot at shot-local fractions (fast look-checks, no encode)."""
+    import time
+    t0 = time.time()
+    ctx = job["ctx"]; ctx["resolve"] = make_resolver(ctx["vars"])
+    ctx["env"] = {k: np.asarray(v, np.float32) for k, v in ctx["env"].items()}
+    sh = job["shot"]; S = Shot(sh, ctx)
+    fin = Finish(ctx["finish"], ctx["W"], ctx["H"])
+    outs = []
+    for f in job["fracs"]:
+        t = min(S.dur - 1e-3, max(0.0, f * S.dur)); i = int(t * ctx["fps"])
+        img = fin.apply(S.frame(t, job["start_s"] + t, weave_at(S.seed, i, 0)), S.seed, i, sh.get("grade"))
+        p = f"{job['out_dir']}/{sh['id']}_{f:.2f}.jpg"
+        Image.fromarray((np.clip(img, 0, 1) * 255 + 0.5).astype(np.uint8)).save(p, quality=88)
+        outs.append(p)
+    return dict(id=sh["id"], secs=round(time.time() - t0, 1), log=S.log)

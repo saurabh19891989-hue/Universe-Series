@@ -72,6 +72,8 @@ def main():
     ap.add_argument("--name"); ap.add_argument("--review"); ap.add_argument("--review-mb", type=float, default=4.6)
     ap.add_argument("--stills"); ap.add_argument("--stills-dir"); ap.add_argument("--force", action="store_true")
     ap.add_argument("--no-audio", action="store_true")
+    ap.add_argument("--preview", help="comma list of shot-local fractions (e.g. 0.1,0.9): write graded JPG frames of "
+                    "the --only shots (or all) to OUT/preview and stop; no encode")
     a = ap.parse_args()
     t_all = time.time()
     SL = json.load(open(a.shotlist, encoding="utf-8"))
@@ -139,6 +141,15 @@ def main():
         need = a.force or not os.path.exists(seg) or bool(a.only and sh["id"] in a.only)
         if need:
             jobs.append(dict(shot=sh, ctx=dict(ctx, env=envs), out=seg, frames=t["frames"], start_s=t["start_s"]))
+    if a.preview:
+        pv = os.path.join(outd, "preview"); os.makedirs(pv, exist_ok=True)
+        fr = [float(x) for x in a.preview.split(",")]
+        pj = [dict(shot=t["shot"], ctx=dict(ctx, env={k: env[k] for k in env}), start_s=t["start_s"], fracs=fr, out_dir=pv)
+              for t in timeline if not a.only or t["shot"]["id"] in a.only]
+        with get_context("spawn").Pool(a.workers) as pool:
+            for r in pool.imap_unordered(E.preview_shot, pj):
+                print(r, flush=True)
+        print("\n".join(log)); return
     print(f"[edit] audio {t_audio:.1f}s; rendering {len(jobs)} of {len(shots)} shots on {a.workers} workers "
           f"({len(shots)-len(jobs)} cached)", flush=True)
     tr = time.time(); results = []
