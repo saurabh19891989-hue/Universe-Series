@@ -13,9 +13,9 @@ def C(voice, speed, pitch=1.0, formant="preserved", lang=None, **kw):
 CANDS = {
  "JAX": [C("am_puck", 1.08)],
  "PIP": [C("bm_george", 1.05, band="250-4500 Hz")],
- "BARON": [C("bm_fable", 0.90, 0.93), C("bm_fable", 0.88, 0.88), C("bm_lewis", 0.88, 0.97), C("bm_lewis", 0.85, 0.92), C("bm_fable", 0.86, 0.86)],
+ "BARON": [C("bm_fable", 0.90, 0.93), C("bm_lewis", 0.85, 0.92)],
  "CHICHIKOV": [C("bm_daniel", 0.92), C("am_michael", 0.90), C("am_adam", 0.92), C("bm_lewis", 0.92, 1.12)],
- "NOAKES": [C("bm_daniel", 1.15, 1.10, "shifted"), C("bm_lewis", 1.15, 1.25, "shifted"), C("bm_fable", 1.18, 1.18, "shifted"), C("bm_george", 1.12, 1.0)],
+ "NOAKES": [C("bm_daniel", 1.15, 1.10, "shifted"), C("bm_george", 1.12, 1.0), C("bm_george", 1.15, 1.08, "shifted")],
  "MIRA": [C("bf_emma", 0.95, 0.94), C("bf_alice", 0.95, 0.90), C("bf_isabella", 0.95, 0.90), C("bf_lily", 0.95, 0.96)],
  "LUCÍA": [C("af_heart", 1.10), C("af_bella", 1.10), C("af_nova", 1.12), C("af_river", 1.10), C("af_sarah", 1.10)],
  "TEMI": [C("af_sky", 1.08, 1.04), C("af_jessica", 1.08, 1.02), C("af_aoede", 1.08, 1.05), C("af_alloy", 1.08, 1.06)],
@@ -57,7 +57,7 @@ def main(raw_path, out_dir):
         if not ok(ch): continue
         f = [fps[r][i] for r, i in zip(roles, ch)]
         fd = dict(zip(roles, f))
-        if distance(fd["BARON"], fd["NOAKES"], sd) < 3.0 or distance(fd["BARON"], fd["PIP"], sd) < 2.8: continue
+        if distance(fd["BARON"], fd["NOAKES"], sd) < 2.9 or distance(fd["BARON"], fd["PIP"], sd) < 2.4: continue
         d = [distance(a, b, sd) for a, b in itertools.combinations(f, 2)]
         score = (round(min(d), 3), np.mean(d))
         if best is None or score > best[0]: best = (score, ch)

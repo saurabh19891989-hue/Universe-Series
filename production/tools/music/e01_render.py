@@ -78,7 +78,7 @@ def shape(x, meta):
     if len(x) < n:
         x = np.concatenate([x, np.zeros((n - len(x), 2), np.float32)])
     x = x[:n].copy()
-    f_end = int(0.008 * SR) if meta.get("end") == "hard" else int(1.5 * SR)
+    f_end = int(0.008 * SR) if meta.get("end") == "hard" else int(meta.get("fade_s", 1.5) * SR)
     x[-f_end:] *= np.linspace(1, 0, f_end, dtype=np.float32)[:, None] ** 2
     for a, b in meta.get("silences", []):
         ia, ib = int(round(a * SR)), int(round(b * SR))
@@ -137,6 +137,13 @@ def render(fn):
     pm = pretty_midi.PrettyMIDI(mid)
     length = max(meta["duration"], pm.get_end_time()) + 0.5
     stems, sends, mixbus = v2mix.build_mix(pm, mix, length, meta.get("rt60", 2.4))
+    if meta.get("thaw"):     # 'heard through ice': low-passed at first, opening to full bandwidth
+        from scipy.signal import butter, sosfilt
+        t0, t1, fc = meta["thaw"]
+        lp = sosfilt(butter(4, fc, fs=SR, output="sos"), mixbus, axis=0).astype(np.float32)
+        t = np.arange(len(mixbus)) / SR
+        w = np.clip((t - t0) / (t1 - t0), 0, 1)[:, None] ** 1.5
+        mixbus = lp * (1 - w) + mixbus * w
     g = 0.5 / (np.abs(mixbus).max() + 1e-9)
     name = c.name
     raw = os.path.join(sulib.SCRATCH, name + "-raw.wav")
@@ -184,7 +191,7 @@ def render(fn):
         files["with_end_sting"] = {"wav_master": wav, "mp3": os.path.relpath(mp3, sulib.REPO),
                                    "duration_s": round(len(out) / SR, 3)}
     entry = {k: meta[k] for k in ("id", "title", "scenes", "duration", "key", "tempo", "hits", "motifs")}
-    entry.update({k: meta[k] for k in ("silences", "loops", "held_note", "note") if k in meta})
+    entry.update({k: meta[k] for k in ("silences", "loops", "held_note", "note", "plan") if k in meta})
     entry["name"] = name
     entry["midi"] = os.path.relpath(mid, sulib.REPO)
     entry["instruments"] = describe(mix)
@@ -192,6 +199,34 @@ def render(fn):
     entry["measurements"] = measures
     entry["mix"] = {"target_lufs_main": meta["loud"], "target_lufs_under_dialogue": min(-20.0, meta["loud"] - 3.0),
                     "hall_rt60_s": meta.get("rt60", 2.4)}
+    extra = []
+    for ex in meta.get("excerpts", []):
+        em = dict(meta, duration=round(ex["b"] - ex["a"], 3), end=ex["end"], fade_s=ex.get("fade_s", 1.5),
+                  silences=[[max(0, a - ex["a"]), min(ex["b"], b) - ex["a"]] for a, b in meta.get("silences", [])
+                            if b > ex["a"] and a < ex["b"]])
+        efiles, emeas = {}, {}
+        for kind, suffix in (("main", ""), ("under_dialogue", "-under-dialogue")):
+            x, _ = sf.read(files[kind]["wav_master"], dtype="float32", always_2d=True)
+            y = x[int(ex["a"] * SR):int(ex["b"] * SR)].copy()
+            fi = int(0.01 * SR)
+            y[:fi] *= np.linspace(0, 1, fi, dtype=np.float32)[:, None]
+            y = shape(y, em)
+            wav = os.path.join(WAV_DIR, ex["name"] + suffix + ".wav")
+            sf.write(wav, y, SR, subtype="PCM_24")
+            mp3 = os.path.join(MP3_DIR, ex["name"] + suffix + ".mp3")
+            kb = to_mp3(wav, mp3, em["duration"])
+            st = sulib.analyse(mp3, os.path.join(SPEC_DIR, ex["name"] + suffix + ".jpg"))
+            st.update(wav_duration_s=round(len(y) / SR, 4), mp3_kbps=kb, mp3_mb=round(os.path.getsize(mp3) / 1e6, 2),
+                      silences=silence_check(y, em, "wav") + silence_check(decode(mp3), em, "mp3"))
+            efiles[kind] = {"wav_master": wav, "mp3": os.path.relpath(mp3, sulib.REPO)}
+            emeas[kind] = st
+        e2 = dict(entry, id=ex["id"], title=ex["title"], name=ex["name"], duration=em["duration"],
+                  excerpt_of=[entry["id"], ex["a"], ex["b"]], silences=em["silences"],
+                  hits=[[round(t - ex["a"], 2), lab] for t, lab in meta["hits"] if ex["a"] <= t <= ex["b"]],
+                  files=efiles, measurements=emeas)
+        e2.pop("loops", None)
+        extra.append(e2)
+    entry["_extra"] = extra
     return entry
 
 
@@ -208,11 +243,19 @@ def main(ids):
         if ids and meta["id"] not in ids:
             continue
         entry = render(fn)
+        for e2 in entry.pop("_extra", []):
+            by_id[e2["id"]] = e2
         by_id[entry["id"]] = entry
         m = entry["measurements"]["main"]
         print(entry["id"], entry["name"], m["wav_duration_s"], m["lufs_I"], m["true_peak_dBTP"],
               m["samples_at_full_scale"], [s["peak_dbfs"] for s in m["silences"]], flush=True)
-    sheet["cues"] = [by_id[k] for k in sorted(by_id)]
+    order = [m for _, _, m in (f() for f in E.CUES)]
+    ids = []
+    for m in order:
+        ids.append(m["id"])
+        ids += [x["id"] for x in m.get("excerpts", [])]
+    sheet["cues"] = [by_id[k] for k in ids if k in by_id]
+    sheet["plan"] = "episodes/E01/music-and-sound-plan.txt (spotting guide); 'plan' on each cue names the slot it fills"
     sheet["libraries"] = {
         LIB_VPO: "http://virtualplaying.com/virtual-playing-orchestra/ - 'I enforce no restrictions on using this "
                  "library to make music, even for commercial purposes'",

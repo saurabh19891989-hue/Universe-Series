@@ -9,12 +9,94 @@ comments. The trailer and Shorts also leave out the tag's warrant screen and the
 so that those moments stay with people who watch the episode.
 
 Contents
-- A. Name: collision check, 12 alternatives, recommendation
+- 0. New name options: 30 candidates, top 8
+- A. Name: first collision check, 12 alternatives (superseded by 0)
 - B. Channel copy, ready to paste
 - C. Look: brief for the art department
 - D. Launch plan
 - E. Risks, plainly
 - F. What was not checked
+
+---
+
+## 0. NEW NAME OPTIONS (added 27 Nov, owner asked for more interesting names)
+
+This section supersedes the recommendation in A4. The same list is in `channel/NAME-OPTIONS.md`.
+
+Owner asked for more, and more interesting, names than "Secret Universe Series". Not legal advice.
+
+**How each was checked**
+- Handle: fetched `https://www.youtube.com/@<handle>`. "free?" = page not found today (HTTP 404).
+  That is not proof: only the YouTube Studio handle picker confirms. "taken" = a channel uses it.
+- YouTube: channel search, top results read.
+- Web: web search for a show, film, game, book or well-known brand of that name. Patchy; "none
+  found" means nothing prominent, not nothing at all.
+- USPTO: exact-phrase search of live US marks, focusing on video (class 9), entertainment
+  (class 41), broadcasting (38) and print (16). EU, UK and India registers were not reachable.
+- Meanings of non-English words were checked against at least one source, noted below.
+
+### 0.1 Top 8 (ranked)
+
+| Rank | Name | Handle | Why, in six words | Thumbnail | Collision check |
+|---|---|---|---|---|---|
+| 1 | **Undeliverable** | @UndeliverableSeries | Parcel, legends, crew: all undeliverable, beautifully. | One strong word, 13 letters; works stamped in red across a parcel label. | `@Undeliverable` taken (a channel named "undeliverable"); `@UndeliverableSeries` and `@UndeliverableShow` free?. YouTube: a music artist "Undeliverable" (auto Topic channel), tiny "Undelivered" channels. Web: no film, show, book or game found. USPTO: one dead record, no live mark. |
+| 2 | **Universe Undelivered** | @UniverseUndelivered | Keeps Secret India kinship, adds the plot. | Two words stacked; "UNIVERSE" small, "UNDELIVERED" big. | Handle free?. YouTube: nothing relevant. Web: nothing found. USPTO: nothing. |
+| 3 | **Postmark Nowhere** | @PostmarkNowhere | Every legend's address, now stamped "nowhere". | A postmark ring with NOWHERE in it: logo and title in one. | Handle free?. YouTube: nothing relevant. Web: nothing found. USPTO: nothing. |
+| 4 | **Fablefreight** | @Fablefreight | Invented word: legends, carried as cargo. | One word, alliterative, reads at phone size. | Handle free?. YouTube: no channels at all. Web: nothing found (nearest: a studio called Fableware). USPTO: nothing. |
+| 5 | **Legends Overheard** | @LegendsOverheard | Straight from the show's first line. | Two words; "OVERHEARD" in amber. | Handle free?. YouTube: an "Overheard" music channel (59K) and an "Overheard Podcast" (2.78K) — different names. Web: nothing found. USPTO: nothing for the phrase (a live OVERHEARD mark exists in class 9). |
+| 6 | **The Unscheduled** | @TheUnscheduledShow | The ship's name; ownable once episodes exist. | One unusual word; plain without the ship in shot. | `@TheUnscheduled` taken (archaeology researcher); `@TheUnscheduledShow` free?. YouTube: "The Unscheduled CEO" (5.01K) and tiny channels. Web: no work found. USPTO: one dead record only. |
+| 7 | **Nowhere Post** | @NowherePost | The post office for deleted places. | Short; works as a rubber stamp. | Handle free?. YouTube: tiny "Nowhere Sound Post". Web: nothing found. USPTO: nothing. |
+| 8 | **The Secret Courier** | @TheSecretCourier | Secret India kinship; says job, promises adventure. | Three short words; "COURIER" big. | `@TheSecretCourier` and `@SecretCourier` free?. YouTube: nothing close. Web: nearest is a family film "Adventures of Secret Mailman". USPTO: nothing. |
+
+My pick: **Undeliverable** for distinctiveness; **Universe Undelivered** if the owner wants to keep the
+Secret India family link in the name.
+
+### 0.2 All 30
+
+Groups: K = keeps "Secret" or "Universe"; S = the show's own words; L = a word from another
+language or old lore; I = invented. **AVOID** = a real collision found.
+
+| # | Name | Group | Handle | Why, in six words | Thumbnail | Collision check | Verdict |
+|---|---|---|---|---|---|---|---|
+| 1 | Undeliverable | S | @UndeliverableSeries | Parcel, legends, crew: all undeliverable, beautifully. | One word, stamp-like | See top 8 | Top 8 (#1) |
+| 2 | Universe Undelivered | K | @UniverseUndelivered | Keeps kinship, adds the plot. | Stacked two words | See top 8 | Top 8 (#2) |
+| 3 | Postmark Nowhere | S | @PostmarkNowhere | Every legend's address, now stamped "nowhere". | Postmark ring | See top 8 | Top 8 (#3) |
+| 4 | Fablefreight | I | @Fablefreight | Legends, carried as cargo, invented word. | One word | See top 8. Note: "fable" hints "made up", which the premise denies; that tension can be a joke. | Top 8 (#4) |
+| 5 | Legends Overheard | S | @LegendsOverheard | Straight from the show's first line. | Two words | See top 8 | Top 8 (#5) |
+| 6 | The Unscheduled | S | @TheUnscheduledShow | The ship's name, ownable later. | One unusual word | See top 8 | Top 8 (#6) |
+| 7 | Nowhere Post | S | @NowherePost | The post office for deleted places. | Stamp | See top 8 | Top 8 (#7) |
+| 8 | The Secret Courier | K | @TheSecretCourier | Kinship; says job, promises adventure. | Three short words | See top 8 | Top 8 (#8) |
+| 9 | Nobody's Parcel | S | @NobodysParcel | Season title; odd, warm, memorable. | Apostrophe awkward in handle | Handle free?. Nothing found on YouTube, web or USPTO. Showrunner note: puts the word "Nobody" in lights; check that suits the long game. | Good, but tied to Season 1 |
+| 10 | Valley of Lost Things | S | @ValleyOfLostThings | Ariosto's Moon, where lost things go. | Long: four words, small on phones | Handle free?. Nothing found. Source is public domain (Orlando Furioso). | Good as an episode or playlist title, long for a channel |
+| 11 | No Such Address | S | @NoSuchAddressSeries | The post office's own verdict, deadpan. | Three words, readable | `@NoSuchAddress` taken (a music artist); Series handle free?. Web: nothing found (nearest: "Address Unknown", a different title). USPTO: nothing. | Possible |
+| 12 | Secret Postmark | K | @SecretPostmark | Kinship plus the postmark logo idea. | Two words | Handle free?. Nothing found. | Possible, a little plain |
+| 13 | Secret Parcel | K | @SecretParcel | Kinship; mystery box in two words. | Two words | Handle free?. YouTube: a music artist "Secret Parcel" (Topic channel), "Parcel Secret" (18 subs), unboxing channels. USPTO: nothing. | Weak: reads as unboxing videos |
+| 14 | Universe Unlisted | K | @UniverseUnlisted | Kinship; the erased places, named. | Two words | Handle free?. "Unlisted" is YouTube's own privacy setting, so search mixes with it; a 2019 Netflix series "The Unlisted" exists (my knowledge, not re-checked). USPTO: nothing. | Risky: confusing on YouTube |
+| 15 | Delisted | S | @DelistedSeries | The show's verb for erasing legends. | One strong word | Several tiny "Delisted" channels; a common games and finance term. USPTO: one dead record. | Possible, noisy search |
+| 16 | Chapar | L | @ChaparSeries | Persian royal courier relay, 2,500 years old. | Short, unusual | Meaning: the Achaemenid courier system (Chapar Khaneh, "courier house"), later the Turkic word for a mounted courier (https://en.wikipedia.org/wiki/Chapar_Khaneh). `@Chapar` taken; Series free?. A present-day Iranian delivery company appears to use the name (digiato.com article). USPTO: nothing. | Possible; check the Iranian brand |
+| 17 | Hikyaku | L | @HikyakuSeries | Edo Japan's running couriers, "flying legs". | Unusual, hard to spell for many | Meaning confirmed (飛脚, foot courier). Sagawa Express, a major Japanese courier, uses the hikyaku figure as its brand symbol. `@Hikyaku` taken. | **AVOID** (a big courier's brand figure) |
+| 18 | Kataribe | L | @Kataribe | Japanese hereditary reciters who kept the stories. | Pretty, hard to read | `@Kataribe` taken (166K); 語部紡 (192K) and other large Japanese channels. | **AVOID** |
+| 19 | Painani | L | @Painani | Nahuatl "fast runner", the Aztec messenger. | Short | Meaning: from the verb *paina*, "to run fast"; "painani" as messenger is a popular gloss, not confirmed in a dictionary. Close to Painal, an Aztec god's name. `@Painani` taken; Painani.org (1.21K). | **AVOID** (sacred proximity, collision) |
+| 20 | Urtuu | L | @Urtuu | Mongol Empire relay stations; Oyuna's heritage. | Short, odd | Meaning: örtöö, the Mongol relay-post system (from my knowledge). YouTube: "Urtuu 4" (71.6K), KinoUrtuu (19.1K). | **AVOID** |
+| 21 | Rawi | L | @Rawi | Arabic for the reciter who passes tales on. | Four letters | Live USPTO mark RAWI in classes 9, 41, 42 (Rawi Studios, LLC, serial 99229176); "story Rawi" (46.8K). | **AVOID** |
+| 22 | Kleos | L | @KleosSeries | Greek "fame": literally what is heard. | Five letters | Kleos is a well-known legal-software brand (Wolters Kluwer); 7 live US marks; several channels. | **AVOID** |
+| 23 | Hadithi | L | @Hadithi | Swahili for "story". | Pretty | Too close to *hadith*, the sacred record of the Prophet's sayings; a live HADITHI COMICS mark. | **AVOID** (sacred proximity) |
+| 24 | Yizhan | L | @Yizhan | Chinese relay post station (驿站). | Short | "YiZhan" is widely used as a fan name for a famous pair of Chinese actors; channels up to 30.5K. | **AVOID** |
+| 25 | Taleport | I | @TaleportSeries | Tale plus port: where legends dock. | One word, clever | `@Taleport` taken; TALEPORT (an RPG channel, 104), TaleportTV (90), others. USPTO: nothing. | Possible, but small namesakes |
+| 26 | Mythmail | I | @Mythmail | Legends by post, said fast. | One word | `@Mythmail` taken (a channel named "Myth Mail"). Otherwise nothing found. | Weak: exact name in use |
+| 27 | Overheard Cosmos | I | @OverheardCosmos | Premise word plus the place. | Two words | Handle free?. Nothing found. "Overheard" (59K music) nearby. | Possible |
+| 28 | Starwrit | I | @Starwrit | Written in the stars, made a word. | One word | `@Starwrit` taken; a game called Starwrit has a channel; a music artist uses it. | **AVOID** |
+| 29 | Secret Atlas | K | @SecretAtlas | Kinship plus the show's Atlas. | Two words | `@SecretAtlas` taken; "Secret Atlas" channel (8.75K), "The Secret Atlas" (91). | **AVOID** |
+| 30 | Lost Property | S | @LostProperty | The lost-and-found office of the universe. | Two words | `@LostProperty` taken; many channels named Lost Property; 4 live US marks in other classes. | **AVOID** (crowded) |
+
+Dropped while checking: Dead Letter Atlas and Dead Letter Moon (both handles already used by
+channels of exactly that name), The Unmapped (a podcast holds `@TheUnmapped`), Storyhaul (a
+channel of that name, 601 subscribers), Atlas Zero (`@AtlasZero` has 2.53M subscribers), Return to
+Sender (Elvis song, crowded), The Storied (PBS, 1.14M), Nostos (Greek "homecoming": reserved by the
+showrunner).
+
+Before choosing: try the handle in YouTube Studio's handle picker, and search EUIPO eSearch,
+the UK IPO and India's public trade mark search by hand in classes 9 and 41.
 
 ---
 
@@ -79,7 +161,7 @@ of overall collision risk (search confusion plus trade mark plus handle), not a 
 | 11 | **Lost Address** | @LostAddressSeries | `@LostAddress` and `@TheLostAddress` in use | "Lost Address" channel (367 subs), "The Lost Address" (24). No USPTO record. | Plain and clear, slightly generic. | Medium |
 | 12 | **The Far Post** | @TheFarPostSeries | `@TheFarPost` in use; `@FarPost` 404 | "Far post" is a football term: The FarPost (3.93K), FARPost Soccer news (2.62K), FarPost (1.19K). USPTO: one dead record. | Nice courier pun that most viewers will read as football. | Medium-high |
 
-### A4. Recommendation
+### A4. Recommendation (first round; superseded by section 0)
 
 **Recommended: "Secret Universe Series" as the channel name, handle @SecretUniverseSeries, with
 the show itself called "Secret Universe" and the season title "Nobody's Parcel" on playlists and
@@ -131,11 +213,11 @@ owner chooses otherwise.
 >
 > Season 1, "Nobody's Parcel", goes from the Moon to Saturn: one legend, one real place and one genre per episode.
 >
-> The places are real, filmed by NASA and other space agencies. The story, characters, ships and music are fiction and are ours. The characters and sets are made digitally with AI image tools, and the voices are synthetic. Each episode ends with "What was real".
+> The places are real, filmed by NASA and other space agencies. The story, characters, ships and music are fiction and are ours. Each episode ends with "What was real".
 >
 > Not affiliated with or endorsed by NASA or any space agency.
 
-(Count: about 909 characters including line breaks.)
+(Count: about 815 characters including line breaks.)
 
 ### B4. Channel keywords (YouTube Studio > Settings > Channel > Keywords)
 
@@ -165,7 +247,7 @@ Where should the crew go next, and which legend should they meet? Public-domain 
 
 Next episode: [DATE], [TIME] UTC. Season 1 playlist: [LINK]
 
-Fiction, made digitally, set against real NASA footage. "What was real" is at [TIMESTAMP].
+Fiction, set against real NASA footage. "What was real" is at [TIMESTAMP].
 ```
 
 ### B7. Standard episode description template
@@ -184,18 +266,15 @@ CHAPTERS
 ...
 [M:SS] What was real
 
-WHAT WAS REAL, AND WHAT WAS MADE DIGITALLY
+WHAT WAS REAL, AND WHAT IS FICTION
 Real: [PLACE AND FACTS, e.g. Shackleton crater at the Moon's south pole is real. Parts of its floor have not seen sunlight for billions of years and have been mapped by laser and by light bounced off the crater walls. Lunar gravity is one-sixth of Earth's. A signal takes about 1.3 seconds each way between Earth and the Moon.]
-Made digitally: every person, ship, building, vehicle and settlement in this episode. They were created with AI image-generation tools and composited by us over real footage. [Earth on the horizon is a composite.] The voices are synthetic (text-to-speech). The story, edit, music and sound design are original work made for this series. [LEGEND] is a public-domain character, based on [SOURCE TEXT, AUTHOR, YEAR]; this is our own story, not an adaptation of any film or television version.
+Fiction: every person, ship, building, vehicle and settlement in this episode is invented. [Earth on the horizon is a composite.] The story, edit, music and sound design are original work made for this series. [LEGEND] is a public-domain character, based on [SOURCE TEXT, AUTHOR, YEAR]; this is our own story, not an adaptation of any film or television version.
 
 FOOTAGE CREDITS
 [Clip description], [mission or instrument]: [exact credit line as given by the source, unaltered]
 e.g.  Lunar south pole visualisation: NASA's Scientific Visualization Studio [exact SVS credit line]
 e.g.  [Image name]: ESA/Hubble [plus the exact per-image credit, unaltered]
 NASA, ESA and other agencies' footage is used under their media guidelines. This series is fiction. It is not made, sponsored or endorsed by NASA, ESA or any space agency, and no agency endorses its content.
-
-AI AND SYNTHETIC CONTENT
-This video contains realistic AI-generated images and synthetic voices, and is labelled as altered or synthetic content on YouTube. No real person's face or voice is used.
 
 Music: original score composed for Secret Universe. © [YEAR] [OWNER / CHANNEL NAME]. All rights reserved.
 
@@ -210,8 +289,10 @@ Notes on the template:
   NASA's endorsement" (https://www.nasa.gov/nasa-brand-center/images-and-media/). No NASA or ESA
   logos anywhere: not in thumbnails, banner, watermark or on fictional ships.
 - Description limit is 5,000 characters; title limit 100.
-- Never describe the images as hand-made, painted or photographed. OpenAI's terms forbid
-  representing "that Output was human-generated when it was not".
+- Owner's ruling (27 Nov): no AI-disclosure wording in channel copy, descriptions, pinned comments
+  or the trailer. Internal rule that still applies: never describe the images as hand-made,
+  painted or photographed. OpenAI's terms forbid representing "that Output was human-generated
+  when it was not". Saying nothing is allowed; claiming the opposite is not.
 
 **Episode 1 chapters (provisional, from the draft 3 timing model; replace with the cut's real timecodes):**
 ```
@@ -238,7 +319,7 @@ Notes on the template:
 Rules followed: each title says what the viewer gets (legend, real place, genre) and is true of the
 episode; no "you won't believe", no fake urgency, no shocked faces. "Secret Universe Ep N" or "(Ep N)"
 tells people it is a series. Thumbnails: one photoreal image, 2–4 words, no NASA or ESA logos, and
-no spoilers past the episode's first act. Thumbnails are AI-made; never caption them as anything else.
+no spoilers past the episode's first act. Never caption a thumbnail as a photograph or as hand-made art.
 
 **Ep 1 — The Parcel Nobody Ordered (Moon, Shackleton crater; Baron Munchausen; caper)**
 | Title | Thumbnail: image / words |
@@ -381,7 +462,7 @@ Grade teal on Void does not, so never use it for text that must be read.
   description, not on the banner.
 - Inside the safe area, left-aligned in the middle: the wordmark **SECRET UNIVERSE** in Parcel
   paper, the tagline under it in Haze, and one small Amber line: "Season 1: Nobody's Parcel".
-- A schedule line ("New episode every other Saturday") only once the cadence is proven.
+- No schedule line on the banner (episodes go out as they are finished).
 - Nothing important outside 1546 × 423: on phones that is all anyone sees. Check on TV
   (full image), desktop (about 2560 × 423 strip) and phone.
 - No faces of real astronauts, no agency logos, no "Official" wording.
@@ -433,18 +514,14 @@ project files. Licences were read from Google Fonts' listings from my knowledge,
 
 ## D. LAUNCH PLAN
 
-### D1. Order of release
-
-Do not launch until **Episodes 1–3 are finished and reviewed** (so that two are in the bank when
-Episode 1 goes out).
+### D1. Order of release (owner's ruling, 27 Nov: publish as fast as episodes are finished, several at once at launch)
 
 | When | What | Why |
 |---|---|---|
-| Day −7 | Channel live with banner, avatar, descriptions, the Season 1 playlist (empty). Trailer published as a normal video and set as the channel trailer for non-subscribers. | Gives the trailer a week to collect views and gives the premiere a page to point to. |
-| Day −6 to −1 | Shorts 1–3 (one every other day), each pointing to the premiere. | Discovery; each Short is a 30–50 s taste of a different tone. |
-| Day 0 | **Episode 1 as a YouTube Premiere**, scheduled 3–7 days ahead so the countdown page can be shared. Owner (or the channel) answers comments live in the chat. | One event with the audience in one place; the premiere page collects reminders. |
-| Day +2 to +12 | Shorts 4–6, then Shorts cut from Episode 2's opening. | Keeps the channel moving between long episodes. |
-| Day +14 | Episode 2. | See cadence, D4. |
+| Before anything | Phone-verify the channel. | "By default, you can upload videos that are up to 15 minutes long." "Verified accounts can upload videos longer than 15 minutes." Every episode is 30–40 minutes, and custom thumbnails also need verification. |
+| Days before launch | Upload every finished episode, the trailer and the first Shorts as **Private**, a few per day, and check each on YouTube's player. | There is a daily upload cap with no published number (see D4). Uploading early means the cap cannot delay launch day, and any "Upload limit reached" error costs only a day. |
+| Launch day | Trailer, then **Episode 1** (optionally as a Premiere), then **all other finished episodes public within the same day**, in order, in the Season 1 playlist. Shorts 1–2 the same day. | A "season drop": new viewers who like Episode 1 can carry straight on. Episode 1 goes first so it collects the first views and the end screens have somewhere to point. |
+| After launch | Each new episode goes public the day it passes review and the owner signs it off. One or two Shorts a day from the released episodes. | The owner's pace. |
 
 ### D2. Trailer script (about 80 seconds; built only from Episode 1 material)
 
@@ -467,10 +544,10 @@ title. Cards are Parcel paper on Void, Fraunces. All pictures are the episode's 
 | 0:58–1:04 | The signing: Jax's pen touching the line; he lays it down. | JAX: "Both or neither." … "Neither." |
 | 1:04–1:08 | The Baron, a huge laugh behind the moustache. | BARON: "I came on a beanstalk!" |
 | 1:08–1:14 | TITLE: SECRET UNIVERSE. Under it: "Episode 1 · The Parcel Nobody Ordered · Premieres [DATE]". | Theme, full. |
-| 1:14–1:20 | Small text on black: "An original fiction series. Real NASA footage. Characters made digitally. Not endorsed by NASA." | Silence, then PIP: "I have noted his request." (optional) |
+| 1:14–1:20 | Small text on black: "An original fiction series. Real NASA footage. Not endorsed by NASA." | Silence. |
 
-Description for the trailer: B2 plus "Episode 1 premieres [date]" and the credit and AI lines from B7.
-Tick the altered or synthetic content box on the trailer too.
+Description for the trailer: B2 plus "Episode 1 premieres [date]" and the footage credit lines from
+B7. Studio's AI-use setting: see E11 (owner's decision).
 
 ### D3. Six Shorts from Episode 1 (vertical 9:16, 30–55 s each, each ends on a card pointing to Ep 1)
 
@@ -486,27 +563,55 @@ The pictures are mostly stills with camera moves, so plan vertical crops at the 
 | 5 | The silent chase (24) | Lucía: "I don't know, I can't hear them." Jax: "There's no air." | The card at the window: PLEASE. |
 | 6 | Mira's map in the dark (27) | Mira: "Jax. It's Mira. Don't move." | Baron: "Madam, you are a wonder." / "I'm a cartographer." / "That is what I said." |
 
-Each Short's description: one line, then "Full episode: [link]", then the AI line from B7. Tick the
-synthetic-content box on Shorts as well.
+Each Short's description: one line, then "Full episode: [link]", then the footage credit line.
+Studio's AI-use setting: see E11.
 
-### D4. Release cadence
+### D4. Release pace: as fast as episodes are finished
 
-**One episode every two weeks, same weekday and time (for example Saturday 15:00 UTC, which is
-evening in India, afternoon in Europe, morning in the Americas), with two or three Shorts a week
-in between.**
+**The plan:** a launch drop of every finished episode on day one, then each episode on the day it is
+signed off, with Shorts daily. No fixed weekday.
 
-Why:
-- A 35-minute episode with about 30 scenes, original score, sound and review passes is weeks of
-  pipeline work; the image budget is capped by a subscription limit that can stop work. Starting
-  with two episodes banked means one bad week does not break the schedule.
-- YouTube rewards a predictable schedule more than a fast one, and the inauthentic-content policy
-  warns against channels that look "mass-produced" or "made with a template". Ten AI-voiced
-  episodes in ten days is the pattern that policy is written for; one carefully made episode a
-  fortnight is not.
-- Ten episodes fortnightly is a 20-week season: long enough to learn from the first three and
-  change Episodes 4–10.
-- If the bank runs down to one episode, switch to every three weeks and say so in the community
-  tab; do not rush an episode out.
+**What YouTube's own pages say about uploading a lot, fast, to a new channel (read 27 Nov 2026):**
+- **Daily upload cap.** "There's a limit to how many videos a channel can upload each day across
+  desktop, mobile, and YouTube API." It can vary by country or region and by channel history;
+  copyright strikes can affect it and Community Guidelines strikes reduce it. If it is hit you
+  see "Upload limit reached" and should wait 24 hours. No number is published, and the page says
+  nothing specific about new or unverified channels.
+  (https://support.google.com/youtube/answer/57407)
+- **Length.** "By default, you can upload videos that are up to 15 minutes long." "Verified
+  accounts can upload videos longer than 15 minutes." (https://support.google.com/youtube/answer/71673)
+- **Inauthentic (formerly repetitious) content, a monetisation policy.** Not allowed:
+  "AI-generated content made with generic or unoriginal templates giving the impression of mass
+  production"; "Videos where characters are put in the same situation over and over again with the
+  same outcome"; "Image slideshows, templated storylines, or scrolling text with minimal or no
+  narrative". Allowed: "Similar content, like a series following a set of characters across
+  episodes" and "Same intro and outro for your videos, but the bulk of your content is different".
+  A breach means "you will not be able to access monetization", and earnings may be withheld.
+  (https://support.google.com/youtube/answer/1311392)
+- **Spam policy, a Community Guidelines rule (strikes, not only money).** Under "Automated or
+  synthetic mass-production": "Using automated tools or AI to churn out high volumes of similar
+  content with minimal changes", and "we don't allow use of these tools to flood our platform with
+  repetitive content". It also says "posting a few variations of a video is ok".
+  (https://support.google.com/youtube/answer/2801973)
+
+**What this means for us, plainly.** Nothing on those pages forbids publishing several finished,
+different 35-minute episodes on one day. The risk is how it looks: a brand-new channel that posts
+many long AI-pictured, synthetic-voiced videos and a stream of Shorts on day one matches the shape
+those policies describe, and a reviewer judges the channel, not our intentions. Our episodes are
+genuinely different (genre, guest, place, score, story), which is exactly the "series following a
+set of characters" case the policy allows. Keep that visible:
+- every episode has its own title, description, thumbnail style and chapters; no copied text;
+- no re-uploads or near-duplicate versions of the same episode; no Shorts that are the same clip
+  re-cut several ways;
+- Shorts each from a different scene, at most one or two a day;
+- one short behind-the-scenes video early on (writing, scoring, compositing) helps a human reviewer
+  see the craft.
+
+**Trade-offs of the fast pace, for the owner to weigh:** each episode gets less time as "the new
+upload" (subscribers' notifications and the feed favour the newest video); lessons from Episode 1's
+retention data cannot reach episodes already finished; and a gap after the drop, while the pipeline
+catches up, can look like the channel has stopped. A short community post ("Episode 4 is in the
+edit") covers the gap.
 
 ### D5. Upload settings checklist (every episode, trailer and Short)
 
@@ -518,8 +623,8 @@ Why:
 - [ ] Playlist: "Secret Universe — Season 1: Nobody's Parcel" (and "Shorts" for Shorts).
 - [ ] Audience: **"No, it's not made for kids."** Age restriction: no. (Mild language, no gore;
       aimed at teens and adults.)
-- [ ] **Altered or synthetic content: "Yes".** Photoreal people composited over real footage is a
-      "realistic scene that didn't actually occur". Tick it every time.
+- [ ] **AI use / altered or synthetic content setting:** owner's decision for each upload. Read
+      E11 (YouTube's own rule, quoted) before choosing.
 - [ ] Paid promotion: no (unless a sponsor is ever added).
 - [ ] Category: **Film & Animation.**
 - [ ] Video language and title/description language: **English**. Caption certification: "None"
@@ -540,6 +645,9 @@ Why:
 - [ ] Schedule or set as Premiere. Owner signs off before the switch to Public.
 
 ### D6. Metrics for the first 28 days, and what we would change in Episode 2
+
+With several episodes released together, "Episode 2" below means **the next episode not yet locked**;
+read each episode's graph separately, since a drop-off can be at the episode boundary instead.
 
 Use YouTube Studio > Analytics > Advanced. Compare against our own trailer and Shorts and against
 the "typical" bands Studio shows once the channel has history. The numbers below are rules of
@@ -584,11 +692,6 @@ viewed. With 10 episodes, that is reachable inside the season only if the show f
   writing, human editing decisions and a "What was real" note. Make that visible: varied
   thumbnails, no stock intro, and an occasional short behind-the-scenes video showing the
   making (writing, scoring, compositing). Whether a reviewer agrees is not in our control.
-- **Synthetic content disclosure.** Must disclose AI content that "Alters footage of a real event
-  or place" or "Generates a realistic scene that didn't actually occur". Our photoreal people
-  over real NASA plates falls under this. We tick the label on everything. The label does not by
-  itself stop monetisation (not verified on an official page in this pass), but it may reduce
-  how the video is shown in some places (not verified).
 - **Synthetic voices.** The research found no rule against text-to-speech on fictional
   characters. The risk is audience reaction (people leave or complain about "AI voices") and the
   "mass-produced" judgement above, not a policy breach. Never synthesise a real person's voice.
@@ -602,7 +705,8 @@ viewed. With 10 episodes, that is reachable inside the season only if the show f
   unaltered. General esa.int media is non-commercial and must not be used on a monetised channel.
 - **Images.** OpenAI's terms: do not "Represent that Output was human-generated when it was not";
   no "use of someone's likeness, including their photorealistic image or voice, without their
-  consent". So: honest disclosure lines, and no prompts that resemble real people.
+  consent". So: never claim the images are hand-made or photographed, and no prompts that resemble
+  real people.
 
 Other income, later and only with owner sign-off: channel memberships, a merchandise shelf, or
 licensing the series. None of these is planned now.
@@ -618,13 +722,15 @@ licensing the series. None of these is planned now.
    a brand people know is not. Decide before launch.
 2. **Inauthentic / mass-produced content.** The biggest monetisation risk. An automated-looking
    channel with AI pictures and TTS can be refused YPP or demonetised, even if each episode is
-   carefully made. Mitigate with the cadence in D4, varied packaging, visible human craft, and no
-   templated intros or reused segments between episodes.
+   carefully made. The fast release pace (D4) raises this risk: many long videos and Shorts on a
+   new channel in a short time is the pattern the policy and the spam rule describe. Mitigate with
+   varied packaging, visible human craft, no near-duplicate uploads, and no templated intros or
+   reused segments between episodes.
 3. **Synthetic voices.** Allowed, but viewers may judge the show by them in the first minute. The
    owner should listen to a reel of each episode's opening before upload (agents cannot hear).
    Keep the option open to replace key voices with human actors later.
 4. **Photoreal pictures next to real footage.** Viewers may take a frame out of context and share
-   it as real. Mitigate: the synthetic label, the "What was real" note, the end-card line, and no
+   it as real. Mitigate: the "What was real" note, the end-card line, and no
    photoreal shots that could pass as news (no real missions, real astronauts, real agency hardware
    with logos).
 5. **Public-domain characters, modern trade mark holders.** The characters are free, the brands
@@ -648,6 +754,20 @@ licensing the series. None of these is planned now.
 10. **Comments.** Myth and religion attract arguments. Hold-for-review on, blocked words set, and a
     short community rule in the About section if needed.
 
+11. **YouTube's "AI use" (altered or synthetic content) setting: owner's decision.** YouTube's
+    rule, quoted from https://support.google.com/youtube/answer/14328491 (read 27 Nov 2026):
+    creators "must disclose GenAI content that: Makes a real person appear to say or do something
+    they didn't do. Alters footage of a real event or place. Generates a realistic scene that
+    didn't actually occur. Creates music that's the main focus of the video." They "don't need to
+    disclose non-realistic content that's made with AI, or edits to realistic content that are
+    minor", and production help such as AI-written scripts or titles is listed as not needing it.
+    Creators who choose "Yes" get a label; for photorealistic content "a label in the video player
+    may also appear", and "YouTube may also apply labels automatically". "Creators who consistently
+    choose not to disclose this information may be subject to manual application of a label, or
+    penalties from YouTube", which can include "removal of content or suspension from the YouTube
+    Partner Program." The setting is in YouTube Studio at upload; it is separate from anything
+    written in the description.
+
 ---
 
 ## F. WHAT WAS NOT CHECKED
@@ -663,6 +783,6 @@ licensing the series. None of these is planned now.
   is weaker than a professional search.
 - Current YouTube help pages were not re-read today; the policy quotes come from
   `research/tooling/youtube-upload-and-storage.md` (checked 27 Nov 2026). Thumbnail testing,
-  watermark size limits and whether the synthetic label affects ads were not verified.
+  watermark size limits and whether YouTube's AI label affects ads were not verified.
 - Font licences were not re-fetched.
 - The Episode 1 chapter times come from the script's timing model, not from a cut.

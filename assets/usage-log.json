@@ -1826,5 +1826,234 @@
     "resets_at": "2026-12-02 17:30 UTC"
    }
   }
+ },
+ {
+  "time": "2026-11-27T16:15:58",
+  "type": "run",
+  "purpose": "request4 Mira's notebook",
+  "job": "notebook",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/notebook/notebook.png",
+  "file": "assets/props/notebook/master.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 55.3,
+  "tokens": 23636,
+  "status": "accepted",
+  "note": "pages illegible scribble and map lines",
+  "jpg_bytes": 345359,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 74.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 96.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:17:10",
+  "type": "run",
+  "purpose": "request5 Lucia suit and helmet full body",
+  "job": "lucia-suit",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/lucia-suit/lucia-suit.png",
+  "file": "assets/characters/lucia/ref-suit-helmet.jpg",
+  "refs": [
+   "master.jpg",
+   "ref-helmet.jpg"
+  ],
+  "seconds": 127.5,
+  "tokens": 9616,
+  "status": "accepted",
+  "note": "derived from CURRENT master; redo if a v3 candidate wins",
+  "jpg_bytes": 406166,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 75.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 96.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "read_at": "2026-11-27T16:17:32Z",
+  "source": "rollout-2026-11-27T16-16-43-01a21dcb-7763-7221-88df-f8906bbca4e4.jsonl",
+  "five_hour": {
+   "used_percent": 74.0,
+   "window_minutes": 300,
+   "resets_at": "2026-11-27 19:25 UTC"
+  },
+  "weekly": {
+   "used_percent": 96.0,
+   "window_minutes": 10080,
+   "resets_at": "2026-12-02 17:30 UTC"
+  },
+  "type": "allowance_check",
+  "label": "before Mira/Lucia v3 candidates"
+ },
+ {
+  "time": "2026-11-27T16:18:33",
+  "type": "run",
+  "purpose": "v3 Mira candidate 1",
+  "job": "mira-v3-1",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/mira-v3-1/mira-c1.png",
+  "file": "assets/characters/mira/candidate-1.jpg",
+  "refs": [],
+  "seconds": 60.3,
+  "tokens": 14970,
+  "status": "accepted",
+  "note": "CANDIDATE; corner window shows a planet (crop/mask); close to candidate 3",
+  "jpg_bytes": 378719,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 78.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 96.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:18:25",
+  "type": "run",
+  "purpose": "v3 Mira candidate 2",
+  "job": "mira-v3-2",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/mira-v3-2/mira-c2.png",
+  "file": "assets/characters/mira/candidate-2.jpg",
+  "refs": [],
+  "seconds": 52.0,
+  "tokens": 8625,
+  "status": "accepted",
+  "note": "CANDIDATE; nose stud, holds loupe",
+  "jpg_bytes": 420917,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 77.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 96.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:19:26",
+  "type": "run",
+  "purpose": "v3 Mira candidate 3",
+  "job": "mira-v3-3",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/mira-v3-3/mira-c3.png",
+  "file": "assets/characters/mira/candidate-3.jpg",
+  "refs": [],
+  "seconds": 53.1,
+  "tokens": 7893,
+  "status": "accepted",
+  "note": "CANDIDATE; close to candidate 1",
+  "jpg_bytes": 410765,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 79.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 96.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:19:25",
+  "type": "run",
+  "purpose": "v3 Lucia candidate 1",
+  "job": "lucia-v3-1",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/lucia-v3-1/lucia-c1.png",
+  "file": "assets/characters/lucia/candidate-1.jpg",
+  "refs": [],
+  "seconds": 51.8,
+  "tokens": 5822,
+  "status": "accepted",
+  "note": "CANDIDATE",
+  "jpg_bytes": 336354,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 79.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 96.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:20:19",
+  "type": "run",
+  "purpose": "v3 Lucia candidate 2",
+  "job": "lucia-v3-2",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/lucia-v3-2/lucia-c2.png",
+  "file": "assets/characters/lucia/candidate-2.jpg",
+  "refs": [],
+  "seconds": 52.6,
+  "tokens": 10508,
+  "status": "accepted",
+  "note": "CANDIDATE",
+  "jpg_bytes": 352652,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 80.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 96.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:20:17",
+  "type": "run",
+  "purpose": "v3 Lucia candidate 3",
+  "job": "lucia-v3-3",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/lucia-v3-3/lucia-c3.png",
+  "file": "assets/characters/lucia/candidate-3.jpg",
+  "refs": [],
+  "seconds": 50.7,
+  "tokens": 5723,
+  "status": "accepted",
+  "note": "CANDIDATE; may read a little over 29",
+  "jpg_bytes": 414110,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 80.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 96.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "read_at": "2026-11-27T16:20:53Z",
+  "source": "rollout-2026-11-27T16-20-32-01a21dce-f85a-7cf2-9092-dd25ead97fcf.jsonl",
+  "five_hour": {
+   "used_percent": 81.0,
+   "window_minutes": 300,
+   "resets_at": "2026-11-27 19:25 UTC"
+  },
+  "weekly": {
+   "used_percent": 97.0,
+   "window_minutes": 10080,
+   "resets_at": "2026-12-02 17:30 UTC"
+  },
+  "type": "allowance_check",
+  "label": "after v3 candidates"
  }
 ]

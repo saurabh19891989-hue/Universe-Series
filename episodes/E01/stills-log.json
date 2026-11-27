@@ -737,6 +737,161 @@
    ],
    "file": "episodes/E01/stills/e01-j002_bridge_wide_jax_back.jpg",
    "jpg_bytes": 295583
+  },
+  "E01-J006": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    44.2
+   ],
+   "tokens": [
+    16864
+   ],
+   "notes": [
+    "OTS behind Jax's curls + orange collar (matches ref-back) to blank black screen for graphics; warm lamp, bright style"
+   ],
+   "refs_used": [
+    "assets/characters/jax/master.jpg",
+    "assets/sets/bridge/master.jpg",
+    "assets/characters/jax/ref-back.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j006_jax_ots_screen.jpg",
+   "jpg_bytes": 400155
+  },
+  "E01-J003": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    58.3
+   ],
+   "tokens": [
+    14648
+   ],
+   "notes": [
+    "Taped drip coffee machine among cable ties on bridge console, screens show only abstract graphics, no text; bright style"
+   ],
+   "refs_used": [
+    "assets/sets/bridge/master.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j003_coffee_machine.jpg",
+   "jpg_bytes": 441043
+  },
+  "E01-J009": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    38.6
+   ],
+   "tokens": [
+    12684
+   ],
+   "notes": [
+    "ECU eyes/brows, cold screen glow, narrowed; brows/skin consistent with Jax master; mouth out of frame"
+   ],
+   "refs_used": [
+    "assets/characters/jax/master.jpg",
+    "assets/characters/jax/ref-closeup.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j009_jax_ecu_eyes_screen.jpg",
+   "jpg_bytes": 410125
+  },
+  "E01-J004": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    52.8
+   ],
+   "tokens": [
+    14123
+   ],
+   "notes": [
+    "Jax matches master (curls, stubble, orange jacket), sandwich hides mouth, outraged eyes, window black; bright warm"
+   ],
+   "refs_used": [
+    "assets/characters/jax/master.jpg",
+    "assets/characters/jax/ref-closeup.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j004_jax_sandwich_mcu.jpg",
+   "jpg_bytes": 446201
+  },
+  "E01-J011": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    57.6
+   ],
+   "tokens": [
+    23815
+   ],
+   "notes": [
+    "Strong match to Jax master; crooked half-smile lips closed, warm console light, black window"
+   ],
+   "refs_used": [
+    "assets/characters/jax/master.jpg",
+    "assets/characters/jax/ref-closeup.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j011_jax_mcu_halfsmile.jpg",
+   "jpg_bytes": 521611
+  },
+  "E01-J005": {
+   "priority": 1,
+   "status": "accepted",
+   "attempts": 1,
+   "seconds": [
+    69.3
+   ],
+   "tokens": [
+    12249
+   ],
+   "notes": [
+    "Jax matches; half-turned to glowing screen at left, mouth closed, appalled, sandwich lowered, windows black"
+   ],
+   "refs_used": [
+    "assets/characters/jax/master.jpg",
+    "assets/sets/bridge/master.jpg"
+   ],
+   "file": "episodes/E01/stills/e01-j005_jax_listen_screen.jpg",
+   "jpg_bytes": 425131
+  },
+  "E01-J039": {
+   "priority": 1,
+   "status": "rejected-retrying",
+   "attempts": 1,
+   "seconds": [
+    130.1
+   ],
+   "tokens": [
+    29439
+   ],
+   "notes": [
+    "REJECTED: face good but setting wrong: pilot seat + cargo netting on the ship; scene is the customs holding cage"
+   ],
+   "refs_used": [
+    "assets/characters/jax/master.jpg",
+    "assets/characters/jax/ref-closeup.jpg"
+   ]
+  },
+  "E01-J007": {
+   "priority": 1,
+   "status": "pending",
+   "attempts": 1,
+   "seconds": [
+    58.2
+   ],
+   "tokens": [
+    14400
+   ],
+   "notes": [],
+   "refs_used": [
+    "assets/props/pip/master.jpg",
+    "assets/characters/jax/master.jpg",
+    "assets/sets/bridge/master.jpg"
+   ]
   }
  },
  "allowance": [

@@ -46,7 +46,7 @@ DR = dict(kick=36, kick2=35, snare=38, rim=37, clap=39, hatc=42, hatp=44,
           conga_lo=64, timb_hi=65, timb_lo=66, agogo_hi=67, agogo_lo=68,
           cabasa=69, maracas=70, claves=75, wood_hi=76, wood_lo=77,
           cuica_mute=78, cuica=79, tri_mute=80, tri=81, shaker=82,
-          tom_lo=45, tom_mid=47, tom_hi=50, floor=41)
+          tom_lo=45, tom_mid=47, tom_hi=50, floor=41, cym_swell=59)
 
 
 def pitch(name):
