@@ -7,7 +7,8 @@ MP3 192k at about -16 LUFS, plus a small spectrogram JPG and a stats file.
 Notation for melody strings (used by Cue.seq):
     "D5:q A4:q D5:e E5:e F5:q | E5:h. r:q"
   pitch:duration, r = rest, '|' is only a visual bar line.
-  w=4 h=2 q=1 e=1/2 s=1/4 t=1/3 (triplet eighth) x=1/6, trailing '.' = dotted.
+  w=4 h=2 q=1 e=1/2 s=1/4 t=1/3 (triplet eighth) x=1/6 u=2/3 (swung long eighth: u+t),
+  trailing '.' = dotted.
   A '~' prefix on a token (e.g. "~E5:q") makes it slur-legato (overlap).
 """
 import os
@@ -26,7 +27,7 @@ REPO = "/home/user/Universe-Series"
 OUT_DIR = os.path.join(REPO, "samples", "music")
 MIDI_DIR = os.path.join(OUT_DIR, "midi")
 
-DUR = {"w": 4.0, "h": 2.0, "q": 1.0, "e": 0.5, "s": 0.25, "t": 1 / 3, "x": 1 / 6}
+DUR = {"w": 4.0, "h": 2.0, "q": 1.0, "e": 0.5, "s": 0.25, "t": 1 / 3, "x": 1 / 6, "u": 2 / 3}
 
 # General MIDI programs (0-indexed) we use
 GM = dict(piano=0, harpsichord=6, celesta=8, glock=9, marimba=12, nylon=24,

@@ -169,3 +169,34 @@ Bow skill (ep 1, 8) · unease on water (ep 5, 9) · the dog (ep 3 onward) · "no
 Rule from the audit: use NASA, ESA/Hubble, ESA/Webb and ESO only. General esa.int media is
 non-commercial; JAXA needs permission; citizen-processed JunoCam images state no licence.
 NASA SVS entries (88 assets) are unverified until a real download is tested.
+
+---
+
+## Reconciled with the character bank (27 Nov) — these override the outlines above
+
+All Season 1 guests are public domain in the US, EU/UK and India per `research/characters/`
+(Lupin: medium confidence — use only the 1905–1907 stories). Use the books, never screen versions.
+
+**Additions from the bank**
+- **Pavel Chichikov** (Gogol, *Dead Souls*) is Voss's acquisitions agent and the "buyer" in
+  ep 1. In the novel he buys dead serfs who still exist on the register; here he buys delisted
+  legends who still exist off it. Polite, forgettable, everywhere. Recurring.
+- **The Valley of Lost Things** (Ariosto, *Orlando Furioso*): everything lost on Earth ends up
+  on the Moon. In ep 2 it lies on the far side, Kaguya keeps it, and the knight **Astolfo** is
+  there hunting for someone's lost wits in a jar. On a back shelf, unnoticed by Jax: a jar
+  labelled *Nobody*.
+- **Sun Wukong** once scratched his own name out of the Register of the Dead. In ep 8 this is
+  how the crew learns a listing can be removed by its own owner — the first hint that Jax did
+  it to himself.
+- **Hong Gildong** is Korea's "John Doe", the name printed on sample forms. Seo's cover papers
+  carry it from ep 2. The real Hong Gildong arrives in Season 2 to ask who has been using his name.
+
+**Care notes the writers must follow**
+- Nasreddin: the comedy is logic, never religion; do not assign him a nationality.
+- Anansi: credit the Akan origin; the sky god Nyame stays off-screen.
+- Sampati: heroic and dignified; no Rama, Sita or Hanuman as characters.
+- Nemo: Verne's Indian prince Dakkar, anti-colonial, played seriously.
+- Scheherazade: the threat she lives under is never a joke; no harem imagery.
+- Sun Wukong: a hero; avoid every screen and game design.
+- Kakudmi and Revati (Season 4 idea): owner decision before use; an original analogue may be safer.
+- An Odyssey feature film was released in 2026: our Jax must not resemble it in any way.

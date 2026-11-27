@@ -20,15 +20,20 @@ Last updated: 2026-11-27 (session 1)
   account with $300 credit on the saurabh19891989 gmail account for Gemini voices and Nano Banana images.
 - Laptop link approved; laptop folder `Secret-India-Research` listed but not yet offered to cloud sessions.
 
-## Running (research sprint, background agents)
-| Job | Output |
-|---|---|
-| Legend character bank, 80+ with rights | `research/characters/` |
-| Real footage audit, 14 locations | `assets/candidates.json`, `research/locations/` |
-| Free voice bake-off | `samples/voices/` |
-| Free music: composed, libraries, AI | `samples/music/` |
-| Free look test and cinematography clip | `samples/look/` |
-| Paid costs, YouTube upload, Drive transfer | `research/tooling/` |
+## Research sprint results
+| Job | Status | Output |
+|---|---|---|
+| Character bank | Done: 140 legends with rights and care notes | `research/characters/` |
+| Footage audit | Done: 376 assets, 288 verified; SVS clips unverified | `assets/candidates.json`, `research/locations/` |
+| Free voices | Done; owner chose Gemini voices instead | `samples/voices/` |
+| Free music | Done; composed route approved; v2 upgrade running | `samples/music/` |
+| Free look | Done; ink-art style (still-C) is the target, vector humans rejected by showrunner | `samples/look/` |
+| Paid costs, upload, Drive | Done | `research/tooling/` |
+| Gemini voices test | Running | `samples/voices/gemini/` |
+| Nano Banana character test | Running | `samples/look-gemini/` |
+
+Gemini API key is saved as a network secret on the Default environment
+(host generativelanguage.googleapis.com, header x-goog-api-key; send a placeholder value).
 
 ## Next
 1. Reconcile bible and season 1 with character-bank rights and footage verdicts.
