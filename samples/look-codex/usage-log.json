@@ -3540,5 +3540,128 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-27T16:54:07",
+  "job": "e01/E01-J025",
+  "name": "e01-j025_noakes_reflection_monitor",
+  "purpose": "E01 still E01-J025",
+  "refs": [
+   "master.jpg",
+   "master.jpg",
+   "desk-bright.jpg",
+   "ref-reflection-monitor.jpg"
+  ],
+  "seconds": 55.1,
+  "tokens_used": 18588,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dec-e11b-7262-83f0-80c3903523b9",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 25.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 4.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:54:20",
+  "job": "e01/E01-J035",
+  "name": "e01-j035_cage_gate_mira_jax",
+  "purpose": "E01 still E01-J035",
+  "refs": [
+   "master.jpg",
+   "master.jpg",
+   "holding-cage-bright.jpg"
+  ],
+  "seconds": 67.7,
+  "tokens_used": 22424,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21dec-e13f-7440-b90d-b380f8d65635",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 25.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 4.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-27T16:54:53",
+  "job": "e01/E01-J044",
+  "name": "e01-j044_mira_key_lanyard",
+  "purpose": "E01 still E01-J044",
+  "refs": [
+   "master.jpg",
+   "holding-cage-bright.jpg"
+  ],
+  "seconds": 45.0,
+  "tokens_used": 14607,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a21ded-b94f-7472-b6ba-b7905d1e8048",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 26.0,
+    "window_minutes": 300,
+    "resets_at": 1795815491
+   },
+   "secondary": {
+    "used_percent": 4.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]

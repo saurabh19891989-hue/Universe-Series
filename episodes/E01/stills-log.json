@@ -180,7 +180,7 @@
   },
   "E01-J024": {
    "priority": 1,
-   "status": "rejected-retrying",
+   "status": "accepted",
    "attempts": 2,
    "seconds": [
     41.4,
@@ -193,59 +193,74 @@
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
     "released: new Mira/Lucia masters approved by owner; job needs master only",
-    "REJECTED: notebook macro shows Mira's full face; insert must be notebook/hands only"
+    "REJECTED: notebook macro shows Mira's full face; insert must be notebook/hands only",
+    "Retry: hands-only, ink-stained fingers + pencil in swollen notebook, pseudo-handwriting illegible; auto insert framing rule"
    ],
    "refs_used": [
     "assets/props/notebook/master.jpg",
     "assets/characters/mira/master.jpg"
-   ]
+   ],
+   "file": "episodes/E01/stills/e01-j024_notebook_pages.jpg",
+   "jpg_bytes": 497866
   },
   "E01-J025": {
    "priority": 1,
-   "status": "rejected-retrying",
-   "attempts": 1,
+   "status": "accepted",
+   "attempts": 2,
    "seconds": [
-    115.7
+    115.7,
+    55.1
    ],
    "tokens": [
-    14151
+    14151,
+    18588
    ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
     "released: new Mira/Lucia masters approved by owner; job needs master only",
-    "REJECTED: Mira shown directly facing camera and Noakes' reflection is sharp and clear; shot must be only the faint reflection in the dead monitor"
+    "REJECTED: Mira shown directly facing camera and Noakes' reflection is sharp and clear; shot must be only the faint reflection in the dead monitor",
+    "Retry: dead monitor fills frame; faint reflection of seated Mira (braid, from behind) and standing Noakes cut at chin by bezel; desk warmly lit. Prompt changed: reflection-only staging"
    ],
    "refs_used": [
     "assets/characters/noakes/master.jpg",
     "assets/characters/mira/master.jpg",
     "assets/sets/customs/desk-bright.jpg",
     "assets/characters/noakes/ref-reflection-monitor.jpg"
-   ]
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. A dark switched-off monitor on a customs desk reflecting, faint and soft, a tired man in a customs uniform standing behind a seated woman with a dark braid; his face is dim and blurred, cut by the monitor bezel at the chin. The switched-off monitor screen fills most of the frame. Nobody stands in front of the monitor or is seen directly: the two people exist ONLY as a faint, soft, low-contrast reflection in its glossy black glass - the seated woman low in the reflection, seen from behind, and the standing man behind her with his head cut off at the chin by the top bezel. The reflection is ghostly and dim; the rest of the desk around the monitor is warmly lit. Superintendent Noakes: English man, 55, tired; customs uniform without real insignia. Dr Mira Sen: Bengali Indian woman, mid-30s (she must look 34, not older), dark braid, sharp tired eyes, ink-stained fingers; indigo customs flight suit, brass loupe on a chain. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later).",
+   "file": "episodes/E01/stills/e01-j025_noakes_reflection_monitor.jpg",
+   "jpg_bytes": 279837
   },
   "E01-J035": {
    "priority": 1,
-   "status": "rejected-retrying",
-   "attempts": 1,
+   "status": "accepted",
+   "attempts": 2,
    "seconds": [
-    116.3
+    116.3,
+    67.7
    ],
    "tokens": [
-    12525
+    12525,
+    22424
    ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
     "released: new Mira/Lucia masters approved by owner; job needs master only",
-    "REJECTED: Mira+Jax (backs match) are on the far side of the mesh, i.e. outside the cage; script has them inside, locking the gate behind them"
+    "REJECTED: Mira+Jax (backs match) are on the far side of the mesh, i.e. outside the cage; script has them inside, locking the gate behind them",
+    "Retry: inside cage, Mira (braid, indigo) and Jax (curls, orange jacket) from behind locking gate, hall beyond, faces hidden. Prompt changed: geography"
    ],
    "refs_used": [
     "assets/characters/mira/master.jpg",
     "assets/characters/jax/master.jpg",
     "assets/sets/customs/holding-cage-bright.jpg"
-   ]
+   ],
+   "prompt_changed": "Photorealistic cinematic film still, 35mm, shallow depth of field, practical lighting, natural skin texture, muted teal-and-amber grade, worn practical costumes, no logos, no readable text, looks like a frame from a live-action science fiction film, not an illustration, not CGI. From inside the cage looking out: Dr Mira Sen and Jax Vale come through the mesh gate, both seen from behind as she locks it with a key; their faces not visible. Geography: the camera is INSIDE the cage among the tagged junk; Mira and Jax are inside too, between the camera and the gate, with NO mesh between the camera and them; they face the gate and she turns the key in the padlock; through the mesh of the gate, beyond them, the empty customs hall. Dr Mira Sen: Bengali Indian woman, mid-30s (she must look 34, not older), dark braid, sharp tired eyes, ink-stained fingers; indigo customs flight suit, brass loupe on a chain. Jax Vale: Mediterranean Greek man, late 30s, olive skin, dark curly hair greying slightly at the temples, stubble, weathered face, crooked half-smile; scuffed burnt-orange flight jacket with too many pockets. Every window or viewport is pure black (real footage is inserted later). All screens, tags, labels, signs, cards and papers are blank or illegible (text is added later).",
+   "file": "episodes/E01/stills/e01-j035_cage_gate_mira_jax.jpg",
+   "jpg_bytes": 626953
   },
   "E01-J041": {
    "priority": 1,
-   "status": "pending",
+   "status": "accepted",
    "attempts": 1,
    "seconds": [
     46.6
@@ -255,12 +270,15 @@
    ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
-    "released: new Mira/Lucia masters approved by owner; job needs master only"
+    "released: new Mira/Lucia masters approved by owner; job needs master only",
+    "Brown tag on string tied to top brass button of moth-eaten red coat over pressure suit, ink-stained hand + indigo sleeve; tag blank"
    ],
    "refs_used": [
     "assets/characters/baron/master.jpg",
     "assets/characters/mira/master.jpg"
-   ]
+   ],
+   "file": "episodes/E01/stills/e01-j041_tag_on_button.jpg",
+   "jpg_bytes": 559345
   },
   "E01-J043": {
    "priority": 1,
@@ -275,12 +293,20 @@
   "E01-J044": {
    "priority": 1,
    "status": "pending",
-   "attempts": 0,
-   "seconds": [],
-   "tokens": [],
+   "attempts": 1,
+   "seconds": [
+    45.0
+   ],
+   "tokens": [
+    14607
+   ],
    "notes": [
     "Mira/Lucia job: owner direction 27 Nov, wait for new masters",
     "released: new Mira/Lucia masters approved by owner; job needs master only"
+   ],
+   "refs_used": [
+    "assets/characters/mira/master.jpg",
+    "assets/sets/customs/holding-cage-bright.jpg"
    ]
   },
   "E01-J048": {
@@ -2339,6 +2365,17 @@
    "five_hour_used_percent": 2.0,
    "five_hour_resets": "2026-11-27 21:38 UTC",
    "weekly_used_percent": 0.0,
+   "weekly_resets": "2026-12-04 16:38 UTC"
+  },
+  {
+   "read_at": "2026-11-27T16:53:23Z",
+   "label": "after ~18 runs post-reset",
+   "source": "rollout-2026-11-27T16-52-42-01a21dec-6a84-75e2-ac56-645768894125.jsonl",
+   "source_mtime": "16:53:23Z",
+   "newer_rollouts_without_reading": 0,
+   "five_hour_used_percent": 24.0,
+   "five_hour_resets": "2026-11-27 21:38 UTC",
+   "weekly_used_percent": 4.0,
    "weekly_resets": "2026-12-04 16:38 UTC"
   }
  ],

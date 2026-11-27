@@ -3070,5 +3070,45 @@
     "resets_at": "2026-12-04 16:38 UTC"
    }
   }
+ },
+ {
+  "time": "2026-11-27T16:53:24",
+  "type": "run",
+  "purpose": "Arakawa candidate 1 retry (new face)",
+  "job": "arakawa-c",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/arakawa-c/arakawa-c3.png",
+  "file": "assets/characters/arakawa/candidate-1.jpg",
+  "refs": [],
+  "seconds": 41.8,
+  "tokens": 14622,
+  "status": "accepted",
+  "note": "CANDIDATE; original plain-featured face, cropped iron-grey hair (matches E02 notes); window black",
+  "jpg_bytes": 229614,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 24.0,
+    "resets_at": "2026-11-27 21:38 UTC"
+   },
+   "weekly": {
+    "used_percent": 4.0,
+    "resets_at": "2026-12-04 16:38 UTC"
+   }
+  }
+ },
+ {
+  "read_at": "2026-11-27T16:53:49Z",
+  "source": "rollout-2026-11-27T16-53-13-01a21dec-e13f-7440-b90d-b380f8d65635.jsonl",
+  "five_hour": {
+   "used_percent": 24.0,
+   "window_minutes": 300,
+   "resets_at": "2026-11-27 21:38 UTC"
+  },
+  "weekly": {
+   "used_percent": 4.0,
+   "window_minutes": 10080,
+   "resets_at": "2026-12-04 16:38 UTC"
+  },
+  "type": "allowance_check",
+  "label": "before steps 6-7"
  }
 ]

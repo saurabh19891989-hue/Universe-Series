@@ -93,6 +93,11 @@ Depth 1 moves with the base; >1 nearer (moves more); <1 farther. `fill_behind` i
 under a cutout taken from the same still, so the parallax never reveals a double.
 
 **Screen**: `{"kind": "screen", "src": clip_or_image, "gfx": {...placeholder...}, "quad": [[x,y]x4 clockwise from top-left], "res": [w,h], "spill", "treat": {scanlines, bloom, glass_black, tint, flicker}}`.
+`in_s` = clip time at shot start. `t0` / `t1` (+ optional `fade_in` / `fade_out`) limit when any
+non-text layer is visible, e.g. a frozen call clip for the first second, then the live clip.
+`inset`: `{"src", "matte" (white = window), "crop", "cx", "cy", "zoom_per_s", "pixelate", "pixelate_when", "mono": [r,g,b], "gain", "overlay_gain"}`
+places a still through the clip's matte (Temi in the call window, the parcel on the cargo feed);
+anything in the clip brighter than its flat window colour (LIVE badge, spinner) stays on top.
 If `src` exists (data-visual agent's clip in `${SCRATCH}/e01/datavis/`), it plays; otherwise the
 built-in placeholder `gfx` renders and the log says PLACEHOLDER. Placeholders: `bank_call`
 (`temi`, `logo_until`, `freeze` [[t0,t1]], `freeze_t`), `readouts` (`labels`, `drop_at`), `report`
