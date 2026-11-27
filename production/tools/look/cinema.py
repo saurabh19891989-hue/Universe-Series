@@ -78,7 +78,7 @@ def make_vignette():
 VIG = None
 
 
-def grade(img, t_global, letterbox=True, grain=0.028):
+def grade(img, t_global, letterbox=True, grain=0.022):
     global VIG
     if VIG is None:
         VIG = make_vignette()
@@ -217,7 +217,7 @@ class Shots:
             # scene integration: cool ambient + falloff of the key light toward the bottom of frame
             hgt = im.shape[0]
             fall = np.linspace(1.08, 0.55, hgt, dtype=np.float32)[:, None, None]
-            im[..., :3] = np.clip(im[..., :3] * np.float32([0.95, 0.97, 1.02]) * fall, 0, 1)
+            im[..., :3] = np.clip(im[..., :3] * np.float32([1.04, 0.99, 0.94] if char == "jax" else [0.97, 0.98, 1.0]) * fall, 0, 1)
             self.pcache[key] = im
             if len(self.pcache) > 400:
                 self.pcache.pop(next(iter(self.pcache)))
@@ -235,12 +235,12 @@ class Shots:
         mask = np.clip(1 - lum / 0.05, 0, 1)
         img = img + st * mask * 0.8
         # ship crossing (from 1.2 s to 5.6 s), scaling up slightly as it nears camera
-        p = (t - 1.0) / 4.8
+        p = (t - 0.8) / 5.4
         if 0 <= p <= 1:
             pe = p
             sx = -300 + 2500 * pe
             sy = 760 - 180 * pe - 40 * math.sin(pe * math.pi)
-            sc = 0.38 + 0.2 * pe
+            sc = 0.5 + 0.25 * pe
             ship = self.ship.copy()
             ship = cv2.GaussianBlur(ship, (0, 0), sigmaX=1.6, sigmaY=0.3)  # motion blur along travel
             place(img, ship, sx, sy, sc)
@@ -357,7 +357,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--moon", required=True); ap.add_argument("--surface", required=True)
     ap.add_argument("--mira", required=True); ap.add_argument("--out", required=True)
-    ap.add_argument("--stills", required=True); ap.add_argument("--crf", default="24")
+    ap.add_argument("--stills", required=True); ap.add_argument("--crf", default="27")
     ap.add_argument("--only")
     a = ap.parse_args()
     S = Shots(a)
