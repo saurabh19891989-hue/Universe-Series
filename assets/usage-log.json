@@ -1127,5 +1127,110 @@
     "resets_at": "2026-12-02 17:30 UTC"
    }
   }
+ },
+ {
+  "time": "2026-11-27T16:06:26",
+  "type": "run",
+  "purpose": "step4 customs holding cage",
+  "job": "cage",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/cage/cage.png",
+  "file": "assets/sets/customs/holding-cage.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 67.6,
+  "tokens": 14117,
+  "status": "accepted",
+  "note": "clock, bear in hussar jacket, sprouting saddle, padlock, blank tags",
+  "jpg_bytes": 541015,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 63.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:06:26",
+  "type": "run",
+  "purpose": "step4 Noakes's office",
+  "job": "office",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/office/office.png",
+  "file": "assets/sets/customs/noakes-office.jpg",
+  "refs": [
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 67.1,
+  "tokens": 15239,
+  "status": "accepted",
+  "note": "matches Noakes master room; window pure black",
+  "jpg_bytes": 274718,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 62.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:06:03",
+  "type": "run",
+  "purpose": "step4 customs long corridor",
+  "job": "corridor",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/corridor/corridor.png",
+  "file": "assets/sets/customs/corridor.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 44.2,
+  "tokens": 8158,
+  "status": "accepted",
+  "note": "window pure black",
+  "jpg_bytes": 276092,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 62.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:06:25",
+  "type": "run",
+  "purpose": "step4 clamp console under flip-number board",
+  "job": "clamp",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/clamp/clamp.png",
+  "file": "assets/sets/customs/clamp-console-board.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 65.9,
+  "tokens": 13490,
+  "status": "accepted",
+  "note": "board reads 1,094 only",
+  "jpg_bytes": 418911,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 62.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 94.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
  }
 ]

@@ -26,7 +26,7 @@ DEF_REV = "/home/user/Universe-Series/samples/e01/sfx"
 
 
 # The 30 effects that get MP3 review copies (selected for script importance and variety)
-REVIEW30 = """ship_bridge_roomtone_loop ship_cargohold_tone_loop ship_engine_dies_and_returns
+REVIEW30 = """ship_bridge_roomtone_loop ship_engine_dies_and_returns
 ship_systems_powerdown_sequence coffee_machine_last_gurgle coffee_machine_triumph_click_drip
 pip_stamp_thunk_a pip_lens_glow_bed_loop bank_chime bank_jingle shop_door_bell earth_call_dead_air_1p3s
 customs_hall_roomtone_loop footsteps_lowg_distant_pattern flipboard_run_down_to_zero

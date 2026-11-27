@@ -28,7 +28,7 @@ def _licence_draw(t, name="VALE, JAX", cls="MASTER, COURIER CLASS", years="7 YRS
     text(d, (90, 335), cls, font("plex", 62), mul(C, 0.9))
     f = font("plex", 40)
     fields = ["BORN:", "PLACE OF ORIGIN:", "PRIOR LICENCES:", "NEXT OF KIN:", "PRIOR VESSELS:"]
-    y = 450
+    y = 425
     for k, lab in enumerate(fields):
         if t >= 1.0 + 0.22 * k:
             text(d, (90, y + k * 56), lab, f, mul(C, 0.75), track=2)   # value column left EMPTY on purpose
@@ -41,11 +41,10 @@ def _licence_draw(t, name="VALE, JAX", cls="MASTER, COURIER CLASS", years="7 YRS
         text(d, (W / 2, yl + 34), "RECORD BEGINS · " + years, font("plex", 34), mul(C, 0.95), "mm", track=6)
     rows = [("7 YRS AGO", "LICENCE ISSUED", "MASTER, COURIER CLASS"),
             ("7 YRS AGO", "VESSEL REGISTERED", "THE UNSCHEDULED"),
-            ("6 YRS AGO", "ANNUAL RENEWAL", "NO ENDORSEMENTS"),
-            ("5 YRS AGO", "ANNUAL RENEWAL", "NO ENDORSEMENTS")]
+            ("6 YRS AGO", "ANNUAL RENEWAL", "NO ENDORSEMENTS")]
     for k, (a, b, c) in enumerate(rows):
         if t >= 3.9 + 0.25 * k:
-            yy = yl + 80 + k * 50
+            yy = yl + 76 + k * 50
             text(d, (90, yy), a, f, mul(C, 0.7))
             text(d, (420, yy), b, f, mul(C, 0.85))
             text(d, (960, yy), c, f, mul(C, 0.85))
@@ -146,9 +145,9 @@ def _reg_page(title=REG_TITLE, body=REG_BODY, hilite=REG_HILITE):
     base += rs.randn(ph, PW, 1).astype(np.float32) * 0.012
     n = cv2.GaussianBlur(rs.randn(ph, PW).astype(np.float32), (0, 0), 40) * 0.8
     base *= (1 + n[..., None] * 0.7)
-    for _ in range(40):  # foxing
+    for _ in range(26):  # foxing
         x, y, r = rs.randint(0, PW), rs.randint(0, ph), rs.randint(4, 22)
-        cv2.circle(base, (x, y), r, (0.62, 0.45, 0.25), -1)
+        cv2.circle(base, (x, y), r, (0.78, 0.64, 0.44), -1)
     base = cv2.GaussianBlur(base, (0, 0), 1.6)
     edge = np.clip(np.minimum.outer(np.minimum(np.arange(ph), ph - 1 - np.arange(ph)),
                                     np.minimum(np.arange(PW), PW - 1 - np.arange(PW))) / 40.0, 0, 1)
@@ -229,8 +228,12 @@ def _reg_draw(t, t_scroll0=2.0, t_scroll1=14.0, t_hl=16.0):
             od.rectangle([px + x0 - 6, yy0, px + x0 - 6 + (x1 - x0 + 12) * ha, yy1], fill=(255, 215, 40, int(120 * ha)))
         img = Image.alpha_composite(img.convert("RGBA"), ov).convert("RGB")
         img = img
-    # scrollbar
+    # header redrawn over any highlight spill
     d = ImageDraw.Draw(img)
+    d.rectangle([0, 0, W, 84], fill=(34, 38, 46))
+    text(d, (40, 42), "REGULATIONS ARCHIVE  \u00b7  SCAN 0041-C", font("plex", 30), (200, 210, 225), "lm", track=2)
+    text(d, (W - 40, 42), "PAGE 1 / 1", font("plex", 30), (140, 150, 170), "rm", track=2)
+    # scrollbar
     d.rectangle([W - 22, 100, W - 10, H - 20], fill=(30, 34, 42))
     d.rectangle([W - 22, 100 + u * (H - 260), W - 10, 100 + u * (H - 260) + 140], fill=(120, 130, 150))
     return img
@@ -319,6 +322,12 @@ def _board_draw(t, start=None, headline="RIM PORT CUSTOMS", sub="DAYS WITHOUT IN
     # painted dark panel with worn edges
     d.rectangle([140, 150, W - 140, H - 150], fill=(34, 40, 38), outline=(70, 74, 68), width=8)
     d.rectangle([166, 176, W - 166, H - 176], outline=(80, 84, 76), width=2)
+    rs = np.random.RandomState(77)
+    for _ in range(90):
+        x, y = rs.randint(150, W - 150), rs.randint(160, H - 160)
+        L = rs.randint(6, 40)
+        c = rs.randint(52, 80)
+        d.line([(x, y), (x + L, y + rs.randint(-3, 4))], fill=(c, c + 4, c - 2), width=1)
     for (x, y) in [(190, 200), (W - 190, 200), (190, H - 200), (W - 190, H - 200)]:
         d.ellipse([x - 10, y - 10, x + 10, y + 10], fill=(86, 88, 80), outline=(40, 40, 36))
     text(d, (W / 2, 262), headline, font("barlowsb", 110), (232, 226, 206), "mm", track=14)
@@ -352,7 +361,7 @@ def _flip_cell_small(img, x, y, a, b, u, w, h):
             dd = ImageDraw.Draw(im)
             dd.rounded_rectangle([0, 0, w - 1, h - 1], radius=10, fill=(26, 26, 24), outline=(8, 8, 8), width=3)
             if ch:
-                text(dd, (w / 2, h / 2 + 62), ch, font("barlowsb", 230), (236, 232, 218), "mm")
+                text(dd, (w / 2, h * 0.80), ch, font("barlowsb", 230), (236, 232, 218), "ms")
             _flip[key] = im
         return _flip[key]
     ga, gb = g(a), g(b)
@@ -520,7 +529,7 @@ def _lamp(d, x, y, r, col, on):
 
 def _jaws(d, cx, cy, openness, col):
     """two clamp jaws; openness 0 closed .. 1 open"""
-    gap = 18 + 150 * openness
+    gap = 18 + 105 * openness
     for s in (-1, 1):
         d.rectangle([cx - 190, cy + s * gap - (36 if s < 0 else 0), cx + 190, cy + s * gap + (0 if s < 0 else 36)],
                     outline=col, width=5, fill=mul(col, 0.12))
@@ -555,7 +564,7 @@ def _clamp_draw(t, mode, t_key2=None, t_open=None, t_pop=None, t_key2_out=None):
     col = (255, 190, 70) if state == "CLOSED" else (110, 255, 170)
     f = font("plexmed", 100)
     text(d, (110, 250), "BAY 9 CLAMP — " + state, f, col)
-    _jaws(d, 1560, 400, openness, mul(col, 0.9))
+    _jaws(d, 1610, 330, openness, mul(col, 0.9))
     f2 = font("plexmed", 64)
     d.line([(100, 470), (1200, 470)], fill=mul(C, 0.3), width=2)
     text(d, (110, 520), "KEY 1 — SUPERINTENDENT", f2, C)

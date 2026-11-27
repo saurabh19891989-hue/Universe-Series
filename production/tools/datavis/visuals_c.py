@@ -292,6 +292,8 @@ def _text_layer(lines, mask_only=True):
     img = Image.new("RGB", (W, H), (0, 0, 0))
     d = ImageDraw.Draw(img)
     for (s, fn, size, wg, y, track, col) in lines:
+        while tlen(font(fn, size, wg), s, track) > 1560 and size > 20:
+            size -= 4
         text(d, (W / 2, y), s, font(fn, size, wg), col, "mm", track=track)
     return np.asarray(img, np.float32) / 255.0
 
@@ -343,7 +345,7 @@ def titles():
     # ---- Option A: classical (Cinzel + Cormorant Garamond Italic)
     A_main = [("SECRET", "cinzel", 200, 600, 430, 46, GOLD), ("UNIVERSE", "cinzel", 200, 600, 650, 46, GOLD),
               ("—  ✦  —", "cormorant", 52, 500, 805, 10, mul(GOLD, 0.8))]
-    A_main = [("SECRET UNIVERSE", "cinzel", 170, 600, 520, 40, GOLD),
+    A_main = [("SECRET UNIVERSE", "cinzel", 170, 600, 500, 40, GOLD),
               ("—   ✦   —", "cormorant", 56, 500, 650, 6, mul(GOLD, 0.75))]
     cl.append(_title_clip("13a_title_main_optionA_cinzel", 10.0, A_main, (255, 240, 200)))
     A_ep = [("EPISODE ONE", "cinzel", 44, 500, 440, 28, mul(GOLD, 0.8)),

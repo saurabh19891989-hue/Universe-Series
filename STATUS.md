@@ -113,6 +113,15 @@ Last updated: 2026-11-27 (session 1)
   environment variable; works from the next session) or the laptop. Owner raised the Codex
   parallel limit to 4 jobs.
 
+- Episode 2 (27 Nov): outline approved by showrunner with rulings (Baron stays in the Valley;
+  Kaguya pays the bank, crew owe her an impossible task; "You've worn one before" kept; PIP
+  loses the oldest parcel label; the moon-lady reference cut to a wordless voice). Full script
+  being written: `episodes/E02/script.md`. Then punch-up, critic, revision as for Episode 1.
+- Episode 1 shot list: 484 shots, 35:13, 177 new image jobs; being rebuilt with rulings
+  (full 16:9, act-break footage bumpers, five mouth patches) and a prioritised
+  `episodes/E01/image-jobs.json`. New Mira/Lucía and three Ep 1 faces sent to owner for approval.
+- Channel kit done: `channel/CHANNEL-KIT.md` (recommended name "Secret Universe Series").
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|

@@ -593,7 +593,8 @@ class Shot:
         p = p * np.float32(lv.get("tint", [0.96, 0.98, 1.02]))
         if pl.get("blur", 0.7):
             p = cv2.GaussianBlur(p, (0, 0), pl.get("blur", 0.7))
-        return (glass * 0.6 + p).astype(np.float32)
+        lift = glass * 0.6 if glass < 0.2 else 0.0      # only a dark glass lifts the plate's black
+        return (lift + p).astype(np.float32)
 
     def _plate_frame(self, t, Mcam):
         w = self.win; pl = w["spec"]["plate"]

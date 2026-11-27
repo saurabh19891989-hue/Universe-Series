@@ -341,8 +341,8 @@ def _tile_content(k, t):
 def screens_dying(order=(0, 1, 2, 3, 4, 5), t_first=3.0, gap_s=0.9):
     dur = t_first + gap_s * 6 + 4.0
     base_x = [70, 405, 805, 1140, 1520, 1870]  # replaced below by computed layout
-    sizes = [(300, 420), (360, 300), (300, 360), (330, 440), (360, 330), (290, 400)]
-    pad = 36
+    sizes = [(250, 350), (300, 250), (250, 300), (275, 365), (300, 275), (240, 330)]
+    pad = 40
     total = sum(s[0] for s in sizes) + pad * 5
     xs = []
     x = (W - total) / 2
@@ -358,7 +358,7 @@ def screens_dying(order=(0, 1, 2, 3, 4, 5), t_first=3.0, gap_s=0.9):
             tw, th = sizes[k]
             td = t_first + order.index(k) * gap_s
             u = (t - td) / 0.42  # 0..1 collapse
-            tile = _tile_content(k, t)
+            tile = _tile_content(k, t).resize((tw, th), Image.LANCZOS)
             x, y = xs[k], yb - th
             d.rectangle([x - 12, y - 12, x + tw + 12, yb + 12], outline=(40, 38, 34), width=5)
             if u <= 0:
