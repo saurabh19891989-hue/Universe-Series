@@ -1,0 +1,264 @@
+[
+ {
+  "read_at": "2026-11-27T15:38:49Z",
+  "source": "rollout-2026-11-27T15-12-17-01a21d90-7c10-7db0-bfe5-e55cb7e77085.jsonl",
+  "five_hour": {
+   "used_percent": 41.0,
+   "window_minutes": 300,
+   "resets_at": "2026-11-27 19:25 UTC"
+  },
+  "weekly": {
+   "used_percent": 90.0,
+   "window_minutes": 10080,
+   "resets_at": "2026-12-02 17:30 UTC"
+  },
+  "type": "allowance_check",
+  "label": "start of library build"
+ },
+ {
+  "time": "2026-11-27T15:40:11",
+  "type": "run",
+  "purpose": "step1 Mira redo younger, candidate A",
+  "job": "mira-a",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/mira-a/mira-a.png",
+  "file": "assets/characters/mira/master.jpg",
+  "refs": [],
+  "seconds": 72.8,
+  "tokens": 15271,
+  "status": "accepted",
+  "note": "picked: sharper eyes, clear ink stains, reads 32-34",
+  "jpg_bytes": 241763,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 42.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 90.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:40:06",
+  "type": "run",
+  "purpose": "step1 Mira redo younger, candidate B",
+  "job": "mira-b",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/mira-b/mira-b.png",
+  "file": "assets/characters/mira/master-alt.jpg",
+  "refs": [],
+  "seconds": 67.7,
+  "tokens": 10817,
+  "status": "accepted",
+  "note": "alternate face, reads early 30s",
+  "jpg_bytes": 266279,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 42.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 90.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:42:27",
+  "type": "run",
+  "purpose": "step1 Lucia redo younger, candidate A",
+  "job": "lucia-a",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/lucia-a/lucia-a.png",
+  "file": "assets/characters/lucia/master.jpg",
+  "refs": [],
+  "seconds": 122.0,
+  "tokens": 12763,
+  "status": "accepted",
+  "note": "picked: wrestler build, ribbon on wrist, reads ~30",
+  "jpg_bytes": 246762,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 43.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 91.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:41:32",
+  "type": "run",
+  "purpose": "step1 Lucia redo younger, candidate B",
+  "job": "lucia-b",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/lucia-b/lucia-b.png",
+  "file": "assets/characters/lucia/master-alt.jpg",
+  "refs": [],
+  "seconds": 66.2,
+  "tokens": 10622,
+  "status": "accepted",
+  "note": "alternate face, softer build",
+  "jpg_bytes": 241855,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 42.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 91.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:43:28",
+  "type": "run",
+  "purpose": "step2 Noakes master (new face)",
+  "job": "noakes",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/noakes/noakes.png",
+  "file": "assets/characters/noakes/master.jpg",
+  "refs": [],
+  "seconds": 46.2,
+  "tokens": 13921,
+  "status": "accepted",
+  "note": "new face PROPOSED",
+  "jpg_bytes": 169885,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 43.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 91.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:43:26",
+  "type": "run",
+  "purpose": "step2 Temi master (new face)",
+  "job": "temi",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/temi/temi.png",
+  "file": "assets/characters/temi/master.jpg",
+  "refs": [],
+  "seconds": 44.6,
+  "tokens": 5528,
+  "status": "accepted",
+  "note": "new face PROPOSED",
+  "jpg_bytes": 196564,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 43.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 91.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:44:35",
+  "type": "run",
+  "purpose": "step2 Mamani master (new face)",
+  "job": "mamani",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/mamani/mamani.png",
+  "file": "assets/characters/mamani/master.jpg",
+  "refs": [],
+  "seconds": 56.4,
+  "tokens": 15864,
+  "status": "accepted",
+  "note": "new face PROPOSED; window shows lunar exterior (fine for an inset still)",
+  "jpg_bytes": 192577,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 44.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 91.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:44:23",
+  "type": "run",
+  "purpose": "step3 Jax ref front neutral",
+  "job": "jax-front",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/jax-front/jax-front.png",
+  "file": "assets/characters/jax/ref-front.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 44.3,
+  "tokens": 14157,
+  "status": "accepted",
+  "note": "same face as master; faint smile",
+  "jpg_bytes": 229617,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 44.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 91.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:45:37",
+  "type": "run",
+  "purpose": "step3 Jax ref three-quarter",
+  "job": "jax-3q",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/jax-3q/jax-3q.png",
+  "file": "assets/characters/jax/ref-threequarter.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 49.5,
+  "tokens": 12631,
+  "status": "accepted",
+  "note": "same face",
+  "jpg_bytes": 221696,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 45.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 91.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T15:45:27",
+  "type": "run",
+  "purpose": "step3 Jax ref back of head",
+  "job": "jax-back",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/jax-back/jax-back.png",
+  "file": "assets/characters/jax/ref-back.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 39.4,
+  "tokens": 13639,
+  "status": "accepted",
+  "note": "curls and jacket match",
+  "jpg_bytes": 270614,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 45.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 91.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ }
+]
