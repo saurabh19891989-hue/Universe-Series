@@ -82,6 +82,12 @@ Last updated: 2026-11-27 (session 1)
   (owner says they can reset it). Login automation: one-tap device login per session for now.
 - Episode 1 table-read delivered to the owner (31:36, `samples/tableread/E01/`); awaiting feedback.
 
+- CAST APPROVED (27 Nov): owner approved Jax, Baron, Chichikov, Seo, Oyuna and PIP — masters
+  LOCKED in `assets/`. Mira and Lucía to be redone younger. Owner: prioritise Episode 1 but
+  keep building the whole library; owner resets the Codex allowance when a limit is hit.
+- Running: library builder (`assets/`, `samples/library/`) and Episode 1 shot list
+  (`episodes/E01/shotlist.json`). New session: run `bash production/tools/setup/codex_setup.sh`.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|

@@ -6,6 +6,10 @@ making images follows this file. Do not ask the owner to repeat these instructio
 
 ## 1. One-time setup per cloud session
 
+**Short version:** run `bash production/tools/setup/codex_setup.sh`. It installs Codex if needed
+and, if not logged in, prints the link and one-time code to give the owner. The manual steps
+below are what it does.
+
 The login lives only on the cloud machine and is lost when the machine is recycled.
 
 ```bash
