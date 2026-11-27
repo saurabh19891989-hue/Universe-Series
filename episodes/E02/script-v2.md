@@ -1430,15 +1430,6 @@ hall, a thousand flasks ring faintly on their shelves.
           But you made me laugh. That is worth
           air.
 
-                         PIP (V.O.)
-                    (from Jax's wrist)
-          Your Highness, I must note that the
-          coffee machine was the property of the
-          bank.
-
-                         KAGUYA
-          Then the bank may come and collect it.
-
                          LUCÍA
           And my invoice?
 
@@ -2471,13 +2462,10 @@ INT. THE UNSCHEDULED — BRIDGE — DAY
 
 INT. STEADFAST — BRIDGE — CONTINUOUS
 
-A pause. Arakawa, in profile.
-
-                         ARAKAWA
-          Say that again.
+A pause. Arakawa, in profile, as if she has misheard.
 
                          JAX (V.O.)
-          I'd like to pay my bank. I need the
+          My bank. I need the
           relay. One minute.
 
 INSERT: a soft grey hand slides a slip of paper onto her console.
@@ -2864,15 +2852,6 @@ Jax turns to Mira, beside him.
 
                          MIRA
           A different one.
-
-                         PIP
-          I have filed a report on that.
-
-                         MIRA
-          On what?
-
-                         PIP
-          The coordinate. Unsent. Out of tact.
 
                          SEO
           Captain. Where do you want her?
