@@ -57,6 +57,15 @@ Last updated: 2026-11-27 (session 1)
 - Episode 1: showrunner read script-v3 in full and approved it for the table-read.
   Table-read audio (Kokoro) being built in `samples/tableread/E01/`.
 
+- Google credit, settled (27 Nov, from the owner's billing console): the Welcome credit started
+  on 27 Nov 2026, so Vertex AI is excluded from it (rule for trials started on or after 16 Nov
+  2026); AI Studio is excluded too. The credit cannot pay for Gemini images or voices by any
+  route. The 7 test images (~$0.35 estimate) may post as a real charge; nothing shows yet.
+  No further Vertex or paid Gemini calls without the owner's say-so. The credit may still be
+  usable for ordinary Google Cloud machines (untested idea: rent a large CPU machine there to
+  run open image models faster).
+- Owner wants to see the free photoreal round (`samples/look-real/`) before deciding on tools.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|
