@@ -1,0 +1,107 @@
+{
+ "model": "gemini-nano-banana-2.1",
+ "cost_per_image_usd": 0.05,
+ "calls": [
+  {
+   "name": "a03_lucia",
+   "purpose": "A master portrait a03_lucia",
+   "time": "2026-11-27T13:42:23.236354Z",
+   "status": 200,
+   "secs": 15.3,
+   "aspect": "16:9",
+   "refs": [],
+   "size": [
+    1376,
+    768
+   ]
+  },
+  {
+   "name": "a01_jax",
+   "purpose": "A master portrait a01_jax",
+   "time": "2026-11-27T13:42:23.309355Z",
+   "status": 200,
+   "secs": 15.3,
+   "aspect": "16:9",
+   "refs": [
+    "test1.png"
+   ],
+   "size": [
+    1376,
+    768
+   ]
+  },
+  {
+   "name": "a02_mira",
+   "purpose": "A master portrait a02_mira",
+   "time": "2026-11-27T13:42:23.235650Z",
+   "status": 200,
+   "secs": 15.5,
+   "aspect": "16:9",
+   "refs": [],
+   "size": [
+    1376,
+    768
+   ]
+  },
+  {
+   "name": "a04_idris",
+   "purpose": "A master portrait a04_idris",
+   "time": "2026-11-27T13:42:38.569860Z",
+   "status": 200,
+   "secs": 13.3,
+   "aspect": "16:9",
+   "refs": [],
+   "size": [
+    1376,
+    768
+   ]
+  },
+  {
+   "name": "a07_soren",
+   "purpose": "A master portrait a07_soren",
+   "time": "2026-11-27T13:42:51.950195Z",
+   "status": 403,
+   "secs": 0.2,
+   "aspect": "16:9",
+   "refs": [],
+   "error": "{\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Access requires an eligible paid billing account in a supported region, subject to our terms and policies.\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+  },
+  {
+   "name": "a05_han",
+   "purpose": "A master portrait a05_han",
+   "time": "2026-11-27T13:42:38.682091Z",
+   "status": 200,
+   "secs": 15.2,
+   "aspect": "16:9",
+   "refs": [],
+   "size": [
+    1376,
+    768
+   ]
+  },
+  {
+   "name": "a06_oyuna",
+   "purpose": "A master portrait a06_oyuna",
+   "time": "2026-11-27T13:42:38.807273Z",
+   "status": 200,
+   "secs": 16.1,
+   "aspect": "16:9",
+   "refs": [],
+   "size": [
+    1376,
+    768
+   ]
+  }
+ ],
+ "images_billed": 6,
+ "est_cost_usd": 0.3,
+ "stopped": "2026-11-27T13:42:52Z HTTP 403 PERMISSION_DENIED 'Access requires an eligible paid billing account in a supported region' - generation halted, no retry",
+ "nasa_source": {
+  "nasa_id": "art001e002581",
+  "title": "Flight Day 20: Lunar Close-up",
+  "date": "2022-12-05",
+  "credit": "NASA (Artemis I, Orion optical navigation camera)",
+  "url": "https://images-assets.nasa.gov/image/art001e002581/art001e002581~large.jpg",
+  "used_in": "hero-1.jpg (Pillow composite into test1 cockpit window)"
+ }
+}

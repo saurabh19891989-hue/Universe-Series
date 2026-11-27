@@ -41,6 +41,13 @@ Last updated: 2026-11-27 (session 1)
   production route. Voices: Kokoro (local, Apache-2.0). Music and sound: composed in-house.
   Pictures: open models we run ourselves or free community services.
 
+- TOOLS DECISION REOPENED (27 Nov, latest): owner will decide between free-only, one-time use of
+  the $300 credit, or ongoing spend AFTER seeing the Vertex photoreal test
+  (`samples/look-vertex/`). Vertex AI works on project project-6153920b-b099-4ae9-b90 with a
+  1-hour access token from the owner's laptop (network secret on aiplatform.googleapis.com;
+  send header x-goog-user-project). Whether it bills the credit is unconfirmed.
+- Episode 1: script-v3 (critic fixes applied) awaiting showrunner read, then table-read.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|
