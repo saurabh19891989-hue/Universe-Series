@@ -20,6 +20,14 @@ Last updated: 2026-11-27 (session 1)
   account with $300 credit on the saurabh19891989 gmail account for Gemini voices and Nano Banana images.
 - Laptop link approved; laptop folder `Secret-India-Research` listed but not yet offered to cloud sessions.
 
+- Look (27 Nov): owner rejected BOTH still-B (vector) and still-C (ink art). Direction is
+  photoreal people, ships and sets that match the real footage. Cast must look global, not
+  mostly Indian. Free image routes judged too slow and inconsistent to rely on.
+- Stories (27 Nov): mix several real literary and mythic sources from different cultures per
+  episode, read from the original texts; inspiration, never scene-by-scene copying.
+- Gemini: the AI Studio key's project is on the free tier (image quota zero); owner is sorting
+  out how to use the $300 Google Cloud credit. Voices work on the free tier.
+
 ## Research sprint results
 | Job | Status | Output |
 |---|---|---|

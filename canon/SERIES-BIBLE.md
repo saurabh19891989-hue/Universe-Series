@@ -57,13 +57,13 @@ Europa's ice.*
 
 | Character | Who | Wants / flaw | Secret or arc |
 |---|---|---|---|
-| **Jax Vale** — captain, narrator | Fast-talking courier, American-voiced, can sell anything except himself | Wants to clear his debts and be left alone / promises more than he has | No records before seven years ago. He thinks he paid for that. |
+| **Jax Vale** — captain, narrator | Fast-talking courier, Mediterranean looks, American-voiced, can sell anything except himself | Wants to clear his debts and be left alone / promises more than he has | No records before seven years ago. He thinks he paid for that. |
 | **Dr. Mira Sen** — cartographer | Bengali scientist, struck off for saying the map is wrong. Dry, exact, braver than she thinks | Wants proof / believes evidence is enough to change minds | The sceptic in a universe with Baron Munchausen in it. Slow-burn with Jax that has a cost neither can see yet. |
 | **PIP** — ship's computer | A retired postal-audit unit bolted to the bridge. British, literal, incorruptible | Wants the paperwork correct / treats human ambiguity as a fault | Still files violation reports on the crew. The address was delisted years ago. Somebody is reading them anyway. |
 | **Lucía "Lucha" Ortega** — engineer | Belt-born, Mexican family, former low-gravity wrestler. Fists, heart, eight months of unpaid wages | Wants to buy her mother out of Voss water-debt / hits first | The crew's conscience. Never takes off the mask's lucky ribbon. |
 | **Idris al-Rahhal** — navigator | Poet, gambler, Basra-heritage charmer who claims to be Sindbad's heir | Wants to be someone / lies beautifully and constantly | Joins in ep 3. Owes a very old debt to a storyteller. |
 | **Han Seo-yeon ("Seo")** — pilot | Korean, the best flyer in three planets, calm under fire | Believes in order / follows rules past the point of sense | Directorate officer reporting to Auditor Pell. Joins in ep 2. Starts to love the people she is betraying. |
-| **Veda Rao** — archivist | Soft-spoken memoriser from an order that learns the Atlas by heart so it cannot be edited | Wants the erased remembered / thinks openness is always justice | Joins in ep 4. She is the only unedited copy. That makes her the most valuable person alive. |
+| **Oyuna Tseren** — archivist (replaces Veda Rao) | Soft-spoken Mongolian memoriser from a line of epic-singers who learn the whole Atlas by heart so it cannot be edited | Wants the erased remembered / thinks openness is always justice | Joins in ep 4. She is the only unedited copy. That makes her the most valuable person alive. |
 
 **Against them**
 - **Soren Voss** — head of the Voss Company, a chartered trading house in the mould of the old
@@ -80,6 +80,20 @@ Europa's ice.*
 (ally with a submarine and a grudge against empires), Scheherazade (information broker; nobody
 leaves her salon before the story ends), Sun Wukong (the cavalry, unfortunately).
 **Anant** — an original wandering sage who turns up rarely and asks the one question nobody wants.
+
+### Faces of the show (owner direction, 27 Nov)
+The cast must look like the whole world, not one country. Core crew: Mediterranean captain,
+Indian cartographer, Mongolian archivist, Mexican engineer, Arab navigator, Korean pilot,
+British-voiced computer. Recurring: the Nordic Voss family, English Auditor Pell, Russian
+Chichikov, Japanese Commander Arakawa, Nigerian-British Cass Rook, and a Chinese recurring
+role to be added in Season 1 (candidate: the Relay Guild's chief dispatcher, Wen Jialing).
+Guests bring every other region. No more than one core character from any one country.
+
+### Visual direction (owner direction, 27 Nov)
+**Photoreal, not animated.** The footage is real, so people, ships and sets must look real
+enough to sit in the same frame. The illustrated ink style and the vector puppets are both
+rejected. Characters are photoreal and consistent from shot to shot; interiors look like
+physical sets; the grade matches the NASA plate in every shot.
 
 ## 5. Format
 
@@ -124,11 +138,18 @@ protection; what the Storied were being hidden from.
 | 1 — Nobody's Parcel (10 eps) | Moon to Saturn | Crew assembles; the rat; Voss; who is Jax |
 | 2 — The Houses of Saturn | Saturn, Uranus, Neptune, Pluto | Crime-family war over the gates; getting Jax's story back |
 | 3 — The Wandering Worlds | Nearest stars and exoplanets | First trip beyond the Sun; rival maps; the son |
-| 4 — The Republic of Clocks | Pulsars and black holes | Time as the enemy: Urashima Taro, Rip Van Winkle, Kakudmi and Revati |
+| 4 — The Republic of Clocks | Pulsars and black holes | Time as the enemy: Urashima Taro, Rip Van Winkle, and others |
 | 5–9 | Nebulae, clusters, other galaxies | Rewritten after the 10-episode test from what the audience loved |
 | 10 — Ithaca | The way home | The suitors, the bow, the bed |
 
 Seasons 2–10 stay at this level on purpose. They get written from real audience data, not guesses.
+
+## 7a. Where stories come from (owner direction, 27 Nov)
+Every episode is built from several sources in different cultures, mixed, never one book
+retold. We read the original texts (Internet Archive, Project Gutenberg, Wikisource and
+similar), take mechanisms, images and characters, and write our own plot. Each episode's
+`sources.md` lists at least three sources from at least two cultures and says what was taken
+from each. Nothing is adapted scene by scene.
 
 ## 8. Rights and safety summary
 - Guests: public-domain originals only, checked per character in `research/characters/`.

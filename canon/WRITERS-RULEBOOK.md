@@ -21,7 +21,7 @@ purpose and say which one.
 3. **Understatement after disaster.** The bigger the explosion, the smaller the line.
 4. **Rule of the callback:** plant it plainly, forget it, pay it off when it hurts or saves.
 5. **Each character is funny differently.** Jax sells. Mira deflates. PIP is literal. Lucía is blunt.
-   Idris embroiders. Seo is deadpan. Veda is gentle and devastating. Guests are mildly offended
+   Idris embroiders. Seo is deadpan. Oyuna is gentle and devastating. Guests are mildly offended
    by how Earth told their story.
 6. **A laugh never cancels a feeling.** After a costly choice, allow silence.
 7. **No stereotypes.** Culture gives a character knowledge, music, food and stubbornness — never an accent as the joke.

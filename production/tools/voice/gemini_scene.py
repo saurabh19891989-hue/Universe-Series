@@ -8,7 +8,9 @@ from common import LINES, CHARS, SCRATCH, SAMPLES, _mp3
 
 API = "https://generativelanguage.googleapis.com/v1beta"
 HDR = {"x-goog-api-key": "placeholder"}   # dummy; proxy substitutes the real key
-MODEL = "gemini-3.8-flash-tts"
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash-tts")
+SUF = os.environ.get("GEMINI_SUFFIX", "")   # e.g. "-lite" when the quota of the main model is exhausted
+class Quota(Exception): pass
 OUT = f"{SAMPLES}/gemini"; W = f"{SCRATCH}/gemini"
 os.makedirs(OUT, exist_ok=True); os.makedirs(W, exist_ok=True); os.makedirs(f"{OUT}/range", exist_ok=True)
 LOG = f"{W}/requests.jsonl"
@@ -103,13 +105,13 @@ def perline(cast, name):
     return per
 
 def cmd_perline():
-    per = perline(CAST, "scene-perline")
+    per = perline(CAST, "scene-perline"+SUF)
     for c in CHARS:
         sf.write(f"{W}/{c}.wav", np.concatenate(per[c]), 24000); _mp3(f"{W}/{c}.wav", f"{OUT}/{c.lower()}.mp3")
     json.dump({"model": MODEL, "primary": CAST, "alt": ALT, "styles": STYLE}, open(f"{OUT}/casting.json", "w"), indent=2)
 
 def cmd_alt():
-    perline(ALT, "scene-altcast")
+    perline(ALT, "scene-altcast"+SUF)
 
 # two-hander chunks (<=2 speakers per request): indexes into LINES
 CHUNKS = [[0, 1, 2, 3], [4, 5], [6, 7], [8, 9]]
@@ -122,9 +124,9 @@ def cmd_multi():
         assert len(chars) <= 2
         speakers = {c: CAST[c] for c in chars}
         turns = [(LINES[i][0], TEXT[i], STYLE[i]) for i in idxs]
-        p = tts(f"multi_{k}", None, None, speakers=speakers, turns=turns)
+        p = tts(f"multi_{k}{SUF}", None, None, speakers=speakers, turns=turns)
         clips.append(("MULTI", p)); gaps.append(LINES[idxs[-1]][2])
-    build(clips, gaps, "scene-multispeaker")
+    build(clips, gaps, "scene-multispeaker"+SUF)
 
 def vlist():
     p = f"{W}/allvoices.json"
@@ -147,8 +149,10 @@ RANGE_JAX = "zubenelgenubi"
 def cmd_range():
     R = f"{OUT}/range"
     def go(name, text, voice, style=None):
-        p = tts("range_" + name, text, voice, style)
-        _mp3(p, f"{R}/{name}.mp3")
+        try: p = tts("range_" + name + SUF, text, voice, style)
+        except Quota: raise
+        except Exception as e: print("skip", name, e); return
+        _mp3(p, f"{R}/{name}{SUF}.mp3")
     ss = [
      ("whisper", "Don't move. They're right outside the door, and they can hear everything.", "whispering, a real whisper, breathy, close to the microphone"),
      ("shout", "GET DOWN! Everybody get down, NOW!", "shouting at the top of his voice, panicked, urgent"),
@@ -174,7 +178,7 @@ def cmd_range():
 
 def cmd_consistency():
     for k in range(3):
-        tts(f"consist_{k}", TEXT[0], CAST["JAX"], STYLE[0])
+        tts(f"consist_{k}{SUF}", TEXT[0], CAST["JAX"], STYLE[0])
 
 if __name__ == "__main__":
     {"perline": cmd_perline, "alt": cmd_alt, "multi": cmd_multi, "range": cmd_range, "consistency": cmd_consistency, "voices": lambda: print(len(vlist()))}[sys.argv[1]]()

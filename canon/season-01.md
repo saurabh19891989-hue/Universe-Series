@@ -61,16 +61,16 @@ over who serves the bigger fool. Mira hates that the cure is a lie.
 **Changes:** Idris aboard. The dog. First legend un-thinned — proof it can be reversed.
 
 ## 4. The Phobos Exception
-**A:** Veda Rao, the last unedited memory of the Atlas, is held on Phobos — which by an ancient
+**A:** Oyuna Tseren, the last unedited memory of the Atlas, is held on Phobos — which by an ancient
 clerical accident is exempt from every law, including the one that lets you leave. The only man
 who ever beat the system is Nasreddin, who has lived in the waiting room for eleven years out of spite.
 **B:** PIP meets a bureaucracy more literal than he is and falls in something like love.
-Seo is ordered to make sure Veda does not get out.
+Seo is ordered to make sure Oyuna does not get out.
 **C:** Pell and Arakawa, in person, being reasonable.
 **Turns:** form requires its own approval · Nasreddin's lesson · Seo's order · PIP files the one
 report nobody can refuse.
-**Tag:** Veda looks at Jax for a long time. "I have memorised every name in the Atlas. Yours is missing."
-**Changes:** Veda aboard. Seo disobeys for the first time, in a way she can still explain.
+**Tag:** Oyuna looks at Jax for a long time. "I have memorised every name in the Atlas. Yours is missing."
+**Changes:** Oyuna aboard. Seo disobeys for the first time, in a way she can still explain.
 
 ## 5. A Gentleman on Venus
 **A:** The next fragment is in Soren Voss's private collection, shown once a year at a gala in
@@ -88,7 +88,7 @@ kilometres up with nowhere to stand.
 **A:** A sabotaged gate drops the ship sunward of Mercury with dead engines. In the same decaying
 orbit: a tender run by two old flyers who once went too high — Icarus, who did it for joy, and
 Sampati, who burned his wings shielding his brother. One of them wants to try again.
-**B:** Lucía and Mira, engineer and scientist, fix the unfixable and finally talk. Veda tells
+**B:** Lucía and Mira, engineer and scientist, fix the unfixable and finally talk. Oyuna tells
 the story that keeps everyone awake.
 **C:** Someone on board sabotaged the gate. Someone on board also sent the distress call that
 saves them. Both were Seo.
@@ -123,7 +123,7 @@ something in each other and neither likes it.
 century. A Directorate auditor aboard is found dead in a sealed cabin. Nemo is the obvious
 killer. The only other guest is a consulting detective who is thinning and knows it.
 **B:** Everyone has a secret and Holmes takes them apart one by one: Idris's debt, Mira's
-doubt, Veda's missing name. The crew sees each other properly for the first time.
+doubt, Oyuna's missing name. The crew sees each other properly for the first time.
 **C:** Holmes solves the murder and, privately, the rat. He tells only Seo. "I know. The
 interesting question is whether you do."
 **Turns:** the body · Nemo accused · Holmes falters, Mira lends him her method · the solution nobody wanted.
@@ -132,7 +132,7 @@ interesting question is whether you do."
 
 ## 10. A Seat at the Table
 **A:** Saturn. The Voss family at home. Dinner is perfect. Every debt of the season is on the
-table: Lucía's mother, Idris's marker, Veda's memory, Mattias in the next room. Voss wants one
+table: Lucía's mother, Idris's marker, Oyuna's memory, Mattias in the next room. Voss wants one
 thing — the parcel delivered by the only courier who could find the address.
 **B:** Seo is exposed. Then she chooses. It costs her everything she believed in.
 **C:** The parcel is opened: a living piece of olive wood. The label, restored: *Nobody, Ithaca.*
