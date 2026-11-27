@@ -3,5 +3,12 @@
   "speech_seconds": 60.9,
   "rtf": 0.266,
   "episode_compute_hours_est": 0.13,
-  "words": 188
+  "words": 188,
+  "wer": 0.016,
+  "wer_errors": [
+    "substitute: 'eleven' -> '11'",
+    "substitute: 'a' -> 'the'",
+    "substitute: 'munchausen' -> 'munchawson'"
+  ],
+  "wer_model": "faster-whisper small int8"
 }

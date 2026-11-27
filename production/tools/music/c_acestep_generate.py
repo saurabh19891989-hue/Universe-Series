@@ -1,5 +1,6 @@
 """Route C test: ACE-Step 1.5 (MIT licence) text-to-music on CPU, DiT-only (no LM).
 
+Env: SU_CAPTION, SU_BPM, SU_KEY, SU_THREADS override the prompt.
 Usage: <venv>/bin/python c_acestep_generate.py <ace-step-src-dir> <out.wav> [seconds]
 The source dir must contain checkpoints/ (acestep-v15-turbo, vae, Qwen3-Embedding-0.6B).
 """
@@ -26,9 +27,9 @@ if not ok:
 
 params = GenerationParams(
     task_type="text2music", thinking=False, instrumental=True, lyrics="[Instrumental]",
-    caption=("cinematic orchestral main title, driving string ostinato, big brass melody, "
+    caption=os.environ.get("SU_CAPTION") or ("cinematic orchestral main title, driving string ostinato, big brass melody, "
              "taiko drums, sitar colour, heroic and mysterious space adventure, instrumental"),
-    bpm=120, keyscale="D minor", timesignature="4", duration=secs,
+    bpm=int(os.environ.get("SU_BPM", "120")), keyscale=os.environ.get("SU_KEY", "D minor"), timesignature="4", duration=secs,
     inference_steps=8, guidance_scale=1.0, seed=7,
     use_cot_metas=False, use_cot_caption=False, use_cot_language=False)
 config = GenerationConfig(batch_size=1, audio_format="wav")

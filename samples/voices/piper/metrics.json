@@ -3,5 +3,14 @@
   "speech_seconds": 62.4,
   "rtf": 0.109,
   "episode_compute_hours_est": 0.06,
-  "words": 188
+  "words": 188,
+  "wer": 0.026,
+  "wer_errors": [
+    "substitute: 'i'd' -> 'i've'",
+    "substitute: 'pip' -> 'pep'",
+    "substitute: 'nowhere' -> 'noah'",
+    "substitute: 'munchausen' -> 'munchawson'",
+    "substitute: 'shallow' -> 'chowel'"
+  ],
+  "wer_model": "faster-whisper small int8"
 }

@@ -10,7 +10,9 @@ ref=norm(" ".join(l[1] for l in LINES))
 m=WhisperModel("small",device="cpu",compute_type="int8",download_root=f"{SCRATCH}/whisper")
 engines=sys.argv[1:] or sorted(os.path.basename(os.path.dirname(p)) for p in glob.glob(f"{SAMPLES}/*/scene.mp3"))
 for e in engines:
-    segs,_=m.transcribe(f"{SAMPLES}/{e}/scene.mp3",language="en",beam_size=5)
+    import subprocess, numpy as np
+    raw=subprocess.run(["ffmpeg","-loglevel","error","-i",f"{SAMPLES}/{e}/scene.mp3","-f","f32le","-ac","1","-ar","16000","-"],capture_output=True,check=True).stdout
+    segs,_=m.transcribe(np.frombuffer(raw,dtype=np.float32),language="en",beam_size=5)
     hyp=norm(" ".join(s.text for s in segs))
     o=jiwer.process_words(ref,hyp)
     wer=o.wer
