@@ -131,7 +131,8 @@ class Gfx:
             col = (70, 40, 30) if dead else AMBER
             top, bot = h * 0.15, h * 0.78
             d.rectangle([x + bw * 0.2, top, x + bw * 0.8, bot], outline=(60, 70, 60), width=3)
-            d.rectangle([x + bw * 0.25, bot - (bot - top) * v, x + bw * 0.75, bot - 4], fill=col)
+            if (bot - top) * v > 5:
+                d.rectangle([x + bw * 0.25, bot - (bot - top) * v, x + bw * 0.75, bot - 4], fill=col)
             d.text((x + bw * 0.12, h * 0.83), lab, font=f, fill=(200, 80, 60) if dead else (200, 220, 200))
         return to_f(im)
 

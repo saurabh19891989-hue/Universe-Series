@@ -1022,5 +1022,110 @@
     "resets_at": "2026-12-02 17:30 UTC"
    }
   }
+ },
+ {
+  "time": "2026-11-27T16:04:53",
+  "type": "run",
+  "purpose": "step4 bridge second angle, wide from back doorway",
+  "job": "bridge-rear",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/bridge-rear/bridge-rear.png",
+  "file": "assets/sets/bridge/angle-rear-wide.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 59.7,
+  "tokens": 7572,
+  "status": "accepted",
+  "note": "matches master; window pure black",
+  "jpg_bytes": 456401,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 60.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 93.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:04:36",
+  "type": "run",
+  "purpose": "step4 bridge tight angle on PIP's console",
+  "job": "bridge-pip",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/bridge-pip/bridge-pip.png",
+  "file": "assets/sets/bridge/angle-pip-console.jpg",
+  "refs": [
+   "master.jpg",
+   "master.jpg"
+  ],
+  "seconds": 42.2,
+  "tokens": 10238,
+  "status": "accepted",
+  "note": "PIP matches its master; screen blank glow",
+  "jpg_bytes": 332101,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 60.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 93.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:04:37",
+  "type": "run",
+  "purpose": "step4 cargo hold set (new, PROPOSED)",
+  "job": "hold",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/hold/hold.png",
+  "file": "assets/sets/hold/master.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 43.3,
+  "tokens": 12641,
+  "status": "accepted",
+  "note": "new set PROPOSED; parcel centred, reactor panel open",
+  "jpg_bytes": 377230,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 60.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 93.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
+ },
+ {
+  "time": "2026-11-27T16:04:59",
+  "type": "run",
+  "purpose": "step4 customs hall - the desk with glass screen",
+  "job": "customs-desk",
+  "scratch_png": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/cx/lib/customs-desk/customs-desk.png",
+  "file": "assets/sets/customs/desk-glass-screen.jpg",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 65.8,
+  "tokens": 19642,
+  "status": "accepted",
+  "note": "far window shows lunar horizon like the customs master - mask if needed",
+  "jpg_bytes": 335170,
+  "allowance_after": {
+   "five_hour": {
+    "used_percent": 60.0,
+    "resets_at": "2026-11-27 19:25 UTC"
+   },
+   "weekly": {
+    "used_percent": 93.0,
+    "resets_at": "2026-12-02 17:30 UTC"
+   }
+  }
  }
 ]

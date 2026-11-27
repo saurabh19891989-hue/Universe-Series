@@ -148,6 +148,8 @@ def main():
     print(f"{len(index)} effects; {sum(1 for i in index if i.get('review_mp3'))} review mp3s; {len(fails)} check failures")
     for n, notes, an in fails:
         print("FAIL", n, notes, an["loop_join_step_ratio"] if "loop_join_step_ratio" in an else "", an["energy_above_2k_pct"])
+    import radio_presets
+    radio_presets.main(a.out)
     if a.plots:
         import matplotlib
         matplotlib.use("Agg")
