@@ -1,0 +1,1225 @@
+{
+ "name": "E01-toon-test4",
+ "episode": "E01",
+ "scene": "3 (customs desk), lines 1-17",
+ "note": "TEST 4: painted pose-library puppets over real NASA video. Built by production/tools/toon/build_e01_desk4.py.",
+ "vars": {
+  "SCRATCH": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad",
+  "REPO": "/home/user/Universe-Series",
+  "TOON": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/toon"
+ },
+ "rigs": "${REPO}/production/tools/toon/rigs4.json",
+ "duration_s": 56.0,
+ "dialogue": [
+  {
+   "id": "3-01",
+   "who": "mira",
+   "start_s": 7.0,
+   "dur": 0.73,
+   "text": "Next.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L001_MIRA.wav",
+   "lips": "${TOON}/lips/E01_S03_L001_MIRA.json"
+  },
+  {
+   "id": "3-02",
+   "who": "jax",
+   "start_s": 7.93,
+   "dur": 1.088,
+   "text": "There's no one else here.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L002_JAX.wav",
+   "lips": "${TOON}/lips/E01_S03_L002_JAX.json"
+  },
+  {
+   "id": "3-03",
+   "who": "mira",
+   "start_s": 9.218,
+   "dur": 1.724,
+   "text": "It's procedure. Next.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L003_MIRA.wav",
+   "lips": "${TOON}/lips/E01_S03_L003_MIRA.json"
+  },
+  {
+   "id": "3-04",
+   "who": "mira",
+   "start_s": 11.192,
+   "dur": 6.319,
+   "text": "Parcel, one. Sealed. Addressed to a district withdrawn at fourteen-oh-two. Seized at fourteen-nineteen.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L004_MIRA.wav",
+   "lips": "${TOON}/lips/E01_S03_L004_MIRA.json"
+  },
+  {
+   "id": "3-05",
+   "who": "jax",
+   "start_s": 17.841,
+   "dur": 1.64,
+   "text": "Here's my situation. My aunt\u2014",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L005_JAX.wav",
+   "lips": "${TOON}/lips/E01_S03_L005_JAX.json"
+  },
+  {
+   "id": "3-06",
+   "who": "mira",
+   "start_s": 19.371,
+   "dur": 1.436,
+   "text": "You don't have an aunt.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L006_MIRA.wav",
+   "lips": "${TOON}/lips/E01_S03_L006_MIRA.json"
+  },
+  {
+   "id": "3-07",
+   "who": "jax",
+   "start_s": 21.007,
+   "dur": 0.87,
+   "text": "You don't know that.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L007_JAX.wav",
+   "lips": "${TOON}/lips/E01_S03_L007_JAX.json"
+  },
+  {
+   "id": "3-08",
+   "who": "mira",
+   "start_s": 22.077,
+   "dur": 2.337,
+   "text": "Your form says next of kin: none.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L008_MIRA.wav",
+   "lips": "${TOON}/lips/E01_S03_L008_MIRA.json"
+  },
+  {
+   "id": "3-09",
+   "who": "jax",
+   "start_s": 24.615,
+   "dur": 4.489,
+   "text": "She's very distant. Look \u2014 I can tell you're someone who appreciates flexibility.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L009_JAX.wav",
+   "lips": "${TOON}/lips/E01_S03_L009_JAX.json"
+  },
+  {
+   "id": "3-10",
+   "who": "mira",
+   "start_s": 29.433,
+   "dur": 3.472,
+   "text": "I'm a cartographer. I appreciate where things actually are.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L010_MIRA.wav",
+   "lips": "${TOON}/lips/E01_S03_L010_MIRA.json"
+  },
+  {
+   "id": "3-11",
+   "who": "jax",
+   "start_s": 33.235,
+   "dur": 3.469,
+   "text": "Then you'll appreciate the Lunar Courier Exemption. Section twelve.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L011_JAX.wav",
+   "lips": "${TOON}/lips/E01_S03_L011_JAX.json"
+  },
+  {
+   "id": "3-12",
+   "who": "mira",
+   "start_s": 37.034,
+   "dur": 1.667,
+   "text": "There are nine sections.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L012_MIRA.wav",
+   "lips": "${TOON}/lips/E01_S03_L012_MIRA.json"
+  },
+  {
+   "id": "3-13",
+   "who": "jax",
+   "start_s": 38.901,
+   "dur": 1.679,
+   "text": "Which is why twelve is so exclusive.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L013_JAX.wav",
+   "lips": "${TOON}/lips/E01_S03_L013_JAX.json"
+  },
+  {
+   "id": "3-14",
+   "who": "mira",
+   "start_s": 42.381,
+   "dur": 4.057,
+   "text": "Is there anything true you'd like to tell me, Captain? Before I stamp it.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L014_MIRA.wav",
+   "lips": "${TOON}/lips/E01_S03_L014_MIRA.json"
+  },
+  {
+   "id": "3-15",
+   "who": "jax",
+   "start_s": 46.768,
+   "dur": 1.297,
+   "text": "I'm very good at my job.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L015_JAX.wav",
+   "lips": "${TOON}/lips/E01_S03_L015_JAX.json"
+  },
+  {
+   "id": "3-16",
+   "who": "mira",
+   "start_s": 48.265,
+   "dur": 2.353,
+   "text": "You're four hours from losing your ship.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L016_MIRA.wav",
+   "lips": "${TOON}/lips/E01_S03_L016_MIRA.json"
+  },
+  {
+   "id": "3-17",
+   "who": "jax",
+   "start_s": 50.818,
+   "dur": 1.102,
+   "text": "I'm good at it in bursts.",
+   "src": "${SCRATCH}/e01/dialogue/E01_S03_L017_JAX.wav",
+   "lips": "${TOON}/lips/E01_S03_L017_JAX.json"
+  }
+ ],
+ "audio": {
+  "music": [
+   {
+    "src": "${SCRATCH}/e01/music/E01-M02-approach.wav",
+    "at": 0.0,
+    "from": 30.0,
+    "dur": 8.2,
+    "gain_db": -4,
+    "fade_in": 0.6,
+    "fade_out": 1.6
+   },
+   {
+    "src": "${SCRATCH}/e01/music/E01-C1-button-a.wav",
+    "at": 53.15,
+    "from": 0.0,
+    "dur": 3.0,
+    "gain_db": -3,
+    "fade_out": 0.4
+   }
+  ],
+  "sfx": [
+   {
+    "src": "${SCRATCH}/e01/sfx/ship_engine_idle_loop.wav",
+    "at": 0.0,
+    "dur": 6.4,
+    "gain_db": -8,
+    "fade_in": 0.8,
+    "fade_out": 0.3
+   },
+   {
+    "src": "${SCRATCH}/e01/sfx/ship_engine_spindown.wav",
+    "at": 6.2,
+    "dur": 2.6,
+    "gain_db": -9,
+    "fade_out": 1.2
+   },
+   {
+    "src": "${SCRATCH}/e01/sfx/customs_hall_roomtone_loop.wav",
+    "at": 6.8,
+    "dur": 49.2,
+    "gain_db": -16,
+    "fade_in": 0.4,
+    "fade_out": 0.6
+   },
+   {
+    "src": "${SCRATCH}/e01/sfx/footsteps_lowg_distant_pattern.wav",
+    "at": 10.8,
+    "from": 0.0,
+    "dur": 3.5,
+    "gain_db": -6,
+    "fade_out": 0.4
+   },
+   {
+    "src": "${SCRATCH}/e01/sfx/paper_slip_rustle.wav",
+    "at": 22.077,
+    "gain_db": -10
+   },
+   {
+    "src": "${SCRATCH}/e01/sfx/customs_desk_stamp_heavy_a.wav",
+    "at": 52.98,
+    "gain_db": -1
+   }
+  ],
+  "duck_music_db": -10,
+  "loudness": -16.0
+ },
+ "characters": {
+  "jax": {
+   "keys": {
+    "pose": [
+     [
+      0,
+      "J_idle"
+     ],
+     [
+      7.9799999999999995,
+      "J_sweep"
+     ],
+     [
+      9.3,
+      "J_idle"
+     ],
+     [
+      10.05,
+      "J_shrug"
+     ],
+     [
+      10.7,
+      "J_idle"
+     ],
+     [
+      11.2,
+      "walk"
+     ],
+     [
+      13.8,
+      "J_idle"
+     ],
+     [
+      17.6,
+      "Jk_listen"
+     ],
+     [
+      17.941000000000003,
+      "Jk_plead"
+     ],
+     [
+      19.671,
+      "Jk_listen"
+     ],
+     [
+      21.057000000000002,
+      "Jk_point"
+     ],
+     [
+      22.477,
+      "Jk_listen"
+     ],
+     [
+      24.764999999999997,
+      "Jk_point"
+     ],
+     [
+      26.365,
+      "Jk_plead"
+     ],
+     [
+      29.503999999999998,
+      "Jk_listen"
+     ],
+     [
+      33.0,
+      "J_cu_finger"
+     ],
+     [
+      37.0,
+      "Jk_listen"
+     ],
+     [
+      46.818,
+      "Jk_self"
+     ],
+     [
+      48.364999999999995,
+      "Jk_listen"
+     ],
+     [
+      50.867999999999995,
+      "Jk_shrug"
+     ],
+     [
+      53.02,
+      "Jk_flinch"
+     ],
+     [
+      53.65,
+      "Jk_startle"
+     ]
+    ],
+    "dx": [
+     [
+      0,
+      0
+     ],
+     [
+      11.2,
+      0,
+      "step"
+     ],
+     [
+      13.8,
+      830,
+      "io",
+      2.6000000000000014
+     ]
+    ],
+    "lean": [
+     [
+      0,
+      0
+     ],
+     [
+      13.8,
+      0
+     ],
+     [
+      13.92,
+      4,
+      "out",
+      0.12
+     ],
+     [
+      14.25,
+      0,
+      "snap",
+      0.33
+     ],
+     [
+      26.365,
+      3,
+      "back",
+      0.25
+     ],
+     [
+      29.503999999999998,
+      0
+     ],
+     [
+      53.02,
+      -5,
+      "snap",
+      0.1
+     ],
+     [
+      53.65,
+      -2,
+      "back",
+      0.2
+     ]
+    ],
+    "squash": [
+     [
+      0,
+      0
+     ],
+     [
+      10.05,
+      0.05,
+      "out",
+      0.08
+     ],
+     [
+      10.3,
+      0,
+      "snap",
+      0.25
+     ],
+     [
+      53.0,
+      0.08,
+      "out",
+      0.05
+     ],
+     [
+      53.4,
+      0,
+      "snap",
+      0.35
+     ],
+     [
+      53.62,
+      -0.06,
+      "out",
+      0.06
+     ],
+     [
+      53.95,
+      0,
+      "snap",
+      0.3
+     ]
+    ],
+    "dy": [
+     [
+      0,
+      0
+     ],
+     [
+      11.2,
+      0
+     ]
+    ]
+   },
+   "defaults": {
+    "pose": "J_idle"
+   },
+   "walk": {
+    "t0": 11.2,
+    "t1": 13.8,
+    "x0": 0,
+    "stride": 365,
+    "frames": [
+     "J_walk0",
+     "J_walk1",
+     "J_walk2",
+     "J_walk3",
+     "J_walk4",
+     "J_walk5"
+    ],
+    "phase": 0
+   }
+  },
+  "mira": {
+   "keys": {
+    "pose": [
+     [
+      0,
+      "M_form"
+     ],
+     [
+      9.218,
+      "M_neutral"
+     ],
+     [
+      11.292,
+      "M_form"
+     ],
+     [
+      16.4,
+      "M_neutral"
+     ],
+     [
+      22.127000000000002,
+      "M_show"
+     ],
+     [
+      24.614,
+      "M_neutral"
+     ],
+     [
+      30.633,
+      "M_tap"
+     ],
+     [
+      33.105000000000004,
+      "M_neutral"
+     ],
+     [
+      37.0,
+      "M_cu"
+     ],
+     [
+      40.85,
+      "M_cu_look"
+     ],
+     [
+      42.4,
+      "M_neutral"
+     ],
+     [
+      44.581,
+      "M_stamp"
+     ],
+     [
+      52.3,
+      "M_stamp_up"
+     ],
+     [
+      53.0,
+      "M_slam"
+     ]
+    ],
+    "lean": [
+     [
+      0,
+      0
+     ],
+     [
+      40.6,
+      2,
+      "out",
+      0.2
+     ],
+     [
+      40.85,
+      -3,
+      "snap",
+      0.15
+     ],
+     [
+      42.3,
+      0
+     ],
+     [
+      52.3,
+      -4,
+      "out",
+      0.4
+     ],
+     [
+      53.0,
+      5,
+      "in",
+      0.08
+     ],
+     [
+      53.6,
+      1,
+      "snap",
+      0.4
+     ]
+    ],
+    "squash": [
+     [
+      0,
+      0
+     ],
+     [
+      40.6,
+      0.05,
+      "out",
+      0.2
+     ],
+     [
+      40.85,
+      -0.03,
+      "snap",
+      0.2
+     ],
+     [
+      41.3,
+      0
+     ],
+     [
+      52.95,
+      -0.04,
+      "out",
+      0.4
+     ],
+     [
+      53.0,
+      0.06,
+      "in",
+      0.06
+     ],
+     [
+      53.4,
+      0,
+      "snap",
+      0.3
+     ]
+    ],
+    "dx": [
+     [
+      0,
+      0
+     ]
+    ],
+    "dy": [
+     [
+      0,
+      0
+     ],
+     [
+      52.3,
+      -6,
+      "out",
+      0.4
+     ],
+     [
+      53.0,
+      4,
+      "in",
+      0.08
+     ],
+     [
+      53.5,
+      0,
+      "snap",
+      0.4
+     ]
+    ]
+   },
+   "defaults": {
+    "pose": "M_form"
+   }
+  }
+ },
+ "sets": {
+  "wide": {
+   "src": "${SCRATCH}/cx/toon4/set_wide.png",
+   "window_region": [
+    0.17,
+    0.11,
+    0.88,
+    0.59
+   ],
+   "fg_polys": [
+    [
+     [
+      1135,
+      543
+     ],
+     [
+      1672,
+      543
+     ],
+     [
+      1672,
+      941
+     ],
+     [
+      1135,
+      941
+     ]
+    ]
+   ],
+   "plate": {
+    "src": "${SCRATCH}/toon/plates/window2.mp4",
+    "t_offset": 7.0,
+    "x": 240,
+    "y": 30,
+    "w": 1560,
+    "parallax": 0.3,
+    "gain": 1.3
+   }
+  },
+  "desk": {
+   "src": "${SCRATCH}/cx/toon4/set_desk.png",
+   "window_region": [
+    0.03,
+    0.09,
+    0.97,
+    0.68
+   ],
+   "fg_polys": [
+    [
+     [
+      586,
+      606
+     ],
+     [
+      1672,
+      606
+     ],
+     [
+      1672,
+      941
+     ],
+     [
+      586,
+      941
+     ]
+    ]
+   ],
+   "plate": {
+    "src": "${SCRATCH}/toon/plates/window2.mp4",
+    "t_offset": 7.0,
+    "x": -40,
+    "y": -20,
+    "w": 2000,
+    "parallax": 0.3,
+    "gain": 1.3
+   }
+  }
+ },
+ "ext": {
+  "src": "${SCRATCH}/toon/plates/ext.mp4",
+  "ship": "${SCRATCH}/cx/toon4/ship.png",
+  "gain": 1.08,
+  "rim_dir": [
+   -0.8,
+   -0.6
+  ],
+  "touchdown": 5.2,
+  "ground_point": [
+   1050,
+   760
+  ],
+  "ground_off": [
+   0,
+   -150
+  ],
+  "ground_y": 900,
+  "keys": {
+   "x": [
+    [
+     0,
+     -350
+    ],
+    [
+     3.4,
+     760,
+     "out",
+     3.4
+    ],
+    [
+     5.2,
+     1050,
+     "io",
+     1.8
+    ]
+   ],
+   "y": [
+    [
+     0,
+     170
+    ],
+    [
+     3.4,
+     470,
+     "io",
+     3.4
+    ],
+    [
+     5.2,
+     610,
+     "out",
+     1.8
+    ]
+   ],
+   "scale": [
+    [
+     0,
+     0.26
+    ],
+    [
+     3.4,
+     0.36,
+     "io",
+     3.4
+    ],
+    [
+     5.2,
+     0.4,
+     "io",
+     1.8
+    ]
+   ],
+   "rot": [
+    [
+     0,
+     -12
+    ],
+    [
+     1.8,
+     7,
+     "io",
+     1.8
+    ],
+    [
+     3.6,
+     -2,
+     "io",
+     1.8
+    ],
+    [
+     5.0,
+     -5,
+     "io",
+     1.4
+    ],
+    [
+     5.35,
+     0,
+     "snap",
+     0.3
+    ]
+   ],
+   "alt": [
+    [
+     0,
+     650
+    ],
+    [
+     3.4,
+     300,
+     "io",
+     3.4
+    ],
+    [
+     5.2,
+     0,
+     "out",
+     1.8
+    ]
+   ],
+   "settle": [
+    [
+     5.2,
+     8
+    ],
+    [
+     5.5,
+     0,
+     "snap",
+     0.3
+    ]
+   ],
+   "thrust": [
+    [
+     0,
+     0.8
+    ],
+    [
+     3.6,
+     1.0
+    ],
+    [
+     5.0,
+     1.6,
+     "io",
+     1.2
+    ],
+    [
+     5.6,
+     0.15,
+     "out",
+     0.5
+    ]
+   ]
+  },
+  "dust_t0": 4.2,
+  "dust_t1": 5.8,
+  "engines": [
+   [
+    0.014,
+    0.27,
+    40
+   ],
+   [
+    0.014,
+    0.47,
+    40
+   ],
+   [
+    0.014,
+    0.69,
+    40
+   ],
+   [
+    0.014,
+    0.9,
+    40
+   ]
+  ]
+ },
+ "shots": [
+  {
+   "id": "T4-01",
+   "kind": "ext",
+   "t0": 0.0,
+   "t1": 7.0,
+   "fade_in": 0.5,
+   "note": "EXT: the Unscheduled comes in over the Moon and sets down; the camera flies on past it"
+  },
+  {
+   "id": "T4-02",
+   "kind": "set",
+   "set": "wide",
+   "t0": 7.0,
+   "t1": 17.6,
+   "chars": {
+    "jax": {
+     "x": 300,
+     "y": 1010,
+     "head": 92,
+     "use_dx": true
+    },
+    "mira": {
+     "x": 1650,
+     "y": 508,
+     "head": 62,
+     "behind_fg": true,
+     "align": "neck"
+    }
+   },
+   "note": "WIDE: the hall, Earth rising in the window; Jax walks to the desk",
+   "camera": {
+    "cx": [
+     [
+      7.0,
+      960
+     ],
+     [
+      17.6,
+      1040,
+      "io",
+      10.6
+     ]
+    ],
+    "cy": [
+     [
+      7.0,
+      545
+     ],
+     [
+      17.6,
+      560,
+      "io",
+      10.6
+     ]
+    ],
+    "zoom": [
+     [
+      7.0,
+      1.0
+     ],
+     [
+      17.6,
+      1.1,
+      "io",
+      10.6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "T4-03",
+   "kind": "set",
+   "set": "desk",
+   "t0": 17.6,
+   "t1": 33.0,
+   "chars": {
+    "jax": {
+     "x": 790,
+     "y": 482,
+     "head": 165,
+     "align": "neck",
+     "behind_fg": true
+    },
+    "mira": {
+     "x": 1420,
+     "y": 495,
+     "head": 150,
+     "behind_fg": true,
+     "align": "neck"
+    }
+   },
+   "note": "TWO-SHOT at the counter",
+   "camera": {
+    "cx": [
+     [
+      17.6,
+      1090
+     ],
+     [
+      33.0,
+      1100,
+      "io",
+      15
+     ]
+    ],
+    "cy": [
+     [
+      17.6,
+      560
+     ],
+     [
+      33.0,
+      555
+     ]
+    ],
+    "zoom": [
+     [
+      17.6,
+      1.3
+     ],
+     [
+      33.0,
+      1.36,
+      "io",
+      15
+     ]
+    ]
+   }
+  },
+  {
+   "id": "T4-04",
+   "kind": "set",
+   "set": "desk",
+   "t0": 33.0,
+   "t1": 37.0,
+   "chars": {
+    "jax": {
+     "x": 820,
+     "y": 500,
+     "head": 230,
+     "align": "neck"
+    },
+    "mira": {
+     "hide": true
+    }
+   },
+   "bg_blur": 2.2,
+   "note": "CLOSE: Jax, Section Twelve",
+   "camera": {
+    "cx": [
+     [
+      33.0,
+      900
+     ],
+     [
+      37.0,
+      910,
+      "io",
+      4
+     ]
+    ],
+    "cy": [
+     [
+      33.0,
+      420
+     ],
+     [
+      37.0,
+      415
+     ]
+    ],
+    "zoom": [
+     [
+      33.0,
+      2.0
+     ],
+     [
+      37.0,
+      2.08,
+      "io",
+      4
+     ]
+    ]
+   }
+  },
+  {
+   "id": "T4-05",
+   "kind": "set",
+   "set": "desk",
+   "t0": 37.0,
+   "t1": 42.4,
+   "chars": {
+    "mira": {
+     "x": 1300,
+     "y": 540,
+     "head": 215,
+     "behind_fg": true,
+     "align": "neck"
+    },
+    "jax": {
+     "hide": true
+    }
+   },
+   "bg_blur": 2.2,
+   "note": "CLOSE: Mira; the look to camera",
+   "camera": {
+    "cx": [
+     [
+      37.0,
+      1260
+     ],
+     [
+      40.6,
+      1260
+     ],
+     [
+      40.9,
+      1280,
+      "snap",
+      0.2
+     ]
+    ],
+    "cy": [
+     [
+      37.0,
+      430
+     ],
+     [
+      40.6,
+      430
+     ],
+     [
+      40.9,
+      410,
+      "snap",
+      0.2
+     ]
+    ],
+    "zoom": [
+     [
+      37.0,
+      2.0
+     ],
+     [
+      40.6,
+      2.02
+     ],
+     [
+      40.9,
+      2.18,
+      "snap",
+      0.2
+     ]
+    ]
+   }
+  },
+  {
+   "id": "T4-06",
+   "kind": "set",
+   "set": "desk",
+   "t0": 42.4,
+   "t1": 56.0,
+   "chars": {
+    "jax": {
+     "x": 790,
+     "y": 482,
+     "head": 165,
+     "align": "neck",
+     "behind_fg": true
+    },
+    "mira": {
+     "x": 1420,
+     "y": 495,
+     "head": 150,
+     "behind_fg": true,
+     "align": "neck"
+    }
+   },
+   "fade_out": 0.6,
+   "note": "TWO-SHOT: the stamp",
+   "camera": {
+    "cx": [
+     [
+      42.4,
+      1090
+     ],
+     [
+      56.0,
+      1090
+     ]
+    ],
+    "cy": [
+     [
+      42.4,
+      560
+     ],
+     [
+      56.0,
+      555
+     ]
+    ],
+    "zoom": [
+     [
+      42.4,
+      1.3
+     ],
+     [
+      52.9,
+      1.36,
+      "io",
+      10
+     ],
+     [
+      53.05,
+      1.44,
+      "snap",
+      0.12
+     ]
+    ]
+   },
+   "shake": [
+    {
+     "at": 53.0,
+     "amp": 14,
+     "dur": 0.5
+    }
+   ]
+  }
+ ]
+}

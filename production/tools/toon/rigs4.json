@@ -1,0 +1,869 @@
+{
+ "poses": {
+  "J_idle": {
+   "src": "${SCRATCH}/cx/toon4/J_idle.png",
+   "eyes": [
+    [
+     823,
+     100,
+     5,
+     3
+    ],
+    [
+     851,
+     95,
+     4.0,
+     3
+    ]
+   ],
+   "mouth": [
+    846,
+    124
+   ],
+   "mouth_w": 9,
+   "chin": 142,
+   "head": [
+    810,
+    85,
+    52,
+    62
+   ],
+   "neck": [
+    805,
+    150
+   ],
+   "anchor": [
+    760,
+    925
+   ],
+   "head_h": 123,
+   "eye_ang": -8,
+   "mouth_ang": -6
+  },
+  "J_sweep": {
+   "src": "${SCRATCH}/cx/toon4/J_sweep.png",
+   "eyes": [
+    [
+     803,
+     99,
+     5,
+     3
+    ],
+    [
+     827,
+     95,
+     4.0,
+     3
+    ]
+   ],
+   "mouth": [
+    823,
+    124
+   ],
+   "mouth_w": 9,
+   "chin": 142,
+   "head": [
+    790,
+    85,
+    50,
+    60
+   ],
+   "neck": [
+    790,
+    150
+   ],
+   "anchor": [
+    745,
+    921
+   ],
+   "head_h": 124,
+   "eye_ang": -8,
+   "mouth_ang": -6
+  },
+  "J_shrug": {
+   "src": "${SCRATCH}/cx/toon4/J_shrug.png",
+   "eyes": [
+    [
+     792,
+     102,
+     5,
+     3
+    ],
+    [
+     820,
+     97,
+     4.0,
+     3
+    ]
+   ],
+   "mouth": [
+    815,
+    121
+   ],
+   "mouth_w": 9,
+   "chin": 140,
+   "head": [
+    785,
+    85,
+    50,
+    60
+   ],
+   "neck": [
+    785,
+    150
+   ],
+   "anchor": [
+    740,
+    922
+   ],
+   "head_h": 121,
+   "eye_ang": -8,
+   "mouth_ang": -6
+  },
+  "Jk_listen": {
+   "src": "${SCRATCH}/cx/toon4/Jk_listen.png",
+   "eyes": [
+    [
+     828,
+     152,
+     10,
+     5
+    ],
+    [
+     876,
+     146,
+     8.0,
+     5
+    ]
+   ],
+   "mouth": [
+    867,
+    197
+   ],
+   "mouth_w": 14,
+   "chin": 230,
+   "head": [
+    807,
+    131,
+    85,
+    105
+   ],
+   "neck": [
+    825,
+    257
+   ],
+   "anchor": [
+    848,
+    940
+   ],
+   "head_h": 207,
+   "eye_ang": -8,
+   "mouth_ang": -6,
+   "extend": 0
+  },
+  "Jk_plead": {
+   "src": "${SCRATCH}/cx/toon4/Jk_plead.png",
+   "eyes": [
+    [
+     812,
+     220,
+     11,
+     6
+    ],
+    [
+     877,
+     190,
+     8.8,
+     6
+    ]
+   ],
+   "mouth": [
+    871,
+    285
+   ],
+   "mouth_w": 18,
+   "chin": 318,
+   "head": [
+    782,
+    169,
+    120,
+    140
+   ],
+   "neck": [
+    806,
+    354
+   ],
+   "anchor": [
+    762,
+    940
+   ],
+   "head_h": 293,
+   "eye_ang": -22,
+   "mouth_ang": -18,
+   "extend": 0
+  },
+  "Jk_point": {
+   "src": "${SCRATCH}/cx/toon4/Jk_point.png",
+   "eyes": [
+    [
+     764,
+     186,
+     11,
+     5
+    ],
+    [
+     821,
+     165,
+     8.8,
+     5
+    ]
+   ],
+   "mouth": [
+    815,
+    235
+   ],
+   "mouth_w": 17,
+   "chin": 271,
+   "head": [
+    735,
+    146,
+    110,
+    130
+   ],
+   "neck": [
+    753,
+    307
+   ],
+   "anchor": [
+    808,
+    940
+   ],
+   "head_h": 238,
+   "eye_ang": -18,
+   "mouth_ang": -14,
+   "extend": 0
+  },
+  "Jk_self": {
+   "src": "${SCRATCH}/cx/toon4/Jk_self.png",
+   "eyes": [
+    [
+     789,
+     169,
+     10,
+     5
+    ],
+    [
+     839,
+     154,
+     8.0,
+     5
+    ]
+   ],
+   "mouth": [
+    833,
+    217
+   ],
+   "mouth_w": 17,
+   "chin": 250,
+   "head": [
+    768,
+    130,
+    100,
+    125
+   ],
+   "neck": [
+    780,
+    285
+   ],
+   "anchor": [
+    860,
+    940
+   ],
+   "head_h": 228,
+   "eye_ang": -8,
+   "mouth_ang": -12,
+   "extend": 0
+  },
+  "Jk_shrug": {
+   "src": "${SCRATCH}/cx/toon4/Jk_shrug.png",
+   "eyes": [
+    [
+     820,
+     177,
+     11,
+     5
+    ],
+    [
+     868,
+     156,
+     8.8,
+     5
+    ]
+   ],
+   "mouth": [
+    862,
+    235
+   ],
+   "mouth_w": 17,
+   "chin": 265,
+   "head": [
+    783,
+    150,
+    110,
+    130
+   ],
+   "neck": [
+    813,
+    301
+   ],
+   "anchor": [
+    836,
+    940
+   ],
+   "head_h": 247,
+   "eye_ang": -20,
+   "mouth_ang": -16,
+   "extend": 0
+  },
+  "Jk_flinch": {
+   "src": "${SCRATCH}/cx/toon4/Jk_flinch.png",
+   "eyes": [
+    [
+     812,
+     206,
+     1,
+     1
+    ],
+    [
+     870,
+     194,
+     0.8,
+     1
+    ]
+   ],
+   "mouth": [
+    846,
+    251
+   ],
+   "mouth_w": 17,
+   "chin": 278,
+   "head": [
+    779,
+    170,
+    110,
+    130
+   ],
+   "neck": [
+    803,
+    314
+   ],
+   "anchor": [
+    893,
+    940
+   ],
+   "head_h": 252,
+   "eye_ang": -8,
+   "mouth_ang": -6,
+   "extend": 0
+  },
+  "Jk_startle": {
+   "src": "${SCRATCH}/cx/toon4/Jk_startle.png",
+   "eyes": [
+    [
+     779,
+     175,
+     11,
+     6
+    ],
+    [
+     829,
+     160,
+     8.8,
+     6
+    ]
+   ],
+   "mouth": [
+    823,
+    229
+   ],
+   "mouth_w": 17,
+   "chin": 268,
+   "head": [
+    761,
+    136,
+    105,
+    130
+   ],
+   "neck": [
+    779,
+    303
+   ],
+   "anchor": [
+    919,
+    940
+   ],
+   "head_h": 239,
+   "eye_ang": -8,
+   "mouth_ang": -14,
+   "extend": 0
+  },
+  "J_cu_finger": {
+   "src": "${SCRATCH}/cx/toon4/J_cu_finger.png",
+   "eyes": [
+    [
+     794,
+     294,
+     22,
+     10
+    ],
+    [
+     897,
+     257,
+     17.6,
+     10
+    ]
+   ],
+   "mouth": [
+    873,
+    390
+   ],
+   "mouth_w": 34,
+   "chin": 470,
+   "head": [
+    778,
+    220,
+    190,
+    220
+   ],
+   "neck": [
+    810,
+    500
+   ],
+   "anchor": [
+    770,
+    940
+   ],
+   "head_h": 446,
+   "eye_ang": -22,
+   "mouth_ang": -20,
+   "extend": 0
+  },
+  "M_neutral": {
+   "src": "${SCRATCH}/cx/toon4/M_neutral.png",
+   "eyes": [
+    [
+     736,
+     183,
+     16,
+     8
+    ],
+    [
+     813,
+     179,
+     12.8,
+     8
+    ]
+   ],
+   "mouth": [
+    764,
+    257
+   ],
+   "mouth_w": 22,
+   "chin": 299,
+   "head": [
+    795,
+    170,
+    106,
+    130
+   ],
+   "neck": [
+    799,
+    310
+   ],
+   "anchor": [
+    806,
+    940
+   ],
+   "head_h": 273,
+   "eye_ang": 0,
+   "mouth_ang": 0,
+   "extend": 0
+  },
+  "M_form": {
+   "src": "${SCRATCH}/cx/toon4/M_form.png",
+   "eyes": [
+    [
+     767,
+     208,
+     16,
+     8
+    ],
+    [
+     841,
+     210,
+     12.8,
+     8
+    ]
+   ],
+   "mouth": [
+    780,
+    279
+   ],
+   "mouth_w": 20,
+   "chin": 318,
+   "head": [
+    806,
+    197,
+    105,
+    130
+   ],
+   "neck": [
+    824,
+    336
+   ],
+   "anchor": [
+    824,
+    940
+   ],
+   "head_h": 290,
+   "eye_ang": 0,
+   "mouth_ang": 0,
+   "extend": 0
+  },
+  "M_show": {
+   "src": "${SCRATCH}/cx/toon4/M_show.png",
+   "eyes": [
+    [
+     733,
+     188,
+     16,
+     8
+    ],
+    [
+     817,
+     188,
+     12.8,
+     8
+    ]
+   ],
+   "mouth": [
+    755,
+    270
+   ],
+   "mouth_w": 20,
+   "chin": 314,
+   "head": [
+    790,
+    175,
+    105,
+    130
+   ],
+   "neck": [
+    790,
+    318
+   ],
+   "anchor": [
+    812,
+    940
+   ],
+   "head_h": 288,
+   "eye_ang": 0,
+   "mouth_ang": 0,
+   "extend": 0
+  },
+  "M_tap": {
+   "src": "${SCRATCH}/cx/toon4/M_tap.png",
+   "eyes": [
+    [
+     733,
+     192,
+     16,
+     8
+    ],
+    [
+     813,
+     197,
+     12.8,
+     8
+    ]
+   ],
+   "mouth": [
+    764,
+    275
+   ],
+   "mouth_w": 20,
+   "chin": 310,
+   "head": [
+    795,
+    180,
+    105,
+    130
+   ],
+   "neck": [
+    804,
+    322
+   ],
+   "anchor": [
+    825,
+    940
+   ],
+   "head_h": 277,
+   "eye_ang": 0,
+   "mouth_ang": 0,
+   "extend": 0
+  },
+  "M_stamp": {
+   "src": "${SCRATCH}/cx/toon4/M_stamp.png",
+   "eyes": [
+    [
+     745,
+     175,
+     16,
+     8
+    ],
+    [
+     825,
+     173,
+     12.8,
+     8
+    ]
+   ],
+   "mouth": [
+    775,
+    255
+   ],
+   "mouth_w": 20,
+   "chin": 295,
+   "head": [
+    810,
+    170,
+    105,
+    130
+   ],
+   "neck": [
+    815,
+    320
+   ],
+   "anchor": [
+    816,
+    940
+   ],
+   "head_h": 266,
+   "eye_ang": 0,
+   "mouth_ang": 0,
+   "extend": 0
+  },
+  "M_stamp_up": {
+   "src": "${SCRATCH}/cx/toon4/M_stamp_up.png",
+   "eyes": [
+    [
+     770,
+     235,
+     16,
+     8
+    ],
+    [
+     850,
+     240,
+     12.8,
+     8
+    ]
+   ],
+   "mouth": [
+    790,
+    310
+   ],
+   "mouth_w": 20,
+   "chin": 355,
+   "head": [
+    820,
+    225,
+    105,
+    130
+   ],
+   "neck": [
+    820,
+    380
+   ],
+   "anchor": [
+    849,
+    940
+   ],
+   "head_h": 295,
+   "eye_ang": 0,
+   "mouth_ang": 0,
+   "extend": 0
+  },
+  "M_slam": {
+   "src": "${SCRATCH}/cx/toon4/M_slam.png",
+   "eyes": [
+    [
+     735,
+     205,
+     16,
+     8
+    ],
+    [
+     820,
+     215,
+     12.8,
+     8
+    ]
+   ],
+   "mouth": [
+    765,
+    300
+   ],
+   "mouth_w": 21,
+   "chin": 340,
+   "head": [
+    805,
+    190,
+    105,
+    130
+   ],
+   "neck": [
+    815,
+    370
+   ],
+   "anchor": [
+    851,
+    940
+   ],
+   "head_h": 310,
+   "eye_ang": 0,
+   "mouth_ang": 0,
+   "extend": 0
+  },
+  "M_cu": {
+   "src": "${SCRATCH}/cx/toon4/M_cu.png",
+   "eyes": [
+    [
+     788,
+     290,
+     28,
+     13
+    ],
+    [
+     911,
+     294,
+     22.400000000000002,
+     13
+    ]
+   ],
+   "mouth": [
+    840,
+    404
+   ],
+   "mouth_w": 34,
+   "chin": 470,
+   "head": [
+    873,
+    270,
+    200,
+    240
+   ],
+   "neck": [
+    880,
+    510
+   ],
+   "anchor": [
+    857,
+    940
+   ],
+   "head_h": 433,
+   "eye_ang": 0,
+   "mouth_ang": 0,
+   "extend": 0
+  },
+  "M_cu_look": {
+   "src": "${SCRATCH}/cx/toon4/M_cu_look.png",
+   "eyes": [
+    [
+     885,
+     309,
+     28,
+     13
+    ],
+    [
+     1005,
+     309,
+     22.400000000000002,
+     13
+    ]
+   ],
+   "mouth": [
+    943,
+    431
+   ],
+   "mouth_w": 34,
+   "chin": 490,
+   "head": [
+    918,
+    228,
+    200,
+    250
+   ],
+   "neck": [
+    918,
+    540
+   ],
+   "anchor": [
+    909,
+    940
+   ],
+   "head_h": 474,
+   "eye_ang": 0,
+   "mouth_ang": 0,
+   "extend": 0
+  },
+  "J_walk0": {
+   "src": "${SCRATCH}/cx/toon4/walk_0.png",
+   "anchor": [
+    152,
+    809
+   ],
+   "head_h": 107
+  },
+  "J_walk1": {
+   "src": "${SCRATCH}/cx/toon4/walk_1.png",
+   "anchor": [
+    131,
+    805
+   ],
+   "head_h": 107
+  },
+  "J_walk2": {
+   "src": "${SCRATCH}/cx/toon4/walk_2.png",
+   "anchor": [
+    138,
+    805
+   ],
+   "head_h": 107
+  },
+  "J_walk3": {
+   "src": "${SCRATCH}/cx/toon4/walk_3.png",
+   "anchor": [
+    171,
+    808
+   ],
+   "head_h": 107
+  },
+  "J_walk4": {
+   "src": "${SCRATCH}/cx/toon4/walk_4.png",
+   "anchor": [
+    152,
+    799
+   ],
+   "head_h": 107
+  },
+  "J_walk5": {
+   "src": "${SCRATCH}/cx/toon4/walk_5.png",
+   "anchor": [
+    153,
+    801
+   ],
+   "head_h": 107
+  }
+ }
+}

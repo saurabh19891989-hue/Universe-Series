@@ -84,3 +84,71 @@ Single still: about 1.3 s. Lip sync (Rhubarb): ~45 s wall for 17 lines with 2 jo
 - Acting is keyed by hand with few poses per line; broadcast shows have many more held
   poses and squash-and-stretch on the head.
 - The set picture is soft when the camera zooms past about 2x (it is a 1376 px picture).
+
+---
+
+# Test 4 — painted pose library on the same scene (28 Nov, evening)
+
+Sample: `samples/e01/E01-toon-test4-720p.mp4`; 1080p `${SCRATCH}/e01/renders/E01-toon-test4.mp4`.
+Same scene, stems, mix and timing as test 3, so the two compare directly. Timing file
+`episodes/E01/toon-test4-shotlist.json` (written by `build_e01_desk4.py`). Code:
+`toon4.py` (renderer), `rigs4.json` + `build_rigs4.py` (landmarks), `toon4_pictures.py`
+(every picture prompt), `paintface.py` (a copy of test 1's painted-face engine),
+`landmark_sheet.py` (gridded crops for reading landmarks), `mix_audio.py` (unchanged).
+
+## Method chosen: pose library, not a cut-up rig
+- **All visible character art is a picture.** Every held pose is one painted picture from the
+  Codex CLI, with the master (and the first approved design) as references, on chroma green,
+  in test 1's graphic-novel style line. Bodies, hands, clothes and faces all come from these.
+- Between poses: snappy pose-to-pose swaps (a 2½-frame dissolve plus a squash-and-settle pop),
+  with keyed lean/squash/overshoot on top. Poses are lined up at the neck, so the head stays
+  put while the body changes underneath. In wide shots they are lined up at the feet.
+- On top of every pose the face moves: Rhubarb mouths drawn on the painted lips, with jaw
+  warp (from test 1, mouths opened 1.9x wider than test 1), blinks, eye darts and head
+  tilt/nod that follows speech. Breathing and sway run all the time.
+- Walk: one 6-drawing walk-cycle sheet, cut automatically, played as the character
+  crosses the floor (about 5.5 drawings a second).
+- Why not cut one picture into jointed limbs: the hidden areas under each limb have to be
+  invented, the joints never match the painted shading, and the result moves like test 3's
+  rubber tubes. Held painted poses look like the masters and read like limited TV animation.
+- Sets are paintings (wide hall, closer desk view). The black window is keyed and the NASA
+  plate placed behind it. The counter is cut out as a foreground layer, which also hides where
+  the knee-up pictures end.
+- Exterior: the ship flies a keyed path. After touchdown it is pinned to a patch of ground
+  tracked through the NASA plate with optical flow, so it stays landed while the camera flies on.
+
+## Pictures and hand work
+- This test: **29 pictures, all Codex, none failed** (Jax 17 incl. a 6-pose walk sheet, of
+  which 5 full-body gesture poses went unused after knee-up versions were made; Mira 9; ship 1; sets 2). Codex 5-hour window 18% used after.
+- Per character: about 10–15 pose pictures for one scene's acting (idle, 6–8 gestures, 2
+  close-ups, a walk sheet). A season's regular would build a library of about 40–60 poses
+  reused every week, plus 5–10 new poses per episode.
+- Landmarks (eyes, mouth, chin, head ellipse, neck, anchor) are read by eye from gridded
+  crops: about 2 minutes per pose, about 50 min for this test's 20 face poses. This is the
+  thing to automate next (a free face-landmark model; none was reachable today).
+- Hours per character for one scene's library: about 1.5 h (pictures run 4 at a time,
+  about 1 min each; most of the time is checking and landmarks).
+
+## Render speed
+RENDER4_LINE
+
+## A 35-minute episode would need
+- Pictures: about 150–250 (6–8 characters × 15–25 poses, plus 15–20 sets/angles, ship and
+  props). At roughly 1 min each, 4 at a time, that is about 1–1.5 hours of Codex time. It may
+  be more than one day's image limit on a Plus plan (a 24-hour image cap was hit at about
+  150–170 on 27 Nov), so plan two days or reuse libraries.
+- Landmarks: about 6–8 h by hand per episode at first, mostly a one-time cost for the
+  regulars. Automating it is the main saving.
+- Posing and timing: about 6–10 h per episode (choosing which held pose plays on which
+  line). Faster than test 3 because poses are pictures, not keyed joints.
+- Render: RENDER4_EP_LINE
+
+## Known gaps (Test 4)
+- Pose swaps are visible as swaps (limited animation): there are no in-betweens.
+  Arms jump from pose to pose with a squash pop.
+- Walk is 6 drawings (about 5.5 a second): feet slide a little between drawings.
+- Small differences between pose pictures (costume details, hair, light) "boil" at each swap.
+- Painted mouths are drawn over closed lips; the far-side mouth corner is weak in strong
+  three-quarter views.
+- Close-ups of the set are softened on purpose (depth of field), because the 1672-px set
+  pictures cannot hold a 2x zoom sharply.

@@ -5435,5 +5435,1160 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-28T15:53:50",
+  "job": "toon4",
+  "name": "ship",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 50.5,
+  "tokens_used": 21896,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222dc-2268-7c31-a3e7-c6cfbfdc89e8",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 7.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 11.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:53:55",
+  "job": "toon4",
+  "name": "J_idle",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 55.4,
+  "tokens_used": 8510,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222dc-2268-7593-815a-5b74bccb362a",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 7.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 11.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:53:57",
+  "job": "toon4",
+  "name": "M_neutral",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 56.8,
+  "tokens_used": 12852,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222dc-2266-7921-be8a-6e569ea7841d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 7.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 11.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:54:04",
+  "job": "toon4",
+  "name": "set_wide",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master-bright.jpg"
+  ],
+  "seconds": 63.7,
+  "tokens_used": 11988,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222dc-2268-7e40-be35-1d53d70bb936",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 7.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 11.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:54:56",
+  "job": "toon4",
+  "name": "J_point",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 40.4,
+  "tokens_used": 14735,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222dd-46f1-7233-93fd-41fbb7fe88fa",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 8.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:55:00",
+  "job": "toon4",
+  "name": "J_shrug",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 43.8,
+  "tokens_used": 18156,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222dd-46f6-7e52-8412-d26bdc45b76c",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 9.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:55:05",
+  "job": "toon4",
+  "name": "J_sweep",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 49.3,
+  "tokens_used": 18829,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222dd-46fc-7f20-98b0-74271a028fa2",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 9.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:55:09",
+  "job": "toon4",
+  "name": "J_plead",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 53.1,
+  "tokens_used": 12583,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222dd-470c-7cd2-b461-33a45fa8bbd2",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 9.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:55:37",
+  "job": "toon4",
+  "name": "J_self",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 37.2,
+  "tokens_used": 5750,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222dd-f200-7530-93cc-c60dcceddea0",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 10.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:55:41",
+  "job": "toon4",
+  "name": "J_finger",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 44.2,
+  "tokens_used": 10102,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222dd-e4e0-7290-bc22-2b77830378d4",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 10.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:55:42",
+  "job": "toon4",
+  "name": "J_flinch",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 37.0,
+  "tokens_used": 7160,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222de-074e-74d3-9c6a-c544cec2f330",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 10.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:56:06",
+  "job": "toon4",
+  "name": "J_walk",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 56.4,
+  "tokens_used": 10622,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222de-1662-75c2-af3e-ab8cb10b089f",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 11.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:56:24",
+  "job": "toon4",
+  "name": "J_cu_finger",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 47.2,
+  "tokens_used": 5837,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222de-8377-71d0-b995-5112c191b0a9",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 12.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:56:32",
+  "job": "toon4",
+  "name": "M_show",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "M_neutral.png"
+  ],
+  "seconds": 50.0,
+  "tokens_used": 23119,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222de-97e7-7af0-9331-872eb5a286bd",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 12.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:56:33",
+  "job": "toon4",
+  "name": "M_form",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "M_neutral.png"
+  ],
+  "seconds": 51.8,
+  "tokens_used": 7145,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222de-91aa-7f22-abf3-d3e632fa1833",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 12.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:56:49",
+  "job": "toon4",
+  "name": "M_tap",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "M_neutral.png"
+  ],
+  "seconds": 43.1,
+  "tokens_used": 13002,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222de-f2a2-7c62-b8aa-278c83297a71",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 13.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:57:11",
+  "job": "toon4",
+  "name": "M_slam",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "M_neutral.png"
+  ],
+  "seconds": 38.3,
+  "tokens_used": 7344,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222df-5c65-70e2-a3ec-10a5f42e5e9a",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 13.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:57:14",
+  "job": "toon4",
+  "name": "M_stamp",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "M_neutral.png"
+  ],
+  "seconds": 49.3,
+  "tokens_used": 12456,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222df-3c2c-79c0-8912-3db5cf3b00e0",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 14.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:57:21",
+  "job": "toon4",
+  "name": "M_stamp_up",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "M_neutral.png"
+  ],
+  "seconds": 48.5,
+  "tokens_used": 17901,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222df-5b86-7802-a662-e5917afd8f0f",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 14.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:57:36",
+  "job": "toon4",
+  "name": "M_cu",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "M_neutral.png"
+  ],
+  "seconds": 47.6,
+  "tokens_used": 10260,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222df-9b29-7413-b921-a3019e6b73e9",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 14.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:57:56",
+  "job": "toon4",
+  "name": "set_desk",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "set_wide.png"
+  ],
+  "seconds": 41.9,
+  "tokens_used": 9619,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222df-fd0b-7993-80f7-25fb6606e59f",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 14.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:57:58",
+  "job": "toon4",
+  "name": "M_cu_look",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "M_neutral.png"
+  ],
+  "seconds": 47.0,
+  "tokens_used": 6838,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222df-f20b-7170-8e4b-eeb41f1f4343",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 14.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 12.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:58:36",
+  "job": "toon4",
+  "name": "Jk_self",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 35.4,
+  "tokens_used": 9953,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222e0-b3fd-7a72-bf77-fc40b89a789e",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 16.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 13.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:58:39",
+  "job": "toon4",
+  "name": "Jk_point",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 38.1,
+  "tokens_used": 10785,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222e0-b420-7a41-8afd-8a9f74344826",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 16.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 13.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:58:47",
+  "job": "toon4",
+  "name": "Jk_plead",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 46.9,
+  "tokens_used": 13335,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222e0-b421-7c72-8e14-2fdff48ecaed",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 17.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 13.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:58:51",
+  "job": "toon4",
+  "name": "Jk_listen",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 50.0,
+  "tokens_used": 14893,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222e0-b3fe-7000-85b7-ae311f33222a",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 17.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 13.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:59:16",
+  "job": "toon4",
+  "name": "Jk_shrug",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 40.3,
+  "tokens_used": 22370,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222e1-3e5c-7940-bd1c-8ee1dc03e791",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 17.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 13.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:59:28",
+  "job": "toon4",
+  "name": "Jk_flinch",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 49.8,
+  "tokens_used": 10810,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222e1-48d1-75e3-b766-912a06460319",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 18.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 13.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T15:59:40",
+  "job": "toon4",
+  "name": "Jk_startle",
+  "purpose": "toon test 4 pose library",
+  "refs": [
+   "master.jpg",
+   "J_idle.png"
+  ],
+  "seconds": 52.4,
+  "tokens_used": 8281,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222e1-6b62-7d73-a57a-837956ac4be6",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 18.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 13.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]

@@ -393,3 +393,15 @@ Gemini API key is saved as a network secret on the Default environment
   walking bodies and real locations — and make the next test. Codex is on a Plus plan (owner
   confirmed), with plenty of allowance: use it freely, more pictures if they smooth the motion.
   CLAUDE.md updated. Test 4 (combined) started with the test 3 builder.
+- **Owner (28 Nov, later):** keep building the test; because the picture will sit below
+  photoreal video, audio (voices, music, tunes, sound) and story/scenes must be raised hard.
+  Study the best and most-shared scenes in cinema, TV and online video; take inspiration from
+  how they work; fit into our larger story. Longer video or full episode decided after the test.
+- Started in parallel (all Opus): (a) scene study → `research/story/scene-study.md`,
+  `canon/SCENE-PLAYBOOK.md` (proposal), audits `episodes/E01|E02/playbook-audit.md`, incl. a
+  recommendation on episode length for animation; (b) voice bake-off of expressive open
+  voice models on CPU, licence-clean → listening reel `samples/voices/bakeoff-28nov/`, notes
+  `research/tooling/voice-upgrade.md`; (c) music and sound upgrade (better instruments, main
+  theme and motifs, real effects, mix) → reel `samples/audio/upgrade-28nov/`, notes
+  `research/tooling/audio-upgrade.md`, sources `assets/audio-sources.json`.
+  Test 4 (combined animation) still building. Only the owner can judge the audio reels.

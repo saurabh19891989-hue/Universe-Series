@@ -13,13 +13,15 @@
   "range_used": "pts 66.30-70.15 s only (visualisation: Earth rising past the lunar limb near Mons Mouton). Rest of the video has a narrator on camera, a NASA logo and lower-thirds: NOT used.",
   "treatment": "original audio stripped (ffmpeg -an -c copy); range flipped vertically (the visualisation shows the south pole with Earth below the limb; flipped so the ground is at the bottom), slowed to 0.2x with blended frames, played forward then reversed (38.4 s) -> toon/plates/window.mp4. Shown behind cartoon glass, not as a factual record.",
   "status": "USE_RANGE_ONLY",
-  "logged_by": "toon test 3 builder, 28 Nov 2026"
+  "logged_by": "toon test 3 builder, 28 Nov 2026",
+  "test4_use": "TEST 4 window plate: same range 66.30-70.15 s, flipped, slowed to 0.5x (not 0.2x) with blended frames, forward then reversed (15.4 s, looped) -> toon/plates/window2.mp4"
  },
  {
   "use": "TEST 3 exterior (ship landing)",
   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/plates/GSFC_20190513_m4714_Lee_Lincoln_Scarp_Moon_Flyover.mp4",
   "already_logged_in": "assets/e01-plates.json",
   "range_used": "12-21 s (low oblique run across a lunar plain), real speed, resampled to 24 fps -> toon/plates/ext.mp4",
-  "credit_line": "David Ladd, Tom Waters, Ernie Wright (NASA/GSFC Scientific Visualization Studio)"
+  "credit_line": "David Ladd, Tom Waters, Ernie Wright (NASA/GSFC Scientific Visualization Studio)",
+  "test4_use": "TEST 4 exterior: same 12-21 s range; after touchdown the ship is pinned to a ground point tracked with optical flow, so it stays on the ground while the camera flies on"
  }
 ]
