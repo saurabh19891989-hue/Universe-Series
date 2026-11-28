@@ -193,9 +193,11 @@ def stage_and_room(stems, mix, hall="Musikvereinsaal", wet=1.0, dry_only=False):
             room += dsp.convolve(er_in[dname], er_ir, dep["pre"] * 0.3)
         if np.any(late_in[dname]):
             room += dsp.convolve(late_in[dname], late_ir, dep["pre"]) * 0.8
-    return dry + room * wet, staged
+    # measured IRs are fairly correlated L/R (Scala 0.68, Musikverein 0.59): widen the room return only
+    return dry + dsp.width(room, ROOM_WIDTH) * wet, staged
 
 
+ROOM_WIDTH = 1.5
 BUS3 = [("hp", 28, 0.7), ("peak", 280, 0.9, -1.2), ("peak", 3200, 0.8, +0.8), ("hs", 9500, 0.7, +2.0)]
 
 
@@ -210,6 +212,10 @@ def bus3(x, target=-16.0, glue=True):
 def render(pm, mix, length, hall="Musikvereinsaal", target=-16.0, wet=1.0, fade_s=1.5):
     if hasattr(pm, "pm"):
         pm = pm.pm
+    if pm.get_end_time() > length:      # render an excerpt: drop notes that start after the end
+        pm = copy.deepcopy(pm)
+        for i in pm.instruments:
+            i.notes = [x for x in i.notes if x.start < length - 0.05]
     stems = render_stems(pm, mix, length)
     mixed, staged = stage_and_room(stems, mix, hall, wet)
     mixed = mixed[:int(length * SR)]

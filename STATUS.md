@@ -429,3 +429,14 @@ Gemini API key is saved as a network secret on the Default environment
   sound, playback at speed. Weaknesses: pose changes are hard cuts (arms jump, small details
   shift between poses), walk slides a little, faces small in the wide shot, much black window.
   Episode estimate: 150–250 pictures, ~12.5 CPU-hours render. Sent to owner.
+- **Music and sound upgrade landed (28 Nov):** reel of 10 MP3s in
+  `samples/audio/upgrade-28nov/` (+ORDER.txt): A/B of one E01 cue on new instruments (VCSL and
+  FreePats CC0 samples, Voxengo recorded rooms), new 58 s main theme, 15 s title sting,
+  Jax/Mira/PIP motifs, end-card tune, and the customs-desk scene before/after (new underscore
+  timed to the gags, real footsteps/cloth/paper/stamp, voice chain, band ducking; music under
+  78% of the scene, was 8%). New code: `music/v3mix.py`, `dsp.py`, `s1_themes.py`,
+  `sfx/mix3.py`, opt-in band ducking in `edit/audio.py`. Sources logged in
+  `assets/audio-sources.json`; notes `research/tooling/audio-upgrade.md`. Not found
+  licence-clean: tabla, sitar, veena, bansuri, erhu, kora, oud. No licence-clean vocal-song
+  route. Showrunner made `samples/e01/E01-toon-test4-newsound-720p.mp4` (test 4 picture + the
+  remixed scene sound, same timing). NOBODY HAS LISTENED; measurements only. Sent to owner.

@@ -353,6 +353,17 @@ def build(spec, shots_timeline, total_s, fps, resolve, workdir, log):
     gf = 1 - (1 - db(duck.get("sfx_db", -6))) * g
     gm = np.pad(np.repeat(gm, hop), (0, n - k * hop), mode="edge")[:, None]
     gf = np.pad(np.repeat(gf, hop), (0, n - k * hop), mode="edge")[:, None]
+    if duck.get("mode") == "band":
+        # opt-in (28 Nov audio upgrade): duck the music deeper in the speech band (speech_db) than
+        # outside it (broad_db), so the score keeps its body and air under dialogue. Default stays broadband.
+        import sys as _sys
+        _sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "music"))
+        import dsp as _dsp
+        key = np.pad(np.repeat(g, hop), (0, n - k * hop), mode="edge").astype(np.float32)
+        mus_b, _ = _dsp.band_duck(mus, key, duck.get("speech_db", -9.0), duck.get("broad_db", -4.0),
+                                  attack_s=0.01, release_s=0.05)
+        gm = 1.0
+        mus = mus_b
     mix = dlg + wet + mus * gm + fx * gf + fx_noduck
     buses = {}
     for nm, b in (("dialogue", dlg + wet), ("music", mus * gm), ("effects", fx * gf + fx_noduck)):

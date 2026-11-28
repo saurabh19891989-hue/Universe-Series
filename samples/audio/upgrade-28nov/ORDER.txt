@@ -1,0 +1,39 @@
+AUDIO UPGRADE LISTENING REEL - 28 Nov 2026
+Nobody has listened to these files. The agent that made them cannot hear; all notes are measurements.
+Play in this order, on headphones first, then once on a phone speaker. Every file is under 2.9 MB.
+
+01-AB-A-current-E01-C1-caper-40s.mp3    (40 s)  A: the E01 'post-chaise' caper as it renders today (v2).
+02-AB-B-upgraded-E01-C1-caper-40s.mp3   (40 s)  B: the SAME NOTES on the new sound: real classical guitar,
+                                                real drum/percussion samples, a measured concert-hall room,
+                                                orchestral seating, a gentler bus. Both at the same loudness.
+                                                Listen for: guitar and drums more 'played'? room better or worse?
+
+03-main-theme-v3-58s.mp3                (58 s)  NEW MAIN THEME. 0:00 ship ostinato (marimba, hand drum)
+                                                0:05 the hook on flute + solo violin, 0:23 the B 'lift' on
+                                                violins with horns, 0:32 full orchestra tutti, 0:51 tag on
+                                                piano, 0:54 final hit. Is the tune hummable after one play?
+04-title-sting-15s.mp3                  (15 s)  15-second title sting: the hook on brass, rising run,
+                                                hit at 0:11, a little piano/flute wink after it.
+
+05-motif-jax-16s.mp3                    (16 s)  JAX: Dorian swing on clarinet then cornet, nylon guitar,
+                                                darbuka; the tune never finishes (that is the joke).
+06-motif-mira-18s.mp3                   (18 s)  MIRA: Sa-Re-Ga-Pa-Dha on F, flute sliding into notes,
+                                                kalimba 'clock', harp drone, solo violin answer.
+07-motif-pip-18s.mp3                    (18 s)  PIP: tiny postal march (piccolo, xylophone, tuba oom-pah,
+                                                woodblock tick-tock), ends on the rubber-stamp slap and a
+                                                toy-whistle 'query'.
+
+08-customs-scene-BEFORE-56s.mp3         (56 s)  The customs-desk toon test as it is now (audio of
+                                                samples/e01/E01-toon-test-720p.mp4).
+09-customs-scene-AFTER-56s.mp3          (56 s)  The same scene remixed end to end: new underscore with
+                                                comic timing, real + synth effects (steps on Jax's walk,
+                                                cloth on gestures, paper, the stamp), room tone, voices
+                                                EQ'd/compressed and placed in the hall, music ducked only
+                                                in the speech band. Play it against the picture if you can
+                                                (same 56 s timing as the video).
+                                                Listen for: words clear? music too busy under jokes?
+                                                silences landing (0:07-0:10, 0:29, 0:37)? stamp at 0:53?
+
+10-end-card-17s.mp3                     (17 s)  Bonus: end-card tune (the hook, slow, piano + flute).
+
+Details and measurements: research/tooling/audio-upgrade.md. Licences: assets/audio-sources.json.

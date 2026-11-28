@@ -53,7 +53,14 @@ def analyse(path, lid):
         loud_std_db=round(float(np.std(db[act])), 1), active_rms_dbfs=round(float(np.mean(db[act])), 1),
         peak_dbfs=round(20 * np.log10(peak), 1), clipped=clipped,
         lead_s=round(lead, 2), trail_s=round(trail, 2), pause_frac=round(pause_frac, 2),
-        centroid_hz=int(np.mean(librosa.feature.spectral_centroid(y=y, sr=16000)[0][act])) if act.any() else 0)
+        centroid_hz=centroid(y, act, hop))
+
+
+def centroid(y, act, hop):
+    c = librosa.feature.spectral_centroid(y=y, sr=16000, n_fft=800, hop_length=hop)[0]
+    n = min(len(c), len(act))
+    sel = c[:n][act[:n]]
+    return int(np.mean(sel)) if len(sel) else 0
 
 
 if __name__ == "__main__":

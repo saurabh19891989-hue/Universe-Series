@@ -1,0 +1,389 @@
+{
+ "title": "Outside sound sources: sample libraries, impulse responses, recorded effects",
+ "updated": "2026-11-28",
+ "rule": "Only sources whose licence allows use in a monetised YouTube series. Licence wording copied from the source page or the licence file shipped with the download (checked 28 Nov 2026). Large files live in the scratchpad, never in git; fetch with production/tools/music/fetch_libs_v3.sh and production/tools/sfx/fetch_fx_e01.sh.",
+ "libraries": [
+  {
+   "name": "Versilian Community Sample Library (VCSL), 'sfz' branch",
+   "by": "Versilian Studios LLC (Sam Gossner)",
+   "source_url": "https://github.com/sgossner/VCSL",
+   "commit": "dfcf4a4918771eee884b96ad4493de82ef84daf6 (branch sfz)",
+   "licence": "CC0 1.0",
+   "licence_wording": "This collection is under a Creative Commons 0 license. Essentially it's Public Domain- you can do whatever you want with these sounds (even make commercial software), no royalties, no credit, no special terms.",
+   "licence_source": "README.md in the repository",
+   "credit": "Versilian Community Sample Library (CC0) - credit optional; we credit it in the end titles' music line.",
+   "used": "Kawai grand piano, marimba, vibraphone, xylophone, glockenspiel, kalimba (Kenya), concert harp, darbuka, frame drum, cajon, conga, bongos, snare, hi-hat, bass drum, tom, suspended cymbal, triangles, shaker, woodblock, slapstick, flexatone, ratchet, vibraslap, guiro, claves, finger cymbals, Nepalese hand bells, mark trees, toy train whistle; also fetched: balafon, dan tranh, folk harp",
+   "local_path": "${SCRATCH}/audio2/libs/vcsl (sparse checkout, ~1.8 GB)"
+  },
+  {
+   "name": "FreePats Spanish Classical Guitar (SFZ, 2019-06-18)",
+   "by": "Roberto (roberto@zenvoid.org), FreePats project",
+   "source_url": "https://freepats.zenvoid.org/Guitar/acoustic-guitar.html",
+   "download": "https://freepats.zenvoid.org/Guitar/SpanishClassicalGuitar/SpanishClassicalGuitar-SFZ-20190618.7z",
+   "licence": "CC0 1.0",
+   "licence_wording": "Published under the terms of Creative Commons CC0 public domain dedication: https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_source": "readme.txt in the archive and the web page",
+   "credit": "FreePats Spanish classical guitar (CC0)",
+   "note": "one velocity layer, no round robins; replaces the FluidR3 GM nylon guitar",
+   "local_path": "${SCRATCH}/audio2/libs/freepats"
+  },
+  {
+   "name": "Voxengo IM Reverbs impulse responses (IMreverbs.zip)",
+   "by": "Aleksey Vaneev (Voxengo)",
+   "source_url": "https://www.voxengo.com/impulses/",
+   "download": "https://www.voxengo.com/files/impulses/IMreverbs.zip",
+   "licence": "Voxengo impulse licence (royalty-free, commercial use allowed; files may not be sold or redistributed for profit)",
+   "licence_wording": "Permission is granted to anyone to use these impulse files royalty-free for any purpose, including commercial usage. You may not sell these impulse files or earn any direct or indirect profit from their distribution.",
+   "licence_source": "https://www.voxengo.com/impulses/ and license.txt in the zip",
+   "credit": "Impulse responses: Voxengo IM Reverbs (not required; courtesy credit)",
+   "used": "Musikvereinsaal, Scala Milan Opera Hall (score); Masonic Lodge (customs-hall dialogue and effects)",
+   "note": "We use them only inside our mixes and never redistribute the IR files (they stay out of git).",
+   "local_path": "${SCRATCH}/audio2/libs/voxengo"
+  },
+  {
+   "name": "Virtual Playing Orchestra 3",
+   "by": "Paul Battersby",
+   "source_url": "http://virtualplaying.com/virtual-playing-orchestra/",
+   "licence": "free for any music including commercial (per author); components CC0 / CC Sampling+ 1.0 / CC BY-SA / no restrictions",
+   "licence_wording": "I enforce no restrictions on using this library to make music, even for commercial purposes",
+   "note": "already in use since v2 (see production/tools/music/fetch_libs.sh)"
+  },
+  {
+   "name": "GeneralUser GS v2.0.3",
+   "by": "S. Christian Collins",
+   "source_url": "https://github.com/mrbumpy409/GeneralUser-GS",
+   "licence_wording": "You may use GeneralUser GS without restriction for your own music creation, private or commercial.",
+   "note": "already in use since v2; v3 uses it only as a fallback for unmapped GM sounds"
+  }
+ ],
+ "recorded_effects_freesound_cc0": [
+  {
+   "name": "roomtone_large_interior_ac",
+   "file": "roomtone_large_interior_ac.wav",
+   "freesound_id": 458871,
+   "title": "Room Tone - Large Interior with AC.wav",
+   "author": "qreiff",
+   "source_url": "https://freesound.org/people/qreiff/sounds/458871/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/458/458871_3531195-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 81.568,
+   "retrieved": "2026-11-28",
+   "credit": "\"Room Tone - Large Interior with AC.wav\" by qreiff (freesound.org, CC0)",
+   "used_in": [
+    "samples/audio/upgrade-28nov/09-customs-scene-AFTER-56s.mp3"
+   ],
+   "status": "used",
+   "local_path": "${SCRATCH}/audio2/fx_real/roomtone_large_interior_ac.wav"
+  },
+  {
+   "name": "roomtone_empty_office_hallway",
+   "file": "roomtone_empty_office_hallway.wav",
+   "freesound_id": 570015,
+   "title": "Ambience Empty Office Hallway (Stereo)",
+   "author": "Sheyvan",
+   "source_url": "https://freesound.org/people/Sheyvan/sounds/570015/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/570/570015_3248005-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 50.8959,
+   "retrieved": "2026-11-28",
+   "credit": "\"Ambience Empty Office Hallway (Stereo)\" by Sheyvan (freesound.org, CC0)",
+   "used_in": [
+    "samples/audio/upgrade-28nov/09-customs-scene-AFTER-56s.mp3"
+   ],
+   "status": "used",
+   "local_path": "${SCRATCH}/audio2/fx_real/roomtone_empty_office_hallway.wav"
+  },
+  {
+   "name": "fluorescent_hum_store",
+   "file": "fluorescent_hum_store.wav",
+   "freesound_id": 451918,
+   "title": "room tone depanneur corner store fluorescent light only hum Montreal, Canada.flac",
+   "author": "kyles",
+   "source_url": "https://freesound.org/people/kyles/sounds/451918/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/451/451918_612689-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 55.8224,
+   "retrieved": "2026-11-28",
+   "credit": "\"room tone depanneur corner store fluorescent light only hum Montreal, Canada.flac\" by kyles (freesound.org, CC0)",
+   "used_in": [
+    "samples/audio/upgrade-28nov/09-customs-scene-AFTER-56s.mp3"
+   ],
+   "status": "used",
+   "local_path": "${SCRATCH}/audio2/fx_real/fluorescent_hum_store.wav"
+  },
+  {
+   "name": "footsteps_shoes_hard_floor",
+   "file": "footsteps_shoes_hard_floor.wav",
+   "freesound_id": 637555,
+   "title": "footsteps shoes walk hard floor stone patio nice.flac",
+   "author": "kyles",
+   "source_url": "https://freesound.org/people/kyles/sounds/637555/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/637/637555_612689-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 7.06787,
+   "retrieved": "2026-11-28",
+   "credit": "\"footsteps shoes walk hard floor stone patio nice.flac\" by kyles (freesound.org, CC0)",
+   "used_in": [
+    "samples/audio/upgrade-28nov/09-customs-scene-AFTER-56s.mp3"
+   ],
+   "status": "used",
+   "local_path": "${SCRATCH}/audio2/fx_real/footsteps_shoes_hard_floor.wav"
+  },
+  {
+   "name": "footsteps_docmartens",
+   "file": "footsteps_docmartens.wav",
+   "freesound_id": 534635,
+   "title": "Footsteps Male Doc Martins.wav",
+   "author": "KevZim",
+   "source_url": "https://freesound.org/people/KevZim/sounds/534635/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/534/534635_7083541-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 36.9357,
+   "retrieved": "2026-11-28",
+   "credit": "\"Footsteps Male Doc Martins.wav\" by KevZim (freesound.org, CC0)",
+   "used_in": [],
+   "status": "fetched, not yet used (library stock)",
+   "local_path": "${SCRATCH}/audio2/fx_real/footsteps_docmartens.wav"
+  },
+  {
+   "name": "rubber_stamp_plastic",
+   "file": "rubber_stamp_plastic.wav",
+   "freesound_id": 461888,
+   "title": "17_stamp, rubber, plastic.wav",
+   "author": "15FPanska_KristynaHaupt",
+   "source_url": "https://freesound.org/people/15FPanska_KristynaHaupt/sounds/461888/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/461/461888_9681967-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 15.5775,
+   "retrieved": "2026-11-28",
+   "credit": "\"17_stamp, rubber, plastic.wav\" by 15FPanska_KristynaHaupt (freesound.org, CC0)",
+   "used_in": [
+    "samples/audio/upgrade-28nov/09-customs-scene-AFTER-56s.mp3"
+   ],
+   "status": "used",
+   "local_path": "${SCRATCH}/audio2/fx_real/rubber_stamp_plastic.wav"
+  },
+  {
+   "name": "stamp_es",
+   "file": "stamp_es.wav",
+   "freesound_id": 448474,
+   "title": "es-stamp.wav",
+   "author": "eddies2000",
+   "source_url": "https://freesound.org/people/eddies2000/sounds/448474/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/448/448474_9090982-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 5.23477,
+   "retrieved": "2026-11-28",
+   "credit": "\"es-stamp.wav\" by eddies2000 (freesound.org, CC0)",
+   "used_in": [],
+   "status": "fetched, not yet used (library stock)",
+   "local_path": "${SCRATCH}/audio2/fx_real/stamp_es.wav"
+  },
+  {
+   "name": "paper_shuffle_stack",
+   "file": "paper_shuffle_stack.wav",
+   "freesound_id": 182889,
+   "title": "Paper Shuffle and Stack.aif",
+   "author": "moose13088",
+   "source_url": "https://freesound.org/people/moose13088/sounds/182889/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/182/182889_1362440-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 44.88,
+   "retrieved": "2026-11-28",
+   "credit": "\"Paper Shuffle and Stack.aif\" by moose13088 (freesound.org, CC0)",
+   "used_in": [
+    "samples/audio/upgrade-28nov/09-customs-scene-AFTER-56s.mp3"
+   ],
+   "status": "used",
+   "local_path": "${SCRATCH}/audio2/fx_real/paper_shuffle_stack.wav"
+  },
+  {
+   "name": "paper_rustling",
+   "file": "paper_rustling.wav",
+   "freesound_id": 653953,
+   "title": "paper rustling.wav",
+   "author": "12beesinatrenchcoat",
+   "source_url": "https://freesound.org/people/12beesinatrenchcoat/sounds/653953/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/653/653953_9149207-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 8.73712,
+   "retrieved": "2026-11-28",
+   "credit": "\"paper rustling.wav\" by 12beesinatrenchcoat (freesound.org, CC0)",
+   "used_in": [
+    "samples/audio/upgrade-28nov/09-customs-scene-AFTER-56s.mp3"
+   ],
+   "status": "used",
+   "local_path": "${SCRATCH}/audio2/fx_real/paper_rustling.wav"
+  },
+  {
+   "name": "clothing_movement",
+   "file": "clothing_movement.wav",
+   "freesound_id": 256310,
+   "title": "clothing movement",
+   "author": "Kodack",
+   "source_url": "https://freesound.org/people/Kodack/sounds/256310/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/256/256310_2276808-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 8.0074,
+   "retrieved": "2026-11-28",
+   "credit": "\"clothing movement\" by Kodack (freesound.org, CC0)",
+   "used_in": [
+    "samples/audio/upgrade-28nov/09-customs-scene-AFTER-56s.mp3"
+   ],
+   "status": "used",
+   "local_path": "${SCRATCH}/audio2/fx_real/clothing_movement.wav"
+  },
+  {
+   "name": "clothes_walking_foley",
+   "file": "clothes_walking_foley.wav",
+   "freesound_id": 788342,
+   "title": "Clothes movements (walking foley)",
+   "author": "xkeril",
+   "source_url": "https://freesound.org/people/xkeril/sounds/788342/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/788/788342_13504080-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 49.2852,
+   "retrieved": "2026-11-28",
+   "credit": "\"Clothes movements (walking foley)\" by xkeril (freesound.org, CC0)",
+   "used_in": [],
+   "status": "fetched, not yet used (library stock)",
+   "local_path": "${SCRATCH}/audio2/fx_real/clothes_walking_foley.wav"
+  },
+  {
+   "name": "office_chair_creaky",
+   "file": "office_chair_creaky.wav",
+   "freesound_id": 464252,
+   "title": "$ Office chair - creaky.wav",
+   "author": "kennydoug",
+   "source_url": "https://freesound.org/people/kennydoug/sounds/464252/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/464/464252_7433899-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 16.7366,
+   "retrieved": "2026-11-28",
+   "credit": "\"$ Office chair - creaky.wav\" by kennydoug (freesound.org, CC0)",
+   "used_in": [],
+   "status": "fetched, not yet used (library stock)",
+   "local_path": "${SCRATCH}/audio2/fx_real/office_chair_creaky.wav"
+  },
+  {
+   "name": "bang_table_desk",
+   "file": "bang_table_desk.wav",
+   "freesound_id": 822460,
+   "title": "banging on door, table, wood, metal, desk.",
+   "author": "HenryHardhat",
+   "source_url": "https://freesound.org/people/HenryHardhat/sounds/822460/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/822/822460_17740437-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 1.428,
+   "retrieved": "2026-11-28",
+   "credit": "\"banging on door, table, wood, metal, desk.\" by HenryHardhat (freesound.org, CC0)",
+   "used_in": [
+    "samples/audio/upgrade-28nov/09-customs-scene-AFTER-56s.mp3"
+   ],
+   "status": "used",
+   "local_path": "${SCRATCH}/audio2/fx_real/bang_table_desk.wav"
+  },
+  {
+   "name": "cartoony_whooshes",
+   "file": "cartoony_whooshes.wav",
+   "freesound_id": 142348,
+   "title": "Cartoony whooshes",
+   "author": "BranRainey",
+   "source_url": "https://freesound.org/people/BranRainey/sounds/142348/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/142/142348_757844-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 2.34499,
+   "retrieved": "2026-11-28",
+   "credit": "\"Cartoony whooshes\" by BranRainey (freesound.org, CC0)",
+   "used_in": [],
+   "status": "fetched, not yet used (library stock)",
+   "local_path": "${SCRATCH}/audio2/fx_real/cartoony_whooshes.wav"
+  },
+  {
+   "name": "swish_whoosh",
+   "file": "swish_whoosh.wav",
+   "freesound_id": 568834,
+   "title": "swish/whoosh",
+   "author": "JSilverSound",
+   "source_url": "https://freesound.org/people/JSilverSound/sounds/568834/",
+   "licence": "Creative Commons 0 (CC0 1.0 Universal)",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_wording_on_page": "Creative Commons 0",
+   "downloaded": "https://cdn.freesound.org/previews/568/568834_6566796-hq.mp3",
+   "quality_note": "Freesound public HQ preview (lossy); original WAV needs a logged-in download",
+   "duration_s": 6.8616,
+   "retrieved": "2026-11-28",
+   "credit": "\"swish/whoosh\" by JSilverSound (freesound.org, CC0)",
+   "used_in": [
+    "samples/audio/upgrade-28nov/09-customs-scene-AFTER-56s.mp3"
+   ],
+   "status": "used",
+   "local_path": "${SCRATCH}/audio2/fx_real/swish_whoosh.wav"
+  }
+ ],
+ "not_used_and_why": [
+  {
+   "name": "OpenAIR impulse library (York)",
+   "why": "site TLS certificate expired on 28 Nov 2026; not fetched (we do not bypass TLS). Many IRs are CC BY 4.0 - worth a retry later."
+  },
+  {
+   "name": "BBC Sound Effects",
+   "why": "RemArc licence is personal/educational/research only - excluded by owner rule."
+  },
+  {
+   "name": "MusicGen / AudioCraft weights",
+   "why": "CC-BY-NC 4.0 weights - non-commercial."
+  },
+  {
+   "name": "Stable Audio Open",
+   "why": "Stability Community Licence: commercial use only under USD 1M annual revenue and with registration - a dependency with a ceiling; not tested."
+  },
+  {
+   "name": "Freesound sounds under CC BY / CC BY-NC",
+   "why": "fetcher refuses anything whose page licence is not CC0 1.0 (keeps the credit list and NC risk at zero)."
+  }
+ ],
+ "in_house": "All other effects are synthesised in production/tools/sfx/*.py (sfxlib) and the placeholders in production/tools/edit/audio.py; all score is composed in production/tools/music/*.py."
+}
