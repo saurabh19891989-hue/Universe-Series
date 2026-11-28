@@ -130,7 +130,9 @@ Same scene, stems, mix and timing as test 3, so the two compare directly. Timing
   about 1 min each; most of the time is checking and landmarks).
 
 ## Render speed
-RENDER4_LINE
+Measured on the full 56 s (1344 frames, 1080p, 4 workers): **21.3 CPU-seconds per second of
+video** (draw + composite; x264 on top). Wall time 6.4–9.9 min for 56 s (7–11 s per second of video).
+Pose pictures are cached per worker. Lip sync is reused from test 3.
 
 ## A 35-minute episode would need
 - Pictures: about 150–250 (6–8 characters × 15–25 poses, plus 15–20 sets/angles, ship and
@@ -141,7 +143,8 @@ RENDER4_LINE
   regulars. Automating it is the main saving.
 - Posing and timing: about 6–10 h per episode (choosing which held pose plays on which
   line). Faster than test 3 because poses are pictures, not keyed joints.
-- Render: RENDER4_EP_LINE
+- Render: 2,100 s × 21.3 ≈ 12.5 CPU-hours → about 3.5–5 hours on 4 cores. One
+  overnight run per episode; shots can be re-rendered on their own.
 
 ## Known gaps (Test 4)
 - Pose swaps are visible as swaps (limited animation): there are no in-betweens.

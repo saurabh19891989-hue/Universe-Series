@@ -417,3 +417,15 @@ Gemini API key is saved as a network secret on the Default environment
   halves; or keep ~35 and release in two parts; or test E01 whole); whether to reopen locked
   E01/E02 for the upgrades. Showrunner rulings pending: Lucía's ribbon to Seo in ep 10; a
   Seo–Mattias scene in Season 2.
+- **Test 4 landed (combined):** 56 s, same customs-desk scene as test 3,
+  `samples/e01/E01-toon-test4-720p.mp4` (11 MB), characters sheet
+  `samples/e01/E01-toon4-characters.jpg`. Method: a library of PAINTED POSE pictures per
+  character (test 1's look, made in Codex from the masters), switched pose-to-pose with a
+  squash-and-settle pop, aligned at the neck; test 1's painted-mouth lip-sync (Rhubarb, opened
+  wider), blinks, eye darts on every pose; 6-drawing walk cycle; counter as foreground layer;
+  ship pinned to the ground after landing; Earthrise at 0.5x. 29 Codex pictures (Jax 17,
+  Mira 9, ship 1, sets 2); Codex 5-hour window 18% used after. Render 21 CPU-s per second.
+  Showrunner checked: contact sheet, 3 full frames, no frozen stretch ≥1 s. NOT checked:
+  sound, playback at speed. Weaknesses: pose changes are hard cuts (arms jump, small details
+  shift between poses), walk slides a little, faces small in the wide shot, much black window.
+  Episode estimate: 150–250 pictures, ~12.5 CPU-hours render. Sent to owner.
