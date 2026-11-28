@@ -500,3 +500,10 @@ Gemini API key is saved as a network secret on the Default environment
   shout mouth missing. Face landmarks now automatic (MediaPipe). 40 Codex pictures; 5-hour
   window 35% used. Stage 2a (timeline + animatic, following script v4 staging with existing
   stems) started; music builder scores once the timeline is frozen.
+- **E01 v4 critic review (28 Nov):** `episodes/E01/critic-review-v4.md` — READY AFTER FIXES
+  (9 must-fix, 14 should-fix, 6 nice-to-have, 16 ranked cuts). Main points: runs long once
+  acted (~25:35–25:50); logic/science slips (trunk/hat in sc. 19, "Shackleton floor", Sun
+  "above" at the pole, drone delay should be 2.6 s); static scenes back to back (3→4, 13→14);
+  Jax and Mira silent to each other 6:54–13:12; PIP's wrist unit used though E02 introduces
+  it. Showrunner rulings sent to the reviser; v5 being written (target 23:30–24:15).
+  Handover for E02 reviser: wrist unit introduced in E02 only; Chichikov faint again from E02.
