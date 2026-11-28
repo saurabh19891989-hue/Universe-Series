@@ -525,3 +525,9 @@ Gemini API key is saved as a network secret on the Default environment
   the speech band. Part A: motifs sparring, dead stops before the stamp; Part B: vacuum (suit
   breathing only), heart theme on duduk, cutaway march with stall and swap, 3 s near-silence,
   unresolved ending. NOBODY HAS LISTENED. Mix mp3 sent to owner ahead of the picture.
+- **E02 script v4 written (28 Nov):** `episodes/E02/script-v4.md`, 2,741 words, 320 cues, 24:08
+  (Part One 12:27, Part Two 11:40), 20 units. Midpoint: Kaguya stops Jax wearing the robe —
+  "You've worn one before." Signature scenes: the branch (comic, SHORT, Jax's lie drawn and
+  erased by Lucía's invoice), the robe (heart), the sunset run (action, new). Showrunner ruled
+  the 11 open questions (`episodes/E02/showrunner-rulings-v4.md`). Not read by showrunner yet.
+  Independent critic started. Note for E03: Seo's mother must be dead / contact is an aunt.

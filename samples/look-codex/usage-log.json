@@ -9977,5 +9977,2436 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-28T17:58:32",
+  "job": "s5",
+  "name": "J5_front_F",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_front.png"
+  ],
+  "seconds": 39.7,
+  "tokens_used": 7208,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234e-716d-7081-a80d-face5e275a81",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 59.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:58:34",
+  "job": "s5",
+  "name": "J5_front_E",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_front.png"
+  ],
+  "seconds": 41.4,
+  "tokens_used": 9086,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234e-7067-7102-bb9e-99cea97514f1",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 59.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:58:35",
+  "job": "s5",
+  "name": "J5_front_G",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_front.png"
+  ],
+  "seconds": 39.5,
+  "tokens_used": 13389,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234e-7cb3-74c1-aad5-abe0c2e8b5a0",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 59.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402292
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:58:36",
+  "job": "s5",
+  "name": "J5_front_H",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_front.png"
+  ],
+  "seconds": 34.8,
+  "tokens_used": 4426,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234e-9349-7f52-9f7e-878cede37b2b",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 59.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:59:04",
+  "job": "s5",
+  "name": "J5_front_smile",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_front.png"
+  ],
+  "seconds": 32.1,
+  "tokens_used": 13614,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234f-0cb9-7cc1-919d-1efeff22ab40",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 61.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 20.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:59:10",
+  "job": "s5",
+  "name": "M5_front_A",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "M5_front.png"
+  ],
+  "seconds": 34.1,
+  "tokens_used": 12798,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234f-1b41-73d0-8e88-dc972dd01c7d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 61.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 20.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:59:15",
+  "job": "s5",
+  "name": "J5_front_blink",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_front.png"
+  ],
+  "seconds": 40.9,
+  "tokens_used": 20013,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234f-121e-75e3-95be-1b4aa64e2ec0",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 61.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 20.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:59:15",
+  "job": "s5",
+  "name": "J5_front_brow_skeptic",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_front.png"
+  ],
+  "seconds": 40.5,
+  "tokens_used": 9498,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234f-1743-71e1-b0dc-56c27420d26d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 61.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 20.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402292
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:00:31",
+  "job": "s5j/J5_cu_shout",
+  "name": "J5_cu_shout",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_cu.png"
+  ],
+  "seconds": 35.7,
+  "tokens_used": 15824,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22350-5127-75a2-8a4b-a9de84d7df70",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 64.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 20.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:00:34",
+  "job": "s5j/M5_front_A",
+  "name": "M5_front_A",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "M5_front.png"
+  ],
+  "seconds": 39.1,
+  "tokens_used": 15291,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22350-50d7-72b1-8db2-3a55e1a8ef9b",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 64.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 20.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:00:37",
+  "job": "s5j/J5_front_smile",
+  "name": "J5_front_smile",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_front.png"
+  ],
+  "seconds": 41.7,
+  "tokens_used": 13760,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22350-5107-7451-90e7-24e1f13acd11",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 64.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 20.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:00:37",
+  "job": "s5j/J5_front_blink",
+  "name": "J5_front_blink",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_front.png"
+  ],
+  "seconds": 41.6,
+  "tokens_used": 10580,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22350-514c-7470-890b-ecb158def0bf",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 64.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 20.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:01:03",
+  "job": "s5j/M5_front_E",
+  "name": "M5_front_E",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "M5_front.png"
+  ],
+  "seconds": 25.8,
+  "tokens_used": 7958,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22350-f427-77c0-b91d-89713846335d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 66.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:01:08",
+  "job": "s5j/M5_front_D",
+  "name": "M5_front_D",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "M5_front.png"
+  ],
+  "seconds": 30.7,
+  "tokens_used": 12503,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22350-f41f-7c11-9a62-a55692eb5beb",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 66.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:01:08",
+  "job": "s5j/M5_front_C",
+  "name": "M5_front_C",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "M5_front.png"
+  ],
+  "seconds": 33.6,
+  "tokens_used": 12964,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22350-e9ac-7fe0-8ace-72167ead8a18",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 66.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:01:11",
+  "job": "s5j/M5_front_B",
+  "name": "M5_front_B",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "M5_front.png"
+  ],
+  "seconds": 40.2,
+  "tokens_used": 31947,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22350-dcd4-7930-b93a-0f49de87850a",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 67.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:01:33",
+  "job": "s5j/M5_front_F",
+  "name": "M5_front_F",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "M5_front.png"
+  ],
+  "seconds": 30.6,
+  "tokens_used": 10226,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22351-58f8-7be3-ad83-cabda2b9ad7e",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 68.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:01:35",
+  "job": "s5j/M5_front_H",
+  "name": "M5_front_H",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "M5_front.png"
+  ],
+  "seconds": 26.9,
+  "tokens_used": 9391,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22351-6d30-7320-b082-94cf98fd602c",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 68.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:01:41",
+  "job": "s5j/M5_front_smile",
+  "name": "M5_front_smile",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "M5_front.png"
+  ],
+  "seconds": 29.9,
+  "tokens_used": 8467,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22351-7a0a-7540-bdc5-27f1b8cd20ec",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 68.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:01:50",
+  "job": "s5j/M5_front_G",
+  "name": "M5_front_G",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "M5_front.png"
+  ],
+  "seconds": 42.0,
+  "tokens_used": 26621,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22351-6bde-7923-a924-b4fcd8b82f9e",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 69.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:02:05",
+  "job": "s5j/M5_front_blink",
+  "name": "M5_front_blink",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "M5_front.png"
+  ],
+  "seconds": 31.7,
+  "tokens_used": 10307,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22351-d0ae-7d72-9a49-a48483241da5",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 70.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:02:17",
+  "job": "s5j/M5_front_brow_skeptic",
+  "name": "M5_front_brow_skeptic",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "M5_front.png"
+  ],
+  "seconds": 41.8,
+  "tokens_used": 11619,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22351-d6a4-7221-a865-2e895fe65a38",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 70.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:02:25",
+  "job": "s5j/N5_lean",
+  "name": "N5_lean",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "N5_sheet.png",
+   "master.jpg"
+  ],
+  "seconds": 43.5,
+  "tokens_used": 9903,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22351-ef1f-7601-a9cd-ca3c86309d05",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 70.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:02:28",
+  "job": "s5j/N5_board",
+  "name": "N5_board",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "N5_sheet.png",
+   "master.jpg"
+  ],
+  "seconds": 38.6,
+  "tokens_used": 13204,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22352-1069-7592-bd4e-27ecb307ec7b",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 70.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:02:52",
+  "job": "s5j/JS_cu",
+  "name": "JS_cu",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "JS_sheet.png",
+   "J5_cu.png"
+  ],
+  "seconds": 46.9,
+  "tokens_used": 9788,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22352-4ce0-77f1-a73c-65fb0bfde6fd",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 72.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402292
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:02:59",
+  "job": "s5j/BS_cu",
+  "name": "BS_cu",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "BS_sheet.png",
+   "baron_B.png"
+  ],
+  "seconds": 42.0,
+  "tokens_used": 18987,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22352-7a35-7d72-aab7-b958c8e29981",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 72.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:03:07",
+  "job": "s5j/BS_seat",
+  "name": "BS_seat",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "BS_sheet.png",
+   "baron_B.png"
+  ],
+  "seconds": 38.2,
+  "tokens_used": 9911,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22352-a795-7460-bcbe-0680a5e3530f",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 72.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:03:10",
+  "job": "s5j/JS_seat",
+  "name": "JS_seat",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "JS_sheet.png",
+   "J5_cu.png"
+  ],
+  "seconds": 44.8,
+  "tokens_used": 14675,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22352-9946-7873-8f7c-46e77e25e721",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 72.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 21.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:03:33",
+  "job": "s5j/Jk_inb_point",
+  "name": "Jk_inb_point",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "Jk_elbow.png",
+   "Jk_point.png",
+   "master.jpg"
+  ],
+  "seconds": 40.4,
+  "tokens_used": 12506,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22353-0421-7e90-ae5e-d9d6ea23868a",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 74.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 22.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:03:49",
+  "job": "s5j/Jk_inb_finger",
+  "name": "Jk_inb_finger",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "Jk_far.png",
+   "Jk_finger.png",
+   "master.jpg"
+  ],
+  "seconds": 50.5,
+  "tokens_used": 11908,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22353-1e6f-7fd1-bd3a-db9c12a3e988",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 74.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 22.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:03:55",
+  "job": "s5j/Mk_inb_up",
+  "name": "Mk_inb_up",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "Mk_look.png",
+   "Mk_stampup.png",
+   "master.jpg"
+  ],
+  "seconds": 48.2,
+  "tokens_used": 13878,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22353-3cf6-76d3-a159-5303f2169e2d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 74.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 22.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:04:10",
+  "job": "s5j/J5_walkB",
+  "name": "J5_walkB",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_walkA.png",
+   "jax_B.png"
+  ],
+  "seconds": 60.6,
+  "tokens_used": 25471,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22353-4884-7de2-97b2-9d8f7fa2110d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 74.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 22.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:04:50",
+  "job": "s5j/N5_lean_B",
+  "name": "N5_lean_B",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "N5_lean.png"
+  ],
+  "seconds": 35.4,
+  "tokens_used": 7761,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22354-476c-7ff2-b212-ff7fbe21a3da",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 76.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 22.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:04:51",
+  "job": "s5j/N5_lean_C",
+  "name": "N5_lean_C",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "N5_lean.png"
+  ],
+  "seconds": 35.9,
+  "tokens_used": 11550,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22354-46ce-7a03-96c1-5cee5ab60a90",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 76.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 22.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:04:53",
+  "job": "s5j/N5_lean_A",
+  "name": "N5_lean_A",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "N5_lean.png"
+  ],
+  "seconds": 38.0,
+  "tokens_used": 8335,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22354-472a-75d0-90f7-a69fc195ebdc",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 76.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 22.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:04:54",
+  "job": "s5j/N5_lean_D",
+  "name": "N5_lean_D",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "N5_lean.png"
+  ],
+  "seconds": 39.2,
+  "tokens_used": 23732,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22354-46e6-7041-9015-c25f1cd6a7ae",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 76.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 22.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:05:30",
+  "job": "s5j/N5_lean_F",
+  "name": "N5_lean_F",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "N5_lean.png"
+  ],
+  "seconds": 38.9,
+  "tokens_used": 23718,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22354-d2e1-7960-8b2c-aa8e22fb6441",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 78.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 22.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:05:31",
+  "job": "s5j/N5_lean_E",
+  "name": "N5_lean_E",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "N5_lean.png"
+  ],
+  "seconds": 40.3,
+  "tokens_used": 11908,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22354-d164-7c00-9a0c-8788dbd748e8",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 78.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 22.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:05:33",
+  "job": "s5j/N5_lean_H",
+  "name": "N5_lean_H",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "N5_lean.png"
+  ],
+  "seconds": 39.2,
+  "tokens_used": 23817,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22354-e043-7540-a7cc-8e69e05263e7",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 78.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 22.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402292
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:05:34",
+  "job": "s5j/N5_lean_G",
+  "name": "N5_lean_G",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "N5_lean.png"
+  ],
+  "seconds": 41.0,
+  "tokens_used": 13236,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22354-db60-77e1-b54e-4738fa439964",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 78.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 22.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:05:59",
+  "job": "s5j/N5_lean_smile",
+  "name": "N5_lean_smile",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "N5_lean.png"
+  ],
+  "seconds": 29.7,
+  "tokens_used": 9188,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22355-6afa-71f3-9e02-8aee08be42e8",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 79.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 23.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:06:12",
+  "job": "s5j/JS_cu_A",
+  "name": "JS_cu_A",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "JS_cu.png"
+  ],
+  "seconds": 40.9,
+  "tokens_used": 8552,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22355-6ef6-71e3-a3de-0f5fc12a845f",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 80.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 23.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:06:13",
+  "job": "s5j/JS_cu_B",
+  "name": "JS_cu_B",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "JS_cu.png"
+  ],
+  "seconds": 40.0,
+  "tokens_used": 10979,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22355-799a-7af2-9523-f30e03273c6b",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 80.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 23.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:06:16",
+  "job": "s5j/JS_cu_C",
+  "name": "JS_cu_C",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "JS_cu.png"
+  ],
+  "seconds": 42.3,
+  "tokens_used": 17227,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22355-7b92-7fa3-b07a-5a67551bdd9f",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 80.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 23.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:06:41",
+  "job": "s5j/JS_cu_D",
+  "name": "JS_cu_D",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "JS_cu.png"
+  ],
+  "seconds": 41.6,
+  "tokens_used": 11653,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22355-df3c-7800-bcab-f00cdbfeeb49",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 81.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 23.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402292
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:06:45",
+  "job": "s5j/JS_cu_E",
+  "name": "JS_cu_E",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "JS_cu.png"
+  ],
+  "seconds": 33.6,
+  "tokens_used": 17887,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22356-0f48-7701-b345-00caaf632221",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 81.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 23.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:06:55",
+  "job": "s5j/JS_cu_F",
+  "name": "JS_cu_F",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "JS_cu.png"
+  ],
+  "seconds": 41.4,
+  "tokens_used": 18948,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22356-160f-7412-9d7f-7d91682009d5",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 82.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 23.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:07:06",
+  "job": "s5j/JS_cu_G",
+  "name": "JS_cu_G",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "JS_cu.png"
+  ],
+  "seconds": 49.3,
+  "tokens_used": 8570,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22356-20c5-7cb2-9ecf-7b9aa8a55a9e",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 82.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 23.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:07:19",
+  "job": "s5j/JS_cu_H",
+  "name": "JS_cu_H",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "JS_cu.png"
+  ],
+  "seconds": 38.2,
+  "tokens_used": 18420,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22356-81b7-7540-8042-277e5238d0d6",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 83.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 23.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:07:29",
+  "job": "s5j/JS_cu_smile",
+  "name": "JS_cu_smile",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "JS_cu.png"
+  ],
+  "seconds": 44.0,
+  "tokens_used": 10976,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22356-92a3-74e0-9c41-7fdb8ed7a10b",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 84.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 23.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:07:33",
+  "job": "s5j/N5_lean_blink",
+  "name": "N5_lean_blink",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "N5_lean.png"
+  ],
+  "seconds": 38.3,
+  "tokens_used": 17661,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22356-b807-7633-ac75-594a9bc78919",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 84.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 23.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:07:51",
+  "job": "s5j/N5_board_blink",
+  "name": "N5_board_blink",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "N5_board.png"
+  ],
+  "seconds": 45.6,
+  "tokens_used": 14914,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22356-e1e4-7f50-a255-4ffc858a88e8",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 85.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 23.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:07:51",
+  "job": "s5j/JS_cu_blink",
+  "name": "JS_cu_blink",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "JS_cu.png"
+  ],
+  "seconds": 32.0,
+  "tokens_used": 11713,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22357-1768-72f3-add5-1304b1efab2b",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 85.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 23.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:08:15",
+  "job": "s5j/JS_laugh",
+  "name": "JS_laugh",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "JS_cu.png"
+  ],
+  "seconds": 46.0,
+  "tokens_used": 25541,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22357-3eca-7212-89db-f22ba2f3034b",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 86.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 24.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:08:20",
+  "job": "s5j/BS_cu_A",
+  "name": "BS_cu_A",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "BS_cu.png"
+  ],
+  "seconds": 46.5,
+  "tokens_used": 16433,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22357-4dfc-7f63-bf55-9b3031edfacd",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 86.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 24.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:08:23",
+  "job": "s5j/BS_cu_D",
+  "name": "BS_cu_D",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "BS_cu.png"
+  ],
+  "seconds": 32.0,
+  "tokens_used": 8676,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22357-94ea-7bb1-8ce2-80b47971b5f8",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 86.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 24.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:08:25",
+  "job": "s5j/BS_cu_C",
+  "name": "BS_cu_C",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "BS_cu.png"
+  ],
+  "seconds": 34.1,
+  "tokens_used": 12798,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22357-9442-7a82-97f8-0ab37f842d89",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 87.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 24.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:08:48",
+  "job": "s5j/BS_cu_E",
+  "name": "BS_cu_E",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "BS_cu.png"
+  ],
+  "seconds": 32.5,
+  "tokens_used": 10663,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22357-f304-7712-bdda-1892ee71132d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 88.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 24.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:08:55",
+  "job": "s5j/BS_cu_blink",
+  "name": "BS_cu_blink",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "BS_cu.png"
+  ],
+  "seconds": 29.9,
+  "tokens_used": 12815,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22358-1999-7641-b50e-700326adda47",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 88.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 24.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:09:00",
+  "job": "s5j/BS_cu_F",
+  "name": "BS_cu_F",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "BS_cu.png"
+  ],
+  "seconds": 40.3,
+  "tokens_used": 12096,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22358-03ad-7b02-be5c-fe98efe5084a",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 88.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 24.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:09:12",
+  "job": "s5j/BS_cu_smile",
+  "name": "BS_cu_smile",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "BS_cu.png"
+  ],
+  "seconds": 48.0,
+  "tokens_used": 13383,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22358-124a-73e0-8ef2-44081de83ad8",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 89.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 24.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T18:09:18",
+  "job": "s5j/BS_cu_brow_up",
+  "name": "BS_cu_brow_up",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "BS_cu.png"
+  ],
+  "seconds": 30.1,
+  "tokens_used": 15107,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22358-7214-78a3-bd21-2411815f627d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 89.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 24.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]

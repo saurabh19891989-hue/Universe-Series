@@ -155,3 +155,48 @@ Pose pictures are cached per worker. Lip sync is reused from test 3.
   three-quarter views.
 - Close-ups of the set are softened on purpose (depth of field), because the 1672-px set
   pictures cannot hold a 2x zoom sharply.
+
+---
+
+# Sample 5 — animated redesign, 2:42 sample (28 Nov, night)
+
+Files: `samples/e01/E01-sample5-720p.mp4`, sheet, frames in `samples/e01/sample5-frames/`, designs
+`E01-sample5-characters.jpg`; frozen sound timeline `episodes/E01/sample5-shotlist.json`. Code in
+`production/tools/toon/`: `s5_pictures.py`, `s5_jobs.py`, `s5b_jobs.py` (every prompt), `s5_landmarks.py`
+(automatic face landmarks), `s5_faces.py` (seamless face sets), `s5_transfer.py` (medium-shot lip-sync),
+`s5_stage.py` (pose keys on the frozen timeline), `s5_build.py` (renderer), `build_sample5.py`, `s5_animatic.py`.
+
+## Method
+- **Look:** variant B (pushed animated style) for every character; approved by the showrunner.
+- **Bodies:** pose libraries, one picture per held pose (knee-up for dialogue, full body for walks).
+  Pose changes cut on the frame with a squash-and-settle pop; for the big moves a drawn in-between
+  picture plays for about 2 frames. Nothing is dissolved or flow-morphed (test 4 and stage 1 ghosted).
+- **Faces:** per-character mouth sets made as picture EDITS of the close-up (A–H, smile, shout), plus
+  blink and brow keys. `s5_faces.py` lines each edit up to the base, pastes only the changed region,
+  colour-matches it on a ring and feathers it: no lip seam. `s5_transfer.py` carries the close-up set
+  onto every medium-shot pose (similarity fit on lips/eyes, paste only what changed). Landmarks come from
+  MediaPipe Face Landmarker (PyPI, Apache-2.0, CPU), with crop-and-enlarge for small faces; the Baron's
+  moustache defeats it, so his two pictures were marked by hand.
+- **Walk:** a 12-drawing cycle (two 6-drawing sheets) played on twos; each drawing is placed by the
+  measured ground-contact shift so the planted foot stays put. Most walking is the knee-up tracking cheat.
+- **Backgrounds:** real NASA video (Earthrise visualisation, logged in `assets/toon-test-plates.json`)
+  keyed into the hall window and framed full-screen on its sunlit side for the outer rim.
+- **Cutaway:** engraving-style cut-outs (cannon, young Baron in 6 poses, balls, backdrop) in a paper
+  theatre: parallax, arcs, shadows, a card proscenium.
+
+## Pictures and time
+- This build: about 150 Codex pictures (stage 1: 40; stage 2b: about 110), none refused.
+- Per lead character, for a full scene: 1 design, 2 close-up bases, ~12 mouth/eye edits per base,
+  8–10 knee-up poses, 2–3 drawn in-betweens, walk sheets = about 40 pictures. A guest: about 15.
+- Per finished minute (this sample): about 55 pictures.
+- Hours: pictures run 4 at a time at about 45 s each (about 15 min of Codex per 60 pictures); checking,
+  landmarks and fixes about 1 h per lead; staging the keys about 30–40 min per minute of scene.
+
+## Render speed
+RENDER5_LINE
+
+## A 24-minute episode would need
+- Pictures: about 600–900 for the first episode (8 characters, 10 sets, cutaways), then about 300–400
+  for later ones as libraries are reused. Several days of a Plus plan's image limit; plan it.
+- Staging: about 12–16 h of pose keying per episode; render overnight.
+- A human must listen to every line; the laugh in this sample is a TTS stand-in.

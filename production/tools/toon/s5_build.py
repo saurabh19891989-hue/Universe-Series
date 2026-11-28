@@ -72,7 +72,7 @@ def speaking(who, t):
     for l in SL["dialogue"]:
         if l["who"] == who and l["start_s"] - 0.02 <= t < l["start_s"] + l["dur"] + 0.03: return l
     return None
-BMAP = {"X": "X", "A": "A", "B": "C", "C": "C", "D": "D", "E": "E", "F": "F", "G": "C", "H": "C"}
+BMAP = {"X": "X", "A": "X", "B": "C", "C": "C", "D": "E", "E": "E", "F": "F", "G": "C", "H": "C"}   # Baron A/D edits smeared the moustache: not used
 def mouth(who, t):
     l = speaking(who, t)
     if not l: return "X", 0.0
@@ -106,11 +106,13 @@ def head_img(base, who, t, brows=(), seed=1, allow_blink=True):
         if b is not None: img += (b - X)
     return np.clip(img, 0, 1)
 
+FALLBACK = {"Jk_inb_point": "Jk_point", "Jk_inb_finger": "Jk_finger", "Mk_inb_up": "Mk_stampup"}
 def pose_at(keys, t):
     cur, tk = keys[0][1], keys[0][0]
     for k in keys:
         if k[0] <= t: cur, tk = k[1], k[0]
         else: break
+    if cur in FALLBACK and not os.path.exists(f"{CX}/{cur}.png"): cur = FALLBACK[cur]
     return cur, t - tk
 def pop(dt):   # squash-and-settle after a pose change
     if dt < 0 or dt > 0.45: return 0.0
@@ -211,6 +213,9 @@ def walk_setup():
     global WALK
     if WALK: return WALK
     dr = cut_sheet("J5_walkA", 6) + cut_sheet("J5_walkB", 6)
+    # the two sheets came out at different sizes: bring every drawing to one figure height first
+    hs = [float(np.ptp(np.nonzero(d[..., 3] > 0.05)[0])) for d in dr]; href = float(np.median(hs[:6]))
+    dr = [cv2.resize(d, None, fx=href / h, fy=href / h, interpolation=cv2.INTER_AREA) for d, h in zip(dr, hs)]
     info = []
     for d in dr:
         a = d[..., 3] > 0.05; ys, xs = np.nonzero(a); y0, y1 = ys.min(), ys.max()
@@ -232,6 +237,7 @@ def walk_setup():
     if miss:
         rest = (stride - sum(D[k] for k in range(12) if k not in miss)) / len(miss)
         for k in miss: D[k] = max(0, rest)
+    D = [min(d, 80.0) for d in D]                # a contact switch with no shared foot can mis-match: cap it
     WALK = dict(dr=dr, info=info, D=D, stride=float(sum(D)), h=hmean)
     json.dump({"delta_px": [float(d) for d in D], "stride_px": float(sum(D)), "overlap": [float(o) for o in ov]}, open(f"{OUT}/walk_measure.json", "w"))
     return WALK
@@ -311,10 +317,10 @@ def walk_track(t, shot):
     cam = (cx, 520, 1.75)
     img, fgw, fgi, M = set_bg("S5_wide2", t, cam)
     if t < t_arr:
-        lay = knee_layer(t, 760, 170, 980)
+        lay = knee_layer(t, 760, 150, 1000)
         img = over(img, rim(lay))
     else:
-        img = over(img, rim(jax_layer(t, shot, None, (760, 330), 210)))
+        img = over(img, rim(jax_layer(t, shot, None, (760, 300), 80)))
     return img * (1 - fgw) + fgi * fgw
 def two_shot(t, shot):
     mk = MARK["S5_wide2"]; k = W / 1672
@@ -328,7 +334,7 @@ def two_shot(t, shot):
         if shot["id"] == "A20" and t > shot["start_s"] + 0.5:
             b = face(name, "blink")
             if b is not None: im = b
-        img = over(img, rim(char_layer(name, im, (mx + 120 * k, my - 30 * k), mk["mira_face_h"] * k * 1.1, t, 3, M, sq=pop(dt)), 0.4))
+        img = over(img, rim(char_layer(name, im, (mx + 120 * k, my + 5 * k), mk["mira_face_h"] * k * 1.1, t, 3, M, sq=pop(dt)), 0.4))
         return img * (1 - fgw) + fgi * fgw
     img = img * (1 - fgw) + fgi * fgw
     jx, jy = [v * k for v in mk["jax_head_two"]]
@@ -364,10 +370,10 @@ def insert(t, shot):
         def dr(cv):
             cv.clear(col("#3a2a1c")); cv.drawRRect(skia.RRect.MakeRectXY(skia.Rect(160, 90, 1760, 990), 40, 40), P(col("#b8893c")))
             cv.drawRRect(skia.RRect.MakeRectXY(skia.Rect(210, 140, 1710, 940), 24, 24), P(col("#0d2b2a")))
-            off = -260 * ease("io", (dt - 0.4) / 1.0)
+            off = -300 * (1 - ease("io", (dt - 0.3) / 1.1))
             rows = [("", False)] * 3 + [("", False)] * 3 + [("VALE, JAX.", True), ("MASTER, COURIER CLASS.", True), ("RECORD BEGINS: SEVEN YEARS AGO", True), ("ROUTES: 1,204   CLAIMS: 0", True)]
             for i, (s_, filled) in enumerate(rows):
-                y = 260 + i * 95 + off - (-260)
+                y = 200 + i * 95 + off
                 if 150 < y < 930:
                     cv.drawRect(skia.Rect(280, y - 50, 1640, y + 22), P(col("#1d4d48", 255), 2))
                     if filled: text(cv, s_, 300, y, 52, col("#ffcf6a"))
@@ -401,8 +407,9 @@ def insert(t, shot):
 
 # ------------------------------------------------------------------ Part B
 def rim_plate(t, zoom=1.0, blur=0.0):
-    pw = 2300 * zoom
-    img = plate_img(t, pw, (W - pw) / 2 - 140 * zoom, -pw * 0.5625 * 0.05 - 260 * (zoom - 1), gain=1.3, speed=0.5)
+    # frame on the plate's lit side: x 0-55%, y 13-68% of the plate (sunlit ground below, Earth above the limb)
+    pw = W / 0.55 * zoom; ph = pw * 0.5625
+    img = plate_img(t, pw, -(pw - W / 0.55) * 0.35, -0.13 * ph - (ph - H / 0.55 * 0.5625 * 0) * 0 - 60 * (zoom - 1), gain=1.3, speed=0.5)
     return cv2.GaussianBlur(img, (0, 0), blur) if blur else img
 def drift(t, seed, amp=6):
     return amp * math.sin(t * 2 * math.pi / 5.3 + seed), amp * 0.7 * math.sin(t * 2 * math.pi / 4.1 + seed * 2)
@@ -471,8 +478,8 @@ def cutaway(t, home=False):
     bgimg = pic("CW_bg")[..., :3]
     dt = t - C["cutaway starts: 'when it fired'"]
     pan = 40 * dt
-    sb = W * 1.12 / bgimg.shape[1]
-    img = cv2.warpAffine(bgimg, np.float64([[sb, 0, -60 - pan * 0.4], [0, sb, -40]]), (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
+    sb = W * 1.2 / bgimg.shape[1]
+    img = cv2.warpAffine(bgimg, np.float64([[sb, 0, -40 - pan * 0.25], [0, sb, -50]]), (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
     layers = []
     sway = lambda sd: 2.0 * math.sin(t * 4.2 + sd)
     if home:
@@ -504,17 +511,15 @@ def cutaway(t, home=False):
             bx0 = 1160
             # his old ball keeps going right, empty; the other ball goes left
             layers.append(paper(cw("CW_ball", flip=True), 0.42, bx0 + 60 + 300 * tt, 360 + 20 * tt, 0))
-            ox = bx0 + 40 - 260 * tt; layers.append(paper(cw("CW_ball"), 0.42, ox, 450, 0))
+            ox = bx0 + 40 - 260 * tt
+            if tt < 1.25: layers.append(paper(cw("CW_ball"), 0.42, ox, 450, 0))   # (the landing drawing carries its own ball)
             if tt < 0.35:          # anticipation: crouch
                 layers.append(paper(cw("CW_crouch"), 0.6, bx0 + 300 * tt * 0.3, 330 + 12 * ease("out", tt / 0.35), sway(2)))
-            elif tt < 0.95:        # the leap; the hat comes off and lingers above
-                u = (tt - 0.35) / 0.6; x, y = arc((bx0 + 40, 300), (ox, 330), 150, u)
-                layers.append(paper(cw("CW_jump"), 0.6, x, y, -8 + 16 * u))
-            else:                  # landing with a bow; the hat follows and lands in his hand
-                layers.append(paper(cw("CW_land"), 0.6, ox, 330 + 10 * math.exp(-(tt - 0.95) * 6) * math.cos((tt - 0.95) * 20), sway(3)))
-            if 0.35 <= tt < 1.6:
-                hu = (tt - 0.35) / 1.25; hx, hy = arc((bx0 + 40, 170), (ox - 70, 260), 180, ease("in", hu) if hu > 0.4 else hu * 0.3)
-                if tt < 1.5: layers.append(paper(cw("CW_hat"), 0.25, hx, hy, 40 * math.sin(tt * 9)))
+            elif tt < 1.25:        # the leap (the drawing has the hat lifting off and lingering above his head)
+                u = ease("io", (tt - 0.35) / 0.9); x, y = arc((bx0 + 40, 300), (ox, 330), 170, u)
+                layers.append(paper(cw("CW_jump"), 0.6, x, y, 8 - 16 * u))
+            else:                  # landing with a bow, hat swept off (settles with a bounce)
+                layers.append(paper(cw("CW_land"), 0.6, ox, 300 + 14 * math.exp(-(tt - 1.25) * 6) * math.cos((tt - 1.25) * 20), sway(3)))
     for sh, lay in layers:
         if sh is not None: img = over(img, sh)
         img = over(img, lay)

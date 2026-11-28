@@ -125,9 +125,13 @@ W3["BS_cu_brow_up"] = (EDIT.format(what="ONLY the bushy white eyebrows", desc="e
 ALL = {**JOBS, **W2, **W3}
 def run(n):
     b, refs = ALL[n]
-    cmd = ["python3", f"{R}/production/tools/look/codex_image.py", "s5", n, b, "--no-style", "--purpose", "sample 5 stage 2b"]
+    # one work folder per picture: parallel jobs in one folder overwrote each other's reference copies
+    cmd = ["python3", f"{R}/production/tools/look/codex_image.py", f"s5j/{n}", n, b, "--no-style", "--purpose", "sample 5 stage 2b"]
     for r in refs: cmd += ["-i", r]
     p = subprocess.run(cmd, capture_output=True, text=True)
+    import shutil, os
+    src = f"{S}/cx/s5j/{n}/{n}.png"
+    if os.path.exists(src): shutil.copy(src, f"{O}/{n}.png")
     return n, p.returncode, (p.stdout or p.stderr)[-250:]
 if __name__ == "__main__":
     a = sys.argv[1:]

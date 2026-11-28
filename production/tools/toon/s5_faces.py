@@ -12,7 +12,7 @@ import sys, json, os, glob, subprocess, numpy as np, cv2
 LMF, PIC, OUT = sys.argv[1], sys.argv[2], sys.argv[3]; bases = sys.argv[4:]
 os.makedirs(OUT, exist_ok=True)
 LM = json.load(open(LMF))
-MOUTHS = ["A", "B", "C", "D", "E", "F", "G", "H", "smile"]
+MOUTHS = ["A", "B", "C", "D", "E", "F", "G", "H", "smile", "shout"]
 EYES = ["blink", "brow_up", "brow_frown", "brow_skeptic"]
 
 def register(base, edit, face_mask):
@@ -62,6 +62,7 @@ for b in bases:
         if not os.path.exists(p): print("missing", p); continue
         kind = "mouth" if key in MOUTHS else ("eyes" if key == "blink" else "brows")
         m = region(lmb, kind, base.shape)
+        if key == "shout": m = cv2.bitwise_or(m, region(lmb, "brows", base.shape))
         # register on the face area round the changed part (local fit: edits sometimes nudge the head)
         ed = register(base, cv2.imread(p), cv2.dilate(m, np.ones((121, 121), np.uint8)) & fm)
         lme = LM.get(f"{b}_{key}")
