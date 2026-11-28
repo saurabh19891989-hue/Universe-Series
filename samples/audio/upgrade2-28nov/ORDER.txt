@@ -1,0 +1,53 @@
+AUDIO UPGRADE - REEL 2 (28 Nov 2026)
+Nobody has listened to these files; the agent that made them cannot hear. All notes are measurements.
+Headphones first, then once on a phone. Every file is under 2 MB.
+
+01-mira-A-orchestral-instruments-18s.mp3  Mira's motif on the reel-1 instruments (flute, kalimba, harp,
+                                          solo violin). Re-rendered: reel 1's copy had its first two
+                                          notes a whole tone flat (a pitch-bend bug, now fixed).
+02-mira-B-indian-instruments-19s.mp3      The SAME tune on our new Indian instruments: bansuri (with
+                                          slides into notes and a shake on the held note), santoor
+                                          'clock', sarangi answer, tanpura drone, tabla in keherwa.
+                                          Listen for: does it sound like real instruments, or synthetic?
+
+03-indian-instruments-piece-34s.mp3       A short composed piece in D (Kalyani/Yaman colour):
+                                          0:00 alap - sitar alone over tanpura, sliding into notes;
+                                          0:07 tabla enters (teental), bansuri plays the tune (gat);
+                                          0:19 sitar asks, bansuri answers; 0:25 santoor run;
+                                          0:28 tihai - one phrase three times, landing together at 0:31.
+
+04-baron-heart-theme-63s.mp3              THE BARON'S HEART THEME (E01 scene 21; returns in E10).
+                                          0:00 harp; 0:05 duduk states the tune; 0:27 violins take it,
+                                          the solo cello answers in the gaps, celesta 'stars';
+                                          0:49 the cello alone with the first phrase, ending in E major.
+                                          Made to sit under quiet dialogue (measured: 12-15 dB clear
+                                          in the speech band at 8 dB under the voice; the old rim cue
+                                          gave 1-3 dB). Is the tune hummable?
+
+05-baron-cannonball-cutaway-20s.mp3       The Baron rides a cannonball: fife, trumpets, horns, snare.
+                                          0:08.6 everything stalls on a high note, the trombone slides
+                                          down, the snare trips, one beat of nothing (the change of
+                                          cannonballs), 0:10.2 recovery a semitone higher, prouder;
+                                          final hit 0:18.8.
+
+06-main-theme-with-B-section-76s.mp3      The main theme as a whole piece: 0:00 intro, 0:05 A (the hook),
+                                          0:23 NEW B section - a second tune on violins with a cello
+                                          counter-melody against it, 0:42 the lift, 0:51 A' tutti with
+                                          the B counter-melody on the flute over the hook, 1:09 tag.
+
+07-customs-sparring-jax-v-mira-28s.mp3    Customs desk: Jax's swing motif (clarinet, guitar, darbuka)
+                                          vs Mira's (bansuri, santoor, tabla). 0:00 Jax, 0:04 Mira
+                                          answers, 0:07 he cuts in, 0:10-0:21 both tunes at once,
+                                          0:21 one-beat jabs back and forth, 0:25 truce on one note,
+                                          0:26 the stamp.
+
+08-effects-demo-20s.mp3                   0:00.5 and 0:02.2 the new stamp (two variations, never
+                                          identical; the second in the customs hall); 0:04.5 a landing
+                                          FELT through the hull (vacuum rule: nothing above 2 kHz);
+                                          0:08.5 outside in a suit: breathing bed, a suit-radio line
+                                          with click, helmet resonance and squelch tail; 0:15 low-gravity
+                                          bounding steps felt inside the suit.
+                                          Phone note: the landing is mostly sub-bass by design - on a
+                                          phone it will be very quiet. Tell us if it should be heavier.
+
+Details: research/tooling/audio-upgrade.md (section "Stage 1"). Sources: assets/audio-sources.json.

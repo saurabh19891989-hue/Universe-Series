@@ -1,6 +1,6 @@
 {
  "title": "Outside sound sources: sample libraries, impulse responses, recorded effects",
- "updated": "2026-11-28",
+ "updated": "2026-11-28 (stage 1)",
  "rule": "Only sources whose licence allows use in a monetised YouTube series. Licence wording copied from the source page or the licence file shipped with the download (checked 28 Nov 2026). Large files live in the scratchpad, never in git; fetch with production/tools/music/fetch_libs_v3.sh and production/tools/sfx/fetch_fx_e01.sh.",
  "libraries": [
   {
@@ -385,5 +385,31 @@
    "why": "fetcher refuses anything whose page licence is not CC0 1.0 (keeps the credit list and NC risk at zero)."
   }
  ],
- "in_house": "All other effects are synthesised in production/tools/sfx/*.py (sfxlib) and the placeholders in production/tools/edit/audio.py; all score is composed in production/tools/music/*.py."
+ "in_house": "All other effects are synthesised in production/tools/sfx/*.py (sfxlib) and the placeholders in production/tools/edit/audio.py; all score is composed in production/tools/music/*.py.",
+ "source_ruling_28nov": "Showrunner ruling: any source that is free to obtain and whose terms do not forbid use in published music (PD, CC0, CC BY with credit, royalty-free-for-productions, open university sets, no-redistribution-as-samples). Not allowed: packs whose terms forbid commercial use; instruments ripped from commercial recordings. Thin terms are marked 'terms thin - swap if a better source appears'.",
+ "in_house_instruments": {
+  "file": "production/tools/music/worldsynth.py",
+  "terms": "ours (synthesised in code, no samples)",
+  "instruments": [
+   "sitar",
+   "veena",
+   "tanpura",
+   "santoor",
+   "koto",
+   "kora",
+   "oud",
+   "bansuri",
+   "shehnai (also nadaswaram)",
+   "duduk",
+   "erhu",
+   "sarangi",
+   "tabla",
+   "mridangam",
+   "dholak",
+   "djembe",
+   "talking drum"
+  ],
+  "note": "No outside samples. Models: Karplus-Strong string with one-sided bridge contact (jawari) and sympathetic-string resonator bank; additive harmonic wind/bowed engine with harmonic-locked breath/bow noise and body formants; modal membrane strokes with pitch glide."
+ },
+ "in_house_effects_processing": "production/tools/sfx/fx3.py layers and processes the effects already listed here (our synth files + the CC0 Freesound recordings); no new outside sources in stage 1."
 }

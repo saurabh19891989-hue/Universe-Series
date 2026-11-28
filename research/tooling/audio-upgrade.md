@@ -203,3 +203,133 @@ About 80 reusable assets cover roughly half of each episode's underscore.
   - `production/tools/edit/audio.py`: opt-in band duck
 - **Sources and licences:** `assets/audio-sources.json`.
 - **Masters (WAV, 48 kHz, 24-bit):** scratchpad `audio2/out/`.
+
+---
+
+# Stage 1 (28 Nov, after the owner heard reel 1)
+
+Reel 2 is in `samples/audio/upgrade2-28nov/` (ORDER.txt). Nobody has listened to it. Sources now
+follow the showrunner's ruling: anything free whose terms do not forbid published music, plus our own
+synthesis. We do not rip from recordings or use non-commercial packs.
+
+## World instruments: what we have
+Every instrument below is **synthesised in our own code** (`production/tools/music/worldsynth.py`).
+There are no outside samples, so there is no licence question. I did not search for sample packs
+this stage: synthesis got every requested instrument made inside the time box.
+
+**Plucked and struck strings** (a string model with per-note pitch slides):
+- **Sitar:** bright pluck, a buzzing curved-bridge (jawari) model, and sympathetic strings tuned to the raga.
+- **Veena:** deeper and softer buzz, long sustain, made for gamaka.
+- **Tanpura:** heaviest buzz with a long ring. `tanpura()` plays the Pa–Sa–Sa–Sa(low) cycle.
+- **Santoor:** hammered, three slightly detuned courses, bright and long.
+- **Koto:** plectrum, bends.
+- **Kora:** soft thumb pluck.
+- **Oud:** fretless and warm, damped at note end.
+
+**Wind and bowed** (harmonic additive engine with breath or bow noise, vibrato and body resonances,
+following any pitch curve):
+- **Bansuri:** breath noise tied to the note, plus an attack chiff.
+- **Shehnai:** also stands for nadaswaram; bright and nasal.
+- **Duduk:** dark reed.
+- **Erhu:** nasal, wide vibrato.
+- **Sarangi:** vocal resonances plus sympathetic resonance.
+
+**Drums** (modal synthesis, one stroke per key):
+- **Tabla:** bols na, tin/tun, ta, te/ti, re, ke/ki, ge, ghe with pitch rise, dha, dhin. The right
+  drum has harmonic modes (as its loaded head gives); the left drum is low with a palm glide.
+- **Mridangam** and **dholak:** the same engine with a larger bass glide.
+- **Djembe:** bass, tone and slap.
+- **Talking drum:** pitch follows the bend curve.
+
+**Idiomatic sequencing:**
+- `theka()` plays real thekas (teental 16, keherwa 8, dadra 6, rupak 7). The sam is accented,
+  strokes vary in level, ghost "ke" strokes are added, and a tirakita fill leads into sam.
+- `meend()` slides into a note; `gamaka()` shakes a held note.
+
+**Checked by measurement only:**
+- **Pitch:** autocorrelation gives 261.4–261.6 Hz for C4 and 329.2–329.8 Hz for E4 on every melodic
+  model. Sarangi's reading is pulled off by its sympathetic resonance.
+- **Brightness over time:** plucked spectral centroid falls from 2.3–4.3 kHz in the attack to
+  1.1–2.1 kHz later, i.e. the tone darkens as the note rings.
+- **Cost:** under 0.3 s of CPU per instrument for a 5 s phrase. No NaNs.
+- **Transient spikes:** santoor and drum spikes are soft-limited to about 20 dB above the note body.
+
+**Not checked:** whether any of them sounds like the real instrument. This is the biggest risk, and
+the owner should judge it.
+
+- **Bug found and fixed:** `sfzr.py` applied the first pitch-bend value to every note before it.
+  Any v2/v3 sampled part whose first bend came after its first notes played those notes off-pitch.
+  Reel 1's Mira motif had its first two notes a whole tone flat (re-rendered in reel 2, file 01).
+  The v2 A4/A5 flute/shakuhachi parts may have the same fault if they were rendered with VPO.
+  FluidSynth (v1) was never affected. Bends now follow MIDI behaviour: zero before the first event,
+  then each value holds until the next.
+
+## Composition
+All in `production/tools/music/s2_pieces.py`.
+- **Mira on Indian instruments (19 s).**
+- **Indian instruments piece (34 s):**
+  - D, Kalyani/Yaman colour;
+  - alap on sitar over tanpura;
+  - a gat on bansuri over teental;
+  - sitar–bansuri question and answer;
+  - a santoor run;
+  - a three-fold tihai landing on sam.
+- **Baron's heart theme (63 s):**
+  - E minor 3/4, with a hummable 8-bar tune: a rising fifth, then a falling line;
+  - duduk first, then violins with a solo-cello counter-line and celesta;
+  - the coda turns to E major.
+  - Measured under quiet dialogue: with the music 8 LU below Baron lines at −23 LUFS, the voice is
+    11.7–15.4 dB clear of the music in 1–4 kHz. The old M08 rim cue under the same lines gives 1.3–2.9 dB.
+- **Cannonball cutaway (20 s):**
+  - an 18th-century march (fife, trumpets, horns, snare, timpani);
+  - at 8.6 s a stall, a trombone slide down, a tripped snare and a beat of nothing;
+  - at 10.2 s recovery a semitone up;
+  - the hit at 18.8 s. Move the stall to the picture's "changed cannonballs" frame.
+- **Main theme as a piece (76 s):**
+  - intro, then A;
+  - a new B tune with a cello counter-melody, in contrary motion;
+  - the lift;
+  - A′ with the B counter-melody on flute over the hook, so both tunes sound together;
+  - tag.
+  - Tabla keherwa and santoor give it an Indian colour inside the orchestra.
+- **Customs sparring (28 s):**
+  - Jax's motif and Mira's motif (moved into Jax's key) trade phrases, then overlap, then run in
+    counterpoint;
+  - one-beat jabs back and forth;
+  - a truce on one shared note, then the stamp.
+
+Render time (shared machine): 5–11 s for the 18–34 s world pieces; about 0.75–0.9 CPU-s per second
+for the orchestral pieces (heart theme 44 s for 63 s; main theme 57 s for 76 s).
+
+## Effects with what we have (`production/tools/sfx/fx3.py`)
+- **Variation:** `vary()` shifts pitch (±60 cents) and time, gain and a slight EQ tilt, so repeats are
+  never identical.
+- **Transient shaper.**
+- **Sub thump:** pitched, with a 2nd harmonic so phones still hint at it.
+- **Distance placement:** level, top-end loss, narrower image.
+- **Stamp:**
+  - layers: real rubber stamp, our heavy thunk, real desk bang (low-passed), sub, and a little ink "tack";
+  - shaped and varied per use.
+  - Two variations measured: 39–53 % of the energy below 60 Hz, 39–51 % in 60–250 Hz.
+- **Landing, felt only (vacuum rule):**
+  - layers: our felt thud, sub boom, hull groan (pitch-varied), low debris rattle;
+  - double low-pass at 1.8 kHz. Measured: 0.0 % of the energy above 2 kHz and 85 % below 60 Hz,
+    so it will be close to inaudible on a phone (by design; owner to say).
+- **Suit radio:**
+  - steep 480 Hz–2.9 kHz band-limit, a 1.8 kHz radio peak, light grit;
+  - helmet: two close reflections at 2.5 ms and 4 ms with a 1.1 kHz resonance;
+  - 4:1 compression, click on and off, and a short squelch tail;
+  - breathing and suit-fan bed with faint open-channel hiss, and nothing from outside.
+  - Measured: 70 % of the radio line's energy in 0.5–3 kHz.
+- **Low-gravity steps in a suit:**
+  - real steps slowed and pitched about 5 semitones down, muffled below 1.1 kHz, with a 140 Hz boot body;
+  - a suit-cloth swish 0.32 s before each contact (the bound), at a 0.9 s cadence.
+- **Demo:** `fx3.py OUT.wav LINE.wav` (reel 2 file 08).
+
+## mix3 chain as the default for new scenes
+- **`edit/audio.py`:** a shot list with `"mix_version": 3` gets the dialogue chain per speaker
+  (high-pass, EQ, 3:1 compressor, de-esser, make-up to the line's own loudness) and band ducking by
+  default. Without the key, the old path is unchanged; both were tested.
+- **`SCHEMA.md`:** says new shot lists set `"mix_version": 3`.
+- **Toon scenes:** keep using `sfx/mix3.py` for placement, room and foley plans.
+- **Builder:** the shot-list builder agents should write `"mix_version": 3` from now on.

@@ -287,6 +287,43 @@ def write_wav(path, x):
     sf.write(path, x, SR, subtype="FLOAT")
 
 
+# ------------------------------------------------------------------ v3 dialogue chain (28 Nov)
+V3_DEFAULT = {"hp": 90, "eq": [["peak", 280, 1.0, -2.0], ["peak", 3300, 0.9, 2.5], ["hs", 10000, 0.7, 1.5]],
+              "comp_ratio": 3.0, "comp_rel_db": -4.0, "deess_hz": 5500}
+
+
+def chain_v3(lines, cfg, log):
+    """The mix3 dialogue chain (sfx/mix3.py) inside the episode engine: per-speaker high-pass + EQ,
+    3:1 compression relative to that speaker's level, de-esser, make-up to the line's original loudness.
+    On when the shot list says "mix_version": 3 (new shot lists); old shot lists are untouched.
+    cfg: {speaker: {hp, eq, comp_ratio, comp_rel_db, deess_hz}} overrides V3_DEFAULT."""
+    import sys as _sys
+    _sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "music"))
+    import dsp as _dsp
+    by = {}
+    for ln in lines:
+        by.setdefault(ln["speaker"], []).append(ln)
+    for spk, ls in by.items():
+        c = dict(V3_DEFAULT, **cfg.get(spk, cfg.get(spk.lower(), {})))
+        allx = np.concatenate([l["audio"] for l in ls])
+        act = allx[np.abs(allx) > 1e-4]
+        lvl = 20 * np.log10(np.sqrt((act ** 2).mean()) + 1e-9) if len(act) else -30
+        for l in ls:
+            x = l["audio"].astype(np.float32)
+            if len(x) < SR // 4:
+                continue
+            L0 = _dsp.loudness(np.stack([x, x], 1))
+            y = _dsp.eq(x[:, None], [("hp", c["hp"], 0.7)] + [tuple(b) for b in c["eq"]])[:, 0]
+            y = _dsp.compressor(y, lvl + c["comp_rel_db"], c["comp_ratio"], 0.008, 0.12, 6)
+            y = _dsp.deesser(y, c["deess_hz"], lvl - 16, 4.0)
+            L1 = _dsp.loudness(np.stack([y, y], 1))
+            if L0 > -60 and L1 > -60:
+                y = y * db(L0 - L1)
+            l["audio"] = y.astype(np.float32)
+    log.append(f"dialogue: v3 chain on {len(lines)} lines ({', '.join(sorted(by))})")
+    return lines
+
+
 # ------------------------------------------------------------------ the mix
 def build(spec, shots_timeline, total_s, fps, resolve, workdir, log):
     """Returns dict(wav=path, lines=[...], env={speaker: array}, report={...})."""
@@ -298,6 +335,9 @@ def build(spec, shots_timeline, total_s, fps, resolve, workdir, log):
         lines = load_conformed(dspec, resolve, log)
     else:
         lines = load_dialogue(dspec, resolve, log) if dspec else []
+    if spec.get("mix_version", 1) >= 3 and lines:
+        lines = chain_v3(lines, spec.get("dialogue_chain", {}), log)
+        spec.setdefault("duck", {}).setdefault("mode", "band")
     wet = np.zeros((n, 2), np.float32)
     for ln in lines:
         place(dlg, np.stack([ln["audio"]] * 2, 1), ln["start"], 1.0)

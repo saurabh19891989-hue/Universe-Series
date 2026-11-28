@@ -414,7 +414,7 @@ def customs_sparring():
            "perc": dict(lvl=-27, pan=-0.35, width=0.5, depth="front", send=0.2, group="rhythm",
                         kit={36: "darb_dum", 38: "darb_tek", 37: "darb_ka"}),
            "tabla": SYN("tabla", tonic="D4", lvl=-26, pan=0.35, width=0.5, depth="front", send=0.2, group="rhythm"),
-           "stamp": dict(gain=-4, pan=0.0, width=0.4, depth="front", send=0.25, group="rhythm", kit={39: "slap"}),
+           "stamp": dict(gain=6, pan=0.0, width=0.4, depth="front", send=0.25, group="rhythm", kit={39: "slap"}),
            "vibes": dict(inst="vibes", lvl=-27, pan=0.0, width=0.6, depth="mid", send=0.45, group="melody")}
     return c, mix, dict(duration=round(c.t(B(14)) + 1.5, 2), hall="Scala Milan Opera Hall", target=-17.0, fade_s=1.0)
 

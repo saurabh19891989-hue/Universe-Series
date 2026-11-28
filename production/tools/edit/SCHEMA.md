@@ -31,6 +31,7 @@ base layer** (0..1 of its width and height) unless stated.
 | `dialogue` | `timing_sheet` (lines.csv), `file`, `scene`, `source_wav` (table-read act file to slice), `stems_dir` (final stems `<line_id>.wav` win over slices), `skip_kinds` (narration, sting), `offset_s`, `gain_db`, `overrides` {line_id: {`start_s` \| `shift_s`, `gain_db`, `skip`}} |
 | `music`, `sfx` | global cues (absolute `start_s`), see Cues |
 | `duck` | `music_db` (-12), `sfx_db` (-5): gain under dialogue (keyframed: attack 60 ms, release 450 ms). Opt-in `"mode": "band"` with `speech_db` (-9) and `broad_db` (-4): the music is ducked deeper in 0.9-4.5 kHz than outside it (production/tools/music/dsp.py band_duck); without `mode` nothing changes |
+| `mix_version` | `3` = the v3 audio path (28 Nov): dialogue chain per speaker (high-pass, EQ, 3:1 compressor, de-esser, make-up; overrides in `dialogue_chain` {speaker: {hp, eq, comp_ratio, comp_rel_db, deess_hz}}) and band ducking by default. **New shot lists set `"mix_version": 3`.** Missing or 1 = the old path, unchanged. Toon scenes can use the fuller scene mixer `production/tools/sfx/mix3.py` (placement following the puppets, room IR, foley plan). |
 | `loudness` | `integrated` (-16 LUFS), `true_peak_ceiling` (-2.0 dBTP; result is checked < -1.5) |
 | `credits` | strings collected into the log with each shot's `credits` |
 | `shots` | ordered list; cut points are frame-exact from cumulative `duration_s` |

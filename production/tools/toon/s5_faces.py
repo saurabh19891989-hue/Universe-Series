@@ -5,7 +5,7 @@ For BASE (e.g. J5_cu) it reads PICDIR/BASE.png and every PICDIR/BASE_<key>.png e
  1. registers the edit to the base (ECC affine on the face area), so a slightly shifted redraw lines up;
  2. builds a soft region: mouth + jaw for mouth shapes, eyes (+ brows) for blink/brow keys, from
     MediaPipe landmarks of the base and of the edit (union, so an open jaw is fully inside);
- 3. Poisson-blends (seamlessClone) the region, then a 6-px feathered alpha so no seam or cut lip remains.
+ 3. matches colour on a ring round the region, then blends with a 6-px feathered edge so no seam or cut lip remains.
 Writes OUTDIR/BASE__<key>.png (full picture, same size as the base) and OUTDIR/BASE__X.png (the base).
 """
 import sys, json, os, glob, subprocess, numpy as np, cv2
@@ -60,16 +60,22 @@ for b in bases:
     for key in MOUTHS + EYES:
         p = f"{PIC}/{b}_{key}.png"
         if not os.path.exists(p): print("missing", p); continue
-        ed = register(base, cv2.imread(p), fm)
         kind = "mouth" if key in MOUTHS else ("eyes" if key == "blink" else "brows")
         m = region(lmb, kind, base.shape)
+        # register on the face area round the changed part (local fit: edits sometimes nudge the head)
+        ed = register(base, cv2.imread(p), cv2.dilate(m, np.ones((121, 121), np.uint8)) & fm)
         lme = LM.get(f"{b}_{key}")
         if lme and kind == "mouth": m = cv2.bitwise_or(m, region(lme, kind, base.shape))
-        ys, xs = np.nonzero(m); c = (int((xs.min() + xs.max()) / 2), int((ys.min() + ys.max()) / 2))
-        try:
-            cl = cv2.seamlessClone(ed, base, m, c, cv2.NORMAL_CLONE)
-        except cv2.error:
-            cl = ed
+        # colour match: low-frequency offset measured on a ring just outside the region, applied inside
+        # (OpenCV 5's seamlessClone returned the destination almost unchanged here, so this replaces it)
+        ring = (cv2.dilate(m, np.ones((31, 31), np.uint8)) > 0) & (m == 0)
+        def green(im):
+            f = im.astype(np.float32); return (f[..., 1] - np.maximum(f[..., 0], f[..., 2])) > 40
+        ring = ring & ~green(base) & ~green(ed)             # background never sets the colour offset
+        ring = ring.astype(np.float32)[..., None]
+        diff = (base.astype(np.float32) - ed.astype(np.float32)) * ring
+        num = cv2.GaussianBlur(diff, (0, 0), 30); den = cv2.GaussianBlur(ring[..., 0], (0, 0), 30)[..., None] + 1e-4
+        cl = np.clip(ed.astype(np.float32) + num / den, 0, 255)
         a = cv2.GaussianBlur(cv2.erode(m, np.ones((9, 9), np.uint8)).astype(np.float32) / 255, (0, 0), 6)[..., None]
         out = (base * (1 - a) + cl * a).astype(np.uint8)
         cv2.imwrite(f"{OUT}/{b}__{key}.png", out)

@@ -472,3 +472,15 @@ Gemini API key is saved as a network secret on the Default environment
   output carries an inaudible maker's watermark. NOBODY HAS LISTENED. Sent to owner.
 - Disk: allowance was down to 6 GB free; deleted the closed talking-face benchmark, old
   render scraps of rejected formats and caches → 17 GB free.
+- **Music stage 1 landed (28 Nov):** reel 2 in `samples/audio/upgrade2-28nov/` (8 MP3s +
+  ORDER.txt). World instruments all SYNTHESISED in our own code (`music/worldsynth.py`: sitar,
+  veena, tanpura, santoor, koto, kora, oud, bansuri, shehnai, duduk, erhu, sarangi, tabla with
+  proper strokes and thekas, mridangam, dholak, djembe, talking drum) — no samples, so no
+  licence question; whether they sound real is unchecked and is the main risk. New pieces
+  (`music/s2_pieces.py`): Mira's motif on Indian instruments, a 34 s Indian piece, the Baron's
+  heart theme (63 s), cannonball cutaway march (20 s), main theme with B section (76 s),
+  customs sparring cue (28 s). Effects reworked (`sfx/fx3.py`): stamp, hull-felt landing, suit
+  radio, low-gravity steps. `"mix_version": 3` in a shot list now turns on the new voice chain
+  and band ducking; new shot lists should set it. Fixed a pitch-bend bug in `sfzr.py` (reel 1's
+  Mira motif had two flat notes). NOBODY HAS LISTENED. Sent to owner. Music builder waits for
+  the sample 5 timing to score it.

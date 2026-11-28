@@ -7455,5 +7455,668 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-28T17:08:12",
+  "job": "s5",
+  "name": "J5_cu_brow_up",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "J5_cu.png"
+  ],
+  "seconds": 32.8,
+  "tokens_used": 17774,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22320-77bd-7631-9245-5b91930b7af8",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 29.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 15.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:08:12",
+  "job": "s5",
+  "name": "J5_cu_blink",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "J5_cu.png"
+  ],
+  "seconds": 38.9,
+  "tokens_used": 14091,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22320-6090-7692-a615-f556a61146da",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 29.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 15.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:08:20",
+  "job": "s5",
+  "name": "J5_cu_brow_frown",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "J5_cu.png"
+  ],
+  "seconds": 28.1,
+  "tokens_used": 11680,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22320-a74c-7d93-995e-00bcda46109c",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 30.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 15.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:08:35",
+  "job": "s5",
+  "name": "J5_cu_brow_skeptic",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "J5_cu.png"
+  ],
+  "seconds": 43.4,
+  "tokens_used": 11824,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22320-a784-7341-97c2-b6da9b21ead2",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 30.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 15.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:08:40",
+  "job": "s5",
+  "name": "M5_cu_B",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 27.6,
+  "tokens_used": 23259,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22320-f8f4-74e2-ba56-a4b9e0cdab9b",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 31.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 15.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:08:45",
+  "job": "s5",
+  "name": "M5_cu_A",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 32.7,
+  "tokens_used": 12730,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22320-f8f1-7e92-b1a7-5176b814da6d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 31.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 15.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:09:03",
+  "job": "s5",
+  "name": "M5_cu_D",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 28.1,
+  "tokens_used": 4542,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22321-50f5-7a61-b6cc-54a4e42bc693",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 32.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 15.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402292
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:09:04",
+  "job": "s5",
+  "name": "M5_cu_C",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 44.2,
+  "tokens_used": 14370,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22321-1579-7801-9b15-6044e33dbb1a",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 32.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 15.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:09:14",
+  "job": "s5",
+  "name": "M5_cu_F",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 28.6,
+  "tokens_used": 9432,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22321-784e-7013-b2cb-2deedc09dfaa",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 32.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 15.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:09:19",
+  "job": "s5",
+  "name": "M5_cu_E",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 39.1,
+  "tokens_used": 22528,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22321-64ab-7bf1-a5d0-28945deb6fb9",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 32.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 15.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:09:28",
+  "job": "s5",
+  "name": "M5_cu_G",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 25.1,
+  "tokens_used": 2002,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22321-bf11-7e91-9022-b4beb9f3a12f",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 33.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 15.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:09:31",
+  "job": "s5",
+  "name": "M5_cu_H",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 27.0,
+  "tokens_used": 13866,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22321-c23b-7510-9036-fad01797b19a",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 33.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 15.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:09:46",
+  "job": "s5",
+  "name": "M5_cu_smile",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 32.1,
+  "tokens_used": 15033,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22321-e857-76b1-b63b-ed14e17c8b33",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 34.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 16.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:09:59",
+  "job": "s5",
+  "name": "M5_cu_blink",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 40.0,
+  "tokens_used": 21672,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22321-fdae-76b0-860c-2f363c5cb75b",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 34.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 16.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:10:11",
+  "job": "s5",
+  "name": "M5_cu_brow_up",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 42.3,
+  "tokens_used": 6246,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22322-2195-76b1-9e0b-42d4e88b63b5",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 34.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 16.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:10:18",
+  "job": "s5",
+  "name": "M5_cu_brow_frown",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 46.4,
+  "tokens_used": 31315,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22322-2bf6-7fe3-ac30-70384d785491",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 35.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 16.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:10:24",
+  "job": "s5",
+  "name": "M5_cu_brow_skeptic",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 38.1,
+  "tokens_used": 5075,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22322-65e1-7f82-855a-5feac89aad7d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 35.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 16.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]

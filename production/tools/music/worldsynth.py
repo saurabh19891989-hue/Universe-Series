@@ -299,6 +299,12 @@ def render_track(spec, pm_inst, length):
         e = min(n, s + len(y))
         if e > s:
             out[s:e] += y[:e - s]
+    if name in PLUCK or name in DRUM:      # crest control: soft-limit transients above ~20 dB over the body
+        act = out[np.abs(out) > 1e-4]
+        if len(act):
+            lim = 10 * np.sqrt((act ** 2).mean())
+            out = np.where(np.abs(out) > lim * 0.7, np.sign(out) * (lim * 0.7 + lim * 0.3 *
+                           np.tanh((np.abs(out) - lim * 0.7) / (lim * 0.3))), out)
     x = out.astype(np.float32)[:, None]
     eqb = PLUCK.get(name, WIND.get(name, {})).get("eq", [])
     if name in DRUM:
