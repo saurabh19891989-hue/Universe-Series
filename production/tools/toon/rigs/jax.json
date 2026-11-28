@@ -1,0 +1,193 @@
+{
+ "id": "jax",
+ "seed": 7,
+ "facing": 1,
+ "legs": true,
+ "hip_h": 47,
+ "torso": 27,
+ "shoulder_w": 11,
+ "waist_w": 9,
+ "hem": 5,
+ "hip_w": 4.5,
+ "stance": 11.2,
+ "arm_up": 16,
+ "arm_lo": 15,
+ "sleeve_w": 6.2,
+ "leg_up": 23,
+ "leg_lo": 22,
+ "leg_w": 7.5,
+ "foot": 10,
+ "head_h": 27,
+ "line_w": 0.6,
+ "neck_drop": 2.5,
+ "colors": {
+  "skin": "#dd844b",
+  "line": "#2a1710",
+  "eye_white": "#fbf7f0",
+  "iris": "#4a2c16",
+  "pupil": "#1c0f08",
+  "brow": "#2a1a12",
+  "mouth_in": "#6e1f22",
+  "tongue": "#d9676a",
+  "lip": "#a8563a",
+  "torso": "#cf6a2c",
+  "torso_sh": "#a24e1e",
+  "sleeve": "#cf6a2c",
+  "cuff": "#a24e1e",
+  "trousers": "#5b3e2c",
+  "boot": "#2e2420"
+ },
+ "torso_details": [
+  {
+   "kind": "collar",
+   "depth": 6.5,
+   "color": "#7d8b68"
+  },
+  {
+   "kind": "zip",
+   "dx": 1.5,
+   "y0": 6.5,
+   "color": "#2a1710"
+  },
+  {
+   "kind": "rect",
+   "r": [
+    -9.5,
+    6.5,
+    6.0,
+    4.8
+   ],
+   "color": "#b85a24"
+  },
+  {
+   "kind": "rect",
+   "r": [
+    3.5,
+    6.5,
+    6.0,
+    4.8
+   ],
+   "color": "#b85a24"
+  },
+  {
+   "kind": "rect",
+   "r": [
+    -9.0,
+    17.5,
+    6.5,
+    5.0
+   ],
+   "color": "#b85a24"
+  },
+  {
+   "kind": "rect",
+   "r": [
+    2.5,
+    17.5,
+    6.5,
+    5.0
+   ],
+   "color": "#b85a24"
+  },
+  {
+   "kind": "rect",
+   "r": [
+    -11.5,
+    12.5,
+    3.0,
+    3.0
+   ],
+   "color": "#b85a24"
+  }
+ ],
+ "heads": {
+  "front": {
+   "file": "parts/jax_head_0.png",
+   "pivot": [
+    265,
+    690
+   ],
+   "head_h": 630,
+   "line_w": 6,
+   "brow_w": 15,
+   "eyes": [
+    [
+     192,
+     362,
+     48,
+     30
+    ],
+    [
+     338,
+     362,
+     48,
+     30
+    ]
+   ],
+   "brows": [
+    [
+     135,
+     308,
+     235,
+     296
+    ],
+    [
+     295,
+     296,
+     395,
+     308
+    ]
+   ],
+   "mouth": [
+    265,
+    552,
+    104
+   ],
+   "smile": 0.12
+  },
+  "tq": {
+   "file": "parts/jax_head_1.png",
+   "pivot": [
+    420,
+    700
+   ],
+   "head_h": 650,
+   "line_w": 6,
+   "brow_w": 15,
+   "eyes": [
+    [
+     402,
+     362,
+     48,
+     30
+    ],
+    [
+     545,
+     362,
+     20,
+     27
+    ]
+   ],
+   "brows": [
+    [
+     345,
+     306,
+     450,
+     296
+    ],
+    [
+     515,
+     298,
+     565,
+     306
+    ]
+   ],
+   "mouth": [
+    505,
+    560,
+    84
+   ],
+   "smile": 0.12
+  }
+ }
+}

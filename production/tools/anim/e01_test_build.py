@@ -14,7 +14,7 @@ ART = "${SCRATCH}/anim/art"
 PL = "${SCRATCH}/e01/plates"
 MOON = {"kind": "video", "src": f"{PL}/lunarflyby_1min_2160p30.mp4", "in_s": 22.0, "depth": 0.25}
 EARTH = {"kind": "video", "src": f"{PL}/jsc2026m000089_Artemis_II_Moments_Around_the_Moon_1080p_AVAIL.mp4",
-         "in_s": 30.6, "crop": [0.34, 0.36, 0.80, 1.0], "depth": 0.25}
+         "in_s": 31.6, "crop": [0.43, 0.42, 0.78, 1.0], "depth": 0.25}
 SCARP = f"{PL}/GSFC_20190513_m4714_Lee_Lincoln_Scarp_Moon_Flyover.mp4"
 
 rigs = {
@@ -43,7 +43,7 @@ rigs = {
                        "sway": 0.0, "talk": 0.0, "nod": 0.0}]},
     "ship": {"src": f"{ART}/A_ship.jpg", "key": {"type": "green"}, "engines": [[160, 203, 45], [163, 503, 45]]},
     "jax_real": {"src": "${REPO}/assets/characters/jax/ref-front.jpg",
-                 "key": {"type": "mask", "src": f"{ART}/B_jax_real_mask.png"}, "style": "photo",
+                 "key": {"type": "mask", "src": f"{ART}/B_jax_real_mask.png"}, "style": "photo", "open_gain": 1.35, "teeth_col": [0.42, 0.37, 0.33], "mouth_col": [0.16, 0.06, 0.06],
                  "eyes": [[797, 250, 20, 8], [893, 248, 20, 8]], "mouth": [852, 351], "mouth_w": 34, "chin": 420,
                  "face": [740, 190, 960, 490],
                  "parts": [{"name": "head", "region": [845, 250, 160, 200], "roi": [640, 0, 1060, 520], "pivot": [845, 470]}]},
@@ -98,7 +98,7 @@ A("A01", 4.60, [plate({"kind": "video", "src": SCARP, "in_s": 16.0, "depth": 0.3
                 ship([[0, -0.42], [4.6, 0.30]], y=0.58, h=0.46, rot=[[0, -3], [2.5, 1.5], [4.6, -1]])],
   "REAL NASA video (LRO flyover, Lee Lincoln scarp); the ship flies across. PIP V.O.: the bank has taken the left engine.",
   ["0-01"], camera={"z0": 1.0, "z1": 1.06, "drift": 4})
-A("A02", 1.15, [plate(EARTH, offset=[430, -250], overscan=1.0), bridge_bg(), jax([[0, "jax_front"]])],
+A("A02", 1.15, [plate(EARTH, offset=[470, -110], overscan=1.0), bridge_bg(), jax([[0, "jax_front"]])],
   "Jax MS, Moon in the window behind: 'Which one's the left?'", ["0-02"])
 A("A03", 1.70, [plate(MOON, offset=[260, -300], overscan=1.35, in_s=27), console_bg(), pip()],
   "PIP on the console, lens glowing with his voice: 'The one that has stopped.'", ["0-03"])
@@ -110,7 +110,7 @@ A("A05", 2.10, [plate(MOON, in_s=30, overscan=1.0, offset=[0, -180]),
   "Bridge wide, real Moon in the big window; the lights go down in steps.", [], camera={"z0": 1.0, "z1": 1.07, "drift": 5},
   )
 S[-1]["anim"]["layers"][1]["flicker"] = 0.04
-A("A06", 1.65, [plate(EARTH, offset=[430, -250], overscan=1.0), bridge_bg(), jax([[0, "jax_front"], [0.45, "jax_point"]])],
+A("A06", 1.65, [plate(EARTH, offset=[470, -110], overscan=1.0), bridge_bg(), jax([[0, "jax_front"], [0.45, "jax_point"]])],
   "Jax, indignant, finger up: 'They can't take the coffee machine.'", ["0-05"], camera={"z0": 1.02, "z1": 1.08, "drift": 6})
 A("A07", 2.00, [plate(MOON, offset=[260, -300], overscan=1.35, in_s=27), console_bg(), pip(x=0.5, h=1.08, y=1.06)],
   "PIP: 'It was financed separately.'", ["0-06"])
@@ -118,20 +118,20 @@ A("A08", 3.80, [{"kind": "callscreen", "src": "${SCRATCH}/e01/datavis/04_bank_ca
                  "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png", "rig": "temi", "speaker": "TEMI"}],
   "ANIMATED SCREEN: the bank call; Temi talks (lip-synced): 'Good morning! This is Temi in Recoveries...'", ["0-07"],
   camera={"z0": 1.0, "z1": 1.05, "drift": 3})
-A("A09", 2.40, [plate(EARTH, offset=[430, -250], overscan=1.0), bridge_bg(),
+A("A09", 2.40, [plate(EARTH, offset=[470, -110], overscan=1.0), bridge_bg(),
                 jax([[0, "jax_front"]], look_keys={"x": [[0, -1.0], [0.8, -1.0], [1.0, 0.6], [1.8, 0.6], [2.0, -0.8]]})],
   "Jax listening to Temi (V.O.): eyes go to the screen and back, a slow sag.", [], camera={"z0": 1.0, "z1": 1.05, "drift": 5})
 A("A10", 2.00, [{"kind": "callscreen", "src": "${SCRATCH}/e01/datavis/04_bank_call_live.mp4", "in_s": 2.5,
                  "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png", "rig": "temi", "speaker": "TEMI"}],
   "Temi: '...at six tonight, lunar time. Please remain seated while-'", [], camera={"z0": 1.03, "z1": 1.08, "drift": 3})
-A("A11", 2.90, [plate(EARTH, offset=[430, -250], overscan=1.0), bridge_bg(), jax([[0, "jax_front"], [0.35, "jax_plead"]], h=1.10)],
+A("A11", 2.90, [plate(EARTH, offset=[470, -110], overscan=1.0), bridge_bg(), jax([[0, "jax_front"], [0.35, "jax_plead"]], h=1.10)],
   "Jax, all charm, palms up: 'Temi! Hi! I'm about to make a payment-'", ["0-09"])
 A("A12", 0.92, [{"kind": "callscreen", "src": "${SCRATCH}/e01/datavis/04_bank_call_live.mp4", "in_s": 4.0,
                  "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png", "rig": "temi", "speaker": "TEMI",
                  "freeze_at": 0.25}],
   "Temi freezes mid-word on a blocky frame: '-we disable your-'", ["0-10"], camera={"z0": 1.06, "z1": 1.06, "drift": 2},
   pixelate={"t0": 0.25, "block": 14})
-A("A13", 0.93, [plate(EARTH, offset=[430, -250], overscan=1.0), bridge_bg(), jax([[0, "jax_plead"]], h=1.10)],
+A("A13", 0.93, [plate(EARTH, offset=[470, -110], overscan=1.0), bridge_bg(), jax([[0, "jax_plead"]], h=1.10)],
   "Jax: 'A big one. Enormous-'", ["0-11"], camera={"z0": 1.04, "z1": 1.09, "drift": 6})
 A("A14", 2.45, [{"kind": "callscreen", "src": "${SCRATCH}/e01/datavis/04_bank_call_live.mp4", "in_s": 0.0,
                  "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png", "rig": "temi", "speaker": "TEMI"}],
@@ -142,13 +142,13 @@ A("A15", 1.45, [plate(MOON, offset=[380, -280], overscan=1.3, in_s=27), bridge_b
 A("A16", 3.30, [plate(EARTH, offset=[260, -300], overscan=1.0), console_bg(), pip(x=0.45, h=1.0)],
   "PIP, the real Earth in the window behind him: 'She is in Lagos. You are arguing with the past.'", ["0-14"],
   camera={"z0": 1.0, "z1": 1.06, "drift": 5})
-A("A17", 1.05, [plate(EARTH, offset=[430, -250], overscan=1.0), bridge_bg(), jax([[0, "jax_front"]], h=1.14)],
+A("A17", 1.05, [plate(EARTH, offset=[470, -110], overscan=1.0), bridge_bg(), jax([[0, "jax_front"]], h=1.14)],
   "Jax: 'And I'm winning.'", ["0-15"], camera={"z0": 1.05, "z1": 1.10, "drift": 6})
 A("A18", 4.20, [plate(MOON, offset=[260, -300], overscan=1.35, in_s=27), console_bg(),
                 pip(x=0.55, h=1.0, channels={"head_rot": [[0, 0], [0.2, -14], [0.6, -14], [1.0, 0]]})],
   "Shop bell: PIP's head swivels to it, then the job: 'A job, posted to us directly. One parcel, sealed, prepaid...'",
   ["0-16"], camera={"z0": 1.0, "z1": 1.08, "drift": 5})
-A("B1", 10.40, [plate(EARTH, offset=[430, -250], overscan=1.0, in_s=30.6, speed=0.4),
+A("B1", 10.40, [plate(EARTH, offset=[470, -110], overscan=1.0, in_s=31.6, speed=0.3),
                 {"kind": "set", "src": "${REPO}/assets/sets/bridge/master-bright.jpg", "window": {"region": [0.1, 0.03, 0.92, 0.5]},
                  "crop": [0.05, 0.0, 0.95, 0.75], "blur": 2.0, "depth": 0.6},
                 {"kind": "puppet", "name": "jaxr", "speaker": "JAX", "rig": "jax_real", "x": 0.5, "y": 1.12, "h": 1.15,

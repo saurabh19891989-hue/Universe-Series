@@ -663,6 +663,17 @@
     "src": "${SCRATCH}/anim/art/B_jax_real_mask.png"
    },
    "style": "photo",
+   "open_gain": 1.35,
+   "teeth_col": [
+    0.42,
+    0.37,
+    0.33
+   ],
+   "mouth_col": [
+    0.16,
+    0.06,
+    0.06
+   ],
    "eyes": [
     [
      797,
@@ -796,17 +807,17 @@
      {
       "kind": "video",
       "src": "${SCRATCH}/e01/plates/jsc2026m000089_Artemis_II_Moments_Around_the_Moon_1080p_AVAIL.mp4",
-      "in_s": 30.6,
+      "in_s": 31.6,
       "crop": [
-       0.34,
-       0.36,
-       0.8,
+       0.43,
+       0.42,
+       0.78,
        1.0
       ],
       "depth": 0.25,
       "offset": [
-       430,
-       -250
+       470,
+       -110
       ],
       "overscan": 1.0
      },
@@ -1067,17 +1078,17 @@
      {
       "kind": "video",
       "src": "${SCRATCH}/e01/plates/jsc2026m000089_Artemis_II_Moments_Around_the_Moon_1080p_AVAIL.mp4",
-      "in_s": 30.6,
+      "in_s": 31.6,
       "crop": [
-       0.34,
-       0.36,
-       0.8,
+       0.43,
+       0.42,
+       0.78,
        1.0
       ],
       "depth": 0.25,
       "offset": [
-       430,
-       -250
+       470,
+       -110
       ],
       "overscan": 1.0
      },
@@ -1264,17 +1275,17 @@
      {
       "kind": "video",
       "src": "${SCRATCH}/e01/plates/jsc2026m000089_Artemis_II_Moments_Around_the_Moon_1080p_AVAIL.mp4",
-      "in_s": 30.6,
+      "in_s": 31.6,
       "crop": [
-       0.34,
-       0.36,
-       0.8,
+       0.43,
+       0.42,
+       0.78,
        1.0
       ],
       "depth": 0.25,
       "offset": [
-       430,
-       -250
+       470,
+       -110
       ],
       "overscan": 1.0
      },
@@ -1405,17 +1416,17 @@
      {
       "kind": "video",
       "src": "${SCRATCH}/e01/plates/jsc2026m000089_Artemis_II_Moments_Around_the_Moon_1080p_AVAIL.mp4",
-      "in_s": 30.6,
+      "in_s": 31.6,
       "crop": [
-       0.34,
-       0.36,
-       0.8,
+       0.43,
+       0.42,
+       0.78,
        1.0
       ],
       "depth": 0.25,
       "offset": [
-       430,
-       -250
+       470,
+       -110
       ],
       "overscan": 1.0
      },
@@ -1535,17 +1546,17 @@
      {
       "kind": "video",
       "src": "${SCRATCH}/e01/plates/jsc2026m000089_Artemis_II_Moments_Around_the_Moon_1080p_AVAIL.mp4",
-      "in_s": 30.6,
+      "in_s": 31.6,
       "crop": [
-       0.34,
-       0.36,
-       0.8,
+       0.43,
+       0.42,
+       0.78,
        1.0
       ],
       "depth": 0.25,
       "offset": [
-       430,
-       -250
+       470,
+       -110
       ],
       "overscan": 1.0
      },
@@ -1733,11 +1744,11 @@
      {
       "kind": "video",
       "src": "${SCRATCH}/e01/plates/jsc2026m000089_Artemis_II_Moments_Around_the_Moon_1080p_AVAIL.mp4",
-      "in_s": 30.6,
+      "in_s": 31.6,
       "crop": [
-       0.34,
-       0.36,
-       0.8,
+       0.43,
+       0.42,
+       0.78,
        1.0
       ],
       "depth": 0.25,
@@ -1811,17 +1822,17 @@
      {
       "kind": "video",
       "src": "${SCRATCH}/e01/plates/jsc2026m000089_Artemis_II_Moments_Around_the_Moon_1080p_AVAIL.mp4",
-      "in_s": 30.6,
+      "in_s": 31.6,
       "crop": [
-       0.34,
-       0.36,
-       0.8,
+       0.43,
+       0.42,
+       0.78,
        1.0
       ],
       "depth": 0.25,
       "offset": [
-       430,
-       -250
+       470,
+       -110
       ],
       "overscan": 1.0
      },
@@ -1986,20 +1997,20 @@
      {
       "kind": "video",
       "src": "${SCRATCH}/e01/plates/jsc2026m000089_Artemis_II_Moments_Around_the_Moon_1080p_AVAIL.mp4",
-      "in_s": 30.6,
+      "in_s": 31.6,
       "crop": [
-       0.34,
-       0.36,
-       0.8,
+       0.43,
+       0.42,
+       0.78,
        1.0
       ],
       "depth": 0.25,
       "offset": [
-       430,
-       -250
+       470,
+       -110
       ],
       "overscan": 1.0,
-      "speed": 0.4
+      "speed": 0.3
      },
      {
       "kind": "set",

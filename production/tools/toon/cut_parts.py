@@ -27,7 +27,11 @@ for y in range(0, h, 7):
 fg = (1 - bg).astype(np.uint8)
 fg = cv2.morphologyEx(fg, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
 k, lab, st, _ = cv2.connectedComponentsWithStats(fg, 8)
-idx = sorted(range(1, k), key=lambda i: -st[i, cv2.CC_STAT_AREA])[:n]
+if n == 0:   # merge every piece bigger than 300 px into one part (a prop)
+    keep = [i for i in range(1, k) if st[i, cv2.CC_STAT_AREA] > 300]
+    lab = np.where(np.isin(lab, keep), keep[0], 0); fg2 = (lab > 0).astype(np.uint8)
+    x, y, bw, bh = cv2.boundingRect(fg2); st[keep[0], :4] = [x, y, bw, bh]; idx_all = [keep[0]]
+idx = idx_all if n == 0 else sorted(range(1, k), key=lambda i: -st[i, cv2.CC_STAT_AREA])[:n]
 idx = sorted(idx, key=lambda i: st[i, cv2.CC_STAT_LEFT])
 # soft edge: alpha from the mask, feathered 1px, and near-white fringe pixels faded
 for j, i in enumerate(idx):

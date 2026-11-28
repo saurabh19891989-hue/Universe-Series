@@ -1,0 +1,25 @@
+[
+ {
+  "use": "TEST 3 window plate (Earth rising over the lunar south-pole horizon)",
+  "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/toon/nasa/ARC-20230215-AAV3458-VIPER-MonsMouton-1080.mp4",
+  "sha256": "df770abcbabe70319e2f5034753dbf66addf23bf06dc320b49b50b69f647826c",
+  "source_page_url": "https://images.nasa.gov/details/ARC-20230215-AAV3458-VIPER-MonsMouton-1080",
+  "direct_url": "https://images-assets.nasa.gov/video/ARC-20230215-AAV3458-VIPER-MonsMouton-1080/ARC-20230215-AAV3458-VIPER-MonsMouton-1080~orig.mp4",
+  "nasa_id": "ARC-20230215-AAV3458-VIPER-MonsMouton-1080",
+  "title": "Moon Mountain Name Honors NASA Mathematician Melba Mouton",
+  "date": "2023-02-15",
+  "credit_line": "NASA's Ames Research Center (library SecondaryCreator); the Earth-over-Mons-Mouton visualisation inside it is NASA's Scientific Visualization Studio/Ernie Wright (SVS 5074)",
+  "licence_statement": "NASA media: \"NASA content - images, audio, video, and media files used in the rendition of 3-dimensional models ... generally are not subject to copyright in the United States.\" Commercial use: \"If the NASA material is to be used for commercial purposes, including advertisements, it must not explicitly or implicitly convey NASA's endorsement of commercial goods or services.\" (https://www.nasa.gov/nasa-brand-center/images-and-media/, read 27 Nov 2026). No NASA logo/insignia on fictional things.",
+  "range_used": "pts 66.30-70.15 s only (visualisation: Earth rising past the lunar limb near Mons Mouton). Rest of the video has a narrator on camera, a NASA logo and lower-thirds: NOT used.",
+  "treatment": "original audio stripped (ffmpeg -an -c copy); range flipped vertically (the visualisation shows the south pole with Earth below the limb; flipped so the ground is at the bottom), slowed to 0.2x with blended frames, played forward then reversed (38.4 s) -> toon/plates/window.mp4. Shown behind cartoon glass, not as a factual record.",
+  "status": "USE_RANGE_ONLY",
+  "logged_by": "toon test 3 builder, 28 Nov 2026"
+ },
+ {
+  "use": "TEST 3 exterior (ship landing)",
+  "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/plates/GSFC_20190513_m4714_Lee_Lincoln_Scarp_Moon_Flyover.mp4",
+  "already_logged_in": "assets/e01-plates.json",
+  "range_used": "12-21 s (low oblique run across a lunar plain), real speed, resampled to 24 fps -> toon/plates/ext.mp4",
+  "credit_line": "David Ladd, Tom Waters, Ernie Wright (NASA/GSFC Scientific Visualization Studio)"
+ }
+]

@@ -5279,5 +5279,161 @@
   "errors": [
    "2026-11-28T14:32:00.121552Z ERROR codex_core::tools::router: error=image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1795877548,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":1228}}\")"
   ]
+ },
+ {
+  "time": "2026-11-28T14:54:46",
+  "job": "toon",
+  "name": "jax_body",
+  "purpose": "toon test 3 design",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 39.9,
+  "tokens_used": 17775,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222a6-30a6-7592-8a69-26e43271401c",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 5.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 11.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T14:54:50",
+  "job": "toon",
+  "name": "ship_side",
+  "purpose": "toon test 3 design",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 44.9,
+  "tokens_used": 11075,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222a6-308d-76a2-958a-0178d5815f83",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 5.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 11.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T14:54:51",
+  "job": "toon",
+  "name": "jax_heads",
+  "purpose": "toon test 3 design",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 45.4,
+  "tokens_used": 7583,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222a6-30c7-7ba3-9ba1-b6b4dc0a1a58",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 5.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 11.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T14:54:52",
+  "job": "toon",
+  "name": "mira_body",
+  "purpose": "toon test 3 design",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 46.3,
+  "tokens_used": 17884,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a222a6-30b3-71d0-a7c0-ae2bd1c9d4d2",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 5.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 11.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]

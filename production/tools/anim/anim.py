@@ -282,9 +282,9 @@ class Puppet:
             colI = r.get("mouth_col", [0.30, 0.08, 0.10] if ink else [0.20, 0.07, 0.07])
             roi = paint(roi, inner, colI)
             if teeth > 0.05:
-                th = min(opx * 0.42, hw * 0.22)
+                th = min(opx * 0.42, hw * 0.22) * (1.0 if ink else 0.55)
                 tp = np.concatenate([np.stack([xs * 0.86, top - 1], 1), np.stack([xs[::-1] * 0.86, (top + th)[::-1]], 1)])
-                tm = draw_ss((hh, ww), [to_roi(tp)], blur=0.0 if ink else 0.7) * inner
+                tm = draw_ss((hh, ww), [to_roi(tp)], blur=0.0 if ink else 1.4) * inner
                 roi = paint(roi, tm, r.get("teeth_col", [0.95, 0.93, 0.88] if ink else [0.80, 0.76, 0.70]), min(1, teeth))
             if tongue > 0.05:
                 tg = np.stack([xs * 0.6, bot * 0.55 + opx * 0.45 * prof], 1)

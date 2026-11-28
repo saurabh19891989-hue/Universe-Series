@@ -365,3 +365,12 @@ Gemini API key is saved as a network secret on the Default environment
   data and two helper weights not settled, so review-only. 20 min of talk = ~48 h per episode.
   Only MuseTalk was tried. Record: `research/tooling/cpu-talking-face-benchmark.md`. This
   closes the photoreal in-house route; animation tests 1 and 3 still running.
+- **Test 1 landed (painted look):** 70 s cold open, `samples/e01/E01-animation-test-720p.mp4`
+  (11 MB). Cut-out Jax, Temi and PIP with lip-sync from our stems (Rhubarb, 9 mouth shapes
+  painted in code), blinks, pose swaps; painted ship over NASA lunar video; Moon/Earth video in
+  windows (~47 of 70 s NASA). 40.6–51.0 s is the photoreal cut-out comparison. 10 pictures, all
+  via Antigravity. Render ~24 CPU-s per second of video (35 min ≈ 4.7 h on 3 workers).
+  Showrunner checked: contact sheet, frames, mouth close-ups (mouth moves, but opens small),
+  no frozen stretch except the title. NOT checked: sound, sync by ear. Weakness: motion-comic
+  feel — heads tilt but do not turn, arms change by whole-pose swap, no walking. Sent to owner.
+  Notes: `production/ANIMATION-FORMAT.md`. Test 3 (flat cartoon, full rigs) still running.
