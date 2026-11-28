@@ -16,8 +16,9 @@ State lives on disk, never only in a chat. Update `STATUS.md` when a milestone l
 - Replies short and plain: say what was checked and what was not.
 - Fast-paced, never boring; balance of comedy, drama, romance, action. All references
   (Goodfellas, Guardians, British comedy, Zimmer, Ilaiyaraaja) are guidelines — improvise.
-- Pictures: generated through the Codex CLI on the owner's ChatGPT Pro subscription (owner,
-  27 Nov). Every recurring character, set and prop has one approved master image; new images
+- Pictures: generated through the Codex CLI on the owner's ChatGPT subscription (a Plus plan,
+  owner confirmed 28 Nov). Use it freely: if more pictures make the animation smoother, make
+  more (owner, 28 Nov). Every recurring character, set and prop has one approved master image; new images
   always use it as a reference so faces never change. If a usage limit is hit: stop, note the
   reset time it shows, WAIT for that time and resume by yourself (owner, 27 Nov late) — do not
   ask the owner to reset it.

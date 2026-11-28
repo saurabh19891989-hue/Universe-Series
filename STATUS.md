@@ -389,3 +389,7 @@ Gemini API key is saved as a network secret on the Default environment
 - **Waiting on owner:** watch tests 1 and 3, pick the look/direction. Showrunner's proposal:
   combine them — test 1's richer art with test 3's jointed, moving bodies, rigs cut from
   picture-made full-body designs.
+- **Owner (28 Nov, after tests 1 and 3):** combine them — test 1's art with test 3's moving,
+  walking bodies and real locations — and make the next test. Codex is on a Plus plan (owner
+  confirmed), with plenty of allowance: use it freely, more pictures if they smooth the motion.
+  CLAUDE.md updated. Test 4 (combined) started with the test 3 builder.
