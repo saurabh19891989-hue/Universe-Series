@@ -146,7 +146,10 @@ def render_stems(pm, mix, length):
     stems = {}
     for k, pmi in enumerate(pm.instruments):
         spec = mix.get(pmi.name, {"gm": True})
-        if pmi.is_drum:
+        if spec.get("synth"):
+            import worldsynth
+            y = worldsynth.render_track(dict(spec, seed=k + 11), pmi, length)[:n]
+        elif pmi.is_drum:
             y = _drum_stem(pmi, spec, length, n, k)
         elif spec.get("gm"):
             y = v2mix.gm_stem(pmi, length, program=spec.get("program"), bank=spec.get("bank", 0))[:n]

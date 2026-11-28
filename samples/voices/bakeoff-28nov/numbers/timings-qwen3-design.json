@@ -1,0 +1,153 @@
+{
+ "engine": "qwen3-design",
+ "takes": {
+  "L1_t1": {
+   "wall_s": 18.09,
+   "cpu_s": 31.85,
+   "audio_s": 2.4,
+   "rtf_wall": 7.54,
+   "settings": {
+    "text": "Temi! Hi! I'm about to make a payment\u2014",
+    "direction": "Panicked and breathless, speaking very fast with desperate fake cheer, voice rising, cut off at the end.",
+    "instruct": "A man in his late thirties with a quick, warm, slightly husky American baritone; a charming, fast-talking space courier who sells for a living. Panicked and breathless, speaking very fast with desperate fake cheer, voice rising, cut off at the end."
+   },
+   "load1": 3.01
+  },
+  "L1_t2": {
+   "wall_s": 21.01,
+   "cpu_s": 38.53,
+   "audio_s": 3.12,
+   "rtf_wall": 6.73,
+   "settings": {
+    "text": "Temi! Hi! I'm about to make a payment\u2014",
+    "direction": "Frantic, talking over someone at top speed, high-pitched nervous excitement.",
+    "instruct": "A man in his late thirties with a quick, warm, slightly husky American baritone; a charming, fast-talking space courier who sells for a living. Frantic, talking over someone at top speed, high-pitched nervous excitement."
+   },
+   "load1": 3.11
+  },
+  "L2_t1": {
+   "wall_s": 23.0,
+   "cpu_s": 43.29,
+   "audio_s": 3.36,
+   "rtf_wall": 6.85,
+   "settings": {
+    "text": "She is in Lagos. You are arguing with the past.",
+    "direction": "Completely deadpan and flat, bone-dry, unhurried and precise, no emotion at all.",
+    "instruct": "A crisp, precise British male voice belonging to a small, fussy ship's computer; mid-pitched, clipped consonants, very dry and literal. Completely deadpan and flat, bone-dry, unhurried and precise, no emotion at all."
+   },
+   "load1": 3.28
+  },
+  "L3_t1": {
+   "wall_s": 24.06,
+   "cpu_s": 46.26,
+   "audio_s": 3.68,
+   "rtf_wall": 6.54,
+   "settings": {
+    "text": "Your record isn't late, Captain. It's blank.",
+    "direction": "A cool, cutting put-down, calm and slightly amused, the last word low and final.",
+    "instruct": "A woman in her mid-thirties with a low, cool, dry voice and a light Bengali Indian-English accent; exact, composed, quietly amused. A cool, cutting put-down, calm and slightly amused, the last word low and final."
+   },
+   "load1": 3.19
+  },
+  "L4_t1": {
+   "wall_s": 9.8,
+   "cpu_s": 19.27,
+   "audio_s": 1.6,
+   "rtf_wall": 6.13,
+   "settings": {
+    "text": "Go! I'll get the ramp!",
+    "direction": "Shouting at full volume across a distance, urgent, out of breath, adrenaline.",
+    "instruct": "A man in his late thirties with a quick, warm, slightly husky American baritone; a charming, fast-talking space courier who sells for a living. Shouting at full volume across a distance, urgent, out of breath, adrenaline."
+   },
+   "load1": 3.24
+  },
+  "L4_t2": {
+   "wall_s": 8.95,
+   "cpu_s": 17.63,
+   "audio_s": 1.44,
+   "rtf_wall": 6.21,
+   "settings": {
+    "text": "Go! I'll get the ramp!",
+    "direction": "Yelling loudly in an emergency, strained and forceful.",
+    "instruct": "A man in his late thirties with a quick, warm, slightly husky American baritone; a charming, fast-talking space courier who sells for a living. Yelling loudly in an emergency, strained and forceful."
+   },
+   "load1": 3.35
+  },
+  "L5_t1": {
+   "wall_s": 9.86,
+   "cpu_s": 19.17,
+   "audio_s": 1.52,
+   "rtf_wall": 6.49,
+   "settings": {
+    "text": "It prefers her.",
+    "direction": "Whispering very softly and tenderly, almost to herself, a small sad smile.",
+    "instruct": "A woman in her mid-thirties with a low, cool, dry voice and a light Bengali Indian-English accent; exact, composed, quietly amused. Whispering very softly and tenderly, almost to herself, a small sad smile."
+   },
+   "load1": 3.29
+  },
+  "L5_t2": {
+   "wall_s": 9.95,
+   "cpu_s": 19.58,
+   "audio_s": 1.44,
+   "rtf_wall": 6.91,
+   "settings": {
+    "text": "It prefers her.",
+    "direction": "A hushed, breathy whisper, very quiet and gentle.",
+    "instruct": "A woman in her mid-thirties with a low, cool, dry voice and a light Bengali Indian-English accent; exact, composed, quietly amused. A hushed, breathy whisper, very quiet and gentle."
+   },
+   "load1": 3.17
+  },
+  "L6_t1": {
+   "wall_s": 30.75,
+   "cpu_s": 59.57,
+   "audio_s": 4.88,
+   "rtf_wall": 6.3,
+   "settings": {
+    "text": "Read it to me. Slowly. I want to enjoy my name.",
+    "direction": "Relaxed and savouring the moment, with a short amused laugh before the last sentence, grinning.",
+    "instruct": "A man in his late thirties with a quick, warm, slightly husky American baritone; a charming, fast-talking space courier who sells for a living. Relaxed and savouring the moment, with a short amused laugh before the last sentence, grinning."
+   },
+   "load1": 3.17
+  },
+  "L6_t2": {
+   "wall_s": 35.86,
+   "cpu_s": 66.43,
+   "audio_s": 5.12,
+   "rtf_wall": 7.0,
+   "settings": {
+    "text": "Read it to me. Slowly. Ha! I want to enjoy my name.",
+    "direction": "Chuckling, delighted and smug, laughing as he speaks.",
+    "instruct": "A man in his late thirties with a quick, warm, slightly husky American baritone; a charming, fast-talking space courier who sells for a living. Chuckling, delighted and smug, laughing as he speaks."
+   },
+   "load1": 3.74
+  },
+  "L7_t1": {
+   "wall_s": 12.38,
+   "cpu_s": 24.02,
+   "audio_s": 1.92,
+   "rtf_wall": 6.45,
+   "settings": {
+    "text": "You gave up your job for us.",
+    "direction": "Quiet, warm and sincere, slightly moved and touched, slower than usual.",
+    "instruct": "A man in his late thirties with a quick, warm, slightly husky American baritone; a charming, fast-talking space courier who sells for a living. Quiet, warm and sincere, slightly moved and touched, slower than usual."
+   },
+   "load1": 3.8
+  },
+  "L8_t1": {
+   "wall_s": 34.82,
+   "cpu_s": 66.54,
+   "audio_s": 5.44,
+   "rtf_wall": 6.4,
+   "settings": {
+    "text": "Good morning! This is Temi in Recoveries. Your vessel is being recovered.",
+    "direction": "Very bright, chirpy and sing-song, professional call-centre cheer, smiling.",
+    "instruct": "A young woman with a bright, warm Nigerian English accent; a cheerful, polished bank call-centre agent with a smile in her voice. Very bright, chirpy and sing-song, professional call-centre cheer, smiling."
+   },
+   "load1": 4.09
+  }
+ },
+ "threads": 2,
+ "model": "Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+ "dtype": "torch.bfloat16",
+ "peak_rss_gb": 5.44
+}

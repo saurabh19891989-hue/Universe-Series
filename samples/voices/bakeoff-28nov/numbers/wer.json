@@ -1,0 +1,282 @@
+{
+ "kokoro": {
+  "L1_t1": {
+   "wer": 0.25,
+   "heard": "Tell me hi, I'm about to make a payment."
+  },
+  "L2_t1": {
+   "wer": 0.0,
+   "heard": "She is in Lagos, you are arguing with the past."
+  },
+  "L3_t1": {
+   "wer": 0.0,
+   "heard": "Your record isn't late Captain, it's blank."
+  },
+  "L4_t1": {
+   "wer": 0.0,
+   "heard": "Go I'll get the ramp."
+  },
+  "L5_t1": {
+   "wer": 0.0,
+   "heard": "It prefers her."
+  },
+  "L6_t1": {
+   "wer": 0.0,
+   "heard": "Read it to me slowly, I want to enjoy my name."
+  },
+  "L7_t1": {
+   "wer": 0.0,
+   "heard": "you gave up your job for us."
+  },
+  "L8_t1": {
+   "wer": 0.0,
+   "heard": "Good morning, this is Temi in recoveries.  Your vessel is being recovered."
+  }
+ },
+ "chatterbox-turbo-qwenref": {
+  "L1_t1": {
+   "wer": 0.25,
+   "heard": "To me. Hi. I'm about to make a payment."
+  },
+  "L1_t2": {
+   "wer": 0.25,
+   "heard": "Timmy. Hi. Hi. I'm about to make a payment."
+  },
+  "L2_t1": {
+   "wer": 0.0,
+   "heard": "She is in Lagos. You are arguing with the past."
+  },
+  "L3_t1": {
+   "wer": 0.0,
+   "heard": "Your record isn't late, Captain. It's blank."
+  },
+  "L4_t1": {
+   "wer": 0.0,
+   "heard": "Go. I'll get the ramp."
+  },
+  "L4_t2": {
+   "wer": 0.0,
+   "heard": "Go. I'll get the ramp."
+  },
+  "L5_t1": {
+   "wer": 0.0,
+   "heard": "it prefers her."
+  },
+  "L5_t2": {
+   "wer": 0.0,
+   "heard": "It prefers her."
+  },
+  "L6_t1": {
+   "wer": 0.0,
+   "heard": "Read it to me. Slowly. I want to enjoy my name."
+  },
+  "L6_t2": {
+   "wer": 0.0,
+   "heard": "Read it to me, slowly. I want to enjoy my name."
+  },
+  "L7_t1": {
+   "wer": 0.0,
+   "heard": "You gave up your job for us."
+  },
+  "L8_t1": {
+   "wer": 0.083,
+   "heard": "Good morning. This is Temmie in recoveries. Your vessel is being recovered."
+  }
+ },
+ "chatterbox-turbo": {
+  "L1_t1": {
+   "wer": 0.125,
+   "heard": "Tammy. Hi. I'm about to make a payment."
+  },
+  "L1_t2": {
+   "wer": 0.375,
+   "heard": "Oh, Timmy! Hi! Hi! I'm about to make a payment!"
+  },
+  "L2_t1": {
+   "wer": 0.2,
+   "heard": "She's in Lagos. You are arguing with the past."
+  },
+  "L3_t1": {
+   "wer": 0.0,
+   "heard": "Your record isn't late, Captain. It's blank."
+  },
+  "L4_t1": {
+   "wer": 0.0,
+   "heard": "Go. I'll get the ramp."
+  },
+  "L4_t2": {
+   "wer": 0.0,
+   "heard": "Go. I'll get the ramp."
+  },
+  "L5_t1": {
+   "wer": 0.0,
+   "heard": "It prefers her."
+  },
+  "L5_t2": {
+   "wer": 0.0,
+   "heard": "It prefers her."
+  },
+  "L6_t1": {
+   "wer": 0.0,
+   "heard": "Read it to me. Slowly. I want to enjoy my name."
+  },
+  "L6_t2": {
+   "wer": 0.0,
+   "heard": "Read it to me. Slowly. I want to enjoy my name."
+  },
+  "L7_t1": {
+   "wer": 0.0,
+   "heard": "You gave up your job for us."
+  },
+  "L8_t1": {
+   "wer": 0.083,
+   "heard": "Good morning. This is Temi and recoveries. Your vessel is being recovered."
+  }
+ },
+ "orpheus-3b-q4": {
+  "L1_t1": {
+   "wer": 0.125,
+   "heard": "Hi, I'm about to make a payment."
+  },
+  "L2_t1": {
+   "wer": 0.0,
+   "heard": "She is in Lagos. You are arguing with the past."
+  },
+  "L3_t1": {
+   "wer": 0.0,
+   "heard": "Your record isn't late, Captain.  It's... blank."
+  },
+  "L4_t1": {
+   "wer": 0.0,
+   "heard": "Go! I'll get the ramp!"
+  },
+  "L4_t2": {
+   "wer": 0.0,
+   "heard": "Go! I'll get the ramp!"
+  },
+  "L5_t1": {
+   "wer": 0.333,
+   "heard": "Ah, it prefers her."
+  },
+  "L5_t2": {
+   "wer": 0.0,
+   "heard": "It prefers her."
+  },
+  "L6_t1": {
+   "wer": 0.0,
+   "heard": "Read it to me, slowly.  I want to enjoy my name."
+  },
+  "L6_t2": {
+   "wer": 0.0,
+   "heard": "Read it to me, slowly.  I want to enjoy my name."
+  },
+  "L7_t1": {
+   "wer": 0.0,
+   "heard": "You gave up your job for us."
+  },
+  "L8_t1": {
+   "wer": 0.083,
+   "heard": "Good morning! This is Teni in recoveries. Your vessel is being recovered."
+  }
+ },
+ "qwen3-design": {
+  "L1_t1": {
+   "wer": 0.125,
+   "heard": "Temmie! Hi! I'm about to make a payment!"
+  },
+  "L1_t2": {
+   "wer": 0.25,
+   "heard": "To me?  Hi!  I'm about to make a payment!"
+  },
+  "L2_t1": {
+   "wer": 0.4,
+   "heard": "She's unlike us. You are arguing with the past."
+  },
+  "L3_t1": {
+   "wer": 0.0,
+   "heard": "Your record isn't late Captain, it's blank."
+  },
+  "L4_t1": {
+   "wer": 0.0,
+   "heard": "Go! I'll get the ramp!"
+  },
+  "L4_t2": {
+   "wer": 0.0,
+   "heard": "Go! I'll get the ramp!"
+  },
+  "L5_t1": {
+   "wer": 0.0,
+   "heard": "It prefers her."
+  },
+  "L5_t2": {
+   "wer": 0.333,
+   "heard": "He prefers her."
+  },
+  "L6_t1": {
+   "wer": 0.0,
+   "heard": "Read it to me. Slowly. I want to enjoy my name."
+  },
+  "L6_t2": {
+   "wer": 0.0,
+   "heard": "Read it to me. Slowly. I want to enjoy my name."
+  },
+  "L7_t1": {
+   "wer": 0.0,
+   "heard": "you gave up your job for us."
+  },
+  "L8_t1": {
+   "wer": 0.0,
+   "heard": "Good morning.  This is Temi in recoveries.  Your vessel is being recovered."
+  }
+ },
+ "supertonic3": {
+  "L1_t1": {
+   "wer": 0.25,
+   "heard": "Tell me. Hi. I'm about to make a payment."
+  },
+  "L1_t2": {
+   "wer": 0.5,
+   "heard": "Tell me. Hi, hi. I'm about to make a payment. I'm..."
+  },
+  "L2_t1": {
+   "wer": 0.0,
+   "heard": "She is in Lagos. You are arguing with the past."
+  },
+  "L3_t1": {
+   "wer": 0.0,
+   "heard": "Your record isn't late, Captain. It's blank."
+  },
+  "L4_t1": {
+   "wer": 0.2,
+   "heard": "Joe, I'll get the ramp."
+  },
+  "L4_t2": {
+   "wer": 0.2,
+   "heard": "Go, Rhys, I'll get the ramp."
+  },
+  "L5_t1": {
+   "wer": 0.333,
+   "heard": "Hmm, it prefers her."
+  },
+  "L5_t2": {
+   "wer": 0.333,
+   "heard": "It prefers her sigh."
+  },
+  "L6_t1": {
+   "wer": 0.0,
+   "heard": "Read it to me. Slowly. I want to enjoy my name."
+  },
+  "L6_t2": {
+   "wer": 0.0,
+   "heard": "Read it to me. Slowly. I want to enjoy my name."
+  },
+  "L7_t1": {
+   "wer": 0.0,
+   "heard": "You gave up your job for us."
+  },
+  "L8_t1": {
+   "wer": 0.0,
+   "heard": "Good morning! This is Temi in recoveries. Your vessel is being recovered."
+  }
+ }
+}

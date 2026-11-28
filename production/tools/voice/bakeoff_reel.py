@@ -42,6 +42,11 @@ def slate(text, i):
     return x
 
 
+def mmss(t):
+    t = round(t, 1)
+    return f"{int(t // 60)}:{t % 60:04.1f}"
+
+
 def sil(s):
     return np.zeros(int(SR * s), dtype=np.float32)
 
@@ -81,7 +86,7 @@ parts.append(cur)
 order = ["Voice bake-off listening reel, 28 Nov 2026. Nobody has listened to this (agents cannot hear).",
          "Every clip is set to the same loudness (-20 LUFS, linear gain) so whispers and shouts play at the same level;",
          "judge acting and voice, not volume. Slates are spoken by a Kokoro voice (am_michael) that is not in the cast.",
-         f"Engines: {', '.join(NAMES.get(e, e) for e in ['kokoro'] + engines)}.", ""]
+         f"Engines: {' / '.join(NAMES.get(e, e) for e in ['kokoro'] + engines)}.", ""]
 for pi, p in enumerate(parts, 1):
     fn = f"bakeoff-reel-part{pi}.mp3"
     audio = np.concatenate([s for b in p for s in b[1]])
@@ -92,11 +97,11 @@ for pi, p in enumerate(parts, 1):
     order.append(f"== {fn}  ({len(audio) / SR:.0f} s, {size / 1e6:.2f} MB)")
     t0 = 0.0
     for l, segs, rows in p:
-        order.append(f"  {int(t0 // 60)}:{t0 % 60:04.1f}  LINE {l['id'][1:]} {l['char']} ({l['kind']}): \"{l['text']}\"")
+        order.append(f"  {mmss(t0)}  LINE {l['id'][1:]} {l['char']} ({l['kind']}): \"{l['text']}\"")
         order.append(f"           direction: {l['direction']}")
         for r in rows:
             ts = t0 + r["offset_in_block"]
-            order.append(f"    {int(ts // 60)}:{ts % 60:04.1f}  {r['line']}  {NAMES.get(r['model'], r['model']):<22} take {r['take']}  "
+            order.append(f"    {mmss(ts)}  {r['line']}  {NAMES.get(r['model'], r['model']):<22} take {r['take']}  "
                          f"({r['clip_s']} s, source {r['input_lufs']} LUFS)  [{r['file']}]")
         t0 += sum(len(s) for s in segs) / SR
     order.append("")

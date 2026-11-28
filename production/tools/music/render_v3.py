@@ -1,18 +1,23 @@
 #!/usr/bin/env python3
 """Render s1_themes cues with the v3 sound.
-python3 render_v3.py OUT_DIR [cue ...]      cues: main_theme title_sting end_card jax mira pip customs
+python3 render_v3.py [--mod s2_pieces] OUT_DIR [cue ...]      cues: main_theme title_sting end_card jax mira pip customs
 Writes OUT_DIR/<name>.wav (48 kHz 24-bit), OUT_DIR/midi/<name>.mid and prints render time + measurements."""
 import json, os, sys, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import soundfile as sf
+import importlib
 import sulib, s1_themes, v3mix, audiometer
 
-out = sys.argv[1]
+args = sys.argv[1:]
+mod = s1_themes
+if args and args[0] == "--mod":          # e.g. --mod s2_pieces
+    mod = importlib.import_module(args[1]); args = args[2:]
+out = args[0]
 os.makedirs(os.path.join(out, "midi"), exist_ok=True)
 sulib.MIDI_DIR = os.path.join(out, "midi")
-for key in (sys.argv[2:] or list(s1_themes.ALL)):
+for key in (args[1:] or list(mod.ALL)):
     t0 = time.time()
-    c, mix, meta = s1_themes.ALL[key]()
+    c, mix, meta = mod.ALL[key]()
     try:
         c.write_midi()
     except ValueError as e:      # >16 tracks: MIDI export needs channel sharing; the render does not

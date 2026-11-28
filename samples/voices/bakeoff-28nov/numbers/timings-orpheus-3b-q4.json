@@ -1,0 +1,135 @@
+{
+ "engine": "orpheus-3b-q4",
+ "takes": {
+  "L2_t1": {
+   "wall_s": 167.87,
+   "cpu_s": 264.44,
+   "audio_s": 4.27,
+   "rtf_wall": 39.34,
+   "settings": {
+    "text": "She is in Lagos. You are arguing with the past.",
+    "voice": "dan"
+   },
+   "load1": 4.95
+  },
+  "L1_t1": {
+   "wall_s": 201.15,
+   "cpu_s": 391.82,
+   "audio_s": 9.13,
+   "rtf_wall": 22.03,
+   "settings": {
+    "text": "<gasp> Temi! Hi! I'm about to make a payment\u2014",
+    "voice": "zac"
+   },
+   "load1": 4.33
+  },
+  "L3_t1": {
+   "wall_s": 75.33,
+   "cpu_s": 228.26,
+   "audio_s": 4.61,
+   "rtf_wall": 16.35,
+   "settings": {
+    "text": "Your record isn't late, Captain. It's... blank.",
+    "voice": "leah"
+   },
+   "load1": 3.4
+  },
+  "L4_t1": {
+   "wall_s": 49.4,
+   "cpu_s": 150.55,
+   "audio_s": 3.07,
+   "rtf_wall": 16.08,
+   "settings": {
+    "text": "GO! I'LL GET THE RAMP!",
+    "voice": "zac"
+   },
+   "load1": 3.37
+  },
+  "L4_t2": {
+   "wall_s": 87.03,
+   "cpu_s": 212.38,
+   "audio_s": 3.24,
+   "rtf_wall": 26.84,
+   "settings": {
+    "text": "Go!! I'll get the ramp!!",
+    "voice": "zac"
+   },
+   "load1": 5.42
+  },
+  "L5_t1": {
+   "wall_s": 101.67,
+   "cpu_s": 211.02,
+   "audio_s": 2.22,
+   "rtf_wall": 45.83,
+   "settings": {
+    "text": "<sigh> It prefers her.",
+    "voice": "leah"
+   },
+   "load1": 6.09
+  },
+  "L5_t2": {
+   "wall_s": 48.81,
+   "cpu_s": 148.23,
+   "audio_s": 2.73,
+   "rtf_wall": 17.87,
+   "settings": {
+    "text": "It... prefers her.",
+    "voice": "leah"
+   },
+   "load1": 4.45
+  },
+  "L6_t1": {
+   "wall_s": 132.5,
+   "cpu_s": 404.64,
+   "audio_s": 9.3,
+   "rtf_wall": 14.25,
+   "settings": {
+    "text": "Read it to me. Slowly. <chuckle> I want to enjoy my name.",
+    "voice": "zac"
+   },
+   "load1": 3.44
+  },
+  "L6_t2": {
+   "wall_s": 101.8,
+   "cpu_s": 310.98,
+   "audio_s": 7.17,
+   "rtf_wall": 14.2,
+   "settings": {
+    "text": "Read it to me. Slowly. <laugh> I want to enjoy my name.",
+    "voice": "zac"
+   },
+   "load1": 3.17
+  },
+  "L7_t1": {
+   "wall_s": 94.47,
+   "cpu_s": 288.79,
+   "audio_s": 6.66,
+   "rtf_wall": 14.19,
+   "settings": {
+    "text": "<sigh> You gave up your job... for us.",
+    "voice": "zac"
+   },
+   "load1": 3.15
+  },
+  "L8_t1": {
+   "wall_s": 71.01,
+   "cpu_s": 216.97,
+   "audio_s": 4.95,
+   "rtf_wall": 14.35,
+   "settings": {
+    "text": "Good morning! This is Temi in Recoveries! Your vessel is being recovered!",
+    "voice": "jess"
+   },
+   "load1": 3.25
+  }
+ },
+ "threads": 3,
+ "cast": {
+  "JAX": "zac",
+  "PIP": "dan",
+  "MIRA": "leah",
+  "TEMI": "jess"
+ },
+ "gguf": "isaiahbjork/orpheus-3b-0.1-ft-Q4_K_M-GGUF",
+ "peak_rss_gb": 4.34
+}

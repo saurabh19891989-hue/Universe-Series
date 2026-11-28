@@ -458,3 +458,17 @@ Gemini API key is saved as a network secret on the Default environment
   drawn viseme mouths, proper walk, in-betweens, 10–15 s proof clip; music builder — world
   instruments, heart theme, cutaway cue, main theme B section, effects, reel 2.
 - Also running: voice bake-off (reel pending); E01 script v4 rewrite to 22–26 min (Opus).
+- **Voice bake-off landed (28 Nov):** reel in `samples/voices/bakeoff-28nov/` (3 MP3 parts,
+  ORDER.txt, casting clips, numbers), notes `research/tooling/voice-upgrade.md`. Eight E01
+  lines on Kokoro (current), Supertonic 3, Qwen3-TTS VoiceDesign, Chatterbox-Turbo (with a
+  Kokoro reference and with a Qwen-designed reference) and Orpheus. Builder recommends
+  Chatterbox-Turbo (MIT) for leads and acting lines, each character pinned to one ~10 s
+  reference clip; Kokoro for bit parts; Qwen VoiceDesign (Apache-2.0) only to design casting
+  clips (accents Kokoro lacks). Numbers: Chatterbox holds one voice (similarity 0.81–0.84),
+  moves pitch 1.7–2.5x more than Kokoro, ~2–4 s compute per second of audio (episode pass
+  ~1.2–2.4 h), no speed control (fast lines need time-stretch), no true whisper measured,
+  name "Temi" misheard by every engine (needs respelling). Supertonic not usable (licence
+  demands a machine-generated disclaimer); Orpheus licence not settled and slow. Chatterbox
+  output carries an inaudible maker's watermark. NOBODY HAS LISTENED. Sent to owner.
+- Disk: allowance was down to 6 GB free; deleted the closed talking-face benchmark, old
+  render scraps of rejected formats and caches → 17 GB free.

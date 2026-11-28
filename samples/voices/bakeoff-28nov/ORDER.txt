@@ -1,0 +1,107 @@
+Voice bake-off listening reel, 28 Nov 2026. Nobody has listened to this (agents cannot hear).
+Every clip is set to the same loudness (-20 LUFS, linear gain) so whispers and shouts play at the same level;
+judge acting and voice, not volume. Slates are spoken by a Kokoro voice (am_michael) that is not in the cast.
+Engines: Kokoro, current / Supertonic / Qwen voice design / Chatterbox, Kokoro voice / Chatterbox, designed voice / Orpheus.
+
+== bakeoff-reel-part1.mp3  (150 s, 2.10 MB)
+  0:00.0  LINE 1 JAX (fast panic): "Temi! Hi! I'm about to make a payment—"
+           direction: Panicked, fast, breathless, talking over a bank recording; desperate fake cheer, rising pitch, cut off at the end.
+    0:04.3  L1  Kokoro, current        take 1  (1.75 s, source -20.92 LUFS)  [E01_S00_L009_JAX.wav]
+    0:08.9  L1  Supertonic             take 1  (3.13 s, source -26.14 LUFS)  [L1_t1.wav]
+    0:14.8  L1  Supertonic             take 2  (2.86 s, source -24.97 LUFS)  [L1_t2.wav]
+    0:20.9  L1  Qwen voice design      take 1  (2.4 s, source -17.07 LUFS)  [L1_t1.wav]
+    0:26.4  L1  Qwen voice design      take 2  (3.12 s, source -21.98 LUFS)  [L1_t2.wav]
+    0:33.1  L1  Chatterbox, Kokoro voice take 1  (2.66 s, source -27.35 LUFS)  [L1_t1.wav]
+    0:39.4  L1  Chatterbox, Kokoro voice take 2  (4.02 s, source -23.19 LUFS)  [L1_t2.wav]
+    0:47.1  L1  Chatterbox, designed voice take 1  (2.88 s, source -29.92 LUFS)  [L1_t1.wav]
+    0:53.5  L1  Chatterbox, designed voice take 2  (4.36 s, source -27.73 LUFS)  [L1_t2.wav]
+    1:00.0  L1  Orpheus                take 1  (9.13 s, source -18.11 LUFS)  [L1_t1.wav]
+  1:10.6  LINE 2 PIP (deadpan): "She is in Lagos. You are arguing with the past."
+           direction: Bone-dry deadpan, flat, precise, unhurried; a tiny pause after Lagos; zero sympathy.
+    1:14.6  L2  Kokoro, current        take 1  (2.97 s, source -21.36 LUFS)  [E01_S00_L014_PIP.wav]
+    1:20.0  L2  Supertonic             take 1  (3.34 s, source -26.28 LUFS)  [L2_t1.wav]
+    1:26.0  L2  Qwen voice design      take 1  (3.36 s, source -21.62 LUFS)  [L2_t1.wav]
+    1:32.4  L2  Chatterbox, Kokoro voice take 1  (3.32 s, source -26.12 LUFS)  [L2_t1.wav]
+    1:38.9  L2  Chatterbox, designed voice take 1  (3.6 s, source -28.04 LUFS)  [L2_t1.wav]
+    1:44.6  L2  Orpheus                take 1  (4.27 s, source -20.73 LUFS)  [L2_t1.wav]
+  1:50.3  LINE 3 MIRA (put-down): "Your record isn't late, Captain. It's blank."
+           direction: Cool, cutting put-down; calm and a little amused; land 'blank' low and final.
+    1:54.5  L3  Kokoro, current        take 1  (2.64 s, source -21.03 LUFS)  [E01_S03_L020_MIRA.wav]
+    1:59.6  L3  Supertonic             take 1  (3.83 s, source -26.89 LUFS)  [L3_t1.wav]
+    2:06.1  L3  Qwen voice design      take 1  (3.68 s, source -22.48 LUFS)  [L3_t1.wav]
+    2:12.9  L3  Chatterbox, Kokoro voice take 1  (3.24 s, source -25.88 LUFS)  [L3_t1.wav]
+    2:19.2  L3  Chatterbox, designed voice take 1  (2.6 s, source -26.8 LUFS)  [L3_t1.wav]
+    2:23.9  L3  Orpheus                take 1  (4.61 s, source -26.12 LUFS)  [L3_t1.wav]
+
+== bakeoff-reel-part2.mp3  (119 s, 1.67 MB)
+  0:00.0  LINE 4 JAX (shout): "Go! I'll get the ramp!"
+           direction: Shouted at full voice across a distance, urgent, adrenaline.
+    0:03.9  L4  Kokoro, current        take 1  (1.02 s, source -21.19 LUFS)  [E01_S29_L001_JAX.wav]
+    0:07.7  L4  Supertonic             take 1  (2.3 s, source -23.72 LUFS)  [L4_t1.wav]
+    0:12.8  L4  Supertonic             take 2  (2.86 s, source -25.2 LUFS)  [L4_t2.wav]
+    0:18.9  L4  Qwen voice design      take 1  (1.6 s, source -16.74 LUFS)  [L4_t1.wav]
+    0:23.6  L4  Qwen voice design      take 2  (1.44 s, source -21.12 LUFS)  [L4_t2.wav]
+    0:28.7  L4  Chatterbox, Kokoro voice take 1  (1.7 s, source -25.86 LUFS)  [L4_t1.wav]
+    0:34.0  L4  Chatterbox, Kokoro voice take 2  (2.02 s, source -26.11 LUFS)  [L4_t2.wav]
+    0:39.7  L4  Chatterbox, designed voice take 1  (1.72 s, source -31.5 LUFS)  [L4_t1.wav]
+    0:45.0  L4  Chatterbox, designed voice take 2  (2.4 s, source -30.14 LUFS)  [L4_t2.wav]
+    0:50.0  L4  Orpheus                take 1  (3.07 s, source -19.57 LUFS)  [L4_t1.wav]
+    0:55.7  L4  Orpheus                take 2  (3.24 s, source -19.85 LUFS)  [L4_t2.wav]
+  1:00.5  LINE 5 MIRA (whisper): "It prefers her."
+           direction: Whispered, very quiet and tender, a small sad smile; almost to herself.
+    1:04.5  L5  Kokoro, current        take 1  (1.48 s, source -24.71 LUFS)  [E01_S30_L015_MIRA.wav]
+    1:08.8  L5  Supertonic             take 1  (2.44 s, source -25.79 LUFS)  [L5_t1.wav]
+    1:14.0  L5  Supertonic             take 2  (3.55 s, source -27.47 LUFS)  [L5_t2.wav]
+    1:20.8  L5  Qwen voice design      take 1  (1.52 s, source -19.77 LUFS)  [L5_t1.wav]
+    1:25.4  L5  Qwen voice design      take 2  (1.44 s, source -18.94 LUFS)  [L5_t2.wav]
+    1:30.5  L5  Chatterbox, Kokoro voice take 1  (1.36 s, source -26.39 LUFS)  [L5_t1.wav]
+    1:35.4  L5  Chatterbox, Kokoro voice take 2  (1.76 s, source -27.02 LUFS)  [L5_t2.wav]
+    1:40.9  L5  Chatterbox, designed voice take 1  (1.24 s, source -30.72 LUFS)  [L5_t1.wav]
+    1:45.7  L5  Chatterbox, designed voice take 2  (1.88 s, source -30.8 LUFS)  [L5_t2.wav]
+    1:50.2  L5  Orpheus                take 1  (2.22 s, source -30.69 LUFS)  [L5_t1.wav]
+    1:55.1  L5  Orpheus                take 2  (2.73 s, source -29.33 LUFS)  [L5_t2.wav]
+
+== bakeoff-reel-part3.mp3  (179 s, 2.51 MB)
+  0:00.0  LINE 6 JAX (laugh): "Read it to me. Slowly. I want to enjoy my name."
+           direction: Leaning back, savouring it; a short amused laugh before 'I want to enjoy my name', grinning through the end.
+    0:04.0  L6  Kokoro, current        take 1  (2.62 s, source -20.64 LUFS)  [E01_S31_L003_JAX.wav]
+    0:09.4  L6  Supertonic             take 1  (4.6 s, source -25.76 LUFS)  [L6_t1.wav]
+    0:16.8  L6  Supertonic             take 2  (4.88 s, source -26.96 LUFS)  [L6_t2.wav]
+    0:24.9  L6  Qwen voice design      take 1  (4.88 s, source -21.49 LUFS)  [L6_t1.wav]
+    0:32.9  L6  Qwen voice design      take 2  (5.12 s, source -19.91 LUFS)  [L6_t2.wav]
+    0:41.6  L6  Chatterbox, Kokoro voice take 1  (3.98 s, source -24.82 LUFS)  [L6_t1.wav]
+    0:49.2  L6  Chatterbox, Kokoro voice take 2  (4.02 s, source -22.71 LUFS)  [L6_t2.wav]
+    0:56.9  L6  Chatterbox, designed voice take 1  (4.6 s, source -30.07 LUFS)  [L6_t1.wav]
+    1:05.1  L6  Chatterbox, designed voice take 2  (4.68 s, source -27.12 LUFS)  [L6_t2.wav]
+    1:12.4  L6  Orpheus                take 1  (9.3 s, source -18.92 LUFS)  [L6_t1.wav]
+    1:24.3  L6  Orpheus                take 2  (7.17 s, source -22.4 LUFS)  [L6_t2.wav]
+  1:33.0  LINE 7 JAX (warm sincere): "You gave up your job for us."
+           direction: Quiet, warm, sincere, slightly moved; slower; no jokes for once.
+    1:37.6  L7  Kokoro, current        take 1  (1.35 s, source -20.78 LUFS)  [E01_S30_L011_JAX.wav]
+    1:41.4  L7  Supertonic             take 1  (3.9 s, source -24.29 LUFS)  [L7_t1.wav]
+    1:48.0  L7  Qwen voice design      take 1  (1.92 s, source -21.16 LUFS)  [L7_t1.wav]
+    1:53.0  L7  Chatterbox, Kokoro voice take 1  (2.42 s, source -24.97 LUFS)  [L7_t1.wav]
+    1:58.5  L7  Chatterbox, designed voice take 1  (2.2 s, source -27.05 LUFS)  [L7_t1.wav]
+    2:02.8  L7  Orpheus                take 1  (6.66 s, source -20.76 LUFS)  [L7_t1.wav]
+  2:11.0  LINE 8 TEMI (call-centre): "Good morning! This is Temi in Recoveries. Your vessel is being recovered."
+           direction: Bright, chirpy, professional call-centre greeting with a big smile; sing-song, kind, a touch too cheerful for bad news.
+    2:15.3  L8  Kokoro, current        take 1  (3.42 s, source -22.18 LUFS)  [E01_S00_L007_TEMI.wav]
+    2:21.1  L8  Supertonic             take 1  (6.13 s, source -26.28 LUFS)  [L8_t1.wav]
+    2:30.0  L8  Qwen voice design      take 1  (5.44 s, source -20.05 LUFS)  [L8_t1.wav]
+    2:38.5  L8  Chatterbox, Kokoro voice take 1  (4.56 s, source -26.53 LUFS)  [L8_t1.wav]
+    2:46.1  L8  Chatterbox, designed voice take 1  (4.68 s, source -28.44 LUFS)  [L8_t1.wav]
+    2:52.9  L8  Orpheus                take 1  (4.95 s, source -21.46 LUFS)  [L8_t1.wav]
+
+== casting-clips/  (not in the reel; ~10 s each, -20 LUFS)
+  kokoro-<CHAR>.mp3    the reference fed to "Chatterbox, Kokoro voice": our own E01 Kokoro stems joined (lines not in the test).
+  designed-<CHAR>.mp3  the reference fed to "Chatterbox, designed voice": one clip per character made by Qwen3-TTS VoiceDesign
+                       from a written description (no real person). Listen to these first to judge the designed voices
+                       themselves (accent of Mira: Bengali-English intended; Temi: Nigerian-English intended).
+
+How each engine was directed (exact text and tags per take are in the timings-*.json files under numbers/):
+  Supertonic         preset voices M1/M3/F5/F2, inline <laugh> <breath> <sigh>, speed 0.75-1.5, caps for the shout.
+  Qwen voice design  every line = character description + the director's note in words (no tags); voice re-invented each line.
+  Chatterbox (both)  same reference clip for every line of a character + inline tags ([fear] [surprised] [gasp] [sarcastic]
+                     [angry] [dramatic] [whispering] [sigh] [chuckle] [laugh] [happy]).
+  Orpheus            stock US voices zac/dan/leah/jess, inline <gasp> <sigh> <chuckle> <laugh>, caps and "!!". Line 1 has
+                     only one Orpheus take (the second was stopped to save time).

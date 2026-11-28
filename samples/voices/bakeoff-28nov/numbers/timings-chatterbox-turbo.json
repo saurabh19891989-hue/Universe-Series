@@ -1,0 +1,133 @@
+{
+ "engine": "chatterbox-turbo",
+ "takes": {
+  "L2_t1": {
+   "wall_s": 18.03,
+   "cpu_s": 30.56,
+   "audio_s": 3.32,
+   "rtf_wall": 5.43,
+   "settings": {
+    "text": "[sarcastic] She is in Lagos. You are arguing with the past."
+   },
+   "load1": 3.72
+  },
+  "L1_t1": {
+   "wall_s": 11.9,
+   "cpu_s": 21.85,
+   "audio_s": 2.66,
+   "rtf_wall": 4.47,
+   "settings": {
+    "text": "[fear] Temi! Hi! I'm about to make a payment\u2014"
+   },
+   "load1": 3.17
+  },
+  "L1_t2": {
+   "wall_s": 13.49,
+   "cpu_s": 25.84,
+   "audio_s": 4.02,
+   "rtf_wall": 3.36,
+   "settings": {
+    "text": "[surprised] [gasp] Temi! Hi! Hi! I'm about to make a payment\u2014"
+   },
+   "load1": 3.29
+  },
+  "L3_t1": {
+   "wall_s": 13.4,
+   "cpu_s": 26.1,
+   "audio_s": 3.24,
+   "rtf_wall": 4.14,
+   "settings": {
+    "text": "[sarcastic] Your record isn't late, Captain. It's blank."
+   },
+   "load1": 3.78
+  },
+  "L4_t1": {
+   "wall_s": 8.12,
+   "cpu_s": 15.83,
+   "audio_s": 1.7,
+   "rtf_wall": 4.78,
+   "settings": {
+    "text": "[angry] Go! I'll get the ramp!"
+   },
+   "load1": 3.8
+  },
+  "L4_t2": {
+   "wall_s": 8.34,
+   "cpu_s": 15.78,
+   "audio_s": 2.02,
+   "rtf_wall": 4.13,
+   "settings": {
+    "text": "[dramatic] GO! I'LL GET THE RAMP!"
+   },
+   "load1": 3.9
+  },
+  "L5_t1": {
+   "wall_s": 9.08,
+   "cpu_s": 16.17,
+   "audio_s": 1.36,
+   "rtf_wall": 6.68,
+   "settings": {
+    "text": "[whispering] It prefers her."
+   },
+   "load1": 3.92
+  },
+  "L5_t2": {
+   "wall_s": 8.88,
+   "cpu_s": 15.88,
+   "audio_s": 1.76,
+   "rtf_wall": 5.04,
+   "settings": {
+    "text": "[whispering] [sigh] It prefers her."
+   },
+   "load1": 4.09
+  },
+  "L6_t1": {
+   "wall_s": 14.63,
+   "cpu_s": 28.15,
+   "audio_s": 3.98,
+   "rtf_wall": 3.67,
+   "settings": {
+    "text": "Read it to me. Slowly. [chuckle] I want to enjoy my name."
+   },
+   "load1": 3.84
+  },
+  "L6_t2": {
+   "wall_s": 12.63,
+   "cpu_s": 25.01,
+   "audio_s": 4.02,
+   "rtf_wall": 3.14,
+   "settings": {
+    "text": "[happy] Read it to me. Slowly. [laugh] I want to enjoy my name."
+   },
+   "load1": 3.43
+  },
+  "L7_t1": {
+   "wall_s": 9.48,
+   "cpu_s": 18.22,
+   "audio_s": 2.42,
+   "rtf_wall": 3.92,
+   "settings": {
+    "text": "[sigh] You gave up your job for us."
+   },
+   "load1": 3.29
+  },
+  "L8_t1": {
+   "wall_s": 16.63,
+   "cpu_s": 32.66,
+   "audio_s": 4.56,
+   "rtf_wall": 3.65,
+   "settings": {
+    "text": "[happy] Good morning! This is Temi in Recoveries. Your vessel is being recovered."
+   },
+   "load1": 3.3
+  }
+ },
+ "threads": 2,
+ "refs": {
+  "JAX": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/voice2/refs/ref_JAX.wav",
+  "PIP": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/voice2/refs/ref_PIP.wav",
+  "MIRA": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/voice2/refs/ref_MIRA.wav",
+  "TEMI": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/voice2/refs/ref_TEMI.wav"
+ },
+ "peak_rss_gb": 6.33
+}

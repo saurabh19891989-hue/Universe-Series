@@ -335,11 +335,24 @@ def curve_fn(events, default, total):
     return lambda t: np.interp(t, ts, vs, left=vs[0], right=vs[-1]).astype(np.float32)
 
 
+def bend_curve(bends):
+    """MIDI pitch-bend semantics: 0 before the first event, then each value holds until the next
+    (sulib Cue.bend writes dense steps, so ramps stay ramps). Fixed 28 Nov: the old linear interp
+    applied the FIRST bend value to every earlier note."""
+    bs = sorted(bends)
+    ts = np.array([b[0] for b in bs]); vs = np.array([b[1] for b in bs], dtype=np.float32)
+
+    def f(t):
+        i = np.searchsorted(ts, t, side="right") - 1
+        return np.where(i >= 0, vs[np.clip(i, 0, len(vs) - 1)], 0.0).astype(np.float32)
+    return f
+
+
 def render_track(inst, pm_inst, length_s, seed=0, release=None, vel_scale=1.0):
     rng = random.Random(seed)
     buf = np.zeros((int(length_s * SR) + SR, 2), np.float32)
     bends = [(b.time, b.pitch / 8191 * 200.0) for b in pm_inst.pitch_bends]
-    bend_fn = curve_fn(bends, 0.0, length_s) if bends else None
+    bend_fn = bend_curve(bends) if bends else None
     for n in sorted(pm_inst.notes, key=lambda n: n.start):
         v = int(min(127, max(1, n.velocity * vel_scale)))
         y = render_note(inst, n.pitch, v, n.start, n.end - n.start, bend_fn, rng, release)

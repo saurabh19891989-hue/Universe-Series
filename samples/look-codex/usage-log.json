@@ -6590,5 +6590,870 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-28T17:02:37",
+  "job": "s5",
+  "name": "jax_B",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 46.6,
+  "tokens_used": 8386,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231b-2862-71a3-b1b6-45746268e147",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 19.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 13.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:02:46",
+  "job": "s5",
+  "name": "mira_B",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 55.0,
+  "tokens_used": 7768,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231b-2862-7b03-9f52-6a080d799a3c",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 19.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 13.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402292
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:02:51",
+  "job": "s5",
+  "name": "jax_A",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 60.2,
+  "tokens_used": 8110,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231b-2862-72f1-adfb-ba806222ac4c",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 19.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 13.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402292
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:02:51",
+  "job": "s5",
+  "name": "mira_A",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 60.5,
+  "tokens_used": 12603,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231b-2862-7a02-aeae-206515a151a7",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 19.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 13.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:03:37",
+  "job": "s5",
+  "name": "baron_A",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 59.3,
+  "tokens_used": 19690,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231b-db9a-7922-a246-75e5d5196c6d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 20.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 13.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:03:45",
+  "job": "s5",
+  "name": "baron_B",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 59.3,
+  "tokens_used": 21938,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231b-fc31-70a2-96f8-fd3d2e4636fd",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 21.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 13.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:05:10",
+  "job": "s5",
+  "name": "J5_stop",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "master.jpg",
+   "jax_B.png"
+  ],
+  "seconds": 36.3,
+  "tokens_used": 10206,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231d-a1ed-7213-9a36-9f572b62e77a",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 22.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:05:10",
+  "job": "s5",
+  "name": "J5_cu",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "master.jpg",
+   "jax_B.png"
+  ],
+  "seconds": 36.4,
+  "tokens_used": 12293,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231d-a1b1-7b20-a284-10220dc7232e",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 22.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:05:13",
+  "job": "s5",
+  "name": "J5_lean",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "master.jpg",
+   "jax_B.png"
+  ],
+  "seconds": 39.1,
+  "tokens_used": 11045,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231d-a1ee-7bf3-bfa0-90e7e536e8f9",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 22.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:05:35",
+  "job": "s5",
+  "name": "J5_walk",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "master.jpg",
+   "jax_B.png"
+  ],
+  "seconds": 61.8,
+  "tokens_used": 11502,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231d-a1fc-7051-8e47-3b43cb98b024",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 24.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:05:56",
+  "job": "s5",
+  "name": "S5_hall",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "set_wide.png"
+  ],
+  "seconds": 42.9,
+  "tokens_used": 13550,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231e-3a93-7693-874c-34fb8ebf83f5",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 24.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:06:00",
+  "job": "s5",
+  "name": "M5_cu",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "master.jpg",
+   "mira_B.png"
+  ],
+  "seconds": 49.6,
+  "tokens_used": 18718,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231e-306a-73f2-8df0-e12cdf5476e3",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 24.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:06:03",
+  "job": "s5",
+  "name": "M5_idle",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "master.jpg",
+   "mira_B.png"
+  ],
+  "seconds": 53.5,
+  "tokens_used": 10394,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231e-2fa2-7e82-8491-9bd9f5cb092b",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 24.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:06:18",
+  "job": "s5",
+  "name": "S5_cutaway",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "master.jpg",
+   "baron_B.png"
+  ],
+  "seconds": 42.4,
+  "tokens_used": 3844,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231e-9353-7052-b3b0-38d4704ed86e",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 24.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:06:51",
+  "job": "s5",
+  "name": "J5_cu_B",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "J5_cu.png"
+  ],
+  "seconds": 27.0,
+  "tokens_used": 8923,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231f-5110-7bc3-8075-c26d73b0524d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 25.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:06:53",
+  "job": "s5",
+  "name": "J5_cu_C",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "J5_cu.png"
+  ],
+  "seconds": 28.7,
+  "tokens_used": 4547,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231f-50ec-7411-b521-12c4fba02ec4",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 26.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:06:55",
+  "job": "s5",
+  "name": "J5_cu_D",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "J5_cu.png"
+  ],
+  "seconds": 31.3,
+  "tokens_used": 10740,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231f-514b-7981-848e-fdf21d4ddf59",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 26.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:07:10",
+  "job": "s5",
+  "name": "J5_cu_A",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "J5_cu.png"
+  ],
+  "seconds": 45.7,
+  "tokens_used": 12672,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231f-50bc-7f31-ab1c-e2044f45d1c3",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 27.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:07:24",
+  "job": "s5",
+  "name": "J5_cu_F",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "J5_cu.png"
+  ],
+  "seconds": 31.4,
+  "tokens_used": 12467,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231f-c0b4-7f50-8ce9-9512bddb6dde",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 27.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:07:33",
+  "job": "s5",
+  "name": "J5_cu_E",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "J5_cu.png"
+  ],
+  "seconds": 42.5,
+  "tokens_used": 9844,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231f-ba2c-7e20-be5a-73bcf5c46cf8",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 27.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:07:39",
+  "job": "s5",
+  "name": "J5_cu_G",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "J5_cu.png"
+  ],
+  "seconds": 43.9,
+  "tokens_used": 4756,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2231f-cb1c-7660-a6bf-376c1c2c08e0",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 27.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 14.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402292
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:07:52",
+  "job": "s5",
+  "name": "J5_cu_smile",
+  "purpose": "sample 5 animated redesign",
+  "refs": [
+   "J5_cu.png"
+  ],
+  "seconds": 27.5,
+  "tokens_used": 7349,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22320-3ba7-7a43-b2a4-acedd885fda9",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 28.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 15.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]
