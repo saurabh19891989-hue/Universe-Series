@@ -551,3 +551,11 @@ Gemini API key is saved as a network secret on the Default environment
   `episodes/E02/showrunner-rulings-v4.md`; v5 being written. Bible's visual direction rewritten
   for the animated format. Continuity pass to reconcile: Lucía knows Seo cut her fuel line
   (E02) vs suspicion on Idris (E06). E03 still has Seo's mother alive (3 places).
+- **E02 script v5 LOCKED (28 Nov):** 2,632 words, 320 cues, 23:54 (Part One 12:05, Part Two
+  11:49). All 9 must-fix, 12 of 13 should-fix, 17 cuts applied. Showrunner read cold open,
+  midpoint, tag; rest relies on the critic. Canon notes added to season-01.md. Production
+  to-dos: Keeping House set redrawn without red pillars; Arakawa mouth set. E03 handover
+  (17 items) in `episodes/E02/revision-notes-v4.md` v5 section.
+- **Scripts now:** E01 v5 and E02 v5 locked (animated, ~24 min). E03–E09 are old-format
+  drafts awaiting retargeting; E10 not written. Retargeting waits for the owner's verdict on
+  sample 5.

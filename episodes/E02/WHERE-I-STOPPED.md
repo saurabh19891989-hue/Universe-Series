@@ -1,4 +1,19 @@
-**NOW (28 Nov): draft 4 written for the new format — awaiting the independent critic, then the showrunner.**
+**28 Nov: script-v5.md LOCKED by the showrunner (animated format, 23:54). Next: voice engine choice by the owner, dialogue, shot list. E03 handover list (17 items) is in revision-notes-v4.md, section v5.**
+
+**NOW (28 Nov, later): draft 5 written — awaiting the showrunner's read and lock.**
+- `script-v5.md`: applies all 9 must-fix, 12 of 13 should-fix (S11, optional, not taken), the nice-to-haves
+  and the critic's 17 cuts, plus the showrunner's draft-5 rulings. **2,632 words, 320 cues, 20 units;
+  23:54** on the fuller picture list (Part One 12:05, Part Two 11:49). Arakawa seen speaking once (16);
+  31 labels shown (18); Kaguya's one face reveal (14); midpoint ends on Jax's face; four laughs restored;
+  Voss drone planted in 6; Keeping House a Heian palace, not a shrine.
+- Record: `revision-notes-v4.md`, section "v5" (item by item, runtime table, canon re-check, merged E03
+  handover, four points for the showrunner).
+- Next: showrunner read and lock; then conform `sources.md`, `casting-notes.md`, the Keeping House set
+  master (red pillars → cypress), and season-01's "scene 13" reference.
+
+---
+
+**EARLIER (28 Nov): draft 4 written for the new format (critic since reviewed it: READY AFTER FIXES).**
 - `script-v4.md`: rebuilt for 2D animation over real NASA video and the 22–26 minute length, to E01
   `script-v5.md`'s standard and layout. **2,741 spoken words, 320 cues, 20 units** (cold open, 18 scenes,
   tag) plus "What was real". **24:08** on the ruled model with allowances (Part One 12:27, Part Two

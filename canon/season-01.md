@@ -253,3 +253,9 @@ officials who tried to cage him with a title. The owner has the final say before
   style of our own (the Baron's in an engraving-like style). Thinning rule still holds.
 - Everything else in canon stands: READ stamp rules, report numbers, label and posting counts,
   the cannonball promise, character rules for Kaguya, Arakawa, Chichikov, Ilse, Seo.
+- **Locks (28 Nov):** `episodes/E01/script-v5.md` (24:09) and `episodes/E02/script-v5.md` (23:54)
+  are the locked scripts for the animated format. E02's escape is the sunset run along the
+  day–night line (replaces "through the L2 halo"). Seo's cut-line/photograph scene is E02
+  scene 12. Kaguya is seen only as a silhouette indoors and veiled outdoors, with one partial
+  reveal in scene 14. "You've worn one before" is canon with guards: no line says Jax chose
+  it; a literal robe is never confirmed; "he did it to himself" stays held for ep 8.

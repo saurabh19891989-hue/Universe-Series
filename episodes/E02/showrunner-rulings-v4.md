@@ -39,3 +39,14 @@ Runtime: 24:08 has 7 s of headroom. Target after the critic pass: 23:30–24:00.
   pillars in the Keeping House (nothing that reads as a place of living worship).
 - For the season continuity pass (not this draft): Lucía learns in scene 12 that Seo cut her own fuel
   line, yet episode 6 has the crew suspect Idris of sabotage — reconcile there.
+
+## Draft 5 — rulings and lock (28 Nov)
+1. Kaguya's one line to Mira in 15 ("Cartographer") stays; it is not a second goodbye to Jax.
+2. S11 ("a very distinguished fin") stays out; keep the headroom.
+3. The Keeping House set is redrawn in the animated style as a Heian palace without red pillars;
+   its lock description is updated when the set is redrawn (production to-do).
+4. Arakawa's speaking shot in 16 needs a mouth set from her redrawn design (production to-do).
+- **Draft 5 (`script-v5.md`) is LOCKED as the Episode 2 script for the animated format** (23:54),
+  pending only what a table read or the owner's ear changes. Showrunner read in full: the cold open,
+  the midpoint and the tag. The rest rests on the independent critic's review of draft 4 and the
+  reviser's item-by-item record; a full read happens at the shot-list stage.

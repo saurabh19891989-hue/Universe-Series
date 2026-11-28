@@ -348,3 +348,171 @@ coordinate? / A different one"; "She's right, Seo / Call the ground, Dr Sen" (Mi
 10. **The season table's "escape through the L2 halo"** is still not literal (the run goes over the limb,
     as locked in draft 3). Leave the table as it is, or have it amended?
 11. **A Heian instrument** beside koto and shakuhachi remains the owner's call (carried over from draft 3).
+
+---
+
+# v5 — draft 4 → draft 5 (`script-v5.md`)
+
+Revising writer, 28 Nov. Applies `critic-review-v4.md` (READY AFTER FIXES: 9 must-fix, 13 should-fix, 11
+nice-to-have, 17 quoted cuts) and `showrunner-rulings-v4.md` ("After the critic — rulings for draft 5").
+`script-v4.md` is untouched. Scene numbers unchanged.
+
+**Not checked:** any audio or picture; real acting pace; any plate. Not touched: `sources.md`,
+`casting-notes.md`, other episodes, canon files.
+
+## v5.1 Size and runtime (fuller picture list)
+
+| Part | Seconds |
+|---|---|
+| Speech: 2,632 words ÷ 184 × 60 | 858.3 |
+| Cue gaps: 320 × 0.97 | 310.4 |
+| Inserts, cutaways, takes, holds, beats: 74 × 1.5 | 111.0 |
+| Picture-only, listed per scene (v4's 117 s + the critic's unlisted ~28 s − X9 4 s − X15 3 s + small additions) | 138.5 |
+| Written pauses: 6 × 1.0 | 6.0 |
+| Title | 10.0 |
+| **Total** | **1,434.2 s = 23:54** |
+
+Ruled window 23:30–24:00 on the fuller list: inside, 6 s headroom. **Part One 12:05, Part Two 11:49.**
+Two extra trims beyond the critic's 17 cuts to get headroom: Mira's spoken tag reading in 2 (the tag text
+is now on the insert: LOST. A GRAIN MERCHANT OF SMYRNA. 1851.) and the map cutaway in 4 now plays UNDER.
+
+| Unit | Starts | Words | Cues | Items | Pic | Pauses | s | Target |
+|---|---|---|---|---|---|---|---|---|
+| 0 Bridge over the far side | 0:00 | 117 | 14 | 3 | 6 | 0 | 62.2 | 60 |
+| Title | 1:02 | | | | 10 | | 10.0 | 10 |
+| 1 Hold | 1:12 | 54 | 8 | 2 | 2 | 0 | 30.4 | 30 |
+| 2 Valley: Astolfo, watch | 1:42 | 112 | 12 | 2 | 4 | 0 | 55.2 | 55 |
+| 3 The terms | 2:37 | 107 | 11 | 3 | 3 | 0 | 53.1 | 55 |
+| 4 The blind, the tasks | 3:30 | 190 | 29 | 0 | 5.5 | 1 | 96.6 | 95 |
+| 5 Seo's shuttle; Save One | 5:07 | 115 | 16 | 4 | 8 | 0 | 67.0 | 65 |
+| 6 Workshop; montage; vault | 6:14 | 97 | 14 | 5 | 14 | 0 | 66.7 | 65 |
+| 7 The branch (SHORT) | 7:21 | 230 | 21 | 5 | 7 | 1 | 110.9 | 110 |
+| 8 Sighs; reputation | 9:12 | 105 | 18 | 3 | 4 | 0 | 60.2 | 60 |
+| 9 The hull; MIDPOINT | 10:12 | 215 | 25 | 6 | 9.5 | 0 | 112.9 | 115 |
+| **Part One** | | | | | | | **725.1 = 12:05** | |
+| 10 The robe (HEART) | 12:05 | 230 | 34 | 12 | 13 | 1 | 140.0 | 140 |
+| 11 The payment | 14:25 | 181 | 17 | 12 | 11 | 1 | 105.5 | 105 |
+| 12 Seo's shuttle | 16:10 | 118 | 16 | 2 | 3 | 1 | 61.0 | 60 |
+| 13 Silver heap | 17:11 | 123 | 11 | 1 | 4 | 0 | 56.3 | 55 |
+| 14 The edge | 18:07 | 180 | 23 | 3 | 6 | 0 | 91.5 | 90 |
+| 15 Goodbye; Ma | 19:39 | 71 | 10 | 1 | 6 | 1 | 41.4 | 40 |
+| 16 The sunset run (ACTION) | 20:20 | 124 | 23 | 2 | 9 | 0 | 74.7 | 75 |
+| 17 Earthrise | 21:35 | 4 | 1 | 1 | 7 | 0 | 10.8 | 10 |
+| 18 Bridge afterwards | 21:46 | 134 | 14 | 2 | 6 | 0 | 66.3 | 65 |
+| 19 Tag | 22:52 | 29 | 2 | 5 | 8.5 | 0 | 27.4 | 25 |
+| What was real | 23:19 | 96 | 1 | 0 | 2 | 0 | 34.3 | 35 |
+| **Part Two** | | | | | | | **709.1 = 11:49** | |
+| **Total** | | **2,632** | **320** | **74** | **138.5** | **6** | **1,434.2 = 23:54** | |
+
+**If the table read runs slow** (critic's next list, harm noted): the lope dialogue in 11 (−10 s, an Act 3
+laugh); the map cutaway's lines in 4 (−4.5 s); "Bright, for the dark side" (2, −4 s; keep Mira's answer).
+
+## v5.2 Critic items, one by one
+
+| Item | Done | Where |
+|---|---|---|
+| **M1** runtime | X1–X17 all applied (X17 = the critic's 95-word WWR, verbatim); unlisted picture time added to every header that had it (4, 7, 8, 9, 10, 11, 12, 14, 16, 18, 19) | all |
+| **M2** Arakawa seen speaking once | "Never seen speaking" deleted from format note, standing rules, 3 and 11. New slugline in 16: INT. STEADFAST — BRIDGE — DESCENDING, "For the first time, her face", on the hillside line (E08 quotes it). Back to us everywhere else | header, 3, 11, 16 |
+| **M3** 31 labels shown | INSERT in 18: thirty-one labels, a pale clean rectangle where the first was; LABELS 31 · POSTINGS 32 | 18 |
+| **M4** Jax–Mira beat | 11, verbatim: Mira at the chart table, Jax holds the curling corner flat; "You'd have worn it." / "Somebody had to." | 11 |
+| **M5** why sunset | 3 (X1): "…your bank is first in the queue… And if you lift, I will see you."; 11 Seo: "We go at sunset, in the dark."; also 10, Mira over the envelope: "At sunset. In the dark." (restating it, as the showrunner asked); 16 pays it ("And I can see your fin") | 3, 10, 11, 16 |
+| **M6** tag far side | "In her window the far side is still bright; only its western edge has gone dark." Plate note in the header too | 19 |
+| **M7** AIR | 8 "three days"; 10 40%; 11 40% stops; 18 40% then 41%; standing rule rewritten (about 1% per 1½ h) | 8, 10, 11, 18, header |
+| **M8** one veil | Outside the dome on a brim ring, hangs still in vacuum; 14 corrected | header, 14 |
+| **M9** 15 on the move | Lucía and Seo carry the bracket and a toolbox up the ramp, Mira follows, Jax backs up the ramp; night line advancing; Baron and Kaguya still. Ma unchanged | 15 |
+| S1 four laughs | staircase (0); "You weigh nothing." / "I am mostly books." (1); "That is not a request. That is stationery." (11); the elixir and "Men are so dramatic" (14), with a 3 s woodblock smoke image UNDER, mountain unnamed | 0, 1, 11, 14 |
+| S2 Kaguya's one reveal | 14, on "If I remembered how…": glove lifts one side of the veil, three-quarter face through the dome, held through "And go.", falls on the HOLD; locked master only | 14, header |
+| S3 drone plant | INSERT in 6's montage: "high on the rim above the ship, a small dark machine lands and folds its legs. Nobody looks up." 9 now has it low on the hull by the hatch | 6, 9 |
+| S4 midpoint image | Seo's clasp insert moved up after PIP's statement; the half ends on Jax's face | 9 |
+| S5 self-explaining jokes | covered by X2, X3; "Now the humiliation" and "I fell in" still read | 5, 6, 7 |
+| S6 respect | Keeping House a Heian palace (cypress, white plaster, black lacquer; no vermilion); doors in 3 black-lacquered; serpent not a dragon | header, 3, 4, 7 |
+| S7 relay queue | #1,208 "UNSENT — RELAY QUEUE FULL" | 2 |
+| S8 stars | "Keep your eyes off the ground. Wait." / "He looks up, away from the bright ground." | 14 |
+| S9 cheaper staging | erasures as paper-tear wipes; robe a rigid sprite, one yank | 7, 10 |
+| S10 tag question | "Will Seo betray them?" (header, notes, tag engines) | header, 19 |
+| S11 Jax's act in the run | **Not taken** (it was optional and replaces X14; the showrunner listed X14). Jax keeps "Fin's lit… dark." Flagged below | — |
+| S12 8 opens moving | Lucía bounds across frame dragging the hose | 8 |
+| S13 protected plants | "landing light" and "Somebody lied to her about the weather" added to v5.3 | notes |
+| N1 Lantern | low over the western rim, near the Sun | 5, header |
+| N2 *Steadfast* light | top left, behind them, toward the Sun | 16 |
+| N3 jar | screws the hose on; the fog rushes in | 8 |
+| N4 Earth's edge | "now shows over the ridge" | 5 |
+| N5 clock by 3:00 | SUNSET insert moved up into Arakawa's terms (~3:00) | 3 |
+| N6 the leap | "as high as the hatch"; the drone low on the hull | 9 |
+| N7 numbers | left as they are (three hundred / a thousand years) | 7 |
+| N8 Distant voice | must not resemble chant or sutra (voice notes) | header |
+| N9 | not restored on purpose: Petrarch, the wives, the duel as a scene | — |
+| N10 | for the showrunner (ruling "him"; bible §4 "Photoreal" line) | — |
+| N11 | see S11 | — |
+
+**Showrunner's added asks:** one Baron goodbye (15; 13 is his decision, not a farewell, and X13 removed
+"This is a real goodbye… This is an exit.") and **one Kaguya goodbye** (moved her task lines, "I'll send
+word… It'll be impossible.", to the end of 14; in 15 she speaks only "Cartographer" to Mira). Mira back on
+screen in the quiet stretch (11's chart beat; 15 she climbs the ramp). Quiet stretch now alternates: 12
+still → 13 wading → 14 still but with Kaguya's face and the elixir laugh → 15 moving → 16 action.
+
+**Nothing in the fix list conflicted with canon.** Two judgement calls: (1) "Somebody had to." could be read
+as Jax choosing a robe; it is about PIP's robe in this scene, not his past, so I judged it within the guard.
+(2) The *Steadfast*'s light placed "behind them, toward the Sun" is the true position; if the shotlist
+prefers the top of frame for clarity, call it licence there (N2).
+
+## v5.3 Canon and plant checklist, re-verified by search of `script-v5.md`
+
+All present: READ — 00:00:01.7 (11), "Somebody on Earth opens them as they land" (11), no "same as
+always"; #1,208 (2, RELAY QUEUE FULL), #1,209 (6), #1,210 (9), #1,211 (10); 32 postings / 31 labels (10
+"Thirty-two… thirty-one" / "I have thirty-one"; 18 insert LABELS 31 · POSTINGS 32 with the pale rectangle,
+and "posted thirty-two times… record of thirty-one"); Seo's mother dead, Lucía knows (12 "Eleven years");
+the aunt (18); Hong Gildong (5 insert, 19 "— H.G."); spy thread (5, 7, 9, 10, 12, 19); Arakawa a woman in her
+40s, seen speaking once (16); Kaguya's blind indoors (4, 7, 10), veil outside the dome (8, 9, 14, 15), one
+reveal (14), "won't say" kept (14 "Someone who's very good at leaving"); Astolfo and "I won it at cards from
+an English knight." / "I kept the good one." (13); the Baron stays (13) and "I said I'd come by cannonball"
+(15); NOBODY flask (19); Arakawa assigned at her own request (19); WWR facts and credits only (WWR); no
+AI-disclosure wording (searched). **Protected later quotes:** the hillside line (16, E08), "Keep the hatchet
+sharp. It's my landing light." (15, E03), "Blue ink. A slanted hand." and the robe taking label one (18, 10;
+E05), "Somebody lied to her about the weather." (12, E06), FAR SIDE. VALLEY. (11, E03), THE CREW ARE KIND
+deleted (19, E06), "Ten. I'm rounding up." (18, E03).
+
+## v5.4 Handover for the Episode 3 reviser (writer's list merged with the critic's 14)
+
+1. E02 is 20 units; scene numbers as `revision-notes-v4.md` section 2. Season-01's "ep 2, scene 13" for
+   Seo's mother is now scene 12 (to be updated in season-01 after lock, per ruling 7).
+2. **Seo's mother is dead and Lucía knows (E02 12); she writes to an aunt (E02 18).** E03 `script-v2.md` still
+   has "My mother" (~777), "What's she like? Your mother." (~1149) and "Mothers aren't punctual" (~1195):
+   re-aim all three at the aunt. Lucía believes it until E06.
+3. Reports end at #1,211, all READ at 1.7 s from the far side; E03 opens at #1,212 and moves to 00:11:00.
+4. Counts at the end of E02: 32 postings; 31 labels with a pale clean rectangle where label one was; PIP
+   holds 31 records (the robe took label one's). E03's Quixote label makes 32 labels / 33 postings.
+5. Lucía is owed ten ("Ten. I'm rounding up. With interest.").
+6. The hatchet is back with Jax; "Keep the hatchet sharp. It's my landing light." stands, so E03's "He said
+   keep it sharp" holds.
+7. **Arakawa** has been seen speaking once (E02 16, the hillside line). E03's standing rules still use the old
+   "soft focus" Chichikov and no-mouth Seo staging: conform to the faint rule and the animated format.
+8. **"You've worn one before."** Mira wrote it in her notebook (E02 10, "J.V."). E03 may show the page once,
+   silently; nobody may explain it or suggest Jax chose it (ep 8 and ep 10 hold those).
+9. Owed: one impossible task to Kaguya. The coffee machine is still "outstanding" to the bank. The Baron is
+   in the Valley; his hat is on the horse at Rim Port.
+10. **Season continuity (showrunner: for the season pass, not E03 alone):** Lucía knows Seo cut her own fuel
+   line (E02 12), yet E06 has the crew suspect Idris of sabotage. Lucía needs a stated reason to discount
+   it, or must be shown choosing to.
+11. Voss has a copy of the ship's registry plate (E02 9); the Voss surveyors at La Mancha can follow from it.
+12. Seo's photograph is in the lining of her scuffed flight helmet; "She flew rescue"; "Somebody lied to her
+   about the weather".
+13. Chichikov's notebook: FAR SIDE. VALLEY. (old ink) and CREDITOR — THE PRINCESS; he took Arakawa's cup and
+   is "Name not recorded" in her log.
+14. New drawn styles: Kaguya's woodblock; Jax's salesman's poster (reuse whenever Jax lies big).
+15. The bank is paid and the air is the crew's; "engine release takes five working days".
+16. The robe stays in the dead-letter vault (Season 2 plant). Kaguya's face has been seen once (E02 14):
+    any later appearance draws from the locked master.
+17. `sources.md` and `casting-notes.md` for E02 still cite draft-3 scene numbers.
+
+## v5.5 For the showrunner
+
+- **S11 not taken** (Jax's "That's not our fin… It's a very distinguished fin." in 16). Jax stays mostly a
+  lookout in the climax. Taking it costs about +6 s net and leaves 0 s headroom; say if you want it in
+  place of another cut.
+- **Kaguya's lines in 15:** only "Cartographer", to Mira; her farewell to Jax is 14. Confirm that counts as
+  one Kaguya goodbye.
+- **The locked Keeping House set** has red pillars (CHARACTER-LOCKS: "red pillars"). The script now asks for
+  unpainted cypress; the set master and its lock description need changing in art (not mine to edit).
+- **Arakawa's face in 16** needs a lip-sync pass from the locked master; it is her first speaking shot in the
+  series.
