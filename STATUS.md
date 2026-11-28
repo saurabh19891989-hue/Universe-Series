@@ -507,3 +507,9 @@ Gemini API key is saved as a network secret on the Default environment
   Jax and Mira silent to each other 6:54–13:12; PIP's wrist unit used though E02 introduces
   it. Showrunner rulings sent to the reviser; v5 being written (target 23:30–24:15).
   Handover for E02 reviser: wrist unit introduced in E02 only; Chichikov faint again from E02.
+- **Sample 5 stage 2a landed:** timeline FROZEN at 2:42.4 (`episodes/E01/sample5-shotlist.json`,
+  40 shots, 44 lines: Part A customs desk 75 s incl. Noakes and the Baron's "I used to be
+  taller!" button; 2 s card; Part B rim 85.4 s incl. 18.7 s cutaway and a 3.0 s silence).
+  Animatic `samples/e01/E01-sample5-animatic-720p.mp4`. One new Kokoro line (Jax's laugh; may
+  sound fake). Stage 2b (full picture build, up to 220 Codex pictures) and the score/mix are
+  running in parallel; showrunner muxes the final mix onto the picture.

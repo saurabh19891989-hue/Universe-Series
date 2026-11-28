@@ -1,0 +1,1405 @@
+{
+ "name": "E01-sample5",
+ "episode": "E01",
+ "mix_version": 3,
+ "note": "SAMPLE 5 sound timeline (stage 2a, frozen after hand-back). Part A = v4 scene 3 (customs desk, with Noakes), Part B = v4 scene 13 (outer rim, cannonball). Built by production/tools/toon/build_sample5.py.",
+ "vars": {
+  "SCRATCH": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad",
+  "REPO": "/home/user/Universe-Series"
+ },
+ "duration_s": 162.441,
+ "parts": {
+  "A": [
+   0.0,
+   74.998
+  ],
+  "title": [
+   74.998,
+   76.998
+  ],
+  "B": [
+   76.998,
+   162.441
+  ]
+ },
+ "dialogue": [
+  {
+   "id": "3-01",
+   "who": "mira",
+   "start_s": 2.6,
+   "dur": 0.73,
+   "text": "Next.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L001_MIRA.wav",
+   "shot": "A01",
+   "business": "Mira, not looking up, stamping papers",
+   "new_line": false
+  },
+  {
+   "id": "3-02",
+   "who": "jax",
+   "start_s": 4.13,
+   "dur": 1.088,
+   "text": "There's no one else here.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L002_JAX.wav",
+   "shot": "A01",
+   "business": "Jax: open-hand sweep at the empty benches",
+   "new_line": false
+  },
+  {
+   "id": "3-03",
+   "who": "mira",
+   "start_s": 5.518,
+   "dur": 1.724,
+   "text": "It's procedure. Next.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L003_MIRA.wav",
+   "shot": "A01",
+   "business": "Mira stamps something, patient; eyes still down",
+   "new_line": false
+  },
+  {
+   "id": "3-04",
+   "who": "mira",
+   "start_s": 9.542,
+   "dur": 6.319,
+   "text": "Parcel, one. Sealed. Addressed to a district withdrawn at fourteen-oh-two. Seized at fourteen-nineteen.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L004_MIRA.wav",
+   "shot": "A03",
+   "business": "Mira O.S., reading quick and dry; Jax arrives and sets his elbow on the counter on 'Seized'",
+   "new_line": false
+  },
+  {
+   "id": "3-05",
+   "who": "jax",
+   "start_s": 16.761,
+   "dur": 1.64,
+   "text": "Here's my situation. My aunt\u2014",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L005_JAX.wav",
+   "shot": "A04",
+   "business": "Jax: elbow on counter, full charm, leans in",
+   "new_line": false
+  },
+  {
+   "id": "3-06",
+   "who": "mira",
+   "start_s": 18.551,
+   "dur": 1.436,
+   "text": "You don't have an aunt.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L006_MIRA.wav",
+   "shot": "A05",
+   "business": "Mira: flat, one brow down; doesn't look up from the form",
+   "new_line": false
+  },
+  {
+   "id": "3-07",
+   "who": "jax",
+   "start_s": 20.637,
+   "dur": 0.87,
+   "text": "You don't know that.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L007_JAX.wav",
+   "shot": "A06",
+   "business": "Jax: a wounded finger-point at her",
+   "new_line": false
+  },
+  {
+   "id": "3-08",
+   "who": "mira",
+   "start_s": 22.107,
+   "dur": 2.337,
+   "text": "Your form says next of kin: none.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L008_MIRA.wav",
+   "shot": "A07",
+   "business": "Mira holds up his own form, taps the line",
+   "new_line": false
+  },
+  {
+   "id": "3-09",
+   "who": "jax",
+   "start_s": 24.645,
+   "dur": 4.489,
+   "text": "She's very distant. Look \u2014 I can tell you're someone who appreciates flexibility.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L009_JAX.wav",
+   "shot": "A08",
+   "business": "Jax: 'very distant' \u2014 points far off without a blink; 'Look\u2014' leans in confidential",
+   "new_line": false
+  },
+  {
+   "id": "3-11",
+   "who": "jax",
+   "start_s": 29.383,
+   "dur": 3.469,
+   "text": "Then you'll appreciate the Lunar Courier Exemption. Section twelve.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L011_JAX.wav",
+   "shot": "A08",
+   "business": "Jax: finger up, 'Section twelve' with a little flourish",
+   "new_line": false
+  },
+  {
+   "id": "3-12",
+   "who": "mira",
+   "start_s": 33.153,
+   "dur": 1.667,
+   "text": "There are nine sections.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L012_MIRA.wav",
+   "shot": "A09",
+   "business": "Mira: deadpan, looks at him over the form",
+   "new_line": false
+  },
+  {
+   "id": "3-13",
+   "who": "jax",
+   "start_s": 35.67,
+   "dur": 1.679,
+   "text": "Which is why twelve is so exclusive.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L013_JAX.wav",
+   "shot": "A09",
+   "business": "Jax: confidential half-whisper, eyebrows",
+   "new_line": false
+  },
+  {
+   "id": "3-18",
+   "who": "mira",
+   "start_s": 40.049,
+   "dur": 2.32,
+   "text": "Your record starts seven years ago.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L018_MIRA.wav",
+   "shot": "A12",
+   "business": "Mira, slower; eyes come up to him",
+   "new_line": false
+  },
+  {
+   "id": "3-19",
+   "who": "jax",
+   "start_s": 42.57,
+   "dur": 0.741,
+   "text": "Late bloomer.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L019_JAX.wav",
+   "shot": "A13",
+   "business": "Jax: shrug, easy grin",
+   "new_line": false
+  },
+  {
+   "id": "3-20",
+   "who": "mira",
+   "start_s": 44.211,
+   "dur": 2.637,
+   "text": "Your record isn't late, Captain. It's blank.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L020_MIRA.wav",
+   "shot": "A14",
+   "business": "Mira: quiet, holding his look",
+   "new_line": false
+  },
+  {
+   "id": "3-24",
+   "who": "mira",
+   "start_s": 48.698,
+   "dur": 1.227,
+   "text": "Holding bay.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L024_MIRA.wav",
+   "shot": "A14",
+   "business": "Mira: brisk, back to business",
+   "new_line": false
+  },
+  {
+   "id": "4-04",
+   "who": "noakes",
+   "start_s": 55.525,
+   "dur": 4.61,
+   "text": "You were struck off for saying the map was wrong. Please don't get struck off again for saying it louder.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S04_L004_NOAKES.wav",
+   "shot": "A16",
+   "business": "Noakes: soft, pained",
+   "new_line": false
+  },
+  {
+   "id": "4-05",
+   "who": "mira",
+   "start_s": 60.435,
+   "dur": 1.214,
+   "text": "It is wrong.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S04_L005_MIRA.wav",
+   "shot": "A16",
+   "business": "Mira: doesn't turn round",
+   "new_line": false
+  },
+  {
+   "id": "4-06",
+   "who": "noakes",
+   "start_s": 62.449,
+   "dur": 3.261,
+   "text": "It's official. Those aren't opposites, Doctor Sen. They're departments.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S04_L006_NOAKES.wav",
+   "shot": "A16",
+   "business": "Noakes: kindly, as if to a child",
+   "new_line": false
+  },
+  {
+   "id": "4-07",
+   "who": "noakes",
+   "start_s": 66.81,
+   "dur": 3.857,
+   "text": "One more complaint and your probation ends. Let nothing happen. One more day.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S04_L007_NOAKES.wav",
+   "shot": "A18",
+   "business": "Noakes: a prayer, eyes on the board",
+   "new_line": false
+  },
+  {
+   "id": "3-25",
+   "who": "baron",
+   "start_s": 71.067,
+   "dur": 1.931,
+   "text": "I used to be taller!",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S03_L025_BARON_treated.wav",
+   "shot": "A19",
+   "business": "BUTTON: the Baron, distant, outraged, echoing",
+   "new_line": false
+  },
+  {
+   "id": "21-01",
+   "who": "baron",
+   "start_s": 80.898,
+   "dur": 4.297,
+   "text": "There it is. Here it doesn't rise. It waits, low, like a dog at a door.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L001_BARON_treated.wav",
+   "shot": "B02",
+   "business": "Baron: gentle, looking at Earth",
+   "new_line": false
+  },
+  {
+   "id": "21-02",
+   "who": "baron",
+   "start_s": 85.495,
+   "dur": 1.18,
+   "text": "Sign, Captain.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L002_BARON_treated.wav",
+   "shot": "B02",
+   "business": "Baron: plainly, turning to Jax",
+   "new_line": false
+  },
+  {
+   "id": "21-03",
+   "who": "jax",
+   "start_s": 86.925,
+   "dur": 1.572,
+   "text": "You'd be a show. Four times a day.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L003_JAX_treated.wav",
+   "shot": "B03",
+   "business": "Jax: flat, eyes on Earth",
+   "new_line": false
+  },
+  {
+   "id": "21-04",
+   "who": "baron",
+   "start_s": 88.797,
+   "dur": 3.769,
+   "text": "A tidy Baron is still a Baron. A thin one is a coat on a chair.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L004_BARON_treated.wav",
+   "shot": "B04",
+   "business": "Baron: patient",
+   "new_line": false
+  },
+  {
+   "id": "21-05",
+   "who": "baron",
+   "start_s": 92.866,
+   "dur": 5.416,
+   "text": "I have seen the thin ones. They sit in waiting rooms and cannot remember what they are waiting for.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L005_BARON_treated.wav",
+   "shot": "B04",
+   "business": "Baron: the thin ones in waiting rooms (v3 stem of the v4 beat)",
+   "new_line": false
+  },
+  {
+   "id": "21-06",
+   "who": "jax",
+   "start_s": 98.883,
+   "dur": 0.643,
+   "text": "Tell me one.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L006_JAX_treated.wav",
+   "shot": "B04",
+   "business": "Jax: 'Tell me one.'",
+   "new_line": false
+  },
+  {
+   "id": "21-10",
+   "who": "baron",
+   "start_s": 100.225,
+   "dur": 6.63,
+   "text": "Ochakov. The Turks had the fortress. We had the field. The general wanted to know how many guns were inside.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L010_BARON_treated.wav",
+   "shot": "B05",
+   "business": "Baron: Ochakov \u2014 hands begin to draw the fortress in the air",
+   "new_line": false
+  },
+  {
+   "id": "21-11",
+   "who": "baron",
+   "start_s": 107.156,
+   "dur": 4.208,
+   "text": "So I stood by our biggest cannon, and when it fired, I jumped on the ball.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L011_BARON_treated.wav",
+   "shot": "B05 -> B06 (cut on 'when it fired')",
+   "business": "Baron: '...and when it fired, I jumped on the ball' \u2014 CUTAWAY starts on 'when it fired'",
+   "new_line": false
+  },
+  {
+   "id": "21-12",
+   "who": "jax",
+   "start_s": 111.514,
+   "dur": 0.532,
+   "text": "On it.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L012_JAX_treated.wav",
+   "shot": "B06",
+   "business": "Jax V.O., laughing already (stays on cutaway)",
+   "new_line": false
+  },
+  {
+   "id": "21-13",
+   "who": "baron",
+   "start_s": 112.245,
+   "dur": 2.15,
+   "text": "Astride. Like a horse, but rounder.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L013_BARON_treated.wav",
+   "shot": "B06",
+   "business": "Baron V.O., deadly serious: astride, like a horse but rounder (cutaway: riding pose)",
+   "new_line": false
+  },
+  {
+   "id": "21-14",
+   "who": "baron",
+   "start_s": 114.696,
+   "dur": 6.081,
+   "text": "Halfway across, I had doubts. I am not ashamed of doubts. If I land in there, they will hang me for a spy.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L014_BARON_treated.wav",
+   "shot": "B06",
+   "business": "Baron V.O.: doubts (cutaway: he looks down at the fortress, gallows sketch in a thought)",
+   "new_line": false
+  },
+  {
+   "id": "21-15",
+   "who": "baron",
+   "start_s": 121.077,
+   "dur": 4.134,
+   "text": "So when a ball came past from their side, going the other way \u2014 I changed.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L015_BARON_treated.wav",
+   "shot": "B06",
+   "business": "Baron V.O.: 'when a ball came past from their side' (cutaway: the other ball approaches) \u2014 'I changed' (the swap)",
+   "new_line": false
+  },
+  {
+   "id": "21-16",
+   "who": "jax",
+   "start_s": 128.31,
+   "dur": 1.117,
+   "text": "You changed cannonballs.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L016_JAX_treated.wav",
+   "shot": "B07",
+   "business": "Jax",
+   "new_line": false
+  },
+  {
+   "id": "21-17",
+   "who": "baron",
+   "start_s": 129.627,
+   "dur": 3.717,
+   "text": "In mid-air. And rode it home. Earth says I rode one there and back.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L017_BARON_treated.wav",
+   "shot": "B08",
+   "business": "Baron: 'In mid-air. And rode it home.' (2 s cutaway insert: riding the second ball home) 'Earth says I rode one there and back.'",
+   "new_line": false
+  },
+  {
+   "id": "21-18",
+   "who": "baron",
+   "start_s": 133.594,
+   "dur": 2.755,
+   "text": "I rode it there. Back, I took a different cannonball.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L018_BARON_treated.wav",
+   "shot": "B08",
+   "business": "Baron: the punchline, a tiny bow of the helmet",
+   "new_line": false
+  },
+  {
+   "id": "21-LAUGH",
+   "who": "jax",
+   "start_s": 136.549,
+   "dur": 1.344,
+   "text": "(laughs)",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/s5/newlines/E01_S21_LAUGH_JAX_v1.wav",
+   "shot": "B09",
+   "business": "Jax laughs in spite of himself (NEW Kokoro line, needs listening)",
+   "new_line": true
+  },
+  {
+   "id": "21-19",
+   "who": "baron",
+   "start_s": 138.193,
+   "dur": 3.181,
+   "text": "There. You listened to the end. Do you know how rare that is?",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L019_BARON_treated.wav",
+   "shot": "B10",
+   "business": "Baron: quiet, pleased",
+   "new_line": false
+  },
+  {
+   "id": "21-20",
+   "who": "jax",
+   "start_s": 141.723,
+   "dur": 0.695,
+   "text": "Did it happen?",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L020_JAX_treated.wav",
+   "shot": "B10",
+   "business": "Jax: still smiling",
+   "new_line": false
+  },
+  {
+   "id": "21-21",
+   "who": "baron",
+   "start_s": 142.718,
+   "dur": 2.227,
+   "text": "It's happening now. You are the audience.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L021_BARON_treated.wav",
+   "shot": "B10",
+   "business": "Baron: simply",
+   "new_line": false
+  },
+  {
+   "id": "21-22",
+   "who": "baron",
+   "start_s": 147.945,
+   "dur": 5.535,
+   "text": "If ever you need me \u2014 truly \u2014 I will come. By cannonball. It is undignified and very fast.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L022_BARON_treated.wav",
+   "shot": "B12",
+   "business": "Baron: the promise",
+   "new_line": false
+  },
+  {
+   "id": "21-26",
+   "who": "baron",
+   "start_s": 153.88,
+   "dur": 1.482,
+   "text": "You lie well, Captain.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L026_BARON_treated.wav",
+   "shot": "B13",
+   "business": "Baron: warm",
+   "new_line": false
+  },
+  {
+   "id": "21-27",
+   "who": "jax",
+   "start_s": 155.512,
+   "dur": 0.511,
+   "text": "Thanks.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L027_JAX_treated.wav",
+   "shot": "B14",
+   "business": "Jax: light",
+   "new_line": false
+  },
+  {
+   "id": "21-28",
+   "who": "baron",
+   "start_s": 156.323,
+   "dur": 2.919,
+   "text": "You lie like a man who once had to lie for his life.",
+   "src": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/e01/dialogue/E01_S21_L028_BARON_treated.wav",
+   "shot": "B15",
+   "business": "Baron",
+   "new_line": false
+  }
+ ],
+ "shots": [
+  {
+   "id": "A01",
+   "part": "A",
+   "kind": "wide",
+   "desc": "WIDE: the vast customs hall; Mira high behind her counter in the warm lamp pool; real NASA lunar surface + Earth fill the great window; far down the hall a tiny Baron on a cargo scale, a drone weighing him",
+   "start_s": 0.0,
+   "business": [
+    {
+     "at_s": 0.0,
+     "what": "establish: hall breathes; drone beeps round the tiny Baron"
+    },
+    {
+     "at_s": 2.6,
+     "what": "Mira, not looking up, stamping papers"
+    },
+    {
+     "at_s": 3.33,
+     "what": "Jax (foreground, back to camera then turning) looks round the empty hall: left, right"
+    },
+    {
+     "at_s": 4.13,
+     "what": "Jax: open-hand sweep at the empty benches"
+    },
+    {
+     "at_s": 5.518,
+     "what": "Mira stamps something, patient; eyes still down"
+    }
+   ],
+   "end_s": 7.242
+  },
+  {
+   "id": "A02",
+   "part": "A",
+   "kind": "walk_full",
+   "desc": "FULL-BODY WALK, one short clean pass: Jax strolls in toward the counter like he owns the place (drawn cycle on twos, heels pinned)",
+   "start_s": 7.242,
+   "business": [
+    {
+     "at_s": 7.242,
+     "what": "walk pass across frame left to right"
+    }
+   ],
+   "end_s": 9.442
+  },
+  {
+   "id": "A03",
+   "part": "A",
+   "kind": "walk_track",
+   "desc": "KNEE-UP TRACKING: Jax walking, bob + arm swing, background slides; Mira's reading as voice-over",
+   "start_s": 9.442,
+   "business": [
+    {
+     "at_s": 9.542,
+     "what": "Mira O.S., reading quick and dry; Jax arrives and sets his elbow on the counter on 'Seized'"
+    },
+    {
+     "at_s": 15.861,
+     "what": "Jax settles the elbow, smile switched on"
+    }
+   ],
+   "end_s": 16.461
+  },
+  {
+   "id": "A04",
+   "part": "A",
+   "kind": "two_shot",
+   "desc": "TWO-SHOT across the counter, Mira high (right), Jax low (left), hall + window behind",
+   "start_s": 16.461,
+   "business": [
+    {
+     "at_s": 16.761,
+     "what": "Jax: elbow on counter, full charm, leans in"
+    }
+   ],
+   "end_s": 18.401
+  },
+  {
+   "id": "A05",
+   "part": "A",
+   "kind": "cu_mira",
+   "desc": "MCU MIRA (warm hall behind), flat",
+   "start_s": 18.401,
+   "business": [
+    {
+     "at_s": 18.551,
+     "what": "Mira: flat, one brow down; doesn't look up from the form"
+    },
+    {
+     "at_s": 19.987,
+     "what": "Jax: a blink, recalculating"
+    }
+   ],
+   "end_s": 20.487
+  },
+  {
+   "id": "A06",
+   "part": "A",
+   "kind": "cu_jax",
+   "desc": "MCU JAX (reverse three-quarter)",
+   "start_s": 20.487,
+   "business": [
+    {
+     "at_s": 20.637,
+     "what": "Jax: a wounded finger-point at her"
+    },
+    {
+     "at_s": 21.507,
+     "what": "Mira: unmoved"
+    }
+   ],
+   "end_s": 21.907
+  },
+  {
+   "id": "A07",
+   "part": "A",
+   "kind": "cu_mira",
+   "desc": "MCU MIRA",
+   "start_s": 21.907,
+   "business": [
+    {
+     "at_s": 22.107,
+     "what": "Mira holds up his own form, taps the line"
+    }
+   ],
+   "end_s": 24.445
+  },
+  {
+   "id": "A08",
+   "part": "A",
+   "kind": "cu_jax",
+   "desc": "MCU JAX",
+   "start_s": 24.445,
+   "business": [
+    {
+     "at_s": 24.645,
+     "what": "Jax: 'very distant' \u2014 points far off without a blink; 'Look\u2014' leans in confidential"
+    },
+    {
+     "at_s": 29.383,
+     "what": "Jax: finger up, 'Section twelve' with a little flourish"
+    }
+   ],
+   "end_s": 32.853
+  },
+  {
+   "id": "A09",
+   "part": "A",
+   "kind": "two_shot",
+   "desc": "TWO-SHOT",
+   "start_s": 32.853,
+   "business": [
+    {
+     "at_s": 33.153,
+     "what": "Mira: deadpan, looks at him over the form"
+    },
+    {
+     "at_s": 34.82,
+     "what": "Jax: does not blink"
+    },
+    {
+     "at_s": 35.67,
+     "what": "Jax: confidential half-whisper, eyebrows"
+    }
+   ],
+   "end_s": 37.349
+  },
+  {
+   "id": "A10",
+   "part": "A",
+   "kind": "cu_mira",
+   "desc": "MCU MIRA: the almost-smile (anticipation, mouth corner twitches, suppressed)",
+   "start_s": 37.349,
+   "business": [
+    {
+     "at_s": 37.349,
+     "what": "GAG BEAT: she almost smiles. Doesn't. Pulls the keyboard over"
+    }
+   ],
+   "end_s": 38.449
+  },
+  {
+   "id": "A11",
+   "part": "A",
+   "kind": "insert",
+   "desc": "INSERT: her screen: VALE, JAX. MASTER, COURIER CLASS. The record begins seven years ago; above it the fields are empty",
+   "start_s": 38.449,
+   "business": [
+    {
+     "at_s": 38.449,
+     "what": "screen scrolls up into empty fields"
+    }
+   ],
+   "end_s": 40.049
+  },
+  {
+   "id": "A12",
+   "part": "A",
+   "kind": "cu_mira",
+   "desc": "MCU MIRA, slower, interested now",
+   "start_s": 40.049,
+   "business": [
+    {
+     "at_s": 40.049,
+     "what": "Mira, slower; eyes come up to him"
+    }
+   ],
+   "end_s": 42.37
+  },
+  {
+   "id": "A13",
+   "part": "A",
+   "kind": "cu_jax",
+   "desc": "MCU JAX",
+   "start_s": 42.37,
+   "business": [
+    {
+     "at_s": 42.57,
+     "what": "Jax: shrug, easy grin"
+    },
+    {
+     "at_s": 43.311,
+     "what": "Mira studies him"
+    }
+   ],
+   "end_s": 43.911
+  },
+  {
+   "id": "A14",
+   "part": "A",
+   "kind": "two_shot",
+   "desc": "TWO-SHOT",
+   "start_s": 43.911,
+   "business": [
+    {
+     "at_s": 44.211,
+     "what": "Mira: quiet, holding his look"
+    },
+    {
+     "at_s": 46.848,
+     "what": "THE LOOK: she looks one beat longer; he notices; she notices him noticing"
+    },
+    {
+     "at_s": 48.048,
+     "what": "GAG/BUTTON: she stamps. THUNK. SEIZED (camera bump)"
+    },
+    {
+     "at_s": 48.698,
+     "what": "Mira: brisk, back to business"
+    },
+    {
+     "at_s": 49.925,
+     "what": "Jax goes (exits frame left with a two-finger salute)"
+    }
+   ],
+   "end_s": 51.525
+  },
+  {
+   "id": "A15",
+   "part": "A",
+   "kind": "insert",
+   "desc": "INSERT: Mira's battered notebook from her drawer: page after page of addresses, OWNER: \u2014; she writes 41. THE SILVER HATCHET. OWNER: \u2014",
+   "start_s": 51.525,
+   "business": [
+    {
+     "at_s": 51.525,
+     "what": "pen writes the entry"
+    },
+    {
+     "at_s": 54.525,
+     "what": "Noakes' shadow falls across the page; he bends in"
+    }
+   ],
+   "end_s": 55.325
+  },
+  {
+   "id": "A16",
+   "part": "A",
+   "kind": "two_shot_noakes",
+   "desc": "MS: Noakes bends into frame behind Mira, tall, tired; looks at the notebook like a cigarette",
+   "start_s": 55.325,
+   "business": [
+    {
+     "at_s": 55.525,
+     "what": "Noakes: soft, pained"
+    },
+    {
+     "at_s": 60.435,
+     "what": "Mira: doesn't turn round"
+    },
+    {
+     "at_s": 61.649,
+     "what": "Noakes sighs"
+    },
+    {
+     "at_s": 62.449,
+     "what": "Noakes: kindly, as if to a child"
+    }
+   ],
+   "end_s": 65.71
+  },
+  {
+   "id": "A17",
+   "part": "A",
+   "kind": "insert",
+   "desc": "INSERT: the board: RIM PORT CUSTOMS \u2014 DAYS WITHOUT INCIDENT: 1,094",
+   "start_s": 65.71,
+   "business": [
+    {
+     "at_s": 65.71,
+     "what": "Noakes looks up at the board with something like love"
+    }
+   ],
+   "end_s": 66.71
+  },
+  {
+   "id": "A18",
+   "part": "A",
+   "kind": "two_shot_noakes",
+   "desc": "MS Noakes + Mira",
+   "start_s": 66.71,
+   "business": [
+    {
+     "at_s": 66.81,
+     "what": "Noakes: a prayer, eyes on the board"
+    }
+   ],
+   "end_s": 70.667
+  },
+  {
+   "id": "A19",
+   "part": "A",
+   "kind": "wide",
+   "desc": "WIDE: far down the hall the tiny man on the scale throws up his arms",
+   "start_s": 70.667,
+   "business": [
+    {
+     "at_s": 71.067,
+     "what": "BUTTON: the Baron, distant, outraged, echoing"
+    }
+   ],
+   "end_s": 72.998
+  },
+  {
+   "id": "A20",
+   "part": "A",
+   "kind": "two_shot_noakes",
+   "desc": "MS Noakes closes his eyes",
+   "start_s": 72.998,
+   "business": [
+    {
+     "at_s": 72.998,
+     "what": "BUTTON: Noakes closes his eyes; Mira's pen keeps writing"
+    }
+   ],
+   "end_s": 74.998
+  },
+  {
+   "id": "T01",
+   "part": "title",
+   "kind": "title",
+   "desc": "TIME-CUT CARD: 'LATER \u2014 THE OUTER RIM' over the real Earth plate",
+   "start_s": 74.998,
+   "business": [
+    {
+     "at_s": 74.998,
+     "what": "title"
+    }
+   ],
+   "end_s": 76.998
+  },
+  {
+   "id": "B01",
+   "part": "B",
+   "kind": "rim_wide",
+   "desc": "WIDE: two suited figures on a boulder at the edge of the world, clear bubble helmets, the tricorn strapped on top of the Baron's dome; real NASA Earth low on the lunar horizon fills the frame",
+   "start_s": 76.998,
+   "business": [
+    {
+     "at_s": 76.998,
+     "what": "establish; low-gravity stillness; suit fans"
+    },
+    {
+     "at_s": 80.198,
+     "what": "SFX: private-channel click"
+    }
+   ],
+   "end_s": 80.698
+  },
+  {
+   "id": "B02",
+   "part": "B",
+   "kind": "rim_baron",
+   "desc": "MCU BARON inside his helmet, Earth reflected in the glass",
+   "start_s": 80.698,
+   "business": [
+    {
+     "at_s": 80.898,
+     "what": "Baron: gentle, looking at Earth"
+    },
+    {
+     "at_s": 85.495,
+     "what": "Baron: plainly, turning to Jax"
+    }
+   ],
+   "end_s": 86.675
+  },
+  {
+   "id": "B03",
+   "part": "B",
+   "kind": "rim_jax",
+   "desc": "MCU JAX inside his helmet",
+   "start_s": 86.675,
+   "business": [
+    {
+     "at_s": 86.925,
+     "what": "Jax: flat, eyes on Earth"
+    }
+   ],
+   "end_s": 88.497
+  },
+  {
+   "id": "B04",
+   "part": "B",
+   "kind": "rim_two",
+   "desc": "TWO-SHOT side by side on the boulder, Earth between them",
+   "start_s": 88.497,
+   "business": [
+    {
+     "at_s": 88.797,
+     "what": "Baron: patient"
+    },
+    {
+     "at_s": 92.866,
+     "what": "Baron: the thin ones in waiting rooms (v3 stem of the v4 beat)"
+    },
+    {
+     "at_s": 98.283,
+     "what": "Jax, after a moment"
+    },
+    {
+     "at_s": 98.883,
+     "what": "Jax: 'Tell me one.'"
+    }
+   ],
+   "end_s": 99.525
+  },
+  {
+   "id": "B05",
+   "part": "B",
+   "kind": "rim_baron",
+   "desc": "MCU BARON: genuinely surprised, then settling, delighted, the voice opening up",
+   "start_s": 99.525,
+   "business": [
+    {
+     "at_s": 99.525,
+     "what": "REACTION: the Baron's eyebrows go up behind the glass; moustache lifts"
+    },
+    {
+     "at_s": 100.225,
+     "what": "Baron: Ochakov \u2014 hands begin to draw the fortress in the air"
+    },
+    {
+     "at_s": 107.156,
+     "what": "Baron: '...and when it fired, I jumped on the ball' \u2014 CUTAWAY starts on 'when it fired'"
+    }
+   ],
+   "end_s": 109.47
+  },
+  {
+   "id": "B06",
+   "part": "B",
+   "kind": "cutaway",
+   "desc": "CUTAWAY (engraving style, paper theatre, the younger magnificent Baron): fortress, great cannon fires, he leaps astride the ball",
+   "start_s": 109.47,
+   "business": [
+    {
+     "at_s": 111.514,
+     "what": "Jax V.O., laughing already (stays on cutaway)"
+    },
+    {
+     "at_s": 112.245,
+     "what": "Baron V.O., deadly serious: astride, like a horse but rounder (cutaway: riding pose)"
+    },
+    {
+     "at_s": 114.696,
+     "what": "Baron V.O.: doubts (cutaway: he looks down at the fortress, gallows sketch in a thought)"
+    },
+    {
+     "at_s": 121.077,
+     "what": "Baron V.O.: 'when a ball came past from their side' (cutaway: the other ball approaches) \u2014 'I changed' (the swap)"
+    },
+    {
+     "at_s": 125.21,
+     "what": "CUTAWAY GAG, no words: he hops from one ball to the other like changing trams, lifts his hat to the Turks"
+    }
+   ],
+   "end_s": 128.21
+  },
+  {
+   "id": "B07",
+   "part": "B",
+   "kind": "rim_jax",
+   "desc": "MCU JAX, delighted, disbelieving",
+   "start_s": 128.21,
+   "business": [
+    {
+     "at_s": 128.31,
+     "what": "Jax"
+    }
+   ],
+   "end_s": 129.427
+  },
+  {
+   "id": "B08",
+   "part": "B",
+   "kind": "rim_baron",
+   "desc": "MCU BARON with dignity",
+   "start_s": 129.427,
+   "business": [
+    {
+     "at_s": 129.627,
+     "what": "Baron: 'In mid-air. And rode it home.' (2 s cutaway insert: riding the second ball home) 'Earth says I rode one there and back.'"
+    },
+    {
+     "at_s": 133.594,
+     "what": "Baron: the punchline, a tiny bow of the helmet"
+    }
+   ],
+   "end_s": 136.349
+  },
+  {
+   "id": "B09",
+   "part": "B",
+   "kind": "rim_jax",
+   "desc": "MCU JAX: the real laugh, head back inside the helmet",
+   "start_s": 136.349,
+   "business": [
+    {
+     "at_s": 136.549,
+     "what": "Jax laughs in spite of himself (NEW Kokoro line, needs listening)"
+    }
+   ],
+   "end_s": 137.893
+  },
+  {
+   "id": "B10",
+   "part": "B",
+   "kind": "rim_two",
+   "desc": "TWO-SHOT",
+   "start_s": 137.893,
+   "business": [
+    {
+     "at_s": 138.193,
+     "what": "Baron: quiet, pleased"
+    },
+    {
+     "at_s": 141.723,
+     "what": "Jax: still smiling"
+    },
+    {
+     "at_s": 142.718,
+     "what": "Baron: simply"
+    }
+   ],
+   "end_s": 144.945
+  },
+  {
+   "id": "B11",
+   "part": "B",
+   "kind": "rim_earth",
+   "desc": "THE REAL EARTH, low on the horizon, the two small figures in silhouette at frame edge",
+   "start_s": 144.945,
+   "business": [
+    {
+     "at_s": 144.945,
+     "what": "SILENCE: three full seconds; neither moves (suit fans only)"
+    }
+   ],
+   "end_s": 147.945
+  },
+  {
+   "id": "B12",
+   "part": "B",
+   "kind": "rim_baron",
+   "desc": "MCU BARON, lightly, so it can be taken as a joke",
+   "start_s": 147.945,
+   "business": [
+    {
+     "at_s": 147.945,
+     "what": "Baron: the promise"
+    }
+   ],
+   "end_s": 153.48
+  },
+  {
+   "id": "B13",
+   "part": "B",
+   "kind": "rim_baron",
+   "desc": "MCU BARON: helmet turns, Earth sits in the reflection on his glass",
+   "start_s": 153.48,
+   "business": [
+    {
+     "at_s": 153.88,
+     "what": "Baron: warm"
+    }
+   ],
+   "end_s": 155.362
+  },
+  {
+   "id": "B14",
+   "part": "B",
+   "kind": "rim_jax",
+   "desc": "MCU JAX",
+   "start_s": 155.362,
+   "business": [
+    {
+     "at_s": 155.512,
+     "what": "Jax: light"
+    }
+   ],
+   "end_s": 156.023
+  },
+  {
+   "id": "B15",
+   "part": "B",
+   "kind": "rim_baron",
+   "desc": "MCU BARON, gently, looking right at him",
+   "start_s": 156.023,
+   "business": [
+    {
+     "at_s": 156.323,
+     "what": "Baron"
+    }
+   ],
+   "end_s": 159.241
+  },
+  {
+   "id": "B16",
+   "part": "B",
+   "kind": "rim_jax",
+   "desc": "MCU JAX: no answer ready; Earth shifts a hair",
+   "start_s": 159.241,
+   "business": [
+    {
+     "at_s": 159.241,
+     "what": "HOLD: nothing on the channel; fade out"
+    }
+   ],
+   "end_s": 162.441
+  }
+ ],
+ "beats": [
+  {
+   "at_s": 0.0,
+   "dur_s": 2.6,
+   "what": "establish: hall breathes; drone beeps round the tiny Baron",
+   "shot": "A01"
+  },
+  {
+   "at_s": 3.33,
+   "dur_s": 0.7,
+   "what": "Jax (foreground, back to camera then turning) looks round the empty hall: left, right",
+   "shot": "A01"
+  },
+  {
+   "at_s": 7.242,
+   "dur_s": 2.2,
+   "what": "walk pass across frame left to right",
+   "shot": "A02"
+  },
+  {
+   "at_s": 15.861,
+   "dur_s": 0.6,
+   "what": "Jax settles the elbow, smile switched on",
+   "shot": "A03"
+  },
+  {
+   "at_s": 19.987,
+   "dur_s": 0.5,
+   "what": "Jax: a blink, recalculating",
+   "shot": "A05"
+  },
+  {
+   "at_s": 21.507,
+   "dur_s": 0.4,
+   "what": "Mira: unmoved",
+   "shot": "A06"
+  },
+  {
+   "at_s": 34.82,
+   "dur_s": 0.6,
+   "what": "Jax: does not blink",
+   "shot": "A09"
+  },
+  {
+   "at_s": 37.349,
+   "dur_s": 1.1,
+   "what": "GAG BEAT: she almost smiles. Doesn't. Pulls the keyboard over",
+   "shot": "A10"
+  },
+  {
+   "at_s": 38.449,
+   "dur_s": 1.6,
+   "what": "screen scrolls up into empty fields",
+   "shot": "A11"
+  },
+  {
+   "at_s": 43.311,
+   "dur_s": 0.6,
+   "what": "Mira studies him",
+   "shot": "A13"
+  },
+  {
+   "at_s": 46.848,
+   "dur_s": 1.2,
+   "what": "THE LOOK: she looks one beat longer; he notices; she notices him noticing",
+   "shot": "A14"
+  },
+  {
+   "at_s": 48.048,
+   "dur_s": 0.5,
+   "what": "GAG/BUTTON: she stamps. THUNK. SEIZED (camera bump)",
+   "shot": "A14"
+  },
+  {
+   "at_s": 49.925,
+   "dur_s": 1.6,
+   "what": "Jax goes (exits frame left with a two-finger salute)",
+   "shot": "A14"
+  },
+  {
+   "at_s": 51.525,
+   "dur_s": 3.0,
+   "what": "pen writes the entry",
+   "shot": "A15"
+  },
+  {
+   "at_s": 54.525,
+   "dur_s": 0.8,
+   "what": "Noakes' shadow falls across the page; he bends in",
+   "shot": "A15"
+  },
+  {
+   "at_s": 61.649,
+   "dur_s": 0.5,
+   "what": "Noakes sighs",
+   "shot": "A16"
+  },
+  {
+   "at_s": 65.71,
+   "dur_s": 1.0,
+   "what": "Noakes looks up at the board with something like love",
+   "shot": "A17"
+  },
+  {
+   "at_s": 72.998,
+   "dur_s": 2.0,
+   "what": "BUTTON: Noakes closes his eyes; Mira's pen keeps writing",
+   "shot": "A20"
+  },
+  {
+   "at_s": 74.998,
+   "dur_s": 2.0,
+   "what": "title",
+   "shot": "T01"
+  },
+  {
+   "at_s": 76.998,
+   "dur_s": 3.2,
+   "what": "establish; low-gravity stillness; suit fans",
+   "shot": "B01"
+  },
+  {
+   "at_s": 80.198,
+   "dur_s": 0.5,
+   "what": "SFX: private-channel click",
+   "shot": "B01"
+  },
+  {
+   "at_s": 98.283,
+   "dur_s": 0.6,
+   "what": "Jax, after a moment",
+   "shot": "B04"
+  },
+  {
+   "at_s": 99.525,
+   "dur_s": 0.7,
+   "what": "REACTION: the Baron's eyebrows go up behind the glass; moustache lifts",
+   "shot": "B05"
+  },
+  {
+   "at_s": 125.21,
+   "dur_s": 3.0,
+   "what": "CUTAWAY GAG, no words: he hops from one ball to the other like changing trams, lifts his hat to the Turks",
+   "shot": "B06"
+  },
+  {
+   "at_s": 144.945,
+   "dur_s": 3.0,
+   "what": "SILENCE: three full seconds; neither moves (suit fans only)",
+   "shot": "B11"
+  },
+  {
+   "at_s": 159.241,
+   "dur_s": 3.2,
+   "what": "HOLD: nothing on the channel; fade out",
+   "shot": "B16"
+  }
+ ],
+ "silences": [
+  {
+   "at_s": 144.945,
+   "dur_s": 3.0,
+   "what": "three seconds on the real Earth after 'You are the audience.'"
+  }
+ ],
+ "cutaway_beats": [
+  {
+   "beat": "cutaway starts: 'when it fired'",
+   "at_s": 109.47
+  },
+  {
+   "beat": "jumps on the ball",
+   "at_s": 110.73
+  },
+  {
+   "beat": "astride, like a horse but rounder",
+   "at_s": 112.25
+  },
+  {
+   "beat": "doubts",
+   "at_s": 114.7
+  },
+  {
+   "beat": "the other ball passes",
+   "at_s": 121.7
+  },
+  {
+   "beat": "changed (the swap, mid-air)",
+   "at_s": 124.88
+  },
+  {
+   "beat": "hat to the Turks, wordless gag",
+   "at_s": 125.50999999999999
+  },
+  {
+   "beat": "cutaway ends",
+   "at_s": 128.21
+  },
+  {
+   "beat": "rode it home (2 s insert inside B08)",
+   "at_s": 130.07
+  }
+ ],
+ "gags": [
+  {
+   "what": "the stamp THUNK",
+   "at_s": 48.048
+  },
+  {
+   "what": "the almost-smile",
+   "at_s": 37.349
+  },
+  {
+   "what": "Baron, distant: 'I used to be taller!'",
+   "at_s": 71.07
+  },
+  {
+   "what": "Noakes closes his eyes",
+   "at_s": 72.998
+  },
+  {
+   "what": "Jax's real laugh",
+   "at_s": 136.55
+  }
+ ],
+ "sfx_cues": [
+  {
+   "what": "customs stamp THUNK",
+   "at_s": 48.048,
+   "src": "${SCRATCH}/e01/sfx/customs_desk_stamp_heavy_a.wav"
+  },
+  {
+   "what": "private channel click",
+   "at_s": 80.198,
+   "src": "${SCRATCH}/e01/sfx/radio_private_channel_click.wav"
+  }
+ ],
+ "loudness": {
+  "integrated": -16.0,
+  "true_peak_ceiling": -2.0
+ },
+ "radio": "Part B lines are the suit-radio treated stems already (file_treated); the new laugh was given the same narrow-band treatment."
+}
