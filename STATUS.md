@@ -351,3 +351,11 @@ Gemini API key is saved as a network secret on the Default environment
 - The scheduled "resume Codex stills" reminder was deleted: no large stills run until the
   format is decided. Codex daily limit resets ~14:52 UTC 28 Nov; still to confirm whether the
   login is on the Pro plan (the limit error said "plus").
+- **Owner decision (28 Nov):** cast become animation characters, in whatever original style
+  works best with our in-house tools; real NASA video is the main background. CLAUDE.md
+  updated; the photoreal rule is retired. References he gave (prime-time flat 2D cartoon
+  comedy) are for the class of animation, not designs to copy.
+- Third test started (Opus): flat 2D cartoon look, full puppet rigs (limbs, walk cycle, 7+
+  mouth shapes, head turn), a two-character Episode 1 scene over real NASA video →
+  `samples/e01/E01-toon-test-720p.mp4`, notes `production/TOON-FORMAT.md`.
+- To do once a look is chosen: redraw the 17 locked masters in that look and re-lock them.

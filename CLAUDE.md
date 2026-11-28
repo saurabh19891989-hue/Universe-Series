@@ -24,8 +24,11 @@ State lives on disk, never only in a chat. Update `STATUS.md` when a milestone l
 - Everything else free or in-house (voices Kokoro, composed music, own sound and editing). No paid
   subscriptions or per-episode API costs. Temporary credits may be used only as a one-time
   booster, never as something the pipeline depends on.
-- Photoreal look: people, ships and sets must look real, to match the NASA footage. Cast must
-  look global (no more than one core character per country).
+- Look (owner, 28 Nov): the cast are ANIMATION characters, in whatever original cartoon style
+  gives the best result with our in-house tools; real NASA video is the main background, with
+  characters, ship and screens animated on top. The earlier "photoreal people" rule is retired.
+  Designs are our own: never the look of an existing show. Cast must look global (no more than
+  one core character per country).
 - Bright, colourful pictures and many different places per episode; not mostly inside the ship
   and not dark (owner, 27 Nov). Leads are attractive film-star faces, tastefully presented.
 - No AI-disclosure wording in episodes, descriptions or channel copy (owner, 27 Nov). The
