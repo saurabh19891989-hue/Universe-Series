@@ -490,3 +490,13 @@ Gemini API key is saved as a network secret on the Default environment
   and E02 handover kept (checklist in `revision-notes-v4.md`). Showrunner ruled the ten open
   questions (`episodes/E01/showrunner-rulings-v4.md`); target after critic 23:30–24:15.
   Showrunner has NOT read v4 yet. Independent critic started (Opus).
+- **Sample 5 stage 1 landed (28 Nov):** `samples/e01/E01-sample5-designs.jpg` (Jax, Mira, Baron:
+  master | variant A | variant B), `E01-sample5-mouths.jpg` (drawn mouth shapes, blink, brows
+  for Jax and Mira, pasted seamlessly), `E01-sample5-cutaway-look.jpg` (engraving style),
+  proof clip `E01-sample5-proof-720p.mp4` (13 s). Showrunner approved variant B (pushed
+  animated look) to build on; owner shown the sheet. Showrunner checked designs, mouth strip,
+  proof contact sheet and a walk frame: mouths and designs good; WALK NOT SOLVED (legs ghost in
+  dissolved in-betweens, feet slide ~7 px/frame); close-ups sit on black space; brow-up and a
+  shout mouth missing. Face landmarks now automatic (MediaPipe). 40 Codex pictures; 5-hour
+  window 35% used. Stage 2a (timeline + animatic, following script v4 staging with existing
+  stems) started; music builder scores once the timeline is frozen.

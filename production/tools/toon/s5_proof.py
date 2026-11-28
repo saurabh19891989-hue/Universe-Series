@@ -52,7 +52,11 @@ WALK = [crop_alpha(key_green(cv2.imread(f"{CX}/w5_{j}.png")))[0] for j in range(
 # stance foot (picture x, relative to the head) per drawing, read from the sheet; contacts use the front foot
 REL = [87, 20, -12, -73, 72, 12, -12, None]
 # body x per drawing over one cycle so that the stance foot stays planted (see TOON-FORMAT, sample 5)
-BX = [-87, -20, 12, 73, 81, 141, 165, 199]; STRIDE = 319.0
+# measured: shift between consecutive drawings that keeps the shared ground-contact foot in place
+# (1-D correlation of the bottom 8 px rows, head-relative); the two contact switches (3->4, 6->7)
+# have no shared foot and take the remainder of a 320-px stride
+DELTA = [17, 29, 38, 56, 6, 8, 57, 109]
+BX = list(np.cumsum([0] + DELTA[:7]).astype(float)); STRIDE = float(sum(DELTA))
 INC = [BX[k + 1] - BX[k] for k in range(7)] + [BX[0] + STRIDE - BX[7]]
 CUM = np.concatenate([[0], np.cumsum(INC)])
 # crop offsets: drawing-local head x and ground y
@@ -290,9 +294,9 @@ if __name__ == "__main__":
         sys.exit(0)
     nf = int(DUR * FPS); nch = 8; sz = math.ceil(nf / nch)
     jobs = [(i * sz, min(nf, (i + 1) * sz), f"{OUT}/seg_{i}.mp4") for i in range(nch)]
-    from multiprocessing import Pool
+    import multiprocessing as mpc
     w0 = time.time()
-    with Pool(4) as pool: cpu = pool.map(chunk, jobs)
+    with mpc.get_context('spawn').Pool(4) as pool: cpu = pool.map(chunk, jobs)   # spawn: fork hung on the open video reader
     open(f"{OUT}/segs.txt", "w").write("".join(f"file 'seg_{i}.mp4'\n" for i in range(nch)))
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", f"{OUT}/segs.txt", "-c", "copy", f"{OUT}/proof-picture.mp4"], check=True)
     json.dump({"wall_s": round(time.time() - w0, 1), "cpu_s": round(sum(cpu), 1), "cpu_s_per_video_s": round(sum(cpu) / DUR, 1)}, open(f"{OUT}/render.json", "w"))
