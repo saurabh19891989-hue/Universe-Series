@@ -52,11 +52,14 @@ def run_line(ln, rh, tmp):
     out = {"id": ln["id"], "speaker": ln["speaker"], "start_s": ln["start_s"], "dur": len(y) / sr,
            "env": [round(float(x), 3) for x in envelope(y, sr)]}
     cues = None
+    lip_src = ln["src"]
+    if lip_src.endswith("_treated.wav") and os.path.exists(lip_src.replace("_treated.wav", ".wav")):
+        lip_src = lip_src.replace("_treated.wav", ".wav")  # dry stem reads better
     if rh and os.path.exists(rh):
         txt = os.path.join(tmp, ln["id"] + ".txt")
         open(txt, "w").write(ln.get("text", "").replace("—", " "))
         js = os.path.join(tmp, ln["id"] + ".json")
-        p = subprocess.run([rh, "-f", "json", "-q", "-d", txt, "--extendedShapes", "GHX", ln["src"], "-o", js],
+        p = subprocess.run([rh, "-f", "json", "-q", "-d", txt, "--extendedShapes", "GHX", lip_src, "-o", js],
                            capture_output=True, text=True)
         if p.returncode == 0:
             cues = json.load(open(js))["mouthCues"]

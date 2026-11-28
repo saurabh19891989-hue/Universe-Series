@@ -359,3 +359,9 @@ Gemini API key is saved as a network secret on the Default environment
   mouth shapes, head turn), a two-character Episode 1 scene over real NASA video →
   `samples/e01/E01-toon-test-720p.mp4`, notes `production/TOON-FORMAT.md`.
 - To do once a look is chosen: redraw the 17 locked masters in that look and re-lock them.
+- **Test 2 result (photoreal talking face on CPU): not usable.** MuseTalk v1.5 ran, but took
+  144 s of compute per second of video (2 threads, machine shared), 7.6 GB RAM; mouth barely
+  moves, lower face blurred and no longer Jax; rest of picture frozen. Licence of its training
+  data and two helper weights not settled, so review-only. 20 min of talk = ~48 h per episode.
+  Only MuseTalk was tried. Record: `research/tooling/cpu-talking-face-benchmark.md`. This
+  closes the photoreal in-house route; animation tests 1 and 3 still running.

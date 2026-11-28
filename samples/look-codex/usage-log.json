@@ -5115,5 +5115,169 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-28T14:31:38",
+  "job": "toon",
+  "name": "mira_body",
+  "purpose": "toon test 3 design",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 108.1,
+  "tokens_used": 11048,
+  "success": false,
+  "images_generated": 0,
+  "returncode": 0,
+  "session": "01a22290-0f32-7291-8435-efc6515c42bc",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 1.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 10.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": [
+   "2026-11-28T14:31:35.534804Z ERROR codex_core::tools::router: error=image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1795877547,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":1252}}\")"
+  ]
+ },
+ {
+  "time": "2026-11-28T14:31:38",
+  "job": "toon",
+  "name": "mira_heads",
+  "purpose": "toon test 3 design",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 108.2,
+  "tokens_used": 7762,
+  "success": false,
+  "images_generated": 0,
+  "returncode": 0,
+  "session": "01a22290-0f31-7092-b263-355c7e7b714a",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 1.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 10.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": [
+   "2026-11-28T14:31:35.857513Z ERROR codex_core::tools::router: error=image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1795877547,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":1252}}\")"
+  ]
+ },
+ {
+  "time": "2026-11-28T14:31:52",
+  "job": "toon",
+  "name": "ship_side",
+  "purpose": "toon test 3 design",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 11.9,
+  "tokens_used": 10495,
+  "success": false,
+  "images_generated": 0,
+  "returncode": 0,
+  "session": "01a22291-a940-7cd3-9821-3b7ba3575d3a",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 2.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 11.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": [
+   "2026-11-28T14:31:49.650856Z ERROR codex_core::tools::router: error=image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1795877547,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":1238}}\")"
+  ]
+ },
+ {
+  "time": "2026-11-28T14:32:04",
+  "job": "toon",
+  "name": "hall_bg",
+  "purpose": "toon test 3 design",
+  "refs": [
+   "master-bright.jpg"
+  ],
+  "seconds": 23.2,
+  "tokens_used": 14514,
+  "success": false,
+  "images_generated": 0,
+  "returncode": 0,
+  "session": "01a22291-a8e3-7151-a70c-104bc7e36f7f",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 3.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 11.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": [
+   "2026-11-28T14:32:00.121552Z ERROR codex_core::tools::router: error=image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1795877548,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":1228}}\")"
+  ]
  }
 ]
