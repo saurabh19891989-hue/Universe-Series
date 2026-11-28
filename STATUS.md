@@ -531,3 +531,16 @@ Gemini API key is saved as a network secret on the Default environment
   erased by Lucía's invoice), the robe (heart), the sunset run (action, new). Showrunner ruled
   the 11 open questions (`episodes/E02/showrunner-rulings-v4.md`). Not read by showrunner yet.
   Independent critic started. Note for E03: Seo's mother must be dead / contact is an aunt.
+- **SAMPLE 5 landed (28 Nov):** `samples/e01/E01-sample5-720p.mp4` (2:42, 26 MB, with the
+  composer's final mix; −16.2 LUFS, −1.4 dBTP after AAC), sheet, 10 frames, characters sheet.
+  Part A customs desk (walk on twos + knee-up tracking, two-shots and close-ups with drawn
+  lip-sync, stamp, Noakes, the Baron's button); card; Part B the rim (clear helmets, real
+  Earth plate, 19 s engraving cutaway with the mid-air swap, 3 s silence on the plate). 147
+  Codex pictures in total (5-hour window 89% used at the end; weekly 24%). Render 13 CPU-s
+  per second (12.5 min for 2:42). Showrunner checked: contact sheet, 3 full frames, loudness,
+  one 1.25 s frozen stretch at 0:54. NOT checked: sound, playback at speed, every pose change.
+  Showrunner's notes: designs and cutaway strong; Mira's mouth opens too wide for a dry line
+  (reads as shouting); close-ups and all of Part B still sit on mostly black sky; walk short
+  and stiff; gestures pop; Jax's body acting hidden by close-ups. SVS 4944 plate still blocked
+  from this machine. Sent to owner. **Waiting on owner:** verdict on sample 5; voice engine
+  choice; then longer video or full episode.

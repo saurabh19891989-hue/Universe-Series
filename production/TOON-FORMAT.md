@@ -185,7 +185,7 @@ Files: `samples/e01/E01-sample5-720p.mp4`, sheet, frames in `samples/e01/sample5
   theatre: parallax, arcs, shadows, a card proscenium.
 
 ## Pictures and time
-- This build: about 150 Codex pictures (stage 1: 40; stage 2b: about 110), none refused.
+- This build: 146 Codex pictures (stage 1: 40; stage 2b: 106), none refused; about 6 rejected/unused.
 - Per lead character, for a full scene: 1 design, 2 close-up bases, ~12 mouth/eye edits per base,
   8–10 knee-up poses, 2–3 drawn in-betweens, walk sheets = about 40 pictures. A guest: about 15.
 - Per finished minute (this sample): about 55 pictures.
@@ -193,7 +193,7 @@ Files: `samples/e01/E01-sample5-720p.mp4`, sheet, frames in `samples/e01/sample5
   landmarks and fixes about 1 h per lead; staging the keys about 30–40 min per minute of scene.
 
 ## Render speed
-RENDER5_LINE
+13.3 CPU-seconds per second of video (3,899 frames, 1080p, 4 workers): 12.5 min wall for 2:42.
 
 ## A 24-minute episode would need
 - Pictures: about 600–900 for the first episode (8 characters, 10 sets, cutaways), then about 300–400
