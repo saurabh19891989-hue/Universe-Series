@@ -4,7 +4,7 @@
 usage: toon4.py SHOTLIST.json OUTDIR [--still T ...] [--workers 4] [--frames a:b]
 
 Characters are libraries of PAINTED POSE PICTURES (one picture per held pose, chroma green, cut by
-key). Between poses: snappy pose-to-pose swaps (2-frame dissolve + squash/settle pop), and on top
+key). Between poses: snappy pose-to-pose swaps (hard cut + squash/settle pop; optional dissolve), and on top
 of every pose the painted face moves (Rhubarb mouths with jaw warp, blinks, eye darts, head
 tilt/nod warp — engine copied from test 1, paintface.py), plus body breathing, lean, sway.
 Walks play a painted 6-drawing walk cycle. Sets are paintings with the NASA plate keyed into the
@@ -122,8 +122,8 @@ def char_layer(cid, t, place, camM, speak_id):
         return out * alpha, M, r
     out, M, r = one(pname)
     dt = t - tk
-    if prev is not None and prev != "walk" and 0 <= dt < 2.5 / FPS and prev in RIGS["poses"]:
-        k = dt / (2.5 / FPS)
+    if SL.get("pose_dissolve_frames", 0) and prev is not None and prev != "walk" and 0 <= dt < SL["pose_dissolve_frames"] / FPS and prev in RIGS["poses"]:
+        k = dt / (SL["pose_dissolve_frames"] / FPS)
         o2, _, _ = one(prev)
         out = out * k + o2 * (1 - k)
     foot = M @ np.array([r["anchor"][0], r["anchor"][1], 1.0])

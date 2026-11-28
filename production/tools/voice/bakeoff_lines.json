@@ -1,0 +1,21 @@
+{
+ "note": "Voice bake-off 28 Nov 2026. Eight E01 script-v3 lines chosen to demand acting. kokoro = current production dry stem in S/e01/dialogue/. 'direction' is the voice director's note; each engine script translates it into that engine's controls.",
+ "lines": [
+  {"id": "L1", "char": "JAX",  "kokoro": "E01_S00_L009_JAX.wav",  "text": "Temi! Hi! I'm about to make a payment—", "kind": "fast panic",
+   "direction": "Panicked, fast, breathless, talking over a bank recording; desperate fake cheer, rising pitch, cut off at the end."},
+  {"id": "L2", "char": "PIP",  "kokoro": "E01_S00_L014_PIP.wav",  "text": "She is in Lagos. You are arguing with the past.", "kind": "deadpan",
+   "direction": "Bone-dry deadpan, flat, precise, unhurried; a tiny pause after Lagos; zero sympathy."},
+  {"id": "L3", "char": "MIRA", "kokoro": "E01_S03_L020_MIRA.wav", "text": "Your record isn't late, Captain. It's blank.", "kind": "put-down",
+   "direction": "Cool, cutting put-down; calm and a little amused; land 'blank' low and final."},
+  {"id": "L4", "char": "JAX",  "kokoro": "E01_S29_L001_JAX.wav",  "text": "Go! I'll get the ramp!", "kind": "shout",
+   "direction": "Shouted at full voice across a distance, urgent, adrenaline."},
+  {"id": "L5", "char": "MIRA", "kokoro": "E01_S30_L015_MIRA.wav", "text": "It prefers her.", "kind": "whisper",
+   "direction": "Whispered, very quiet and tender, a small sad smile; almost to herself."},
+  {"id": "L6", "char": "JAX",  "kokoro": "E01_S31_L003_JAX.wav",  "text": "Read it to me. Slowly. I want to enjoy my name.", "kind": "laugh",
+   "direction": "Leaning back, savouring it; a short amused laugh before 'I want to enjoy my name', grinning through the end."},
+  {"id": "L7", "char": "JAX",  "kokoro": "E01_S30_L011_JAX.wav",  "text": "You gave up your job for us.", "kind": "warm sincere",
+   "direction": "Quiet, warm, sincere, slightly moved; slower; no jokes for once."},
+  {"id": "L8", "char": "TEMI", "kokoro": "E01_S00_L007_TEMI.wav", "text": "Good morning! This is Temi in Recoveries. Your vessel is being recovered.", "kind": "call-centre",
+   "direction": "Bright, chirpy, professional call-centre greeting with a big smile; sing-song, kind, a touch too cheerful for bad news."}
+ ]
+}

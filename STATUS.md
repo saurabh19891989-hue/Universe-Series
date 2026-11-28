@@ -405,3 +405,15 @@ Gemini API key is saved as a network secret on the Default environment
   theme and motifs, real effects, mix) → reel `samples/audio/upgrade-28nov/`, notes
   `research/tooling/audio-upgrade.md`, sources `assets/audio-sources.json`.
   Test 4 (combined animation) still building. Only the owner can judge the audio reels.
+- **Scene study landed (28 Nov):** `research/story/scene-study.md` (53 entries, each claim
+  marked checked-by-search or from-memory), `canon/SCENE-PLAYBOOK.md` (PROPOSAL, 29 scene
+  engines, set-piece rule: 3 signature scenes per episode with one cut as a 30–60 s short;
+  opening and re-hook rules), audits `episodes/E01|E02/playbook-audit.md` (5 upgrades each;
+  both scripts were staged for no-lip-sync photoreal — backs of heads, hidden mouths — and
+  should be restaged now that puppets lip-sync). Showcase scene proposed: E01 scene 21 (the
+  cannonball story on the rim). Showrunner skimmed the playbook (parts 1 start, 2–5), has not
+  read the study or audits in full.
+- **Owner decisions pending from it:** episode length (writer recommends 22–26 min in two
+  halves; or keep ~35 and release in two parts; or test E01 whole); whether to reopen locked
+  E01/E02 for the upgrades. Showrunner rulings pending: Lucía's ribbon to Seo in ep 10; a
+  Seo–Mattias scene in Season 2.

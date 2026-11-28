@@ -100,7 +100,7 @@ Same scene, stems, mix and timing as test 3, so the two compare directly. Timing
 - **All visible character art is a picture.** Every held pose is one painted picture from the
   Codex CLI, with the master (and the first approved design) as references, on chroma green,
   in test 1's graphic-novel style line. Bodies, hands, clothes and faces all come from these.
-- Between poses: snappy pose-to-pose swaps (a 2½-frame dissolve plus a squash-and-settle pop),
+- Between poses: snappy pose-to-pose swaps (a hard cut plus a squash-and-settle pop; a 2-frame dissolve was tried and ghosted),
   with keyed lean/squash/overshoot on top. Poses are lined up at the neck, so the head stays
   put while the body changes underneath. In wide shots they are lined up at the feet.
 - On top of every pose the face moves: Rhubarb mouths drawn on the painted lips, with jaw
