@@ -374,3 +374,18 @@ Gemini API key is saved as a network secret on the Default environment
   no frozen stretch except the title. NOT checked: sound, sync by ear. Weakness: motion-comic
   feel — heads tilt but do not turn, arms change by whole-pose swap, no walking. Sent to owner.
   Notes: `production/ANIMATION-FORMAT.md`. Test 3 (flat cartoon, full rigs) still running.
+- **Test 3 landed (flat cartoon, full puppet rigs):** 56 s, E01 customs-desk scene (Jax and
+  Mira) plus a 7 s ship landing, `samples/e01/E01-toon-test-720p.mp4` (11 MB); designs next to
+  masters in `samples/e01/E01-toon-characters.jpg`. Heads from pictures (front + three-quarter,
+  no features); eyes, brows, 9 mouth shapes, arms, hands, legs drawn and driven in code; walk
+  cycle, head turn, reaction beat, stamp slam. NASA video in view all 56 s (new plate logged in
+  `assets/toon-test-plates.json`). 7 pictures. Render 30.5 CPU-s per second (unoptimised).
+  Showrunner checked: contact sheet, 2 full frames, design sheet, no frozen stretch. NOT
+  checked: sound, playback. Showrunner's view from frames: bodies and hands are crude (tube
+  limbs), likeness to the masters is weak, pale patch on the desk; the picture tool's own
+  full-body designs look far better than the code-drawn bodies. Notes `production/TOON-FORMAT.md`.
+- Picture tools: Codex limit message names plan "plus" (not Pro), daily window reset 14:52 UTC,
+  working again after reset. Antigravity picture quota ran out ~15:30 UTC (reset in ~4 h 40 m).
+- **Waiting on owner:** watch tests 1 and 3, pick the look/direction. Showrunner's proposal:
+  combine them — test 1's richer art with test 3's jointed, moving bodies, rigs cut from
+  picture-made full-body designs.

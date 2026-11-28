@@ -55,7 +55,10 @@ black, plus a desk/foreground polygon. Ship: 1 side-view picture.
   deciding the acting). Expect 15–25 min of keying per minute of dialogue scene once used to it.
 
 ## Render speed (this machine, 4 CPU, no GPU)
-RENDER_SPEED_LINE
+Measured on the full 56 s test (1344 frames, 1080p, 2 workers, machine shared with other agents):
+**30.5 CPU-seconds per second of video** for drawing + compositing (Python/NumPy/Skia, plus
+x264 encode on top), **17.5 s wall per second of video** with 2 workers (16.3 min for 56 s).
+Single still: about 1.3 s. Lip sync (Rhubarb): ~45 s wall for 17 lines with 2 jobs.
 
 ## A 35-minute episode would need
 - Rigs: 6–8 characters per episode (5 regulars reused every week + 2–3 guests). Regulars are
@@ -66,7 +69,10 @@ RENDER_SPEED_LINE
 - Pose work: the slow part. 35 min ≈ 25–30 min of dialogue scenes → roughly 8–12 hours of
   keying for one person/agent at this quality, less with reusable gesture presets (point,
   shrug, lean-in, double-take) — the next thing to build.
-- Render: RENDER_EPISODE_LINE
+- Render: 35 min ≈ 2,100 s × 30.5 ≈ 18 CPU-hours → about 10 hours wall
+  on 2 workers, about 5–6 hours on all 4 cores. Overnight per episode; parts can re-render
+  alone (frames are independent). The code is unoptimised Python: most time is full-frame
+  NumPy compositing, which could be cut 3–5x (crop to character boxes, fewer float passes).
 - Audio as now (stems, score, effects, measured to −16 LUFS; a human must listen).
 
 ## Known gaps (what keeps this below broadcast cartoon)
