@@ -306,3 +306,20 @@ Gemini API key is saved as a network secret on the Default environment
   owner's own Chrome — prompt in `production/prompts/PROMPT-laptop-flow-operator.md`. Waiting on
   the owner to start that session and paste the prompt.
 
+## 28 Nov — owner's new direction: free, in-house, archive footage
+- Owner: paid video costs too much. Make videos free, with maximum work in-house (story, script,
+  dialogue, screenplay) and footage from archives. He supplied a research memo (hybrid paid
+  routing by shot class; and a free "archive comedy-drama" format with a comm card showing the
+  speaker's portrait and a waveform) and two mock-up clips (made with a video generator, so they
+  show the layout idea, not real archive film).
+- Asked for: (1) a check of the memo's cost figures; (2) a first 5-minute sample in the free
+  archive format, to see and hear, before deciding the route.
+- Running: price check (Sonnet) → `research/tooling/cost-research-check.md`; sample builder
+  (Opus) → `samples/e01/E01-archive-sample-*.mp4`, notes in `production/ARCHIVE-FORMAT.md`,
+  footage log in `assets/archive-vault.json`.
+- Showrunner's direction for the format: every episode is "PIP's file on the case"; archive
+  clips are exhibits with PIP's dry filing slates; 4:3 film sits in PIP's Archive Viewer; real
+  NASA video full-screen; the six Omni clips we already own appear as ship-camera feeds.
+- Flow automation on the laptop and all paid-video questions are parked until the owner has
+  judged this sample.
+
