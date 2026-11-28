@@ -253,3 +253,168 @@ twenty-fourth I was making jam" (11, −3 s); "Lucky / Filed under arithmetic" (
    either yet (I named kinds only).
 10. **SHORT choice.** I marked the chase (15) as the SHORT, as the audit recommends, rather than the comic
     set piece (2). The playbook says "usually the comic one". Your call; both are written to stand alone.
+
+---
+
+# v5 — draft 4 → draft 5 (`script-v5.md`)
+
+Revising writer, 28 Nov. Applies `critic-review-v4.md` (READY AFTER FIXES) and the showrunner's ten
+rulings on it, plus `showrunner-rulings-v4.md`. `script-v4.md` is untouched. Scene numbers unchanged.
+
+**Not checked:** any audio or picture; the acting voices' real pace; plates (SVS 4944, orbital Moon,
+Earthset, and the licence of any ShadowCam-type plate, which the critic flags as carrying partner credits).
+
+## v5.1 Size and runtime (with the pause allowance)
+
+| Part | Seconds |
+|---|---|
+| Speech: 2,819 words ÷ 184 × 60 | 919.2 |
+| Cue gaps: 322 × 0.97 | 312.3 |
+| Inserts / cutaways / takes / holds / beats: 61 × 1.5 | 91.5 |
+| Picture-only, listed per scene (was 76 s; +28 s of the critic's unlisted picture time) | 104.0 |
+| Written pauses inside speeches ("(beat)", "(a rare pause)", "(stops)", "(a breath)"): 12 × 1.0 | 12.0 |
+| Title | 10.0 |
+| **Total** | **1,449.0 s = 24:09** |
+
+On the strict draft-4 model (no pause allowance, draft 4's picture list) it is **23:29**. The ruled window
+is 23:30–24:15 with the allowances budgeted, so 24:09 is the figure to plan on. **Part One 11:44, Part Two
+12:26.** Draft 4 was 25:01 (critic's "as acted" estimate 25:35–25:50).
+
+| Unit | Starts | Words | Cues | Items | Pic | Pauses | s | Target |
+|---|---|---|---|---|---|---|---|---|
+| 0 · THE UNSCHEDULED — BRIDGE, IN LOW LUNAR ORBIT | 0:00 | 176 | 21 | 4 | 4 | 1 | 88.8 | 90 |
+| Title | 1:28 | | | | 10 | | 10.0 | 10 |
+| 1 · CARGO HOLD | 1:38 | 55 | 8 | 0 | 0 | 0 | 25.7 | 25 |
+| 2 · ON APPROACH — THE ADDRESS GOES OUT | 2:04 | 103 | 14 | 1 | 4 | 0 | 52.7 | 55 |
+| 3 · RIM PORT — CUSTOMS HALL — THE DESK | 2:57 | 110 | 20 | 3 | 0 | 0 | 59.8 | 60 |
+| 4 · CUSTOMS HALL — HOLDING BAY | 3:56 | 221 | 26 | 6 | 6 | 1 | 113.3 | 115 |
+| 5 · CUSTOMS HALL — NOAKES WALKING | 5:50 | 116 | 14 | 1 | 4 | 0 | 56.9 | 55 |
+| 6 · THE RIM ROAD, THEN THE INN DOOR | 6:47 | 81 | 11 | 1 | 4 | 0 | 42.6 | 45 |
+| 7 · THE SILVER HATCHET — PARLOUR | 7:29 | 100 | 13 | 4 | 2 | 1 | 54.2 | 55 |
+| 8 · MONTAGE — THE INVENTORY, THEN "PROVE ONE" | 8:23 | 164 | 14 | 3 | 10 | 1 | 82.6 | 85 |
+| 9 · THE SILVER HATCHET — COLD STORE | 9:46 | 77 | 9 | 2 | 8 | 0 | 44.8 | 45 |
+| 10 · PARLOUR — THE OFFER | 10:31 | 149 | 13 | 4 | 4 | 1 | 72.2 | 70 |
+| 11 · THE POST-CHAISE — CLIMBING OUT OF THE SHADO | 11:43 | 156 | 14 | 2 | 4 | 0 | 71.4 | 70 |
+| 12 · CUSTOMS HALL — NOAKES'S OFFICE, THEN THE LO | 12:54 | 119 | 11 | 0 | 0 | 1 | 50.5 | 50 |
+| 13 · OUTER RIM — EARTH ON THE HORIZON | 13:45 | 222 | 19 | 3 | 6 | 3 | 104.3 | 105 |
+| 14 · CUSTOMS HALL — THE SIGNING | 15:29 | 139 | 18 | 5 | 9 | 1 | 80.3 | 80 |
+| 15 · CORRIDOR, THEN THE RIM ROAD — THE CHASE | 16:50 | 104 | 15 | 1 | 8 | 0 | 58.0 | 60 |
+| 16 · CUSTOMS HALL — THE CLAMP CONSOLE | 17:47 | 90 | 8 | 2 | 0 | 0 | 40.1 | 40 |
+| 17 · THE INNER WALL, IN THE DARK | 18:28 | 179 | 19 | 0 | 3 | 0 | 79.8 | 80 |
+| 18 · CUSTOMS HALL — THE KEY | 19:47 | 52 | 11 | 5 | 3 | 0 | 38.1 | 40 |
+| 19 · BAY NINE — THE APRON | 20:26 | 120 | 18 | 2 | 10 | 0 | 69.6 | 70 |
+| 20 · THE UNSCHEDULED — BRIDGE, AFTERWARDS | 21:35 | 135 | 14 | 6 | 6 | 1 | 73.6 | 75 |
+| 21 · CUSTOMS HALL / THE SILVER HATCHET / CARGO H | 22:49 | 67 | 11 | 6 | 7 | 1 | 49.5 | 50 |
+| WHAT WAS REAL (0:30) | 23:38 | 84 | 1 | 0 | 2 | 0 | 30.4 | 30 |
+| **Total** | | **2,819** | **322** | **61** | **114** | **12** | **1449.1** | |
+
+**Next cuts if the table read runs slow** (about 30 s, no plant touched; harm noted): "And I'm winning"
+(0, −2.6 s, a Jax laugh); "Read it to me. Slowly. I want to enjoy my name." (21, −4 s, softens the
+irony); "On the twenty-fourth I was making jam" (11, −3 s, an Act 3 laugh — last, given ruling 9); "Why on
+earth would you volunteer? / Someone should write down what's there before it's sold" (5, −8 s, Mira's
+motive goes unspoken); the grandad run (6, −12 s, weakens Lucía's turn in 11). "Lucky / Filed under
+arithmetic", "coat on a chair" and "Eleven per cent more than the ship" stay, as ruled.
+
+## v5.2 Critic items, one by one
+
+| Item | Done | Where |
+|---|---|---|
+| **M1** runtime | Cuts 1–16 all applied (cut 14 in the critic's wording, keeping "coat on a chair"; cut 16, the Jax V.O., applied as last resort). To fit the pause allowance I also took: Lucía's "I wrestled in a third of a g" (critic's named extra), PIP's March/May and its "Say it to PIP" set-up (1), Temi's "I'm sorry, Captain. Genuinely." (20), "Routine. Very routine." (16), "Very well." (8), "The door is no longer anywhere…" (10; PIP's report becomes "Entry without knocking", a callback to the knock), the Baron's "An unlucky turn of the arm" (19), Lucía's "Thank you." (17), Jax's "It's quarter to." (14), the Baron's "I beg your pardon?" (8, folded into Lucía's speech) | all |
+| **M2** debt figure once | "The fee is... *(a rare pause)* a hundred and eighty-two thousand. Exactly what we owe. To the cent." | 0 |
+| **M3** "not the recipient" | "Denied." / "You cannot deny it, Captain. You are not the recipient." after "enjoying it", before READ | 20 |
+| **M4** the Baron into the trunk | After the salute he steps round the far side of the post-chaise "to see to the horse"; Jax turns up the ramp; Lucía, on the near side, does not look; the trunk lid closes softly on the roof. Then she lifts it. +2 s picture | 19 |
+| **M5** inner wall | Atlas label "THE SILVER HATCHET — SHACKLETON INNER WALL", on the wall at the edge of the dark; the street names go out down the wall; "the dark wall". No later script uses "Shackleton Floor" (searched) | 2 |
+| **M6** Sun at the pole | "Black below. The Sun low and blinding, level with them." | 15 |
+| **M7** drone delay | "HOLD: two point six seconds of nothing" with the animator's note (1.3 s each way) | 0 |
+| **M8** logic | "You want me to be brave so you don't have to be." | 12 |
+| **M9** 3→4 static run; scale to cage | 3 now ends walking (Mira leads Jax down the hall writing in her notebook; Noakes falls in at his door for his beat and peels off). 4 opens side-on: the weighing drone carries the Baron by the back of his coat through the cage door and sets him on the LOT 14 trunk beside the parcel; he arranges himself "as if he had been sitting there for a century". +4 s picture | 3, 4 |
+| S1 air by 0:20 | "The rest goes at six. Including the air." Temi's "including the air" dropped | 0 |
+| S2 eels | PIP's describing line cut; the 6 s ledger-print cutaway now plays clear of words between "It has been used once." and "And?" | 5 |
+| S3 | Covered by cut 2; "It tests very well." is the button | 14 |
+| S4 midpoint | The Baron holds the pen out to Jax, handle first; Jax looks at it and does not take it; clock; black | 10 |
+| S5 Lucía's bag | Insert: her bag with a tug ticket — CERES — in the strap | 14 |
+| S6 voice notes | **Adapted to ruling 10** (engine not chosen): no engine-specific marks; a header rule says the edit builds what an engine cannot play (whisper, laughs, broken words). The three descriptive notes replaced ("(soft, unhurried)" + "Jax jumps" as action; "(soft, slow)"; "(a beat; then quiet, proud)"). Non-voice sounds moved out of notes into action (three claps, chattering teeth). The tidied Baron's two lines get a playable note, "(bright, flat, as if reading a brochure)", rather than a voice blend | header, 4, 9, 10, 14 |
+| S7 cheaper Clause 9 | Pose swaps on a small click (wild → tidy, tidy → wild with three button sprites), cutaway cross-dissolves to the lounge and is wiped up into the beanstalk | 14 |
+| S8 13→14 | 14 opens with the crew crossing the hall side-on past the 17:45 clock (the Baron in front, chest out); replaces the two opening inserts | 14 |
+| S9 | Cuts 13 and 14 applied; the first cannonball laugh comes about 10 s sooner | 13 |
+| S10 "nicer than me" | Restored with its set-up ("He's nicer than you", a nod at the back seat), paid by the bear trio in 7 ("Mind the bear" kept; Lucía pats the second bear as silent business) | 11, 7 |
+| S11 Jax–Mira | "You believe him." / "I believe the dent." after "Moon-dented" (8:50 or so); paid for by the cuts above | 8 |
+| S12 cheaper swamp failure | Splits down the middle; the halves drop out of frame | 8 |
+| S13 introduce PIP on the wrist | **Adapted to ruling 6:** no relay and no PIP icon in E01. The first off-ship call is an action line in 4 ("Jax's wrist comm buzzes: a call from THE UNSCHEDULED"), no extra insert. PIP's off-ship lines are marked "(over the comm …)" throughout, as draft 3 did with its wrist comm | 4 and all |
+| S14 hatchet leaves the inn | Mira tags the hatchet and hangs it back; when she turns away the Baron unties the tag and hooks it on his belt | 8 |
+| N1 | "abandoned at one minute to" (the sale is at six) | 5 |
+| N2 | TAKE: JAX — THE SALESMAN'S FREEZE on "CAPTAIN: nobody", then the laugh | 21 |
+| N3 | "It's not an insult. It's a category." | 4 |
+| N4 | **Not applied** (length); "Footage and visualisations: NASA" already covers it | WWR |
+| N5 | Slugline when the horn goes to the parlour stove | 9 |
+| N6 | The tricorn strains against its strap in the jump | 15 |
+| Rights note | "Filing it would be courageous" kept (ruling 8) | 12 |
+
+**Showrunner rulings on the review, as applied.** (1) all must- and should-fix applied; S6 and S13 adapted
+where rulings 10 and 6 apply, not forced. (2) runtime as above, pauses budgeted. (3) debt figure, "not the
+recipient", "nicer than me" (paid with the bear lines), "Eleven per cent more" kept. (4) both static runs
+broken; the Baron is carried from the scale to the cage. (5) Jax–Mira exchange in the inn, length traded.
+(6) no wrist relay in E01; PIP talks over Jax's plain comm. PIP's reaction face moved from the hall (14) to
+the bridge (20), when the bank's coffee machine comes back on. (7) the tag's full colour is a one-shot
+(standing rule now says so). (8) "courageous" stays. (9) Act 3 laugh rate: "nicer than me" restored; the
+slow-motion grab for the floating contract (three people miss, it lands on Mira) added as silent business;
+the road to the first cannonball laugh shortened; the Clause 9 explanation that killed the gag cut; the
+Baron's chest-out walk-in and the CERES ticket added to the top of 14. My honest estimate: Act 3 goes from
+about 3.5 to about 4 laughs a minute; it is still the lowest act, as the heart act may be. (10) notes kept
+on the lines and kept engine-neutral.
+
+## v5.3 Plant checklist, re-verified by search of `script-v5.md`
+
+All present: #1,204 (0), #1,205 (2), #1,206 (10), #1,207 and READ 00:00:01.3 (20); 31 labels / 32 / "in
+the spring" (4), "thirty-two times" (11); eight months (1) → "Nine… Don't make it ten" (20); 4471-C (10,
+20); board 1,094 (3, 5, 14, 16) → 0 (21); "next of kin: none", "It's blank" (3), "I don't know" (12),
+"Better than your record" (17); section twelve (3 → 19); "courageous" (12 → 18); hatchet: on the wall and
+"Moon-dented" (8), onto the Baron's belt (8), gift (13), throw over the rim (19), "Darts… Lot of bars" (19);
+cannonball promise and "lie for his life" (13); "tell the lady", far side, bank's signal (19), Temi cut off
+(20); "Mind my trunk" (15), trunk lid closes (19), figure with a hat (19), moustache with no hat (21); "coat
+on a chair" (13); Riga lock (4) → clicks open (21); stove "prefers her" (7) → coffee machine (20) → stove
+lights (21); English knight's post horn (9); entry 41 → VOSS, key pocketed, SEN, M. (18); contract dated
+the 24th (11), "The twenty-seventh. It has moved." (21); "I used to be taller" (3) → "I believe I am taller"
+(14); both or neither → "Neither" (14); "good at waiting" (14); Regulation nineteen (16); "CAPTAIN:
+nobody" (21); "Lucky / Filed under arithmetic" (0); "Who reads those?" (2) and "not the recipient" (20);
+182,000 (0); "Eleven per cent more than the ship" (11); MAN, AVERAGE (4, 10).
+
+## v5.4 Handover list for the E02 reviser
+
+1. **PIP's wrist relay is new in E02.** E01 never shows it: off the ship PIP talks over Jax's plain wrist
+   comm (a strap screen, caller line THE UNSCHEDULED, no amber lens, no PIP icon), as a call from the
+   bridge. E02's one-insert introduction in its scene 3 stands as written; it may want one line or look
+   that the relay replaces the plain comm.
+2. **Chichikov** in E02 is drawn by the faint rule (unfinished line, washed colour, no shadow, the frame
+   drifts off him), not "soft focus". The full colour in E01's tag is a one-shot. He is silent in E02 as
+   ruled there.
+3. **The Silver Hatchet is on Shackleton's inner wall** (Atlas: SHACKLETON INNER WALL), not the floor.
+   E02 does not name it; any later mention should match.
+4. **The trunk:** the Baron climbed into the LOT 14 trunk on the roof while out of sight at the apron; his
+   coat and tricorn are left on the carved horse's head at Rim Port; the moustache under the lid has no
+   hat. E02's "The trunk's knocking" and "My hat" follow on.
+5. **The hatchet** went over the rim from the apron (19); E02 digs it out of the silver heap.
+6. **The bank:** the drone returned the left engine in the cold open (2.6 s after "Accepted"); at 18:00
+   Temi's full recovery is cut off as Earth sets. E02's "Temi got two seconds… One engine. Half a
+   recycler" is compatible.
+7. **The debt is now named once:** 182,000 (0).
+8. **"You are not the recipient"** is back in E01 (20), so E02 may build on the reader thread from it.
+9. **Numbers carried over:** reports end at #1,207; Lucía "Nine… Don't make it ten"; 31 labels / 32
+   postings.
+10. **Mira's clamp key** is in her pocket (18), on its lanyard from 16. **The coffee machine** is the
+    bank's, light back on (20). "Section twelve", "Darts", the English knight's post horn and "tell the
+    lady" are all in place for E02's callbacks.
+11. **The Baron's colour** ends E01 at 70% (Act 4); E02 opens at about 60% and recovers in the Valley.
+12. **Lucía's tug ticket to Ceres** (14) is a new prop; she did not go. E02 need not mention it.
+
+## v5.5 For the showrunner
+
+- **Runtime basis.** 24:09 with the pause allowance and the fuller picture list; 23:29 on the strict draft-4
+  model. If you meant the window to apply to the strict model, there are 15 s to spare at the bottom edge,
+  which I'd leave as headroom for acting voices.
+- **PIP's reaction face** moved from the signing (14) to the bridge (20) because PIP is not in the hall in
+  E01. Confirm.
+- **Lost in this pass** (beyond the critic's list): PIP's "March… May. May's was louder" (1), "The door is
+  no longer anywhere, so technically there wasn't one" (10), "An unlucky turn of the arm. I had one of those
+  once" (19), Jax's "Two hours ago… I was trading down" V.O. (6; Jax now narrates only at the end of 20).
+  None is a plant; none is quoted later (searched).

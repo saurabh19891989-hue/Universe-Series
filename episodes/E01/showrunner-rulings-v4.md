@@ -16,3 +16,12 @@
 
 Runtime: 25:01 leaves too little margin for voices that act (they may run slower than 184 wpm).
 Target after the critic pass: 23:30–24:15. Use the notes' first-cuts list (about 60 s, no plants).
+
+## Draft 5 — rulings and lock (28 Nov)
+- The 23:30–24:15 window applies to the figure WITH the pause and picture allowance (24:09). Accepted.
+- PIP's reaction face moves to the bridge (scene 20). Accepted.
+- **Draft 5 (`script-v5.md`) is LOCKED as the Episode 1 script for the animated format**, pending only
+  what a table read or the owner's ear changes. Showrunner read in full: cold open, scenes 1–3, the
+  midpoint (end of scene 10), the tag and "What was real". The rest rests on the independent critic's
+  review of draft 4 and the reviser's item-by-item record; a full read happens at the shot-list stage.
+- Old stems (v3 wording) no longer match; dialogue is re-recorded once the owner picks the voice engine.

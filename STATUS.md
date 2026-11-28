@@ -513,3 +513,9 @@ Gemini API key is saved as a network secret on the Default environment
   Animatic `samples/e01/E01-sample5-animatic-720p.mp4`. One new Kokoro line (Jax's laugh; may
   sound fake). Stage 2b (full picture build, up to 220 Codex pictures) and the score/mix are
   running in parallel; showrunner muxes the final mix onto the picture.
+- **E01 script v5 LOCKED (28 Nov):** 2,819 words, 322 cues, 24:09 with pause allowance
+  (Part One 11:44, Part Two 12:26). All 9 must-fix and 14 should-fix critic items applied.
+  Showrunner read cold open, sc. 1–3, midpoint, tag, closing note; rest relies on the critic.
+  E02 handover list (12 items) in `episodes/E01/revision-notes-v4.md` (v5 section).
+  E02 rewrite to the new format started (Opus). E03–E10 retargeting waits for the owner's
+  verdict on sample 5.

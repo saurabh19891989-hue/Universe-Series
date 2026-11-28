@@ -1,8 +1,9 @@
 # UNIVERSE UNDELIVERED
 ## Episode 1 — "The Parcel Nobody Ordered"
-### Shooting script, draft 4 — the animation format (22–26 min, two halves). Awaiting independent critic and showrunner read.
+### Shooting script, draft 5 — the critic's fixes and the showrunner's rulings on draft 4. Awaiting showrunner read and lock.
 
-*(Working title in older files: Secret Universe. Draft 3, `script-v3.md`, is untouched.)*
+*(Working title in older files: Secret Universe. Drafts 3 and 4, `script-v3.md` and `script-v4.md`, are
+untouched. What changed from draft 4, item by item, is in `revision-notes-v4.md`, section "v5".)*
 
 **Format (showrunner rulings, 28 Nov).** The cast are 2D animated characters who lip-sync, walk,
 gesture and do takes, composited over real NASA video. The old no-lip-sync staging (backs of heads,
@@ -10,64 +11,71 @@ insert-only lines, hidden mouths, soft focus) is gone: leads act their big lines
 have clear helmets. Inserts are kept only where the object is the point (the fading signature, the
 READ receipt, the board, the labels, the report numbers).
 
-**Size.** **3,066 spoken words** by script (dialogue lines only, including "What was real"; cues,
-performance notes and action excluded — the same counter gives draft 3 its 4,443), **335 speaker cues**.
-**22 units:** cold open, 20 scenes, tag; plus "What was real". Scenes are renumbered for draft 4; the map
-from draft 3's numbers is in `revision-notes-v4.md`.
+**Size.** **2,819 spoken words** by script (dialogue lines only, including "What was real"; cues,
+performance notes and action excluded — the same counter gives draft 3 its 4,443 and draft 4 its 3,066),
+**322 speaker cues**. **22 units:** cold open, 20 scenes, tag; plus "What was real". Scene numbers are
+the same as draft 4.
 
-**Runtime arithmetic** (the Episode 2 model, as ruled): speech at 184 words a minute, plus 0.97 s per
-speaker cue, plus 1.5 s for each stand-alone INSERT, CUTAWAY, TAKE, HOLD or BEAT line, plus the
-picture-only time listed in each scene header (held wides, the drawn tales that play without words,
-the march, the throw). Cutaways marked "(UNDER)" play under dialogue and add nothing.
+**Runtime arithmetic** (the Episode 2 model, as ruled, plus an allowance for what it leaves out): speech
+at 184 words a minute, plus 0.97 s per speaker cue, plus 1.5 s for each stand-alone INSERT, CUTAWAY, TAKE,
+HOLD or BEAT line, plus the picture-only time listed in each scene header, plus **1.0 s for each pause
+written inside a speech** ("(beat)", "(a rare pause)", "(stops)", "(a breath)"). Cutaways marked "(UNDER)"
+play under dialogue and add nothing. The picture-only figures now include the critic's unlisted picture
+time (the Baron carried to the cage and his long rise, the long signature, the slow-motion grab for the
+contract, the plunge to black, Mira's walk down the hall, the Baron slipping round the car, Chichikov
+snapping into colour): 28 s more than draft 4 listed.
 
 | Part | Seconds |
 |---|---|
-| Speech: 3,066 words ÷ 184 × 60 | 999.8 |
-| Cue gaps: 335 × 0.97 | 324.9 |
-| Inserts, cutaways, takes, holds, beats: 60 × 1.5 | 90.0 |
-| Picture-only, listed per scene | 76.0 |
+| Speech: 2,819 words ÷ 184 × 60 | 919.2 |
+| Cue gaps: 322 × 0.97 | 312.3 |
+| Inserts, cutaways, takes, holds, beats: 61 × 1.5 | 91.5 |
+| Picture-only, listed per scene | 104.0 |
+| Written pauses inside speeches: 12 × 1.0 | 12.0 |
 | Main title | 10.0 |
-| **Total** | **1,500.7 = 25:01** |
+| **Total** | **1,449.0 = 24:09** |
 
-Scene targets below are the model rounded to 5 s (they add up to 24:55 with the title). The window is
-22:30–25:30. If the acting voices play slower than 184 wpm (each 10 wpm slower adds about 55 s), the
-first cuts are listed in `revision-notes-v4.md` (about 60 s, no plant touched).
+Without the two allowances (the strict draft-4 model) it is 23:29. Scene targets are the full figure
+rounded to 5 s. The ruled window is 23:30–24:15. If the acting voices play slower than 184 wpm (each 10 wpm
+slower adds about 50 s), the next cuts are listed in the notes, none touching a plant.
 
-**Shape.** PART ONE 12:10 — cold open 1:26 · title 0:10 · Act 1 (1–5) 5:19 · Act 2 (6–10) 5:15, ending on
-the midpoint. PART TWO 12:51 — Act 3 (11–14) 5:09 · Act 4 (15–20) 6:26 · tag 0:46 · "What was real" 0:30.
-Longest scenes: 4 (1:52) and 13 (1:50); nothing over 2:00. Aboard *The Unscheduled*: about 3:45 (15%).
-Places: the bridge in orbit, the hold, the real south pole from above, the customs hall (desk, cage, long
-window, office, console), the rim road, the inn (parlour, cold store), the outer rim under Earth, the inner
-wall in the dark, the apron.
+**Shape.** PART ONE 11:44 — cold open 1:29 · title 0:10 · Act 1 (1–5) 5:08 · Act 2 (6–10) 4:56, ending on
+the midpoint. PART TWO 12:26 — Act 3 (11–14) 5:07 · Act 4 (15–20) 5:59 · tag 0:50 · "What was real" 0:30.
+Longest scenes: 4 (1:53) and 13 (1:44); nothing over 2:00. Aboard *The Unscheduled*: about 3:40 (15%).
+Places: the bridge in orbit, the hold, the real south pole from above, the customs hall (desk, long hall,
+cage, office, long window, console), the rim road, the inn (parlour, cold store), the outer rim under
+Earth, the inner wall in the dark, the apron.
 
 **The three signature scenes (playbook Part 2)**
 | Kind | Scene | Engines | Budget |
 |---|---|---|---|
-| Comic set piece | **2 · The address loses its letters** (at 2:09) | Rule then break [2], Polite Escalation [1], reaction faces [8] | A–B |
-| Heart scene | **13 · The cannonball on the rim** | Story drawn [26], One line beats the list [6], Ma [23] | B (one 20 s drawn tale) |
-| Action set piece | **15 · PULL OVER / PLEASE** — **SHORT** (the exterior chase, about 55 s, from "Two behind" to "still asking nicely") | Polite Escalation on a card [1], Physics is the comedian [16], Lateral run [19] | B–C (spend it here) |
+| Comic set piece | **2 · The address loses its letters** (at 2:04) | Rule then break [2], Polite Escalation [1], reaction faces [8] | A–B |
+| Heart scene | **13 · The cannonball on the rim** (at 13:45) | Story drawn [26], One line beats the list [6], Ma [23] | B (one 20 s drawn tale) |
+| Action set piece | **15 · PULL OVER / PLEASE** (at 16:50) — **SHORT** (the exterior chase, about 55 s, from "Two behind" to "still asking nicely") | Polite Escalation on a card [1], Physics is the comedian [16], Lateral run [19] | B–C (spend it here) |
 
 **SHORT test (15).** A stranger understands it in 3 seconds (a little car chased by police cars on the
 Moon, in silence); one escalation (PULL OVER → PLEASE → the jump → the speech with the radio off) and a
 button ("It is still asking nicely"); no name needed; the cars run side-on through the centre third, so
 it crops to 9:16. Back-up short: 2 (the address), which also stands alone.
 
-**Midpoint (end of Part One, at 12:10).** Chichikov's offer ends on "We supply her water." He
+**Midpoint (end of Part One, at 11:44).** Chichikov's offer ends on "We supply her water." He
 vanishes; his contract is on the table; the Baron, who wants it, turns it round, picks up the pen and holds
-it out to Jax, handle first; everyone looks at Jax, who does not take it yet. Sayable question: **"Will Jax sell the Baron?"** Tag question: **"Why is Jax
-nobody?"**
+it out to Jax, handle first; everyone looks at Jax, who does not take it yet. Sayable question: **"Will Jax sell the Baron?"** Tag
+question: **"Why is Jax nobody?"**
 
 **Opening rule.** Motion and a problem in the first frame (the bank's drone carrying the engine past the
-window, 0:00–0:05; "The rest goes at six" by 0:05). First laugh about 0:10 ("The one going past the
-window", with the engine drifting across Jax's face), then "It was financed separately" at about 0:25.
-The air is named as the cost by about 0:35 (Temi). The goal (the parcel, by six, for exactly the debt) by
-1:10. Title at about 1:26, after the laughs. The spectacle place (the address going out over the real south
-pole) at 2:10. The guest is on screen at 3:03 (the tiny figure on the cargo scale behind Mira, from the
-first frame of 3) and met at 4:05. The clock is six o'clock.
+window, 0:00–0:05; "The rest goes at six. Including the air." by about 0:07). First laugh about 0:12
+("The one going past the window", with the engine drifting across Jax's face), then "It was financed
+separately" at about 0:27. The goal (the parcel, by six, for exactly the debt: a hundred and eighty-two
+thousand) by about 1:12. Title at about 1:29, after the laughs. The spectacle place (the address going out
+over the real south pole) at about 2:05. The guest is on screen at 2:57 (the tiny figure on the cargo scale
+behind Mira, from the first frame of 3) and met at about 4:00. The clock is six o'clock.
 
 **Re-hook cadence** (something new every 2–3 minutes; no two static talk scenes in a row): see the
-running clock in `revision-notes-v4.md`. The old Act 3 run of three talk scenes is now a moving rover
-(11), a side-on walk (12), and the rim with a drawn tale (13).
+running clock in `revision-notes-v4.md` (v5 section). The desk scene (3) now ends walking and the cage scene
+(4) opens on the Baron carried in by the weighing drone; the signing (14) opens on a side-on walk across the
+hall, so the rim (13) and the signing no longer sit still back to back. The old Act 3 run of three talk
+scenes is a moving rover (11), a side-on walk (12), and the rim with a drawn tale (13).
 
 ---
 
@@ -76,7 +84,7 @@ running clock in `revision-notes-v4.md`. The old Act 3 run of three talk scenes 
   **JAX — THE SALESMAN'S FREEZE** (the grin stays on; only the eyes move) · **MIRA — THE LOUPE DROP**
   (she lets the loupe fall on its chain and looks with her own eye) · **LUCÍA — THE ARM-FOLD** (slow, both
   arms, chin down) · **PIP — THE DOT** (the amber lens shrinks to a pinpoint) · **BARON — THE DROOP** (one
-  side of the moustache sags, the other stays proud). Each is written below as a TAKE line.
+  side of the moustache sags, the other stays proud). Each is written below as a TAKE line; Jax's is used twice (0 and the tag), PIP's is on the bridge (20).
 - **The Baron's tales are DRAWN** (engine 26) as short cutaways in our own engraving-like style: black
   cross-hatched line on warm cream, taken in spirit from the public-domain 1862 Doré plates, never traced
   from a plate and never from any film. Flat, few moving parts, reusable in E10.
@@ -108,8 +116,12 @@ running clock in `revision-notes-v4.md`. The old Act 3 run of three talk scenes 
 
 **Voice direction**
 - Parentheses under a cue are **performance notes** for the acting voices: emotion, volume, pace, laughs,
-  breaths, overlaps, beats. They are directions to play, not descriptions. "(OVERLAPPING)" means the line
-  starts under the previous one. "(beat)" inside a speech is a half-second stop.
+  breaths, overlaps, beats. They are directions to play, not descriptions, and they are written to work with
+  any engine (the engine is not chosen yet): where an engine cannot play one, the edit builds it (a whisper
+  = quieter, slower, closer; a laugh = a separate laugh take placed in the gap; "the words breaking" = cut
+  in the edit). Sounds that are not voice (claps, chattering teeth) are action lines, not notes.
+  "(OVERLAPPING)" means the line starts under the previous one. "(beat)" inside a speech is a stop of
+  about a second, and is counted in the runtime.
 - Jax: quick, warm, selling; he speeds up when cornered and goes very plain when it's true. Mira: dry, exact,
   low, never louder than she needs. Lucía: loud, blunt, warm; laughs from the chest. PIP: precise, British,
   slightly band-limited, no emotion except when there is. The Baron: big, rolling, theatrical; when his
