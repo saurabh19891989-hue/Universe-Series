@@ -14,7 +14,7 @@ SR = 44100
 KBPS = 112
 MAX_BYTES = 2.85e6
 NAMES = {"kokoro": "Kokoro, current", "supertonic3": "Supertonic", "qwen3-design": "Qwen voice design",
-         "chatterbox-turbo": "Chatterbox Turbo", "orpheus-3b-q4": "Orpheus"}
+         "chatterbox-turbo": "Chatterbox, Kokoro voice", "chatterbox-turbo-qwenref": "Chatterbox, designed voice", "orpheus-3b-q4": "Orpheus"}
 NUM = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 root, dest, engines = sys.argv[1], sys.argv[2], sys.argv[3:]
 tmp = f"{SCR}/voice2/reel_tmp"

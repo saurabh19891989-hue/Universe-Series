@@ -239,3 +239,17 @@ officials who tried to cage him with a title. The owner has the final say before
 - **Suits and helmets** are locked as seen in Episode 1's pictures: no redesign, no chest lights.
 - **Runtime model for all scripts:** measured voice pace is 184 words a minute. Use the formula
   in `episodes/E02/revision-notes.md`; scene targets total 34:30–36:30.
+
+## Showrunner rulings, 28 Nov (format change)
+- **Format:** 2D animated cast over real NASA video (owner). Scripts are restaged for animation:
+  the old "no visible mouth" staging (backs of heads, insert-only lines, soft focus) is dropped;
+  leads act their big lines on their faces. Suits have clear helmets so faces read.
+- **Length (owner):** 22–26 minutes, two halves of 11–13 minutes, hard cliffhanger at the
+  midpoint. Runtime model unchanged (184 wpm + cue and insert allowances); targets become
+  22:30–25:30. Locked E01 and E02 are reopened (owner) for this and for the playbook upgrades.
+- **Scene playbook** (`canon/SCENE-PLAYBOOK.md`) is adopted as guidance: three signature scenes
+  per episode named in the outline header, one marked SHORT; opening and re-hook rules apply.
+- **Tall tales are drawn:** a legend's story may be shown as a short cutaway in a distinct drawn
+  style of our own (the Baron's in an engraving-like style). Thinning rule still holds.
+- Everything else in canon stands: READ stamp rules, report numbers, label and posting counts,
+  the cannonball promise, character rules for Kaguya, Arakawa, Chichikov, Ilse, Seo.

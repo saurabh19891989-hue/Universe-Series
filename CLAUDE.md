@@ -3,11 +3,13 @@
 Working title was "Secret Universe"; older files still use it.
 
 Original YouTube fiction series. Real space footage is the set; the story, characters and
-score are ours. 30–40 minute episodes; first test is Season 1 = 10 episodes.
+score are ours. Episodes run 22–26 minutes in two halves with a cliffhanger in the middle
+(owner, 28 Nov; was 30–40); first test is Season 1 = 10 episodes.
 
 ## Start here
 1. Read `STATUS.md` (where we are, what is waiting on the owner).
-2. Read `canon/SERIES-BIBLE.md`, `canon/season-01.md`, `canon/WRITERS-RULEBOOK.md`.
+2. Read `canon/SERIES-BIBLE.md`, `canon/season-01.md`, `canon/WRITERS-RULEBOOK.md`,
+   `canon/SCENE-PLAYBOOK.md`.
 3. For an episode, read `episodes/ENN/WHERE-I-STOPPED.md` before doing anything.
 4. Before making any picture, read `production/IMAGE-PIPELINE.md` and `canon/CHARACTER-LOCKS.md`.
 State lives on disk, never only in a chat. Update `STATUS.md` when a milestone lands.

@@ -1,4 +1,9 @@
-# Scene playbook — PROPOSAL for the showrunner (not canon until ruled)
+# Scene playbook
+
+**Showrunner ruling, 28 Nov:** adopted as writers' guidance alongside the rulebook. Length is ruled by the
+owner: 22–26 minutes in two halves with a midpoint cliffhanger (Part 5, option A). The examples are
+illustrations, not canon: in particular Lucía's ribbon going to Seo in ep 10 and a Seo–Mattias scene in
+Season 2 are NOT ruled in.
 
 Writer/story analyst, 28 Nov 2026. Built from `research/story/scene-study.md` (53 entries: classic
 cinema and TV from Hollywood, Britain, India, Japan, Korea, Hong Kong, Europe and Latin America;

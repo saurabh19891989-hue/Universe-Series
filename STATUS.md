@@ -440,3 +440,21 @@ Gemini API key is saved as a network secret on the Default environment
   licence-clean: tabla, sitar, veena, bansuri, erhu, kora, oud. No licence-clean vocal-song
   route. Showrunner made `samples/e01/E01-toon-test4-newsound-720p.mp4` (test 4 picture + the
   remixed scene sound, same timing). NOBODY HAS LISTENED; measurements only. Sent to owner.
+
+## 28 Nov (night IST) — owner's decisions after tests 4 and the audio reel
+- **Length:** 22–26 min in two halves with a midpoint cliffhanger. **Locked E01/E02 reopened.**
+  CLAUDE.md, season-01.md and the playbook header updated; playbook adopted as guidance.
+- **Test 4 notes (owner):** Jax's walk is weird; Mira's lip is cut when the mouth opens and the
+  teeth are misplaced; not smooth enough; look not great — make the leads more attractive and
+  push the style further towards animation. More Codex pictures wherever they help.
+- **Audio (owner):** new mix "sounds better"; compose more ourselves; get Indian and world
+  instruments in even without a perfectly clean licence; improve effects with what we have.
+  Showrunner's line: any free source whose terms do not forbid use in published music, plus
+  in-house synthesis; no packs that explicitly forbid commercial use, nothing ripped from
+  recordings (a claim could take a video down). Everything logged.
+- **Next test = SAMPLE 5, 2:30–2:45:** customs desk (E01 sc. 3, complete) + the cannonball
+  story on the rim (sc. 21, trimmed, clear helmets, ~20 s drawn cutaway), existing stems.
+  Stage 1 running: animation builder — redesign sheet (2 style variants for Jax, Mira, Baron),
+  drawn viseme mouths, proper walk, in-betweens, 10–15 s proof clip; music builder — world
+  instruments, heart theme, cutaway cue, main theme B section, effects, reel 2.
+- Also running: voice bake-off (reel pending); E01 script v4 rewrite to 22–26 min (Opus).
