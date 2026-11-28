@@ -333,3 +333,13 @@ for the orchestral pieces (heart theme 44 s for 63 s; main theme 57 s for 76 s).
 - **`SCHEMA.md`:** says new shot lists set `"mix_version": 3`.
 - **Toon scenes:** keep using `sfx/mix3.py` for placement, room and foley plans.
 - **Builder:** the shot-list builder agents should write `"mix_version": 3` from now on.
+
+---
+
+# Sample 5 (2:42) scored and mixed (28 Nov)
+- Score: `production/tools/music/sample5_score.py`; render with `render_sample5.py`.
+- Mix: `production/tools/sfx/sample5_mix.py`.
+- Cue sheet and every measurement: `episodes/E01/sample5-cue-sheet.md`.
+- Result: −16.0 LUFS, −2.2 dBTP, exactly 162.441 s. All 44 lines are ≥ 10.5 dB clear in the speech
+  band, with an automatic music pull-down where needed. The silence at 144.945–147.945 is digital zero
+  in score and effects. No new outside sources.

@@ -48,7 +48,7 @@ def tr(c, names, drums=()):
 # ============================================================ PART A (0 - 77 s)
 def cue_A():
     c = Cue("S5-A-customs", bpm=60, seed=5101)
-    tr(c, ["cl", "bansuri", "guitar", "bass", "santoor", "tabla", "vibes", "bsn", "tuba", "vc", "cb", "vla",
+    tr(c, ["cl", "bansuri", "guitar", "bass", "santoor", "vibes", "bsn", "tuba", "vc", "cb", "vla",
            "hn", "tbn", "picc", "cel", "harp", "vln1"], drums=["perc", "snare"])
     sw = 60 / 116          # Jax's swing tempo (s per beat)
     # 0-2.6 establish: Mira's clock, very soft, stops for "Next." (air)
@@ -75,7 +75,6 @@ def cue_A():
         c.chord("guitar", ["D3", "A3", "C4", "F4"] if k % 2 == 0 else ["G2", "D3", "F3", "B3"], t0, 0.4, 48, roll=0.015)
         c.note("bass", "D2" if k % 2 == 0 else "G1", t0, 0.5, 58, legato=0.5)
     at(c, "cl", "D4:q A3:u D4:t E4:u F4:t ~E4:h", 26.2, sw, 62)
-    c.seq("glock", "", 0) if False else None
     c.note("vibes", "D6", 29.4, 0.5, 54); c.note("vibes", "A6", 29.65, 0.8, 50)
     # 33.15 'There are nine sections.' - dead stop at 33.0. 34.82-35.67: air. 35.67 his retort: nothing.
     # 37.35-38.45 the almost-smile: ONE held note (Mira's), soft, cut as she pulls the keyboard
@@ -128,7 +127,6 @@ def cue_A():
         "guitar": dict(inst="guitar", lvl=-26, pan=-0.4, width=0.5, depth="mid", send=0.2, group="rhythm"),
         "bass": dict(inst="pizz", lvl=-25, pan=-0.05, width=0.4, depth="mid", send=0.2, group="bass"),
         "santoor": SYN("santoor", lvl=-29, pan=0.45, width=0.6, depth="mid", send=0.35, group="rhythm"),
-        "tabla": SYN("tabla", tonic="D4", lvl=-28, pan=0.35, width=0.5, depth="front", send=0.2, group="rhythm"),
         "vibes": dict(inst="vibes", lvl=-28, pan=0.0, width=0.6, depth="mid", send=0.45, group="melody"),
         "bsn": dict(inst="bsn", lvl=-24, pan=0.2, width=0.4, depth="mid", send=0.3, group="melody"),
         "tuba": dict(inst="tuba", lvl=-28, pan=0.1, width=0.4, depth="back", send=0.3, group="bass"),
@@ -144,8 +142,6 @@ def cue_A():
         "perc": dict(lvl=-33, pan=-0.3, width=0.4, depth="mid", send=0.3, group="rhythm", kit={76: "wood"}),
         "snare": dict(inst="snare3", lvl=-33, pan=-0.55, width=0.3, depth="back", send=0.7, group="rhythm"),
     }
-    # the almost-smile held note and the look need the tabla? no - Part A keeps tabla out (Mira's colour is the
-    # santoor and bansuri here); the empty track renders silent.
     return c, mix, dict(start=0.0, dur=77.6, hall="Scala Milan Opera Hall", target=-18.0, fade_s=0.6)
 
 
@@ -283,7 +279,6 @@ def cue_B2():
     c.chord("vla", ["E3", "G#3", "B3"], 136.2 - off, 2.6, 46, legato=1.0)
     c.chord("vc", ["E2", "B2"], 136.2 - off, 2.6, 44, legato=1.0)
     c.swell("vla", 136.2 - off, 137.4 - off, 50, 105); c.swell("vla", 137.4 - off, 138.9 - off, 105, 40)
-    c.seq("harp", "", 0) if False else None
     for k, p in enumerate(("E4", "G#4", "B4", "E5")):
         c.note("harp", p, 136.6 - off + k * 0.18, 1.2, 44, legato=1.4)
     # 138.2-141.4 'You listened to the end': the solo cello, the rising fifth only (B E B), soft

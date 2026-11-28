@@ -8317,5 +8317,1665 @@
    "rate_limit_reached_type": null
   },
   "errors": []
+ },
+ {
+  "time": "2026-11-28T17:50:21",
+  "job": "s5",
+  "name": "M5_cu_brow_up2",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 39.0,
+  "tokens_used": 12435,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22346-f639-70a1-8f5e-c84e25e0098f",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 38.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 16.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:50:26",
+  "job": "s5",
+  "name": "M5_cu_blink2",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "M5_cu.png"
+  ],
+  "seconds": 42.8,
+  "tokens_used": 14767,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22346-f9f2-7250-aee2-ad72dd7457c7",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 39.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 16.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:50:26",
+  "job": "s5",
+  "name": "Jk_elbow",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "jax_B.png",
+   "J5_cu.png"
+  ],
+  "seconds": 41.9,
+  "tokens_used": 11763,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22346-fe56-7f40-861d-029425f78eff",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 39.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 16.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:50:48",
+  "job": "s5",
+  "name": "Jk_point",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "jax_B.png",
+   "J5_cu.png"
+  ],
+  "seconds": 36.1,
+  "tokens_used": 11682,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22347-6ac9-7fb2-af90-c1fab51a5a0e",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 40.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 16.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:51:09",
+  "job": "s5",
+  "name": "Jk_far",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "jax_B.png",
+   "J5_cu.png"
+  ],
+  "seconds": 48.1,
+  "tokens_used": 8925,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22347-8ecd-7ba0-978b-664f64fed99d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 40.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 16.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:51:11",
+  "job": "s5",
+  "name": "Jk_finger",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "jax_B.png",
+   "J5_cu.png"
+  ],
+  "seconds": 44.7,
+  "tokens_used": 14681,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22347-a151-7d40-bbe8-efe0ce491ab1",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 40.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 16.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:51:15",
+  "job": "s5",
+  "name": "Jk_whisper",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "jax_B.png",
+   "J5_cu.png"
+  ],
+  "seconds": 48.7,
+  "tokens_used": 19580,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22347-a285-7e31-8bc2-95cff4f7aa09",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 40.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 17.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:51:39",
+  "job": "s5",
+  "name": "Jk_shrug",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "jax_B.png",
+   "J5_cu.png"
+  ],
+  "seconds": 50.8,
+  "tokens_used": 12394,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22347-f823-7611-a5de-67dd6ec4e6c1",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 42.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 17.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:51:50",
+  "job": "s5",
+  "name": "Jk_salute",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "jax_B.png",
+   "J5_cu.png"
+  ],
+  "seconds": 39.1,
+  "tokens_used": 13992,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22348-505f-7fd2-a7dc-8b55ef4a0cb7",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 42.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 17.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:51:55",
+  "job": "s5",
+  "name": "Jk_listen",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "jax_B.png",
+   "J5_cu.png"
+  ],
+  "seconds": 45.5,
+  "tokens_used": 10099,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22348-4af8-77c0-b162-70c721102c15",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 42.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 17.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:52:14",
+  "job": "s5",
+  "name": "J5_walkA",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "jax_B.png",
+   "J5_cu.png"
+  ],
+  "seconds": 58.6,
+  "tokens_used": 10322,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22348-615d-7af2-b02d-92ef89d6d82b",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 44.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 17.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402292
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:52:31",
+  "job": "s5",
+  "name": "Mk_stamp",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "mira_B.png",
+   "M5_cu.png"
+  ],
+  "seconds": 40.8,
+  "tokens_used": 16463,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22348-e94c-7983-b193-3ae5af1a60d0",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 44.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 17.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:52:34",
+  "job": "s5",
+  "name": "J5_walkknee",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "jax_B.png",
+   "J5_cu.png"
+  ],
+  "seconds": 55.1,
+  "tokens_used": 21018,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22348-bed1-75f2-8922-6c3058fcd6cb",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 44.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 17.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402292
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:52:37",
+  "job": "s5",
+  "name": "Mk_form",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "mira_B.png",
+   "M5_cu.png"
+  ],
+  "seconds": 42.4,
+  "tokens_used": 16796,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22348-fce4-7e60-97ea-e1940a534eb9",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 45.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 17.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:52:53",
+  "job": "s5",
+  "name": "Mk_over",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "mira_B.png",
+   "M5_cu.png"
+  ],
+  "seconds": 39.6,
+  "tokens_used": 13257,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22349-46d9-7683-93e4-49759eb51e06",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 46.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 17.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:53:14",
+  "job": "s5",
+  "name": "Mk_look",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "mira_B.png",
+   "M5_cu.png"
+  ],
+  "seconds": 39.8,
+  "tokens_used": 10129,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22349-961d-7b02-b154-7da7ccc4050c",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 46.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 17.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:53:16",
+  "job": "s5",
+  "name": "Mk_type",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "mira_B.png",
+   "M5_cu.png"
+  ],
+  "seconds": 45.6,
+  "tokens_used": 11234,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22349-88c2-7452-90cb-1e475044e45e",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 46.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 17.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:53:32",
+  "job": "s5",
+  "name": "Mk_stampup",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "mira_B.png",
+   "M5_cu.png"
+  ],
+  "seconds": 54.8,
+  "tokens_used": 27704,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22349-a2ea-7983-8512-334d0985d143",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 47.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 18.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:53:45",
+  "job": "s5",
+  "name": "Mk_slam",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "mira_B.png",
+   "M5_cu.png"
+  ],
+  "seconds": 51.6,
+  "tokens_used": 10615,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a22349-e189-7e62-a642-beb19c99607a",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 48.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 18.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:53:55",
+  "job": "s5",
+  "name": "Mk_write",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "mira_B.png",
+   "M5_cu.png"
+  ],
+  "seconds": 40.7,
+  "tokens_used": 26539,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234a-3218-77f1-8394-2a2fea58cefe",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 48.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 18.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:54:01",
+  "job": "s5",
+  "name": "N5_sheet",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg"
+  ],
+  "seconds": 44.3,
+  "tokens_used": 4866,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234a-3b1b-7591-b05d-9e5b15044b08",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 48.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 18.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:54:10",
+  "job": "s5",
+  "name": "B5_scale",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "baron_B.png"
+  ],
+  "seconds": 37.5,
+  "tokens_used": 13981,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234a-79e1-7a93-b087-e93a07b26a0f",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 49.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 18.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:54:35",
+  "job": "s5",
+  "name": "B5_arms",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "baron_B.png"
+  ],
+  "seconds": 49.7,
+  "tokens_used": 15289,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234a-ab85-7412-b2dc-9328e9208ac7",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 50.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 18.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:54:52",
+  "job": "s5",
+  "name": "JS_sheet",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "jax_B.png",
+   "J5_cu.png"
+  ],
+  "seconds": 56.6,
+  "tokens_used": 16890,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234a-d158-7c03-9a95-d7de469b4013",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 51.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 18.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:54:56",
+  "job": "s5",
+  "name": "BS_sheet",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "baron_B.png"
+  ],
+  "seconds": 55.2,
+  "tokens_used": 7184,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234a-e8ba-7ad3-91e3-201d8f0997f4",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 51.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 18.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402292
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:54:59",
+  "job": "s5",
+  "name": "S5_wide2",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "S5_hall.png"
+  ],
+  "seconds": 49.1,
+  "tokens_used": 22707,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234b-0c56-7812-8e87-4d3790afb673",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 51.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 18.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:55:14",
+  "job": "s5",
+  "name": "S5_rock",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "S5_hall.png"
+  ],
+  "seconds": 39.1,
+  "tokens_used": 9942,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234b-6e2b-7883-bec9-6eb2f2b01b6d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 52.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 18.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:55:32",
+  "job": "s5",
+  "name": "CW_cannon",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "baron_B.png",
+   "S5_cutaway.png"
+  ],
+  "seconds": 36.1,
+  "tokens_used": 9498,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234b-c14b-7b60-9b37-7762669e03dc",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 53.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 18.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:55:50",
+  "job": "s5",
+  "name": "CW_bg",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "baron_B.png",
+   "S5_cutaway.png"
+  ],
+  "seconds": 58.2,
+  "tokens_used": 28661,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234b-af2e-7112-aade-15e0837d56ab",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 53.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402292
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:55:57",
+  "job": "s5",
+  "name": "CW_leap",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "baron_B.png",
+   "S5_cutaway.png"
+  ],
+  "seconds": 57.7,
+  "tokens_used": 16972,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234b-ccc8-7732-b0ae-a698fe9fed80",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 53.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:56:00",
+  "job": "s5",
+  "name": "CW_ride",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "baron_B.png",
+   "S5_cutaway.png"
+  ],
+  "seconds": 45.6,
+  "tokens_used": 12801,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234c-070e-76f2-80f9-129302aab549",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 54.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:56:14",
+  "job": "s5",
+  "name": "CW_doubt",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "baron_B.png",
+   "S5_cutaway.png"
+  ],
+  "seconds": 41.1,
+  "tokens_used": 13839,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234c-4f20-7423-b60d-4c5f26ff4cec",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 54.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:56:33",
+  "job": "s5",
+  "name": "CW_crouch",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "baron_B.png",
+   "S5_cutaway.png"
+  ],
+  "seconds": 43.1,
+  "tokens_used": 25982,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234c-9316-70d1-b914-1bab41fcebf4",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 55.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402292
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:56:48",
+  "job": "s5",
+  "name": "CW_ball",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "baron_B.png",
+   "S5_cutaway.png"
+  ],
+  "seconds": 33.8,
+  "tokens_used": 11169,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234c-effb-77f0-b07b-dd60e9184541",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 55.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:56:50",
+  "job": "s5",
+  "name": "CW_jump",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "baron_B.png",
+   "S5_cutaway.png"
+  ],
+  "seconds": 53.3,
+  "tokens_used": 12181,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234c-ae3b-7720-bb24-3fa13fc0a856",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 56.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:56:51",
+  "job": "s5",
+  "name": "CW_land",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "baron_B.png",
+   "S5_cutaway.png"
+  ],
+  "seconds": 51.4,
+  "tokens_used": 14201,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234c-b947-7540-97b4-adb0ff03974c",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 56.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:57:12",
+  "job": "s5",
+  "name": "CW_hat",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "master.jpg",
+   "baron_B.png",
+   "S5_cutaway.png"
+  ],
+  "seconds": 38.9,
+  "tokens_used": 13086,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234d-3b80-7cc3-b751-660cc4d9d194",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 56.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:57:52",
+  "job": "s5",
+  "name": "J5_front_D",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_front.png"
+  ],
+  "seconds": 30.8,
+  "tokens_used": 11429,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234d-f852-7671-94b0-db5cb938f68a",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 57.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:57:52",
+  "job": "s5",
+  "name": "J5_front_C",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_front.png"
+  ],
+  "seconds": 31.1,
+  "tokens_used": 9474,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234d-f7ef-79d0-ab2e-900fac66f9aa",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 57.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:57:55",
+  "job": "s5",
+  "name": "J5_front_B",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_front.png"
+  ],
+  "seconds": 33.9,
+  "tokens_used": 9938,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234d-f8c9-7081-a421-5f982177546b",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 57.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
+ },
+ {
+  "time": "2026-11-28T17:58:01",
+  "job": "s5",
+  "name": "J5_front_A",
+  "purpose": "sample 5 stage 2b",
+  "refs": [
+   "J5_front.png"
+  ],
+  "seconds": 39.8,
+  "tokens_used": 7676,
+  "success": true,
+  "images_generated": 1,
+  "returncode": 0,
+  "session": "01a2234d-f809-73c3-8efe-538c02305f7d",
+  "rate_limits": {
+   "limit_id": "codex",
+   "limit_name": null,
+   "primary": {
+    "used_percent": 58.0,
+    "window_minutes": 300,
+    "resets_at": 1795894284
+   },
+   "secondary": {
+    "used_percent": 19.0,
+    "window_minutes": 10080,
+    "resets_at": 1796402291
+   },
+   "credits": {
+    "has_credits": false,
+    "unlimited": false,
+    "balance": "0"
+   },
+   "individual_limit": null,
+   "spend_control_reached": null,
+   "plan_type": "plus",
+   "rate_limit_reached_type": null
+  },
+  "errors": []
  }
 ]

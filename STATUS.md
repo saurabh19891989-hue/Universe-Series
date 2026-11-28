@@ -519,3 +519,9 @@ Gemini API key is saved as a network secret on the Default environment
   E02 handover list (12 items) in `episodes/E01/revision-notes-v4.md` (v5 section).
   E02 rewrite to the new format started (Opus). E03–E10 retargeting waits for the owner's
   verdict on sample 5.
+- **Sample 5 score and mix landed:** `samples/audio/sample5/sample5-mix.mp3` (2:42, 2.6 MB) plus
+  music-only and effects-only stems; cue sheet `episodes/E01/sample5-cue-sheet.md`; WAV master
+  in scratchpad audio2/out3/ (162.441 s). −16.0 LUFS, −2.2 dBTP, every line ≥10.5 dB clear in
+  the speech band. Part A: motifs sparring, dead stops before the stamp; Part B: vacuum (suit
+  breathing only), heart theme on duduk, cutaway march with stall and swap, 3 s near-silence,
+  unresolved ending. NOBODY HAS LISTENED. Mix mp3 sent to owner ahead of the picture.
