@@ -1,0 +1,1353 @@
+{
+ "purpose": "Archive vault for the Episode 1 archive-format sample (PIP's file on the case). This file is the legal record.",
+ "built": "2026-11-28",
+ "local_vault": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl (scratch; large media never goes in git)",
+ "rules": [
+  "Only items whose own metadata states public domain (Prelinger licenseurl) or US films published before 1931 (LOC).",
+  "No NonCommercial or ShareAlike items. No celebrity, brand-logo-filling or distasteful news material.",
+  "All archive audio stripped."
+ ],
+ "items": [
+  {
+   "id": "AnotherCupOf",
+   "title": "Another Cup Of Coffee",
+   "year": "1948",
+   "source_page_url": "https://archive.org/details/AnotherCupOf",
+   "direct_file_url": "https://archive.org/download/AnotherCupOf/AnotherCupOf.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/AnotherCupOf.mp4",
+   "bytes": 83985799,
+   "sha256": "8da907dbbbbf7e8f267d0463fdd29ad200e3e9c6261babfc6642cfdae5e50dca",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Another Cup Of Coffee (1948) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Prudential Insurance Co. of Amer.",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/AnotherCupOf/AnotherCupOf.mpeg",
+     "from_s": 27.5,
+     "duration_s": 3.63,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/AnotherCupOf/AnotherCupOf.mpeg",
+     "from_s": 654.0,
+     "duration_s": 5.656,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/AnotherCupOf/AnotherCupOf.mpeg",
+     "from_s": 660.0,
+     "duration_s": 2.657,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "S4b",
+     "from_s": 654.0,
+     "to_s": 659.66
+    },
+    {
+     "shot": "S4f",
+     "from_s": 660.0,
+     "to_s": 662.66
+    },
+    {
+     "shot": "S5d",
+     "from_s": 27.5,
+     "to_s": 31.13
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "BanksAndCred",
+   "title": "Banks And Credits",
+   "year": "1948",
+   "source_page_url": "https://archive.org/details/BanksAndCred",
+   "direct_file_url": "https://archive.org/download/BanksAndCred/BanksAndCred.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/BanksAndCred.mp4",
+   "bytes": 66573684,
+   "sha256": "bf403d3504e30c59be193b2e9cc5b43806394a669f0933b09c1c9fbcd3757a4b",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Banks And Credits (1948) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Coronet Instructional Films",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/BanksAndCred/BanksAndCred.mpeg",
+     "from_s": 215.4,
+     "duration_s": 3.014,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/BanksAndCred/BanksAndCred.mpeg",
+     "from_s": 377.6,
+     "duration_s": 6.985,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "C22",
+     "from_s": 215.4,
+     "to_s": 218.41
+    },
+    {
+     "shot": "S5e",
+     "from_s": 377.6,
+     "to_s": 384.58
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "Bookkeep1945",
+   "status": "not downloaded",
+   "reason": "error 'metadata'"
+  },
+  {
+   "id": "CaughtMa1940",
+   "title": "Caught Mapping",
+   "year": "1940",
+   "source_page_url": "https://archive.org/details/CaughtMa1940",
+   "direct_file_url": "https://archive.org/download/CaughtMa1940/CaughtMa1940.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/CaughtMa1940.mp4",
+   "bytes": 55443481,
+   "sha256": "54e7ca4789ba9511f4a0c7581d8e87b3b05b59daba5ef474e90bd3291b1801c5",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Caught Mapping (1940) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Handy (Jam) Organization",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/CaughtMa1940/CaughtMa1940.mpeg",
+     "from_s": 33.6,
+     "duration_s": 4.701,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/CaughtMa1940/CaughtMa1940.mpeg",
+     "from_s": 66.0,
+     "duration_s": 4.924,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/CaughtMa1940/CaughtMa1940.mpeg",
+     "from_s": 131.6,
+     "duration_s": 5.111,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/CaughtMa1940/CaughtMa1940.mpeg",
+     "from_s": 236.3,
+     "duration_s": 3.802,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "S2f",
+     "from_s": 33.6,
+     "to_s": 38.3
+    },
+    {
+     "shot": "S3h",
+     "from_s": 236.3,
+     "to_s": 240.1
+    },
+    {
+     "shot": "S4c",
+     "from_s": 131.6,
+     "to_s": 136.71
+    },
+    {
+     "shot": "S4d",
+     "from_s": 66.0,
+     "to_s": 70.92
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "Chickeno1948",
+   "title": "Chicken of Tomorrow, The",
+   "year": "1948",
+   "source_page_url": "https://archive.org/details/Chickeno1948",
+   "direct_file_url": "https://archive.org/download/Chickeno1948/Chickeno1948.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/Chickeno1948.mp4",
+   "bytes": 107255554,
+   "sha256": "97f2a6f87051a49f13b1ca56913a7d1174d9aef1ea7e5832de658ac00e35c5c6",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Chicken of Tomorrow, The (1948) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Audio Productions",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/Chickeno1948/Chickeno1948.mpeg",
+     "from_s": 518.0,
+     "duration_s": 2.096,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/Chickeno1948/Chickeno1948.mpeg",
+     "from_s": 567.6,
+     "duration_s": 1.796,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "S1k",
+     "from_s": 567.6,
+     "to_s": 569.4
+    },
+    {
+     "shot": "S1l",
+     "from_s": 518.0,
+     "to_s": 520.1
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "CoffeeBreak",
+   "title": "Coffee Break",
+   "year": null,
+   "source_page_url": "https://archive.org/details/CoffeeBreak",
+   "direct_file_url": "https://archive.org/download/CoffeeBreak/CoffeeBreak.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/CoffeeBreak.mp4",
+   "bytes": 88287826,
+   "sha256": "0a33618c4b6a7d72b722fcc36c94bc38c6cc52528ef7feddc3371f4f18b0a0db",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Coffee Break · Prelinger Archives (public domain), via Internet Archive",
+   "producer": null,
+   "time_ranges_used": [],
+   "audio": "stripped (never used)",
+   "status": "downloaded, not used in this sample"
+  },
+  {
+   "id": "DateWith1950",
+   "title": "Date With Your Family, A",
+   "year": "1950",
+   "source_page_url": "https://archive.org/details/DateWith1950",
+   "direct_file_url": "https://archive.org/download/DateWith1950/DateWith1950.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/DateWith1950.mp4",
+   "bytes": 62293446,
+   "sha256": "f71ac081289c7af571a0b288b206c9c32b3a45506a457f827a1ec38f00a05c44",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Date With Your Family, A (1950) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Simmel-Meservey",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/DateWith1950/DateWith1950.mpeg",
+     "from_s": 482.5,
+     "duration_s": 4.136,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "S3e",
+     "from_s": 482.5,
+     "to_s": 486.64
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "DaysofOu1955",
+   "title": "Days of Our Years",
+   "year": "1955",
+   "source_page_url": "https://archive.org/details/DaysofOu1955",
+   "direct_file_url": "https://archive.org/download/DaysofOu1955/DaysofOu1955.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/DaysofOu1955.mp4",
+   "bytes": 125099071,
+   "sha256": "788bb2b6a38bcbed727aefbe518f37c6520af283addc38b0fab0760c4dd292a5",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Days of Our Years (1955) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Dudley Pictures Corporation",
+   "time_ranges_used": [],
+   "audio": "stripped (never used)",
+   "status": "downloaded, not used in this sample"
+  },
+  {
+   "id": "Designfo1956",
+   "title": "Design for Dreaming",
+   "year": "1956",
+   "source_page_url": "https://archive.org/details/Designfo1956",
+   "direct_file_url": "https://archive.org/download/Designfo1956/Designfo1956.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/Designfo1956.mp4",
+   "bytes": 57947878,
+   "sha256": "b89182df52aa00ee80565c2eaf1fcd2997d4afb1a5f29329f1da3bc838b72b20",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Design for Dreaming (1956) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "MPO Productions",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/Designfo1956/Designfo1956.mpeg",
+     "from_s": 241.6,
+     "duration_s": 3.65,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/Designfo1956/Designfo1956.mpeg",
+     "from_s": 411.0,
+     "duration_s": 1.452,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "C05",
+     "from_s": 241.6,
+     "to_s": 245.25
+    },
+    {
+     "shot": "S3n",
+     "from_s": 411.0,
+     "to_s": 412.45
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "Exercise1949",
+   "title": "Exercise and Health",
+   "year": "1949",
+   "source_page_url": "https://archive.org/details/Exercise1949",
+   "direct_file_url": "https://archive.org/download/Exercise1949/Exercise1949.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/Exercise1949.mp4",
+   "bytes": 61556887,
+   "sha256": "0fe5e61dacf762bfb7777db7aeba861f0ca5cbaaec82a0117beb5be108ecba17",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Exercise and Health (1949) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Coronet Instructional Films",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/Exercise1949/Exercise1949.mpeg",
+     "from_s": 174.5,
+     "duration_s": 4.438,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/Exercise1949/Exercise1949.mpeg",
+     "from_s": 213.0,
+     "duration_s": 1.793,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/Exercise1949/Exercise1949.mpeg",
+     "from_s": 218.0,
+     "duration_s": 3.018,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "S1b",
+     "from_s": 213.0,
+     "to_s": 214.79
+    },
+    {
+     "shot": "S3f",
+     "from_s": 174.5,
+     "to_s": 178.94
+    },
+    {
+     "shot": "S3g",
+     "from_s": 218.0,
+     "to_s": 221.02
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "Financin1935",
+   "title": "Financing the American Family",
+   "year": "ca. ",
+   "source_page_url": "https://archive.org/details/Financin1935",
+   "direct_file_url": "https://archive.org/download/Financin1935/Financin1935.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/Financin1935.mp4",
+   "bytes": 64654733,
+   "sha256": "5e3cd4abf8dcef1a69ffee62e160ee1c8e9fc31bc38f673d62eb9808ab3b0bd3",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Financing the American Family (ca. ) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Chicago Film Laboratory, Inc.",
+   "time_ranges_used": [],
+   "audio": "stripped (never used)",
+   "status": "downloaded, rejected",
+   "reason": "Not used: corporate name and logo (Household Finance Corporation) on screen."
+  },
+  {
+   "id": "Gossip1953",
+   "title": "Gossip",
+   "year": "1953",
+   "source_page_url": "https://archive.org/details/Gossip1953",
+   "direct_file_url": "https://archive.org/download/Gossip1953/Gossip1953.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/Gossip1953.mp4",
+   "bytes": 62933517,
+   "sha256": "466d280be0c9d6d3cbb85518c4466d27abf72cbcc42c6d433783ce49ff8de036",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Gossip (1953) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Davis (Sid) Productions",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/Gossip1953/Gossip1953.mpeg",
+     "from_s": 322.0,
+     "duration_s": 3.094,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/Gossip1953/Gossip1953.mpeg",
+     "from_s": 588.0,
+     "duration_s": 2.138,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "S5a",
+     "from_s": 322.0,
+     "to_s": 325.09
+    },
+    {
+     "shot": "S5b",
+     "from_s": 588.0,
+     "to_s": 590.14
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "HealthYo1953",
+   "title": "Health: Your Posture",
+   "year": "1953",
+   "source_page_url": "https://archive.org/details/HealthYo1953",
+   "direct_file_url": "https://archive.org/download/HealthYo1953/HealthYo1953.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/HealthYo1953.mp4",
+   "bytes": 66520877,
+   "sha256": "a7b618bd4605bc082327c391dd2ba047868cd8c4f387502616e7b7162b9ce036",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Health: Your Posture (1953) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Centron Corporation",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/HealthYo1953/HealthYo1953.mpeg",
+     "from_s": 309.6,
+     "duration_s": 3.702,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "S3r",
+     "from_s": 309.6,
+     "to_s": 313.3
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "IWanttoB1941",
+   "title": "I Want to Be a Secretary",
+   "year": "1941",
+   "source_page_url": "https://archive.org/details/IWanttoB1941",
+   "direct_file_url": "https://archive.org/download/IWanttoB1941/IWanttoB1941.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/IWanttoB1941.mp4",
+   "bytes": 99162906,
+   "sha256": "37d4eb817fbac40afbfafee78c4db31013d175c018a4bd57ac6616548ff5a86e",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "I Want to Be a Secretary (1941) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Coronet Instructional Films",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/IWanttoB1941/IWanttoB1941.mpeg",
+     "from_s": 417.6,
+     "duration_s": 4.365,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/IWanttoB1941/IWanttoB1941.mpeg",
+     "from_s": 425.6,
+     "duration_s": 3.0,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/IWanttoB1941/IWanttoB1941.mpeg",
+     "from_s": 483.0,
+     "duration_s": 1.88,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/IWanttoB1941/IWanttoB1941.mpeg",
+     "from_s": 666.5,
+     "duration_s": 2.572,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "S1f",
+     "from_s": 425.6,
+     "to_s": 428.6
+    },
+    {
+     "shot": "S2m",
+     "from_s": 417.6,
+     "to_s": 421.97
+    },
+    {
+     "shot": "S3j",
+     "from_s": 483.0,
+     "to_s": 484.88
+    },
+    {
+     "shot": "S3p",
+     "from_s": 666.5,
+     "to_s": 669.07
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "Immigrat1946",
+   "title": "Immigration",
+   "year": "1946",
+   "source_page_url": "https://archive.org/details/Immigrat1946",
+   "direct_file_url": "https://archive.org/download/Immigrat1946/Immigrat1946.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/Immigrat1946.mp4",
+   "bytes": 64752854,
+   "sha256": "1d9530a50c423a25cf1adeae7049154a37ae0cb4ae3622c902ee7c55fcfdf370",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Immigration (1946) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Encyclopaedia Britannica Films, Inc.",
+   "time_ranges_used": [],
+   "audio": "stripped (never used)",
+   "status": "downloaded, rejected",
+   "reason": "Not used (taste): Ellis Island inspections of real immigrants; cutting comedy against them would be distasteful."
+  },
+  {
+   "id": "Internat1941",
+   "title": "International Moves the Browns to Sterling Street",
+   "year": "1941",
+   "source_page_url": "https://archive.org/details/Internat1941",
+   "direct_file_url": "https://archive.org/download/Internat1941/Internat1941.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/Internat1941.mp4",
+   "bytes": 126794990,
+   "sha256": "945944edabdc8713526593925a4b19e7062f36de02be0ae4038a191029c120f7",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "International Moves the Browns to Sterling Street (1941) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Handy (Jam) Organization",
+   "time_ranges_used": [],
+   "audio": "stripped (never used)",
+   "status": "downloaded, not used in this sample"
+  },
+  {
+   "id": "MasterHa1936",
+   "title": "Master Hands (Part I)",
+   "year": "1936",
+   "source_page_url": "https://archive.org/details/MasterHa1936",
+   "direct_file_url": "https://archive.org/download/MasterHa1936/MasterHa1936.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/MasterHa1936.mp4",
+   "bytes": 30843747,
+   "sha256": "ffd2229ea2adbc23ccde7e621c0d1af9a6fb1ba6cebb44317e8594781ff7f73d",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Master Hands (Part I) (1936) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Handy (Jam) Organization",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/MasterHa1936/MasterHa1936.mpeg",
+     "from_s": 123.0,
+     "duration_s": 4.078,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/MasterHa1936/MasterHa1936.mpeg",
+     "from_s": 134.3,
+     "duration_s": 1.547,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/MasterHa1936/MasterHa1936.mpeg",
+     "from_s": 149.6,
+     "duration_s": 3.181,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/MasterHa1936/MasterHa1936.mpeg",
+     "from_s": 159.6,
+     "duration_s": 4.337,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "S1a",
+     "from_s": 149.6,
+     "to_s": 152.78
+    },
+    {
+     "shot": "S1c",
+     "from_s": 123.0,
+     "to_s": 127.08
+    },
+    {
+     "shot": "S3k",
+     "from_s": 159.6,
+     "to_s": 163.94
+    },
+    {
+     "shot": "S3l",
+     "from_s": 134.3,
+     "to_s": 135.85
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "OnGuard1956",
+   "title": "On Guard! The Story of SAGE",
+   "year": "ca. ",
+   "source_page_url": "https://archive.org/details/OnGuard1956",
+   "direct_file_url": "https://archive.org/download/OnGuard1956/OnGuard1956.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/OnGuard1956.mp4",
+   "bytes": 76358972,
+   "sha256": "84f65ffd79f446f96603fa758e5dda41c3580373f4896fabf46b8e2e36ce8341",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "On Guard! The Story of SAGE (ca. ) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "IBM Corporation, Military Products Division",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/OnGuard1956/OnGuard1956.mpeg",
+     "from_s": 382.3,
+     "duration_s": 5.814,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "S2i",
+     "from_s": 382.3,
+     "to_s": 388.11
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "Operator1949",
+   "title": "Operator Toll Dialing: Cord Signals",
+   "year": "ca. ",
+   "source_page_url": "https://archive.org/details/Operator1949",
+   "direct_file_url": "https://archive.org/download/Operator1949/Operator1949.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/Operator1949.mp4",
+   "bytes": 20807202,
+   "sha256": "f262717f0a7e8c36f625dcfb528970743f569329aefa54c8bcf9a033363b89b4",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Operator Toll Dialing: Cord Signals (ca. ) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Audio Productions, Inc.",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/Operator1949/Operator1949.mpeg",
+     "from_s": 48.0,
+     "duration_s": 4.434,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/Operator1949/Operator1949.mpeg",
+     "from_s": 99.0,
+     "duration_s": 1.652,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "C07",
+     "from_s": 48.0,
+     "to_s": 52.43
+    },
+    {
+     "shot": "C11",
+     "from_s": 99.0,
+     "to_s": 100.65
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "PlaneTal1965",
+   "title": "Plane Talk",
+   "year": "1965",
+   "source_page_url": "https://archive.org/details/PlaneTal1965",
+   "direct_file_url": "https://archive.org/download/PlaneTal1965/PlaneTal1965.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/PlaneTal1965.mp4",
+   "bytes": 134108034,
+   "sha256": "0cd220fb726ff3750422cae925bd197a8918e5204c8235a33da4c6fe43a2060b",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Plane Talk (1965) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Fairbanks (Jerry) Productions",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/PlaneTal1965/PlaneTal1965.mpeg",
+     "from_s": 230.6,
+     "duration_s": 3.292,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/PlaneTal1965/PlaneTal1965.mpeg",
+     "from_s": 448.6,
+     "duration_s": 4.918,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "S2j",
+     "from_s": 448.6,
+     "to_s": 453.52
+    },
+    {
+     "shot": "S3b",
+     "from_s": 230.6,
+     "to_s": 233.89
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "Suggesti1945",
+   "title": "Suggestion Box",
+   "year": "1945",
+   "source_page_url": "https://archive.org/details/Suggesti1945",
+   "direct_file_url": "https://archive.org/download/Suggesti1945/Suggesti1945.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/Suggesti1945.mp4",
+   "bytes": 55694356,
+   "sha256": "bbefbcf8b3543c3206fd8ff96719c5ba84718c7d9e1ccde3d6b460e66d1f15f8",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Suggestion Box (1945) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "U.S. Office of War Information",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/Suggesti1945/Suggesti1945.mpeg",
+     "from_s": 103.6,
+     "duration_s": 5.666,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/Suggesti1945/Suggesti1945.mpeg",
+     "from_s": 308.3,
+     "duration_s": 5.272,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "S3i",
+     "from_s": 103.6,
+     "to_s": 109.27
+    },
+    {
+     "shot": "S5f",
+     "from_s": 308.3,
+     "to_s": 313.57
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "Transpor1946",
+   "title": "Transportation: Bus, Truck, and Taxi",
+   "year": "ca. ",
+   "source_page_url": "https://archive.org/details/Transpor1946",
+   "direct_file_url": "https://archive.org/download/Transpor1946/Transpor1946.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/Transpor1946.mp4",
+   "bytes": 64132504,
+   "sha256": "4967d62cd45b481ea635d2d0916c9b5512c41a271c8b8723a8a46e987dfd972b",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Transportation: Bus, Truck, and Taxi (ca. ) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Holmes (Burton) Films, Inc.",
+   "time_ranges_used": [],
+   "audio": "stripped (never used)",
+   "status": "downloaded, not used in this sample"
+  },
+  {
+   "id": "Usingthe1947",
+   "title": "Using the Bank",
+   "year": "1947",
+   "source_page_url": "https://archive.org/details/Usingthe1947",
+   "direct_file_url": "https://archive.org/download/Usingthe1947/Usingthe1947.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/Usingthe1947.mp4",
+   "bytes": 65033090,
+   "sha256": "0968e5aad15f7a5b2704fd1e51c2765fb1945a77276361c6f21faa10c261905f",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Using the Bank (1947) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Encyclopaedia Britannica Films",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/Usingthe1947/Usingthe1947.mpeg",
+     "from_s": 494.5,
+     "duration_s": 3.062,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/Usingthe1947/Usingthe1947.mpeg",
+     "from_s": 516.2,
+     "duration_s": 5.216,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/Usingthe1947/Usingthe1947.mpeg",
+     "from_s": 556.4,
+     "duration_s": 4.293,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "C16",
+     "from_s": 494.5,
+     "to_s": 497.56
+    },
+    {
+     "shot": "S1d",
+     "from_s": 516.2,
+     "to_s": 521.42
+    },
+    {
+     "shot": "S5g",
+     "from_s": 556.4,
+     "to_s": 560.69
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "WorkingD1957",
+   "title": "Working Dollars",
+   "year": "1957",
+   "source_page_url": "https://archive.org/details/WorkingD1957",
+   "direct_file_url": "https://archive.org/download/WorkingD1957/WorkingD1957.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/WorkingD1957.mp4",
+   "bytes": 67136918,
+   "sha256": "2dca789772ac0cf21514c33f03671e4d1e87bd784a8e3ff2ed792e6cc887a9d6",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Working Dollars (1957) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Sutherland (John) Productions, Inc..",
+   "time_ranges_used": [],
+   "audio": "stripped (never used)",
+   "status": "downloaded, not used in this sample"
+  },
+  {
+   "id": "WorldThr1957",
+   "title": "World Through Stamps: The Stories Behind Postage Stamps, The",
+   "year": "1957",
+   "source_page_url": "https://archive.org/details/WorldThr1957",
+   "direct_file_url": "https://archive.org/download/WorldThr1957/WorldThr1957.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/WorldThr1957.mp4",
+   "bytes": 80166932,
+   "sha256": "a1bee61c015f3a253be2aca81b504e1caa47b85d5deb584e7f2d07c1164bfb5e",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "World Through Stamps: The Stories Behind Postage Stamps, The (1957) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": "Craven Film Corporation",
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/WorldThr1957/WorldThr1957.mpeg",
+     "from_s": 108.6,
+     "duration_s": 3.0,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/WorldThr1957/WorldThr1957.mpeg",
+     "from_s": 117.6,
+     "duration_s": 2.835,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "S1i",
+     "from_s": 108.6,
+     "to_s": 111.6
+    },
+    {
+     "shot": "S1j",
+     "from_s": 117.6,
+     "to_s": 120.43
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "basic_typing_1",
+   "title": "Basic Typing, Part I: Methods  (Part I)",
+   "year": "1944",
+   "source_page_url": "https://archive.org/details/basic_typing_1",
+   "direct_file_url": "https://archive.org/download/basic_typing_1/basic_typing_1.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/basic_typing_1.mp4",
+   "bytes": 100269361,
+   "sha256": "30b0676f4278c5d6aeae2bb647464a8c4dc96c197116cca28542ad970d73dc5c",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Basic Typing, Part I: Methods  (Part I) (1944) · Prelinger Archives (public domain), via Internet Archive",
+   "producer": null,
+   "time_ranges_used": [],
+   "audio": "stripped (never used)",
+   "status": "downloaded, not used in this sample"
+  },
+  {
+   "id": "big_board",
+   "title": "Big Board, The",
+   "year": null,
+   "source_page_url": "https://archive.org/details/big_board",
+   "direct_file_url": "https://archive.org/download/big_board/big_board.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/big_board.mp4",
+   "bytes": 80555506,
+   "sha256": "6e67b0f5766f5434bba8b9a3314c99b1af2effcb028016df928c4388e25f63c7",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Big Board, The · Prelinger Archives (public domain), via Internet Archive",
+   "producer": null,
+   "ranges_fetched_from_original": [
+    {
+     "direct_url": "https://archive.org/download/big_board/big_board.mpeg",
+     "from_s": 49.4,
+     "duration_s": 4.171,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/big_board/big_board.mpeg",
+     "from_s": 74.6,
+     "duration_s": 3.44,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/big_board/big_board.mpeg",
+     "from_s": 82.5,
+     "duration_s": 2.8,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/big_board/big_board.mpeg",
+     "from_s": 89.5,
+     "duration_s": 0.893,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/big_board/big_board.mpeg",
+     "from_s": 245.3,
+     "duration_s": 1.16,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    },
+    {
+     "direct_url": "https://archive.org/download/big_board/big_board.mpeg",
+     "from_s": 341.0,
+     "duration_s": 1.307,
+     "note": "ffmpeg -ss/-t range read of the MPEG-2 original (cleaner than the h.264 derivative); audio discarded"
+    }
+   ],
+   "time_ranges_used": [
+    {
+     "shot": "C17a",
+     "from_s": 89.5,
+     "to_s": 90.39
+    },
+    {
+     "shot": "C17b",
+     "from_s": 245.3,
+     "to_s": 246.46
+    },
+    {
+     "shot": "C17c",
+     "from_s": 341.0,
+     "to_s": 342.31
+    },
+    {
+     "shot": "S1g",
+     "from_s": 82.5,
+     "to_s": 85.3
+    },
+    {
+     "shot": "S5j",
+     "from_s": 49.4,
+     "to_s": 53.57
+    },
+    {
+     "shot": "S5k",
+     "from_s": 74.6,
+     "to_s": 78.04
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "loc-00564539",
+   "title": "Cancelling machine, U.S.P.O.",
+   "year": "1903",
+   "source_page_url": "https://www.loc.gov/item/00564539/",
+   "direct_file_url": "https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00051989/00051989.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/loc-00564539.mp4",
+   "bytes": 54163711,
+   "sha256": "980d396476d2b055435debb3c152b59513577807f973ff9ae00ed4baf705b04a",
+   "licence_basis": {
+    "rights_field_quote": "The Library of Congress is not aware of any U.S. copyright or other restrictions in the vast majority of motion pictures in these collections. Absent any such restrictions, these materials are free to use and reuse.\r",
+    "created_published": [
+     "United States : American Mutoscope & Biograph Company, 1903."
+    ],
+    "basis": "Published in the United States in 1903-1906 (before 1931): public domain in the US."
+   },
+   "credit_line": "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division",
+   "producer": "Weed, A. E., camera",
+   "time_ranges_used": [
+    {
+     "shot": "C14",
+     "from_s": 20.0,
+     "to_s": 23.3
+    },
+    {
+     "shot": "S3q",
+     "from_s": 45.0,
+     "to_s": 47.17
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "loc-00564543",
+   "title": "Clerks casing mail for bags, U.S.P.O.",
+   "year": "1903",
+   "source_page_url": "https://www.loc.gov/item/00564543/",
+   "direct_file_url": "https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00051993/00051993.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/loc-00564543.mp4",
+   "bytes": 50447416,
+   "sha256": "fa06d445625e1a709fd65a983b8bceb7fb1c3ed3d8fa7e3ad57ccf8c1f59453b",
+   "licence_basis": {
+    "rights_field_quote": "The Library of Congress is not aware of any U.S. copyright or other restrictions in the vast majority of motion pictures in these collections. Absent any such restrictions, these materials are free to use and reuse.\r",
+    "created_published": [
+     "United States : American Mutoscope & Biograph Company, 1903."
+    ],
+    "basis": "Published in the United States in 1903-1906 (before 1931): public domain in the US."
+   },
+   "credit_line": "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division",
+   "producer": "Weed, A. E., camera",
+   "time_ranges_used": [],
+   "audio": "stripped (never used)",
+   "status": "downloaded, not used in this sample"
+  },
+  {
+   "id": "loc-00564547",
+   "title": "Collecting mail, U.S.P.O.",
+   "year": "1903",
+   "source_page_url": "https://www.loc.gov/item/00564547/",
+   "direct_file_url": "https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00051997/00051997.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/loc-00564547.mp4",
+   "bytes": 54177048,
+   "sha256": "7e825ca5e954a9d0ec0860b0e127bf43c124209c24deb120fdcdde1b3c483d15",
+   "licence_basis": {
+    "rights_field_quote": "The Library of Congress is not aware of any U.S. copyright or other restrictions in the vast majority of motion pictures in these collections. Absent any such restrictions, these materials are free to use and reuse.\r",
+    "created_published": [
+     "United States : American Mutoscope & Biograph Company, 1903."
+    ],
+    "basis": "Published in the United States in 1903-1906 (before 1931): public domain in the US."
+   },
+   "credit_line": "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division",
+   "producer": "Weed, A. E., camera",
+   "time_ranges_used": [],
+   "audio": "stripped (never used)",
+   "status": "downloaded, not used in this sample"
+  },
+  {
+   "id": "loc-00564550",
+   "title": "Loading mail car, U.S.P.O.",
+   "year": "1903",
+   "source_page_url": "https://www.loc.gov/item/00564550/",
+   "direct_file_url": "https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00052000/00052000.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/loc-00564550.mp4",
+   "bytes": 54012841,
+   "sha256": "ee14e530c6044bf8c3e64e15114c7c24ed350ac885ada51b30e7b3e2298a23e3",
+   "licence_basis": {
+    "rights_field_quote": "The Library of Congress is not aware of any U.S. copyright or other restrictions in the vast majority of motion pictures in these collections. Absent any such restrictions, these materials are free to use and reuse.\r",
+    "created_published": [
+     "United States : American Mutoscope & Biograph Company, 1903."
+    ],
+    "basis": "Published in the United States in 1903-1906 (before 1931): public domain in the US."
+   },
+   "credit_line": "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division",
+   "producer": "Weed, A. E., camera",
+   "time_ranges_used": [
+    {
+     "shot": "S5h",
+     "from_s": 40.0,
+     "to_s": 43.78
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "loc-00564551",
+   "title": "Train taking up mail bag, U.S.P.O.",
+   "year": "1903",
+   "source_page_url": "https://www.loc.gov/item/00564551/",
+   "direct_file_url": "https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00060845/00060845.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/loc-00564551.mp4",
+   "bytes": 50832699,
+   "sha256": "0339d4c3ad6e96db658626f062a2295d86f0dc82e2b384f43d2d748ac80e9254",
+   "licence_basis": {
+    "rights_field_quote": "The Library of Congress is not aware of any U.S. copyright or other restrictions in the vast majority of motion pictures in these collections. Absent any such restrictions, these materials are free to use and reuse.\r",
+    "created_published": [
+     "United States : American Mutoscope & Biograph Company, 1903."
+    ],
+    "basis": "Published in the United States in 1903-1906 (before 1931): public domain in the US."
+   },
+   "credit_line": "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division",
+   "producer": "Weed, A. E., camera",
+   "time_ranges_used": [],
+   "audio": "stripped (never used)",
+   "status": "downloaded, not used in this sample"
+  },
+  {
+   "id": "loc-00564567",
+   "title": "Routing mail, U.S.P.O.",
+   "year": "1903",
+   "source_page_url": "https://www.loc.gov/item/00564567/",
+   "direct_file_url": "https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00060833/00060833.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/loc-00564567.mp4",
+   "bytes": 56931507,
+   "sha256": "3ed371d8b0504f5e7cc24948afe1be1a106507b0691a596b640e825f038a2ef8",
+   "licence_basis": {
+    "rights_field_quote": "The Library of Congress is not aware of any U.S. copyright or other restrictions in the vast majority of motion pictures in these collections. Absent any such restrictions, these materials are free to use and reuse.\r",
+    "created_published": [
+     "United States : American Mutoscope & Biograph Company, 1903."
+    ],
+    "basis": "Published in the United States in 1903-1906 (before 1931): public domain in the US."
+   },
+   "credit_line": "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division",
+   "producer": "Weed, A. E., camera",
+   "time_ranges_used": [
+    {
+     "shot": "S3c",
+     "from_s": 22.0,
+     "to_s": 25.2
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "loc-00564573",
+   "title": "Throwing mail into bags, U.S.P.O.",
+   "year": "1903",
+   "source_page_url": "https://www.loc.gov/item/00564573/",
+   "direct_file_url": "https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00060843/00060843.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/loc-00564573.mp4",
+   "bytes": 51669421,
+   "sha256": "7440097b1b1059fcc281c7caee07ead3c13c8b68ff67a02063c31905069ee140",
+   "licence_basis": {
+    "rights_field_quote": "The Library of Congress is not aware of any U.S. copyright or other restrictions in the vast majority of motion pictures in these collections. Absent any such restrictions, these materials are free to use and reuse.\r",
+    "created_published": [
+     "United States : American Mutoscope & Biograph Company, 1903."
+    ],
+    "basis": "Published in the United States in 1903-1906 (before 1931): public domain in the US."
+   },
+   "credit_line": "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division",
+   "producer": "Weed, A. E., camera",
+   "time_ranges_used": [
+    {
+     "shot": "S3d",
+     "from_s": 30.0,
+     "to_s": 33.45
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "loc-00694200",
+   "title": "Fast mail, Northern Pacific R. R.",
+   "year": "1897",
+   "source_page_url": "https://www.loc.gov/item/00694200/",
+   "direct_file_url": "https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00047115/00047115.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/loc-00694200.mp4",
+   "bytes": 51133395,
+   "sha256": "6f71b5c502fff1960f2c405743675eb0f8f0606a77f190e78d9f0f62d01e5388",
+   "licence_basis": {
+    "rights_field_quote": "The Library of Congress is not aware of any U.S. copyright or other restrictions in the vast majority of motion pictures in these collections. Absent any such restrictions, these materials are free to use and reuse.\r",
+    "created_published": [
+     "United States : Edison Manufacturing Co., 1897."
+    ],
+    "basis": "Published in the United States in 1903-1906 (before 1931): public domain in the US."
+   },
+   "credit_line": "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division",
+   "producer": "White, James H. (James Henry), production",
+   "time_ranges_used": [],
+   "audio": "stripped (never used)",
+   "status": "downloaded, not used in this sample"
+  },
+  {
+   "id": "loc-00694408",
+   "title": "A trip down Market Street before the fire",
+   "year": "1906",
+   "source_page_url": "https://www.loc.gov/item/00694408/",
+   "direct_file_url": "https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00015143/00015143.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/loc-00694408.mp4",
+   "bytes": 226536580,
+   "sha256": "13938707da4cf835a7f6215980b013a8370a13ec6447d292e0f4c498fe938c58",
+   "licence_basis": {
+    "rights_field_quote": "The contents of the Library of Congress Before and After the Great Earthquake and Fire: Early Films of San Francisco, 1897 to 1916 Collection are in the public domain and are free to use and reuse.",
+    "created_published": [
+     "[United States : Miles Brothers, 1906]."
+    ],
+    "basis": "Published in the United States in 1903-1906 (before 1931): public domain in the US."
+   },
+   "credit_line": "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division",
+   "producer": "Miles Brothers",
+   "time_ranges_used": [
+    {
+     "shot": "C12",
+     "from_s": 120.0,
+     "to_s": 124.19
+    }
+   ],
+   "audio": "stripped (never used)",
+   "status": "used"
+  },
+  {
+   "id": "salvaged_skills",
+   "title": "Industry on Parade: Serving Those Who Served, Salvaged Skills",
+   "year": null,
+   "source_page_url": "https://archive.org/details/salvaged_skills",
+   "direct_file_url": "https://archive.org/download/salvaged_skills/salvaged_skills.mp4",
+   "local_path": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad/vault/dl/salvaged_skills.mp4",
+   "bytes": 38214564,
+   "sha256": "192b369a9d7f722483dfc9302c76f066b2629ad5899e5d388c650e0915be5fe0",
+   "licence_basis": {
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "collection": "prelinger",
+    "basis": "Item metadata field 'licenseurl' states Public Domain (archive.org)."
+   },
+   "credit_line": "Industry on Parade: Serving Those Who Served, Salvaged Skills · Prelinger Archives (public domain), via Internet Archive",
+   "producer": null,
+   "time_ranges_used": [],
+   "audio": "stripped (never used)",
+   "status": "downloaded, rejected",
+   "reason": "Not used (taste): wounded veterans' rehabilitation framed as 'salvage'; wrong as a joke about things 'the register forgot'."
+  }
+ ]
+}

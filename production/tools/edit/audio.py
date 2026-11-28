@@ -161,7 +161,8 @@ def load_conformed(spec, resolve, log):
             continue
         clip = decode(p, 1)[:, 0] * db(ln.get("gain_db", 0.0))
         rec = dict(id=ln["id"], speaker=ln["speaker"], tags=ln.get("tags", ""), start=ln["start_s"], dur=len(clip) / SR,
-                   text=ln.get("text", ""), audio=clip.astype(np.float32), src=p, sub=ln.get("sub", True))
+                   text=ln.get("text", ""), audio=clip.astype(np.float32), src=p, sub=ln.get("sub", True),
+                   card=ln.get("card", True))
         if ln.get("reverb_db") is not None and ln.get("reverb_ir"):
             ip = resolve(ln["reverb_ir"])
             if ip not in ir_cache:
@@ -175,6 +176,28 @@ def load_conformed(spec, resolve, log):
         out.append(rec)
     log.append(f"dialogue: {len(out)} final stems placed from the conform sheet" + (f"; {miss} MISSING" if miss else ""))
     return out
+
+
+def amplitudes(lines, total_s, rate=96, range_db=30.0):
+    """Per-speaker amplitude of the placed stems at `rate` Hz, 0..1 on a log scale (range_db below each
+    speaker's 95th percentile). Drives the comm-card waveforms: the bars are the line's real audio."""
+    n = int(math.ceil(total_s * rate)) + 1
+    hop = SR // rate
+    res = {}
+    for ln in lines:
+        e = res.setdefault(ln["speaker"], np.zeros(n, np.float32))
+        x = ln["audio"]; k = len(x) // hop
+        if k == 0:
+            continue
+        rms = np.sqrt((x[:k * hop].reshape(k, hop) ** 2).mean(1) + 1e-12)
+        i0 = int(round(ln["start"] * rate))
+        j0, j1 = max(0, -i0), min(k, n - i0)
+        if j1 > j0:
+            e[i0 + j0:i0 + j1] = np.maximum(e[i0 + j0:i0 + j1], rms[j0:j1])
+    for spk, e in res.items():
+        ref = np.percentile(e[e > 1e-4], 95) if (e > 1e-4).any() else 1
+        res[spk] = np.clip(20 * np.log10(e / ref + 1e-9) / range_db + 1, 0, 1).astype(np.float32)
+    return res
 
 
 def envelopes(lines, total_s, fps):

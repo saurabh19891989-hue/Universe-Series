@@ -106,8 +106,9 @@ def main():
     if not a.no_audio:
         aud = A.build(SL, [(t["shot"].get("audio", {}), t["start_s"]) for t in timeline], total, fps, resolve, work, log)
         env = {k: v.tolist() for k, v in aud["env"].items()}
+        amp = A.amplitudes(aud["lines"], total, 96) if SL.get("overlays") else {}
     else:
-        aud = None; env = {}
+        aud = None; env = {}; amp = {}
     t_audio = time.time() - ta
 
     # ---------------- sync check: every line should start inside the shot that lists it
@@ -135,16 +136,29 @@ def main():
         i0, i1 = t["f0"], t["f0"] + t["frames"]
         envs = {k: env[k] for k in spk if k in env}
         env_sl = {k: [round(x, 4) for x in v[i0:i1 + 1]] for k, v in envs.items()}
-        key = sha(sh, ctx["finish"], enc, [W, H, fps], src_hash, assets, env_sl, t["frames"])
+        ov_data = None
+        if SL.get("overlays"):
+            s0, s1 = t["start_s"], t["start_s"] + t["frames"] / fps
+            a0 = max(0.0, s0 - 2.0); i_a, i_b = int(a0 * 96), int((s1 + 0.5) * 96) + 1
+            ov_data = dict(amp_rate=96, amp_t0=i_a / 96.0,
+                           amp={k: [round(float(x), 3) for x in v[i_a:i_b]] for k, v in amp.items()},
+                           lines=[dict(id=l["id"], speaker=l["speaker"], start=round(l["start"], 4), dur=round(l["dur"], 4),
+                                       text=l.get("text", ""), sub=l.get("sub", True), card=l.get("card", True))
+                                  for l in (aud["lines"] if aud else []) if l["start"] < s1 + 0.5 and l["start"] + l["dur"] + 6.0 > s0 - 6.0])
+            assets += sorted(file_fp(resolve(x)) for x in strings_in(SL["overlays"]) if "/" in x and os.path.exists(resolve(x)))
+        key = sha(sh, ctx["finish"], enc, [W, H, fps], src_hash, assets, env_sl, t["frames"], SL.get("overlays"), ov_data)
         seg = os.path.join(segd, f"{sh['id']}-{key}.mp4")
         seg_paths.append(seg)
         need = a.force or not os.path.exists(seg) or bool(a.only and sh["id"] in a.only)
         if need:
-            jobs.append(dict(shot=sh, ctx=dict(ctx, env=envs), out=seg, frames=t["frames"], start_s=t["start_s"]))
+            jobs.append(dict(shot=sh, ctx=dict(ctx, env=envs, overlays=SL.get("overlays"), ov_data=ov_data), out=seg,
+                             frames=t["frames"], start_s=t["start_s"]))
+        t["ov_data"] = ov_data
     if a.preview:
         pv = os.path.join(outd, "preview"); os.makedirs(pv, exist_ok=True)
         fr = [float(x) for x in a.preview.split(",")]
-        pj = [dict(shot=t["shot"], ctx=dict(ctx, env={k: env[k] for k in env}), start_s=t["start_s"], fracs=fr, out_dir=pv)
+        pj = [dict(shot=t["shot"], ctx=dict(ctx, env={k: env[k] for k in env}, overlays=SL.get("overlays"), ov_data=t.get("ov_data")),
+                   start_s=t["start_s"], fracs=fr, out_dir=pv)
               for t in timeline if not a.only or t["shot"]["id"] in a.only]
         with get_context("spawn").Pool(a.workers) as pool:
             for r in pool.imap_unordered(E.preview_shot, pj):

@@ -1,0 +1,7151 @@
+{
+ "version": 1,
+ "name": "E01-archive-sample",
+ "episode": "E01",
+ "unit": "archive-sample",
+ "note": "PIP's file on the case: first ~4:52 of Episode 1 (cold open, title, scenes 1-5) in the archive format. Built by arch/build.py.",
+ "vars": {
+  "SCRATCH": "/tmp/claude-0/-home-user-Universe-Series/3757f133-43aa-510b-bfaf-b45b089ed136/scratchpad"
+ },
+ "output": {
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "crf": 18,
+  "preset": "medium"
+ },
+ "finish": {
+  "grain": 0.018,
+  "halation": 0.35,
+  "weave_px": 0.3,
+  "vignette": 0.3,
+  "saturation": 1.05,
+  "split_tone": 0.6,
+  "pre_gain": 1.18
+ },
+ "dialogue": {
+  "lines": [
+   {
+    "id": "0-01",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L001_PIP.wav",
+    "start_s": 2.0,
+    "text": "Captain. The bank has taken the left engine."
+   },
+   {
+    "id": "0-02",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L002_JAX.wav",
+    "start_s": 4.725,
+    "text": "Which one's the left?"
+   },
+   {
+    "id": "0-03",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L003_PIP.wav",
+    "start_s": 5.86,
+    "text": "The one that has stopped."
+   },
+   {
+    "id": "0-04",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L004_PIP.wav",
+    "start_s": 7.518,
+    "text": "And the navigation lights. And the heating. And the coffee machine."
+   },
+   {
+    "id": "0-05",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L005_JAX.wav",
+    "start_s": 11.604,
+    "text": "They can't take the coffee machine."
+   },
+   {
+    "id": "0-06",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L006_PIP.wav",
+    "start_s": 13.239,
+    "text": "It was financed separately."
+   },
+   {
+    "id": "0-07",
+    "speaker": "TEMI",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L007_TEMI_treated.wav",
+    "start_s": 15.304,
+    "text": "Good morning! This is Temi in Recoveries. Your vessel is being recovered."
+   },
+   {
+    "id": "0-08",
+    "speaker": "TEMI",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L008_TEMI_treated.wav",
+    "start_s": 19.073,
+    "text": "Full recovery, including the air, at six tonight, lunar time. Please remain seated while—"
+   },
+   {
+    "id": "0-09",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L009_JAX.wav",
+    "start_s": 23.434,
+    "text": "Temi! Hi! I'm about to make a payment—"
+   },
+   {
+    "id": "0-10",
+    "speaker": "TEMI",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L010_TEMI_treated.wav",
+    "start_s": 26.329,
+    "text": "—we disable your—"
+   },
+   {
+    "id": "0-11",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L011_JAX.wav",
+    "start_s": 27.251,
+    "text": "A big one. Enormous—"
+   },
+   {
+    "id": "0-12",
+    "speaker": "TEMI",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L012_TEMI_treated.wav",
+    "start_s": 28.177,
+    "text": "Hello! You're speaking to Temi in Recoveries!"
+   },
+   {
+    "id": "0-13",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L013_JAX.wav",
+    "start_s": 30.636,
+    "text": "Why does she keep doing that?"
+   },
+   {
+    "id": "0-14",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L014_PIP.wav",
+    "start_s": 32.088,
+    "text": "She is in Lagos. You are arguing with the past."
+   },
+   {
+    "id": "0-15",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L015_JAX.wav",
+    "start_s": 35.389,
+    "text": "And I'm winning."
+   },
+   {
+    "id": "0-16",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L016_PIP.wav",
+    "start_s": 37.28,
+    "text": "A job, posted to us directly. One parcel, sealed, prepaid. Shackleton crater, by six tonight. The fee is—"
+   },
+   {
+    "id": "0-17",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L017_JAX.wav",
+    "start_s": 44.369,
+    "text": "Is?"
+   },
+   {
+    "id": "0-18",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L018_PIP.wav",
+    "start_s": 45.019,
+    "text": "Exactly what we owe. To the cent."
+   },
+   {
+    "id": "0-19",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L019_JAX.wav",
+    "start_s": 47.531,
+    "text": "Take it."
+   },
+   {
+    "id": "0-20",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L020_PIP.wav",
+    "start_s": 48.324,
+    "text": "You have not read the—"
+   },
+   {
+    "id": "0-21",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L021_JAX.wav",
+    "start_s": 49.484,
+    "text": "Take it take it take it take it—"
+   },
+   {
+    "id": "0-22",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L022_PIP.wav",
+    "start_s": 50.731,
+    "text": "Accepted. I am also filing a report on you. Once is binding."
+   },
+   {
+    "id": "0-23",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L023_JAX.wav",
+    "start_s": 56.267,
+    "text": "Who sends a parcel to a crater?"
+   },
+   {
+    "id": "0-24",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L024_PIP.wav",
+    "start_s": 57.964,
+    "text": "Someone who knew precisely how much we owed."
+   },
+   {
+    "id": "0-25",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L025_JAX.wav",
+    "start_s": 60.986,
+    "text": "Lucky."
+   },
+   {
+    "id": "0-26",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S00_L026_PIP.wav",
+    "start_s": 61.672,
+    "text": "Filed under \"arithmetic\"."
+   },
+   {
+    "id": "1-01",
+    "speaker": "LUCIA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S01_L001_LUCIA_treated.wav",
+    "start_s": 75.6,
+    "text": "Eleven."
+   },
+   {
+    "id": "1-02",
+    "speaker": "LUCIA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S01_L002_LUCIA_treated.wav",
+    "start_s": 76.381,
+    "text": "That's a nine."
+   },
+   {
+    "id": "1-03",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S01_L003_JAX.wav",
+    "start_s": 77.289,
+    "text": "It's a nine that believes in itself."
+   },
+   {
+    "id": "1-04",
+    "speaker": "LUCIA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S01_L004_LUCIA_treated.wav",
+    "start_s": 79.074,
+    "text": "Eight months, Jax. Eight months unpaid is called volunteering."
+   },
+   {
+    "id": "1-05",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S01_L005_JAX.wav",
+    "start_s": 83.197,
+    "text": "Today. Off the top. Before fuel, before food, before me."
+   },
+   {
+    "id": "1-06",
+    "speaker": "LUCIA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S01_L006_LUCIA_treated.wav",
+    "start_s": 86.64,
+    "text": "Before you?"
+   },
+   {
+    "id": "1-07",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S01_L007_JAX.wav",
+    "start_s": 87.392,
+    "text": "Before me."
+   },
+   {
+    "id": "1-08",
+    "speaker": "LUCIA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S01_L008_LUCIA_treated.wav",
+    "start_s": 88.318,
+    "text": "Say it to Pip. So it's on record."
+   },
+   {
+    "id": "1-09",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S01_L009_PIP_treated.wav",
+    "start_s": 90.189,
+    "text": "Recorded. I have filed it with the one from March, and the one from May. May's was louder."
+   },
+   {
+    "id": "1-10",
+    "speaker": "LUCIA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S01_L010_LUCIA.wav",
+    "start_s": 96.339,
+    "text": "It's warm."
+   },
+   {
+    "id": "1-11",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S01_L011_PIP_treated.wav",
+    "start_s": 97.173,
+    "text": "Twenty-one degrees. According to its stamps, it has been twenty-one degrees for twenty years."
+   },
+   {
+    "id": "1-12",
+    "speaker": "LUCIA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S01_L012_LUCIA.wav",
+    "start_s": 103.289,
+    "text": "Something in here is alive. Or very well wrapped."
+   },
+   {
+    "id": "2-01",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L001_PIP.wav",
+    "start_s": 109.6,
+    "text": "Shackleton crater. Eleven minutes. We will be four hours early. I have never been early."
+   },
+   {
+    "id": "2-02",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L002_JAX.wav",
+    "start_s": 115.452,
+    "text": "Enjoy it."
+   },
+   {
+    "id": "2-03",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L003_PIP.wav",
+    "start_s": 116.297,
+    "text": "Captain."
+   },
+   {
+    "id": "2-04",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L004_JAX.wav",
+    "start_s": 117.155,
+    "text": "Typo."
+   },
+   {
+    "id": "2-05",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L005_JAX.wav",
+    "start_s": 118.006,
+    "text": "\"The Silver Hat.\" I'd go there."
+   },
+   {
+    "id": "2-06",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L006_JAX.wav",
+    "start_s": 119.647,
+    "text": "\"The.\" We can work with \"The\"."
+   },
+   {
+    "id": "2-07",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L007_PIP.wav",
+    "start_s": 121.088,
+    "text": "I am afraid \"The\" is not an address."
+   },
+   {
+    "id": "2-08",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L008_JAX.wav",
+    "start_s": 123.774,
+    "text": "It's a crater, Pip. Craters don't leave."
+   },
+   {
+    "id": "2-09",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L009_PIP.wav",
+    "start_s": 125.889,
+    "text": "The crater is still there, Captain. It has merely stopped being anywhere."
+   },
+   {
+    "id": "2-10",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L010_JAX.wav",
+    "start_s": 130.258,
+    "text": "Did we do that?"
+   },
+   {
+    "id": "2-11",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L011_PIP.wav",
+    "start_s": 131.245,
+    "text": "We are not that important."
+   },
+   {
+    "id": "2-12",
+    "speaker": "MAMANI",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L012_MAMANI_treated.wav",
+    "start_s": 133.301,
+    "text": "Unscheduled, Rim Port control. Your destination was withdrawn from the Atlas at fourteen-oh-two."
+   },
+   {
+    "id": "2-13",
+    "speaker": "MAMANI",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L013_MAMANI_treated.wav",
+    "start_s": 139.115,
+    "text": "All goods for it are held by customs. Land at bay nine."
+   },
+   {
+    "id": "2-14",
+    "speaker": "MAMANI",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L014_MAMANI_treated.wav",
+    "start_s": 142.633,
+    "text": "Do not open your hold. Your client is nowhere, Captain. I'm sorry."
+   },
+   {
+    "id": "2-15",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L015_PIP.wav",
+    "start_s": 146.356,
+    "text": "I am filing a report on the Atlas. Withdrawn without notice to the carrier."
+   },
+   {
+    "id": "2-16",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L016_JAX.wav",
+    "start_s": 151.714,
+    "text": "Who reads those?"
+   },
+   {
+    "id": "2-17",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S02_L017_PIP.wav",
+    "start_s": 152.866,
+    "text": "That is not the point of them."
+   },
+   {
+    "id": "3-01",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L001_MIRA.wav",
+    "start_s": 157.4,
+    "text": "Next.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-02",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L002_JAX.wav",
+    "start_s": 158.33,
+    "text": "There's no one else here.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-03",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L003_MIRA.wav",
+    "start_s": 159.618,
+    "text": "It's procedure. Next.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-04",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L004_MIRA.wav",
+    "start_s": 161.592,
+    "text": "Parcel, one. Sealed. Addressed to a district withdrawn at fourteen-oh-two. Seized at fourteen-nineteen.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-05",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L005_JAX.wav",
+    "start_s": 168.241,
+    "text": "Here's my situation. My aunt—",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-06",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L006_MIRA.wav",
+    "start_s": 169.771,
+    "text": "You don't have an aunt.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-07",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L007_JAX.wav",
+    "start_s": 171.407,
+    "text": "You don't know that.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-08",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L008_MIRA.wav",
+    "start_s": 172.477,
+    "text": "Your form says next of kin: none.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-09",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L009_JAX.wav",
+    "start_s": 175.015,
+    "text": "She's very distant. Look — I can tell you're someone who appreciates flexibility.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-10",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L010_MIRA.wav",
+    "start_s": 179.833,
+    "text": "I'm a cartographer. I appreciate where things actually are.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-11",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L011_JAX.wav",
+    "start_s": 183.635,
+    "text": "Then you'll appreciate the Lunar Courier Exemption. Section twelve.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-12",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L012_MIRA.wav",
+    "start_s": 187.434,
+    "text": "There are nine sections.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-13",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L013_JAX.wav",
+    "start_s": 189.301,
+    "text": "Which is why twelve is so exclusive.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-14",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L014_MIRA.wav",
+    "start_s": 191.181,
+    "text": "Is there anything true you'd like to tell me, Captain? Before I stamp it.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-15",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L015_JAX.wav",
+    "start_s": 195.568,
+    "text": "I'm very good at my job.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-16",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L016_MIRA.wav",
+    "start_s": 197.065,
+    "text": "You're four hours from losing your ship.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-17",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L017_JAX.wav",
+    "start_s": 199.618,
+    "text": "I'm good at it in bursts.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-18",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L018_MIRA.wav",
+    "start_s": 200.919,
+    "text": "Your record starts seven years ago.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-19",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L019_JAX.wav",
+    "start_s": 203.44,
+    "text": "Late bloomer.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-20",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L020_MIRA.wav",
+    "start_s": 204.381,
+    "text": "Your record isn't late, Captain. It's blank.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-21",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L021_JAX.wav",
+    "start_s": 207.218,
+    "text": "Is that a problem?",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-22",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L022_MIRA.wav",
+    "start_s": 208.322,
+    "text": "Not for customs.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-23",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L023_JAX.wav",
+    "start_s": 210.74,
+    "text": "Can I at least see it?",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-24",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L024_MIRA.wav",
+    "start_s": 211.964,
+    "text": "Holding bay.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "3-25",
+    "speaker": "BARON",
+    "src": "${SCRATCH}/e01/dialogue/E01_S03_L025_BARON_treated.wav",
+    "start_s": 213.391,
+    "text": "I used to be taller!"
+   },
+   {
+    "id": "4-01",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S04_L001_MIRA.wav",
+    "start_s": 216.9,
+    "text": "Which owner?",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "4-02",
+    "speaker": "NOAKES",
+    "src": "${SCRATCH}/e01/dialogue/E01_S04_L002_NOAKES.wav",
+    "start_s": 218.365,
+    "text": "Doctor Sen. We discussed the notebook.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "4-03",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S04_L003_MIRA.wav",
+    "start_s": 220.46,
+    "text": "We discussed it being on my desk. It's in my hand.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "4-04",
+    "speaker": "NOAKES",
+    "src": "${SCRATCH}/e01/dialogue/E01_S04_L004_NOAKES.wav",
+    "start_s": 224.021,
+    "text": "You were struck off for saying the map was wrong. Please don't get struck off again for saying it louder.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "4-05",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S04_L005_MIRA.wav",
+    "start_s": 229.132,
+    "text": "It is wrong.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "4-06",
+    "speaker": "NOAKES",
+    "src": "${SCRATCH}/e01/dialogue/E01_S04_L006_NOAKES.wav",
+    "start_s": 230.545,
+    "text": "It's official. Those aren't opposites, Doctor Sen. They're departments.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "4-07",
+    "speaker": "NOAKES",
+    "src": "${SCRATCH}/e01/dialogue/E01_S04_L007_NOAKES.wav",
+    "start_s": 234.056,
+    "text": "One more complaint and your probation ends. Let nothing happen. One more day.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "4-08",
+    "speaker": "MIRA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S04_L008_MIRA.wav",
+    "start_s": 238.243,
+    "text": "I'll be quiet.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "5-01",
+    "speaker": "LUCIA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L001_LUCIA_treated.wav",
+    "start_s": 241.6,
+    "text": "Is it the box? Tell me it's not the box."
+   },
+   {
+    "id": "5-02",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L002_JAX.wav",
+    "start_s": 244.127,
+    "text": "It's not the box.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "5-03",
+    "speaker": "LUCIA",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L003_LUCIA_treated.wav",
+    "start_s": 245.296,
+    "text": "It's the box."
+   },
+   {
+    "id": "5-04",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L004_PIP_treated.wav",
+    "start_s": 246.315,
+    "text": "She has hung up. Captain, there is a man next to you."
+   },
+   {
+    "id": "5-05",
+    "speaker": "CHICHIKOV",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L005_CHICHIKOV.wav",
+    "start_s": 249.836,
+    "text": "Please. Don't stop on my account.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "5-06",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L006_JAX.wav",
+    "start_s": 252.139,
+    "text": "How long have you been there?",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "5-07",
+    "speaker": "CHICHIKOV",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L007_CHICHIKOV.wav",
+    "start_s": 253.466,
+    "text": "Long enough to be sorry about your parcel. A hundred and eighty-two thousand, isn't it?",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "5-08",
+    "speaker": "CHICHIKOV",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L008_CHICHIKOV.wav",
+    "start_s": 259.251,
+    "text": "The lien on The Unscheduled. And Miss Ortega — eight months. That's a long time to be loyal.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "5-09",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L009_JAX.wav",
+    "start_s": 266.309,
+    "text": "Who are you?",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "5-10",
+    "speaker": "CHICHIKOV",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L010_CHICHIKOV.wav",
+    "start_s": 267.202,
+    "text": "A buyer. I buy what the register has forgotten, Captain. You would be amazed how much of it still works.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "5-11",
+    "speaker": "CHICHIKOV",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L011_CHICHIKOV.wav",
+    "start_s": 274.385,
+    "text": "If your parcel should become available.",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "5-12",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L012_JAX.wav",
+    "start_s": 276.879,
+    "text": "Chich... Chicha...",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "5-13",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L013_JAX.wav",
+    "start_s": 278.189,
+    "text": "Pip. Did you get a look at him?",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "5-14",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L014_PIP_treated.wav",
+    "start_s": 279.667,
+    "text": "I have logged him as \"man, average\"."
+   },
+   {
+    "id": "5-15",
+    "speaker": "JAX",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L015_JAX.wav",
+    "start_s": 282.36,
+    "text": "What did he look like?",
+    "reverb_db": -17,
+    "reverb_ir": "${SCRATCH}/e01/sfx/customs_hall_reverb_tail_ir.wav"
+   },
+   {
+    "id": "5-16",
+    "speaker": "PIP",
+    "src": "${SCRATCH}/e01/dialogue/E01_S05_L016_PIP_treated.wav",
+    "start_s": 283.539,
+    "text": "Average."
+   }
+  ],
+  "gain_db": 0.0
+ },
+ "music": [
+  {
+   "id": "M01",
+   "src": "${SCRATCH}/e01/music/E01-M01-cold-open-under-dialogue.wav",
+   "start_s": 0.3,
+   "gain_db": -6,
+   "duck": true,
+   "fade_in": 2.0,
+   "fade_out": 1.2,
+   "trim_s": 63.5
+  },
+  {
+   "id": "title-sting",
+   "src": "${REPO}/samples/music/v2/A1-title-sting-10s.mp3",
+   "start_s": 64.0,
+   "gain_db": -3,
+   "duck": false,
+   "fade_out": 0.6
+  },
+  {
+   "id": "C10",
+   "src": "${SCRATCH}/e01/music/E01-C10-parcel-bell-celesta.wav",
+   "start_s": 95.989,
+   "gain_db": -7,
+   "duck": false
+  },
+  {
+   "id": "C7",
+   "src": "${SCRATCH}/e01/music/E01-C7-lucia-motif-under-dialogue.wav",
+   "start_s": 96.639,
+   "gain_db": -6,
+   "duck": true,
+   "fade_out": 1.0,
+   "trim_s": 10.361000000000008
+  },
+  {
+   "id": "M02",
+   "src": "${SCRATCH}/e01/music/E01-M02-approach-under-dialogue.wav",
+   "start_s": 106.9,
+   "gain_db": -5,
+   "duck": true,
+   "fade_in": 0.8,
+   "fade_out": 1.6,
+   "trim_s": 26.400999999999982
+  },
+  {
+   "id": "button-2",
+   "src": "${SCRATCH}/e01/music/E01-C1-button-a.wav",
+   "start_s": 154.818,
+   "gain_db": -7,
+   "duck": false,
+   "fade_out": 0.4
+  },
+  {
+   "id": "M04a-tiny",
+   "src": "${SCRATCH}/e01/music/E01-M04a-baron-theme-grand-30s-under-dialogue.wav",
+   "start_s": 212.99099999999999,
+   "gain_db": -14,
+   "duck": false,
+   "fade_out": 0.8,
+   "trim_s": 3.4
+  },
+  {
+   "id": "M2-mira",
+   "src": "${REPO}/samples/music/v2/M2-mira-motif-v2.mp3",
+   "start_s": 237.843,
+   "gain_db": -12,
+   "duck": true,
+   "fade_out": 1.0,
+   "trim_s": 3.1570000000000165
+  },
+  {
+   "id": "M03a",
+   "src": "${SCRATCH}/e01/music/E01-M03a-chichikov-motif-20s-under-dialogue.wav",
+   "start_s": 249.536,
+   "gain_db": -7,
+   "duck": true,
+   "fade_in": 1.0,
+   "fade_out": 1.5,
+   "trim_s": 20.0
+  },
+  {
+   "id": "button-end",
+   "src": "${SCRATCH}/e01/music/E01-C1-button-b.wav",
+   "start_s": 284.42699999999996,
+   "gain_db": -6,
+   "duck": false,
+   "fade_out": 0.5
+  }
+ ],
+ "sfx": [
+  {
+   "id": "ship_bridge_roomtone_loop",
+   "src": "${SCRATCH}/e01/sfx/ship_bridge_roomtone_loop.wav",
+   "start_s": 0.0,
+   "gain_db": -28.0,
+   "loop_s": 64.0,
+   "fade_in": 1.5,
+   "fade_out": 0.05
+  },
+  {
+   "id": "pip_lens_glow_on",
+   "src": "${SCRATCH}/e01/sfx/pip_lens_glow_on.wav",
+   "start_s": 0.5,
+   "gain_db": -15.0,
+   "duck": false
+  },
+  {
+   "id": "ship_systems_powerdown_sequence",
+   "src": "${SCRATCH}/e01/sfx/ship_systems_powerdown_sequence.wav",
+   "start_s": 7.218,
+   "gain_db": -14.0
+  },
+  {
+   "id": "coffee_machine_last_gurgle",
+   "src": "${SCRATCH}/e01/sfx/coffee_machine_last_gurgle.wav",
+   "start_s": 10.4,
+   "gain_db": -14.0
+  },
+  {
+   "id": "bank_chime",
+   "src": "${SCRATCH}/e01/sfx/bank_chime.wav",
+   "start_s": 15.0,
+   "gain_db": -10.0,
+   "duck": false
+  },
+  {
+   "id": "ship_relay_click_a",
+   "src": "${SCRATCH}/e01/sfx/ship_relay_click_a.wav",
+   "start_s": 24.9,
+   "gain_db": -13.0
+  },
+  {
+   "id": "shop_door_bell",
+   "src": "${SCRATCH}/e01/sfx/shop_door_bell.wav",
+   "start_s": 36.38,
+   "gain_db": -10.0,
+   "duck": false
+  },
+  {
+   "id": "pip_stamp_thunk_b",
+   "src": "${SCRATCH}/e01/sfx/pip_stamp_thunk_b.wav",
+   "start_s": 51.411,
+   "gain_db": -9.0,
+   "duck": false
+  },
+  {
+   "id": "ui_report_filed_blip",
+   "src": "${SCRATCH}/e01/sfx/ui_report_filed_blip.wav",
+   "start_s": 53.091,
+   "gain_db": -13.0,
+   "duck": false
+  },
+  {
+   "id": "earth_call_dead_air_1p3s",
+   "src": "${SCRATCH}/e01/sfx/earth_call_dead_air_1p3s.wav",
+   "start_s": 54.817,
+   "gain_db": -41.2,
+   "duck": false
+  },
+  {
+   "id": "ship_engine_cough_restart",
+   "src": "${SCRATCH}/e01/sfx/ship_engine_cough_restart.wav",
+   "start_s": 55.717,
+   "gain_db": -13.0
+  },
+  {
+   "id": "smash_cut_main_title_hit",
+   "src": "${SCRATCH}/e01/sfx/smash_cut_main_title_hit.wav",
+   "start_s": 64.0,
+   "gain_db": -9.0,
+   "duck": false
+  },
+  {
+   "id": "ship_cargohold_tone_loop",
+   "src": "${SCRATCH}/e01/sfx/ship_cargohold_tone_loop.wav",
+   "start_s": 74.0,
+   "gain_db": -24.8,
+   "loop_s": 33.0,
+   "fade_in": 0.6,
+   "fade_out": 0.6
+  },
+  {
+   "id": "ship_bridge_roomtone_loop",
+   "src": "${SCRATCH}/e01/sfx/ship_bridge_roomtone_loop.wav",
+   "start_s": 106.9,
+   "gain_db": -28.0,
+   "loop_s": 49.0,
+   "fade_in": 0.8,
+   "fade_out": 0.6
+  },
+  {
+   "id": "ui_letter_blink_out",
+   "src": "${SCRATCH}/e01/sfx/ui_letter_blink_out.wav",
+   "start_s": 116.8,
+   "gain_db": -15.0
+  },
+  {
+   "id": "ui_letter_blink_out",
+   "src": "${SCRATCH}/e01/sfx/ui_letter_blink_out.wav",
+   "start_s": 118.2,
+   "gain_db": -15.0
+  },
+  {
+   "id": "ui_letter_blink_out",
+   "src": "${SCRATCH}/e01/sfx/ui_letter_blink_out.wav",
+   "start_s": 119.9,
+   "gain_db": -15.0
+  },
+  {
+   "id": "ui_streetlamps_going_out_sequence",
+   "src": "${SCRATCH}/e01/sfx/ui_streetlamps_going_out_sequence.wav",
+   "start_s": 130.429,
+   "gain_db": -12.0
+  },
+  {
+   "id": "radio_click_on",
+   "src": "${SCRATCH}/e01/sfx/radio_click_on.wav",
+   "start_s": 133.151,
+   "gain_db": -13.0,
+   "duck": false
+  },
+  {
+   "id": "radio_click_off",
+   "src": "${SCRATCH}/e01/sfx/radio_click_off.wav",
+   "start_s": 146.027,
+   "gain_db": -13.0,
+   "duck": false
+  },
+  {
+   "id": "radio_open_channel_hiss_loop",
+   "src": "${SCRATCH}/e01/sfx/radio_open_channel_hiss_loop.wav",
+   "start_s": 133.201,
+   "gain_db": -30.3,
+   "loop_s": 12.876000000000015,
+   "fade_in": 0.05,
+   "fade_out": 0.1,
+   "duck": false
+  },
+  {
+   "id": "ui_report_filed_blip",
+   "src": "${SCRATCH}/e01/sfx/ui_report_filed_blip.wav",
+   "start_s": 147.077,
+   "gain_db": -13.0,
+   "duck": false
+  },
+  {
+   "id": "customs_hall_roomtone_loop",
+   "src": "${SCRATCH}/e01/sfx/customs_hall_roomtone_loop.wav",
+   "start_s": 155.9,
+   "gain_db": -26.6,
+   "loop_s": 129.9,
+   "fade_in": 1.0,
+   "fade_out": 1.0
+  },
+  {
+   "id": "customs_desk_stamp_heavy_a",
+   "src": "${SCRATCH}/e01/sfx/customs_desk_stamp_heavy_a.wav",
+   "start_s": 210.09,
+   "gain_db": -9.0,
+   "duck": false
+  },
+  {
+   "id": "cargo_scale_settle_beeps",
+   "src": "${SCRATCH}/e01/sfx/cargo_scale_settle_beeps.wav",
+   "start_s": 212.791,
+   "gain_db": -17.0
+  },
+  {
+   "id": "flipboard_flap_single_a",
+   "src": "${SCRATCH}/e01/sfx/flipboard_flap_single_a.wav",
+   "start_s": 234.456,
+   "gain_db": -13.0
+  },
+  {
+   "id": "wristcomm_buzz",
+   "src": "${SCRATCH}/e01/sfx/wristcomm_buzz.wav",
+   "start_s": 240.9,
+   "gain_db": -11.0,
+   "duck": false
+  },
+  {
+   "id": "wristcomm_click",
+   "src": "${SCRATCH}/e01/sfx/wristcomm_click.wav",
+   "start_s": 246.165,
+   "gain_db": -13.0,
+   "duck": false
+  },
+  {
+   "id": "paper_card_slide_and_tap",
+   "src": "${SCRATCH}/e01/sfx/paper_card_slide_and_tap.wav",
+   "start_s": 274.585,
+   "gain_db": -15.0
+  }
+ ],
+ "duck": {
+  "music_db": -9,
+  "sfx_db": -5
+ },
+ "loudness": {
+  "integrated": -16.0,
+  "true_peak_ceiling": -2.0
+ },
+ "overlays": {
+  "comm_cards": {
+   "w": 440,
+   "h": 124,
+   "speakers": {
+    "PIP": {
+     "name": "PIP",
+     "role": "SHIP'S COMPUTER · POSTAL AUDIT",
+     "portrait": "${REPO}/assets/props/pip/master.jpg",
+     "face": [
+      0.44,
+      0.04,
+      0.62,
+      0.36
+     ],
+     "lens": true,
+     "lens_x": 0.48,
+     "lens_y": 0.62
+    },
+    "JAX": {
+     "name": "JAX VALE",
+     "role": "CAPTAIN · THE UNSCHEDULED",
+     "portrait": "${REPO}/assets/characters/jax/master.jpg",
+     "face": [
+      0.345,
+      0.03,
+      0.598,
+      0.48
+     ]
+    },
+    "TEMI": {
+     "name": "TEMI ADEYEMI",
+     "role": "RECOVERIES · BRINDLELARK, LAGOS",
+     "portrait": "${REPO}/assets/characters/temi/master.jpg",
+     "face": [
+      0.37,
+      0.0,
+      0.62,
+      0.45
+     ]
+    },
+    "LUCIA": {
+     "name": "LUCÍA ORTEGA",
+     "role": "ENGINEER · UNPAID, 8 MONTHS",
+     "portrait": "${REPO}/assets/characters/lucia/master.jpg",
+     "face": [
+      0.4,
+      0.0,
+      0.65,
+      0.45
+     ]
+    },
+    "MAMANI": {
+     "name": "OFFICER MAMANI",
+     "role": "RIM PORT CONTROL · RADIO",
+     "portrait": "${REPO}/assets/characters/mamani/master.jpg",
+     "face": [
+      0.29,
+      0.02,
+      0.545,
+      0.47
+     ]
+    },
+    "MIRA": {
+     "name": "DR MIRA SEN",
+     "role": "CUSTOMS · RIM PORT",
+     "portrait": "${REPO}/assets/characters/mira/master.jpg",
+     "face": [
+      0.29,
+      0.02,
+      0.53,
+      0.44
+     ]
+    },
+    "BARON": {
+     "name": "UNIDENTIFIED",
+     "role": "TRICORN HAT · ON CARGO SCALE",
+     "portrait": "${REPO}/assets/characters/baron/master.jpg",
+     "blur": 2.5,
+     "face": [
+      0.28,
+      0.06,
+      0.56,
+      0.56
+     ]
+    },
+    "NOAKES": {
+     "name": "SUPT. NOAKES",
+     "role": "RIM PORT CUSTOMS",
+     "portrait": "${REPO}/assets/characters/noakes/master.jpg",
+     "face": [
+      0.4,
+      0.04,
+      0.65,
+      0.48
+     ]
+    },
+    "CHICHIKOV": {
+     "name": "MAN, AVERAGE",
+     "role": "AS LOGGED · FACE NOT RETAINED",
+     "portrait": "${REPO}/assets/characters/chichikov/master.jpg",
+     "blur": 5,
+     "face": [
+      0.26,
+      0.02,
+      0.5,
+      0.44
+     ]
+    }
+   },
+   "pre_s": 0.2,
+   "hold_s": 1.2,
+   "merge_s": 3.0,
+   "font_name": "${SCRATCH}/fonts/BarlowCondensed-SemiBold.ttf",
+   "font_role": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+  },
+  "subtitles": {
+   "size": 31,
+   "max_w": 860,
+   "cx": 940,
+   "bottom": 1062,
+   "box": 0.55
+  }
+ },
+ "credits": [],
+ "shots": [
+  {
+   "id": "C01",
+   "duration_s": 5.75,
+   "type": "SHIP_CAM",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "/root/.claude/uploads/3757f133-43aa-510b-bfaf-b45b089ed136/96a4611b-Brass_robot_lens_waking_up_147eeb4c_1080p.mp4",
+     "in_s": 0.0,
+     "loop": false,
+     "grade": {
+      "exposure": 0.12,
+      "sat": 1.08
+     }
+    },
+    {
+     "kind": "slate",
+     "style": "strip",
+     "text": "SHIP CAM 4  ·  THE UNSCHEDULED  ·  BRIDGE",
+     "clock_from": 49265,
+     "x": 44,
+     "y": 40,
+     "size": 22
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1180,
+     "y": 300,
+     "w": 600,
+     "h": 236,
+     "no": "CASE FILE 1,204",
+     "title": "THE PARCEL NOBODY ORDERED",
+     "sub": "Reconstructed by PIP from ship cameras, space feeds and Earth archives (some misfiled).",
+     "no_size": 30,
+     "title_size": 25,
+     "sub_size": 18,
+     "cps": 40,
+     "t0": 0.4,
+     "stamp": "OPEN",
+     "stamp_at": 3.2,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "overlays": {
+    "cards_at": "left"
+   }
+  },
+  {
+   "id": "C02",
+   "duration_s": 1.7,
+   "type": "SHIP_CAM",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "/root/.claude/uploads/3757f133-43aa-510b-bfaf-b45b089ed136/9f9a45a9-Man_eating_sandwich_in_cockpit_b97ea111_1080p.mp4",
+     "in_s": 4.1,
+     "loop": false,
+     "grade": {
+      "exposure": 0.12,
+      "sat": 1.08
+     },
+     "window": {
+      "key": "black",
+      "thresh": 0.05,
+      "region": [
+       0.3,
+       0.0,
+       1.0,
+       0.55
+      ],
+      "feather_px": 1.4,
+      "grow_px": 1,
+      "glass_keep": 0.9,
+      "track_px": 30,
+      "smooth": 0.35,
+      "plate": {
+       "src": "${SCRATCH}/mv/plates/nasa_a2.mp4",
+       "x": 0.64,
+       "y": 0.22,
+       "scale": 0.8,
+       "depth": 0.3,
+       "in_s": 10.6,
+       "speed": 0.5,
+       "blur": 0.6,
+       "drift": {
+        "dx": -0.01
+       },
+       "level": {
+        "black": 0.04,
+        "gamma": 1.0,
+        "gain": 1.2,
+        "tint": [
+         1.06,
+         1.0,
+         0.92
+        ]
+       }
+      }
+     }
+    },
+    {
+     "kind": "slate",
+     "style": "strip",
+     "text": "SHIP CAM 1  ·  BRIDGE  ·  CAPTAIN'S SEAT",
+     "clock_from": 49270.75,
+     "x": 44,
+     "y": 40,
+     "size": 22
+    }
+   ],
+   "overlays": {
+    "cards_at": "left"
+   }
+  },
+  {
+   "id": "C03",
+   "duration_s": 2.9,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/e01/datavis/03_engine_readouts_to_zero.mp4",
+     "in_s": 1.0,
+     "speed": 1.6,
+     "loop": false
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "C04",
+   "duration_s": 1.2,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/e01/datavis/03_coffee_light_goes_out.mp4",
+     "in_s": 2.4,
+     "speed": 1.0,
+     "loop": false
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "C05",
+   "duration_s": 3.65,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/C05_Designfo1956.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 1",
+     "title": "THE COFFEE MACHINE",
+     "sub": "EARTH, 1956 · FINANCED SEPARATELY",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "REPOSSESSED",
+     "stamp_at": 0.9,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "Designfo1956"
+   ]
+  },
+  {
+   "id": "C06",
+   "duration_s": 3.8,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0.02,
+      0.03,
+      0.035
+     ]
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_sequence.mp4",
+     "in_s": 3.6,
+     "speed": 1.0,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.0,
+     "treat": {
+      "scanlines": 0.04,
+      "bloom": 0.1,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0,
+       0
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       1,
+       1
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "inset": {
+      "src": "${REPO}/assets/characters/temi/master.jpg",
+      "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png",
+      "crop": [
+       0.14,
+       0.0,
+       0.86,
+       0.95
+      ],
+      "cx": 0.5,
+      "cy": 0.42,
+      "zoom_per_s": 0.012
+     }
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "C07",
+   "duration_s": 4.434,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/C07_Operator1949.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 2",
+     "title": "RECOVERIES DEPARTMENT",
+     "sub": "EARTH, 1949 · LAGOS OFFICE NOT PICTURED",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "Operator1949"
+   ]
+  },
+  {
+   "id": "C08",
+   "duration_s": 2.816,
+   "type": "SHIP_CAM",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "/root/.claude/uploads/3757f133-43aa-510b-bfaf-b45b089ed136/a0d34438-Pilot_taps_dead_cockpit_screen_0ea31db0_1080p.mp4",
+     "in_s": 0.6,
+     "loop": false,
+     "grade": {
+      "exposure": 0.12,
+      "sat": 1.08
+     },
+     "window": {
+      "key": "black",
+      "thresh": 0.035,
+      "region": [
+       0.45,
+       0.0,
+       1.0,
+       0.42
+      ],
+      "feather_px": 1.4,
+      "grow_px": 1,
+      "glass_keep": 0.9,
+      "track_px": 30,
+      "smooth": 0.35,
+      "plate": {
+       "src": "${SCRATCH}/mv/plates/nasa_a2.mp4",
+       "x": 0.74,
+       "y": 0.18,
+       "scale": 0.6,
+       "depth": 0.3,
+       "in_s": 10.6,
+       "speed": 0.5,
+       "blur": 0.6,
+       "drift": {
+        "dx": -0.01
+       },
+       "level": {
+        "black": 0.04,
+        "gamma": 1.0,
+        "gain": 1.2,
+        "tint": [
+         1.06,
+         1.0,
+         0.92
+        ]
+       }
+      }
+     }
+    },
+    {
+     "kind": "slate",
+     "style": "strip",
+     "text": "SHIP CAM 2  ·  BRIDGE  ·  REAR",
+     "clock_from": 49288.4,
+     "x": 44,
+     "y": 40,
+     "size": 22
+    }
+   ],
+   "overlays": {
+    "cards_at": "left"
+   }
+  },
+  {
+   "id": "C09",
+   "duration_s": 1.877,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0.02,
+      0.03,
+      0.035
+     ]
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_frozen.mp4",
+     "in_s": 1.0,
+     "speed": 1.0,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.0,
+     "treat": {
+      "scanlines": 0.04,
+      "bloom": 0.1,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0,
+       0
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       1,
+       1
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "inset": {
+      "src": "${REPO}/assets/characters/temi/master.jpg",
+      "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png",
+      "crop": [
+       0.14,
+       0.0,
+       0.86,
+       0.95
+      ],
+      "cx": 0.5,
+      "cy": 0.42,
+      "zoom_per_s": 0.0,
+      "pixelate": 16
+     }
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "C10",
+   "duration_s": 2.309,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0.02,
+      0.03,
+      0.035
+     ]
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/04_bank_call_live.mp4",
+     "in_s": 0.3,
+     "speed": 1.0,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.0,
+     "treat": {
+      "scanlines": 0.04,
+      "bloom": 0.1,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0,
+       0
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       1,
+       1
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "inset": {
+      "src": "${REPO}/assets/characters/temi/master.jpg",
+      "matte": "${SCRATCH}/e01/datavis/04_bank_call_live_matte.png",
+      "crop": [
+       0.14,
+       0.0,
+       0.86,
+       0.95
+      ],
+      "cx": 0.5,
+      "cy": 0.42,
+      "zoom_per_s": 0.012
+     }
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "C11",
+   "duration_s": 1.652,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/C11_Operator1949.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 3",
+     "title": "THE SAME CALL, AGAIN",
+     "sub": "EARTH, 1949 · 1.3 SECONDS AGO",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "Operator1949"
+   ]
+  },
+  {
+   "id": "C12",
+   "duration_s": 4.192,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/C12_loc-00694408.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 4",
+     "title": "THE PAST",
+     "sub": "EARTH, 1906 · STILL BEING ARGUED WITH",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "DISPUTED",
+     "stamp_at": 0.9,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "loc-00694408"
+   ]
+  },
+  {
+   "id": "C13",
+   "duration_s": 1.0,
+   "type": "SHIP_CAM",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "/root/.claude/uploads/3757f133-43aa-510b-bfaf-b45b089ed136/96a4611b-Brass_robot_lens_waking_up_147eeb4c_1080p.mp4",
+     "in_s": 5.2,
+     "loop": false,
+     "grade": {
+      "exposure": 0.12,
+      "sat": 1.08
+     }
+    },
+    {
+     "kind": "slate",
+     "style": "strip",
+     "text": "SHIP CAM 4  ·  BRIDGE  ·  PIP UNIT",
+     "clock_from": 49301.3,
+     "x": 44,
+     "y": 40,
+     "size": 22
+    }
+   ],
+   "overlays": {
+    "cards_at": "left"
+   }
+  },
+  {
+   "id": "C14",
+   "duration_s": 3.3,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/C14_loc-00564539.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 5",
+     "title": "ONE PARCEL, SEALED, PREPAID",
+     "sub": "EARTH, 1903 · POSTED TO US DIRECTLY",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "loc-00564539"
+   ]
+  },
+  {
+   "id": "C15",
+   "duration_s": 3.789,
+   "type": "REAL_FOOTAGE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/arch/clips/C15_nasa_viper.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "grade": {
+      "gain": [
+       1.07,
+       1.0,
+       0.92
+      ],
+      "sat": 1.25,
+      "exposure": 0.1
+     }
+    },
+    {
+     "kind": "slate",
+     "style": "strip",
+     "text": "FEED 9  ·  SHACKLETON CRATER, LUNAR SOUTH POLE  ·  NASA SVS VISUALISATION  ·  REAL",
+     "x": 44,
+     "y": 40,
+     "size": 22,
+     "accent": [
+      120,
+      200,
+      255
+     ]
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.06
+    }
+   },
+   "credits": [
+    "NASA's Scientific Visualization Studio (NASA)"
+   ]
+  },
+  {
+   "id": "C16",
+   "duration_s": 3.062,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/C16_Usingthe1947.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 6",
+     "title": "EXACTLY WHAT WE OWE",
+     "sub": "EARTH, 1947 · TO THE CENT",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "VERIFIED",
+     "stamp_at": 0.9,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "Usingthe1947"
+   ]
+  },
+  {
+   "id": "C17a",
+   "duration_s": 0.893,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/C17a_big_board.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 7",
+     "title": "\"TAKE IT\" (x5)",
+     "sub": "EARTH, 1957 · THE CAPTAIN'S METHOD",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "NOTED",
+     "stamp_at": 0.9,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "big_board"
+   ]
+  },
+  {
+   "id": "C17b",
+   "duration_s": 1.16,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/C17b_big_board.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.05,
+      1.15
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 7 (CONT.)",
+     "title": "\"TAKE IT\" (x5)",
+     "sub": "EARTH, 1957 · THE CAPTAIN'S METHOD",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": -9.0,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "NOTED",
+     "stamp_at": -1,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "big_board"
+   ]
+  },
+  {
+   "id": "C17c",
+   "duration_s": 1.307,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/C17c_big_board.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.08,
+      1.2
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 7 (CONT.)",
+     "title": "\"TAKE IT\" (x5)",
+     "sub": "EARTH, 1957 · THE CAPTAIN'S METHOD",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": -9.0,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "NOTED",
+     "stamp_at": -1,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "big_board"
+   ]
+  },
+  {
+   "id": "C18",
+   "duration_s": 2.15,
+   "type": "SHIP_CAM",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "/root/.claude/uploads/3757f133-43aa-510b-bfaf-b45b089ed136/ba3e7073-Robot_arm_stamping_paper_49081d01.mp4",
+     "in_s": 0.9,
+     "loop": false,
+     "grade": {
+      "exposure": 0.12,
+      "sat": 1.08
+     }
+    },
+    {
+     "kind": "slate",
+     "style": "strip",
+     "text": "SHIP CAM 3  ·  BRIDGE  ·  STAMP ARM",
+     "clock_from": 49315.791,
+     "x": 44,
+     "y": 40,
+     "size": 22
+    }
+   ],
+   "overlays": {
+    "cards_at": "left"
+   }
+  },
+  {
+   "id": "C19",
+   "duration_s": 2.026,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/e01/datavis/02_pip_report_1204.mp4",
+     "in_s": 3.0,
+     "speed": 1.0,
+     "loop": false
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "C20",
+   "duration_s": 1.28,
+   "type": "SHIP_CAM",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "/root/.claude/uploads/3757f133-43aa-510b-bfaf-b45b089ed136/b532efb6-Man_urging_someone_to_take_2fe4efd7.mp4",
+     "in_s": 2.2,
+     "loop": false,
+     "grade": {
+      "exposure": 0.12,
+      "sat": 1.08
+     }
+    },
+    {
+     "kind": "slate",
+     "style": "strip",
+     "text": "SHIP CAM 1  ·  BRIDGE  ·  CAPTAIN'S SEAT",
+     "clock_from": 49320.0,
+     "x": 44,
+     "y": 40,
+     "size": 22
+    }
+   ],
+   "overlays": {
+    "cards_at": "left"
+   }
+  },
+  {
+   "id": "C21",
+   "duration_s": 4.739,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0.02,
+      0.03,
+      0.035
+     ]
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/05_cargo_screen.mp4",
+     "in_s": 1.0,
+     "speed": 1.0,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.0,
+     "treat": {
+      "scanlines": 0.04,
+      "bloom": 0.1,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0,
+       0
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       1,
+       1
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "inset": {
+      "src": "${REPO}/samples/look-codex/jax-6-cargo-parcel.jpg",
+      "matte": "${SCRATCH}/e01/datavis/05_cargo_screen_matte.png",
+      "crop": [
+       0.58,
+       0.36,
+       0.84,
+       0.6
+      ],
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom_per_s": 0.03,
+      "mono": [
+       0.62,
+       0.9,
+       0.7
+      ],
+      "gain": 0.85,
+      "pixelate": 2
+     }
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "C22",
+   "duration_s": 3.014,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/C22_BanksAndCred.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 8",
+     "title": "ARITHMETIC",
+     "sub": "EARTH, 1948 · SEE ALSO: LUCK",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "FILED",
+     "stamp_at": 0.9,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "BanksAndCred"
+   ]
+  },
+  {
+   "id": "TITLE",
+   "duration_s": 10.0,
+   "type": "TITLE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/e01/datavis/13a_title_main_optionA_cinzel.mp4",
+     "in_s": 0.0,
+     "loop": false
+    }
+   ],
+   "overlays": {
+    "cards": false,
+    "subtitles": false
+   }
+  },
+  {
+   "id": "S1a",
+   "duration_s": 3.181,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S1a_MasterHa1936.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 9",
+     "title": "A SPANNER, ELEVEN",
+     "sub": "EARTH, 1936 · SUPPLIED: NINE",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "MasterHa1936"
+   ]
+  },
+  {
+   "id": "S1b",
+   "duration_s": 1.793,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S1b_Exercise1949.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 10",
+     "title": "A NINE THAT BELIEVES IN ITSELF",
+     "sub": "EARTH, 1949 · CONFIDENCE, UNEARNED",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "Exercise1949"
+   ]
+  },
+  {
+   "id": "S1c",
+   "duration_s": 4.078,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S1c_MasterHa1936.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 11",
+     "title": "VOLUNTEERING",
+     "sub": "EARTH, 1936 · UNPAID, EIGHT MONTHS",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "OVERDUE",
+     "stamp_at": 0.9,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "MasterHa1936"
+   ]
+  },
+  {
+   "id": "S1d",
+   "duration_s": 5.216,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S1d_Usingthe1947.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 12",
+     "title": "OFF THE TOP",
+     "sub": "EARTH, 1947 · BEFORE FUEL, FOOD, CAPTAIN",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "PROMISED",
+     "stamp_at": 0.9,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "Usingthe1947"
+   ]
+  },
+  {
+   "id": "S1e",
+   "duration_s": 1.921,
+   "type": "SHIP_CAM",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "/root/.claude/uploads/3757f133-43aa-510b-bfaf-b45b089ed136/96a4611b-Brass_robot_lens_waking_up_147eeb4c_1080p.mp4",
+     "in_s": 2.0,
+     "loop": false,
+     "grade": {
+      "exposure": 0.12,
+      "sat": 1.08
+     }
+    },
+    {
+     "kind": "slate",
+     "style": "strip",
+     "text": "SHIP CAM 6  ·  CARGO HOLD  ·  PIP SPEAKER",
+     "clock_from": 49464.0,
+     "x": 44,
+     "y": 40,
+     "size": 22
+    }
+   ],
+   "overlays": {
+    "cards_at": "left"
+   }
+  },
+  {
+   "id": "S1f",
+   "duration_s": 3.0,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S1f_IWanttoB1941.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 13",
+     "title": "THE CAPTAIN'S PROMISES",
+     "sub": "EARTH, 1941 · MARCH, MAY, TODAY",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "ON RECORD",
+     "stamp_at": 0.9,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "IWanttoB1941"
+   ]
+  },
+  {
+   "id": "S1g",
+   "duration_s": 2.8,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S1g_big_board.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 13 (CONT.)",
+     "title": "THE CAPTAIN'S PROMISES",
+     "sub": "MAY'S · LOUDER",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": -9.0,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "big_board"
+   ]
+  },
+  {
+   "id": "S1h",
+   "duration_s": 1.184,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0.02,
+      0.03,
+      0.035
+     ]
+    },
+    {
+     "kind": "screen",
+     "src": "${SCRATCH}/e01/datavis/05_cargo_screen.mp4",
+     "in_s": 4.0,
+     "speed": 1.0,
+     "res": [
+      1920,
+      1080
+     ],
+     "spill": 0.0,
+     "treat": {
+      "scanlines": 0.04,
+      "bloom": 0.1,
+      "glass_black": 0.02
+     },
+     "quad": [
+      [
+       0,
+       0
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       1,
+       1
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "inset": {
+      "src": "${REPO}/samples/look-codex/jax-6-cargo-parcel.jpg",
+      "matte": "${SCRATCH}/e01/datavis/05_cargo_screen_matte.png",
+      "crop": [
+       0.58,
+       0.36,
+       0.84,
+       0.6
+      ],
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom_per_s": 0.05,
+      "mono": [
+       0.62,
+       0.9,
+       0.7
+      ],
+      "gain": 0.85,
+      "pixelate": 2
+     }
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "S1i",
+   "duration_s": 3.0,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S1i_WorldThr1957.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 14",
+     "title": "STAMPS, TWENTY YEARS OF",
+     "sub": "EARTH, 1957 · ALL AT 21 °C",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "WorldThr1957"
+   ]
+  },
+  {
+   "id": "S1j",
+   "duration_s": 2.835,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S1j_WorldThr1957.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.04,
+      1.14
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 14 (CONT.)",
+     "title": "STAMPS, TWENTY YEARS OF",
+     "sub": "EARTH, 1957 · ALL AT 21 °C",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": -9.0,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "WorldThr1957"
+   ]
+  },
+  {
+   "id": "S1k",
+   "duration_s": 1.796,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S1k_Chickeno1948.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 15",
+     "title": "CONTENTS: UNDECLARED",
+     "sub": "EARTH, 1948 · ALIVE, OR WELL WRAPPED",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "Chickeno1948"
+   ]
+  },
+  {
+   "id": "S1l",
+   "duration_s": 2.096,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S1l_Chickeno1948.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 15 (CONT.)",
+     "title": "CONTENTS: UNDECLARED",
+     "sub": "EARTH, 1948 · ALIVE, OR WELL WRAPPED",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": -9.0,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "WARM",
+     "stamp_at": -1,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "Chickeno1948"
+   ]
+  },
+  {
+   "id": "S2a",
+   "duration_s": 6.1,
+   "type": "REAL_FOOTAGE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/arch/clips/S2a_nasa_viper.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "grade": {
+      "gain": [
+       1.07,
+       1.0,
+       0.92
+      ],
+      "sat": 1.25,
+      "exposure": 0.1
+     }
+    },
+    {
+     "kind": "slate",
+     "style": "strip",
+     "text": "FEED 9  ·  LUNAR SOUTH POLE  ·  APPROACH  ·  NASA SVS VISUALISATION  ·  REAL",
+     "x": 44,
+     "y": 40,
+     "size": 22,
+     "accent": [
+      120,
+      200,
+      255
+     ]
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.05
+    }
+   },
+   "credits": [
+    "NASA's Scientific Visualization Studio (NASA)"
+   ]
+  },
+  {
+   "id": "S2b",
+   "duration_s": 3.2,
+   "type": "SHIP_CAM",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "/root/.claude/uploads/3757f133-43aa-510b-bfaf-b45b089ed136/a0d34438-Pilot_taps_dead_cockpit_screen_0ea31db0_1080p.mp4",
+     "in_s": 3.6,
+     "loop": false,
+     "grade": {
+      "exposure": 0.12,
+      "sat": 1.08
+     },
+     "window": {
+      "key": "black",
+      "thresh": 0.035,
+      "region": [
+       0.6,
+       0.0,
+       1.0,
+       0.4
+      ],
+      "feather_px": 1.4,
+      "grow_px": 1,
+      "glass_keep": 0.9,
+      "track_px": 30,
+      "smooth": 0.35,
+      "plate": {
+       "src": "${SCRATCH}/mv/plates/nasa_a2.mp4",
+       "x": 0.8,
+       "y": 0.16,
+       "scale": 0.55,
+       "depth": 0.3,
+       "in_s": 14.0,
+       "speed": 0.5,
+       "blur": 0.6,
+       "drift": {
+        "dx": -0.01
+       },
+       "level": {
+        "black": 0.04,
+        "gamma": 1.0,
+        "gain": 1.2,
+        "tint": [
+         1.06,
+         1.0,
+         0.92
+        ]
+       }
+      }
+     }
+    },
+    {
+     "kind": "slate",
+     "style": "strip",
+     "text": "SHIP CAM 2  ·  BRIDGE  ·  REAR",
+     "clock_from": 49748.0,
+     "x": 44,
+     "y": 40,
+     "size": 22
+    }
+   ],
+   "overlays": {
+    "cards_at": "left"
+   }
+  },
+  {
+   "id": "S2c",
+   "duration_s": 1.7,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/e01/datavis/01_atlas_continuous.mp4",
+     "in_s": 5.2,
+     "speed": 1.0,
+     "loop": false
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "S2d",
+   "duration_s": 1.7,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/e01/datavis/01_atlas_continuous.mp4",
+     "in_s": 8.8,
+     "speed": 1.0,
+     "loop": false
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "S2e",
+   "duration_s": 1.488,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/e01/datavis/01_atlas_continuous.mp4",
+     "in_s": 15.4,
+     "speed": 1.0,
+     "loop": false
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "S2f",
+   "duration_s": 4.701,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S2f_CaughtMa1940.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 16",
+     "title": "AN ADDRESS",
+     "sub": "EARTH, 1940 · 'THE' DOES NOT QUALIFY",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "CaughtMa1940"
+   ]
+  },
+  {
+   "id": "S2g",
+   "duration_s": 4.34,
+   "type": "REAL_FOOTAGE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/arch/clips/S2g_nasa_shadow.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "grade": {
+      "gain": [
+       1.07,
+       1.0,
+       0.92
+      ],
+      "sat": 1.25,
+      "exposure": 0.1
+     }
+    },
+    {
+     "kind": "slate",
+     "style": "strip",
+     "text": "FEED 9  ·  SHACKLETON CRATER FLOOR  ·  NASA/GSFC VISUALISATION  ·  REAL",
+     "x": 44,
+     "y": 40,
+     "size": 22,
+     "accent": [
+      120,
+      200,
+      255
+     ]
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.02
+    },
+    "to": {
+     "zoom": 1.08
+    }
+   },
+   "credits": [
+    "Dan Gallagher, Chris Smith (NASA/GSFC) (NASA)"
+   ]
+  },
+  {
+   "id": "S2h",
+   "duration_s": 3.172,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/e01/datavis/01_atlas_continuous.mp4",
+     "in_s": 20.5,
+     "speed": 1.15,
+     "loop": false
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "S2i",
+   "duration_s": 5.814,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S2i_OnGuard1956.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 17",
+     "title": "RIM PORT CONTROL",
+     "sub": "EARTH, 1956 · MISFILED UNDER 'MOON'",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "OnGuard1956"
+   ]
+  },
+  {
+   "id": "S2j",
+   "duration_s": 4.918,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S2j_PlaneTal1965.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 18",
+     "title": "BAY NINE",
+     "sub": "EARTH, 1965 · ALL GOODS HELD",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "DO NOT OPEN",
+     "stamp_at": 0.9,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "PlaneTal1965"
+   ]
+  },
+  {
+   "id": "S2k",
+   "duration_s": 2.244,
+   "type": "REAL_FOOTAGE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/arch/clips/S2k_nasa_moonview.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "grade": {
+      "gain": [
+       1.07,
+       1.0,
+       0.92
+      ],
+      "sat": 1.25,
+      "exposure": 0.1
+     }
+    },
+    {
+     "kind": "slate",
+     "style": "strip",
+     "text": "FEED 3  ·  THE CLIENT'S LAST KNOWN ADDRESS  ·  NASA/GSFC VISUALISATION  ·  REAL",
+     "x": 44,
+     "y": 40,
+     "size": 22,
+     "accent": [
+      120,
+      200,
+      255
+     ]
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.04
+    }
+   },
+   "credits": [
+    "Genna Duberstein, Ernie Wright, Chris Smith, Chris Meaney (NASA/GSFC) (NASA)"
+   ]
+  },
+  {
+   "id": "S2l",
+   "duration_s": 5.258,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/e01/datavis/02_pip_report_1205.mp4",
+     "in_s": 1.6,
+     "speed": 1.0,
+     "loop": false
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "S2m",
+   "duration_s": 4.365,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S2m_IWanttoB1941.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 19",
+     "title": "REPORTS, UNREAD",
+     "sub": "EARTH, 1941 · NOT THE POINT OF THEM",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "FILED",
+     "stamp_at": 0.9,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "IWanttoB1941"
+   ]
+  },
+  {
+   "id": "S3a",
+   "duration_s": 2.4,
+   "type": "REAL_FOOTAGE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/arch/clips/S3a_nasa_scarp.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "grade": {
+      "gain": [
+       1.07,
+       1.0,
+       0.92
+      ],
+      "sat": 1.25,
+      "exposure": 0.1
+     }
+    },
+    {
+     "kind": "slate",
+     "style": "strip",
+     "text": "FEED 11  ·  APPROACH, RIM PORT  ·  NASA SVS VISUALISATION · LRO DATA  ·  REAL",
+     "x": 44,
+     "y": 40,
+     "size": 22,
+     "accent": [
+      120,
+      200,
+      255
+     ]
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.06
+    }
+   },
+   "credits": [
+    "David Ladd, Tom Waters, Ernie Wright (NASA/GSFC SVS) (NASA)"
+   ]
+  },
+  {
+   "id": "S3b",
+   "duration_s": 3.292,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3b_PlaneTal1965.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 20",
+     "title": "RIM PORT CUSTOMS HALL",
+     "sub": "CAPACITY 2,000 · STAFF 3 · QUEUE 1",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "PlaneTal1965"
+   ]
+  },
+  {
+   "id": "S3c",
+   "duration_s": 3.2,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3c_loc-00564567.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 21",
+     "title": "PARCEL, ONE",
+     "sub": "SEALED · DISTRICT WITHDRAWN 14:02",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "loc-00564567"
+   ]
+  },
+  {
+   "id": "S3d",
+   "duration_s": 3.449,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3d_loc-00564573.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 21 (CONT.)",
+     "title": "PARCEL, ONE",
+     "sub": "SEIZED 14:19",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": -9.0,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "loc-00564573"
+   ]
+  },
+  {
+   "id": "S3e",
+   "duration_s": 4.136,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3e_DateWith1950.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 22",
+     "title": "THE AUNT",
+     "sub": "EARTH, 1950 · NOT PICTURED · NOT ON FORM",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "NONE",
+     "stamp_at": 0.9,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "DateWith1950"
+   ]
+  },
+  {
+   "id": "S3f",
+   "duration_s": 4.438,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3f_Exercise1949.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 23",
+     "title": "FLEXIBILITY",
+     "sub": "EARTH, 1949 · OFFERED TO CUSTOMS",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "Exercise1949"
+   ]
+  },
+  {
+   "id": "S3g",
+   "duration_s": 3.018,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3g_Exercise1949.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 23 (CONT.)",
+     "title": "FLEXIBILITY",
+     "sub": "EARTH, 1949 · OFFERED TO CUSTOMS",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": -9.0,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "DECLINED",
+     "stamp_at": -1,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "Exercise1949"
+   ]
+  },
+  {
+   "id": "S3h",
+   "duration_s": 3.802,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3h_CaughtMa1940.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 24",
+     "title": "WHERE THINGS ACTUALLY ARE",
+     "sub": "EARTH, 1940 · DR SEN'S SPECIALITY",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "CaughtMa1940"
+   ]
+  },
+  {
+   "id": "S3i",
+   "duration_s": 5.666,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3i_Suggesti1945.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 25",
+     "title": "SECTION TWELVE",
+     "sub": "OF NINE · VERY EXCLUSIVE",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "Suggesti1945"
+   ]
+  },
+  {
+   "id": "S3j",
+   "duration_s": 1.88,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3j_IWanttoB1941.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 25 (CONT.)",
+     "title": "SECTION TWELVE",
+     "sub": "OF NINE · VERY EXCLUSIVE",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": -9.0,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "NOT FOUND",
+     "stamp_at": -1,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "IWanttoB1941"
+   ]
+  },
+  {
+   "id": "S3k",
+   "duration_s": 4.337,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3k_MasterHa1936.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 26",
+     "title": "SOMETHING TRUE",
+     "sub": "REQUESTED BY CUSTOMS · NONE SUPPLIED",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "MasterHa1936"
+   ]
+  },
+  {
+   "id": "S3l",
+   "duration_s": 1.547,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3l_MasterHa1936.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 27",
+     "title": "VERY GOOD AT HIS JOB",
+     "sub": "EARTH, 1936 · SELF-ASSESSED",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "MasterHa1936"
+   ]
+  },
+  {
+   "id": "S3m",
+   "duration_s": 2.453,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/e01/datavis/09a_hall_clock_analog_1745.mp4",
+     "in_s": 0.5,
+     "speed": 1.0,
+     "loop": false
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "S3n",
+   "duration_s": 1.452,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3n_Designfo1956.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 28",
+     "title": "IN BURSTS",
+     "sub": "EARTH, 1956 · SEE: CAPTAIN, JOB",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "Designfo1956"
+   ]
+  },
+  {
+   "id": "S3o",
+   "duration_s": 6.248,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/e01/datavis/06a_customs_licence.mp4",
+     "in_s": 1.0,
+     "speed": 1.1,
+     "loop": false
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "S3p",
+   "duration_s": 2.572,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3p_IWanttoB1941.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 29",
+     "title": "A PROBLEM",
+     "sub": "FOR CUSTOMS: NOT ONE",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "IWanttoB1941"
+   ]
+  },
+  {
+   "id": "S3q",
+   "duration_s": 2.174,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3q_loc-00564539.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 30",
+     "title": "PARCEL, ONE",
+     "sub": "RIM PORT · 14:19",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "SEIZED",
+     "stamp_at": 0.9,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "loc-00564539"
+   ]
+  },
+  {
+   "id": "S3r",
+   "duration_s": 3.702,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S3r_HealthYo1953.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.15
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 31",
+     "title": "GENTLEMAN, TRICORN, ON SCALE",
+     "sub": "EARTH, 1953 · FORMERLY TALLER (CLAIMED)",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "HealthYo1953"
+   ]
+  },
+  {
+   "id": "S4a",
+   "duration_s": 2.699,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/e01/datavis/06b_customs_deletion_record.mp4",
+     "in_s": 2.6,
+     "speed": 1.0,
+     "loop": false
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "S4b",
+   "duration_s": 5.656,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S4b_AnotherCupOf.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 32",
+     "title": "THE NOTEBOOK",
+     "sub": "ENTRY 41 · OWNER: —",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "AnotherCupOf"
+   ]
+  },
+  {
+   "id": "S4c",
+   "duration_s": 5.111,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S4c_CaughtMa1940.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 33",
+     "title": "THE MAP",
+     "sub": "EARTH, 1940 · WRONG (PER DR SEN)",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "CaughtMa1940"
+   ]
+  },
+  {
+   "id": "S4d",
+   "duration_s": 4.924,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S4d_CaughtMa1940.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 34",
+     "title": "OFFICIAL",
+     "sub": "A DEPARTMENT, NOT AN OPPOSITE",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "CaughtMa1940"
+   ]
+  },
+  {
+   "id": "S4e",
+   "duration_s": 4.087,
+   "type": "DATA_VISUAL",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "${SCRATCH}/e01/datavis/08a_board_1094_static.mp4",
+     "in_s": 1.0,
+     "speed": 1.0,
+     "loop": false
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0
+    },
+    "to": {
+     "zoom": 1.035
+    }
+   }
+  },
+  {
+   "id": "S4f",
+   "duration_s": 2.657,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S4f_AnotherCupOf.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 35",
+     "title": "THE NOTEBOOK",
+     "sub": "STILL OPEN",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "QUIET (PROMISED)",
+     "stamp_at": 0.9,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "AnotherCupOf"
+   ]
+  },
+  {
+   "id": "S5a",
+   "duration_s": 3.327,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S5a_Gossip1953.mp4",
+     "in_s": 0.0,
+     "speed": 0.93,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 36",
+     "title": "THE BOX",
+     "sub": "EARTH, 1953 · ENGINEER'S POSITION: AGAINST",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "Gossip1953"
+   ]
+  },
+  {
+   "id": "S5b",
+   "duration_s": 2.138,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S5b_Gossip1953.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 37",
+     "title": "IT'S THE BOX",
+     "sub": "EARTH, 1953 · REPEATED FOR THE RECORD",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "Gossip1953"
+   ]
+  },
+  {
+   "id": "S5c",
+   "duration_s": 3.571,
+   "type": "SHIP_CAM",
+   "note": "",
+   "layers": [
+    {
+     "kind": "video",
+     "src": "/root/.claude/uploads/3757f133-43aa-510b-bfaf-b45b089ed136/96a4611b-Brass_robot_lens_waking_up_147eeb4c_1080p.mp4",
+     "in_s": 4.2,
+     "loop": false,
+     "grade": {
+      "exposure": 0.12,
+      "sat": 1.08
+     }
+    },
+    {
+     "kind": "slate",
+     "style": "strip",
+     "text": "WRIST UNIT  ·  CUSTOMS HALL  ·  AUDIO ONLY",
+     "clock_from": 52270,
+     "x": 44,
+     "y": 40,
+     "size": 22
+    }
+   ],
+   "overlays": {
+    "cards_at": "left"
+   }
+  },
+  {
+   "id": "S5d",
+   "duration_s": 3.63,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S5d_AnotherCupOf.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 38",
+     "title": "MAN, AVERAGE",
+     "sub": "EARTH, 1948 · WITH TEACUP (APPROX.)",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "AnotherCupOf"
+   ]
+  },
+  {
+   "id": "S5e",
+   "duration_s": 6.985,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S5e_BanksAndCred.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 39",
+     "title": "THE LIEN: 182,000",
+     "sub": "ON THE UNSCHEDULED · NOTED BY STRANGER",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "BanksAndCred"
+   ]
+  },
+  {
+   "id": "S5f",
+   "duration_s": 5.858,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S5f_Suggesti1945.mp4",
+     "in_s": 0.0,
+     "speed": 0.9,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 40",
+     "title": "LOYALTY, EIGHT MONTHS",
+     "sub": "EARTH, 1945 · UNPAID",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "Suggesti1945"
+   ]
+  },
+  {
+   "id": "S5g",
+   "duration_s": 4.293,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S5g_Usingthe1947.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 41",
+     "title": "A BUYER",
+     "sub": "EARTH, 1947 · NAME WITHHELD",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "Usingthe1947"
+   ]
+  },
+  {
+   "id": "S5h",
+   "duration_s": 3.783,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S5h_loc-00564550.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.07
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 42",
+     "title": "WHAT THE REGISTER FORGOT",
+     "sub": "EARTH, 1903 · STILL WORKS",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "loc-00564550"
+   ]
+  },
+  {
+   "id": "S5i",
+   "duration_s": 3.804,
+   "type": "INSERT",
+   "note": "calling card (rendered in code)",
+   "layers": [
+    {
+     "kind": "still",
+     "src": "${SCRATCH}/arch/card.png"
+    }
+   ],
+   "camera": {
+    "from": {
+     "zoom": 1.0,
+     "cx": 0.5,
+     "cy": 0.5
+    },
+    "to": {
+     "zoom": 1.16,
+     "cx": 0.47,
+     "cy": 0.52
+    }
+   }
+  },
+  {
+   "id": "S5j",
+   "duration_s": 4.171,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S5j_big_board.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 43",
+     "title": "MAN, AVERAGE (ONE OF THESE)",
+     "sub": "EARTH, 1957 · LOGGED",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": 0.05,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf"
+    }
+   ],
+   "credits": [
+    "big_board"
+   ]
+  },
+  {
+   "id": "S5k",
+   "duration_s": 3.44,
+   "type": "ARCHIVE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "viewer",
+     "src": "${SCRATCH}/arch/clips/S5k_big_board.mp4",
+     "in_s": 0.0,
+     "speed": 1.0,
+     "loop": false,
+     "zoom": [
+      1.06,
+      1.18
+     ],
+     "cx": 0.5,
+     "cy": 0.5,
+     "crop": [
+      0.015,
+      0.02,
+      0.985,
+      0.98
+     ],
+     "bezel": "${SCRATCH}/arch/bezel_agy1.jpg",
+     "screen": [
+      205,
+      150,
+      1207,
+      922
+     ],
+     "panel": [
+      1432,
+      36,
+      1844,
+      1030
+     ],
+     "dials": [
+      [
+       1636,
+       352,
+       74
+      ],
+      [
+       1637,
+       657,
+       74
+      ]
+     ],
+     "counter": [
+      1638,
+      915
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "exhibit",
+     "x": 1444,
+     "y": 46,
+     "w": 388,
+     "h": 196,
+     "no": "EXHIBIT 43 (CONT.)",
+     "title": "MAN, AVERAGE (ONE OF THESE)",
+     "sub": "EARTH, 1957 · LOGGED",
+     "no_size": 30,
+     "title_size": 24,
+     "sub_size": 19,
+     "cps": 75,
+     "t0": -9.0,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "stamp": "AVERAGE",
+     "stamp_at": -1,
+     "stamp_size": 24,
+     "stamp_x": 0.7,
+     "stamp_y": 0.17,
+     "stamp_rot": 7
+    }
+   ],
+   "credits": [
+    "big_board"
+   ]
+  },
+  {
+   "id": "SRC",
+   "duration_s": 6.0,
+   "type": "TITLE",
+   "note": "",
+   "layers": [
+    {
+     "kind": "solid",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "kind": "slate",
+     "style": "sheet",
+     "title": "SOURCES OF THIS FILE",
+     "subtitle": "Archive films: public domain. Space footage: NASA (no endorsement implied).",
+     "lines": [
+      "Another Cup Of Coffee (1948) · Prelinger Archives",
+      "Banks And Credits (1948) · Prelinger Archives",
+      "Caught Mapping (1940) · Prelinger Archives",
+      "Chicken of Tomorrow, The (1948) · Prelinger Archives",
+      "Date With Your Family, A (1950) · Prelinger Archives",
+      "Design for Dreaming (1956) · Prelinger Archives",
+      "Exercise and Health (1949) · Prelinger Archives",
+      "Gossip (1953) · Prelinger Archives",
+      "Health: Your Posture (1953) · Prelinger Archives",
+      "I Want to Be a Secretary (1941) · Prelinger Archives",
+      "Master Hands (Part I) (1936) · Prelinger Archives",
+      "On Guard! The Story of SAGE · Prelinger Archives",
+      "Operator Toll Dialing: Cord Signals · Prelinger Archives",
+      "Plane Talk (1965) · Prelinger Archives",
+      "Suggestion Box (1945) · Prelinger Archives",
+      "Using the Bank (1947) · Prelinger Archives",
+      "World Through Stamps: The Stories Behind Postage Stamps, (1957) · Prelinger Archives",
+      "Big Board, The · Prelinger Archives",
+      "Cancelling machine, U.S.P.O. (1903) · Library of Congress",
+      "Loading mail car, U.S.P.O. (1903) · Library of Congress",
+      "Routing mail, U.S.P.O. (1903) · Library of Congress",
+      "Throwing mail into bags, U.S.P.O. (1903) · Library of Congress",
+      "A trip down Market Street before the fire (1906) · Library of Congress",
+      "Genna Duberstein, Ernie Wright, Chris Smith, Chris M · NASA",
+      "David Ladd, Tom Waters, Ernie Wright (NASA/GSFC SVS) · NASA",
+      "Dan Gallagher, Chris Smith (NASA/GSFC) · NASA",
+      "NASA's Scientific Visualization Studio · NASA"
+     ],
+     "cols": 2,
+     "size": 21,
+     "font": "${SCRATCH}/fonts/IBMPlexMono-Medium.ttf",
+     "font_body": "${SCRATCH}/fonts/IBMPlexMono-Regular.ttf"
+    }
+   ],
+   "overlays": {
+    "cards": false,
+    "subtitles": false
+   },
+   "out": {
+    "type": "fade",
+    "dur": 0.6
+   }
+  }
+ ]
+}

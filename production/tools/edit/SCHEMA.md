@@ -128,3 +128,45 @@ blur radius = |depth − focus| × strength (max sigma 9), blended from a blur s
 `{"id", "src", "start_s" | "at", "gain_db", "duck": true, "fade_in", "fade_out", "trim_s", "loop_s", "placeholder": "chime|shopbell|thunk|powerdown|click|blip|engine_cough|roomtone"}` —
 when `src` is missing the placeholder sound is synthesised and logged. Effects default to
 `${SCRATCH}/e01/sfx/<id>.wav`, so dropping the final file there replaces the placeholder on the next run.
+
+## Archive format (v1.1, 28 Nov): viewer, slate, comm cards, subtitles
+
+Code: `overlays.py`. First used by `episodes/E01/archive-sample-shotlist.json`. Existing shot lists are
+unchanged (all of this is opt-in).
+
+**Viewer** (layer, output pixel space; put it over a `solid` base): PIP's Archive Viewer plays an archive
+clip inside a brass-and-cream console.
+`{"kind": "viewer", "src": clip, "in_s", "speed", "loop", "crop": [x0,y0,x1,y1] (of the clip, trims film edges),
+"zoom": [z0, z1] (slow push inside the screen over the shot), "cx", "cy", "pan_px": [dx, dy], "mono": true|false|null (null = auto),
+"look": {"tone", "gain", "sat", "gamma", "flicker"}, "soften", "scanlines",
+"bezel": picture with a pure-black screen (keyed; omit for the procedural console), "screen": [x0,y0,x1,y1] (px),
+"panel": [x0,y0,x1,y1] (px), "dials": [[x, y, r], ...] (live needles drawn on the bezel's own dials), "counter": [x, y] (frame counter), "gauges": true}`.
+One warm look for every archive source; black-and-white stays black-and-white (auto-levels plus a faint paper
+tone); gate weave and flicker; the screen gets scan lines, a vignette and a glass sheen.
+
+**Slate** (layer, output pixel space): `{"kind": "slate", "style": ..., "t0", "t1"}`
+- `exhibit`: cream filing card. `x, y, w, h, no, title, sub, no_size, title_size, sub_size, cps` (typed on from `t0`),
+  `stamp` (red rubber stamp word), `stamp_at`, `stamp_x`, `stamp_y` (0..1 of the card), `stamp_rot`, `stamp_size`, `font`, `font_body`.
+- `strip`: slim telemetry / ship-camera strip. `text, x, y, size, accent [r,g,b], clock_from` (seconds; a running
+  hh:mm:ss:ff clock is appended), `opacity`.
+- `sheet`: full-frame enamel sheet (sources slate). `title, subtitle, lines [..], cols, size, font, font_body`.
+
+**Overlays** (top level, drawn on every shot after the film finish so they stay crisp):
+```
+"overlays": {
+  "comm_cards": {"w": 440, "h": 124, "pre_s": 0.2, "hold_s": 1.2, "merge_s": 3.0, "slide_s": 0.3, "hide": [speaker...],
+                 "anchor": [x, bottom_y], "panel_anchor": [...], "left_anchor": [...], "font_name", "font_role",
+                 "speakers": {"JAX": {"name", "role", "portrait", "face": [x0,y0,x1,y1], "blur", "tint", "lens", "lens_x", "lens_y"}}},
+  "subtitles": {"size": 31, "max_w": 860, "cx": 940, "bottom": 1062, "box": 0.55, "font"}}
+```
+- A card is shown from each line's start − `pre_s` to its end + `hold_s` (gaps under `merge_s` merge); at most two
+  cards stack (oldest at the bottom); entering/leaving cards slide and the stack closes smoothly.
+- The card waveform is the speaker's **real stem amplitude** (render.py computes it at 96 Hz from the placed
+  dialogue, `audio.amplitudes`): the last ~1.4 s scroll right to left; the TX lamp is lit while the line sounds.
+- Portrait: the master cropped to `face`, slow push, flicker, a rolling scan line; `lens: true` makes it glow with
+  the speaker's amplitude (PIP). `blur` for faces the story keeps unseen.
+- Per shot: `"overlays": {"cards": false, "subtitles": false, "cards_at": "left"|"panel"}`. Use `"left"` on clips
+  with a mark in the bottom-right corner; shots with a `viewer` layer put the cards on the console's panel.
+- Subtitles: one line at a time (the latest), wrapped to `max_w`, small box, bottom centre. The `.srt` is still
+  written by render.py. Conformed dialogue lines take `"sub": false` / `"card": false`.
+- Cache keys include the overlay spec and the lines/amplitude slice each shot sees.

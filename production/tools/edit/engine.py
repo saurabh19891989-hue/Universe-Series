@@ -12,6 +12,7 @@ import numpy as np, cv2
 from PIL import Image
 
 import gfx
+import overlays as OV
 
 cv2.setNumThreads(1)
 
@@ -810,6 +811,11 @@ class Shot:
                     self.log.append(msg)
             elif k == "text":
                 ent["gfx"] = gfx.Gfx(dict(L, name="text"), self.path)
+            elif k == "viewer":
+                ent["obj"] = OV.Viewer(L, self.path, self.W, self.H, self.seed, Video)
+                self.log.append(f"viewer: {L['src']}")
+            elif k == "slate":
+                ent["obj"] = OV.Slate(L, self.path, self.W, self.H, self.seed + len(self.layers))
             self.layers.append(ent)
         # parallax depth (needs the window mask and the screen quads as no-move zones)
         self.depth = None
@@ -1037,6 +1043,10 @@ class Shot:
                 if sp:
                     small = cv2.resize(r * a, (W // 16, H // 16), interpolation=cv2.INTER_AREA)
                     out = out + cv2.resize(cv2.GaussianBlur(small, (0, 0), 4), (W, H)) * sp
+            elif k == "viewer":
+                out = ent["obj"].render(out, t, self.dur)
+            elif k == "slate":
+                out = ent["obj"].render(out, t)
             elif k == "text":
                 rgba = ent["gfx"].render_rgba(t, W, H)
                 a = rgba[..., 3:4] * op
@@ -1106,6 +1116,7 @@ def _render_shot(job):
     elog = open(job["out"] + ".enc.log", "w")
     ff = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=elog)
     trans_in = sh.get("in", {}); trans_out = sh.get("out", {})
+    ov = OV.Overlays(ctx.get("overlays"), ctx.get("ov_data"), ctx["resolve"], W, H, sh) if ctx.get("overlays") else None
     stills = {}
     for i in range(nf):
         t = i / fps
@@ -1113,6 +1124,8 @@ def _render_shot(job):
         wv = weave_at(S.seed, i, ctx["finish"].get("weave_px", 0.5))
         img = S.frame(t, tg, wv)
         img = fin.apply(img, S.seed, i, sh.get("grade"))
+        if ov is not None:
+            img = ov.apply(img, tg)
         if trans_in.get("type") == "fade" and t < trans_in.get("dur", 0.5):
             img = img * ease(t / trans_in.get("dur", 0.5), "inout-soft")
         if trans_out.get("type") == "fade" and t > S.dur - trans_out.get("dur", 0.5):
@@ -1155,6 +1168,8 @@ def preview_shot(job):
     for f in job["fracs"]:
         t = min(S.dur - 1e-3, max(0.0, f * S.dur)); i = int(t * ctx["fps"])
         img = fin.apply(S.frame(t, job["start_s"] + t, weave_at(S.seed, i, 0)), S.seed, i, sh.get("grade"))
+        if ctx.get("overlays"):
+            img = OV.Overlays(ctx["overlays"], ctx.get("ov_data"), ctx["resolve"], ctx["W"], ctx["H"], sh).apply(img, job["start_s"] + t)
         p = f"{job['out_dir']}/{sh['id']}_{f:.2f}.jpg"
         Image.fromarray((np.clip(img, 0, 1) * 255 + 0.5).astype(np.uint8)).save(p, quality=88)
         outs.append(p)

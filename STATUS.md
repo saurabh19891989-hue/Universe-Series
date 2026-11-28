@@ -323,3 +323,14 @@ Gemini API key is saved as a network secret on the Default environment
 - Flow automation on the laptop and all paid-video questions are parked until the owner has
   judged this sample.
 
+- **Done (28 Nov):** price check committed. Archive sample built: 4:52 of Episode 1 (cold open,
+  title, scenes 1–5), `samples/e01/E01-archive-sample-720p.mp4` (27 MB) and `-480p.mp4` (11 MB);
+  shot list `episodes/E01/archive-sample-shotlist.json`. On screen: 181 s old film in the
+  viewer (52 cuts, 23 films), 49 s animated screens, 23 s ship-camera clips, 19 s NASA video,
+  20 s titles. Vault: 36 films, 2.7 GB, all public domain by their own metadata (Prelinger) or
+  US pre-1931 (Library of Congress), logged with source, sha256 and ranges used. Loudness
+  −16.3 LUFS. Showrunner checked: contact sheet, frames, licence log, no frozen stretch over
+  1.5 s except the sources slate. NOT checked: sound (nobody has listened), full playback.
+- Known weaknesses: ~60% is black-and-white film in a box; our cast never acts on screen (still
+  portraits on cards only); little colour; some slates too short to read; ship clips repeat.
+- **Waiting on owner:** watch and listen to the sample, then choose the route.
