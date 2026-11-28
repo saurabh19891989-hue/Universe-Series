@@ -93,11 +93,15 @@ Chichikov, Japanese Commander Arakawa, Nigerian-British Cass Rook, and a Chinese
 role to be added in Season 1 (candidate: the Relay Guild's chief dispatcher, Wen Jialing).
 Guests bring every other region. No more than one core character from any one country.
 
-### Visual direction (owner direction, 27 Nov)
-**Photoreal, not animated.** The footage is real, so people, ships and sets must look real
-enough to sit in the same frame. The illustrated ink style and the vector puppets are both
-rejected. Characters are photoreal and consistent from shot to shot; interiors look like
-physical sets; the grade matches the NASA plate in every shot.
+### Visual direction (owner direction, 28 Nov; replaces the 27 Nov "photoreal" direction)
+**Animated cast over real footage.** The cast are 2D animated characters in our own original
+style (the "variant B" designs of 28 Nov: clean stylised faces, strong silhouettes, cel shading
+with painted highlights; leads glamorous and tasteful). Real NASA video is the main background:
+full-frame, in every window, and behind the ship and the characters. Ship, sets and screens are
+drawn in the same style and lit to match the plate. Tall tales are shown as cutaways in distinct
+drawn styles (the Baron's in an engraving style). Characters stay consistent from shot to shot:
+every pose and mouth shape is made from the approved design. Bright, colourful frames; avoid
+shots that are mostly black sky.
 
 ## 5. Format
 

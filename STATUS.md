@@ -544,3 +544,10 @@ Gemini API key is saved as a network secret on the Default environment
   and stiff; gestures pop; Jax's body acting hidden by close-ups. SVS 4944 plate still blocked
   from this machine. Sent to owner. **Waiting on owner:** verdict on sample 5; voice engine
   choice; then longer video or full episode.
+- **E02 v4 critic review (28 Nov):** `episodes/E02/critic-review-v4.md` — READY AFTER FIXES
+  (9 must-fix, 13 should-fix, 11 nice-to-have, 17 cuts). Runs ~24:36 as acted; a quiet
+  repetitive stretch 16:17–20:22; siege rules unclear (why wait for sunset; AIR numbers; tag's
+  far side). Midpoint line and escape physics pass their checks. Rulings appended to
+  `episodes/E02/showrunner-rulings-v4.md`; v5 being written. Bible's visual direction rewritten
+  for the animated format. Continuity pass to reconcile: Lucía knows Seo cut her fuel line
+  (E02) vs suspicion on Idris (E06). E03 still has Seo's mother alive (3 places).
