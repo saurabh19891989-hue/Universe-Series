@@ -334,3 +334,20 @@ Gemini API key is saved as a network secret on the Default environment
 - Known weaknesses: ~60% is black-and-white film in a box; our cast never acts on screen (still
   portraits on cards only); little colour; some slates too short to read; ship clips repeat.
 - **Waiting on owner:** watch and listen to the sample, then choose the route.
+
+## 28 Nov (evening IST) — owner rejects the archive format; animation route under test
+- Owner: archive sample "doesn't sound that interesting" (60% black-and-white in a box, cast
+  never acts). New idea from the owner: real NASA video as the main background, animated scenes
+  and the ship on top of it, more animated ship screens, old films only in between. Asked
+  whether animation can be made in-house on our machine.
+- Machine check (14:15 UTC): container restarted (uptime 2 min) but the disk is intact: Codex
+  CLI logged in, Antigravity CLI logged in, scratchpad 25 GB (707 dialogue stems, renders,
+  36-film vault, voice model), repo clean. No new logins or installs needed.
+- Running: (1) Opus builder — 60–75 s animated test of the Episode 1 cold open, cut-out
+  characters with lip-sync from our stems over real NASA video, two looks (illustrated main,
+  one photoreal cut-out shot) → `samples/e01/E01-animation-test-720p.mp4`, notes
+  `production/ANIMATION-FORMAT.md`. (2) Sonnet benchmark — can a free, commercially usable
+  model make a photoreal face talk on CPU → `research/tooling/cpu-talking-face-benchmark.md`.
+- The scheduled "resume Codex stills" reminder was deleted: no large stills run until the
+  format is decided. Codex daily limit resets ~14:52 UTC 28 Nov; still to confirm whether the
+  login is on the Pro plan (the limit error said "plus").
