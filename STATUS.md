@@ -484,3 +484,9 @@ Gemini API key is saved as a network secret on the Default environment
   and band ducking; new shot lists should set it. Fixed a pitch-bend bug in `sfzr.py` (reel 1's
   Mira motif had two flat notes). NOBODY HAS LISTENED. Sent to owner. Music builder waits for
   the sample 5 timing to score it.
+- **E01 script v4 written (28 Nov):** `episodes/E01/script-v4.md`, 3,066 words, 335 cues,
+  ~25:01, 22 units, midpoint at 12:10 (the Baron picks up the pen; "Will Jax sell the Baron?").
+  Restaged for animation, all five audit upgrades in, voice performance notes on lines, plants
+  and E02 handover kept (checklist in `revision-notes-v4.md`). Showrunner ruled the ten open
+  questions (`episodes/E01/showrunner-rulings-v4.md`); target after critic 23:30–24:15.
+  Showrunner has NOT read v4 yet. Independent critic started (Opus).

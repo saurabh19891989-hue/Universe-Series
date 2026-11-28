@@ -10,43 +10,64 @@ insert-only lines, hidden mouths, soft focus) is gone: leads act their big lines
 have clear helmets. Inserts are kept only where the object is the point (the fading signature, the
 READ receipt, the board, the labels, the report numbers).
 
-**Size.** SEE_SIZE
+**Size.** **3,066 spoken words** by script (dialogue lines only, including "What was real"; cues,
+performance notes and action excluded — the same counter gives draft 3 its 4,443), **335 speaker cues**.
+**22 units:** cold open, 20 scenes, tag; plus "What was real". Scenes are renumbered for draft 4; the map
+from draft 3's numbers is in `revision-notes-v4.md`.
 
 **Runtime arithmetic** (the Episode 2 model, as ruled): speech at 184 words a minute, plus 0.97 s per
 speaker cue, plus 1.5 s for each stand-alone INSERT, CUTAWAY, TAKE, HOLD or BEAT line, plus the
 picture-only time listed in each scene header (held wides, the drawn tales that play without words,
 the march, the throw). Cutaways marked "(UNDER)" play under dialogue and add nothing.
-SEE_ARITHMETIC
 
-**Shape.**
-SEE_SHAPE
+| Part | Seconds |
+|---|---|
+| Speech: 3,066 words ÷ 184 × 60 | 999.8 |
+| Cue gaps: 335 × 0.97 | 324.9 |
+| Inserts, cutaways, takes, holds, beats: 60 × 1.5 | 90.0 |
+| Picture-only, listed per scene | 76.0 |
+| Main title | 10.0 |
+| **Total** | **1,500.7 = 25:01** |
+
+Scene targets below are the model rounded to 5 s (they add up to 24:55 with the title). The window is
+22:30–25:30. If the acting voices play slower than 184 wpm (each 10 wpm slower adds about 55 s), the
+first cuts are listed in `revision-notes-v4.md` (about 60 s, no plant touched).
+
+**Shape.** PART ONE 12:10 — cold open 1:26 · title 0:10 · Act 1 (1–5) 5:19 · Act 2 (6–10) 5:15, ending on
+the midpoint. PART TWO 12:51 — Act 3 (11–14) 5:09 · Act 4 (15–20) 6:26 · tag 0:46 · "What was real" 0:30.
+Longest scenes: 4 (1:52) and 13 (1:50); nothing over 2:00. Aboard *The Unscheduled*: about 3:45 (15%).
+Places: the bridge in orbit, the hold, the real south pole from above, the customs hall (desk, cage, long
+window, office, console), the rim road, the inn (parlour, cold store), the outer rim under Earth, the inner
+wall in the dark, the apron.
 
 **The three signature scenes (playbook Part 2)**
 | Kind | Scene | Engines | Budget |
 |---|---|---|---|
-| Comic set piece | **2 · The address loses its letters** (about 1:40) | Rule then break [2], Polite Escalation [1], reaction faces [8] | A–B |
-| Heart scene | **15 · The cannonball on the rim** | Story drawn [26], One line beats the list [6], Ma [23] | B (one 20 s drawn tale) |
-| Action set piece | **17 · PULL OVER / PLEASE** — **SHORT** (the chase, 55 s inside the scene, from the crawler drawing level to "still asking nicely") | Polite Escalation on a card [1], Physics is the comedian [16], Lateral run [19] | B–C (spend it here) |
+| Comic set piece | **2 · The address loses its letters** (at 2:09) | Rule then break [2], Polite Escalation [1], reaction faces [8] | A–B |
+| Heart scene | **13 · The cannonball on the rim** | Story drawn [26], One line beats the list [6], Ma [23] | B (one 20 s drawn tale) |
+| Action set piece | **15 · PULL OVER / PLEASE** — **SHORT** (the exterior chase, about 55 s, from "Two behind" to "still asking nicely") | Polite Escalation on a card [1], Physics is the comedian [16], Lateral run [19] | B–C (spend it here) |
 
-**SHORT test (17).** A stranger understands it in 3 seconds (a little car chased by police cars on the
+**SHORT test (15).** A stranger understands it in 3 seconds (a little car chased by police cars on the
 Moon, in silence); one escalation (PULL OVER → PLEASE → the jump → the speech with the radio off) and a
 button ("It is still asking nicely"); no name needed; the cars run side-on through the centre third, so
 it crops to 9:16. Back-up short: 2 (the address), which also stands alone.
 
-**Midpoint (end of Part One, about 12:05).** Chichikov's offer ends on "We supply her water." He
+**Midpoint (end of Part One, at 12:10).** Chichikov's offer ends on "We supply her water." He
 vanishes; his contract is on the table; the Baron, who wants it, turns it round and picks up the pen;
 everyone looks at Jax. Sayable question: **"Will Jax sell the Baron?"** Tag question: **"Why is Jax
 nobody?"**
 
 **Opening rule.** Motion and a problem in the first frame (the bank's drone carrying the engine past the
-window, 0:00–0:05). Goal and cost by 0:25 ("Full recovery, including the air, at six tonight").
-First laugh about 0:14 ("It was financed separately"). Title at about 1:15, after the laugh. The guest is
-on screen at about 2:50 (the tiny figure on the cargo scale behind Mira); the spectacle place (the address
-going out over the real south pole) at 1:40; the clock is six o'clock.
+window, 0:00–0:05; "The rest goes at six" by 0:05). First laugh about 0:10 ("The one going past the
+window", with the engine drifting across Jax's face), then "It was financed separately" at about 0:25.
+The air is named as the cost by about 0:35 (Temi). The goal (the parcel, by six, for exactly the debt) by
+1:10. Title at about 1:26, after the laughs. The spectacle place (the address going out over the real south
+pole) at 2:10. The guest is on screen at 3:03 (the tiny figure on the cargo scale behind Mira, from the
+first frame of 3) and met at 4:05. The clock is six o'clock.
 
 **Re-hook cadence** (something new every 2–3 minutes; no two static talk scenes in a row): see the
 running clock in `revision-notes-v4.md`. The old Act 3 run of three talk scenes is now a moving rover
-(13), a side-on walk (14), and the rim with a drawn tale (15).
+(11), a side-on walk (12), and the rim with a drawn tale (13).
 
 ---
 
@@ -60,9 +81,9 @@ running clock in `revision-notes-v4.md`. The old Act 3 run of three talk scenes 
   cross-hatched line on warm cream, taken in spirit from the public-domain 1862 Doré plates, never traced
   from a plate and never from any film. Flat, few moving parts, reusable in E10.
 - **Thinning rule.** The Baron's coat and moustache, and the colour washes in his cutaways, lose about 10%
-  saturation per act: Act 1 (scenes 3–7) full; Act 2 (7–12) 90%; Act 3 (13–16) 80%; Act 4 (17–22) 70%.
-  Colour returns only in 16, only as colour, and drains again. Never make him younger.
-- **PIP's one tale** (the eels, 6) is drawn in a second style: a Victorian ledger print, sepia ink on ruled
+  saturation per act: Act 1 (scenes 3–5) full; Act 2 (6–10) 90%; Act 3 (11–14) 80%; Act 4 (15–21) 70%.
+  Colour returns only in 14, only as colour, and drains again. Never make him younger.
+- **PIP's one tale** (the eels, 5) is drawn in a second style: a Victorian ledger print, sepia ink on ruled
   paper, copperplate captions.
 - **Chichikov is the only character drawn unfinished:** a fainter, broken line, colour washed toward grey,
   **no shadow**, and whenever anyone looks straight at him the framing drifts off him by itself, as if the
@@ -70,15 +91,15 @@ running clock in `revision-notes-v4.md`. The old Act 3 run of three talk scenes 
   full strength for the first time, and he casts a shadow.
 - **PIP** is a brass-and-cream desk machine (the locked prop): the amber lens brightens when he speaks and
   swivels to look; the rubber-stamp arm is his punctuation. On Jax's wrist he is a small amber light with a
-  tiny stamp icon. **Every report gets an INSERT of its number:** #1,204 (0), #1,205 (2), #1,206 (12),
-  #1,207 (22).
+  tiny stamp icon. **Every report gets an INSERT of its number:** #1,204 (0), #1,205 (2), #1,206 (10),
+  #1,207 (20).
 - **Noakes's board** (RIM PORT CUSTOMS — DAYS WITHOUT INCIDENT) reads **1,094** in every shot until the tag.
   The clamp console stands under it, so it is in shot for free.
 - **Exteriors:** clear-domed helmets, faces lit inside; suit radio carries the dialogue; no sound outside
   except what comes through a suit (score, breath, radio). One-sixth gravity in every jump, step and fall:
   hang a beat longer than feels right.
-- **The LOT 14 trunk** rides on the post-chaise's roof rack in every wide from 7 on.
-- **Bright by default.** Darkness is a story event (the inner wall, 18). Most of the episode is in hard white
+- **The LOT 14 trunk** rides on the post-chaise's roof rack in every wide from 6 on.
+- **Bright by default.** Darkness is a story event (the inner wall, 17). Most of the episode is in hard white
   lunar sun, the warm inn, and the cream-and-brass hall.
 
 **Voice direction**
@@ -112,7 +133,7 @@ asset id; every plate must be logged in `assets/` before use) · Picture-only ti
 ## COLD OPEN
 
 ### 0 · THE UNSCHEDULED — BRIDGE, IN LOW LUNAR ORBIT
-**Thread:** A/C · **Target:** SEE_T0 · **Engines:** Polite Escalation [1], Physics is the comedian (light-delay) [16], Status flip [5] · **Cost:** B (drone and engine moving in the window plate) · **NASA video:** real Moon surface sliding past from low orbit (LRO or Artemis-mission window-type footage), bright, close · **Picture-only:** 4 s
+**Thread:** A/C · **Target:** 85 s · **Engines:** Polite Escalation [1], Physics is the comedian (light-delay) [16], Status flip [5] · **Cost:** B (drone and engine moving in the window plate) · **NASA video:** real Moon surface sliding past from low orbit (LRO or Artemis-mission window-type footage), bright, close · **Picture-only:** 4 s
 **STAGING:** First frame is motion and a problem: through the big bridge window, the real Moon slides
 past, and a cheerful little bank tow-drone (smiling logo, one waving arm) undoes the last bolt on the
 ship's left engine pod. The pod drifts slowly across the glass, turning. Jax flies one-handed with a
@@ -134,7 +155,7 @@ PIP's amber lens swivels to follow it.
                          PIP
                     (calm, like a weather report)
           Captain. The bank has taken the
-          left engine.
+          left engine. The rest goes at six.
 
 JAX VALE, burnt-orange jacket, sandwich in one hand, flies with
 the other. He doesn't look up.
@@ -185,16 +206,8 @@ dazzling smile, a bank logo smiling behind her.
           Temi! Hi! I'm about to make a
           payment—
 
-Temi keeps smiling and talking straight through him. She can't
-hear him yet.
-
-                         TEMI
-                    (cheerfully on, a second late)
-          —we disable your—
-
-                         JAX
-                    (louder, leaning into the screen)
-          A big one!
+Temi keeps smiling straight through him for a full second. She
+can't hear him yet. Then:
 
                          TEMI
                     (reset to the top, delighted)
@@ -219,15 +232,9 @@ PIP's lens swivels to it.
                          PIP
           A job, posted to us directly. One
           parcel, sealed, prepaid. Shackleton
-          crater, by six tonight. The fee is—
-                    (stops dead)
-
-                         JAX
-          Is?
-
-                         PIP
+          crater, by six tonight. The fee is...
                     (a rare pause)
-          Exactly what we owe. To the cent.
+          exactly what we owe. To the cent.
 
                          JAX
                     (instantly)
@@ -285,7 +292,7 @@ SMASH TO: MAIN TITLE.
 ## ACT ONE — "Withdrawn"
 
 ### 1 · CARGO HOLD
-**Thread:** B/A · **Target:** SEE_T1 · **Engines:** Object that carries it [11] · **Cost:** A · **NASA video:** none (interior; the Moon in the porthole is the same orbit plate as 0)
+**Thread:** B/A · **Target:** 35 s · **Engines:** Object that carries it [11] · **Cost:** A · **NASA video:** none (interior; the Moon in the porthole is the same orbit plate as 0)
 **STAGING:** The parcel strapped in the middle of an empty hold like a patient. Boots stick out of the
 reactor housing. The hand-from-the-machine gag plays on the hand. Then Lucía rolls out on the creeper
 fast and stops at Jax's boots, looking straight up at him: her lines on her face from here.
@@ -353,7 +360,7 @@ She takes her hand away. Puts it back.
 ```
 
 ### 2 · ON APPROACH — THE ADDRESS GOES OUT
-**Signature scene: COMIC SET PIECE (back-up SHORT).** **Thread:** A · **Target:** SEE_T2 · **Engines:** Rule then break [2], Polite Escalation [1], Reaction face [8] · **Cost:** A–B · **NASA video:** south-pole flyover visualisation built from LRO data (sunlit rims, black crater floors, Earth low on the horizon; SVS 4944-type, if its download verifies) · **Picture-only:** 4 s
+**Signature scene: COMIC SET PIECE (back-up SHORT).** **Thread:** A · **Target:** 55 s · **Engines:** Rule then break [2], Polite Escalation [1], Reaction face [8] · **Cost:** A–B · **NASA video:** south-pole flyover visualisation built from LRO data (sunlit rims, black crater floors, Earth low on the horizon; SVS 4944-type, if its download verifies) · **Picture-only:** 4 s
 **STAGING:** Real flyover full-frame, then the bridge: Jax leans closer to the Atlas screen with every
 letter that goes, as if he could hold them on with his face. Each letter dims from the end like a lamp
 switched off, with a small click in the score. Mamani is animated in a control-room call window.
@@ -365,9 +372,8 @@ The pole tips up toward us: crater rims burning white, pits of
 total black inside them. Low on the horizon, big and blue: Earth.
 
                          PIP (V.O.)
-                    (pleased)
-          Shackleton crater. Eleven minutes. I
-          have never been early.
+                    (pleased with the timing)
+          Shackleton crater. Eleven minutes.
 
 INT. THE UNSCHEDULED — BRIDGE — CONTINUOUS
 
@@ -449,7 +455,7 @@ INSERT: PIP's screen. REPORT #1,205 — RE: THE ATLAS.
 ```
 
 ### 3 · RIM PORT — CUSTOMS HALL — THE DESK
-**Thread:** B/C · **Target:** SEE_T3 · **Engines:** Status flip two-hander [5], Repetition plant [25] ("section twelve"), Intrusion into dignity [7] (the Baron, far off) · **Cost:** A–B · **NASA video:** the hall's huge window looks into Shackleton: permanently-shadowed-region visualisation (LRO/ShadowCam-type), black floor, white rim
+**Thread:** B/C · **Target:** 60 s · **Engines:** Status flip two-hander [5], Repetition plant [25] ("section twelve"), Intrusion into dignity [7] (the Baron, far off) · **Cost:** A–B · **NASA video:** the hall's huge window looks into Shackleton: permanently-shadowed-region visualisation (LRO/ShadowCam-type), black floor, white rim
 **STAGING:** A hall built for two thousand people and staffed for three: cream walls, brass rails, rows of
 empty benches, the board on the far wall. Mira sits high behind her counter, Jax low in front of it (the
 height is the status). Far down the hall, from the first frame, a tiny figure in a tricorn stands on a
@@ -510,22 +516,7 @@ He steps up.
                     (confidential)
           Which is why twelve is so exclusive.
 
-                         MIRA
-                    (she almost smiles; doesn't)
-          Is there anything true you'd like to
-          tell me, Captain? Before I stamp it.
-
-                         JAX
-          I'm very good at my job.
-
-                         MIRA
-          You're four hours from losing your
-          ship.
-
-                         JAX
-          I'm good at it in bursts.
-
-She runs his licence.
+She almost smiles. Doesn't. Runs his licence.
 
 INSERT: her screen. VALE, JAX. MASTER, COURIER CLASS. The record
 begins seven years ago. Above that line the fields are empty. Not
@@ -553,20 +544,13 @@ INSERT: page after page of addresses in her small exact hand. Every
 entry ends the same way. OWNER: —. OWNER: —. She writes: 41. THE
 SILVER HATCHET. OWNER: —
 
-SUPERINTENDENT NOAKES bends into frame behind her, tall, tired.
+SUPERINTENDENT NOAKES bends into frame behind her, tall, tired, and
+looks at the notebook as if it were a cigarette.
 
                          NOAKES
                     (soft, pained)
-          Dr Sen. We discussed the notebook.
-
-                         MIRA
-                    (not turning)
-          We discussed it being on my desk. It's
-          in my hand.
-
-                         NOAKES
-          You were struck off once for saying the
-          map was wrong.
+          Dr Sen. You were struck off once for
+          saying the map was wrong.
 
                          MIRA
           It is wrong.
@@ -594,11 +578,15 @@ Noakes closes his eyes.
 ```
 
 ### 4 · CUSTOMS HALL — HOLDING BAY
-**Thread:** A/C · **Target:** SEE_T4 · **Engines:** Status deflation [5], Story drawn [26], Rule then break [2] (the lock) · **Cost:** B (first cutaway; three puppets) · **NASA video:** none (interior)
+**Thread:** A/C · **Target:** 110 s · **Engines:** Status deflation [5], Story drawn [26], Rule then break [2] (the lock), Rug-pull planted in plain sight [10] (Chichikov in the cage all along), Polite Escalation [1] ("man, average") · **Cost:** B (first cutaway; four puppets) · **NASA video:** none (interior)
 **STAGING:** A wire-mesh cage at the end of the hall full of the delisted district's things, each with a
 brown tag: a stopped grandfather clock, a stuffed bear in a hussar's jacket. THE BARON sits on a trunk
 tagged LOT 14, with Jax's parcel on his knee like a cat. His rising is a long, grand, creaking business.
-The swamp tale is the first drawn cutaway (full colour, Act 1).
+The swamp tale is the first drawn cutaway (full colour, Act 1). **The rug-pull:** from the first frame,
+Chichikov sits among the lots at the back of the cage, drawn in his faint unfinished line, no shadow, a
+teacup in his hand, as still as the clock. Nobody notices him and the framing never rests on him; a
+viewer who looks will find him in every wide. He speaks only at the end. When Jax turns to him, the
+frame drifts off him by itself; when it drifts back, his chair is empty.
 
 ```
 INT. CUSTOMS HALL — HOLDING BAY — DAY
@@ -618,8 +606,6 @@ He rises. It takes a while. He makes it look deliberate.
           Sorry — we're just here for the box.
 
                          BARON
-          Everyone is just here for the box.
-          Then they meet me.
                     (a bow, magnificent, slow)
           Hieronymus Karl Friedrich, Baron von
           Munchausen. Hussar. Ambassador. Twice
@@ -638,14 +624,11 @@ other stays proud.
                      soldier)
           The swamp guy.
 
-                         JAX
-          Pulled yourself out by your own hair.
-
 CUTAWAY: (engraving style, full colour, 4 s) a hussar up to his
 neck in a swamp, his horse up to its ears, both rising into the air
 as he hauls on his own pigtail with one fist.
 
-                         BARON
+                         BARON (CONT'D)
                     (correcting, firmly)
           By my pigtail. And my horse with me.
           Earth always leaves out the horse.
@@ -697,9 +680,8 @@ padlock like a doctor.
 
                          BARON (CONT'D)
                     (confiding)
-          A Riga lock. I pulled its maker from
-          the river by his ears. Speak to it, and
-          it remembers him.
+          A Riga lock. Speak to it, and it
+          remembers its maker.
 
 Nothing. He taps it. Nothing. Behind him the clock does not tick.
 Jax and Mira are very careful not to look at each other.
@@ -727,60 +709,29 @@ The Baron settles the parcel back on his knee and pats it.
                     (warm, genuinely pleased)
           Then we are both for sale at six. How
           companionable.
-```
-
-### 5 · CUSTOMS HALL — A BENCH
-**Thread:** C · **Target:** SEE_T5 · **Engines:** Rug-pull in plain sight [10], Polite Escalation [1] ("man, average"), the average-man gag · **Cost:** A · **NASA video:** the hall window again (same plate as 3)
-**STAGING:** Jax lies full length on a long bench, boots up, wrist over his face. Chichikov is drawn in
-his unfinished line, no shadow. Every time Jax looks straight at him the framing slides gently off
-Chichikov, and Jax has to lean to keep him in view. At the end the camera drifts away by itself; when it
-comes back, the bench is empty.
-
-```
-INT. CUSTOMS HALL — A BENCH — DAY
-
-Jax, flat on his back on a bench, staring at the ceiling.
 
                          PIP (V.O.)
                     (wrist, discreet)
-          Captain. There is a man next to you.
+          Captain. There is a man behind you.
 
-Jax sits up. At the other end of the bench: a plump, polite man in
-grey, neither handsome nor plain, a little inlaid box on his knees
-and a teacup in his hand. He casts no shadow. As Jax looks at him,
-the frame drifts politely to one side. Jax leans to keep him in it.
-
-This is PAVEL CHICHIKOV.
+Jax turns. Among the lots at the back of the cage: a plump, polite
+man in grey, neither handsome nor plain, an inlaid box on his knees
+and a teacup in his hand. He casts no shadow. He has been there the
+whole time. This is PAVEL CHICHIKOV.
 
                          CHICHIKOV
                     (soft, unhurried, delighted to meet
-                     you)
-          Please. Don't stop on my account.
+                     you, as Jax jumps)
+          Don't mind me. I'm a buyer, Captain. I
+          buy what the register has forgotten. You
+          would be amazed how much of it still
+          works.
 
-                         JAX
-                    (jumping)
-          How long have you been there?
-
-                         CHICHIKOV
-          Long enough to be sorry about your
-          parcel. A hundred and eighty-two
-          thousand, the lien. And Miss Ortega,
-          eight months. That's a long time to be
-          loyal.
-
-                         JAX
-                    (wary now)
-          Who are you?
-
-                         CHICHIKOV
-          A buyer. I buy what the register has
-          forgotten, Captain. You would be amazed
-          how much of it still works.
-
-INSERT: a card laid on the bench. A name in neat, looping script.
+INSERT: a card held out through the mesh. A name in neat, looping
+script.
 
                          CHICHIKOV (CONT'D)
-                    (getting up, a small bow)
+                    (a small bow)
           If your parcel should become available.
 
                          JAX
@@ -788,7 +739,7 @@ INSERT: a card laid on the bench. A name in neat, looping script.
           Chich... Chicha...
 
 The frame drifts off the man by itself. Jax looks up. It drifts
-back. The bench is empty. The teacup is gone.
+back. The chair is empty. The teacup is gone.
 
                          JAX (CONT'D)
           PIP. Did you get a look at him?
@@ -806,8 +757,8 @@ INSERT: PIP's log. A blank grey silhouette, labelled MAN, AVERAGE.
           Average.
 ```
 
-### 6 · CUSTOMS HALL — NOAKES WALKING
-**Thread:** A/B · **Target:** SEE_T6 · **Engines:** Lateral run [19] (a side-on walk), Story drawn [26] (PIP's eels) · **Cost:** B (walk cycles for two, one cutaway) · **NASA video:** the hall window behind the walk (same plate as 3)
+### 5 · CUSTOMS HALL — NOAKES WALKING
+**Thread:** A/B · **Target:** 55 s · **Engines:** Lateral run [19] (a side-on walk), Story drawn [26] (PIP's eels) · **Cost:** B (walk cycles for two, one cutaway) · **NASA video:** the hall window behind the walk (same plate as 3)
 **STAGING:** Side-on along the hall. Noakes walks fast toward his office with a mug; Jax walks beside
 him, holding his wrist out like a microphone; the board passes behind them (1,094). PIP's eels story is
 drawn as a Victorian ledger print. Mira catches up from behind for the turn, a little out of breath.
@@ -825,13 +776,12 @@ Noakes strides along the hall. Jax keeps pace, wrist held out.
                          PIP (V.O.)
                     (from the wrist, crisp, a lecture he
                      has waited years to give)
-          Several. Postal Regulation forty-one,
-          sub-section c. Eighteen-forty. Never
-          repealed. Goods may not be declared
-          abandoned until the carrier has
+          Several. Postal Regulation forty-one c,
+          eighteen-forty, never repealed. Goods are
+          not abandoned until the carrier has
           knocked at the place itself, with a
-          customs witness. And goods delivered
-          there were never abandoned at all.
+          customs witness. Delivered there, they
+          were never abandoned at all.
 
                          NOAKES
                     (not slowing)
@@ -840,23 +790,16 @@ Noakes strides along the hall. Jax keeps pace, wrist held out.
                          PIP (V.O.)
           The address does not. The place does.
 
-                         NOAKES
-                    (despairing)
-          Has anyone ever actually invoked it?
-
-                         PIP (V.O.)
-          Once. In eighteen forty-one.
-
-CUTAWAY: (ledger-print style, sepia on ruled paper, 6 s) a Victorian
-gentleman with a dripping parcel of eels knocks at a front door that
+CUTAWAY (UNDER): (ledger-print style, sepia on ruled paper, 6 s) a
+Victorian gentleman with a dripping parcel of eels knocks at a front door that
 stands alone in a field of rubble. A copperplate caption: BRISTOL,
 1841. The clock hand in the corner sweeps a full hour. He knocks on.
 
                          PIP (V.O.) (CONT'D)
                     (under the picture, tender)
-          A man walked a parcel of eels to a
-          demolished house in Bristol and knocked
-          for an hour.
+          It has been used once. A man walked a
+          parcel of eels to a demolished house in
+          Bristol and knocked for an hour.
 
                          NOAKES
           And?
@@ -909,8 +852,8 @@ END OF ACT ONE.
 
 ## ACT TWO — "The Silver Hatchet"
 
-### 7 · THE RIM ROAD, THEN THE INN DOOR
-**Thread:** A/B · **Target:** SEE_T7 · **Engines:** Story drawn against the picture [26], Physics is the comedian (no sound in vacuum) [16], Ma [23] · **Cost:** B (vehicle on a path, cutaway) · **NASA video:** the Sun low on the south-pole horizon and long rim shadows (LRO south-pole visualisation); the road is an illustration built on LOLA terrain · **Picture-only:** 4 s
+### 6 · THE RIM ROAD, THEN THE INN DOOR
+**Thread:** A/B · **Target:** 55 s · **Engines:** Story drawn against the picture [26], Physics is the comedian (no sound in vacuum) [16], Ma [23] · **Cost:** B (vehicle on a path, cutaway) · **NASA video:** the Sun low on the south-pole horizon and long rim shadows (LRO south-pole visualisation); the road is an illustration built on LOLA terrain · **Picture-only:** 4 s
 **STAGING:** The post-chaise is the Baron's old rover: a carved wooden horse's head on the bonnet and,
 plainly, the LOT 14 trunk on its roof rack. Inside the cab, four puppets side by side in a two-row cab
 shot from the front through the windscreen: Lucía driving, Jax beside her, Mira and the Baron behind.
@@ -953,22 +896,6 @@ The drawn palace folds itself down, dome by dome, into the boulder.
           It is the boulder he lived behind. One
           does not build a palace in plain sight.
           The neighbours.
-
-                         LUCÍA
-                    (eyes on the road, curious)
-          What was he like?
-
-                         BARON
-          Thirty-six feet tall. He ate once a
-          month. Opened his left side, put in the
-          whole meal, and closed it again.
-
-CUTAWAY (UNDER): a giant king opens a little door in his side like a
-cupboard and posts in a roast.
-
-                         LUCÍA
-                    (warm laugh)
-          That's my dad at Christmas.
 
                          MIRA
           There is no king.
@@ -1019,8 +946,8 @@ one. Jax looks at his fist.
           I'm not in. I'm out here with you.
 ```
 
-### 8 · THE SILVER HATCHET — PARLOUR
-**Thread:** A · **Target:** SEE_T8 · **Engines:** Rule then break [2] (the stove; the signature), Object that carries it [11] · **Cost:** A–B · **NASA video:** the low Sun through the inn's one window (same plate as 7, cropped)
+### 7 · THE SILVER HATCHET — PARLOUR
+**Thread:** A · **Target:** 55 s · **Engines:** Rule then break [2] (the stove; the signature), Object that carries it [11] · **Cost:** A–B · **NASA video:** the low Sun through the inn's one window (same plate as 6, cropped)
 **STAGING:** A low warm inn cut into rock, crowded with impossible things: a second stuffed bear, a sabre
 tied in a knot, a jar of enormous teeth, a small silver hatchet on the wall. A wedge of sunlight on the
 floor. The stove gag: Lucía crouches at the stove behind the Baron and fixes it while he talks. The
@@ -1046,18 +973,6 @@ Helmets off. The Baron throws his arms wide.
                          LUCÍA
                     (patting the bear's head)
           Hello, lonely.
-
-                         BARON
-          He never liked the last courier.
-
-                         JAX
-                    (sharp)
-          There was a last courier?
-
-                         BARON
-                    (fond)
-          There were nineteen. Lovely people. They
-          all gave up.
 
 He turns to a squat iron stove. Behind him, Lucía is already
 crouched at its little door with her spanner.
@@ -1127,17 +1042,11 @@ INSERT: he does. It fades faster.
           listed cannot receive anything, Captain.
           Apparently not even ink.
 
-The Baron looks at the clean paper.
-
-                         BARON
-                    (lightly, covering)
-          I signed a treaty with the Sultan once.
-          It is still in Constantinople. In a
-          drawer. Still signed.
+The Baron looks at the clean paper for a long moment.
 ```
 
-### 9 · MONTAGE — THE INVENTORY, THEN "PROVE ONE"
-**Thread:** A/B · **Target:** SEE_T9 · **Engines:** Wordless montage [22], Story drawn [26], Rule then break [2] (the famous trick fails), Ma [23] · **Cost:** B (three short cutaways, reused swamp) · **NASA video:** none (interior) · **Picture-only:** 10 s
+### 8 · MONTAGE — THE INVENTORY, THEN "PROVE ONE"
+**Thread:** A/B · **Target:** 80 s · **Engines:** Wordless montage [22], Story drawn [26], Rule then break [2] (the famous trick fails), Ma [23] · **Cost:** B (three short cutaways, reused swamp) · **NASA video:** none (interior) · **Picture-only:** 10 s
 **STAGING:** The episode's one music-led montage, to the harpsichord that has gone wrong. Mira tags
 things; the Baron tells; the drawn tales answer. Then "Prove one" plays on faces, close and still: Lucía
 square in front of him, arms folded. As he begins the famous story the swamp cutaway from 4 starts to draw
@@ -1147,33 +1056,17 @@ blows away like ash. Then one wide: an old man alone in the middle of the floor,
 ```
 MONTAGE — THE SILVER HATCHET — AFTERNOON
 
-Harpsichord, slightly wrong. Mira ties tag after tag.
-
-INSERT: a coil of old straw rope.
-
-                         MIRA
-                    (writing)
-          Rope. Three metres.
-
-                         BARON
-                    (wistful)
-          It was longer. I climbed down it from
-          the Moon.
-
-CUTAWAY: (engraving, 90% colour, 5 s) the Baron dangling under a
-crescent Moon on a short rope, cutting off the top and tying it to the
-bottom, again and again, very pleased with himself. Then he runs out of
-rope.
-
-                         BARON (CONT'D)
-                    (brisk)
-          I fell the last four miles.
+Harpsichord, slightly wrong. Mira ties tag after tag: the bear, the
+sabre in a knot, the jar of teeth, a coil of straw rope (as she tags
+it, a tiny engraved Baron dangles from it under a crescent Moon,
+cutting off the top and tying it to the bottom, very pleased with
+himself — then falls out of the picture).
 
 On the wall, a small silver hatchet, dented. Jax lifts it down and
 weighs it without thinking. It sits in his palm as if it has been
 waiting for him.
 
-                         BARON (CONT'D)
+                         BARON
                     (watching the hand)
           That I threw at two bears in the
           Sultan's garden. By an unlucky turn of
@@ -1266,8 +1159,8 @@ Lucía's arms unfold.
           since anyone asked.
 ```
 
-### 10 · THE SILVER HATCHET — COLD STORE
-**Thread:** A/B · **Target:** SEE_T10 · **Engines:** Musical moment (diegetic tune), Object that carries it [11], Private moment overheard [12] (PIP) · **Cost:** B (frost, breath, the horn) · **NASA video:** through the cold store's thick window, the floor of a permanently shadowed crater (LRO/ShadowCam-type visualisation) · **Picture-only:** 8 s
+### 9 · THE SILVER HATCHET — COLD STORE
+**Thread:** A/B · **Target:** 50 s · **Engines:** Musical moment (diegetic tune), Object that carries it [11], Private moment overheard [12] (PIP) · **Cost:** B (frost, breath, the horn) · **NASA video:** through the cold store's thick window, the floor of a permanently shadowed crater (LRO/ShadowCam-type visualisation) · **Picture-only:** 8 s
 **STAGING:** A white room of frost with breath clouding from four mouths. The march fills the room out of
 a horn nobody is blowing; everyone freezes mid-gesture, then Lucía laughs once. Mira's take is the
 first time we see her without the loupe in front of her eye.
@@ -1289,21 +1182,6 @@ From a shelf, the Baron lifts a brass post horn, white with frost.
           A postilion played this for me, long
           ago. A very cold night. The tunes froze
           inside before they could get out.
-
-                         JAX
-          Tunes don't freeze.
-
-                         BARON
-          Not where you are from.
-
-                         LUCÍA
-          Where's the postilion now?
-
-                         BARON
-                    (brightly)
-          Married a baker in Riga. A terrible horn
-          player afterwards. He'd left all his
-          best tunes with me.
 
 He carries it back through to the parlour stove and holds it near the
 blue flame. The frost sweats. A drop runs down the bell.
@@ -1340,6 +1218,11 @@ On Jax's wrist, PIP's light glows soft and steady.
 
 The march stumbles to its last note.
 
+                         BARON
+                    (lightly, covering how moved he is)
+          I won it at cards from an English knight.
+          He had a better one.
+
 TAKE: MIRA — THE LOUPE DROP. She lets it fall on its chain and looks at
 the horn with her own eye.
 
@@ -1351,8 +1234,8 @@ the horn with her own eye.
           No. That is what it's for.
 ```
 
-### 11 · PARLOUR — THE OFFER
-**Thread:** A/B/C · **Target:** SEE_T11 · **Engines:** One line beats the list [6] (set up), Villain right about one thing, Bomb under the table (the contract) [9], Sayable question [15] · **Cost:** A · **NASA video:** none (interior) · **Picture-only:** 4 s
+### 10 · PARLOUR — THE OFFER
+**Thread:** A/B/C · **Target:** 75 s · **Engines:** One line beats the list [6] (set up), Villain right about one thing, Bomb under the table (the contract) [9], Sayable question [15] · **Cost:** A · **NASA video:** none (interior) · **Picture-only:** 4 s
 **STAGING:** Chichikov is in the corner chair behind the second bear, faint, shadowless, with a teacup;
 the framing keeps drifting off him while he talks, so we live on the faces he is buying: Jax, the Baron,
 Lucía. When he leaves, the camera drifts off and back and he is gone; the teacup still rocks on its saucer.
@@ -1403,9 +1286,7 @@ INSERT: PIP's screen. REPORT #1,206 — RE: MAN, AVERAGE.
           You could buy it at six for nothing.
 
                          CHICHIKOV
-          The box, Dr Sen. Not the door. A parcel
-          only finds its door in the hands of its
-          carrier. We don't want it owned. We want
+          We don't want it owned, Dr Sen. We want
           it delivered.
                     (turning, a small bow)
           And for you, Baron. Voss Heritage.
@@ -1421,17 +1302,7 @@ The Baron goes very still. His moustache lifts, just slightly.
 
                          CHICHIKOV
           We'd insist on it.
-
-                         LUCÍA
-                    (to the Baron, unsure)
-          Four a day. Is that a lot?
-
-                         BARON
-                    (not taking his eyes off Chichikov)
-          For a story, it is a feast.
-
-                         CHICHIKOV
-                    (pleasant, final)
+                    (beat; pleasant, final)
           Both signatures, the courier's and the
           gentleman's. By six, or neither. A
           parcel is a string. I need both ends.
@@ -1473,8 +1344,8 @@ END OF PART ONE.
 
 ## ACT THREE — "Both or Neither"
 
-### 12 · THE POST-CHAISE — CLIMBING OUT OF THE SHADOW
-**Thread:** B/C · **Target:** SEE_T12 · **Engines:** Rug-pull by document [10], Status flip (Lucía over Jax) [5], Physics (the bump in one-sixth g) [16] · **Cost:** B (moving cab, a floating contract) · **NASA video:** the rover climbing from shadow into blinding sun: south-pole rim plate, sunlit (illustration on LOLA terrain), the real Sun flaring in the windscreen
+### 11 · THE POST-CHAISE — CLIMBING OUT OF THE SHADOW
+**Thread:** B/C · **Target:** 65 s · **Engines:** Rug-pull by document [10], Status flip (Lucía over Jax) [5], Physics (the bump in one-sixth g) [16] · **Cost:** B (moving cab, a floating contract) · **NASA video:** the rover climbing from shadow into blinding sun: south-pole rim plate, sunlit (illustration on LOLA terrain), the real Sun flaring in the windscreen
 **STAGING:** Loud and moving. Lucía drives hard one-handed and waves the contract with the other. Jax says
 nothing for a long time and we watch him not say it. On a bump the contract floats up in the low gravity
 and lands in Mira's lap; the date swims up through her loupe.
@@ -1495,46 +1366,25 @@ Jax says nothing.
                      her knee)
           Jax. Eleven per cent more than the ship.
           We clear the bank, I get paid, my mother
-          gets water that isn't on a payment plan.
-
-                         MIRA
-          And him?
-
-                         LUCÍA
-                    (overjoyed at the logic)
-          He gets relisted! He gets his stories
-          back! Four shows a day! That's more than
-          I get!
+          gets water that isn't on a payment plan,
+          and he gets four shows a day! That's more
+          than I get!
 
                          BARON
                     (from the back, warmly)
           She is right.
 
-                         LUCÍA
-          Thank you.
-                    (to Jax)
-          Say something.
-
 Jax says nothing. That's worse.
 
-                         LUCÍA (CONT'D)
+                         LUCÍA
                     (dropping it flat, final)
           If you don't sign, I walk. Next tug to
           Ceres.
 
-                         BARON
-                    (gently)
-          Go, Señorita. I'm old, and you're owed.
-
-                         LUCÍA
-                    (to Jax, pointing back at him)
-          He's nicer than you.
-
                          JAX
                     (finding his voice, too fast)
-          Everyone's nicer than me. It's how I
-          stand out. Listen. Next job, you get the
-          first cut, the whole—
+          Lucha. Next job, you get the first cut,
+          the whole—
 
 Lucía takes both hands off the wheel to fold her arms. The rover drives
 itself, straight at a boulder. Mira leans over and steers round it.
@@ -1593,8 +1443,8 @@ Jax looks at the parcel on his knee.
 She doesn't look as if it is.
 ```
 
-### 13 · CUSTOMS HALL — NOAKES'S OFFICE, THEN THE LONG WINDOW
-**Thread:** B/C · **Target:** SEE_T13 · **Engines:** Status flip ("courageous") [5], One true line [6], Lateral run (side-on walk) [19] · **Cost:** A–B (two walk cycles) · **NASA video:** along the corridor's long window, the inside of Shackleton: the rim lit, the floor black (LRO/ShadowCam-type visualisation)
+### 12 · CUSTOMS HALL — NOAKES'S OFFICE, THEN THE LONG WINDOW
+**Thread:** B/C · **Target:** 50 s · **Engines:** Status flip ("courageous") [5], One true line [6], Lateral run (side-on walk) [19] · **Cost:** A–B (two walk cycles) · **NASA video:** along the corridor's long window, the inside of Shackleton: the rim lit, the floor black (LRO/ShadowCam-type visualisation)
 **STAGING:** A short office beat on faces: Noakes reads, and his hand trembles. Then out through the door
 into a side-on walk along the long window over the crater, Jax falling into step. They stop at the glass;
 the confession plays on his face, close, with their reflections behind them over the black.
@@ -1605,34 +1455,11 @@ INT. CUSTOMS HALL — NOAKES'S OFFICE — DAY
 Noakes reads the contract. The paper trembles, very slightly.
 
                          NOAKES
-                    (not looking up)
-          Where did you get this?
-
-                         MIRA
-          A man left it on a table. No one
-          remembers him.
-
-                         NOAKES
-          Then give it back to him.
-
-                         MIRA
-                    (beat; honestly)
-          I can't remember him.
-
-                         NOAKES
                     (low, fast, frightened for her)
-          Dr Sen. If you file this, it goes to the
-          Atlas office. The Atlas office is three
-          floors below the Voss Company. You'd be
-          gone by morning. So would the notebook.
+          File this, Dr Sen, and you'd be gone by
+          morning. So would the notebook.
 
 He holds out the stamp.
-
-                         NOAKES (CONT'D)
-                    (gentler)
-          At six, you stamp lot fourteen
-          abandoned, and you go on being right in
-          private. It's where most of us keep it.
 
                          MIRA
           Filing it is the right thing to do.
@@ -1656,13 +1483,8 @@ into step beside her.
 
                          JAX
                     (urgent, low)
-          File it. File it, they can't sell him.
-
-                         MIRA
-          They can. After they've sacked me.
-
-                         JAX
-          But you'd be right.
+          File it. They can't sell him, and you'd
+          be right.
 
                          MIRA
                     (not slowing)
@@ -1700,8 +1522,8 @@ He opens his mouth to sell her something. Nothing comes.
 She walks on. He stays. In the glass, his reflection stays with him.
 ```
 
-### 14 · OUTER RIM — EARTH ON THE HORIZON
-**Signature scene: HEART.** **Thread:** A/C · **Target:** SEE_T14 · **Engines:** Story drawn [26] (the cannonballs), One line beats the list [6] ("You are the audience"), Ma [23], plant [25] (the cannonball promise, ep 10) · **Cost:** B (two seated figures cheap; one 20 s drawn tale) · **NASA video:** Earth low and half-lit on the lunar south-pole horizon over a sunlit rim (SVS 4944-type, pending verification); the Earth must be still, as it is from the pole · **Picture-only:** 6 s
+### 13 · OUTER RIM — EARTH ON THE HORIZON
+**Signature scene: HEART.** **Thread:** A/C · **Target:** 110 s · **Engines:** Story drawn [26] (the cannonballs), One line beats the list [6] ("You are the audience"), Ma [23], plant [25] (the cannonball promise, ep 10) · **Cost:** B (two seated figures cheap; one 20 s drawn tale) · **NASA video:** Earth low and half-lit on the lunar south-pole horizon over a sunlit rim (SVS 4944-type, pending verification); the Earth must be still, as it is from the pole · **Picture-only:** 6 s
 **STAGING:** Two small figures side by side on a boulder at the edge of the world, clear helmets, the
 tricorn strapped absurdly on top of the Baron's dome, Earth ahead. Wide, then their faces inside the
 helmets, lit by the sun, Earth reflected in the Baron's glass. The cannonball tale is drawn over the black
@@ -1730,24 +1552,17 @@ A click. Private channel.
                          BARON
                     (patient)
           A tidy Baron is still a Baron. A thin one
-          is a coat on a chair. I have seen the thin
-          ones. They sit in waiting rooms and cannot
-          remember what they are waiting for.
+          is a coat on a chair. I have seen them, in
+          waiting rooms, unable to remember what
+          they are waiting for.
 
                          JAX
                     (after a moment)
           Tell me one.
 
                          BARON
-                    (genuinely surprised)
-          You want one?
-
-                         JAX
-          I've got eleven minutes before I sign it.
-
-                         BARON
-                    (settling, delighted, the voice opening
-                     up)
+                    (genuinely surprised; then settling,
+                     delighted, the voice opening up)
           Oczakow. The Turks had the fortress. We
           had the field. The general wanted to
           know how many guns were inside. So I
@@ -1819,8 +1634,7 @@ He unclips the silver hatchet from his belt and puts it into Jax's
 gloved hand.
 
                          BARON (CONT'D)
-          Take this. It has always wanted to go
-          somewhere. Your hand knew where the
+          Take this. Your hand knew where the
           balance was before you did.
 
 His helmet turns. Earth sits in the reflection on his glass.
@@ -1837,21 +1651,12 @@ His helmet turns. Earth sits in the reflection on his glass.
           You lie like a man who once had to lie
           for his life.
 
-Nothing on the channel. Jax's face: no answer ready. Earth, low,
+HOLD: nothing on the channel. Jax's face: no answer ready. Earth, low,
 shifts a hair on the horizon, as if it heard.
-
-                         JAX
-                    (getting up)
-          It's twenty to. We should go in.
-
-                         BARON
-                    (not getting up)
-          Go on. I'll watch it a little longer. It
-          might do something.
 ```
 
-### 15 · CUSTOMS HALL — THE SIGNING
-**Thread:** A/B/C · **Target:** SEE_T15 · **Engines:** Rug-pull planted in plain sight [10] (relisting is tidying), One line beats the list [6] ("Neither"), Object that carries it [11] (the signature; Lucía's ribbon), Ma [23] · **Cost:** B (Clause 9 transformation, two cutaways, six puppets in one hall) · **NASA video:** the hall window (same plate as 3) · **Picture-only:** 6 s
+### 14 · CUSTOMS HALL — THE SIGNING
+**Thread:** A/B/C · **Target:** 85 s · **Engines:** Rug-pull planted in plain sight [10] (relisting is tidying), One line beats the list [6] ("Neither"), Object that carries it [11] (the signature; Lucía's ribbon), Ma [23] · **Cost:** B (Clause 9 transformation, two cutaways, six puppets in one hall) · **NASA video:** the hall window (same plate as 3) · **Picture-only:** 6 s
 **STAGING:** The big hall, side-on: Chichikov faint at the desk with his box open; the Baron; Jax with PIP
 on his wrist; Lucía with her packed bag at her feet; Mira at the side with the stamp; Noakes under the
 board (1,094). **Clause 9 is visible:** when the Baron starts the approved story, the contract tidies him
@@ -1868,12 +1673,6 @@ INT. CUSTOMS HALL — THE DESK — 17:45
 INSERT: Lucía's packed kit bag, at her feet.
 
 INSERT: the hall clock. 17:45.
-
-                         JAX (V.O.)
-                    (fast, insisting, too much)
-          Quarter to six. I'd made up my mind. I
-          want that clear. I had completely made up
-          my mind.
 
                          CHICHIKOV
                     (holding out a pen, cosy)
@@ -1898,8 +1697,7 @@ The faded red seeps back into his coat. He stares at his own hands.
           I believe I am taller.
 
                          CHICHIKOV
-          Welcome back, Baron. Listed. Voss
-          Heritage, Shackleton.
+          Welcome back, Baron. Listed.
                     (turning the second page)
           Captain?
 
@@ -1932,12 +1730,9 @@ pinpoint.
                     (appalled at himself, still smiling)
           Economy. It was perfectly pleasant.
 
-                         LUCÍA
-                    (frightened)
-          What's happening to him?
-
                          CHICHIKOV
-                    (pleased, a man explaining a feature)
+                    (to the room, pleased, a man explaining a
+                     feature)
           Clause nine. Approved material. The
           Heritage Baron came to the Moon as a
           tourist and fell in love with the view. It
@@ -1966,11 +1761,11 @@ INSERT: Jax's pen touching the signature line. A bead of ink.
           That's what you said. Both signatures,
           or neither.
 
-He lays the pen down.
+He lays the pen down, and looks straight at Chichikov. For once the
+frame does not drift: Jax holds the man in it.
 
                          JAX (CONT'D)
-                    (to Chichikov's face, the drift be
-                     damned)
+                    (to his face, quiet and final)
           Neither.
 
 INSERT: on the Voss contract, the Baron's signature fades, stroke by
@@ -1993,9 +1788,8 @@ face: what it costs. Then she lets go, and picks up her bag.
 
                          CHICHIKOV
                     (pleasant, unruffled, already writing)
-          Then at six I buy him for the price of a
-          sandwich. The parcel will wait for you,
-          Captain. It is good at waiting.
+          The parcel will wait for you, Captain.
+          It is good at waiting.
 
 Jax looks at the clock.
 
@@ -2020,8 +1814,8 @@ END OF ACT THREE.
 
 ## ACT FOUR — "Between the Light and the Dark"
 
-### 16 · CORRIDOR, THEN THE RIM ROAD — THE CHASE
-**Signature scene: ACTION — SHORT** (from "A crawler draws level" to "still asking nicely", about 55 s). **Thread:** A · **Target:** SEE_T16 · **Engines:** Disadvantage (the lift) [18], Polite Escalation on a card [1], Physics is the comedian (silence, hang time) [16], Lateral run [19], Story drawn failing [26] · **Cost:** B–C (two vehicles side-on on a path, hang time, a crash; side-on keeps it B) · **NASA video:** sunlit south-pole rim and a black gully, long shadows (LRO south-pole visualisation; the road is illustration on LOLA terrain) · **Picture-only:** 8 s
+### 15 · CORRIDOR, THEN THE RIM ROAD — THE CHASE
+**Signature scene: ACTION — SHORT** (the exterior, from "Two behind" to "still asking nicely", about 55 s). **Thread:** A · **Target:** 65 s · **Engines:** Disadvantage (the lift) [18], Polite Escalation on a card [1], Physics is the comedian (silence, hang time) [16], Lateral run [19], Story drawn failing [26] · **Cost:** B–C (two vehicles side-on on a path, hang time, a crash; side-on keeps it B) · **NASA video:** sunlit south-pole rim and a black gully, long shadows (LRO south-pole visualisation; the road is illustration on LOLA terrain) · **Picture-only:** 8 s
 **STAGING:** The corridor: a klaxon light turns red; Lucía runs through in a wrestler's overhead carry
 with the Baron held flat above her head like a trophy belt, three metres high in each bound, Jax behind
 with the parcel. Then the chase runs side-on, left to right, through the centre third of the frame: the
@@ -2046,12 +1840,7 @@ above her head like a trophy belt. Jax behind with the parcel.
                     (aloft, serene)
           Madam, I have been carried from
           battlefields by worse.
-
-                         LUCÍA
-                    (shouting back)
-          Bay nine's sealed! We go round outside!
-
-                         BARON
+                    (beat, as they reach the airlock)
           Mind my trunk. It is on the roof. It
           always is.
 
@@ -2120,9 +1909,9 @@ The Baron turns to the side window, fist raised, magnificent.
                          BARON
                     (full battlefield roar)
           Cowards of customs! You chase an old man
-          across his own Moon! I charged the Turk
-          at Oczakow! I was swallowed by a fish and
-          left by the front door! Turn back, or—
+          across his own Moon! I was swallowed by a
+          fish and left by the front door! Turn
+          back, or—
 
 Beside his head, little engraved tales flicker up — a charge, a fish —
 and break off half-drawn.
@@ -2149,8 +1938,8 @@ wheels in the air, perfectly still. In its window, the card: PLEASE.
 Ahead, in silence, a third crawler slews across the road.
 ```
 
-### 17 · CUSTOMS HALL — THE CLAMP CONSOLE
-**Thread:** B/C · **Target:** SEE_T17 · **Engines:** Physics is the comedian (light-delay) [16], Status flip (Chichikov's Regulation nineteen) [5] · **Cost:** A · **NASA video:** the hall window (same plate as 3)
+### 16 · CUSTOMS HALL — THE CLAMP CONSOLE
+**Thread:** B/C · **Target:** 45 s · **Engines:** Physics is the comedian (light-delay) [16], Status flip (Chichikov's Regulation nineteen) [5] · **Cost:** A · **NASA video:** the hall window (same plate as 3)
 **STAGING:** Short and static, on purpose, between two moving scenes. The console stands under the board.
 Noakes, on a headset, answers questions nobody has asked yet; Mira beside him with her key on its lanyard.
 Earth's side of the call is never heard; the delay is silence and Noakes's face. Chichikov, faint, at the
@@ -2188,8 +1977,8 @@ BEAT: nothing.
                     (proud, a little sad)
           They will. Earth asks the same four
           questions, two point six seconds late. I
-          answer them first. In eleven years I've
-          saved nearly four hours.
+          answer them first. I've saved nearly four
+          hours.
 
 At the back of the hall, a faint grey hand taps once on a small brass
 device.
@@ -2218,8 +2007,8 @@ Noakes stiffens.
 Mira slides her key into slot two. Her thumb rests on it.
 ```
 
-### 18 · THE INNER WALL, IN THE DARK
-**Thread:** A/B · **Target:** SEE_T18 · **Engines:** Laying the track ahead (in voice) [17], Romance through work, Physics (the dark, the cold) [16] · **Cost:** B (dashboard-lit faces, the map, intercut) · **NASA video:** the LOLA laser-altimetry map of Shackleton's inner wall (NASA/GSFC data visualisation), blooming contour by contour; before it, the plunge from a sunlit plate to black
+### 17 · THE INNER WALL, IN THE DARK
+**Thread:** A/B · **Target:** 90 s · **Engines:** Laying the track ahead (in voice) [17], Romance through work, Physics (the dark, the cold) [16] · **Cost:** B (dashboard-lit faces, the map, intercut) · **NASA video:** the LOLA laser-altimetry map of Shackleton's inner wall (NASA/GSFC data visualisation), blooming contour by contour; before it, the plunge from a sunlit plate to black
 **STAGING:** The plunge: a cut from white plate to black. Then three faces lit from below by the dashboard
 in total dark (the episode's one dark place, and it is a story event), frost creeping over the windscreen
 in three steps. Mira's map blooms in the black like a lantern. Intercut with Mira at the console, on her
@@ -2244,7 +2033,7 @@ crater, and the black.
 
                          JAX
                     (calm)
-          Go left.
+          Everyone hold on to something.
 
                          BARON
                     (gripping the dashboard)
@@ -2261,16 +2050,8 @@ Headlamps: three metres of grey slope. Then nothing at all.
 
 INT. THE POST-CHAISE — THE INNER WALL — CONTINUOUS
 
-Three faces lit from below. Frost creeps over the windscreen.
-
-                         LUCÍA
-                    (breath fogging)
-          Heater's dying. The batteries hate this.
-
-                         BARON
-                    (gently)
-          Everything hates this. That's why it's
-          empty.
+Three faces lit from below. Frost creeps over the windscreen. Their
+breath fogs.
 
                          PIP (V.O.)
                     (wrist, crackling)
@@ -2295,18 +2076,18 @@ beside her, horrified.
                          MIRA
                     (into the mic)
           You're on the open customs channel, so
-          everyone can hear this. Hello, everyone.
+          everyone can hear this.
 
 A pale laser map blooms in the dark windscreen, contour by contour:
 the inner wall, measured from orbit. A small dot: them.
 
                          MIRA (CONT'D)
                     (steady, as if teaching)
-          This slope has only been seen faintly
+          This wall has only been seen faintly
           from orbit, by light bounced off the
-          crater walls. But a laser has measured
-          every metre of it. I've read all of it.
-          In my own time.
+          crater. But a laser has measured every
+          metre of it. I've read all of it. In my
+          own time.
 
                          JAX
                     (in the cab)
@@ -2334,17 +2115,11 @@ Lucía steers. The dot creeps.
                     (quiet)
           I've been sure for six years. You're the
           first one who's had to listen.
-
-                         NOAKES
-                    (beside her, hissing)
-          Dr Sen. Get off this channel.
-
-                         MIRA
-                    (not looking at him)
-          Noted, sir. Forward forty metres. A
-          boulder the size of a house. Round it on
-          the left. Not your left, Captain. Lucía's
-          driving.
+                    (Noakes flapping beside her; she doesn't
+                     look)
+          Forward forty metres. A boulder the size
+          of a house. Round it on the left. Not
+          your left, Captain. Lucía's driving.
 
                          LUCÍA
                     (pleased)
@@ -2366,8 +2141,8 @@ Lucía steers. The dot creeps.
           That is what I said.
 ```
 
-### 19 · CUSTOMS HALL — THE KEY
-**Thread:** B/C · **Target:** SEE_T19 · **Engines:** Physics (light-delay as plot) [16], callback "courageous" [25], Object that carries it [11] (badge, notebook) · **Cost:** A · **NASA video:** the hall window (same plate as 3)
+### 18 · CUSTOMS HALL — THE KEY
+**Thread:** B/C · **Target:** 35 s · **Engines:** Physics (light-delay as plot) [16], callback "courageous" [25], Object that carries it [11] (badge, notebook) · **Cost:** A · **NASA video:** the hall window (same plate as 3)
 **STAGING:** Mira takes off the headset: nothing between her and the camera, no glass, no loupe. The key
 turn and the one point three seconds of held silence are inserts (the console is the point). The notebook
 and Chichikov's notebook are back to back. Her last line is on her face, turned back to Noakes; then she
@@ -2434,8 +2209,8 @@ notebook, under a long list of names: SEN, M.
 She tucks the notebook under her arm and turns back to him.
 
                          MIRA
-                    (kind, final, the best line she has
-                     ever said)
+                    (kind, final; she lets herself enjoy
+                     it)
           Then the map is wrong, sir. I did mention
           it.
 
@@ -2443,8 +2218,8 @@ She walks the whole length of the enormous hall. Small. She does not
 look back.
 ```
 
-### 20 · BAY NINE — THE APRON
-**Thread:** A/C · **Target:** SEE_T20 · **Engines:** Physics is the comedian (the long arc) [16], callback "section twelve" [25], Impossible frame [27] (the throw against the real Sun) · **Cost:** B (bounding figures, grapple, the throw) · **NASA video:** the sunlit rim with the real Sun low and blinding (LRO south-pole visualisation); the apron and ship are illustration; last shot the rim from above as the ship lifts · **Picture-only:** 8 s
+### 19 · BAY NINE — THE APRON
+**Thread:** A/C · **Target:** 75 s · **Engines:** Physics is the comedian (the long arc) [16], callback "section twelve" [25], Impossible frame [27] (the throw against the real Sun) · **Cost:** B (bounding figures, grapple, the throw) · **NASA video:** the sunlit rim with the real Sun low and blinding (LRO south-pole visualisation); the apron and ship are illustration; last shot the rim from above as the ship lifts · **Picture-only:** 8 s
 **STAGING:** One establishing wide for geography: the ship at the top of the apron, ramp down; the ramp
 road coming up out of the shadow 80 m below; the post-chaise on it with a crawler behind. Jax bounds
 ahead with the parcel and reaches the ramp. The throw is ONE held wide: Jax small on the ramp against the
@@ -2521,13 +2296,8 @@ Across the apron, a figure in a customs suit comes bounding in.
 
                          MIRA
                     (radio, breathless, dry)
-          Don't close the ramp.
-
-                         JAX
-          You're allowed to do that?
-
-                         MIRA
-          Lunar Courier Exemption. Section twelve.
+          Don't close the ramp. Lunar Courier
+          Exemption. Section twelve.
 
                          JAX
                     (grinning)
@@ -2535,10 +2305,6 @@ Across the apron, a figure in a customs suit comes bounding in.
 
                          MIRA
           Which is why twelve is so exclusive.
-
-                         LUCÍA
-                    (radio, cheerful)
-          Welcome aboard. No one gets paid.
 
 The rover stops at the foot of the ramp. The Baron climbs out onto the
 apron, and stays there.
@@ -2548,12 +2314,6 @@ apron, and stays there.
           No. I am a Moon man. I came up here for a
           hatchet once. Now I must go and find it
           again.
-
-                         JAX
-                    (pleading)
-          Baron, come on—
-
-                         BARON
                     (urgent, sudden)
           Go to the far side. No signal reaches it.
 
@@ -2597,8 +2357,8 @@ HOLD: the ship lifts, a speck over the white rim. Far below on the apron,
 beside the post-chaise, one small figure with a hat. It does not move.
 ```
 
-### 21 · THE UNSCHEDULED — BRIDGE, AFTERWARDS
-**Thread:** A/B · **Target:** SEE_T21 · **Engines:** Polite Escalation of losses [1], callback (the coffee machine; "It prefers her") [25], Bomb under the table for the season (the READ receipt) [9], Ma [23] · **Cost:** A · **NASA video:** Earth sinking behind the grey lunar limb, seen from orbit (Artemis-mission Earthset-type window footage or an LRO-based visualisation), then the grey far side below · **Picture-only:** 6 s
+### 20 · THE UNSCHEDULED — BRIDGE, AFTERWARDS
+**Thread:** A/B · **Target:** 75 s · **Engines:** Polite Escalation of losses [1], callback (the coffee machine; "It prefers her") [25], Bomb under the table for the season (the READ receipt) [9], Ma [23] · **Cost:** A · **NASA video:** Earth sinking behind the grey lunar limb, seen from orbit (Artemis-mission Earthset-type window footage or an LRO-based visualisation), then the grey far side below · **Picture-only:** 6 s
 **STAGING:** Three faces in the bridge light, the window behind them. Temi's call freezes mid-word as Earth
 slips below the limb, and the window goes black. PIP on his desk mount. The coffee machine's light is an
 insert. The READ receipt is audience-only, held 2.6 s before READ appears.
@@ -2653,15 +2413,6 @@ BEAT: silence.
                     (a warning finger)
           Don't make it ten.
 
-                         JAX
-                    (to Mira, quietly)
-          You gave up your job for us.
-
-                         MIRA
-                    (not quite looking at him)
-          I gave up my job for a coordinate. You
-          happened to be standing on it.
-
 Lucía crosses to the dead coffee machine and raps it once with her
 spanner.
 
@@ -2684,15 +2435,7 @@ BEAT: a small silence, for an old man on the Moon.
           I am filing a report on myself. Aiding
           fugitives. Failing to deliver. Receiving
           a stolen coffee machine. And one count of
-          enjoying it. I have recommended my own
-          dismissal.
-
-                         JAX
-          Denied.
-
-                         PIP
-          You cannot deny it. You are not the
-          recipient.
+          enjoying it.
 
 INSERT (audience only): PIP's screen. REPORT #1,207 — SENT. Hold. Then a
 small grey line beneath: READ — 00:00:01.3
@@ -2711,8 +2454,8 @@ The far side, grey, unlit by Earth, below the window.
 
 ## TAG
 
-### 22 · CUSTOMS HALL / THE SILVER HATCHET / CARGO HOLD / BRIDGE
-**Thread:** C · **Target:** SEE_T22 · **Engines:** Sayable question [15] ("Why is Jax nobody?"), Ma [23] (the grace notes), Rug-pull [10] (Chichikov in full colour) · **Cost:** A · **NASA video:** the hall window at night (same plate as 3, graded down) · **Picture-only:** 6 s
+### 21 · CUSTOMS HALL / THE SILVER HATCHET / CARGO HOLD / BRIDGE
+**Thread:** C · **Target:** 45 s · **Engines:** Sayable question [15] ("Why is Jax nobody?"), Ma [23] (the grace notes), Rug-pull [10] (Chichikov in full colour) · **Cost:** A · **NASA video:** the hall window at night (same plate as 3, graded down) · **Picture-only:** 6 s
 **STAGING:** For the first time Chichikov's line and colour snap in at full strength, and he casts a
 shadow: the jolt the script wants. The board reads 0. Two silent grace notes, no score change, no
 explanation: the Riga padlock in the empty cage clicks open; in the empty inn the cold stove lights. (The
@@ -2805,21 +2548,21 @@ CUT TO BLACK.
 
 **Visual:** REAL FOOTAGE WIDE / DATA VISUAL — PIP's voice over the real south-pole flyover and the
 shadowed-region visualisation, credits small at the bottom. **NASA video:** the same south-pole flyover as
-2; the permanently-shadowed-region visualisation as 10. **Picture-only:** 2 s
+2; the permanently-shadowed-region visualisation as 9. **Picture-only:** 2 s
 
 ```
                          PIP (V.O.)
                     (plain, warm, unhurried)
           What was real. Shackleton crater is real.
           Its floor may not have seen the Sun for
-          billions of years; it has been seen
-          faintly from orbit by light bounced off
-          its walls, and mapped by laser. Gravity
+          billions of years, and has been mapped
+          from orbit by laser. Gravity
           is one-sixth of Earth's. Signals take
           about one point three seconds each way,
           and none from Earth reach the far side.
           There is no air, so no sound. The rim
-          landscapes are illustrations. The Baron
+          landscapes are illustrations, and Earth
+          on the horizon is a composite. The Baron
           asks me to say that he is not. Noted.
           Footage and visualisations: NASA.
 ```
