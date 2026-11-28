@@ -63,7 +63,7 @@ def lr_split(x, f, sr=SR):
     lo = butter(2, f, "low", fs=sr, output="sos"); hi = butter(2, f, "high", fs=sr, output="sos")
     l = sosfilt(lo, sosfilt(lo, x, axis=0), axis=0)
     h = sosfilt(hi, sosfilt(hi, x, axis=0), axis=0)
-    return l.astype(np.float32), (-h).astype(np.float32) if False else h.astype(np.float32)
+    return l.astype(np.float32), h.astype(np.float32)
 
 
 # ------------------------------------------------------------------ dynamics
